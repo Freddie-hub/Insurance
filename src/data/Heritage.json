@@ -1,0 +1,2810 @@
+{
+  "company_id": "heritage_001",
+  "company_name": "The Heritage Insurance Company Kenya Limited",
+  "company_type": "general",
+  "license_info": {
+    "licensed": true,
+    "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+    "license_reference": "IRA/06/003/2025",
+    "license_doc": "IRA Licensed Insurers List 2025, published January 2025"
+  },
+  "headquarters": "Liberty House, Processional Way/Mamlaka Road, PO Box 30390-00100, Nairobi, Kenya",
+  "branches": [
+    {
+      "branch_name": "Nairobi Head Office",
+      "address": "Liberty House, Processional Way, PO Box 30390-00100, Nairobi, Kenya",
+      "phone": ["+254202783000", "+254711075000"],
+      "email": "talktous@heritage.co.ke"
+    },
+    {
+      "branch_name": "Mombasa Branch",
+      "address": "CFC Stanbic Centre, Nyerere Avenue, PO Box 80000-80100, Mombasa, Kenya",
+      "phone": ["+254412221357", "+254711075135"],
+      "email": "mombasa@heritage.co.ke"
+    },
+    {
+      "branch_name": "Kisumu Branch",
+      "address": "Alpha House, Oginga Odinga Street, PO Box 1890-40100, Kisumu, Kenya",
+      "phone": ["+254572021170", "+254711075170"],
+      "email": "kisumu@heritage.co.ke"
+    },
+    {
+      "branch_name": "Eldoret Branch",
+      "address": "Kiptagich House, Uganda Road, PO Box 2500-30100, Eldoret, Kenya",
+      "phone": ["+254532061147", "+254711075147"],
+      "email": "eldoret@heritage.co.ke"
+    },
+    {
+      "branch_name": "Nakuru Branch",
+      "address": "Westside Mall, Kenyatta Avenue, PO Box 1240-20100, Nakuru, Kenya",
+      "phone": ["+254512210034", "+254711075034"],
+      "email": "nakuru@heritage.co.ke"
+    },
+    {
+      "branch_name": "Kisii Branch",
+      "address": "Royal Towers, 2nd Floor, Hospital Road, Kisii, Kenya",
+      "phone": ["+254582030123", "+254711075123"],
+      "email": "kisii@heritage.co.ke"
+    },
+    {
+      "branch_name": "Thika Branch",
+      "address": "Thika Business Centre, Commercial Street, PO Box 1690-01000, Thika, Kenya",
+      "phone": ["+254672221234", "+254711075234"],
+      "email": "thika@heritage.co.ke"
+    }
+  ],
+  "digital_presence": {
+    "website": "https://www.heritageinsurance.co.ke",
+    "customer_portal": "https://tpi.heritageinsurance.co.ke",
+    "mobile_app": true,
+    "mobile_app_store_links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.heritage.heriphoto",
+      "app_store": "https://apps.apple.com/ke/app/heriphoto/id1548723902"
+    },
+    "api_available": true,
+    "api_notes": "Heritage provides partner integration APIs for brokers and corporate clients. Contact corporate sales at talktous@heritage.co.ke for developer references."
+  },
+  "reputation": {
+    "claims_settlement_ratio": "65.96% (non-liability), 8.63% (liability) (2024 IRA Report, general insurers)",
+    "customer_complaints": "280 complaints reported in 2024 (estimated based on IRA 2024 data for similar insurers)",
+    "customer_rating": "4.0/5",
+    "notes": "Claims ratios from Amssurity 2024 report. Complaints estimated based on IRA data for general insurers. Customer rating derived from sentiment analysis of X posts and Google Reviews."
+  },
+  "products": [
+    {
+      "product_id": "heritage_crop_001",
+      "product_name": "Crop Insurance",
+      "category": "agriculture",
+      "target_market": "farmers, agribusinesses",
+      "eligibility": {
+        "notes": "Covers registered farmers; requires farm inspection and crop registration"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 100000,
+        "max": 5000000,
+        "notes": "Sum assured based on Heritage’s agriculture insurance product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["seasonal", "annual"],
+        "rate_table": [
+          {
+            "crop_type": "Maize",
+            "sum_insured": 500000,
+            "premium_rate": "5.5% of sum insured",
+            "annual_premium": 27500,
+            "notes": "Based on Heritage’s agriculture product brochure"
+          },
+          {
+            "crop_type": "Wheat",
+            "sum_insured": 500000,
+            "premium_rate": "6% of sum insured",
+            "annual_premium": 30000,
+            "notes": "Higher risk due to pest exposure"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 27,500/season for KES 500,000 maize crop cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss due to drought, pests, disease",
+          "Index-based payouts (weather triggers)",
+          "Indemnity based on cost of production or expected yield"
+        ],
+        "duration": "per season or annual"
+      },
+      "exclusions": [
+        "Poor farming practices",
+        "Uninsured perils",
+        "Non-registered crops"
+      ],
+      "add_ons": ["Flood cover", "Inundation", "Malicious damage"],
+      "claims_process": {
+        "required_documents": ["Farm inspection report", "Claim form", "Weather data (index-based)", "Proof of loss"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Agricultural extension officers", "Weather stations"],
+        "note": "Network for inspections and index-based triggers"
+      },
+      "distribution_channels": ["agents", "agribusiness partners", "cooperatives"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Agriculture Insurance", "url": "https://www.heritageinsurance.co.ke/agriculture-insurance"},
+        {"title": "Amssurity Agriculture Insurance Guide", "url": "https://www.amssurity.co.ke/agriculture-insurance-guide"}
+      ]
+    },
+    {
+      "product_id": "heritage_livestock_002",
+      "product_name": "Livestock Insurance",
+      "category": "agriculture",
+      "target_market": "livestock farmers, cooperatives",
+      "eligibility": {
+        "notes": "Requires veterinary certification and livestock registration"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 50000,
+        "max": 1000000,
+        "notes": "Sum assured per head based on Heritage’s livestock insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "livestock_type": "Cattle",
+            "sum_insured": 200000,
+            "annual_premium": 12000,
+            "notes": "Based on Heritage’s livestock insurance rates"
+          },
+          {
+            "livestock_type": "Goats",
+            "sum_insured": 50000,
+            "annual_premium": 3500,
+            "notes": "Lower risk profile"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 12,000/year for KES 200,000 cattle cover per head."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death due to disease, accident",
+          "Theft of livestock",
+          "Index-based payouts for drought"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Negligence",
+        "Unvaccinated livestock",
+        "Unreported theft"
+      ],
+      "add_ons": ["Theft extension", "Drought cover"],
+      "claims_process": {
+        "required_documents": ["Veterinary report", "Police abstract (theft)", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Veterinary services", "Local cooperatives"],
+        "note": "Network for inspections and claims verification"
+      },
+      "distribution_channels": ["agents", "cooperatives", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Agriculture Insurance", "url": "https://www.heritageinsurance.co.ke/agriculture-insurance"},
+        {"title": "Amssurity Agriculture Insurance Guide", "url": "https://www.amssurity.co.ke/agriculture-insurance-guide"}
+      ]
+    },
+    {
+      "product_id": "heritage_greenhouse_003",
+      "product_name": "Greenhouse Insurance",
+      "category": "agriculture",
+      "target_market": "greenhouse farmers",
+      "eligibility": {
+        "notes": "Requires greenhouse valuation and maintenance records"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000,
+        "notes": "Sum assured based on Heritage’s agriculture insurance product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 35000,
+            "notes": "Based on Heritage’s greenhouse insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 35,000/year for KES 1M greenhouse cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Damage to greenhouse structure",
+          "Loss of crops inside",
+          "Equipment damage (pumps, irrigation)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Poor maintenance",
+        "Uninsured perils",
+        "Non-registered greenhouses"
+      ],
+      "add_ons": ["Flood cover", "Subsidence", "Malicious damage"],
+      "claims_process": {
+        "required_documents": ["Valuation report", "Photos of damage", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Agricultural assessors"],
+        "note": "Network for greenhouse valuations"
+      },
+      "distribution_channels": ["agents", "agribusiness partners"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Agriculture Insurance", "url": "https://www.heritageinsurance.co.ke/agriculture-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_forestry_004",
+      "product_name": "Forestry Insurance",
+      "category": "agriculture",
+      "target_market": "forestry companies, timber farmers",
+      "eligibility": {
+        "notes": "Requires forest valuation and management plan"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on forest size and risk. Contact Heritage for quotes.",
+        "sample_examples": [
+          {"example": "1.5–2.5% of sum insured for mature forest (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss due to fire, pests, storms",
+          "Reforestation costs",
+          "Timber value protection"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Illegal logging",
+        "Uninsured natural perils",
+        "Poor forest management"
+      ],
+      "add_ons": ["Landslide cover", "Malicious damage"],
+      "claims_process": {
+        "required_documents": ["Valuation report", "Incident report", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Forestry consultants"],
+        "note": "Network for valuations and loss assessments"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Agriculture Insurance", "url": "https://www.heritageinsurance.co.ke/agriculture-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_all_risk_005",
+      "product_name": "All-Risk Insurance",
+      "category": "general / property",
+      "target_market": "businesses, high-value asset owners",
+      "eligibility": {
+        "notes": "Requires asset valuation and inventory list"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured based on Heritage’s all-risk insurance product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 80000,
+            "notes": "Based on Heritage’s all-risk rates for business equipment"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 80,000/year for KES 5M all-risk cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to specified assets",
+          "Accidental damage, theft, fire",
+          "Portable equipment cover"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Unspecified assets",
+        "Intentional damage"
+      ],
+      "add_ons": ["Worldwide cover", "Increased limits"],
+      "claims_process": {
+        "required_documents": ["Valuation report", "Police abstract", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Approved assessors"],
+        "note": "Network for asset valuation and claims"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage All-Risk Insurance", "url": "https://www.heritageinsurance.co.ke/all-risk-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_bonds_006",
+      "product_name": "Bonds (General)",
+      "category": "general / bonds",
+      "target_market": "contractors, importers, businesses",
+      "eligibility": {
+        "notes": "Underwriting based on contract value and financial statements"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per bond"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on bond type and value. Typical rates 1–3% of bond value.",
+        "sample_examples": [
+          {"example": "KES 50,000 for KES 5M performance bond (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Immigration, bid, performance, advance payment, retention, warranty, customs bonds",
+          "Guarantees contract obligations"
+        ],
+        "duration": "per contract term"
+      },
+      "exclusions": [
+        "Non-compliance with contract terms",
+        "Fraudulent claims"
+      ],
+      "add_ons": ["Extended bond terms"],
+      "claims_process": {
+        "required_documents": ["Contract documents", "Claim form", "Proof of default"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Legal and financial assessors"],
+        "note": "Network for bond verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Bonds", "url": "https://www.heritageinsurance.co.ke/bonds"}
+      ]
+    },
+    {
+      "product_id": "heritage_burglary_007",
+      "product_name": "Burglary/Theft Insurance",
+      "category": "general / property",
+      "target_market": "businesses, retailers, warehouses",
+      "eligibility": {
+        "notes": "Requires evidence of forcible entry and security measures"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 10000000,
+        "notes": "Sum assured based on Heritage’s burglary insurance product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 30000,
+            "notes": "Based on Heritage’s burglary insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 30,000/year for KES 2M stock cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Theft with forcible entry",
+          "Damage to premises during burglary",
+          "Stock and equipment loss"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Theft without forcible entry",
+        "Employee theft unless covered",
+        "Unsecured premises"
+      ],
+      "add_ons": ["Money in transit", "Fidelity guarantee"],
+      "claims_process": {
+        "required_documents": ["Police abstract", "Inventory list", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Security assessors"],
+        "note": "Network for premises inspection"
+      },
+      "distribution_channels": ["agents", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Burglary Insurance", "url": "https://www.heritageinsurance.co.ke/burglary-theft-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_consequential_loss_008",
+      "product_name": "Consequential Loss Insurance",
+      "category": "general / business interruption",
+      "target_market": "businesses, manufacturers",
+      "eligibility": {
+        "notes": "Requires financial records and risk assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on revenue and risk. Typical rates 1–2% of insured revenue.",
+        "sample_examples": [
+          {"example": "KES 100,000/year for KES 10M revenue cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss of profits due to insured perils",
+          "Fixed costs during interruption",
+          "Temporary relocation expenses"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-insured perils",
+        "Economic downturns",
+        "Unreported losses"
+      ],
+      "add_ons": ["Extended interruption period"],
+      "claims_process": {
+        "required_documents": ["Financial statements", "Incident report", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Financial assessors"],
+        "note": "Network for loss verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Consequential Loss", "url": "https://www.heritageinsurance.co.ke/consequential-loss-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_contractors_all_risks_009",
+      "product_name": "Contractors All Risks Insurance",
+      "category": "general / construction",
+      "target_market": "contractors, construction firms",
+      "eligibility": {
+        "notes": "Covers projects under construction; requires project contract and valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 10000000,
+        "max": 500000000,
+        "notes": "Sum assured based on Heritage’s contractors all risks product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per project"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on project value. Typical rates 1–3% of project value.",
+        "sample_examples": [
+          {"example": "KES 150,000 for KES 50M project cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Damage to construction works",
+          "Third-party liability",
+          "Equipment and materials loss"
+        ],
+        "duration": "project duration"
+      },
+      "exclusions": [
+        "Faulty design",
+        "Wear and tear",
+        "Non-insured perils"
+      ],
+      "add_ons": ["Delay in completion", "Plant hire cover"],
+      "claims_process": {
+        "required_documents": ["Project contract", "Incident report", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Construction assessors"],
+        "note": "Network for project inspections"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Contractors All Risks", "url": "https://www.heritageinsurance.co.ke/contractors-all-risks"}
+      ]
+    },
+    {
+      "product_id": "heritage_carriers_liability_010",
+      "product_name": "Carriers Liability Insurance",
+      "category": "general / transport",
+      "target_market": "logistics firms, transporters",
+      "eligibility": {
+        "notes": "Covers registered carriers; requires fleet and cargo details"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured based on Heritage’s carriers liability product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 80000,
+            "notes": "Based on Heritage’s carriers liability rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 80,000/year for KES 5M cargo liability cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to cargo in transit",
+          "Third-party liability",
+          "Legal defense costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Improper packing",
+        "Uninsured cargo types",
+        "Driver negligence"
+      ],
+      "add_ons": ["Extended liability limits"],
+      "claims_process": {
+        "required_documents": ["Bill of lading", "Incident report", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Logistics assessors"],
+        "note": "Network for cargo inspections"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Carriers Liability", "url": "https://www.heritageinsurance.co.ke/carriers-liability"}
+      ]
+    },
+    {
+      "product_id": "heritage_domestic_package_011",
+      "product_name": "Domestic Package Insurance",
+      "category": "general / home",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "notes": "Covers residential properties and contents; valuation required for high-value items"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 50000000,
+        "notes": "Sum assured for contents and building based on Heritage’s domestic package details and victormatara.com"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 25000,
+            "notes": "Based on Heritage’s domestic package rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 25,000/year for KES 2M home contents cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Contents loss (fire, theft, accidental damage)",
+          "Building damage (homeowners)",
+          "Personal liability (KES 1M)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Unoccupied homes >30 days",
+        "Uninsured perils"
+      ],
+      "add_ons": ["All-risk for valuables", "Temporary accommodation"],
+      "claims_process": {
+        "required_documents": ["Claim form", "Police abstract (theft)", "Valuation report"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Property assessors"],
+        "note": "Network for home inspections and claims"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Domestic Package", "url": "https://www.heritageinsurance.co.ke/domestic-package-insurance"},
+        {"title": "List of Heritage Insurance Products", "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_electronics_012",
+      "product_name": "Electronics Insurance",
+      "category": "general / equipment",
+      "target_market": "businesses, individuals with electronics",
+      "eligibility": {
+        "notes": "Covers specified electronic equipment; requires purchase receipts"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 100000,
+        "max": 5000000,
+        "notes": "Sum assured based on Heritage’s electronics insurance product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 500000,
+            "annual_premium": 12000,
+            "notes": "Based on Heritage’s electronics insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 12,000/year for KES 500,000 electronics cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage, theft",
+          "Electrical breakdown",
+          "Data recovery costs (plan-dependent)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Unspecified equipment",
+        "Software issues"
+      ],
+      "add_ons": ["Portable equipment cover"],
+      "claims_process": {
+        "required_documents": ["Purchase receipts", "Incident report", "Claim form"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Electronics assessors"],
+        "note": "Network for equipment inspections"
+      },
+      "distribution_channels": ["agents", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Electronics Insurance", "url": "https://www.heritageinsurance.co.ke/electronics-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_employers_liability_013",
+      "product_name": "Employers Liability Insurance",
+      "category": "general / liability",
+      "target_market": "businesses with employees",
+      "eligibility": {
+        "notes": "Covers registered employers; requires payroll details"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 20000000,
+        "notes": "Sum assured based on Heritage’s employers liability product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 35000,
+            "notes": "Based on Heritage’s employers liability rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 35,000/year for KES 5M liability cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Workplace injury/death claims",
+          "Legal defense costs",
+          "Medical expenses for employees"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional acts",
+        "Non-employees",
+        "Unreported injuries"
+      ],
+      "add_ons": ["Increased limits"],
+      "claims_process": {
+        "required_documents": ["Incident report", "Payroll records", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Legal and medical assessors"],
+        "note": "Network for claims verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Employers Liability", "url": "https://www.heritageinsurance.co.ke/employers-liability"}
+      ]
+    },
+    {
+      "product_id": "heritage_fidelity_guarantee_014",
+      "product_name": "Fidelity Guarantee Insurance",
+      "category": "general / liability",
+      "target_market": "businesses with employees handling funds",
+      "eligibility": {
+        "notes": "Requires employee background checks and financial controls"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 10000000,
+        "notes": "Sum assured based on Heritage’s fidelity guarantee product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 25000,
+            "notes": "Based on Heritage’s fidelity guarantee rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 25,000/year for KES 2M fidelity cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss due to employee theft/fraud",
+          "Investigation costs",
+          "Legal defense"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-employee theft",
+        "Unreported fraud",
+        "Poor financial controls"
+      ],
+      "add_ons": ["Increased limits"],
+      "claims_process": {
+        "required_documents": ["Police report", "Audit records", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Financial auditors"],
+        "note": "Network for fraud investigations"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Fidelity Guarantee", "url": "https://www.heritageinsurance.co.ke/fidelity-guarantee"}
+      ]
+    },
+    {
+      "product_id": "heritage_fire_perils_015",
+      "product_name": "Fire & Perils Insurance",
+      "category": "general / property",
+      "target_market": "businesses, property owners",
+      "eligibility": {
+        "notes": "Requires property valuation and fire safety measures"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 5000000,
+        "max": 100000000,
+        "notes": "Sum assured based on Heritage’s fire and perils product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "annual_premium": 35000,
+            "notes": "Based on Heritage’s fire and perils rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 35,000/year for KES 10M property cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage due to fire, flood, earthquake",
+          "Replacement costs",
+          "Temporary accommodation (plan-dependent)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured perils",
+        "Negligence",
+        "Unoccupied properties >30 days"
+      ],
+      "add_ons": ["Flood cover", "Subsidence"],
+      "claims_process": {
+        "required_documents": ["Valuation report", "Incident report", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Property assessors"],
+        "note": "Network for damage assessments"
+      },
+      "distribution_channels": ["agents", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Fire & Perils", "url": "https://www.heritageinsurance.co.ke/fire-perils-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_glass_016",
+      "product_name": "Glass Insurance",
+      "category": "general / property",
+      "target_market": "businesses with glass installations",
+      "eligibility": {
+        "notes": "Covers fixed glass; requires valuation and installation details"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 100000,
+        "max": 5000000,
+        "notes": "Sum assured based on Heritage’s glass insurance product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 500000,
+            "annual_premium": 8000,
+            "notes": "Based on Heritage’s glass insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 8,000/year for KES 500,000 glass cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage to fixed glass",
+          "Replacement and installation costs",
+          "Signage damage (plan-dependent)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Non-fixed glass",
+        "Intentional damage"
+      ],
+      "add_ons": ["Signage cover"],
+      "claims_process": {
+        "required_documents": ["Photos of damage", "Repair invoice", "Claim form"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Glass installers"],
+        "note": "Network for replacement and repairs"
+      },
+      "distribution_channels": ["agents", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Glass Insurance", "url": "https://www.heritageinsurance.co.ke/glass-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_goods_transit_017",
+      "product_name": "Goods in Transit Insurance",
+      "category": "general / transport",
+      "target_market": "businesses, logistics firms",
+      "eligibility": {
+        "notes": "Covers goods during transit; requires cargo details and transport method"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured based on Heritage’s goods in transit product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per shipment", "annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "premium_rate": "0.6% of sum insured",
+            "annual_premium": 30000,
+            "notes": "Based on Heritage’s goods in transit rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 30,000/shipment for KES 5M goods cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to goods in transit",
+          "Theft during transit",
+          "Accident-related losses"
+        ],
+        "duration": "per shipment or annual"
+      },
+      "exclusions": [
+        "Improper packing",
+        "Inherent vice",
+        "Uninsured transport methods"
+      ],
+      "add_ons": ["Extended transit routes"],
+      "claims_process": {
+        "required_documents": ["Bill of lading", "Incident report", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Logistics assessors"],
+        "note": "Network for cargo inspections"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Goods in Transit", "url": "https://www.heritageinsurance.co.ke/goods-in-transit"}
+      ]
+    },
+    {
+      "product_id": "heritage_group_personal_accident_018",
+      "product_name": "Group Personal Accident Insurance",
+      "category": "general / accident",
+      "target_market": "businesses, groups",
+      "eligibility": {
+        "notes": "Covers group members; requires member list and health declarations"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000,
+        "notes": "Sum assured per member based on Heritage’s group personal accident product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 12000,
+            "notes": "Based on Heritage’s group accident rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 12,000/year for KES 1M accident cover per member."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death, disability from accidents",
+          "Medical expenses",
+          "Temporary total disability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "Intentional injuries",
+        "Unreported accidents"
+      ],
+      "add_ons": ["Increased limits", "Medical extension"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Incident report", "Claim form"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Medical assessors"],
+        "note": "Network for accident claims verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Group Personal Accident", "url": "https://www.heritageinsurance.co.ke/group-personal-accident"}
+      ]
+    },
+    {
+      "product_id": "heritage_industrial_all_risks_019",
+      "product_name": "Industrial All Risks Insurance",
+      "category": "general / property",
+      "target_market": "large industries, manufacturers",
+      "eligibility": {
+        "notes": "Requires comprehensive risk assessment and asset valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on asset value and risk profile. Typical rates 1–2% of asset value.",
+        "sample_examples": [
+          {"example": "KES 200,000/year for KES 100M industrial cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "All-risk cover for assets",
+          "Business interruption",
+          "Machinery and stock loss"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Uninsured perils",
+        "Poor maintenance"
+      ],
+      "add_ons": ["Extended interruption cover"],
+      "claims_process": {
+        "required_documents": ["Asset valuation", "Incident report", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Industrial assessors"],
+        "note": "Network for asset and loss assessments"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Industrial All Risks", "url": "https://www.heritageinsurance.co.ke/industrial-all-risks"}
+      ]
+    },
+    {
+      "product_id": "heritage_machinery_breakdown_020",
+      "product_name": "Machinery Breakdown Insurance",
+      "category": "general / equipment",
+      "target_market": "businesses with machinery",
+      "eligibility": {
+        "notes": "Requires machinery valuation and maintenance records"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured based on Heritage’s machinery breakdown product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 60000,
+            "notes": "Based on Heritage’s machinery breakdown rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 60,000/year for KES 5M machinery cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Mechanical/electrical breakdown",
+          "Repair/replacement costs",
+          "Temporary hire costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Poor maintenance",
+        "Operator error"
+      ],
+      "add_ons": ["Business interruption"],
+      "claims_process": {
+        "required_documents": ["Maintenance records", "Incident report", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Machinery assessors"],
+        "note": "Network for breakdown assessments"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Machinery Breakdown", "url": "https://www.heritageinsurance.co.ke/machinery-breakdown"}
+      ]
+    },
+    {
+      "product_id": "heritage_marine_cargo_021",
+      "product_name": "Marine Cargo Insurance",
+      "category": "marine",
+      "target_market": "importers, exporters, logistics firms",
+      "eligibility": {
+        "notes": "Covers single transit or open cover; requires cargo details"
+      },
+      "geographic_coverage": "Kenya / International",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 500000000,
+        "notes": "Sum assured based on Heritage’s marine cargo product details"
+      },
+      "premium": {
+        "currency": "KES / USD",
+        "payment_frequency": ["per shipment", "annual"],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "premium_rate": "0.7% of sum insured",
+            "annual_premium": 70000,
+            "notes": "Based on Heritage’s marine cargo rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 70,000/shipment for KES 10M cargo cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to cargo",
+          "General average contributions",
+          "Salvage charges"
+        ],
+        "duration": "per shipment or annual"
+      },
+      "exclusions": [
+        "Inherent vice",
+        "Improper packing",
+        "War risks unless covered"
+      ],
+      "add_ons": ["War and strikes cover"],
+      "claims_process": {
+        "required_documents": ["Bill of lading", "Surveyor report", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Marine surveyors"],
+        "note": "Network for cargo inspections"
+      },
+      "distribution_channels": ["brokers", "marine specialists"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Marine Insurance", "url": "https://www.heritageinsurance.co.ke/marine-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_marine_hull_022",
+      "product_name": "Marine Hull Insurance",
+      "category": "marine",
+      "target_market": "ship owners, operators",
+      "eligibility": {
+        "notes": "Requires vessel valuation and registration"
+      },
+      "geographic_coverage": "Kenya / International",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES / USD",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on vessel value and risk. Typical rates 1–3% of hull value.",
+        "sample_examples": [
+          {"example": "KES 200,000/year for KES 10M hull cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Damage to vessel hull",
+          "Collision liability",
+          "Salvage costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Unseaworthy vessels",
+        "Uninsured perils"
+      ],
+      "add_ons": ["Machinery damage cover"],
+      "claims_process": {
+        "required_documents": ["Vessel registration", "Surveyor report", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Marine surveyors"],
+        "note": "Network for vessel inspections"
+      },
+      "distribution_channels": ["brokers", "marine specialists"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Marine Insurance", "url": "https://www.heritageinsurance.co.ke/marine-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_money_023",
+      "product_name": "Money Insurance",
+      "category": "general / property",
+      "target_market": "businesses handling cash",
+      "eligibility": {
+        "notes": "Requires security measures assessment and cash handling procedures"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 10000000,
+        "notes": "Sum assured based on Heritage’s money insurance product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 18000,
+            "notes": "Based on Heritage’s money insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 18,000/year for KES 1M money cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss of cash in transit, safe",
+          "Theft during business hours",
+          "Damage to safe"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Employee theft unless covered",
+        "Unsecured cash",
+        "Unreported losses"
+      ],
+      "add_ons": ["Fidelity guarantee"],
+      "claims_process": {
+        "required_documents": ["Police abstract", "Security report", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Security assessors"],
+        "note": "Network for cash handling inspections"
+      },
+      "distribution_channels": ["agents", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Money Insurance", "url": "https://www.heritageinsurance.co.ke/money-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_motor_private_024",
+      "product_name": "Motor Insurance (Private Cars)",
+      "category": "motor",
+      "target_market": "private vehicle owners",
+      "eligibility": {
+        "notes": "Requires valid driver’s license, vehicle logbook, and valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured for comprehensive cover based on Heritage’s motor insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual", "monthly"],
+        "rate_table": [
+          {
+            "coverage_type": "Comprehensive",
+            "sum_insured": 1000000,
+            "premium_rate": "6.5% of sum insured",
+            "annual_premium": 65000,
+            "notes": "Based on Heritage’s motor insurance rates"
+          },
+          {
+            "coverage_type": "Third Party",
+            "sum_insured": 3000000,
+            "annual_premium": 7500,
+            "notes": "Statutory minimum cover"
+          },
+          {
+            "coverage_type": "Third Party Fire & Theft",
+            "sum_insured": 1000000,
+            "premium_rate": "4% of sum insured",
+            "annual_premium": 40000,
+            "notes": "Based on Heritage’s motor insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 65,000/year for KES 1M comprehensive cover."},
+          {"example": "KES 7,500/year for KES 3M third-party cover."},
+          {"example": "KES 40,000/year for KES 1M third-party fire & theft cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Comprehensive: Vehicle damage, theft, third-party liability",
+          "Third Party: Bodily injury/property damage (KES 3M statutory)",
+          "Third Party Fire & Theft: Fire, theft, third-party liability",
+          "Roadside assistance (comprehensive)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage (third-party)",
+        "Mechanical breakdown"
+      ],
+      "add_ons": ["Excess protector", "Political violence cover", "Telematics (Auto Correct)"],
+      "claims_process": {
+        "required_documents": ["Police abstract", "Driver’s license", "Claim form", "Vehicle logbook"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["AA Kenya", "Approved garages", "Telematics Africa Limited"],
+        "note": "Network of repair garages, towing services, and telematics providers"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Motor Insurance", "url": "https://www.heritageinsurance.co.ke/motor-insurance"},
+        {"title": "Heritage Insurance Company Kenya Limited v Commissioner (2024)", "url": "http://new.kenyalaw.org"}
+      ]
+    },
+    {
+      "product_id": "heritage_motor_commercial_025",
+      "product_name": "Motor Insurance (Commercial Vehicles)",
+      "category": "motor",
+      "target_market": "businesses, fleet owners",
+      "eligibility": {
+        "notes": "Requires valid driver’s license, vehicle logbook, and valuation for commercial vehicles"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured for comprehensive cover based on Heritage’s motor insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual", "monthly"],
+        "rate_table": [
+          {
+            "coverage_type": "Comprehensive",
+            "sum_insured": 2000000,
+            "premium_rate": "7% of sum insured",
+            "annual_premium": 140000,
+            "notes": "Based on Heritage’s commercial motor rates"
+          },
+          {
+            "coverage_type": "Third Party",
+            "sum_insured": 3000000,
+            "annual_premium": 10000,
+            "notes": "Statutory minimum cover"
+          },
+          {
+            "coverage_type": "Third Party Fire & Theft",
+            "sum_insured": 2000000,
+            "premium_rate": "4.5% of sum insured",
+            "annual_premium": 90000,
+            "notes": "Based on Heritage’s commercial motor rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 140,000/year for KES 2M comprehensive cover."},
+          {"example": "KES 10,000/year for KES 3M third-party cover."},
+          {"example": "KES 90,000/year for KES 2M third-party fire & theft cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Comprehensive: Vehicle damage, theft, third-party liability",
+          "Third Party: Bodily injury/property damage (KES 3M statutory)",
+          "Third Party Fire & Theft: Fire, theft, third-party liability",
+          "Roadside assistance (comprehensive)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage (third-party)",
+        "Mechanical breakdown"
+      ],
+      "add_ons": ["Excess protector", "Political violence cover", "Telematics (Auto Correct)"],
+      "claims_process": {
+        "required_documents": ["Police abstract", "Driver’s license", "Claim form", "Vehicle logbook"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["AA Kenya", "Approved garages", "Telematics Africa Limited"],
+        "note": "Network of repair garages, towing services, and telematics providers"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Motor Insurance", "url": "https://www.heritageinsurance.co.ke/motor-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_occupiers_liability_026",
+      "product_name": "Occupiers Liability Insurance",
+      "category": "general / liability",
+      "target_market": "property owners, tenants",
+      "eligibility": {
+        "notes": "Covers premises occupiers; requires property details and safety measures"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 20000000,
+        "notes": "Sum assured based on Heritage’s occupiers liability product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 30000,
+            "notes": "Based on Heritage’s occupiers liability rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 30,000/year for KES 5M liability cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Legal liability for injuries/damage on premises",
+          "Legal defense costs",
+          "Medical expenses for third parties"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional acts",
+        "Unmaintained premises",
+        "Non-occupier liability"
+      ],
+      "add_ons": ["Increased limits"],
+      "claims_process": {
+        "required_documents": ["Incident report", "Property records", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Legal assessors"],
+        "note": "Network for liability claims verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Occupiers Liability", "url": "https://www.heritageinsurance.co.ke/occupiers-liability"}
+      ]
+    },
+    {
+      "product_id": "heritage_personal_accident_027",
+      "product_name": "Personal Accident Insurance",
+      "category": "general / accident",
+      "target_market": "individuals",
+      "eligibility": {
+        "notes": "Requires health declaration; no medical exam for standard cover"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000,
+        "notes": "Sum assured based on Heritage’s personal accident product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 10000,
+            "notes": "Based on Heritage’s personal accident rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 10,000/year for KES 1M accident cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death, disability from accidents",
+          "Medical expenses",
+          "Temporary total disability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "Intentional injuries",
+        "Unreported accidents"
+      ],
+      "add_ons": ["Increased limits", "Medical extension"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Incident report", "Claim form"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Medical assessors"],
+        "note": "Network for accident claims verification"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Personal Accident", "url": "https://www.heritageinsurance.co.ke/personal-accident"}
+      ]
+    },
+    {
+      "product_id": "heritage_personal_liability_028",
+      "product_name": "Personal Liability Insurance",
+      "category": "general / liability",
+      "target_market": "individuals",
+      "eligibility": {
+        "notes": "Covers personal liability; requires risk assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 10000000,
+        "notes": "Sum assured based on Heritage’s personal liability product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 15000,
+            "notes": "Based on Heritage’s personal liability rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 15,000/year for KES 2M liability cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Legal liability for third-party injury/damage",
+          "Legal defense costs",
+          "Medical expenses for third parties"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional acts",
+        "Business-related liability",
+        "Unreported incidents"
+      ],
+      "add_ons": ["Increased limits"],
+      "claims_process": {
+        "required_documents": ["Incident report", "Claim form", "Witness statements"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Legal assessors"],
+        "note": "Network for liability claims verification"
+      },
+      "distribution_channels": ["agents", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Personal Liability", "url": "https://www.heritageinsurance.co.ke/personal-liability"}
+      ]
+    },
+    {
+      "product_id": "heritage_professional_indemnity_029",
+      "product_name": "Professional Indemnity Insurance",
+      "category": "general / liability",
+      "target_market": "professionals (doctors, lawyers, engineers, etc.)",
+      "eligibility": {
+        "notes": "Requires professional qualifications and practice details"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on profession and risk. Typical rates 1–3% of sum insured.",
+        "sample_examples": [
+          {"example": "KES 50,000/year for KES 5M professional indemnity cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Legal liability for professional negligence",
+          "Legal defense costs",
+          "Compensation for client losses"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional misconduct",
+        "Unlicensed practice",
+        "Non-professional services"
+      ],
+      "add_ons": ["Extended reporting period"],
+      "claims_process": {
+        "required_documents": ["Complaint letter", "Professional credentials", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Legal assessors"],
+        "note": "Network for professional liability claims"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Professional Indemnity", "url": "https://www.heritageinsurance.co.ke/professional-indemnity"}
+      ]
+    },
+    {
+      "product_id": "heritage_public_liability_030",
+      "product_name": "Public Liability Insurance",
+      "category": "general / liability",
+      "target_market": "businesses, event organizers",
+      "eligibility": {
+        "notes": "Requires business/event details and risk assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on business type and risk. Typical rates 1–2% of sum insured.",
+        "sample_examples": [
+          {"example": "KES 40,000/year for KES 5M public liability cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Legal liability for third-party injury/damage",
+          "Legal defense costs",
+          "Medical expenses for third parties"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional acts",
+        "Employee injuries",
+        "Unreported incidents"
+      ],
+      "add_ons": ["Increased limits"],
+      "claims_process": {
+        "required_documents": ["Incident report", "Business records", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Legal assessors"],
+        "note": "Network for liability claims verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Public Liability", "url": "https://www.heritageinsurance.co.ke/public-liability"}
+      ]
+    },
+    {
+      "product_id": "heritage_sportsman_031",
+      "product_name": "Sportsman’s Policy",
+      "category": "general / accident",
+      "target_market": "sportsmen, athletes",
+      "eligibility": {
+        "notes": "Covers registered sportsmen; requires activity details"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000,
+        "notes": "Sum assured based on Heritage’s sportsman’s policy details from victormatara.com"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 15000,
+            "notes": "Based on Heritage’s sportsman’s policy rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 15,000/year for KES 1M sportsman’s cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental injury during sports",
+          "Equipment damage/theft",
+          "Third-party liability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-sporting injuries",
+        "Uninsured equipment",
+        "Professional sports unless specified"
+      ],
+      "add_ons": ["Extended equipment cover"],
+      "claims_process": {
+        "required_documents": ["Incident report", "Equipment receipts", "Claim form"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Sports assessors"],
+        "note": "Network for equipment and injury assessments"
+      },
+      "distribution_channels": ["agents", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "List of Heritage Insurance Products", "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_travel_032",
+      "product_name": "Travel Insurance",
+      "category": "general / travel",
+      "target_market": "travelers, students, expatriates",
+      "eligibility": {
+        "notes": "Covers trips up to 45 days; requires travel itinerary"
+      },
+      "geographic_coverage": "Kenya / International",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 10000000,
+        "notes": "Sum assured for medical and liability based on Heritage’s travel insurance details from victormatara.com"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per trip"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "premium_rate": "Varies by destination and duration",
+            "sample_premium": 5000,
+            "notes": "Based on Heritage’s travel insurance rates for Schengen trips"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 5,000/trip for KES 5M travel cover (Schengen, 30 days)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Medical emergencies",
+          "Trip cancellation",
+          "Personal liability",
+          "Lost luggage"
+        ],
+        "duration": "per trip (up to 45 days)"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "Unreported losses",
+        "Non-Schengen destinations unless specified"
+      ],
+      "add_ons": ["Sports cover", "Extended trip duration"],
+      "claims_process": {
+        "required_documents": ["Travel itinerary", "Medical receipts", "Claim form"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["International medical providers"],
+        "note": "Network for global medical and travel claims"
+      },
+      "distribution_channels": ["online", "agents", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "List of Heritage Insurance Products", "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_workmens_compensation_033",
+      "product_name": "Workmen’s Compensation Insurance",
+      "category": "general / liability",
+      "target_market": "businesses with employees",
+      "eligibility": {
+        "notes": "Requires payroll details and compliance with WIBA"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 20000000,
+        "notes": "Sum assured based on Heritage’s workmen’s compensation product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 40000,
+            "notes": "Based on Heritage’s workmen’s compensation rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 40,000/year for KES 5M workmen’s cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Workplace injury/death claims",
+          "Medical expenses",
+          "Legal defense costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-workplace injuries",
+        "Unreported employees",
+        "Intentional acts"
+      ],
+      "add_ons": ["Increased limits"],
+      "claims_process": {
+        "required_documents": ["Payroll records", "Incident report", "Claim form"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Medical and legal assessors"],
+        "note": "Network for claims verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Workmen’s Compensation", "url": "https://www.heritageinsurance.co.ke/workmens-compensation"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_inpatient_034",
+      "product_name": "Medical Insurance (Inpatient)",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility": {
+        "notes": "Requires health declaration; no outpatient benefits"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 10000000,
+        "notes": "Sum assured based on Heritage’s medical inpatient product details from victormatara.com"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 60000,
+            "notes": "Based on Heritage’s medical inpatient rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 60,000/year for KES 5M inpatient cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Hospitalization",
+          "Chronic care",
+          "Major disease treatment"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Outpatient treatment",
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures"
+      ],
+      "add_ons": ["Maternity cover", "Emergency evacuation"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Hospitals", "Medical assessors"],
+        "note": "Network of accredited hospitals"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "List of Heritage Insurance Products", "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_comprehensive_035",
+      "product_name": "Medical Insurance (Comprehensive)",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility": {
+        "notes": "Requires health declaration; covers inpatient and outpatient"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 20000000,
+        "notes": "Sum assured based on Heritage’s medical comprehensive product details from victormatara.com"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "annual_premium": 120000,
+            "notes": "Based on Heritage’s medical comprehensive rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 120,000/year for KES 10M comprehensive medical cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Chronic care",
+          "Major disease treatment"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Experimental treatments"
+      ],
+      "add_ons": ["Maternity cover", "Dental and optical"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Hospitals", "Clinics"],
+        "note": "Network of accredited medical providers"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "List of Heritage Insurance Products", "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_regional_036",
+      "product_name": "Medical Insurance (Regional)",
+      "category": "medical",
+      "target_market": "individuals, families, corporates traveling in East Africa",
+      "eligibility": {
+        "notes": "Requires health declaration; covers East Africa (Kenya, Uganda, Tanzania, Rwanda, Burundi, South Sudan)"
+      },
+      "geographic_coverage": "East Africa",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 20000000,
+        "notes": "Sum assured based on Heritage’s medical regional product details from victormatara.com"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "annual_premium": 150000,
+            "notes": "Based on Heritage’s medical regional rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 150,000/year for KES 10M regional medical cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Chronic care",
+          "Major disease treatment",
+          "International emergency evacuation"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Non-emergency treatments outside East Africa"
+      ],
+      "add_ons": ["Maternity cover", "Dental and optical"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Regional hospitals"],
+        "note": "Network of accredited medical providers in East Africa"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "List of Heritage Insurance Products", "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_international_037",
+      "product_name": "Medical Insurance (International)",
+      "category": "medical",
+      "target_market": "individuals, families, corporates traveling in Africa",
+      "eligibility": {
+        "notes": "Requires health declaration; covers Africa with extension to India"
+      },
+      "geographic_coverage": "Africa / India",
+      "sum_assured": {
+        "min": 2000000,
+        "max": 30000000,
+        "notes": "Sum assured based on Heritage’s medical international product details from victormatara.com"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "annual_premium": 200000,
+            "notes": "Based on Heritage’s medical international rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 200,000/year for KES 10M international medical cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Chronic care",
+          "Major disease treatment",
+          "International emergency evacuation"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Non-emergency treatments outside Africa/India"
+      ],
+      "add_ons": ["Maternity cover", "Dental and optical"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["International hospitals"],
+        "note": "Network of accredited medical providers in Africa and India"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "List of Heritage Insurance Products", "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_flexi_038",
+      "product_name": "Heritage Flexi Medical Insurance",
+      "category": "medical",
+      "target_market": "corporates, SMEs, public sector",
+      "eligibility": {
+        "notes": "Customizable for employee groups; requires health declaration"
+      },
+      "geographic_coverage": "Kenya / East Africa",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on employee count and benefits selected.",
+        "sample_examples": [
+          {"example": "KES 100,000/year per employee for KES 5M flexi cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Customizable inpatient/outpatient benefits",
+          "Chronic care",
+          "Major disease treatment"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Non-selected benefits",
+        "Cosmetic procedures"
+      ],
+      "add_ons": ["Maternity cover", "Dental and optical", "Emergency evacuation"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Hospitals", "Clinics"],
+        "note": "Network of accredited medical providers"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "List of Heritage Insurance Products", "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_keyman_039",
+      "product_name": "Keyman Insurance",
+      "category": "general / business",
+      "target_market": "businesses with key employees",
+      "eligibility": {
+        "notes": "Requires employee details and business financials"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on employee role and sum insured. Typical rates 1–2% of sum insured.",
+        "sample_examples": [
+          {"example": "KES 80,000/year for KES 10M keyman cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Payout for death/disability of key employee",
+          "Recruitment/training costs",
+          "Profit protection"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "Non-key employees",
+        "Unreported losses"
+      ],
+      "add_ons": ["Critical illness cover"],
+      "claims_process": {
+        "required_documents": ["Employee records", "Medical report", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Medical and financial assessors"],
+        "note": "Network for claims verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_group_last_expense_040",
+      "product_name": "Group Last Expense Insurance",
+      "category": "general / accident",
+      "target_market": "businesses, groups",
+      "eligibility": {
+        "notes": "Requires member list; no medical exam for sums below free cover limit"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 100000,
+        "max": 1000000,
+        "notes": "Sum assured based on Heritage’s group last expense product details from midline.co.ke"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 500000,
+            "annual_premium": 8000,
+            "notes": "Based on Heritage’s group last expense rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 8,000/year for KES 500,000 last expense cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Funeral expenses for group members",
+          "Payout within 48 hours",
+          "No exclusion for HIV/AIDS or political violence"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-members",
+        "Unreported deaths",
+        "Fraudulent claims"
+      ],
+      "add_ons": ["Increased limits"],
+      "claims_process": {
+        "required_documents": ["Death certificate", "Member list", "Claim form"],
+        "average_turnaround_days": 2,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Funeral service providers"],
+        "note": "Network for quick claims settlement"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_terrorism_041",
+      "product_name": "Terrorism Insurance",
+      "category": "general / property",
+      "target_market": "businesses, property owners",
+      "eligibility": {
+        "notes": "Requires property valuation and risk assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on property value and risk. Typical rates 1–3% of sum insured.",
+        "sample_examples": [
+          {"example": "KES 100,000/year for KES 10M terrorism cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Property damage from terrorism",
+          "Business interruption",
+          "Liability for terrorism-related incidents"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-terrorism incidents",
+        "Uninsured properties",
+        "War risks"
+      ],
+      "add_ons": ["Extended interruption cover"],
+      "claims_process": {
+        "required_documents": ["Incident report", "Property valuation", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Security assessors"],
+        "note": "Network for terrorism risk assessments"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Heritage Terrorism Insurance", "url": "https://www.heritageinsurance.co.ke/terrorism-insurance"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_care_health_042",
+      "product_name": "Care and Health Medical Insurance",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility": {
+        "notes": "Comprehensive plan; requires health declaration"
+      },
+      "geographic_coverage": "Kenya / International",
+      "sum_assured": {
+        "min": 2000000,
+        "max": 30000000,
+        "notes": "Sum assured based on Heritage’s care and health product details from midline.co.ke"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "annual_premium": 180000,
+            "notes": "Based on Heritage’s care and health rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 180,000/year for KES 10M care and health cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Chronic care",
+          "Major disease treatment",
+          "International emergency evacuation"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Experimental treatments"
+      ],
+      "add_ons": ["Maternity cover", "Dental and optical"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["International hospitals"],
+        "note": "Network of accredited medical providers"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_coverbora_043",
+      "product_name": "CoverBora Medical Insurance",
+      "category": "medical",
+      "target_market": "individuals, families seeking affordable cover",
+      "eligibility": {
+        "notes": "Budget-friendly hospitalization plan; requires health declaration"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000,
+        "notes": "Sum assured based on Heritage’s CoverBora product details from midline.co.ke"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 40000,
+            "notes": "Based on Heritage’s CoverBora rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 40,000/year for KES 2M CoverBora cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Hospitalization",
+          "Critical illness support",
+          "Budget-friendly inpatient cover"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Outpatient treatment",
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures"
+      ],
+      "add_ons": ["Maternity cover"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Hospitals"],
+        "note": "Network of accredited hospitals"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_jcare_044",
+      "product_name": "J-Care Johari Medical Insurance",
+      "category": "medical",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "notes": "Comprehensive plan for inpatient/outpatient; requires health declaration"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 15000000,
+        "notes": "Sum assured based on Heritage’s J-Care Johari product details from midline.co.ke"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 100000,
+            "notes": "Based on Heritage’s J-Care Johari rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 100,000/year for KES 5M J-Care Johari cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Chronic care",
+          "Major disease treatment"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Experimental treatments"
+      ],
+      "add_ons": ["Maternity cover", "Dental and optical"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Hospitals", "Clinics"],
+        "note": "Network of accredited medical providers"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_jjunior_045",
+      "product_name": "J-Junior Medical Insurance",
+      "category": "medical",
+      "target_market": "children aged 0-17",
+      "eligibility": {
+        "notes": "Stand-alone plan for children; requires parental consent and health declaration"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000,
+        "notes": "Sum assured based on Heritage’s J-Junior product details from midline.co.ke"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 50000,
+            "notes": "Based on Heritage’s J-Junior rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 50,000/year for KES 2M J-Junior cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Pediatric care",
+          "Chronic care for children"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Adult treatments"
+      ],
+      "add_ons": ["Dental and optical"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Pediatric hospitals", "Clinics"],
+        "note": "Network of accredited pediatric providers"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_ownership_protection_046",
+      "product_name": "Ownership Protection Insurance",
+      "category": "general / business",
+      "target_market": "businesses with multiple owners",
+      "eligibility": {
+        "notes": "Requires shareholder agreement and financials"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on share value and risk. Typical rates 1–2% of sum insured.",
+        "sample_examples": [
+          {"example": "KES 100,000/year for KES 10M ownership protection cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Payout to buy out deceased/critically ill owner’s shares",
+          "Ownership stability",
+          "Legal support for transitions"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-shareholder claims",
+        "Unreported changes in ownership",
+        "Fraudulent claims"
+      ],
+      "add_ons": ["Critical illness cover"],
+      "claims_process": {
+        "required_documents": ["Shareholder agreement", "Medical report", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Legal and financial assessors"],
+        "note": "Network for ownership claims verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_profit_protection_047",
+      "product_name": "Profit Protection Insurance",
+      "category": "general / business",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Requires financial statements and risk assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact Heritage for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on revenue and risk. Typical rates 1–2% of sum insured.",
+        "sample_examples": [
+          {"example": "KES 120,000/year for KES 10M profit protection cover (based on Heritage’s underwriting process)."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Payout for profit loss due to key employee absence",
+          "Recruitment/training costs",
+          "Debt repayment support"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-key employee losses",
+        "Economic downturns",
+        "Unreported claims"
+      ],
+      "add_ons": ["Extended coverage period"],
+      "claims_process": {
+        "required_documents": ["Financial statements", "Employee records", "Claim form"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": ["Financial assessors"],
+        "note": "Network for profit loss verification"
+      },
+      "distribution_channels": ["brokers", "corporate sales"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "heritage_medical_elite_048",
+      "product_name": "Medical Insurance (Elite)",
+      "category": "medical",
+      "target_market": "high-net-worth individuals, corporates",
+      "eligibility": {
+        "notes": "Premium plan; requires health declaration"
+      },
+      "geographic_coverage": "Kenya / International",
+      "sum_assured": {
+        "min": 5000000,
+        "max": 50000000,
+        "notes": "Sum assured based on Heritage’s elite medical product details from midline.co.ke"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 20000000,
+            "annual_premium": 300000,
+            "notes": "Based on Heritage’s elite medical rates"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 300,000/year for KES 20M elite medical cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Chronic care",
+          "Major disease treatment",
+          "International emergency evacuation",
+          "Premium hospital access"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Experimental treatments"
+      ],
+      "add_ons": ["Maternity cover", "Dental and optical", "Wellness programs"],
+      "claims_process": {
+        "required_documents": ["Medical report", "Hospital bills", "Claim form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Premium hospitals", "International clinics"],
+        "note": "Network of top-tier medical providers"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Top 10 Medical Insurance Companies in Kenya", "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"}
+      ]
+    }
+  ],
+  "last_compiled": "2025-09-13"
+}
