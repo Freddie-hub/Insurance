@@ -11,7 +11,6 @@ export default function Topbar() {
     <header className="bg-gradient-to-r from-white to-gray-100 border-b border-gray-200">
       <div className="max-w-full mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="text-xl font-semibold">Family Funeral Cover Options</div>
           <div className="text-sm text-gray-500">AI-powered insurance recommendations from Kenya's top insurers</div>
         </div>
 
