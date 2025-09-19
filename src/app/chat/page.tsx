@@ -1,11 +1,12 @@
-
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Sidebar from "@/components/sidebar/Sidebar";
 import Topbar from "@/components/topbar/Topbar";
 import ChatWindow from "@/components/chat/ChatWindow";
 import MessageInput from "@/components/chat/MessageInput";
+import { useAuth } from "@/lib/AuthContext";
 
 /**
  * This page composes the chat UI.
@@ -30,8 +31,18 @@ const initialMessages: Message[] = [
 ];
 
 export default function ChatPage() {
+  const { user, loading } = useAuth();
+  const router = useRouter();
   const [messages, setMessages] = useState<Message[]>(initialMessages);
-  const [loading, setLoading] = useState(false);
+  const [chatLoading, setChatLoading] = useState(false);
+
+  useEffect(() => {
+    if (!loading && !user) {
+      router.push("/login");
+    } else if (!loading && user && !user.emailVerified) {
+      router.push("/verify-email");
+    }
+  }, [user, loading, router]);
 
   const addUserMessage = (text: string) => {
     const msg: Message = {
@@ -46,7 +57,7 @@ export default function ChatPage() {
   };
 
   const getAssistantReply = async (userText: string) => {
-    setLoading(true);
+    setChatLoading(true);
     // Mock delay to show typing indicator
     await new Promise((r) => setTimeout(r, 900));
 
@@ -61,7 +72,7 @@ export default function ChatPage() {
     };
 
     setMessages((m) => [...m, assistantMsg]);
-    setLoading(false);
+    setChatLoading(false);
   };
 
   const generateMockReply = (input: string) => {
@@ -109,15 +120,27 @@ export default function ChatPage() {
     getAssistantReply(latestUser.content);
   };
 
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-100">
+        <div className="text-gray-600">Loading...</div>
+      </div>
+    );
+  }
+
+  if (!user || !user.emailVerified) {
+    return null; // useEffect handles redirect
+  }
+
   return (
     <div className="min-h-screen flex">
       <Sidebar />
       <div className="flex-1 flex flex-col">
-        <Topbar />
+        <Topbar user={user} />
         <main className="flex-1 overflow-hidden">
           <div className="h-full flex flex-col">
-            <ChatWindow messages={messages} loading={loading} onRegenerate={regenerateLast} />
-            <MessageInput onSend={addUserMessage} disabled={loading} />
+            <ChatWindow messages={messages} loading={chatLoading} onRegenerate={regenerateLast} />
+            <MessageInput onSend={addUserMessage} disabled={chatLoading} />
           </div>
         </main>
       </div>
