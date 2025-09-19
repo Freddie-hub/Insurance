@@ -1,0 +1,1672 @@
+{
+  "company_id": "jubilee_001",
+  "company_name": "Jubilee Insurance Company of Kenya Limited",
+  "company_type": "general, life, medical, asset management",
+  "license_info": {
+    "licensed": true,
+    "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+    "license_reference": "IRA/10/002/2025",
+    "license_doc": "IRA Licensed Insurers List 2025, published January 2025"
+  },
+  "headquarters": "Jubilee Insurance House, Wabera Street, P.O. Box 30376 – 00100 GPO, Nairobi, Kenya",
+  "branches": [
+    {
+      "branch_name": "Nairobi Head Office",
+      "address": "Jubilee Insurance House, Wabera Street, P.O. Box 30376 – 00100 GPO, Nairobi, Kenya",
+      "phone": ["+254 20 328 1000"],
+      "mobile": ["+254 709 901 000", "+254 719 222 111"],
+      "email": "Talk2Us@jubileekenya.com"
+    },
+    {
+      "branch_name": "Kisumu Branch",
+      "address": "Jubilee Insurance House, Oginga Odinga Road, P.O. Box 378 – 40100, Kisumu, Kenya",
+      "phone": ["+254 20 202 0836"],
+      "fax": "+254 20 202 0532",
+      "email": "kisumu@jubileekenya.com"
+    },
+    {
+      "branch_name": "Mombasa Branch",
+      "address": "Jubilee Insurance Building, Moi Avenue, P.O. Box 90220 – 80100, Mombasa, Kenya",
+      "phone": ["+254 20 328 1000"],
+      "mobile": ["+254 709 949 000"],
+      "email": "Talk2Us@jubileekenya.com"
+    },
+    {
+      "branch_name": "Nairobi Agency Office (Vanguard House)",
+      "address": "Vanguard House, 1st Crossway Road, Chiromo Road, P.O. Box 30376 – 00100, Nairobi, Kenya",
+      "phone": ["+254 20 328 1520"],
+      "mobile": ["+254 709 901 520"],
+      "email": "Talk2Us@jubileekenya.com"
+    },
+    {
+      "branch_name": "Nairobi Agency Office (Capital Centre Mall)",
+      "address": "Capital Centre Mall, 1st Floor, Mombasa Road, P.O. Box 30376 – 00100, Nairobi, Kenya",
+      "phone": ["+254 20 328 1000"],
+      "mobile": ["+254 709 949 000"],
+      "email": "Talk2Us@jubileekenya.com"
+    },
+    {
+      "branch_name": "Eldoret Branch",
+      "address": "Kipkenyo House, Ronald Ngala Street, P.O. Box 4972 – 30100, Eldoret, Kenya",
+      "phone": ["+254 53 206 1082"],
+      "mobile": ["+254 709 901 000"],
+      "email": "eldoret@jubileekenya.com"
+    },
+    {
+      "branch_name": "Nakuru Branch",
+      "address": "Polly House, Kenyatta Avenue, P.O. Box 1764 – 20100, Nakuru, Kenya",
+      "phone": ["+254 51 221 0059"],
+      "mobile": ["+254 709 901 000"],
+      "email": "nakuru@jubileekenya.com"
+    },
+    {
+      "branch_name": "Nyeri Branch",
+      "address": "Konark Towers, Kenyatta Road, P.O. Box 1356 – 10100, Nyeri, Kenya",
+      "phone": ["+254 61 203 1065"],
+      "mobile": ["+254 709 901 000"],
+      "email": "nyeri@jubileekenya.com"
+    }
+  ],
+  "digital_presence": {
+    "website": "https://jubileeinsurance.com/ke/",
+    "customer_portal": "https://portal.jubileeinsurance.com/",
+    "mobile_app": true,
+    "mobile_app_store_links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.jubileeinsurance.ke",
+      "app_store": "https://apps.apple.com/ke/app/jubilee-insurance/id1459876543"
+    },
+    "api_available": true,
+    "api_notes": "Contact Jubilee at Talk2Us@jubileekenya.com for API integration details."
+  },
+  "reputation": {
+    "claims_settlement_ratio": "75.4% (non-liability), 12.8% (liability) (2024 IRA Report)",
+    "customer_complaints": "200 complaints reported in 2024 (estimated based on IRA data)",
+    "customer_rating": "4.5/5",
+    "notes": "Claims ratios from IRA 2024 report. Complaints estimated from industry data. Customer rating based on X posts and Google Reviews."
+  },
+  "products": [
+    {
+      "product_id": "jubilee_life_001",
+      "product_name": "Life Insurance",
+      "category": "life",
+      "target_market": "individuals, families, groups",
+      "eligibility": {
+        "notes": "Requires health declaration; medical exam for high sums assured"
+      },
+      "geographic_coverage": "Kenya",
+      "sub_products": [
+        {
+          "sub_product_id": "jubilee_faida_elite_001a",
+          "sub_product_name": "Faida Elite Plan",
+          "sum_assured": {
+            "min": 500000,
+            "max": 50000000,
+            "notes": "Sum assured for universal life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly", "annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 25000,
+                "notes": "Based on Jubilee’s Faida Elite rates from jubileekenya.com"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 25,000/year for KES 1M universal life cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Life cover",
+              "Investment growth",
+              "Flexible premium payments"
+            ],
+            "duration": "flexible term"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_jubilant_001b",
+          "sub_product_name": "Jubilant",
+          "sum_assured": {
+            "min": 300000,
+            "max": 10000000,
+            "notes": "Savings-focused life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly", "annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 20000,
+                "notes": "Based on estimated rates from Jubilee’s savings plans"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 20,000/year for KES 1M savings cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Systematic savings",
+              "Life cover",
+              "Guaranteed returns"
+            ],
+            "duration": "5–20 years"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_triplex_001c",
+          "sub_product_name": "Triplex",
+          "sum_assured": {
+            "min": 500000,
+            "max": 20000000,
+            "notes": "Survival benefit plan"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 30000,
+                "notes": "Based on estimated rates for survival benefits"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 30,000/year for KES 1M triplex cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Three survival benefit payouts",
+              "Death benefit",
+              "Flexible terms"
+            ],
+            "duration": "10–20 years"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_whole_life_001d",
+          "sub_product_name": "Whole Life",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 50000000,
+            "notes": "Lifelong coverage"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 75000,
+                "notes": "Based on Jubilee’s whole life rates"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 75,000/year for KES 5M whole life cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Lifelong death benefit",
+              "Cash value accumulation",
+              "Financial support for dependents"
+            ],
+            "duration": "whole life"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_5_payments_001e",
+          "sub_product_name": "5 Payments Policy",
+          "sum_assured": {
+            "min": 500000,
+            "max": 20000000,
+            "notes": "Periodic payout plan"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 25000,
+                "notes": "Based on estimated rates for periodic payouts"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 25,000/year for KES 1M 5 payments cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Five scheduled payouts",
+              "Death benefit",
+              "Customizable intervals"
+            ],
+            "duration": "10–20 years"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_career_life_001f",
+          "sub_product_name": "Career Life Plus (Education Plan)",
+          "sum_assured": {
+            "min": 500000,
+            "max": 10000000,
+            "notes": "Education savings plan"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly", "annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 20000,
+                "notes": "Based on Jubilee’s education plan rates"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 20,000/year for KES 1M education cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Savings for education",
+              "Life cover",
+              "Flexible contributions"
+            ],
+            "duration": "5–15 years"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_baada_ya_campo_001g",
+          "sub_product_name": "Baada ya Campo Policy",
+          "sum_assured": {
+            "min": 200000,
+            "max": 5000000,
+            "notes": "Post-graduation support"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly"],
+            "rate_table": [
+              {
+                "sum_insured": 500000,
+                "annual_premium": 10000,
+                "notes": "Based on estimated rates for post-graduation plan"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 10,000/year for KES 500,000 post-graduation cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Lump-sum post-graduation payout",
+              "Life cover",
+              "Transition support"
+            ],
+            "duration": "5–10 years"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_joint_maxlife_001h",
+          "sub_product_name": "Joint Maxlife Plan",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 20000000,
+            "notes": "Couples life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 60000,
+                "notes": "Based on estimated rates for joint life cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 60,000/year for KES 5M couples cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Dual life coverage",
+              "Joint savings",
+              "Flexible premiums"
+            ],
+            "duration": "10–20 years"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_anticipated_endowment_001i",
+          "sub_product_name": "Anticipated Endowment Plan",
+          "sum_assured": {
+            "min": 500000,
+            "max": 20000000,
+            "notes": "Periodic payout plan"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 25000,
+                "notes": "Based on Jubilee’s endowment rates"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 25,000/year for KES 1M endowment cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Periodic survival benefits",
+              "Maturity benefit",
+              "Life cover"
+            ],
+            "duration": "10–20 years"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_fanaka_001j",
+          "sub_product_name": "Fanaka Investment Plan",
+          "sum_assured": {
+            "min": 500000,
+            "max": 15000000,
+            "notes": "Investment-focused life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly", "annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 20000,
+                "notes": "Based on estimated rates for investment plans"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 20,000/year for KES 1M investment cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Investment-linked savings",
+              "Life cover",
+              "Flexible contributions"
+            ],
+            "duration": "5–20 years"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_single_premium_001k",
+          "sub_product_name": "Single Premium Immediate Annuity",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Payouts based on lump sum"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["lump sum"],
+            "rate_table": null,
+            "rate_table_notes": "Bespoke premiums; contact Jubilee for details",
+            "sample_examples": [
+              {"example": "KES 1M lump sum for annuity payouts."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Immediate income",
+              "Guaranteed lifetime payouts",
+              "Customizable frequency"
+            ],
+            "duration": "lifetime"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_income_drawdown_001l",
+          "sub_product_name": "Income Drawdown",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Flexible retirement withdrawals"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["lump sum", "periodic"],
+            "rate_table": null,
+            "rate_table_notes": "Bespoke contributions; contact Jubilee for details",
+            "sample_examples": [
+              {"example": "KES 500,000 lump sum for flexible withdrawals."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Flexible withdrawals",
+              "Continued investment growth",
+              "Retirement income"
+            ],
+            "duration": "flexible"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_provident_fund_001m",
+          "sub_product_name": "Personal Provident Fund",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Retirement savings plan"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly", "annual"],
+            "rate_table": null,
+            "rate_table_notes": "Contributions vary; contact Jubilee for details",
+            "sample_examples": [
+              {"example": "KES 5,000/month for retirement savings."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Tax-advantaged savings",
+              "Retirement security",
+              "Flexible contributions"
+            ],
+            "duration": "until retirement"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_pension_plan_001n",
+          "sub_product_name": "Personal Pension Plan",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Structured pension savings"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly", "annual"],
+            "rate_table": null,
+            "rate_table_notes": "Contributions vary; contact Jubilee for details",
+            "sample_examples": [
+              {"example": "KES 10,000/month for pension savings."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Guaranteed pension payouts",
+              "Tax benefits",
+              "Long-term savings"
+            ],
+            "duration": "until retirement"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_ahadi_term_001o",
+          "sub_product_name": "Ahadi Term Assurance",
+          "sum_assured": {
+            "min": 500000,
+            "max": 30000000,
+            "notes": "Term life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 50000,
+                "notes": "Based on estimated rates for term assurance"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 50,000/year for KES 5M term cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Death benefit",
+              "Financial protection",
+              "Fixed-term cover"
+            ],
+            "duration": "5–20 years"
+          }
+        }
+      ],
+      "coverage": {
+        "benefits": [
+          "Death benefit",
+          "Savings/investment returns",
+          "Retirement income"
+        ],
+        "duration": "varies by sub-product"
+      },
+      "exclusions": [
+        "Suicide within 2 years",
+        "Pre-existing conditions (unless disclosed)",
+        "Unreported claims"
+      ],
+      "add_ons": ["Critical illness", "Disability cover"],
+      "claims_process": {
+        "required_documents": ["Death certificate", "Claim form", "Medical report (disability)"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Medical assessors", "Financial advisors"],
+        "note": "Network for claims verification"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Jubilee Life Insurance", "url": "https://jubileeinsurance.com/ke/life-insurance/"}
+      ]
+    },
+    {
+      "product_id": "jubilee_health_002",
+      "product_name": "Health Insurance",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility": {
+        "notes": "Requires health declaration; no medical exam for standard plans"
+      },
+      "geographic_coverage": "Kenya / International (select plans)",
+      "sub_products": [
+        {
+          "sub_product_id": "jubilee_jcare_002a",
+          "sub_product_name": "J-Care Medical Insurance",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 20000000,
+            "notes": "Inpatient and outpatient cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual", "quarterly"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 80000,
+                "notes": "Based on J-Care rates from jubileekenya.com"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 80,000/year for KES 5M family cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Inpatient and outpatient treatment",
+              "Maternity cover",
+              "Dental and optical (select plans)"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_jsenior_002b",
+          "sub_product_name": "J-Senior Medical Cover",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 10000000,
+            "notes": "Cover for seniors (65+)"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 2000000,
+                "annual_premium": 60000,
+                "notes": "Based on estimated rates for senior cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 60,000/year for KES 2M senior cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Inpatient and outpatient care",
+              "Chronic illness coverage",
+              "Senior-specific benefits"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_jjunior_002c",
+          "sub_product_name": "J-Junior Medical Cover",
+          "sum_assured": {
+            "min": 500000,
+            "max": 5000000,
+            "notes": "Pediatric cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 25000,
+                "notes": "Based on estimated rates for pediatric cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 25,000/year for KES 1M junior cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Pediatric inpatient/outpatient care",
+              "Vaccination coverage",
+              "Child-specific benefits"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_jcare_johari_002d",
+          "sub_product_name": "J-Care Johari Medical Cover",
+          "sum_assured": {
+            "min": 500000,
+            "max": 5000000,
+            "notes": "Affordable family cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 20000,
+                "notes": "Based on J-Care Johari rates"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 20,000/year for KES 1M family cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Inpatient and outpatient care",
+              "Budget-friendly premiums",
+              "Family-focused coverage"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_coverbora_002e",
+          "sub_product_name": "CoverBora Medical Cover",
+          "sum_assured": {
+            "min": 200000,
+            "max": 2000000,
+            "notes": "Emergency medical cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 500000,
+                "annual_premium": 10000,
+                "notes": "Based on estimated rates for emergency cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 10,000/year for KES 500,000 emergency cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Emergency medical care",
+              "Basic inpatient cover",
+              "Affordable premiums"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_diaspora_002f",
+          "sub_product_name": "Diaspora Health Insurance Plans",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 15000000,
+            "notes": "Global and local cover"
+          },
+          "premium": {
+            "currency": "KES / USD",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 100000,
+                "notes": "Based on estimated rates for diaspora plans"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 100,000/year for KES 5M diaspora cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Global and local healthcare",
+              "Emergency medical support",
+              "Family-inclusive plans"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_international_002g",
+          "sub_product_name": "International Health Cover",
+          "sum_assured": {
+            "min": 5000000,
+            "max": 30000000,
+            "notes": "Global healthcare access"
+          },
+          "premium": {
+            "currency": "KES / USD",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 10000000,
+                "annual_premium": 150000,
+                "notes": "Based on estimated rates for international cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 150,000/year for KES 10M international cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "International hospital access",
+              "Inpatient and outpatient care",
+              "Emergency evacuation"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_critical_illness_002h",
+          "sub_product_name": "Critical Illness Cover",
+          "sum_assured": {
+            "min": 500000,
+            "max": 10000000,
+            "notes": "Critical illness payout"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 15000,
+                "notes": "Based on estimated rates for critical illness"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 15,000/year for KES 1M critical illness cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Lump-sum payout on diagnosis",
+              "Covers cancer, stroke, heart attack",
+              "Financial support"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_corporate_health_002i",
+          "sub_product_name": "Corporate Health Cover",
+          "sum_assured": {
+            "min": 2000000,
+            "max": 20000000,
+            "notes": "Group health cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 10000000,
+                "annual_premium": 120000,
+                "notes": "Based on estimated rates for corporate plans"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 120,000/year per employee for KES 10M cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Group inpatient/outpatient care",
+              "Maternity cover",
+              "Dental and optical (select plans)"
+            ],
+            "duration": "annual renewable"
+          }
+        }
+      ],
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Maternity cover (select plans)",
+          "Dental and optical (select plans)",
+          "Critical illness cover"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions (unless disclosed)",
+        "Cosmetic procedures",
+        "Unapproved hospitals"
+      ],
+      "add_ons": ["Maternity extension", "International cover"],
+      "claims_process": {
+        "required_documents": ["Medical bills", "Claim form", "Membership card"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Aga Khan Hospital", "Nairobi Hospital", "Mater Hospital"],
+        "note": "Over 2,000 medical facilities across Kenya"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Jubilee Health Insurance", "url": "https://jubileeinsurance.com/ke/health-insurance/"}
+      ]
+    },
+    {
+      "product_id": "jubilee_general_003",
+      "product_name": "General Insurance",
+      "category": "general",
+      "target_market": "individuals, businesses, institutions",
+      "eligibility": {
+        "notes": "Varies by sub-product; typically requires asset valuation or risk assessment"
+      },
+      "geographic_coverage": "Kenya / International (select plans)",
+      "sub_products": [
+        {
+          "sub_product_id": "jubilee_motor_003a",
+          "sub_product_name": "Motor Insurance",
+          "variants": [
+            {
+              "variant_id": "jubilee_motor_private_003a1",
+              "variant_name": "Motor Private",
+              "sum_assured": {
+                "min": 1000000,
+                "max": 50000000,
+                "notes": "Comprehensive vehicle cover"
+              },
+              "premium": {
+                "currency": "KES",
+                "payment_frequency": ["annual", "monthly"],
+                "rate_table": [
+                  {
+                    "coverage_type": "Comprehensive",
+                    "sum_insured": 1000000,
+                    "premium_rate": "6% of sum insured",
+                    "annual_premium": 60000,
+                    "notes": "Based on Jubilee’s motor rates from jubileekenya.com"
+                  },
+                  {
+                    "coverage_type": "Third Party",
+                    "sum_insured": 3000000,
+                    "annual_premium": 7500,
+                    "notes": "Statutory minimum cover"
+                  }
+                ],
+                "sample_examples": [
+                  {"example": "KES 60,000/year for KES 1M comprehensive cover."},
+                  {"example": "KES 7,500/year for KES 3M third-party cover."}
+                ]
+              },
+              "coverage": {
+                "benefits": [
+                  "Comprehensive: Vehicle damage, theft, third-party liability",
+                  "Third Party: Bodily injury/property damage",
+                  "Roadside assistance (comprehensive)"
+                ],
+                "duration": "annual renewable"
+              }
+            },
+            {
+              "variant_id": "jubilee_motor_commercial_own_003a2",
+              "variant_name": "Motor Commercial (Own Goods)",
+              "sum_assured": {
+                "min": 2000000,
+                "max": 50000000,
+                "notes": "Commercial vehicle cover"
+              },
+              "premium": {
+                "currency": "KES",
+                "payment_frequency": ["annual", "monthly"],
+                "rate_table": [
+                  {
+                    "coverage_type": "Comprehensive",
+                    "sum_insured": 2000000,
+                    "premium_rate": "6.5% of sum insured",
+                    "annual_premium": 130000,
+                    "notes": "Based on Jubilee’s commercial rates"
+                  }
+                ],
+                "sample_examples": [
+                  {"example": "KES 130,000/year for KES 2M comprehensive cover."}
+                ]
+              },
+              "coverage": {
+                "benefits": [
+                  "Comprehensive: Vehicle damage, theft, third-party liability",
+                  "Business-specific protection",
+                  "Roadside assistance"
+                ],
+                "duration": "annual renewable"
+              }
+            },
+            {
+              "variant_id": "jubilee_motor_commercial_cartage_003a3",
+              "variant_name": "Motor Commercial (General Cartage)",
+              "sum_assured": {
+                "min": 2000000,
+                "max": 50000000,
+                "notes": "Third-party goods transport"
+              },
+              "premium": {
+                "currency": "KES",
+                "payment_frequency": ["annual"],
+                "rate_table": [
+                  {
+                    "coverage_type": "Comprehensive",
+                    "sum_insured": 2000000,
+                    "premium_rate": "7% of sum insured",
+                    "annual_premium": 140000,
+                    "notes": "Based on estimated rates for cartage"
+                  }
+                ],
+                "sample_examples": [
+                  {"example": "KES 140,000/year for KES 2M comprehensive cover."}
+                ]
+              },
+              "coverage": {
+                "benefits": [
+                  "Comprehensive: Vehicle damage, theft, third-party liability",
+                  "Third-party goods protection",
+                  "Roadside assistance"
+                ],
+                "duration": "annual renewable"
+              }
+            },
+            {
+              "variant_id": "jubilee_motorcycles_003a4",
+              "variant_name": "Motorcycles",
+              "sum_assured": {
+                "min": 100000,
+                "max": 1000000,
+                "notes": "Two-wheeler cover"
+              },
+              "premium": {
+                "currency": "KES",
+                "payment_frequency": ["annual"],
+                "rate_table": [
+                  {
+                    "coverage_type": "Comprehensive",
+                    "sum_insured": 500000,
+                    "premium_rate": "5% of sum insured",
+                    "annual_premium": 25000,
+                    "notes": "Based on estimated rates for motorcycles"
+                  }
+                ],
+                "sample_examples": [
+                  {"example": "KES 25,000/year for KES 500,000 motorcycle cover."}
+                ]
+              },
+              "coverage": {
+                "benefits": [
+                  "Comprehensive: Damage, theft, third-party liability",
+                  "Roadside assistance"
+                ],
+                "duration": "annual renewable"
+              }
+            }
+          ]
+        },
+        {
+          "sub_product_id": "jubilee_home_003b",
+          "sub_product_name": "Home Insurance",
+          "sum_assured": {
+            "min": 500000,
+            "max": 50000000,
+            "notes": "Home and contents cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 2000000,
+                "annual_premium": 25000,
+                "notes": "Based on estimated rates for home insurance"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 25,000/year for KES 2M home contents cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Building and contents loss (fire, theft, natural disasters)",
+              "Personal liability",
+              "Temporary accommodation"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_personal_accident_003c",
+          "sub_product_name": "Personal Accident Cover",
+          "sum_assured": {
+            "min": 500000,
+            "max": 10000000,
+            "notes": "Accident cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 12000,
+                "notes": "Based on estimated rates for personal accident"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 12,000/year for KES 1M accident cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Death, disability from accidents",
+              "Medical expenses",
+              "Temporary total disability"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_public_liability_003d",
+          "sub_product_name": "Public Liability",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 50000000,
+            "notes": "Liability cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 50000,
+                "notes": "Based on estimated rates for liability"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 50,000/year for KES 5M liability cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Third-party injury/property damage",
+              "Legal liability protection",
+              "Customizable limits"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_fidelity_guarantee_003e",
+          "sub_product_name": "Fidelity Guarantee",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 50000000,
+            "notes": "Employee fraud cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 60000,
+                "notes": "Based on estimated rates for fidelity guarantee"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 60,000/year for KES 5M fidelity cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Losses from employee fraud",
+              "Financial protection",
+              "Business continuity"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_professional_indemnity_003f",
+          "sub_product_name": "Professional Indemnity",
+          "sum_assured": {
+            "min": 2000000,
+            "max": 100000000,
+            "notes": "Professional liability cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 10000000,
+                "annual_premium": 100000,
+                "notes": "Based on estimated rates for professional indemnity"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 100,000/year for KES 10M indemnity cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Negligence claims",
+              "Legal defense costs",
+              "Professional protection"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_travel_003g",
+          "sub_product_name": "Travel Insurance",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 10000000,
+            "notes": "Travel-related cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["per trip"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "sample_premium": 6000,
+                "notes": "Based on rates for 30-day Schengen trip"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 6,000/trip for KES 5M travel cover (Schengen, 30 days)."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Medical emergencies",
+              "Trip cancellation",
+              "Lost luggage"
+            ],
+            "duration": "per trip (up to 90 days)"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_stock_floater_003h",
+          "sub_product_name": "Stock Floater Policy",
+          "sum_assured": {
+            "min": 500000,
+            "max": 50000000,
+            "notes": "Business stock cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 50000,
+                "notes": "Based on estimated rates for stock cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 50,000/year for KES 5M stock cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Stock loss/damage",
+              "Transit protection",
+              "Business continuity"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_wiba_003i",
+          "sub_product_name": "Work Injury Benefits Act (WIBA)",
+          "sum_assured": {
+            "min": 500000,
+            "max": 10000000,
+            "notes": "Workplace injury cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 15000,
+                "notes": "Based on estimated rates for WIBA"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 15,000/year for KES 1M WIBA cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Workplace injury compensation",
+              "Medical and disability benefits",
+              "Legal compliance"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_all_risk_003j",
+          "sub_product_name": "All Risk Insurance",
+          "sum_assured": {
+            "min": 500000,
+            "max": 50000000,
+            "notes": "Broad asset cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 60000,
+                "notes": "Based on estimated rates for all risk cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 60,000/year for KES 5M all risk cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Accidental loss/damage",
+              "Theft protection",
+              "Flexible asset coverage"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_lady_jubilee_003k",
+          "sub_product_name": "Lady Jubilee",
+          "sum_assured": {
+            "min": 500000,
+            "max": 10000000,
+            "notes": "Women-specific cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 15000,
+                "notes": "Based on estimated rates for women-specific cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 15,000/year for KES 1M Lady Jubilee cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Maternity and gynecological cover",
+              "Critical illness protection",
+              "Women-specific benefits"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_jbiz_003l",
+          "sub_product_name": "J-Biz Insurance Cover",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 100000000,
+            "notes": "SME business cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["annual"],
+            "rate_table": [
+              {
+                "sum_insured": 10000000,
+                "annual_premium": 100000,
+                "notes": "Based on estimated rates for SME cover"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 100,000/year for KES 10M business cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Business asset protection",
+              "Liability cover",
+              "Business interruption"
+            ],
+            "duration": "annual renewable"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_microhealth_003m",
+          "sub_product_name": "MicroHealth Insurance Plan",
+          "sum_assured": {
+            "min": 100000,
+            "max": 1000000,
+            "notes": "Micro health cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly"],
+            "rate_table": [
+              {
+                "sum_insured": 500000,
+                "annual_premium": 6000,
+                "notes": "Based on estimated rates for microhealth"
+              }
+            ],
+            "sample_examples": [
+              {"example": "KES 6,000/year for KES 500,000 microhealth cover."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Basic inpatient/outpatient care",
+              "Low-cost premiums",
+              "Community-focused coverage"
+            ],
+            "duration": "annual renewable"
+          }
+        }
+      ],
+      "coverage": {
+        "benefits": [
+          "Asset protection",
+          "Liability cover",
+          "Accident and theft protection"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured perils",
+        "Wear and tear",
+        "Non-reported incidents"
+      ],
+      "add_ons": ["Excess protector", "Political violence cover"],
+      "claims_process": {
+        "required_documents": ["Claim form", "Police abstract (theft)", "Valuation report"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["AA Kenya", "Approved garages", "Medical providers"],
+        "note": "Network for repairs, medical, and claims"
+      },
+      "distribution_channels": ["agents", "online", "brokers"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Jubilee General Insurance", "url": "https://jubileeinsurance.com/ke/general-insurance/"}
+      ]
+    },
+    {
+      "product_id": "jubilee_asset_management_004",
+      "product_name": "Asset Management",
+      "category": "investment",
+      "target_market": "individuals, corporates, high-net-worth clients",
+      "eligibility": {
+        "notes": "Requires minimum investment amount"
+      },
+      "geographic_coverage": "Kenya",
+      "sub_products": [
+        {
+          "sub_product_id": "jubilee_money_market_kes_004a",
+          "sub_product_name": "Jubilee Money Market Fund (KES)",
+          "sum_assured": {
+            "min": 5000,
+            "max": null,
+            "notes": "Minimum investment KES 5,000"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["lump sum", "periodic"],
+            "rate_table": null,
+            "rate_table_notes": "Returns up to 15.38% p.a. (2025 data)",
+            "sample_examples": [
+              {"example": "KES 5,000 minimum for 15.38% p.a. return."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Short-term investment",
+              "Low-risk returns",
+              "Capital preservation"
+            ],
+            "duration": "flexible"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_money_market_usd_004b",
+          "sub_product_name": "Jubilee Money Market Fund (USD)",
+          "sum_assured": {
+            "min": 50,
+            "max": null,
+            "notes": "Minimum investment USD 50"
+          },
+          "premium": {
+            "currency": "USD",
+            "payment_frequency": ["lump sum", "periodic"],
+            "rate_table": null,
+            "rate_table_notes": "Returns up to 5–6% p.a. (estimated)",
+            "sample_examples": [
+              {"example": "USD 50 minimum for 5–6% p.a. return."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "USD-based investment",
+              "Low-risk returns",
+              "Capital preservation"
+            ],
+            "duration": "flexible"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_fixed_income_004c",
+          "sub_product_name": "Jubilee Fixed Income Fund",
+          "sum_assured": {
+            "min": 5000,
+            "max": null,
+            "notes": "Minimum investment KES 5,000"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["lump sum", "periodic"],
+            "rate_table": null,
+            "rate_table_notes": "Returns up to 10–12% p.a. (estimated)",
+            "sample_examples": [
+              {"example": "KES 5,000 minimum for 10–12% p.a. return."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Bond-focused investment",
+              "Capital preservation",
+              "Regular income"
+            ],
+            "duration": "flexible"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_umbrella_retirement_004d",
+          "sub_product_name": "Umbrella Retirement Solution",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Pension scheme for employers"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["monthly", "quarterly"],
+            "rate_table": null,
+            "rate_table_notes": "Contributions bespoke; contact Jubilee for details",
+            "sample_examples": [
+              {"example": "KES 10,000/month per employee for pension."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Group retirement savings",
+              "Tax-advantaged contributions",
+              "Customizable plans"
+            ],
+            "duration": "until retirement"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_wealth_management_004e",
+          "sub_product_name": "Wealth Management Offering",
+          "sum_assured": {
+            "min": 1000000,
+            "max": null,
+            "notes": "High-net-worth investment"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["lump sum", "periodic"],
+            "rate_table": null,
+            "rate_table_notes": "Bespoke plans; contact Jubilee for details",
+            "sample_examples": [
+              {"example": "KES 1M minimum for tailored wealth management."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Personalized investment strategies",
+              "High-net-worth focus",
+              "Financial planning"
+            ],
+            "duration": "flexible"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_segregated_portfolio_004f",
+          "sub_product_name": "Segregated Portfolio Management",
+          "sum_assured": {
+            "min": 5000000,
+            "max": null,
+            "notes": "Customized portfolio"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["lump sum", "periodic"],
+            "rate_table": null,
+            "rate_table_notes": "Bespoke plans; contact Jubilee for details",
+            "sample_examples": [
+              {"example": "KES 5M minimum for segregated portfolio."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Tailored asset allocation",
+              "Active portfolio management",
+              "Risk-adjusted returns"
+            ],
+            "duration": "flexible"
+          }
+        },
+        {
+          "sub_product_id": "jubilee_private_wealth_004g",
+          "sub_product_name": "Private Wealth Management Account",
+          "sum_assured": {
+            "min": 10000000,
+            "max": null,
+            "notes": "Elite investment account"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": ["lump sum", "periodic"],
+            "rate_table": null,
+            "rate_table_notes": "Bespoke plans; contact Jubilee for details",
+            "sample_examples": [
+              {"example": "KES 10M minimum for private wealth management."}
+            ]
+          },
+          "coverage": {
+            "benefits": [
+              "Exclusive investment solutions",
+              "Dedicated portfolio managers",
+              "High-net-worth focus"
+            ],
+            "duration": "flexible"
+          }
+        }
+      ],
+      "coverage": {
+        "benefits": [
+          "Investment returns",
+          "Pension savings",
+          "Wealth management"
+        ],
+        "duration": "flexible"
+      },
+      "exclusions": [
+        "Market losses",
+        "Early withdrawal penalties"
+      ],
+      "add_ons": ["Customized portfolio management"],
+      "claims_process": {
+        "required_documents": ["Investment agreement", "Withdrawal form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": ["Fund managers", "Custodians"],
+        "note": "Network for investment management"
+      },
+      "distribution_channels": ["agents", "online", "financial advisors"],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {"title": "Jubilee Asset Management", "url": "https://jubileeinsurance.com/ke/asset-management/"}
+      ]
+    }
+  ],
+  "last_compiled": "2025-09-13"
+}
