@@ -47,20 +47,25 @@ def validate_json_structure(data: Dict[str, Any]) -> None:
         logger.error("Products must be a list")
         raise ValueError("Products must be a list")
     
-    # Validate product fields (adapted for CIC structure)
+    # Validate product fields for Liberty Insurance
     product_keys = [
         'product_id', 'product_name', 'category', 'target_market',
-        'eligibility', 'geographic_coverage', 'premium', 'coverage',
-        'exclusions', 'claims_process', 'distribution_channels'
+        'eligibility', 'geographic_coverage', 'last_updated', 'sources'
     ]
     for product in data['products']:
         for key in product_keys:
             if key not in product:
                 logger.warning(f"Product {product.get('product_id', 'unknown')} missing key: {key}")
-        # Check for sub_products if present
-        if 'sub_products' in product and not isinstance(product['sub_products'], list):
-            logger.error(f"Sub_products in {product.get('product_id', 'unknown')} must be a list")
-            raise ValueError("Sub_products must be a list")
+        # Validate sub-products if present
+        if 'sub_products' in product:
+            if not isinstance(product['sub_products'], list):
+                logger.error(f"Sub-products for {product['product_id']} must be a list")
+                raise ValueError(f"Sub-products for {product['product_id']} must be a list")
+            sub_product_keys = ['sub_product_name']
+            for sub_product in product['sub_products']:
+                for key in sub_product_keys:
+                    if key not in sub_product:
+                        logger.warning(f"Sub-product {sub_product.get('sub_product_name', 'unknown')} missing key: {key}")
 
 def flatten_dict(d: Dict[str, Any], parent_key: str = '', sep: str = '_') -> Dict[str, Any]:
     """Flatten a nested dictionary."""
@@ -69,8 +74,7 @@ def flatten_dict(d: Dict[str, Any], parent_key: str = '', sep: str = '_') -> Dic
         new_key = f"{parent_key}{sep}{key}" if parent_key else key
         if isinstance(value, dict):
             items.extend(flatten_dict(value, new_key, sep).items())
-        elif isinstance(value, list) and key not in ['branches', 'products', 'sub_products', 'variants']:
-            # Concatenate lists into strings for non-entity lists
+        elif isinstance(value, list) and key not in ['branches', 'products', 'sub_products', 'rate_table', 'sample_examples', 'benefits', 'exclusions', 'add_ons', 'required_documents', 'partners', 'sources']:
             items.append((new_key, ', '.join(str(v) for v in value if isinstance(v, str))))
         else:
             items.append((new_key, value))
@@ -78,7 +82,7 @@ def flatten_dict(d: Dict[str, Any], parent_key: str = '', sep: str = '_') -> Dic
 
 def normalize_data(data: Dict[str, Any]) -> Dict[str, Any]:
     """Normalize and flatten company data."""
-    normalized = {'company_metadata': {}, 'branches': [], 'products': []}
+    normalized = {'company_metadata': {}, 'branches': [], 'products': [], 'sub_products': []}
     
     # Flatten company metadata
     company_data = {k: v for k, v in data.items() if k not in ['branches', 'products']}
@@ -91,13 +95,22 @@ def normalize_data(data: Dict[str, Any]) -> Dict[str, Any]:
         branch_data['branch_id'] = f"{data['company_id']}_branch_{i:03d}"
         normalized['branches'].append(branch_data)
     
-    # Normalize products (flatten but keep sub_products as is for chunking)
+    # Normalize products and sub-products
     for product in data['products']:
-        product_data = flatten_dict(product)
+        product_data = flatten_dict({k: v for k, v in product.items() if k != 'sub_products'})
         product_data['company_id'] = data['company_id']
         normalized['products'].append(product_data)
+        
+        # Normalize sub-products
+        if 'sub_products' in product:
+            for sub_product in product['sub_products']:
+                sub_product_data = flatten_dict(sub_product)
+                sub_product_data['company_id'] = data['company_id']
+                sub_product_data['product_id'] = product['product_id']
+                sub_product_data['sub_product_id'] = f"{product['product_id']}_{sub_product['sub_product_name'].lower().replace(' ', '_')}"
+                normalized['sub_products'].append(sub_product_data)
     
-    logger.info(f"Normalized data: {len(normalized['branches'])} branches, {len(normalized['products'])} products")
+    logger.info(f"Normalized data: {len(normalized['branches'])} branches, {len(normalized['products'])} products, {len(normalized['sub_products'])} sub-products")
     return normalized
 
 def create_text_from_chunk(chunk_data: Dict[str, Any], chunk_type: str) -> str:
@@ -127,74 +140,61 @@ def create_text_from_chunk(chunk_data: Dict[str, Any], chunk_type: str) -> str:
                 f"for {chunk_data['target_market']}. "
                 f"Geographic coverage: {chunk_data['geographic_coverage']}."
             )
+        elif chunk_type == 'sub_product_metadata':
+            text = (
+                f"{chunk_data['sub_product_name']} (ID: {chunk_data['sub_product_id']}) is a "
+                f"sub-product of {chunk_data['product_id']} by {chunk_data['company_id']}. "
+                f"Sum assured: Min {chunk_data.get('sum_assured_min', 'N/A')}, "
+                f"Max {chunk_data.get('sum_assured_max', 'N/A')}."
+            )
         elif chunk_type == 'premium':
             text = (
-                f"Premium for {chunk_data['product_name']} (ID: {chunk_data.get('product_id', 'N/A')}): "
+                f"Premium for {chunk_data['product_name'] or chunk_data.get('sub_product_name', 'N/A')} "
+                f"(ID: {chunk_data.get('product_id') or chunk_data.get('sub_product_id', 'N/A')}): "
                 f"Currency: {chunk_data.get('premium_currency', 'N/A')}, "
-                f"Payment frequency: {chunk_data.get('premium_payment_frequency', 'N/A')}. "
-                f"Sample examples: {chunk_data.get('premium_sample_examples', 'N/A')}. "
-                f"Notes: {chunk_data.get('premium_rate_table_notes', 'N/A')}."
+                f"Sample: {chunk_data.get('premium_sample', 'N/A')}. "
+                f"Sample examples: {chunk_data.get('premium_sample_examples', 'N/A')}."
             )
         elif chunk_type == 'coverage':
             text = (
-                f"Coverage for {chunk_data['product_name']} (ID: {chunk_data.get('product_id', 'N/A')}): "
-                f"Benefits: {chunk_data.get('coverage_benefits', 'N/A')}. "
+                f"Coverage for {chunk_data['product_name'] or chunk_data.get('sub_product_name', 'N/A')} "
+                f"(ID: {chunk_data.get('product_id') or chunk_data.get('sub_product_id', 'N/A')}): "
+                f"Benefits: {chunk_data.get('coverage_benefits', chunk_data.get('coverage', 'N/A'))}. "
                 f"Duration: {chunk_data.get('coverage_duration', 'N/A')}."
             )
         elif chunk_type == 'exclusions':
             text = (
-                f"Exclusions for {chunk_data['product_name']} (ID: {chunk_data.get('product_id', 'N/A')}): "
+                f"Exclusions for {chunk_data['product_name'] or chunk_data.get('sub_product_name', 'N/A')} "
+                f"(ID: {chunk_data.get('product_id') or chunk_data.get('sub_product_id', 'N/A')}): "
                 f"{chunk_data.get('exclusions', 'N/A')}."
             )
         elif chunk_type == 'add_ons':
             text = (
-                f"Add-ons for {chunk_data['product_name']} (ID: {chunk_data.get('product_id', 'N/A')}): "
+                f"Add-ons for {chunk_data['product_name'] or chunk_data.get('sub_product_name', 'N/A')} "
+                f"(ID: {chunk_data.get('product_id') or chunk_data.get('sub_product_id', 'N/A')}): "
                 f"{chunk_data.get('add_ons', 'N/A')}."
             )
         elif chunk_type == 'claims_process':
             text = (
-                f"Claims process for {chunk_data['product_name']} (ID: {chunk_data.get('product_id', 'N/A')}): "
+                f"Claims process for {chunk_data['product_name'] or chunk_data.get('sub_product_name', 'N/A')} "
+                f"(ID: {chunk_data.get('product_id') or chunk_data.get('sub_product_id', 'N/A')}): "
                 f"Required documents: {chunk_data.get('claims_process_required_documents', 'N/A')}. "
                 f"Average turnaround: {chunk_data.get('claims_process_average_turnaround_days', 'N/A')} days. "
                 f"Digital claims supported: {chunk_data.get('claims_process_digital_claims_supported', 'N/A')}."
             )
         elif chunk_type == 'provider_network':
             text = (
-                f"Provider network for {chunk_data['product_name']} (ID: {chunk_data.get('product_id', 'N/A')}): "
+                f"Provider network for {chunk_data['product_name'] or chunk_data.get('sub_product_name', 'N/A')} "
+                f"(ID: {chunk_data.get('product_id') or chunk_data.get('sub_product_id', 'N/A')}): "
                 f"Partners: {chunk_data.get('provider_network_partners', 'N/A')}. "
                 f"Note: {chunk_data.get('provider_network_note', 'N/A')}."
             )
         elif chunk_type == 'sum_assured':
             text = (
-                f"Sum assured for {chunk_data['product_name']} (ID: {chunk_data.get('product_id', 'N/A')}): "
+                f"Sum assured for {chunk_data['product_name'] or chunk_data.get('sub_product_name', 'N/A')} "
+                f"(ID: {chunk_data.get('product_id') or chunk_data.get('sub_product_id', 'N/A')}): "
                 f"Min: {chunk_data.get('sum_assured_min', 'N/A')}, Max: {chunk_data.get('sum_assured_max', 'N/A')}. "
                 f"Notes: {chunk_data.get('sum_assured_notes', 'N/A')}."
-            )
-        elif chunk_type == 'sub_product_metadata':
-            text = (
-                f"Sub-product {chunk_data.get('sub_product_name', 'N/A')} (ID: {chunk_data.get('sub_product_id', 'N/A')}) of parent {chunk_data.get('parent_product_name', 'N/A')}: "
-                f"Geographic coverage: {chunk_data.get('geographic_coverage', 'N/A')}."
-            )
-        elif chunk_type == 'sub_product_premium':
-            text = (
-                f"Premium for sub-product {chunk_data.get('sub_product_name', 'N/A')} (ID: {chunk_data.get('sub_product_id', 'N/A')}) of {chunk_data.get('product_name', 'N/A')}: "
-                f"Currency: {chunk_data.get('currency', 'N/A')}, "
-                f"Payment frequency: {chunk_data.get('payment_frequency', 'N/A')}. "
-                f"Sample examples: {chunk_data.get('sample_examples', 'N/A')}. "
-                f"Notes: {chunk_data.get('rate_table_notes', 'N/A')}."
-            )
-        elif chunk_type == 'sub_product_sum_assured':
-            text = (
-                f"Sum assured for sub-product {chunk_data.get('sub_product_name', 'N/A')} (ID: {chunk_data.get('sub_product_id', 'N/A')}) of {chunk_data.get('product_name', 'N/A')}: "
-                f"Min: {chunk_data.get('min', 'N/A')}, Max: {chunk_data.get('max', 'N/A')}. "
-                f"Notes: {chunk_data.get('notes', 'N/A')}."
-            )
-        elif chunk_type == 'variant':
-            text = (
-                f"Variant {chunk_data.get('variant_name', 'N/A')} of sub-product {chunk_data.get('sub_product_name', 'N/A')} in {chunk_data.get('product_name', 'N/A')}: "
-                f"Minimum investment: {chunk_data.get('minimum_investment', 'N/A')}, "
-                f"Expected return: {chunk_data.get('expected_return', 'N/A')}. "
-                f"Notes: {chunk_data.get('notes', 'N/A')}."
             )
         else:
             text = str(chunk_data)
@@ -213,6 +213,7 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
         'chunk_id': chunk_id,
         'company_id': normalized_data['company_metadata']['company_id'],
         'product_id': None,
+        'sub_product_id': None,
         'chunk_type': 'company_metadata',
         'raw_data': normalized_data['company_metadata'],
         'text': create_text_from_chunk(normalized_data['company_metadata'], 'company_metadata')
@@ -225,10 +226,11 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
             'chunk_id': chunk_id,
             'company_id': branch['company_id'],
             'product_id': None,
+            'sub_product_id': None,
             'chunk_type': 'branch',
             'raw_data': branch,
             'text': create_text_from_chunk(branch, 'branch')
-    })
+        })
     
     # Product chunks
     for product in normalized_data['products']:
@@ -248,12 +250,13 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
             'chunk_id': chunk_id,
             'company_id': product['company_id'],
             'product_id': product_id,
+            'sub_product_id': None,
             'chunk_type': 'product_metadata',
             'raw_data': metadata,
             'text': create_text_from_chunk(metadata, 'product_metadata')
         })
         
-        # Sum assured chunk (adapted for CIC)
+        # Product-level sum assured chunk
         if 'sum_assured' in product:
             sum_assured = product['sum_assured']
             sum_assured['company_id'] = product['company_id']
@@ -264,12 +267,13 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
                 'chunk_id': chunk_id,
                 'company_id': product['company_id'],
                 'product_id': product_id,
+                'sub_product_id': None,
                 'chunk_type': 'sum_assured',
                 'raw_data': sum_assured,
                 'text': create_text_from_chunk(sum_assured, 'sum_assured')
             })
         
-        # Premium chunk
+        # Product-level premium chunk
         if 'premium' in product:
             premium = product['premium']
             premium['company_id'] = product['company_id']
@@ -280,12 +284,13 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
                 'chunk_id': chunk_id,
                 'company_id': product['company_id'],
                 'product_id': product_id,
+                'sub_product_id': None,
                 'chunk_type': 'premium',
                 'raw_data': premium,
                 'text': create_text_from_chunk(premium, 'premium')
             })
         
-        # Coverage chunk
+        # Product-level coverage chunk
         if 'coverage' in product:
             coverage = product['coverage']
             coverage['company_id'] = product['company_id']
@@ -296,12 +301,13 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
                 'chunk_id': chunk_id,
                 'company_id': product['company_id'],
                 'product_id': product_id,
+                'sub_product_id': None,
                 'chunk_type': 'coverage',
                 'raw_data': coverage,
                 'text': create_text_from_chunk(coverage, 'coverage')
             })
         
-        # Exclusions chunk
+        # Product-level exclusions chunk
         if 'exclusions' in product:
             exclusions = {'exclusions': product['exclusions']}
             exclusions['company_id'] = product['company_id']
@@ -312,12 +318,13 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
                 'chunk_id': chunk_id,
                 'company_id': product['company_id'],
                 'product_id': product_id,
+                'sub_product_id': None,
                 'chunk_type': 'exclusions',
                 'raw_data': exclusions,
                 'text': create_text_from_chunk(exclusions, 'exclusions')
             })
         
-        # Add-ons chunk
+        # Product-level add-ons chunk
         if 'add_ons' in product:
             add_ons = {'add_ons': product['add_ons']}
             add_ons['company_id'] = product['company_id']
@@ -328,12 +335,13 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
                 'chunk_id': chunk_id,
                 'company_id': product['company_id'],
                 'product_id': product_id,
+                'sub_product_id': None,
                 'chunk_type': 'add_ons',
                 'raw_data': add_ons,
                 'text': create_text_from_chunk(add_ons, 'add_ons')
             })
         
-        # Claims process chunk
+        # Product-level claims process chunk
         if 'claims_process' in product:
             claims_process = product['claims_process']
             claims_process['company_id'] = product['company_id']
@@ -344,12 +352,13 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
                 'chunk_id': chunk_id,
                 'company_id': product['company_id'],
                 'product_id': product_id,
+                'sub_product_id': None,
                 'chunk_type': 'claims_process',
                 'raw_data': claims_process,
                 'text': create_text_from_chunk(claims_process, 'claims_process')
             })
         
-        # Provider network chunk
+        # Product-level provider network chunk
         if 'provider_network' in product:
             provider_network = product['provider_network']
             provider_network['company_id'] = product['company_id']
@@ -360,101 +369,89 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
                 'chunk_id': chunk_id,
                 'company_id': product['company_id'],
                 'product_id': product_id,
+                'sub_product_id': None,
                 'chunk_type': 'provider_network',
                 'raw_data': provider_network,
                 'text': create_text_from_chunk(provider_network, 'provider_network')
             })
+    
+    # Sub-product chunks
+    for sub_product in normalized_data['sub_products']:
+        sub_product_id = sub_product['sub_product_id']
+        sub_product_name = sub_product['sub_product_name']
+        product_id = sub_product['product_id']
         
-        # Handle sub_products if present
-        if 'sub_products' in product:
-            for sub_index, sub in enumerate(product['sub_products'], 1):
-                sub_id = sub.get('sub_product_id', f"{product_id}_sub_{sub_index:03d}")
-                sub_name = sub.get('sub_product_name', 'N/A')
-                
-                # Sub-product metadata chunk
-                sub_metadata = {
-                    'sub_product_id': sub_id,
-                    'sub_product_name': sub_name,
-                    'company_id': product['company_id'],
-                    'parent_product_id': product_id,
-                    'parent_product_name': product_name
-                }
-                # Add other fields from sub if not nested
-                for key in sub:
-                    if key not in ['sum_assured', 'premium', 'variants']:
-                        sub_metadata[key] = sub[key]
-                chunk_id = str(uuid.uuid4())
-                chunks.append({
-                    'chunk_id': chunk_id,
-                    'company_id': product['company_id'],
-                    'product_id': product_id,
-                    'sub_product_id': sub_id,
-                    'chunk_type': 'sub_product_metadata',
-                    'raw_data': sub_metadata,
-                    'text': create_text_from_chunk(sub_metadata, 'sub_product_metadata')
-                })
-                
-                # Sub-product sum assured chunk
-                if 'sum_assured' in sub:
-                    sub_sum_assured = sub['sum_assured']
-                    sub_sum_assured['company_id'] = product['company_id']
-                    sub_sum_assured['product_id'] = product_id
-                    sub_sum_assured['sub_product_id'] = sub_id
-                    sub_sum_assured['product_name'] = product_name + ' - ' + sub_name
-                    chunk_id = str(uuid.uuid4())
-                    chunks.append({
-                        'chunk_id': chunk_id,
-                        'company_id': product['company_id'],
-                        'product_id': product_id,
-                        'sub_product_id': sub_id,
-                        'chunk_type': 'sub_product_sum_assured',
-                        'raw_data': sub_sum_assured,
-                        'text': create_text_from_chunk(sub_sum_assured, 'sub_product_sum_assured')
-                    })
-                
-                # Sub-product premium chunk
-                if 'premium' in sub:
-                    sub_premium = sub['premium']
-                    sub_premium['company_id'] = product['company_id']
-                    sub_premium['product_id'] = product_id
-                    sub_premium['sub_product_id'] = sub_id
-                    sub_premium['product_name'] = product_name + ' - ' + sub_name
-                    chunk_id = str(uuid.uuid4())
-                    chunks.append({
-                        'chunk_id': chunk_id,
-                        'company_id': product['company_id'],
-                        'product_id': product_id,
-                        'sub_product_id': sub_id,
-                        'chunk_type': 'sub_product_premium',
-                        'raw_data': sub_premium,
-                        'text': create_text_from_chunk(sub_premium, 'sub_product_premium')
-                    })
-                
-                # Handle variants if present in sub_product
-                if 'variants' in sub:
-                    for var_index, variant in enumerate(sub['variants'], 1):
-                        var_id = f"{sub_id}_var_{var_index:03d}"
-                        var_name = variant.get('variant_name', 'N/A')
-                        var_chunk = {
-                            'variant_id': var_id,
-                            'variant_name': var_name,
-                            'company_id': product['company_id'],
-                            'product_id': product_id,
-                            'sub_product_id': sub_id,
-                            'sub_product_name': sub_name,
-                            'product_name': product_name,
-                            **variant
-                        }
-                        chunk_id = str(uuid.uuid4())
-                        chunks.append({
-                            'chunk_id': chunk_id,
-                            'company_id': product['company_id'],
-                            'product_id': product_id,
-                            'sub_product_id': sub_id,
-                            'chunk_type': 'variant',
-                            'raw_data': var_chunk,
-                            'text': create_text_from_chunk(var_chunk, 'variant')
-                        })
+        # Sub-product metadata chunk
+        metadata_fields = [
+            'sub_product_id', 'sub_product_name', 'sum_assured_min', 'sum_assured_max'
+        ]
+        metadata = {k: sub_product.get(k, 'N/A') for k in metadata_fields}
+        metadata['company_id'] = sub_product['company_id']
+        metadata['product_id'] = product_id
+        chunk_id = str(uuid.uuid4())
+        chunks.append({
+            'chunk_id': chunk_id,
+            'company_id': sub_product['company_id'],
+            'product_id': product_id,
+            'sub_product_id': sub_product_id,
+            'chunk_type': 'sub_product_metadata',
+            'raw_data': metadata,
+            'text': create_text_from_chunk(metadata, 'sub_product_metadata')
+        })
+        
+        # Sub-product sum assured chunk
+        if 'sum_assured' in sub_product:
+            sum_assured = sub_product['sum_assured']
+            sum_assured['company_id'] = sub_product['company_id']
+            sum_assured['product_id'] = product_id
+            sum_assured['sub_product_id'] = sub_product_id
+            sum_assured['sub_product_name'] = sub_product_name
+            chunk_id = str(uuid.uuid4())
+            chunks.append({
+                'chunk_id': chunk_id,
+                'company_id': sub_product['company_id'],
+                'product_id': product_id,
+                'sub_product_id': sub_product_id,
+                'chunk_type': 'sum_assured',
+                'raw_data': sum_assured,
+                'text': create_text_from_chunk(sum_assured, 'sum_assured')
+            })
+        
+        # Sub-product premium chunk
+        if 'premium' in sub_product:
+            premium = sub_product['premium']
+            premium['company_id'] = sub_product['company_id']
+            premium['product_id'] = product_id
+            premium['sub_product_id'] = sub_product_id
+            premium['sub_product_name'] = sub_product_name
+            chunk_id = str(uuid.uuid4())
+            chunks.append({
+                'chunk_id': chunk_id,
+                'company_id': sub_product['company_id'],
+                'product_id': product_id,
+                'sub_product_id': sub_product_id,
+                'chunk_type': 'premium',
+                'raw_data': premium,
+                'text': create_text_from_chunk(premium, 'premium')
+            })
+        
+        # Sub-product coverage chunk
+        if 'coverage' in sub_product:
+            coverage = {'coverage': sub_product['coverage']}  # Coverage is a string in sub-products
+            coverage['company_id'] = sub_product['company_id']
+            coverage['product_id'] = product_id
+            coverage['sub_product_id'] = sub_product_id
+            coverage['sub_product_name'] = sub_product_name
+            chunk_id = str(uuid.uuid4())
+            chunks.append({
+                'chunk_id': chunk_id,
+                'company_id': sub_product['company_id'],
+                'product_id': product_id,
+                'sub_product_id': sub_product_id,
+                'chunk_type': 'coverage',
+                'raw_data': coverage,
+                'text': create_text_from_chunk(coverage, 'coverage')
+            })
     
     logger.info(f"Created {len(chunks)} chunks")
     return chunks
@@ -463,26 +460,18 @@ def validate_chunks(chunks: List[Dict[str, Any]], original_data: Dict[str, Any])
     """Validate that all data is captured in chunks."""
     expected_branch_count = len(original_data['branches'])
     expected_product_count = len(original_data['products'])
+    expected_sub_product_count = sum(len(product.get('sub_products', [])) for product in original_data['products'])
     
     branch_chunks = len([c for c in chunks if c['chunk_type'] == 'branch'])
-    product_chunks = len([c for c in chunks if c['chunk_type'].startswith('product_')])
-    sub_product_chunks = len([c for c in chunks if c['chunk_type'].startswith('sub_product_')])
-    variant_chunks = len([c for c in chunks if c['chunk_type'] == 'variant'])
+    product_chunks = len([c for c in chunks if c['chunk_type'] == 'product_metadata'])
+    sub_product_chunks = len([c for c in chunks if c['chunk_type'] == 'sub_product_metadata'])
     
     if branch_chunks != expected_branch_count:
         logger.warning(f"Branch count mismatch: expected {expected_branch_count}, got {branch_chunks}")
-    if product_chunks < expected_product_count:
-        logger.warning(f"Product chunk count too low: expected at least {expected_product_count}, got {product_chunks}")
-    
-    # Additional check for sub_products
-    total_sub_products = sum(len(p.get('sub_products', [])) for p in original_data['products'])
-    if sub_product_chunks < total_sub_products:
-        logger.warning(f"Sub-product chunk count too low: expected at least {total_sub_products}, got {sub_product_chunks}")
-    
-    # Check for variants
-    total_variants = sum(len(sp.get('variants', [])) for p in original_data['products'] for sp in p.get('sub_products', []))
-    if variant_chunks != total_variants:
-        logger.warning(f"Variant count mismatch: expected {total_variants}, got {variant_chunks}")
+    if product_chunks != expected_product_count:
+        logger.warning(f"Product count mismatch: expected {expected_product_count}, got {product_chunks}")
+    if sub_product_chunks != expected_sub_product_count:
+        logger.warning(f"Sub-product count mismatch: expected {expected_sub_product_count}, got {sub_product_chunks}")
 
 def save_chunks(chunks: List[Dict[str, Any]], output_path: str) -> None:
     """Save chunks to a JSON file."""
@@ -495,9 +484,9 @@ def save_chunks(chunks: List[Dict[str, Any]], output_path: str) -> None:
         raise
 
 def main():
-    """Main preprocessing function for CIC.json."""
-    input_path = Path('src/data/raw/CIC.json')
-    output_path = Path('src/data/preprocessed/cic_preprocessed.json')
+    """Main preprocessing function for Liberty.json."""
+    input_path = Path('src/data/raw/Liberty.json')
+    output_path = Path('src/data/preprocessed/liberty_preprocessed.json')
     
     # Ensure output directory exists
     output_path.parent.mkdir(parents=True, exist_ok=True)

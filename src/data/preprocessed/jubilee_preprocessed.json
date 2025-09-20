@@ -1,0 +1,1295 @@
+[
+  {
+    "chunk_id": "192bb364-b987-44ac-bff3-e6e5fa98a75d",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "jubilee_001",
+      "company_name": "Jubilee Insurance Company of Kenya Limited",
+      "company_type": "general, life, medical, asset management",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/10/002/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published January 2025",
+      "headquarters": "Jubilee Insurance House, Wabera Street, P.O. Box 30376 – 00100 GPO, Nairobi, Kenya",
+      "digital_presence_website": "https://jubileeinsurance.com/ke/",
+      "digital_presence_customer_portal": "https://portal.jubileeinsurance.com/",
+      "digital_presence_mobile_app": true,
+      "digital_presence_mobile_app_store_links_google_play": "https://play.google.com/store/apps/details?id=com.jubileeinsurance.ke",
+      "digital_presence_mobile_app_store_links_app_store": "https://apps.apple.com/ke/app/jubilee-insurance/id1459876543",
+      "digital_presence_api_available": true,
+      "digital_presence_api_notes": "Contact Jubilee at Talk2Us@jubileekenya.com for API integration details.",
+      "reputation_claims_settlement_ratio": "75.4% (non-liability), 12.8% (liability) (2024 IRA Report)",
+      "reputation_customer_complaints": "200 complaints reported in 2024 (estimated based on IRA data)",
+      "reputation_customer_rating": "4.5/5",
+      "reputation_notes": "Claims ratios from IRA 2024 report. Complaints estimated from industry data. Customer rating based on X posts and Google Reviews.",
+      "last_compiled": "2025-09-13"
+    },
+    "text": "Jubilee Insurance Company of Kenya Limited is a general, life, medical, asset management insurance company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/10/002/2025. Headquarters: Jubilee Insurance House, Wabera Street, P.O. Box 30376 – 00100 GPO, Nairobi, Kenya. Website: https://jubileeinsurance.com/ke/. Customer rating: 4.5/5, Claims settlement ratio: 75.4% (non-liability), 12.8% (liability) (2024 IRA Report)."
+  },
+  {
+    "chunk_id": "699d586f-1e08-4aef-beba-233377ce8108",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "Jubilee Insurance House, Wabera Street, P.O. Box 30376 – 00100 GPO, Nairobi, Kenya",
+      "phone": "+254 20 328 1000",
+      "mobile": "+254 709 901 000, +254 719 222 111",
+      "email": "Talk2Us@jubileekenya.com",
+      "company_id": "jubilee_001",
+      "branch_id": "jubilee_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: jubilee_001_branch_001) of jubilee_001 is located at Jubilee Insurance House, Wabera Street, P.O. Box 30376 – 00100 GPO, Nairobi, Kenya. Contact phones: +254 20 328 1000. Mobile: +254 709 901 000, +254 719 222 111. Email: Talk2Us@jubileekenya.com."
+  },
+  {
+    "chunk_id": "ff3cb5ce-e7fb-4f5d-8bdb-28ca16e0e9d2",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Jubilee Insurance House, Oginga Odinga Road, P.O. Box 378 – 40100, Kisumu, Kenya",
+      "phone": "+254 20 202 0836",
+      "fax": "+254 20 202 0532",
+      "email": "kisumu@jubileekenya.com",
+      "company_id": "jubilee_001",
+      "branch_id": "jubilee_001_branch_002"
+    },
+    "text": "Branch Kisumu Branch (ID: jubilee_001_branch_002) of jubilee_001 is located at Jubilee Insurance House, Oginga Odinga Road, P.O. Box 378 – 40100, Kisumu, Kenya. Contact phones: +254 20 202 0836. Mobile: N/A. Email: kisumu@jubileekenya.com."
+  },
+  {
+    "chunk_id": "7c85640c-91fa-4045-a90a-39c239c1c590",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "Jubilee Insurance Building, Moi Avenue, P.O. Box 90220 – 80100, Mombasa, Kenya",
+      "phone": "+254 20 328 1000",
+      "mobile": "+254 709 949 000",
+      "email": "Talk2Us@jubileekenya.com",
+      "company_id": "jubilee_001",
+      "branch_id": "jubilee_001_branch_003"
+    },
+    "text": "Branch Mombasa Branch (ID: jubilee_001_branch_003) of jubilee_001 is located at Jubilee Insurance Building, Moi Avenue, P.O. Box 90220 – 80100, Mombasa, Kenya. Contact phones: +254 20 328 1000. Mobile: +254 709 949 000. Email: Talk2Us@jubileekenya.com."
+  },
+  {
+    "chunk_id": "c248d37c-01b1-467d-b8e7-22e582d6bdab",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Agency Office (Vanguard House)",
+      "address": "Vanguard House, 1st Crossway Road, Chiromo Road, P.O. Box 30376 – 00100, Nairobi, Kenya",
+      "phone": "+254 20 328 1520",
+      "mobile": "+254 709 901 520",
+      "email": "Talk2Us@jubileekenya.com",
+      "company_id": "jubilee_001",
+      "branch_id": "jubilee_001_branch_004"
+    },
+    "text": "Branch Nairobi Agency Office (Vanguard House) (ID: jubilee_001_branch_004) of jubilee_001 is located at Vanguard House, 1st Crossway Road, Chiromo Road, P.O. Box 30376 – 00100, Nairobi, Kenya. Contact phones: +254 20 328 1520. Mobile: +254 709 901 520. Email: Talk2Us@jubileekenya.com."
+  },
+  {
+    "chunk_id": "af977a38-544c-4054-b281-6523d7c8aaf9",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Agency Office (Capital Centre Mall)",
+      "address": "Capital Centre Mall, 1st Floor, Mombasa Road, P.O. Box 30376 – 00100, Nairobi, Kenya",
+      "phone": "+254 20 328 1000",
+      "mobile": "+254 709 949 000",
+      "email": "Talk2Us@jubileekenya.com",
+      "company_id": "jubilee_001",
+      "branch_id": "jubilee_001_branch_005"
+    },
+    "text": "Branch Nairobi Agency Office (Capital Centre Mall) (ID: jubilee_001_branch_005) of jubilee_001 is located at Capital Centre Mall, 1st Floor, Mombasa Road, P.O. Box 30376 – 00100, Nairobi, Kenya. Contact phones: +254 20 328 1000. Mobile: +254 709 949 000. Email: Talk2Us@jubileekenya.com."
+  },
+  {
+    "chunk_id": "0f808875-fdc8-4795-9d8c-d0b08fa8313d",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Kipkenyo House, Ronald Ngala Street, P.O. Box 4972 – 30100, Eldoret, Kenya",
+      "phone": "+254 53 206 1082",
+      "mobile": "+254 709 901 000",
+      "email": "eldoret@jubileekenya.com",
+      "company_id": "jubilee_001",
+      "branch_id": "jubilee_001_branch_006"
+    },
+    "text": "Branch Eldoret Branch (ID: jubilee_001_branch_006) of jubilee_001 is located at Kipkenyo House, Ronald Ngala Street, P.O. Box 4972 – 30100, Eldoret, Kenya. Contact phones: +254 53 206 1082. Mobile: +254 709 901 000. Email: eldoret@jubileekenya.com."
+  },
+  {
+    "chunk_id": "eaa82168-0e95-4339-b492-a635f613fd65",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "Polly House, Kenyatta Avenue, P.O. Box 1764 – 20100, Nakuru, Kenya",
+      "phone": "+254 51 221 0059",
+      "mobile": "+254 709 901 000",
+      "email": "nakuru@jubileekenya.com",
+      "company_id": "jubilee_001",
+      "branch_id": "jubilee_001_branch_007"
+    },
+    "text": "Branch Nakuru Branch (ID: jubilee_001_branch_007) of jubilee_001 is located at Polly House, Kenyatta Avenue, P.O. Box 1764 – 20100, Nakuru, Kenya. Contact phones: +254 51 221 0059. Mobile: +254 709 901 000. Email: nakuru@jubileekenya.com."
+  },
+  {
+    "chunk_id": "345a3dbd-00bd-44f5-9073-e399f489ee86",
+    "company_id": "jubilee_001",
+    "product_id": null,
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nyeri Branch",
+      "address": "Konark Towers, Kenyatta Road, P.O. Box 1356 – 10100, Nyeri, Kenya",
+      "phone": "+254 61 203 1065",
+      "mobile": "+254 709 901 000",
+      "email": "nyeri@jubileekenya.com",
+      "company_id": "jubilee_001",
+      "branch_id": "jubilee_001_branch_008"
+    },
+    "text": "Branch Nyeri Branch (ID: jubilee_001_branch_008) of jubilee_001 is located at Konark Towers, Kenyatta Road, P.O. Box 1356 – 10100, Nyeri, Kenya. Contact phones: +254 61 203 1065. Mobile: +254 709 901 000. Email: nyeri@jubileekenya.com."
+  },
+  {
+    "chunk_id": "c92d2dca-b4c4-4402-9073-1e11ee79753e",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "jubilee_life_001",
+      "product_name": "Life Insurance",
+      "category": "life",
+      "target_market": "individuals, families, groups",
+      "eligibility_notes": "Requires health declaration; medical exam for high sums assured",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Jubilee Life Insurance",
+          "url": "https://jubileeinsurance.com/ke/life-insurance/"
+        }
+      ],
+      "company_id": "jubilee_001"
+    },
+    "text": "Life Insurance (ID: jubilee_life_001) is a life insurance product by jubilee_001 for individuals, families, groups. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "c9be1f4a-3f87-457a-90c6-3dc69ed83aea",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Suicide within 2 years",
+        "Pre-existing conditions (unless disclosed)",
+        "Unreported claims"
+      ],
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001",
+      "product_name": "Life Insurance"
+    },
+    "text": "Exclusions for Life Insurance (ID: jubilee_life_001): ['Suicide within 2 years', 'Pre-existing conditions (unless disclosed)', 'Unreported claims']."
+  },
+  {
+    "chunk_id": "b5315970-c9d9-43ef-88ca-6dce3bb906aa",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Critical illness",
+        "Disability cover"
+      ],
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001",
+      "product_name": "Life Insurance"
+    },
+    "text": "Add-ons for Life Insurance (ID: jubilee_life_001): ['Critical illness', 'Disability cover']."
+  },
+  {
+    "chunk_id": "8d56da46-6c35-4417-bfe9-3dd4ee0a47e8",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "jubilee_health_002",
+      "product_name": "Health Insurance",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility_notes": "Requires health declaration; no medical exam for standard plans",
+      "geographic_coverage": "Kenya / International (select plans)",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Jubilee Health Insurance",
+          "url": "https://jubileeinsurance.com/ke/health-insurance/"
+        }
+      ],
+      "company_id": "jubilee_001"
+    },
+    "text": "Health Insurance (ID: jubilee_health_002) is a medical insurance product by jubilee_001 for individuals, families, corporates. Geographic coverage: Kenya / International (select plans)."
+  },
+  {
+    "chunk_id": "3cdb91c1-2eed-4abd-8ede-d664c602e6fd",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions (unless disclosed)",
+        "Cosmetic procedures",
+        "Unapproved hospitals"
+      ],
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002",
+      "product_name": "Health Insurance"
+    },
+    "text": "Exclusions for Health Insurance (ID: jubilee_health_002): ['Pre-existing conditions (unless disclosed)', 'Cosmetic procedures', 'Unapproved hospitals']."
+  },
+  {
+    "chunk_id": "10a2b24c-34f2-45a3-a023-9b5096163ed1",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity extension",
+        "International cover"
+      ],
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002",
+      "product_name": "Health Insurance"
+    },
+    "text": "Add-ons for Health Insurance (ID: jubilee_health_002): ['Maternity extension', 'International cover']."
+  },
+  {
+    "chunk_id": "35332a7b-d94c-4adc-98b3-bac25cc11025",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "jubilee_general_003",
+      "product_name": "General Insurance",
+      "category": "general",
+      "target_market": "individuals, businesses, institutions",
+      "eligibility_notes": "Varies by sub-product; typically requires asset valuation or risk assessment",
+      "geographic_coverage": "Kenya / International (select plans)",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Jubilee General Insurance",
+          "url": "https://jubileeinsurance.com/ke/general-insurance/"
+        }
+      ],
+      "company_id": "jubilee_001"
+    },
+    "text": "General Insurance (ID: jubilee_general_003) is a general insurance product by jubilee_001 for individuals, businesses, institutions. Geographic coverage: Kenya / International (select plans)."
+  },
+  {
+    "chunk_id": "fb51198d-ef0e-438d-95db-edda5808daf9",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Uninsured perils",
+        "Wear and tear",
+        "Non-reported incidents"
+      ],
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003",
+      "product_name": "General Insurance"
+    },
+    "text": "Exclusions for General Insurance (ID: jubilee_general_003): ['Uninsured perils', 'Wear and tear', 'Non-reported incidents']."
+  },
+  {
+    "chunk_id": "04ee80b7-db57-45ca-b46a-2382be1acd62",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Excess protector",
+        "Political violence cover"
+      ],
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003",
+      "product_name": "General Insurance"
+    },
+    "text": "Add-ons for General Insurance (ID: jubilee_general_003): ['Excess protector', 'Political violence cover']."
+  },
+  {
+    "chunk_id": "14d5e42f-bca0-478e-92ca-f29517d76646",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "jubilee_asset_management_004",
+      "product_name": "Asset Management",
+      "category": "investment",
+      "target_market": "individuals, corporates, high-net-worth clients",
+      "eligibility_notes": "Requires minimum investment amount",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, financial advisors",
+      "sources": [
+        {
+          "title": "Jubilee Asset Management",
+          "url": "https://jubileeinsurance.com/ke/asset-management/"
+        }
+      ],
+      "company_id": "jubilee_001"
+    },
+    "text": "Asset Management (ID: jubilee_asset_management_004) is a investment insurance product by jubilee_001 for individuals, corporates, high-net-worth clients. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "201ac283-d023-4015-b387-313720d95f54",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Market losses",
+        "Early withdrawal penalties"
+      ],
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004",
+      "product_name": "Asset Management"
+    },
+    "text": "Exclusions for Asset Management (ID: jubilee_asset_management_004): ['Market losses', 'Early withdrawal penalties']."
+  },
+  {
+    "chunk_id": "0e70aebb-1cab-492f-8a90-857935e66334",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": null,
+    "variant_id": null,
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Customized portfolio management"
+      ],
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004",
+      "product_name": "Asset Management"
+    },
+    "text": "Add-ons for Asset Management (ID: jubilee_asset_management_004): ['Customized portfolio management']."
+  },
+  {
+    "chunk_id": "577f6067-1171-4403-9161-79b64a51c6bc",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_faida_elite_001a",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_faida_elite_001a",
+      "sub_product_name": "Faida Elite Plan",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Sum assured for universal life cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Faida Elite Plan (ID: jubilee_faida_elite_001a) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 500000, Max 50000000."
+  },
+  {
+    "chunk_id": "89294057-5453-4adc-b4ee-6047d95436bc",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_jubilant_001b",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_jubilant_001b",
+      "sub_product_name": "Jubilant",
+      "sum_assured_min": 300000,
+      "sum_assured_max": 10000000,
+      "sum_assured_notes": "Savings-focused life cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Jubilant (ID: jubilee_jubilant_001b) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 300000, Max 10000000."
+  },
+  {
+    "chunk_id": "b20920d2-3a4d-4edb-ba3f-b4b20097164e",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_triplex_001c",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_triplex_001c",
+      "sub_product_name": "Triplex",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 20000000,
+      "sum_assured_notes": "Survival benefit plan",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Triplex (ID: jubilee_triplex_001c) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 500000, Max 20000000."
+  },
+  {
+    "chunk_id": "d6bf25e0-3886-4f89-b57e-74b331040099",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_whole_life_001d",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_whole_life_001d",
+      "sub_product_name": "Whole Life",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Lifelong coverage",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Whole Life (ID: jubilee_whole_life_001d) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 1000000, Max 50000000."
+  },
+  {
+    "chunk_id": "3f88050b-4696-41a7-b38e-c7c5bf9768e1",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_5_payments_001e",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_5_payments_001e",
+      "sub_product_name": "5 Payments Policy",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 20000000,
+      "sum_assured_notes": "Periodic payout plan",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "5 Payments Policy (ID: jubilee_5_payments_001e) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 500000, Max 20000000."
+  },
+  {
+    "chunk_id": "98d0535b-8c7c-4960-9993-53bbf80587b5",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_career_life_001f",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_career_life_001f",
+      "sub_product_name": "Career Life Plus (Education Plan)",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 10000000,
+      "sum_assured_notes": "Education savings plan",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Career Life Plus (Education Plan) (ID: jubilee_career_life_001f) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 500000, Max 10000000."
+  },
+  {
+    "chunk_id": "f4c50d7a-3b64-4a4b-8169-31e71daddf37",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_baada_ya_campo_001g",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_baada_ya_campo_001g",
+      "sub_product_name": "Baada ya Campo Policy",
+      "sum_assured_min": 200000,
+      "sum_assured_max": 5000000,
+      "sum_assured_notes": "Post-graduation support",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Baada ya Campo Policy (ID: jubilee_baada_ya_campo_001g) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 200000, Max 5000000."
+  },
+  {
+    "chunk_id": "2cc77baa-4900-4f57-b561-2a00a6400e95",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_joint_maxlife_001h",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_joint_maxlife_001h",
+      "sub_product_name": "Joint Maxlife Plan",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 20000000,
+      "sum_assured_notes": "Couples life cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Joint Maxlife Plan (ID: jubilee_joint_maxlife_001h) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 1000000, Max 20000000."
+  },
+  {
+    "chunk_id": "fd2fc8c4-d6f9-4c18-9ec3-748d61ded5ec",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_anticipated_endowment_001i",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_anticipated_endowment_001i",
+      "sub_product_name": "Anticipated Endowment Plan",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 20000000,
+      "sum_assured_notes": "Periodic payout plan",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Anticipated Endowment Plan (ID: jubilee_anticipated_endowment_001i) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 500000, Max 20000000."
+  },
+  {
+    "chunk_id": "6f28702c-5d3a-40c3-b30d-4e0fea897cb9",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_fanaka_001j",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_fanaka_001j",
+      "sub_product_name": "Fanaka Investment Plan",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 15000000,
+      "sum_assured_notes": "Investment-focused life cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Fanaka Investment Plan (ID: jubilee_fanaka_001j) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 500000, Max 15000000."
+  },
+  {
+    "chunk_id": "7fd49048-59f1-4654-868c-2e8261f86710",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_single_premium_001k",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_single_premium_001k",
+      "sub_product_name": "Single Premium Immediate Annuity",
+      "sum_assured_min": null,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Payouts based on lump sum",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Single Premium Immediate Annuity (ID: jubilee_single_premium_001k) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min None, Max None."
+  },
+  {
+    "chunk_id": "498f6526-ea87-4466-bb32-fb5ad6fb9b60",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_income_drawdown_001l",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_income_drawdown_001l",
+      "sub_product_name": "Income Drawdown",
+      "sum_assured_min": null,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Flexible retirement withdrawals",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Income Drawdown (ID: jubilee_income_drawdown_001l) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min None, Max None."
+  },
+  {
+    "chunk_id": "22b4a2d7-cc05-4e78-ab69-3b076801849e",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_provident_fund_001m",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_provident_fund_001m",
+      "sub_product_name": "Personal Provident Fund",
+      "sum_assured_min": null,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Retirement savings plan",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Personal Provident Fund (ID: jubilee_provident_fund_001m) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min None, Max None."
+  },
+  {
+    "chunk_id": "95073cc4-b097-4d18-9fd6-4dc80a327a61",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_pension_plan_001n",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_pension_plan_001n",
+      "sub_product_name": "Personal Pension Plan",
+      "sum_assured_min": null,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Structured pension savings",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Personal Pension Plan (ID: jubilee_pension_plan_001n) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min None, Max None."
+  },
+  {
+    "chunk_id": "a41b2cce-afa3-4187-9a7d-4e41add30872",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_life_001",
+    "sub_product_id": "jubilee_ahadi_term_001o",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_ahadi_term_001o",
+      "sub_product_name": "Ahadi Term Assurance",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 30000000,
+      "sum_assured_notes": "Term life cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_life_001"
+    },
+    "text": "Ahadi Term Assurance (ID: jubilee_ahadi_term_001o) is a sub-product of jubilee_life_001 by jubilee_001. Sum assured: Min 500000, Max 30000000."
+  },
+  {
+    "chunk_id": "3f04b5ec-be2f-4b31-a5a0-6e2c070eaa65",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_jcare_002a",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_jcare_002a",
+      "sub_product_name": "J-Care Medical Insurance",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 20000000,
+      "sum_assured_notes": "Inpatient and outpatient cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "J-Care Medical Insurance (ID: jubilee_jcare_002a) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 1000000, Max 20000000."
+  },
+  {
+    "chunk_id": "32aa988c-be0a-4a5a-ab8d-6519511313d6",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_jsenior_002b",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_jsenior_002b",
+      "sub_product_name": "J-Senior Medical Cover",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 10000000,
+      "sum_assured_notes": "Cover for seniors (65+)",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "J-Senior Medical Cover (ID: jubilee_jsenior_002b) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 1000000, Max 10000000."
+  },
+  {
+    "chunk_id": "eb4484b1-b1f9-475b-8c92-32d7ff928980",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_jjunior_002c",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_jjunior_002c",
+      "sub_product_name": "J-Junior Medical Cover",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 5000000,
+      "sum_assured_notes": "Pediatric cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "J-Junior Medical Cover (ID: jubilee_jjunior_002c) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 500000, Max 5000000."
+  },
+  {
+    "chunk_id": "b94e4b7e-ad9d-45b6-ace3-bafe3edf2b22",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_jcare_johari_002d",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_jcare_johari_002d",
+      "sub_product_name": "J-Care Johari Medical Cover",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 5000000,
+      "sum_assured_notes": "Affordable family cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "J-Care Johari Medical Cover (ID: jubilee_jcare_johari_002d) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 500000, Max 5000000."
+  },
+  {
+    "chunk_id": "15568397-611a-4878-96eb-30575d16a34f",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_coverbora_002e",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_coverbora_002e",
+      "sub_product_name": "CoverBora Medical Cover",
+      "sum_assured_min": 200000,
+      "sum_assured_max": 2000000,
+      "sum_assured_notes": "Emergency medical cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "CoverBora Medical Cover (ID: jubilee_coverbora_002e) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 200000, Max 2000000."
+  },
+  {
+    "chunk_id": "59b0aac0-d8ad-4a74-bafd-04171fd483d1",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_diaspora_002f",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_diaspora_002f",
+      "sub_product_name": "Diaspora Health Insurance Plans",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 15000000,
+      "sum_assured_notes": "Global and local cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "Diaspora Health Insurance Plans (ID: jubilee_diaspora_002f) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 1000000, Max 15000000."
+  },
+  {
+    "chunk_id": "1919b47e-6b3c-4962-b077-2484a7faa2b2",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_international_002g",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_international_002g",
+      "sub_product_name": "International Health Cover",
+      "sum_assured_min": 5000000,
+      "sum_assured_max": 30000000,
+      "sum_assured_notes": "Global healthcare access",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "International Health Cover (ID: jubilee_international_002g) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 5000000, Max 30000000."
+  },
+  {
+    "chunk_id": "1607429f-daa8-49e9-8959-107e764c054c",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_critical_illness_002h",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_critical_illness_002h",
+      "sub_product_name": "Critical Illness Cover",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 10000000,
+      "sum_assured_notes": "Critical illness payout",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "Critical Illness Cover (ID: jubilee_critical_illness_002h) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 500000, Max 10000000."
+  },
+  {
+    "chunk_id": "ef27d41b-d124-40ec-9a67-e8c792274516",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_health_002",
+    "sub_product_id": "jubilee_corporate_health_002i",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_corporate_health_002i",
+      "sub_product_name": "Corporate Health Cover",
+      "sum_assured_min": 2000000,
+      "sum_assured_max": 20000000,
+      "sum_assured_notes": "Group health cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_health_002"
+    },
+    "text": "Corporate Health Cover (ID: jubilee_corporate_health_002i) is a sub-product of jubilee_health_002 by jubilee_001. Sum assured: Min 2000000, Max 20000000."
+  },
+  {
+    "chunk_id": "39ec8ae0-b3d4-40f5-96d9-b59c47036f71",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_motor_003a",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_motor_003a",
+      "sub_product_name": "Motor Insurance",
+      "sum_assured_min": "N/A",
+      "sum_assured_max": "N/A",
+      "sum_assured_notes": "N/A",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Motor Insurance (ID: jubilee_motor_003a) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min N/A, Max N/A."
+  },
+  {
+    "chunk_id": "493ead15-1371-4696-bce3-5fb1a25d87d3",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_home_003b",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_home_003b",
+      "sub_product_name": "Home Insurance",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Home and contents cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Home Insurance (ID: jubilee_home_003b) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 500000, Max 50000000."
+  },
+  {
+    "chunk_id": "46cfbe3d-ab08-4840-9fa3-1aa9c1c9580c",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_personal_accident_003c",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_personal_accident_003c",
+      "sub_product_name": "Personal Accident Cover",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 10000000,
+      "sum_assured_notes": "Accident cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Personal Accident Cover (ID: jubilee_personal_accident_003c) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 500000, Max 10000000."
+  },
+  {
+    "chunk_id": "14464623-28d3-4f7f-a0ea-d4f3b2af828d",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_public_liability_003d",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_public_liability_003d",
+      "sub_product_name": "Public Liability",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Liability cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Public Liability (ID: jubilee_public_liability_003d) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 1000000, Max 50000000."
+  },
+  {
+    "chunk_id": "998ad4da-7181-4550-a54e-acec13cb3c8f",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_fidelity_guarantee_003e",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_fidelity_guarantee_003e",
+      "sub_product_name": "Fidelity Guarantee",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Employee fraud cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Fidelity Guarantee (ID: jubilee_fidelity_guarantee_003e) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 1000000, Max 50000000."
+  },
+  {
+    "chunk_id": "cd59ef04-1352-4fa7-9c00-1e3b704f34e1",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_professional_indemnity_003f",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_professional_indemnity_003f",
+      "sub_product_name": "Professional Indemnity",
+      "sum_assured_min": 2000000,
+      "sum_assured_max": 100000000,
+      "sum_assured_notes": "Professional liability cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Professional Indemnity (ID: jubilee_professional_indemnity_003f) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 2000000, Max 100000000."
+  },
+  {
+    "chunk_id": "e686bb9d-887e-4620-bc9d-cbb3fec621d0",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_travel_003g",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_travel_003g",
+      "sub_product_name": "Travel Insurance",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 10000000,
+      "sum_assured_notes": "Travel-related cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Travel Insurance (ID: jubilee_travel_003g) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 1000000, Max 10000000."
+  },
+  {
+    "chunk_id": "9999b6cb-3f76-4493-ba23-dad178aefd15",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_stock_floater_003h",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_stock_floater_003h",
+      "sub_product_name": "Stock Floater Policy",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Business stock cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Stock Floater Policy (ID: jubilee_stock_floater_003h) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 500000, Max 50000000."
+  },
+  {
+    "chunk_id": "1a9c41b3-188c-49e6-b409-d7de78f87128",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_wiba_003i",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_wiba_003i",
+      "sub_product_name": "Work Injury Benefits Act (WIBA)",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 10000000,
+      "sum_assured_notes": "Workplace injury cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Work Injury Benefits Act (WIBA) (ID: jubilee_wiba_003i) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 500000, Max 10000000."
+  },
+  {
+    "chunk_id": "dd821c3b-30d0-4986-ae8d-4a04a394bdfe",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_all_risk_003j",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_all_risk_003j",
+      "sub_product_name": "All Risk Insurance",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Broad asset cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "All Risk Insurance (ID: jubilee_all_risk_003j) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 500000, Max 50000000."
+  },
+  {
+    "chunk_id": "f2a077a5-ca59-43c0-860a-d73582567dc7",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_lady_jubilee_003k",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_lady_jubilee_003k",
+      "sub_product_name": "Lady Jubilee",
+      "sum_assured_min": 500000,
+      "sum_assured_max": 10000000,
+      "sum_assured_notes": "Women-specific cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "Lady Jubilee (ID: jubilee_lady_jubilee_003k) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 500000, Max 10000000."
+  },
+  {
+    "chunk_id": "10887bcd-06c4-43a7-afed-58873abe5bea",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_jbiz_003l",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_jbiz_003l",
+      "sub_product_name": "J-Biz Insurance Cover",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 100000000,
+      "sum_assured_notes": "SME business cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "J-Biz Insurance Cover (ID: jubilee_jbiz_003l) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 1000000, Max 100000000."
+  },
+  {
+    "chunk_id": "e4e9bcc5-9faa-4356-911b-4d964f8b776c",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_microhealth_003m",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_microhealth_003m",
+      "sub_product_name": "MicroHealth Insurance Plan",
+      "sum_assured_min": 100000,
+      "sum_assured_max": 1000000,
+      "sum_assured_notes": "Micro health cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003"
+    },
+    "text": "MicroHealth Insurance Plan (ID: jubilee_microhealth_003m) is a sub-product of jubilee_general_003 by jubilee_001. Sum assured: Min 100000, Max 1000000."
+  },
+  {
+    "chunk_id": "215452a2-7bf4-49f8-8e81-02488b6a9348",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": "jubilee_money_market_kes_004a",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_money_market_kes_004a",
+      "sub_product_name": "Jubilee Money Market Fund (KES)",
+      "sum_assured_min": 5000,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Minimum investment KES 5,000",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004"
+    },
+    "text": "Jubilee Money Market Fund (KES) (ID: jubilee_money_market_kes_004a) is a sub-product of jubilee_asset_management_004 by jubilee_001. Sum assured: Min 5000, Max None."
+  },
+  {
+    "chunk_id": "75c51c27-3d8a-4f4b-a507-3e4642bc0df9",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": "jubilee_money_market_usd_004b",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_money_market_usd_004b",
+      "sub_product_name": "Jubilee Money Market Fund (USD)",
+      "sum_assured_min": 50,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Minimum investment USD 50",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004"
+    },
+    "text": "Jubilee Money Market Fund (USD) (ID: jubilee_money_market_usd_004b) is a sub-product of jubilee_asset_management_004 by jubilee_001. Sum assured: Min 50, Max None."
+  },
+  {
+    "chunk_id": "1df15956-0a73-4864-b752-12ba21a630ce",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": "jubilee_fixed_income_004c",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_fixed_income_004c",
+      "sub_product_name": "Jubilee Fixed Income Fund",
+      "sum_assured_min": 5000,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Minimum investment KES 5,000",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004"
+    },
+    "text": "Jubilee Fixed Income Fund (ID: jubilee_fixed_income_004c) is a sub-product of jubilee_asset_management_004 by jubilee_001. Sum assured: Min 5000, Max None."
+  },
+  {
+    "chunk_id": "c7bb64ab-d6e1-4487-a66c-c079d5c70d7d",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": "jubilee_umbrella_retirement_004d",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_umbrella_retirement_004d",
+      "sub_product_name": "Umbrella Retirement Solution",
+      "sum_assured_min": null,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Pension scheme for employers",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004"
+    },
+    "text": "Umbrella Retirement Solution (ID: jubilee_umbrella_retirement_004d) is a sub-product of jubilee_asset_management_004 by jubilee_001. Sum assured: Min None, Max None."
+  },
+  {
+    "chunk_id": "2d34ad27-1d51-437c-bbbf-645f8ef7c8ac",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": "jubilee_wealth_management_004e",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_wealth_management_004e",
+      "sub_product_name": "Wealth Management Offering",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": null,
+      "sum_assured_notes": "High-net-worth investment",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004"
+    },
+    "text": "Wealth Management Offering (ID: jubilee_wealth_management_004e) is a sub-product of jubilee_asset_management_004 by jubilee_001. Sum assured: Min 1000000, Max None."
+  },
+  {
+    "chunk_id": "0ed8a4b7-7058-47f8-b671-5769cfdd2d7c",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": "jubilee_segregated_portfolio_004f",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_segregated_portfolio_004f",
+      "sub_product_name": "Segregated Portfolio Management",
+      "sum_assured_min": 5000000,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Customized portfolio",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004"
+    },
+    "text": "Segregated Portfolio Management (ID: jubilee_segregated_portfolio_004f) is a sub-product of jubilee_asset_management_004 by jubilee_001. Sum assured: Min 5000000, Max None."
+  },
+  {
+    "chunk_id": "1f51f648-7851-4169-96c7-aeac6845df1a",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_asset_management_004",
+    "sub_product_id": "jubilee_private_wealth_004g",
+    "variant_id": null,
+    "chunk_type": "sub_product_metadata",
+    "raw_data": {
+      "sub_product_id": "jubilee_private_wealth_004g",
+      "sub_product_name": "Private Wealth Management Account",
+      "sum_assured_min": 10000000,
+      "sum_assured_max": null,
+      "sum_assured_notes": "Elite investment account",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_asset_management_004"
+    },
+    "text": "Private Wealth Management Account (ID: jubilee_private_wealth_004g) is a sub-product of jubilee_asset_management_004 by jubilee_001. Sum assured: Min 10000000, Max None."
+  },
+  {
+    "chunk_id": "fd4cc926-6824-4f2c-85f8-8db2a668185a",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_motor_003a",
+    "variant_id": "jubilee_motor_private_003a1",
+    "chunk_type": "variant_metadata",
+    "raw_data": {
+      "variant_id": "jubilee_motor_private_003a1",
+      "variant_name": "Motor Private",
+      "sum_assured_min": 1000000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Comprehensive vehicle cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003",
+      "sub_product_id": "jubilee_motor_003a"
+    },
+    "text": "Motor Private (ID: jubilee_motor_private_003a1) is a variant of jubilee_motor_003a under jubilee_general_003 by jubilee_001. Sum assured: Min 1000000, Max 50000000."
+  },
+  {
+    "chunk_id": "5e86f5f4-a191-4371-973c-9a92983e1386",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_motor_003a",
+    "variant_id": "jubilee_motor_commercial_own_003a2",
+    "chunk_type": "variant_metadata",
+    "raw_data": {
+      "variant_id": "jubilee_motor_commercial_own_003a2",
+      "variant_name": "Motor Commercial (Own Goods)",
+      "sum_assured_min": 2000000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Commercial vehicle cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003",
+      "sub_product_id": "jubilee_motor_003a"
+    },
+    "text": "Motor Commercial (Own Goods) (ID: jubilee_motor_commercial_own_003a2) is a variant of jubilee_motor_003a under jubilee_general_003 by jubilee_001. Sum assured: Min 2000000, Max 50000000."
+  },
+  {
+    "chunk_id": "a94d959c-4f37-4b7d-881d-5b27585330bc",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_motor_003a",
+    "variant_id": "jubilee_motor_commercial_cartage_003a3",
+    "chunk_type": "variant_metadata",
+    "raw_data": {
+      "variant_id": "jubilee_motor_commercial_cartage_003a3",
+      "variant_name": "Motor Commercial (General Cartage)",
+      "sum_assured_min": 2000000,
+      "sum_assured_max": 50000000,
+      "sum_assured_notes": "Third-party goods transport",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003",
+      "sub_product_id": "jubilee_motor_003a"
+    },
+    "text": "Motor Commercial (General Cartage) (ID: jubilee_motor_commercial_cartage_003a3) is a variant of jubilee_motor_003a under jubilee_general_003 by jubilee_001. Sum assured: Min 2000000, Max 50000000."
+  },
+  {
+    "chunk_id": "916b53b7-590d-48bf-b0c2-434859df13e7",
+    "company_id": "jubilee_001",
+    "product_id": "jubilee_general_003",
+    "sub_product_id": "jubilee_motor_003a",
+    "variant_id": "jubilee_motorcycles_003a4",
+    "chunk_type": "variant_metadata",
+    "raw_data": {
+      "variant_id": "jubilee_motorcycles_003a4",
+      "variant_name": "Motorcycles",
+      "sum_assured_min": 100000,
+      "sum_assured_max": 1000000,
+      "sum_assured_notes": "Two-wheeler cover",
+      "company_id": "jubilee_001",
+      "product_id": "jubilee_general_003",
+      "sub_product_id": "jubilee_motor_003a"
+    },
+    "text": "Motorcycles (ID: jubilee_motorcycles_003a4) is a variant of jubilee_motor_003a under jubilee_general_003 by jubilee_001. Sum assured: Min 100000, Max 1000000."
+  }
+]

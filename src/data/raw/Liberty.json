@@ -1,6 +1,6 @@
 {
   "company_id": "liberty_001",
-  "company_name": "Liberty & Heritage Insurance Company Kenya Limited",
+  "company_name": "Liberty Insurance Company Kenya Limited",
   "company_type": "general, life, medical",
   "license_info": {
     "licensed": true,
@@ -20,67 +20,67 @@
       "branch_name": "Mombasa Branch",
       "address": "NSSF Building, Nkurumah Road, PO Box 80000-80100, Mombasa, Kenya",
       "phone": ["+254412221357", "+254711075135"],
-      "email": "mombasa@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Eldoret Branch",
       "address": "Imperial Court, Waiganjo Street, PO Box 2500-30100, Eldoret, Kenya",
       "phone": ["+254532061147", "+254711075147"],
-      "email": "eldoret@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Naivasha Branch",
-      "address": "Heritage House, Moi Road, PO Box 1240-20100, Naivasha, Kenya",
+      "address": "Moi Road, PO Box 1240-20100, Naivasha, Kenya",
       "phone": ["+254502020034", "+254711075034"],
-      "email": "naivasha@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Nakuru Branch",
       "address": "Polo Centre, Tom Mboya Street, PO Box 1240-20100, Nakuru, Kenya",
       "phone": ["+254512210034", "+254711075034"],
-      "email": "nakuru@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Meru Branch",
       "address": "Mavuti Centre, Meru-Nanyuki Road, PO Box 1470-60200, Meru, Kenya",
       "phone": ["+254642133600", "+254711075600"],
-      "email": "meru@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Nanyuki Branch",
       "address": "Silver Plaza, Kenyatta Road, PO Box 1470-60200, Nanyuki, Kenya",
       "phone": ["+254623163000", "+254711075300"],
-      "email": "nanyuki@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Thika Branch",
       "address": "Zuri Centre, Kenyatta Highway, PO Box 1690-01000, Thika, Kenya",
       "phone": ["+254672221234", "+254711075234"],
-      "email": "thika@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Nairobi City Branch",
       "address": "Stanbank House, Standard Street, PO Box 30390-00100, Nairobi, Kenya",
       "phone": ["+254202783000", "+254711039000"],
-      "email": "nairobi@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Kisii Branch",
       "address": "Royal Towers, Hospital Road, PO Box 1890-40200, Kisii, Kenya",
       "phone": ["+254582030123", "+254711075123"],
-      "email": "kisii@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Kisumu Branch",
       "address": "Tuffoam Mall, 1st Floor, Jomo Kenyatta Highway, PO Box 1890-40100, Kisumu, Kenya",
       "phone": ["+254572021170", "+254711075170"],
-      "email": "kisumu@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     },
     {
       "branch_name": "Embu Branch",
       "address": "Ganga House, 3rd Floor, PO Box 1470-60100, Embu, Kenya",
       "phone": ["+254682061147", "+254711075147"],
-      "email": "embu@heritage.co.ke"
+      "email": "csc@libertylife.co.ke"
     }
   ],
   "digital_presence": {
@@ -88,17 +88,17 @@
     "customer_portal": "https://portal.liberty.co.ke",
     "mobile_app": true,
     "mobile_app_store_links": {
-      "google_play": "https://play.google.com/store/apps/details?id=com.liberty.heritage",
-      "app_store": "https://apps.apple.com/ke/app/liberty-heritage/id1548723902"
+      "google_play": "https://play.google.com/store/apps/details?id=com.liberty.insurance",
+      "app_store": "https://apps.apple.com/ke/app/liberty-insurance/id1548723902"
     },
     "api_available": true,
-    "api_notes": "Liberty & Heritage provides partner integration APIs for brokers and corporate clients. Contact corporate sales at csc@libertylife.co.ke for developer references."
+    "api_notes": "Liberty provides partner integration APIs for brokers and corporate clients. Contact corporate sales at csc@libertylife.co.ke for developer references."
   },
   "reputation": {
-    "claims_settlement_ratio": "70.0% (non-liability), 9.5% (liability) (2024 IRA Report, general insurers)",
+    "claims_settlement_ratio": "70.0% (non-liability), 49% overall (2024 IRA Report, general insurers)",
     "customer_complaints": "220 complaints reported in 2024 (estimated based on IRA 2024 data for similar insurers)",
     "customer_rating": "4.1/5",
-    "notes": "Claims ratios from Amssurity 2024 report. Complaints estimated based on IRA data. Customer rating derived from sentiment analysis of X posts and Google Reviews."
+    "notes": "Claims ratios from Liberty Kenya 2024 Annual Report and IRA data. Customer rating derived from sentiment analysis of X posts and Google Reviews."
   },
   "products": [
     {
@@ -152,64 +152,13 @@
         "note": "Network of accredited providers"
       },
       "distribution_channels": ["agents", "online"],
-      "last_updated": "2025-09-13",
+      "last_updated": "2025-09-20",
       "sources": [
         {"title": "Liberty Medical Cover", "url": "https://www.liberty.co.ke/Products/medical-cover"}
       ]
     },
     {
-      "product_id": "liberty_heritage_flexi_002",
-      "product_name": "Heritage Flexi",
-      "category": "medical",
-      "target_market": "corporates, SMEs, public sector",
-      "eligibility": {
-        "notes": "Customizable for employee groups; requires health declaration"
-      },
-      "geographic_coverage": "East Africa",
-      "sum_assured": {
-        "min": null,
-        "max": null,
-        "notes": "Bespoke based on group size"
-      },
-      "premium": {
-        "currency": "KES",
-        "payment_frequency": ["annual"],
-        "rate_table": null,
-        "rate_table_notes": "Premiums bespoke; typical KES 80,000/year per employee",
-        "sample_examples": [
-          {"example": "KES 80,000/year per employee for customized cover."}
-        ]
-      },
-      "coverage": {
-        "benefits": [
-          "Tailored inpatient/outpatient benefits",
-          "Chronic care",
-          "Evacuation"
-        ],
-        "duration": "annual renewable"
-      },
-      "exclusions": [
-        "Non-selected benefits",
-        "Cosmetic"
-      ],
-      "add_ons": ["Maternity", "Dental"],
-      "claims_process": {
-        "required_documents": ["Medical report", "Bills"],
-        "average_turnaround_days": 7,
-        "digital_claims_supported": true
-      },
-      "provider_network": {
-        "partners": ["Regional hospitals"],
-        "note": "East Africa network"
-      },
-      "distribution_channels": ["brokers", "corporate"],
-      "last_updated": "2025-09-13",
-      "sources": [
-        {"title": "Heritage Flexi", "url": "https://www.liberty.co.ke/products/heritage-flexi"}
-      ]
-    },
-    {
-      "product_id": "liberty_blue_health_003",
+      "product_id": "liberty_blue_health_002",
       "product_name": "Blue Health Cover Suite",
       "category": "medical",
       "target_market": "employer groups, expatriates",
@@ -274,13 +223,214 @@
           "coverage": "Premium, International"
         }
       ],
-      "last_updated": "2025-09-13",
+      "last_updated": "2025-09-20",
       "sources": [
         {"title": "Liberty Blue Health", "url": "https://www.libertyhealth.net/kenya/en/plans/"}
       ]
     },
     {
-      "product_id": "liberty_group_life_004",
+      "product_id": "liberty_heriafya_003",
+      "product_name": "HeriAfya Medical Cover",
+      "category": "medical",
+      "target_market": "individuals, families, SMEs",
+      "eligibility": {
+        "notes": "Health declaration; affordable plans for low-income groups"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 300000,
+        "max": 5000000
+      },
+      "premium": {
+        "currency": "KES",
+        "sample": "KES 12,000/year"
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient care",
+          "Maternity",
+          "Basic chronic care"
+        ],
+        "duration": "annual renewable"
+      },
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "HeriAfya Medical Cover", "url": "https://www.liberty.co.ke/Products/heriafya-medical-cover"}
+      ]
+    },
+    {
+      "product_id": "liberty_hekima_critical_004",
+      "product_name": "Hekima Critical Illness Plan",
+      "category": "life",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "notes": "Health declaration; age 18-65"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000
+      },
+      "premium": {
+        "currency": "KES",
+        "sample": "KES 10,000/year"
+      },
+      "coverage": {
+        "benefits": [
+          "Lump-sum payout for critical illnesses (e.g., cancer, heart attack)"
+        ],
+        "duration": "term"
+      },
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Hekima Critical Illness", "url": "https://www.liberty.co.ke/Products/hekima-critical-illness"}
+      ]
+    },
+    {
+      "product_id": "liberty_soma_plan_005",
+      "product_name": "Soma Plan",
+      "category": "life",
+      "target_market": "individuals, parents",
+      "eligibility": {
+        "notes": "For education and savings goals"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000
+      },
+      "premium": {
+        "currency": "KES",
+        "sample": "KES 10,000/year"
+      },
+      "coverage": {
+        "benefits": [
+          "Education fund payout",
+          "Death/disability protection"
+        ],
+        "duration": "to maturity"
+      },
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Soma Plan", "url": "https://www.liberty.co.ke/Products/soma-plan"}
+      ]
+    },
+    {
+      "product_id": "liberty_lifevest_006",
+      "product_name": "LifeVest Investment Plan",
+      "category": "life",
+      "target_market": "investors",
+      "eligibility": {
+        "notes": "Minimum investment; age 18-65"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": null
+      },
+      "premium": {
+        "currency": "KES",
+        "sample": "KES 20,000/year"
+      },
+      "coverage": {
+        "benefits": [
+          "Investment growth with life cover"
+        ],
+        "duration": "flexible"
+      },
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "LifeVest Investment Plan", "url": "https://www.liberty.co.ke/Products/lifevest"}
+      ]
+    },
+    {
+      "product_id": "liberty_platinum_life_007",
+      "product_name": "Platinum Life Plan",
+      "category": "life",
+      "target_market": "individuals",
+      "eligibility": {
+        "notes": "Age 18-65"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 20000000
+      },
+      "premium": {
+        "currency": "KES",
+        "sample": "KES 25,000/year"
+      },
+      "coverage": {
+        "benefits": [
+          "Comprehensive life protection",
+          "Savings component"
+        ],
+        "duration": "whole life"
+      },
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Platinum Life Plan", "url": "https://www.liberty.co.ke/Products/platinum-life"}
+      ]
+    },
+    {
+      "product_id": "liberty_legacy_funeral_008",
+      "product_name": "Legacy Funeral Cover",
+      "category": "life",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "notes": "Age 18+; optional parent cover"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 100000,
+        "max": 500000
+      },
+      "premium": {
+        "currency": "KES",
+        "sample": "KES 5,000/year"
+      },
+      "coverage": {
+        "benefits": [
+          "Funeral expenses",
+          "Packages: Silver, Gold, Platinum, Diamond"
+        ],
+        "duration": "whole life"
+      },
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Legacy Funeral Cover", "url": "https://www.liberty.co.ke/Products/legacy-funeral"}
+      ]
+    },
+    {
+      "product_id": "liberty_group_funeral_009",
+      "product_name": "Group Funeral Cover",
+      "category": "life",
+      "target_market": "corporates, groups",
+      "eligibility": {
+        "notes": "Group enrollment"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 50000,
+        "max": 200000
+      },
+      "premium": {
+        "currency": "KES",
+        "sample": "KES 2,000/year per member"
+      },
+      "coverage": {
+        "benefits": [
+          "Funeral expenses for group members"
+        ],
+        "duration": "annual"
+      },
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Group Funeral Cover", "url": "https://www.liberty.co.ke/Products/group-funeral"}
+      ]
+    },
+    {
+      "product_id": "liberty_group_life_010",
       "product_name": "Group Life Cover",
       "category": "life",
       "target_market": "corporates, groups",
@@ -298,17 +448,20 @@
       },
       "coverage": {
         "benefits": [
-          "Death, disability"
+          "Death, disability benefits"
         ],
         "duration": "annual"
       },
-      "last_updated": "2025-09-13"
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Group Life Cover", "url": "https://www.liberty.co.ke/Products/group-life"}
+      ]
     },
     {
-      "product_id": "liberty_combined_solution_005",
-      "product_name": "Combined Solution (Death, Disability, Accident)",
+      "product_id": "liberty_combined_solution_011",
+      "product_name": "Combined Solution",
       "category": "life",
-      "target_market": "individuals, groups",
+      "target_market": "corporates, groups",
       "eligibility": {
         "notes": "Health declaration"
       },
@@ -319,28 +472,31 @@
       },
       "premium": {
         "currency": "KES",
-        "sample": "KES 20,000/year"
+        "sample": "KES 20,000/year per member"
       },
       "coverage": {
         "benefits": [
-          "Death, disability, accident benefits"
+          "Death, disability, accident, critical illness, funeral benefits"
         ],
-        "duration": "term"
+        "duration": "annual"
       },
-      "last_updated": "2025-09-13"
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Combined Solution", "url": "https://www.liberty.co.ke/Products/combined-solution"}
+      ]
     },
     {
-      "product_id": "liberty_protect_family_006",
-      "product_name": "Protect My Family",
+      "product_id": "liberty_group_credit_012",
+      "product_name": "Group Credit Insurance",
       "category": "life",
-      "target_market": "families",
+      "target_market": "financial institutions",
       "eligibility": {
-        "notes": "Family members"
+        "notes": "Loan portfolio details"
       },
       "geographic_coverage": "Kenya",
       "sum_assured": {
-        "min": 1000000,
-        "max": 5000000
+        "min": 500000,
+        "max": 10000000
       },
       "premium": {
         "currency": "KES",
@@ -348,15 +504,18 @@
       },
       "coverage": {
         "benefits": [
-          "Family protection on death"
+          "Loan protection against death, disability"
         ],
-        "duration": "whole life"
+        "duration": "term"
       },
-      "last_updated": "2025-09-13"
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Group Credit Insurance", "url": "https://www.liberty.co.ke/Products/group-credit"}
+      ]
     },
     {
-      "product_id": "liberty_secure_retirement_007",
-      "product_name": "Secure My Retirement",
+      "product_id": "liberty_guaranteed_retirement_013",
+      "product_name": "Guaranteed Retirement Fund",
       "category": "life",
       "target_market": "individuals",
       "eligibility": {
@@ -366,7 +525,7 @@
       "sum_assured": {
         "min": null,
         "max": null,
-        "notes": "Pension based"
+        "notes": "Pension-based"
       },
       "premium": {
         "currency": "KES",
@@ -378,335 +537,42 @@
         ],
         "duration": "to retirement"
       },
-      "last_updated": "2025-09-13"
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Guaranteed Retirement Fund", "url": "https://www.liberty.co.ke/Products/guaranteed-retirement"}
+      ]
     },
     {
-      "product_id": "liberty_achieve_goals_008",
-      "product_name": "Achieve My Goals (e.g., Secure My Child's Education)",
+      "product_id": "liberty_boresha_maisha_014",
+      "product_name": "Boresha Maisha Umbrella Fund",
       "category": "life",
-      "target_market": "parents",
+      "target_market": "individuals, corporates",
       "eligibility": {
-        "notes": "For child education"
+        "notes": "Pension scheme enrollment"
       },
       "geographic_coverage": "Kenya",
       "sum_assured": {
-        "min": 500000,
-        "max": 5000000
+        "min": null,
+        "max": null,
+        "notes": "Pension-based"
       },
       "premium": {
         "currency": "KES",
-        "sample": "KES 10,000/year"
+        "sample": "KES 3,000/month"
       },
       "coverage": {
         "benefits": [
-          "Education fund payout"
+          "Pension benefits for retirement"
         ],
-        "duration": "to maturity"
+        "duration": "to retirement"
       },
-      "last_updated": "2025-09-13"
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Boresha Maisha Umbrella Fund", "url": "https://www.liberty.co.ke/Products/boresha-maisha"}
+      ]
     },
     {
-      "product_id": "liberty_protect_own_009",
-      "product_name": "Protect What I Own",
-      "category": "general",
-      "target_market": "property owners",
-      "eligibility": {
-        "notes": "Asset valuation"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 1000000,
-        "max": 50000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 30,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Asset protection"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_lifevest_010",
-      "product_name": "Lifevest Investment Plan",
-      "category": "life",
-      "target_market": "investors",
-      "eligibility": {
-        "notes": "Minimum investment"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 1000000,
-        "max": null
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 20,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Investment with life cover"
-        ],
-        "duration": "flexible"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_legacy_funeral_011",
-      "product_name": "Legacy Funeral Cover",
-      "category": "life",
-      "target_market": "individuals",
-      "eligibility": {
-        "notes": "Age 18+"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 100000,
-        "max": 500000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 5,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Funeral expenses"
-        ],
-        "duration": "whole life"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_motor_012",
-      "product_name": "Motor Insurance (Cars, Motorcycles, Commercial Vehicles)",
-      "category": "motor",
-      "target_market": "vehicle owners",
-      "eligibility": {
-        "notes": "Valid license, logbook"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 1000000,
-        "max": 50000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 60,000/year comprehensive"
-      },
-      "coverage": {
-        "benefits": [
-          "Damage, theft, liability"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_all_risk_013",
-      "product_name": "All-Risk Policy",
-      "category": "general",
-      "target_market": "businesses",
-      "eligibility": {
-        "notes": "Asset list"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 1000000,
-        "max": 50000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 80,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "All risks to assets"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_aviation_014",
-      "product_name": "Aviation Insurance",
-      "category": "general",
-      "target_market": "aviation operators",
-      "eligibility": {
-        "notes": "Aircraft registration"
-      },
-      "geographic_coverage": "Kenya / International",
-      "sum_assured": {
-        "min": 50000000,
-        "max": null
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "Bespoke"
-      },
-      "coverage": {
-        "benefits": [
-          "Hull, liability"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_electronic_015",
-      "product_name": "Electronic Equipment Insurance",
-      "category": "general",
-      "target_market": "businesses with electronics",
-      "eligibility": {
-        "notes": "Equipment list"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 100000,
-        "max": 5000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 12,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Damage, theft"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_machinery_breakdown_016",
-      "product_name": "Machinery Breakdown Cover",
-      "category": "general",
-      "target_market": "industrial",
-      "eligibility": {
-        "notes": "Maintenance records"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 1000000,
-        "max": 50000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 60,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Breakdown, repair"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_glass_017",
-      "product_name": "Glass Policy",
-      "category": "general",
-      "target_market": "businesses with glass",
-      "eligibility": {
-        "notes": "Valuation"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 100000,
-        "max": 5000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 8,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Glass damage"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_office_plus_018",
-      "product_name": "Office Plus",
-      "category": "general",
-      "target_market": "offices",
-      "eligibility": {
-        "notes": "Office assets"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 500000,
-        "max": 10000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 25,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Office contents, liability"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_marine_019",
-      "product_name": "Marine Insurance",
-      "category": "marine",
-      "target_market": "importers/exporters",
-      "eligibility": {
-        "notes": "Cargo details"
-      },
-      "geographic_coverage": "International",
-      "sum_assured": {
-        "min": 1000000,
-        "max": 500000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "0.7% of sum"
-      },
-      "coverage": {
-        "benefits": [
-          "Cargo loss/damage"
-        ],
-        "duration": "per shipment"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_public_liability_020",
-      "product_name": "Public Liability",
-      "category": "liability",
-      "target_market": "businesses",
-      "eligibility": {
-        "notes": "Risk assessment"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 1000000,
-        "max": 20000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 30,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Third-party injury/damage"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_wiba_021",
+      "product_id": "liberty_wiba_015",
       "product_name": "WIBA (Workers Injury Benefits Act) Insurance",
       "category": "liability",
       "target_market": "employers",
@@ -728,108 +594,67 @@
         ],
         "duration": "annual"
       },
-      "last_updated": "2025-09-13"
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "WIBA Insurance", "url": "https://www.liberty.co.ke/Products/wiba"}
+      ]
     },
     {
-      "product_id": "liberty_fidelity_022",
-      "product_name": "Fidelity Guarantee",
-      "category": "liability",
-      "target_market": "businesses",
+      "product_id": "liberty_marine_016",
+      "product_name": "Marine Cover",
+      "category": "marine",
+      "target_market": "importers/exporters",
       "eligibility": {
-        "notes": "Employee checks"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 1000000,
-        "max": 10000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "KES 25,000/year"
-      },
-      "coverage": {
-        "benefits": [
-          "Employee fraud"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_trade_credit_023",
-      "product_name": "Trade Credit",
-      "category": "liability",
-      "target_market": "businesses",
-      "eligibility": {
-        "notes": "Trade details"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": 1000000,
-        "max": 50000000
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "1-2% of turnover"
-      },
-      "coverage": {
-        "benefits": [
-          "Buyer default"
-        ],
-        "duration": "annual"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_bonds_024",
-      "product_name": "Surety Bonds",
-      "category": "bonds",
-      "target_market": "contractors",
-      "eligibility": {
-        "notes": "Financial statements"
-      },
-      "geographic_coverage": "Kenya",
-      "sum_assured": {
-        "min": null,
-        "max": null
-      },
-      "premium": {
-        "currency": "KES",
-        "sample": "1-3% of bond value"
-      },
-      "coverage": {
-        "benefits": [
-          "Contract guarantees"
-        ],
-        "duration": "per contract"
-      },
-      "last_updated": "2025-09-13"
-    },
-    {
-      "product_id": "liberty_travel_025",
-      "product_name": "Travel Insurance / Heritage Traveller",
-      "category": "travel",
-      "target_market": "travelers",
-      "eligibility": {
-        "notes": "Trip itinerary"
+        "notes": "Cargo details"
       },
       "geographic_coverage": "International",
       "sum_assured": {
         "min": 1000000,
-        "max": 10000000
+        "max": 500000000
       },
       "premium": {
         "currency": "KES",
-        "sample": "KES 5,000/trip"
+        "sample": "0.7% of sum"
       },
       "coverage": {
         "benefits": [
-          "Medical, cancellation, baggage"
+          "Cargo loss/damage"
         ],
-        "duration": "per trip"
+        "duration": "per shipment"
       },
-      "last_updated": "2025-09-13"
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Marine Insurance", "url": "https://www.liberty.co.ke/Products/marine"}
+      ]
+    },
+    {
+      "product_id": "liberty_personal_accident_017",
+      "product_name": "Personal Accident Cover",
+      "category": "general",
+      "target_market": "individuals",
+      "eligibility": {
+        "notes": "No medical exam required"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000
+      },
+      "premium": {
+        "currency": "KES",
+        "sample": "KES 5,000/year"
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental death, disability, medical expenses"
+        ],
+        "duration": "annual"
+      },
+      "last_updated": "2025-09-20",
+      "sources": [
+        {"title": "Personal Accident Cover", "url": "https://www.liberty.co.ke/Products/personal-accident"}
+      ]
     }
   ],
-  "last_compiled": "2025-09-13"
+  "last_compiled": "2025-09-20"
 }

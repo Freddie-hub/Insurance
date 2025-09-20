@@ -1,0 +1,2867 @@
+[
+  {
+    "chunk_id": "ce7d74b4-892f-44c3-a603-c4626d6b2e6e",
+    "company_id": "heritage_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "heritage_001",
+      "company_name": "The Heritage Insurance Company Kenya Limited",
+      "company_type": "general",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/06/003/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published January 2025",
+      "headquarters": "Liberty House, Processional Way/Mamlaka Road, PO Box 30390-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://www.heritageinsurance.co.ke",
+      "digital_presence_customer_portal": "https://tpi.heritageinsurance.co.ke",
+      "digital_presence_mobile_app": true,
+      "digital_presence_mobile_app_store_links_google_play": "https://play.google.com/store/apps/details?id=com.heritage.heriphoto",
+      "digital_presence_mobile_app_store_links_app_store": "https://apps.apple.com/ke/app/heriphoto/id1548723902",
+      "digital_presence_api_available": true,
+      "digital_presence_api_notes": "Heritage provides partner integration APIs for brokers and corporate clients. Contact corporate sales at talktous@heritage.co.ke for developer references.",
+      "reputation_claims_settlement_ratio": "65.96% (non-liability), 8.63% (liability) (2024 IRA Report, general insurers)",
+      "reputation_customer_complaints": "280 complaints reported in 2024 (estimated based on IRA 2024 data for similar insurers)",
+      "reputation_customer_rating": "4.0/5",
+      "reputation_notes": "Claims ratios from Amssurity 2024 report. Complaints estimated based on IRA data for general insurers. Customer rating derived from sentiment analysis of X posts and Google Reviews.",
+      "last_compiled": "2025-09-13"
+    },
+    "text": "The Heritage Insurance Company Kenya Limited is a general insurance company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/06/003/2025. Headquarters: Liberty House, Processional Way/Mamlaka Road, PO Box 30390-00100, Nairobi, Kenya. Website: https://www.heritageinsurance.co.ke. Customer rating: 4.0/5, Claims settlement ratio: 65.96% (non-liability), 8.63% (liability) (2024 IRA Report, general insurers)."
+  },
+  {
+    "chunk_id": "b07aa4b3-9b71-4d92-bf86-b762e3b91930",
+    "company_id": "heritage_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "Liberty House, Processional Way, PO Box 30390-00100, Nairobi, Kenya",
+      "phone": "+254202783000, +254711075000",
+      "email": "talktous@heritage.co.ke",
+      "company_id": "heritage_001",
+      "branch_id": "heritage_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: heritage_001_branch_001) of heritage_001 is located at Liberty House, Processional Way, PO Box 30390-00100, Nairobi, Kenya. Contact phones: +254202783000, +254711075000. Email: talktous@heritage.co.ke."
+  },
+  {
+    "chunk_id": "b62d1eed-a105-4320-a72a-2f1fb1bad64e",
+    "company_id": "heritage_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "CFC Stanbic Centre, Nyerere Avenue, PO Box 80000-80100, Mombasa, Kenya",
+      "phone": "+254412221357, +254711075135",
+      "email": "mombasa@heritage.co.ke",
+      "company_id": "heritage_001",
+      "branch_id": "heritage_001_branch_002"
+    },
+    "text": "Branch Mombasa Branch (ID: heritage_001_branch_002) of heritage_001 is located at CFC Stanbic Centre, Nyerere Avenue, PO Box 80000-80100, Mombasa, Kenya. Contact phones: +254412221357, +254711075135. Email: mombasa@heritage.co.ke."
+  },
+  {
+    "chunk_id": "11b84a56-53ba-4179-b58a-bcc886c41e46",
+    "company_id": "heritage_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Alpha House, Oginga Odinga Street, PO Box 1890-40100, Kisumu, Kenya",
+      "phone": "+254572021170, +254711075170",
+      "email": "kisumu@heritage.co.ke",
+      "company_id": "heritage_001",
+      "branch_id": "heritage_001_branch_003"
+    },
+    "text": "Branch Kisumu Branch (ID: heritage_001_branch_003) of heritage_001 is located at Alpha House, Oginga Odinga Street, PO Box 1890-40100, Kisumu, Kenya. Contact phones: +254572021170, +254711075170. Email: kisumu@heritage.co.ke."
+  },
+  {
+    "chunk_id": "5ba1fcba-0463-49a6-95d9-c66e6e1d1679",
+    "company_id": "heritage_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Kiptagich House, Uganda Road, PO Box 2500-30100, Eldoret, Kenya",
+      "phone": "+254532061147, +254711075147",
+      "email": "eldoret@heritage.co.ke",
+      "company_id": "heritage_001",
+      "branch_id": "heritage_001_branch_004"
+    },
+    "text": "Branch Eldoret Branch (ID: heritage_001_branch_004) of heritage_001 is located at Kiptagich House, Uganda Road, PO Box 2500-30100, Eldoret, Kenya. Contact phones: +254532061147, +254711075147. Email: eldoret@heritage.co.ke."
+  },
+  {
+    "chunk_id": "aa6c95ca-9a76-439f-b6e0-54f49bd53760",
+    "company_id": "heritage_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "Westside Mall, Kenyatta Avenue, PO Box 1240-20100, Nakuru, Kenya",
+      "phone": "+254512210034, +254711075034",
+      "email": "nakuru@heritage.co.ke",
+      "company_id": "heritage_001",
+      "branch_id": "heritage_001_branch_005"
+    },
+    "text": "Branch Nakuru Branch (ID: heritage_001_branch_005) of heritage_001 is located at Westside Mall, Kenyatta Avenue, PO Box 1240-20100, Nakuru, Kenya. Contact phones: +254512210034, +254711075034. Email: nakuru@heritage.co.ke."
+  },
+  {
+    "chunk_id": "7b0675f8-56db-4dd9-8eda-cdfa47461bad",
+    "company_id": "heritage_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisii Branch",
+      "address": "Royal Towers, 2nd Floor, Hospital Road, Kisii, Kenya",
+      "phone": "+254582030123, +254711075123",
+      "email": "kisii@heritage.co.ke",
+      "company_id": "heritage_001",
+      "branch_id": "heritage_001_branch_006"
+    },
+    "text": "Branch Kisii Branch (ID: heritage_001_branch_006) of heritage_001 is located at Royal Towers, 2nd Floor, Hospital Road, Kisii, Kenya. Contact phones: +254582030123, +254711075123. Email: kisii@heritage.co.ke."
+  },
+  {
+    "chunk_id": "a61782cb-a5f3-4c41-b123-5ae121c36abb",
+    "company_id": "heritage_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Thika Branch",
+      "address": "Thika Business Centre, Commercial Street, PO Box 1690-01000, Thika, Kenya",
+      "phone": "+254672221234, +254711075234",
+      "email": "thika@heritage.co.ke",
+      "company_id": "heritage_001",
+      "branch_id": "heritage_001_branch_007"
+    },
+    "text": "Branch Thika Branch (ID: heritage_001_branch_007) of heritage_001 is located at Thika Business Centre, Commercial Street, PO Box 1690-01000, Thika, Kenya. Contact phones: +254672221234, +254711075234. Email: thika@heritage.co.ke."
+  },
+  {
+    "chunk_id": "10e0c9b1-5f00-43d0-b085-e5e568d45d7e",
+    "company_id": "heritage_001",
+    "product_id": "heritage_crop_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_crop_001",
+      "product_name": "Crop Insurance",
+      "category": "agriculture",
+      "target_market": "farmers, agribusinesses",
+      "eligibility_notes": "Covers registered farmers; requires farm inspection and crop registration",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, agribusiness partners, cooperatives",
+      "sources": [
+        {
+          "title": "Heritage Agriculture Insurance",
+          "url": "https://www.heritageinsurance.co.ke/agriculture-insurance"
+        },
+        {
+          "title": "Amssurity Agriculture Insurance Guide",
+          "url": "https://www.amssurity.co.ke/agriculture-insurance-guide"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Crop Insurance (ID: heritage_crop_001) is a agriculture insurance product by heritage_001 for farmers, agribusinesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "e5d9ebde-03f3-4bcc-a159-f497b340fded",
+    "company_id": "heritage_001",
+    "product_id": "heritage_crop_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Poor farming practices",
+        "Uninsured perils",
+        "Non-registered crops"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_crop_001",
+      "product_name": "Crop Insurance"
+    },
+    "text": "Exclusions for Crop Insurance (ID: heritage_crop_001): ['Poor farming practices', 'Uninsured perils', 'Non-registered crops']."
+  },
+  {
+    "chunk_id": "1adc3691-9a0b-4c1b-a391-fcf6c147cd3a",
+    "company_id": "heritage_001",
+    "product_id": "heritage_crop_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Flood cover",
+        "Inundation",
+        "Malicious damage"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_crop_001",
+      "product_name": "Crop Insurance"
+    },
+    "text": "Add-ons for Crop Insurance (ID: heritage_crop_001): ['Flood cover', 'Inundation', 'Malicious damage']."
+  },
+  {
+    "chunk_id": "0a8db780-13b5-41dd-b620-bb177e13d226",
+    "company_id": "heritage_001",
+    "product_id": "heritage_livestock_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_livestock_002",
+      "product_name": "Livestock Insurance",
+      "category": "agriculture",
+      "target_market": "livestock farmers, cooperatives",
+      "eligibility_notes": "Requires veterinary certification and livestock registration",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, cooperatives, brokers",
+      "sources": [
+        {
+          "title": "Heritage Agriculture Insurance",
+          "url": "https://www.heritageinsurance.co.ke/agriculture-insurance"
+        },
+        {
+          "title": "Amssurity Agriculture Insurance Guide",
+          "url": "https://www.amssurity.co.ke/agriculture-insurance-guide"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Livestock Insurance (ID: heritage_livestock_002) is a agriculture insurance product by heritage_001 for livestock farmers, cooperatives. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d2ddeb15-5025-410b-a299-4068f94decb0",
+    "company_id": "heritage_001",
+    "product_id": "heritage_livestock_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Negligence",
+        "Unvaccinated livestock",
+        "Unreported theft"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_livestock_002",
+      "product_name": "Livestock Insurance"
+    },
+    "text": "Exclusions for Livestock Insurance (ID: heritage_livestock_002): ['Negligence', 'Unvaccinated livestock', 'Unreported theft']."
+  },
+  {
+    "chunk_id": "ee5d3515-5cc0-4bd3-9e9c-b20511154aad",
+    "company_id": "heritage_001",
+    "product_id": "heritage_livestock_002",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Theft extension",
+        "Drought cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_livestock_002",
+      "product_name": "Livestock Insurance"
+    },
+    "text": "Add-ons for Livestock Insurance (ID: heritage_livestock_002): ['Theft extension', 'Drought cover']."
+  },
+  {
+    "chunk_id": "b4572da9-63ca-498b-b658-93926fc6fe83",
+    "company_id": "heritage_001",
+    "product_id": "heritage_greenhouse_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_greenhouse_003",
+      "product_name": "Greenhouse Insurance",
+      "category": "agriculture",
+      "target_market": "greenhouse farmers",
+      "eligibility_notes": "Requires greenhouse valuation and maintenance records",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, agribusiness partners",
+      "sources": [
+        {
+          "title": "Heritage Agriculture Insurance",
+          "url": "https://www.heritageinsurance.co.ke/agriculture-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Greenhouse Insurance (ID: heritage_greenhouse_003) is a agriculture insurance product by heritage_001 for greenhouse farmers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "cfffc667-add3-489a-bcbc-e116e4eebcad",
+    "company_id": "heritage_001",
+    "product_id": "heritage_greenhouse_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Poor maintenance",
+        "Uninsured perils",
+        "Non-registered greenhouses"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_greenhouse_003",
+      "product_name": "Greenhouse Insurance"
+    },
+    "text": "Exclusions for Greenhouse Insurance (ID: heritage_greenhouse_003): ['Poor maintenance', 'Uninsured perils', 'Non-registered greenhouses']."
+  },
+  {
+    "chunk_id": "cc14a385-8202-4d10-a2df-acd5cf73f0fa",
+    "company_id": "heritage_001",
+    "product_id": "heritage_greenhouse_003",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Flood cover",
+        "Subsidence",
+        "Malicious damage"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_greenhouse_003",
+      "product_name": "Greenhouse Insurance"
+    },
+    "text": "Add-ons for Greenhouse Insurance (ID: heritage_greenhouse_003): ['Flood cover', 'Subsidence', 'Malicious damage']."
+  },
+  {
+    "chunk_id": "337f3b60-74ac-4798-bcd4-20daae175ddf",
+    "company_id": "heritage_001",
+    "product_id": "heritage_forestry_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_forestry_004",
+      "product_name": "Forestry Insurance",
+      "category": "agriculture",
+      "target_market": "forestry companies, timber farmers",
+      "eligibility_notes": "Requires forest valuation and management plan",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Agriculture Insurance",
+          "url": "https://www.heritageinsurance.co.ke/agriculture-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Forestry Insurance (ID: heritage_forestry_004) is a agriculture insurance product by heritage_001 for forestry companies, timber farmers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d6676ad1-519a-4050-8da1-189c7a78c322",
+    "company_id": "heritage_001",
+    "product_id": "heritage_forestry_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Illegal logging",
+        "Uninsured natural perils",
+        "Poor forest management"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_forestry_004",
+      "product_name": "Forestry Insurance"
+    },
+    "text": "Exclusions for Forestry Insurance (ID: heritage_forestry_004): ['Illegal logging', 'Uninsured natural perils', 'Poor forest management']."
+  },
+  {
+    "chunk_id": "70b23370-f180-4fc3-8efa-3288bcea8091",
+    "company_id": "heritage_001",
+    "product_id": "heritage_forestry_004",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Landslide cover",
+        "Malicious damage"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_forestry_004",
+      "product_name": "Forestry Insurance"
+    },
+    "text": "Add-ons for Forestry Insurance (ID: heritage_forestry_004): ['Landslide cover', 'Malicious damage']."
+  },
+  {
+    "chunk_id": "4d19dc61-0c02-4390-add8-aabbfde5455f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_all_risk_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_all_risk_005",
+      "product_name": "All-Risk Insurance",
+      "category": "general / property",
+      "target_market": "businesses, high-value asset owners",
+      "eligibility_notes": "Requires asset valuation and inventory list",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage All-Risk Insurance",
+          "url": "https://www.heritageinsurance.co.ke/all-risk-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "All-Risk Insurance (ID: heritage_all_risk_005) is a general / property insurance product by heritage_001 for businesses, high-value asset owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2a4822ff-bcb0-4204-87e4-3490c557f746",
+    "company_id": "heritage_001",
+    "product_id": "heritage_all_risk_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Unspecified assets",
+        "Intentional damage"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_all_risk_005",
+      "product_name": "All-Risk Insurance"
+    },
+    "text": "Exclusions for All-Risk Insurance (ID: heritage_all_risk_005): ['Wear and tear', 'Unspecified assets', 'Intentional damage']."
+  },
+  {
+    "chunk_id": "fdaa8df7-165b-4e90-bc40-0a799816c610",
+    "company_id": "heritage_001",
+    "product_id": "heritage_all_risk_005",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Worldwide cover",
+        "Increased limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_all_risk_005",
+      "product_name": "All-Risk Insurance"
+    },
+    "text": "Add-ons for All-Risk Insurance (ID: heritage_all_risk_005): ['Worldwide cover', 'Increased limits']."
+  },
+  {
+    "chunk_id": "e13def80-e711-4113-bf52-b217b0d52c8d",
+    "company_id": "heritage_001",
+    "product_id": "heritage_bonds_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_bonds_006",
+      "product_name": "Bonds (General)",
+      "category": "general / bonds",
+      "target_market": "contractors, importers, businesses",
+      "eligibility_notes": "Underwriting based on contract value and financial statements",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Bonds",
+          "url": "https://www.heritageinsurance.co.ke/bonds"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Bonds (General) (ID: heritage_bonds_006) is a general / bonds insurance product by heritage_001 for contractors, importers, businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "3f746b8b-e999-4880-936c-d9310c9acc47",
+    "company_id": "heritage_001",
+    "product_id": "heritage_bonds_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-compliance with contract terms",
+        "Fraudulent claims"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_bonds_006",
+      "product_name": "Bonds (General)"
+    },
+    "text": "Exclusions for Bonds (General) (ID: heritage_bonds_006): ['Non-compliance with contract terms', 'Fraudulent claims']."
+  },
+  {
+    "chunk_id": "6bff136a-4f09-42a3-a253-e76431379d90",
+    "company_id": "heritage_001",
+    "product_id": "heritage_bonds_006",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended bond terms"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_bonds_006",
+      "product_name": "Bonds (General)"
+    },
+    "text": "Add-ons for Bonds (General) (ID: heritage_bonds_006): ['Extended bond terms']."
+  },
+  {
+    "chunk_id": "28daaeba-56c0-43f5-a4df-8782bb7e16d3",
+    "company_id": "heritage_001",
+    "product_id": "heritage_burglary_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_burglary_007",
+      "product_name": "Burglary/Theft Insurance",
+      "category": "general / property",
+      "target_market": "businesses, retailers, warehouses",
+      "eligibility_notes": "Requires evidence of forcible entry and security measures",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, brokers",
+      "sources": [
+        {
+          "title": "Heritage Burglary Insurance",
+          "url": "https://www.heritageinsurance.co.ke/burglary-theft-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Burglary/Theft Insurance (ID: heritage_burglary_007) is a general / property insurance product by heritage_001 for businesses, retailers, warehouses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "61f1b926-b4aa-4c8b-b868-5038e3ff9fb0",
+    "company_id": "heritage_001",
+    "product_id": "heritage_burglary_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Theft without forcible entry",
+        "Employee theft unless covered",
+        "Unsecured premises"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_burglary_007",
+      "product_name": "Burglary/Theft Insurance"
+    },
+    "text": "Exclusions for Burglary/Theft Insurance (ID: heritage_burglary_007): ['Theft without forcible entry', 'Employee theft unless covered', 'Unsecured premises']."
+  },
+  {
+    "chunk_id": "2f598c7b-beda-4451-8ea0-93c4b046f1db",
+    "company_id": "heritage_001",
+    "product_id": "heritage_burglary_007",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Money in transit",
+        "Fidelity guarantee"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_burglary_007",
+      "product_name": "Burglary/Theft Insurance"
+    },
+    "text": "Add-ons for Burglary/Theft Insurance (ID: heritage_burglary_007): ['Money in transit', 'Fidelity guarantee']."
+  },
+  {
+    "chunk_id": "3bee1367-69c1-4695-8395-aab47c815d4c",
+    "company_id": "heritage_001",
+    "product_id": "heritage_consequential_loss_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_consequential_loss_008",
+      "product_name": "Consequential Loss Insurance",
+      "category": "general / business interruption",
+      "target_market": "businesses, manufacturers",
+      "eligibility_notes": "Requires financial records and risk assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Consequential Loss",
+          "url": "https://www.heritageinsurance.co.ke/consequential-loss-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Consequential Loss Insurance (ID: heritage_consequential_loss_008) is a general / business interruption insurance product by heritage_001 for businesses, manufacturers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f217ee5a-ef06-4296-972f-7731bb61e75f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_consequential_loss_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-insured perils",
+        "Economic downturns",
+        "Unreported losses"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_consequential_loss_008",
+      "product_name": "Consequential Loss Insurance"
+    },
+    "text": "Exclusions for Consequential Loss Insurance (ID: heritage_consequential_loss_008): ['Non-insured perils', 'Economic downturns', 'Unreported losses']."
+  },
+  {
+    "chunk_id": "9f23b27c-3c80-4aa6-a6d7-622f020bbb61",
+    "company_id": "heritage_001",
+    "product_id": "heritage_consequential_loss_008",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended interruption period"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_consequential_loss_008",
+      "product_name": "Consequential Loss Insurance"
+    },
+    "text": "Add-ons for Consequential Loss Insurance (ID: heritage_consequential_loss_008): ['Extended interruption period']."
+  },
+  {
+    "chunk_id": "44103bdc-c408-49bb-b48f-d9b1e4497151",
+    "company_id": "heritage_001",
+    "product_id": "heritage_contractors_all_risks_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_contractors_all_risks_009",
+      "product_name": "Contractors All Risks Insurance",
+      "category": "general / construction",
+      "target_market": "contractors, construction firms",
+      "eligibility_notes": "Covers projects under construction; requires project contract and valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Contractors All Risks",
+          "url": "https://www.heritageinsurance.co.ke/contractors-all-risks"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Contractors All Risks Insurance (ID: heritage_contractors_all_risks_009) is a general / construction insurance product by heritage_001 for contractors, construction firms. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "7e20a74a-01e5-48c0-a78c-27095b96dd89",
+    "company_id": "heritage_001",
+    "product_id": "heritage_contractors_all_risks_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Faulty design",
+        "Wear and tear",
+        "Non-insured perils"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_contractors_all_risks_009",
+      "product_name": "Contractors All Risks Insurance"
+    },
+    "text": "Exclusions for Contractors All Risks Insurance (ID: heritage_contractors_all_risks_009): ['Faulty design', 'Wear and tear', 'Non-insured perils']."
+  },
+  {
+    "chunk_id": "112ba696-e677-442c-93a3-5d14e879947e",
+    "company_id": "heritage_001",
+    "product_id": "heritage_contractors_all_risks_009",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Delay in completion",
+        "Plant hire cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_contractors_all_risks_009",
+      "product_name": "Contractors All Risks Insurance"
+    },
+    "text": "Add-ons for Contractors All Risks Insurance (ID: heritage_contractors_all_risks_009): ['Delay in completion', 'Plant hire cover']."
+  },
+  {
+    "chunk_id": "517f2917-4e5e-4194-a95c-74d32aa1c16c",
+    "company_id": "heritage_001",
+    "product_id": "heritage_carriers_liability_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_carriers_liability_010",
+      "product_name": "Carriers Liability Insurance",
+      "category": "general / transport",
+      "target_market": "logistics firms, transporters",
+      "eligibility_notes": "Covers registered carriers; requires fleet and cargo details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Carriers Liability",
+          "url": "https://www.heritageinsurance.co.ke/carriers-liability"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Carriers Liability Insurance (ID: heritage_carriers_liability_010) is a general / transport insurance product by heritage_001 for logistics firms, transporters. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "9886396d-059f-4acc-bd4a-86f52d045ec1",
+    "company_id": "heritage_001",
+    "product_id": "heritage_carriers_liability_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Improper packing",
+        "Uninsured cargo types",
+        "Driver negligence"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_carriers_liability_010",
+      "product_name": "Carriers Liability Insurance"
+    },
+    "text": "Exclusions for Carriers Liability Insurance (ID: heritage_carriers_liability_010): ['Improper packing', 'Uninsured cargo types', 'Driver negligence']."
+  },
+  {
+    "chunk_id": "a6c28e28-04cb-4b32-a527-7c73a8ac6168",
+    "company_id": "heritage_001",
+    "product_id": "heritage_carriers_liability_010",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended liability limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_carriers_liability_010",
+      "product_name": "Carriers Liability Insurance"
+    },
+    "text": "Add-ons for Carriers Liability Insurance (ID: heritage_carriers_liability_010): ['Extended liability limits']."
+  },
+  {
+    "chunk_id": "bff77fa4-36b3-4a85-9688-6f92d2dca122",
+    "company_id": "heritage_001",
+    "product_id": "heritage_domestic_package_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_domestic_package_011",
+      "product_name": "Domestic Package Insurance",
+      "category": "general / home",
+      "target_market": "homeowners, tenants",
+      "eligibility_notes": "Covers residential properties and contents; valuation required for high-value items",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Heritage Domestic Package",
+          "url": "https://www.heritageinsurance.co.ke/domestic-package-insurance"
+        },
+        {
+          "title": "List of Heritage Insurance Products",
+          "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Domestic Package Insurance (ID: heritage_domestic_package_011) is a general / home insurance product by heritage_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "b9e74014-bd3b-42b1-84d5-150218afd2cb",
+    "company_id": "heritage_001",
+    "product_id": "heritage_domestic_package_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Unoccupied homes >30 days",
+        "Uninsured perils"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_domestic_package_011",
+      "product_name": "Domestic Package Insurance"
+    },
+    "text": "Exclusions for Domestic Package Insurance (ID: heritage_domestic_package_011): ['Wear and tear', 'Unoccupied homes >30 days', 'Uninsured perils']."
+  },
+  {
+    "chunk_id": "b3dbd715-7494-49da-8585-99bd60687c5a",
+    "company_id": "heritage_001",
+    "product_id": "heritage_domestic_package_011",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "All-risk for valuables",
+        "Temporary accommodation"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_domestic_package_011",
+      "product_name": "Domestic Package Insurance"
+    },
+    "text": "Add-ons for Domestic Package Insurance (ID: heritage_domestic_package_011): ['All-risk for valuables', 'Temporary accommodation']."
+  },
+  {
+    "chunk_id": "8e7c0aba-b560-49ea-8b01-1284eecdc730",
+    "company_id": "heritage_001",
+    "product_id": "heritage_electronics_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_electronics_012",
+      "product_name": "Electronics Insurance",
+      "category": "general / equipment",
+      "target_market": "businesses, individuals with electronics",
+      "eligibility_notes": "Covers specified electronic equipment; requires purchase receipts",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, brokers",
+      "sources": [
+        {
+          "title": "Heritage Electronics Insurance",
+          "url": "https://www.heritageinsurance.co.ke/electronics-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Electronics Insurance (ID: heritage_electronics_012) is a general / equipment insurance product by heritage_001 for businesses, individuals with electronics. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "de8e474a-34f6-4c8d-a0ce-71a70c3d0a6a",
+    "company_id": "heritage_001",
+    "product_id": "heritage_electronics_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Unspecified equipment",
+        "Software issues"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_electronics_012",
+      "product_name": "Electronics Insurance"
+    },
+    "text": "Exclusions for Electronics Insurance (ID: heritage_electronics_012): ['Wear and tear', 'Unspecified equipment', 'Software issues']."
+  },
+  {
+    "chunk_id": "586b6b67-3edf-4831-9d68-9951336e9de6",
+    "company_id": "heritage_001",
+    "product_id": "heritage_electronics_012",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Portable equipment cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_electronics_012",
+      "product_name": "Electronics Insurance"
+    },
+    "text": "Add-ons for Electronics Insurance (ID: heritage_electronics_012): ['Portable equipment cover']."
+  },
+  {
+    "chunk_id": "241dfeeb-0db1-4203-bd1a-a0ab9be985ac",
+    "company_id": "heritage_001",
+    "product_id": "heritage_employers_liability_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_employers_liability_013",
+      "product_name": "Employers Liability Insurance",
+      "category": "general / liability",
+      "target_market": "businesses with employees",
+      "eligibility_notes": "Covers registered employers; requires payroll details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Employers Liability",
+          "url": "https://www.heritageinsurance.co.ke/employers-liability"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Employers Liability Insurance (ID: heritage_employers_liability_013) is a general / liability insurance product by heritage_001 for businesses with employees. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "11470ef4-52af-4af1-882e-08e02ebc93ad",
+    "company_id": "heritage_001",
+    "product_id": "heritage_employers_liability_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional acts",
+        "Non-employees",
+        "Unreported injuries"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_employers_liability_013",
+      "product_name": "Employers Liability Insurance"
+    },
+    "text": "Exclusions for Employers Liability Insurance (ID: heritage_employers_liability_013): ['Intentional acts', 'Non-employees', 'Unreported injuries']."
+  },
+  {
+    "chunk_id": "c5ae4409-d99b-4e2c-bfe7-cbb3440b3f01",
+    "company_id": "heritage_001",
+    "product_id": "heritage_employers_liability_013",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_employers_liability_013",
+      "product_name": "Employers Liability Insurance"
+    },
+    "text": "Add-ons for Employers Liability Insurance (ID: heritage_employers_liability_013): ['Increased limits']."
+  },
+  {
+    "chunk_id": "6acba455-6b4c-4dd9-822a-6a9d6cfd4450",
+    "company_id": "heritage_001",
+    "product_id": "heritage_fidelity_guarantee_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_fidelity_guarantee_014",
+      "product_name": "Fidelity Guarantee Insurance",
+      "category": "general / liability",
+      "target_market": "businesses with employees handling funds",
+      "eligibility_notes": "Requires employee background checks and financial controls",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Fidelity Guarantee",
+          "url": "https://www.heritageinsurance.co.ke/fidelity-guarantee"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Fidelity Guarantee Insurance (ID: heritage_fidelity_guarantee_014) is a general / liability insurance product by heritage_001 for businesses with employees handling funds. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2a893dce-e9ae-4f53-b022-165cdec5b08f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_fidelity_guarantee_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-employee theft",
+        "Unreported fraud",
+        "Poor financial controls"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_fidelity_guarantee_014",
+      "product_name": "Fidelity Guarantee Insurance"
+    },
+    "text": "Exclusions for Fidelity Guarantee Insurance (ID: heritage_fidelity_guarantee_014): ['Non-employee theft', 'Unreported fraud', 'Poor financial controls']."
+  },
+  {
+    "chunk_id": "27ab3a1f-4843-4146-a301-5597b2ef6d9b",
+    "company_id": "heritage_001",
+    "product_id": "heritage_fidelity_guarantee_014",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_fidelity_guarantee_014",
+      "product_name": "Fidelity Guarantee Insurance"
+    },
+    "text": "Add-ons for Fidelity Guarantee Insurance (ID: heritage_fidelity_guarantee_014): ['Increased limits']."
+  },
+  {
+    "chunk_id": "325a9d14-6f86-48e9-a954-3345c70b8cac",
+    "company_id": "heritage_001",
+    "product_id": "heritage_fire_perils_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_fire_perils_015",
+      "product_name": "Fire & Perils Insurance",
+      "category": "general / property",
+      "target_market": "businesses, property owners",
+      "eligibility_notes": "Requires property valuation and fire safety measures",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, brokers",
+      "sources": [
+        {
+          "title": "Heritage Fire & Perils",
+          "url": "https://www.heritageinsurance.co.ke/fire-perils-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Fire & Perils Insurance (ID: heritage_fire_perils_015) is a general / property insurance product by heritage_001 for businesses, property owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "03759db7-81e3-4ded-8397-74d2859fac25",
+    "company_id": "heritage_001",
+    "product_id": "heritage_fire_perils_015",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Uninsured perils",
+        "Negligence",
+        "Unoccupied properties >30 days"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_fire_perils_015",
+      "product_name": "Fire & Perils Insurance"
+    },
+    "text": "Exclusions for Fire & Perils Insurance (ID: heritage_fire_perils_015): ['Uninsured perils', 'Negligence', 'Unoccupied properties >30 days']."
+  },
+  {
+    "chunk_id": "e4e1e4d8-ded7-47eb-b0c7-c4c9dcbdc152",
+    "company_id": "heritage_001",
+    "product_id": "heritage_fire_perils_015",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Flood cover",
+        "Subsidence"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_fire_perils_015",
+      "product_name": "Fire & Perils Insurance"
+    },
+    "text": "Add-ons for Fire & Perils Insurance (ID: heritage_fire_perils_015): ['Flood cover', 'Subsidence']."
+  },
+  {
+    "chunk_id": "3e0ed460-e5e1-4daa-9438-2a0b712c52dd",
+    "company_id": "heritage_001",
+    "product_id": "heritage_glass_016",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_glass_016",
+      "product_name": "Glass Insurance",
+      "category": "general / property",
+      "target_market": "businesses with glass installations",
+      "eligibility_notes": "Covers fixed glass; requires valuation and installation details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, brokers",
+      "sources": [
+        {
+          "title": "Heritage Glass Insurance",
+          "url": "https://www.heritageinsurance.co.ke/glass-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Glass Insurance (ID: heritage_glass_016) is a general / property insurance product by heritage_001 for businesses with glass installations. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "cf29bd4a-4d81-4bb1-9487-dcea84da0a69",
+    "company_id": "heritage_001",
+    "product_id": "heritage_glass_016",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Non-fixed glass",
+        "Intentional damage"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_glass_016",
+      "product_name": "Glass Insurance"
+    },
+    "text": "Exclusions for Glass Insurance (ID: heritage_glass_016): ['Wear and tear', 'Non-fixed glass', 'Intentional damage']."
+  },
+  {
+    "chunk_id": "e4f85122-21e7-4db4-a9bd-bfc2ccc08fbd",
+    "company_id": "heritage_001",
+    "product_id": "heritage_glass_016",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Signage cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_glass_016",
+      "product_name": "Glass Insurance"
+    },
+    "text": "Add-ons for Glass Insurance (ID: heritage_glass_016): ['Signage cover']."
+  },
+  {
+    "chunk_id": "9d78bbc0-f443-4eb0-a5f3-ebc3b64c6f7f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_goods_transit_017",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_goods_transit_017",
+      "product_name": "Goods in Transit Insurance",
+      "category": "general / transport",
+      "target_market": "businesses, logistics firms",
+      "eligibility_notes": "Covers goods during transit; requires cargo details and transport method",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Goods in Transit",
+          "url": "https://www.heritageinsurance.co.ke/goods-in-transit"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Goods in Transit Insurance (ID: heritage_goods_transit_017) is a general / transport insurance product by heritage_001 for businesses, logistics firms. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "66689c36-6355-4321-8ab4-d6fb893257e1",
+    "company_id": "heritage_001",
+    "product_id": "heritage_goods_transit_017",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Improper packing",
+        "Inherent vice",
+        "Uninsured transport methods"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_goods_transit_017",
+      "product_name": "Goods in Transit Insurance"
+    },
+    "text": "Exclusions for Goods in Transit Insurance (ID: heritage_goods_transit_017): ['Improper packing', 'Inherent vice', 'Uninsured transport methods']."
+  },
+  {
+    "chunk_id": "e189dbb7-809d-4463-be96-0a7be92d3d79",
+    "company_id": "heritage_001",
+    "product_id": "heritage_goods_transit_017",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended transit routes"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_goods_transit_017",
+      "product_name": "Goods in Transit Insurance"
+    },
+    "text": "Add-ons for Goods in Transit Insurance (ID: heritage_goods_transit_017): ['Extended transit routes']."
+  },
+  {
+    "chunk_id": "aec9899e-329a-4fed-a146-93ccc2ca4d3c",
+    "company_id": "heritage_001",
+    "product_id": "heritage_group_personal_accident_018",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_group_personal_accident_018",
+      "product_name": "Group Personal Accident Insurance",
+      "category": "general / accident",
+      "target_market": "businesses, groups",
+      "eligibility_notes": "Covers group members; requires member list and health declarations",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Group Personal Accident",
+          "url": "https://www.heritageinsurance.co.ke/group-personal-accident"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Group Personal Accident Insurance (ID: heritage_group_personal_accident_018) is a general / accident insurance product by heritage_001 for businesses, groups. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "77b85661-fe05-460f-a372-5950c032ac6f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_group_personal_accident_018",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions",
+        "Intentional injuries",
+        "Unreported accidents"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_group_personal_accident_018",
+      "product_name": "Group Personal Accident Insurance"
+    },
+    "text": "Exclusions for Group Personal Accident Insurance (ID: heritage_group_personal_accident_018): ['Pre-existing conditions', 'Intentional injuries', 'Unreported accidents']."
+  },
+  {
+    "chunk_id": "9ae1dc94-fc78-4cf8-9cd8-53d032cf48d7",
+    "company_id": "heritage_001",
+    "product_id": "heritage_group_personal_accident_018",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits",
+        "Medical extension"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_group_personal_accident_018",
+      "product_name": "Group Personal Accident Insurance"
+    },
+    "text": "Add-ons for Group Personal Accident Insurance (ID: heritage_group_personal_accident_018): ['Increased limits', 'Medical extension']."
+  },
+  {
+    "chunk_id": "7c135c23-e9ab-4e0f-8b11-0f536df7dc54",
+    "company_id": "heritage_001",
+    "product_id": "heritage_industrial_all_risks_019",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_industrial_all_risks_019",
+      "product_name": "Industrial All Risks Insurance",
+      "category": "general / property",
+      "target_market": "large industries, manufacturers",
+      "eligibility_notes": "Requires comprehensive risk assessment and asset valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Industrial All Risks",
+          "url": "https://www.heritageinsurance.co.ke/industrial-all-risks"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Industrial All Risks Insurance (ID: heritage_industrial_all_risks_019) is a general / property insurance product by heritage_001 for large industries, manufacturers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "07882b2c-2141-4f08-8e88-84b360bf69f3",
+    "company_id": "heritage_001",
+    "product_id": "heritage_industrial_all_risks_019",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Uninsured perils",
+        "Poor maintenance"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_industrial_all_risks_019",
+      "product_name": "Industrial All Risks Insurance"
+    },
+    "text": "Exclusions for Industrial All Risks Insurance (ID: heritage_industrial_all_risks_019): ['Wear and tear', 'Uninsured perils', 'Poor maintenance']."
+  },
+  {
+    "chunk_id": "a7433177-09ef-400c-98b6-9f07fe9e9d83",
+    "company_id": "heritage_001",
+    "product_id": "heritage_industrial_all_risks_019",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended interruption cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_industrial_all_risks_019",
+      "product_name": "Industrial All Risks Insurance"
+    },
+    "text": "Add-ons for Industrial All Risks Insurance (ID: heritage_industrial_all_risks_019): ['Extended interruption cover']."
+  },
+  {
+    "chunk_id": "c6cf3cda-ca41-4989-a5aa-b353b6f1c35d",
+    "company_id": "heritage_001",
+    "product_id": "heritage_machinery_breakdown_020",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_machinery_breakdown_020",
+      "product_name": "Machinery Breakdown Insurance",
+      "category": "general / equipment",
+      "target_market": "businesses with machinery",
+      "eligibility_notes": "Requires machinery valuation and maintenance records",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Machinery Breakdown",
+          "url": "https://www.heritageinsurance.co.ke/machinery-breakdown"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Machinery Breakdown Insurance (ID: heritage_machinery_breakdown_020) is a general / equipment insurance product by heritage_001 for businesses with machinery. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "009f5f1a-6dad-4bc5-9df8-c963a9472371",
+    "company_id": "heritage_001",
+    "product_id": "heritage_machinery_breakdown_020",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Poor maintenance",
+        "Operator error"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_machinery_breakdown_020",
+      "product_name": "Machinery Breakdown Insurance"
+    },
+    "text": "Exclusions for Machinery Breakdown Insurance (ID: heritage_machinery_breakdown_020): ['Wear and tear', 'Poor maintenance', 'Operator error']."
+  },
+  {
+    "chunk_id": "282a390c-831c-4886-9e37-d25d5b484c84",
+    "company_id": "heritage_001",
+    "product_id": "heritage_machinery_breakdown_020",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Business interruption"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_machinery_breakdown_020",
+      "product_name": "Machinery Breakdown Insurance"
+    },
+    "text": "Add-ons for Machinery Breakdown Insurance (ID: heritage_machinery_breakdown_020): ['Business interruption']."
+  },
+  {
+    "chunk_id": "f2a2490d-e215-46bf-8a51-0893f85dca69",
+    "company_id": "heritage_001",
+    "product_id": "heritage_marine_cargo_021",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_marine_cargo_021",
+      "product_name": "Marine Cargo Insurance",
+      "category": "marine",
+      "target_market": "importers, exporters, logistics firms",
+      "eligibility_notes": "Covers single transit or open cover; requires cargo details",
+      "geographic_coverage": "Kenya / International",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, marine specialists",
+      "sources": [
+        {
+          "title": "Heritage Marine Insurance",
+          "url": "https://www.heritageinsurance.co.ke/marine-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Marine Cargo Insurance (ID: heritage_marine_cargo_021) is a marine insurance product by heritage_001 for importers, exporters, logistics firms. Geographic coverage: Kenya / International."
+  },
+  {
+    "chunk_id": "23e4d6a3-7669-4ce3-a75d-7be7ebaff754",
+    "company_id": "heritage_001",
+    "product_id": "heritage_marine_cargo_021",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Inherent vice",
+        "Improper packing",
+        "War risks unless covered"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_marine_cargo_021",
+      "product_name": "Marine Cargo Insurance"
+    },
+    "text": "Exclusions for Marine Cargo Insurance (ID: heritage_marine_cargo_021): ['Inherent vice', 'Improper packing', 'War risks unless covered']."
+  },
+  {
+    "chunk_id": "35c118cc-b136-45e3-8dab-2c46736aa649",
+    "company_id": "heritage_001",
+    "product_id": "heritage_marine_cargo_021",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "War and strikes cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_marine_cargo_021",
+      "product_name": "Marine Cargo Insurance"
+    },
+    "text": "Add-ons for Marine Cargo Insurance (ID: heritage_marine_cargo_021): ['War and strikes cover']."
+  },
+  {
+    "chunk_id": "1f451b0d-de86-4d1e-b778-baec5fda7d39",
+    "company_id": "heritage_001",
+    "product_id": "heritage_marine_hull_022",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_marine_hull_022",
+      "product_name": "Marine Hull Insurance",
+      "category": "marine",
+      "target_market": "ship owners, operators",
+      "eligibility_notes": "Requires vessel valuation and registration",
+      "geographic_coverage": "Kenya / International",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, marine specialists",
+      "sources": [
+        {
+          "title": "Heritage Marine Insurance",
+          "url": "https://www.heritageinsurance.co.ke/marine-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Marine Hull Insurance (ID: heritage_marine_hull_022) is a marine insurance product by heritage_001 for ship owners, operators. Geographic coverage: Kenya / International."
+  },
+  {
+    "chunk_id": "6da2ca5a-ea04-4fbb-9377-c3d3345c028f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_marine_hull_022",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Unseaworthy vessels",
+        "Uninsured perils"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_marine_hull_022",
+      "product_name": "Marine Hull Insurance"
+    },
+    "text": "Exclusions for Marine Hull Insurance (ID: heritage_marine_hull_022): ['Wear and tear', 'Unseaworthy vessels', 'Uninsured perils']."
+  },
+  {
+    "chunk_id": "eaa8b923-7f80-42c6-b37d-be287a48f751",
+    "company_id": "heritage_001",
+    "product_id": "heritage_marine_hull_022",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Machinery damage cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_marine_hull_022",
+      "product_name": "Marine Hull Insurance"
+    },
+    "text": "Add-ons for Marine Hull Insurance (ID: heritage_marine_hull_022): ['Machinery damage cover']."
+  },
+  {
+    "chunk_id": "890ea133-7a06-4c7d-a106-7eeb1dd41ab9",
+    "company_id": "heritage_001",
+    "product_id": "heritage_money_023",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_money_023",
+      "product_name": "Money Insurance",
+      "category": "general / property",
+      "target_market": "businesses handling cash",
+      "eligibility_notes": "Requires security measures assessment and cash handling procedures",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, brokers",
+      "sources": [
+        {
+          "title": "Heritage Money Insurance",
+          "url": "https://www.heritageinsurance.co.ke/money-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Money Insurance (ID: heritage_money_023) is a general / property insurance product by heritage_001 for businesses handling cash. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "c6437cc7-58da-46d3-8a59-5dc9515ad184",
+    "company_id": "heritage_001",
+    "product_id": "heritage_money_023",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Employee theft unless covered",
+        "Unsecured cash",
+        "Unreported losses"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_money_023",
+      "product_name": "Money Insurance"
+    },
+    "text": "Exclusions for Money Insurance (ID: heritage_money_023): ['Employee theft unless covered', 'Unsecured cash', 'Unreported losses']."
+  },
+  {
+    "chunk_id": "935532dc-f6f1-4bcd-bdbb-7dade0bf62b5",
+    "company_id": "heritage_001",
+    "product_id": "heritage_money_023",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Fidelity guarantee"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_money_023",
+      "product_name": "Money Insurance"
+    },
+    "text": "Add-ons for Money Insurance (ID: heritage_money_023): ['Fidelity guarantee']."
+  },
+  {
+    "chunk_id": "e1f92925-1061-4fa5-9240-75a1b418a9ad",
+    "company_id": "heritage_001",
+    "product_id": "heritage_motor_private_024",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_motor_private_024",
+      "product_name": "Motor Insurance (Private Cars)",
+      "category": "motor",
+      "target_market": "private vehicle owners",
+      "eligibility_notes": "Requires valid driver’s license, vehicle logbook, and valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Heritage Motor Insurance",
+          "url": "https://www.heritageinsurance.co.ke/motor-insurance"
+        },
+        {
+          "title": "Heritage Insurance Company Kenya Limited v Commissioner (2024)",
+          "url": "http://new.kenyalaw.org"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Motor Insurance (Private Cars) (ID: heritage_motor_private_024) is a motor insurance product by heritage_001 for private vehicle owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8f0463c3-d22b-4ba0-a150-f69fe63f1960",
+    "company_id": "heritage_001",
+    "product_id": "heritage_motor_private_024",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage (third-party)",
+        "Mechanical breakdown"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_motor_private_024",
+      "product_name": "Motor Insurance (Private Cars)"
+    },
+    "text": "Exclusions for Motor Insurance (Private Cars) (ID: heritage_motor_private_024): ['Uninsured drivers', 'Non-accident damage (third-party)', 'Mechanical breakdown']."
+  },
+  {
+    "chunk_id": "eff47ecc-c67b-4bfc-bace-62fb16db29a3",
+    "company_id": "heritage_001",
+    "product_id": "heritage_motor_private_024",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Excess protector",
+        "Political violence cover",
+        "Telematics (Auto Correct)"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_motor_private_024",
+      "product_name": "Motor Insurance (Private Cars)"
+    },
+    "text": "Add-ons for Motor Insurance (Private Cars) (ID: heritage_motor_private_024): ['Excess protector', 'Political violence cover', 'Telematics (Auto Correct)']."
+  },
+  {
+    "chunk_id": "5a38268d-f439-41c5-af97-eeccca8720c5",
+    "company_id": "heritage_001",
+    "product_id": "heritage_motor_commercial_025",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_motor_commercial_025",
+      "product_name": "Motor Insurance (Commercial Vehicles)",
+      "category": "motor",
+      "target_market": "businesses, fleet owners",
+      "eligibility_notes": "Requires valid driver’s license, vehicle logbook, and valuation for commercial vehicles",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Heritage Motor Insurance",
+          "url": "https://www.heritageinsurance.co.ke/motor-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Motor Insurance (Commercial Vehicles) (ID: heritage_motor_commercial_025) is a motor insurance product by heritage_001 for businesses, fleet owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f74188f2-200f-44f8-b9d0-d51bc68ada9e",
+    "company_id": "heritage_001",
+    "product_id": "heritage_motor_commercial_025",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage (third-party)",
+        "Mechanical breakdown"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_motor_commercial_025",
+      "product_name": "Motor Insurance (Commercial Vehicles)"
+    },
+    "text": "Exclusions for Motor Insurance (Commercial Vehicles) (ID: heritage_motor_commercial_025): ['Uninsured drivers', 'Non-accident damage (third-party)', 'Mechanical breakdown']."
+  },
+  {
+    "chunk_id": "bbdef258-2615-4158-a927-afdb9feb6cfa",
+    "company_id": "heritage_001",
+    "product_id": "heritage_motor_commercial_025",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Excess protector",
+        "Political violence cover",
+        "Telematics (Auto Correct)"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_motor_commercial_025",
+      "product_name": "Motor Insurance (Commercial Vehicles)"
+    },
+    "text": "Add-ons for Motor Insurance (Commercial Vehicles) (ID: heritage_motor_commercial_025): ['Excess protector', 'Political violence cover', 'Telematics (Auto Correct)']."
+  },
+  {
+    "chunk_id": "c3446fbd-bd99-4884-ac6b-d4b469145b49",
+    "company_id": "heritage_001",
+    "product_id": "heritage_occupiers_liability_026",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_occupiers_liability_026",
+      "product_name": "Occupiers Liability Insurance",
+      "category": "general / liability",
+      "target_market": "property owners, tenants",
+      "eligibility_notes": "Covers premises occupiers; requires property details and safety measures",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Occupiers Liability",
+          "url": "https://www.heritageinsurance.co.ke/occupiers-liability"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Occupiers Liability Insurance (ID: heritage_occupiers_liability_026) is a general / liability insurance product by heritage_001 for property owners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "3fb9dad1-8739-4908-bb6d-45bca2da6ac3",
+    "company_id": "heritage_001",
+    "product_id": "heritage_occupiers_liability_026",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional acts",
+        "Unmaintained premises",
+        "Non-occupier liability"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_occupiers_liability_026",
+      "product_name": "Occupiers Liability Insurance"
+    },
+    "text": "Exclusions for Occupiers Liability Insurance (ID: heritage_occupiers_liability_026): ['Intentional acts', 'Unmaintained premises', 'Non-occupier liability']."
+  },
+  {
+    "chunk_id": "2dcffc9d-e3d8-48c4-9df2-d4b9f912de7d",
+    "company_id": "heritage_001",
+    "product_id": "heritage_occupiers_liability_026",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_occupiers_liability_026",
+      "product_name": "Occupiers Liability Insurance"
+    },
+    "text": "Add-ons for Occupiers Liability Insurance (ID: heritage_occupiers_liability_026): ['Increased limits']."
+  },
+  {
+    "chunk_id": "fda9d9e3-2347-4f7d-99ff-56064fa92674",
+    "company_id": "heritage_001",
+    "product_id": "heritage_personal_accident_027",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_personal_accident_027",
+      "product_name": "Personal Accident Insurance",
+      "category": "general / accident",
+      "target_market": "individuals",
+      "eligibility_notes": "Requires health declaration; no medical exam for standard cover",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Heritage Personal Accident",
+          "url": "https://www.heritageinsurance.co.ke/personal-accident"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Personal Accident Insurance (ID: heritage_personal_accident_027) is a general / accident insurance product by heritage_001 for individuals. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "b3a03756-ff92-41d7-a015-177d30ceea2b",
+    "company_id": "heritage_001",
+    "product_id": "heritage_personal_accident_027",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions",
+        "Intentional injuries",
+        "Unreported accidents"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_personal_accident_027",
+      "product_name": "Personal Accident Insurance"
+    },
+    "text": "Exclusions for Personal Accident Insurance (ID: heritage_personal_accident_027): ['Pre-existing conditions', 'Intentional injuries', 'Unreported accidents']."
+  },
+  {
+    "chunk_id": "447dfb8f-b03d-4660-96eb-9aadaf9e65cd",
+    "company_id": "heritage_001",
+    "product_id": "heritage_personal_accident_027",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits",
+        "Medical extension"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_personal_accident_027",
+      "product_name": "Personal Accident Insurance"
+    },
+    "text": "Add-ons for Personal Accident Insurance (ID: heritage_personal_accident_027): ['Increased limits', 'Medical extension']."
+  },
+  {
+    "chunk_id": "6655ccd5-f08c-4160-a84c-4c18faea3ff2",
+    "company_id": "heritage_001",
+    "product_id": "heritage_personal_liability_028",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_personal_liability_028",
+      "product_name": "Personal Liability Insurance",
+      "category": "general / liability",
+      "target_market": "individuals",
+      "eligibility_notes": "Covers personal liability; requires risk assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, brokers",
+      "sources": [
+        {
+          "title": "Heritage Personal Liability",
+          "url": "https://www.heritageinsurance.co.ke/personal-liability"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Personal Liability Insurance (ID: heritage_personal_liability_028) is a general / liability insurance product by heritage_001 for individuals. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "a9b1e445-a892-4e5c-bc8d-c147ab1d6652",
+    "company_id": "heritage_001",
+    "product_id": "heritage_personal_liability_028",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional acts",
+        "Business-related liability",
+        "Unreported incidents"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_personal_liability_028",
+      "product_name": "Personal Liability Insurance"
+    },
+    "text": "Exclusions for Personal Liability Insurance (ID: heritage_personal_liability_028): ['Intentional acts', 'Business-related liability', 'Unreported incidents']."
+  },
+  {
+    "chunk_id": "07e652dd-11ce-435f-ae09-577bcfeef195",
+    "company_id": "heritage_001",
+    "product_id": "heritage_personal_liability_028",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_personal_liability_028",
+      "product_name": "Personal Liability Insurance"
+    },
+    "text": "Add-ons for Personal Liability Insurance (ID: heritage_personal_liability_028): ['Increased limits']."
+  },
+  {
+    "chunk_id": "b670c4c7-1852-40fd-aa1f-20ed3cc01880",
+    "company_id": "heritage_001",
+    "product_id": "heritage_professional_indemnity_029",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_professional_indemnity_029",
+      "product_name": "Professional Indemnity Insurance",
+      "category": "general / liability",
+      "target_market": "professionals (doctors, lawyers, engineers, etc.)",
+      "eligibility_notes": "Requires professional qualifications and practice details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Professional Indemnity",
+          "url": "https://www.heritageinsurance.co.ke/professional-indemnity"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Professional Indemnity Insurance (ID: heritage_professional_indemnity_029) is a general / liability insurance product by heritage_001 for professionals (doctors, lawyers, engineers, etc.). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "84789eb0-92d2-413b-ad46-b028ed7764d6",
+    "company_id": "heritage_001",
+    "product_id": "heritage_professional_indemnity_029",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional misconduct",
+        "Unlicensed practice",
+        "Non-professional services"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_professional_indemnity_029",
+      "product_name": "Professional Indemnity Insurance"
+    },
+    "text": "Exclusions for Professional Indemnity Insurance (ID: heritage_professional_indemnity_029): ['Intentional misconduct', 'Unlicensed practice', 'Non-professional services']."
+  },
+  {
+    "chunk_id": "548e8348-6dfc-4b86-bd7a-99f07f2c250e",
+    "company_id": "heritage_001",
+    "product_id": "heritage_professional_indemnity_029",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended reporting period"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_professional_indemnity_029",
+      "product_name": "Professional Indemnity Insurance"
+    },
+    "text": "Add-ons for Professional Indemnity Insurance (ID: heritage_professional_indemnity_029): ['Extended reporting period']."
+  },
+  {
+    "chunk_id": "154e8484-c2fa-410a-9196-c7fdfbe0604a",
+    "company_id": "heritage_001",
+    "product_id": "heritage_public_liability_030",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_public_liability_030",
+      "product_name": "Public Liability Insurance",
+      "category": "general / liability",
+      "target_market": "businesses, event organizers",
+      "eligibility_notes": "Requires business/event details and risk assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Public Liability",
+          "url": "https://www.heritageinsurance.co.ke/public-liability"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Public Liability Insurance (ID: heritage_public_liability_030) is a general / liability insurance product by heritage_001 for businesses, event organizers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "19b61cdd-eb75-41c5-a720-fd259cf08c72",
+    "company_id": "heritage_001",
+    "product_id": "heritage_public_liability_030",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional acts",
+        "Employee injuries",
+        "Unreported incidents"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_public_liability_030",
+      "product_name": "Public Liability Insurance"
+    },
+    "text": "Exclusions for Public Liability Insurance (ID: heritage_public_liability_030): ['Intentional acts', 'Employee injuries', 'Unreported incidents']."
+  },
+  {
+    "chunk_id": "604c304f-eec6-4e84-9dfe-8ecb8f580a17",
+    "company_id": "heritage_001",
+    "product_id": "heritage_public_liability_030",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_public_liability_030",
+      "product_name": "Public Liability Insurance"
+    },
+    "text": "Add-ons for Public Liability Insurance (ID: heritage_public_liability_030): ['Increased limits']."
+  },
+  {
+    "chunk_id": "2feafb92-85c4-4f22-8dd7-d0c4ba21416b",
+    "company_id": "heritage_001",
+    "product_id": "heritage_sportsman_031",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_sportsman_031",
+      "product_name": "Sportsman’s Policy",
+      "category": "general / accident",
+      "target_market": "sportsmen, athletes",
+      "eligibility_notes": "Covers registered sportsmen; requires activity details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, brokers",
+      "sources": [
+        {
+          "title": "List of Heritage Insurance Products",
+          "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Sportsman’s Policy (ID: heritage_sportsman_031) is a general / accident insurance product by heritage_001 for sportsmen, athletes. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "4a08015c-4003-4f89-946f-d982003ce4df",
+    "company_id": "heritage_001",
+    "product_id": "heritage_sportsman_031",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-sporting injuries",
+        "Uninsured equipment",
+        "Professional sports unless specified"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_sportsman_031",
+      "product_name": "Sportsman’s Policy"
+    },
+    "text": "Exclusions for Sportsman’s Policy (ID: heritage_sportsman_031): ['Non-sporting injuries', 'Uninsured equipment', 'Professional sports unless specified']."
+  },
+  {
+    "chunk_id": "1e913332-7b06-4564-909a-283b9f5f792c",
+    "company_id": "heritage_001",
+    "product_id": "heritage_sportsman_031",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended equipment cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_sportsman_031",
+      "product_name": "Sportsman’s Policy"
+    },
+    "text": "Add-ons for Sportsman’s Policy (ID: heritage_sportsman_031): ['Extended equipment cover']."
+  },
+  {
+    "chunk_id": "5a3c3833-3c71-4fc8-935a-f1f7418c09ca",
+    "company_id": "heritage_001",
+    "product_id": "heritage_travel_032",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_travel_032",
+      "product_name": "Travel Insurance",
+      "category": "general / travel",
+      "target_market": "travelers, students, expatriates",
+      "eligibility_notes": "Covers trips up to 45 days; requires travel itinerary",
+      "geographic_coverage": "Kenya / International",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "online, agents, brokers",
+      "sources": [
+        {
+          "title": "List of Heritage Insurance Products",
+          "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Travel Insurance (ID: heritage_travel_032) is a general / travel insurance product by heritage_001 for travelers, students, expatriates. Geographic coverage: Kenya / International."
+  },
+  {
+    "chunk_id": "f90684aa-e9fb-4669-9ad1-2081b3bc03c8",
+    "company_id": "heritage_001",
+    "product_id": "heritage_travel_032",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions",
+        "Unreported losses",
+        "Non-Schengen destinations unless specified"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_travel_032",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Exclusions for Travel Insurance (ID: heritage_travel_032): ['Pre-existing conditions', 'Unreported losses', 'Non-Schengen destinations unless specified']."
+  },
+  {
+    "chunk_id": "14b71ad1-c539-482e-a177-6aacfa971dc4",
+    "company_id": "heritage_001",
+    "product_id": "heritage_travel_032",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Sports cover",
+        "Extended trip duration"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_travel_032",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Add-ons for Travel Insurance (ID: heritage_travel_032): ['Sports cover', 'Extended trip duration']."
+  },
+  {
+    "chunk_id": "a012ea62-698e-46af-80f1-4c6e4f755d8f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_workmens_compensation_033",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_workmens_compensation_033",
+      "product_name": "Workmen’s Compensation Insurance",
+      "category": "general / liability",
+      "target_market": "businesses with employees",
+      "eligibility_notes": "Requires payroll details and compliance with WIBA",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Workmen’s Compensation",
+          "url": "https://www.heritageinsurance.co.ke/workmens-compensation"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Workmen’s Compensation Insurance (ID: heritage_workmens_compensation_033) is a general / liability insurance product by heritage_001 for businesses with employees. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "9e2966ae-e057-4017-bfa3-ef16bf5f597c",
+    "company_id": "heritage_001",
+    "product_id": "heritage_workmens_compensation_033",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-workplace injuries",
+        "Unreported employees",
+        "Intentional acts"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_workmens_compensation_033",
+      "product_name": "Workmen’s Compensation Insurance"
+    },
+    "text": "Exclusions for Workmen’s Compensation Insurance (ID: heritage_workmens_compensation_033): ['Non-workplace injuries', 'Unreported employees', 'Intentional acts']."
+  },
+  {
+    "chunk_id": "e9f1c796-4a0f-439a-ad04-1ec874afc342",
+    "company_id": "heritage_001",
+    "product_id": "heritage_workmens_compensation_033",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_workmens_compensation_033",
+      "product_name": "Workmen’s Compensation Insurance"
+    },
+    "text": "Add-ons for Workmen’s Compensation Insurance (ID: heritage_workmens_compensation_033): ['Increased limits']."
+  },
+  {
+    "chunk_id": "afcbcdf3-cf15-49a0-90d2-c19c20b05bad",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_inpatient_034",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_inpatient_034",
+      "product_name": "Medical Insurance (Inpatient)",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility_notes": "Requires health declaration; no outpatient benefits",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "List of Heritage Insurance Products",
+          "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Medical Insurance (Inpatient) (ID: heritage_medical_inpatient_034) is a medical insurance product by heritage_001 for individuals, families, corporates. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "be99680c-2285-430d-aff9-4a3cc559be34",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_inpatient_034",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Outpatient treatment",
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_inpatient_034",
+      "product_name": "Medical Insurance (Inpatient)"
+    },
+    "text": "Exclusions for Medical Insurance (Inpatient) (ID: heritage_medical_inpatient_034): ['Outpatient treatment', 'Pre-existing conditions unless disclosed', 'Cosmetic procedures']."
+  },
+  {
+    "chunk_id": "4d153644-97e8-4369-acdb-0e29c345155d",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_inpatient_034",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover",
+        "Emergency evacuation"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_inpatient_034",
+      "product_name": "Medical Insurance (Inpatient)"
+    },
+    "text": "Add-ons for Medical Insurance (Inpatient) (ID: heritage_medical_inpatient_034): ['Maternity cover', 'Emergency evacuation']."
+  },
+  {
+    "chunk_id": "22167959-9fe3-4311-8e25-3b19f96d0d8d",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_comprehensive_035",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_comprehensive_035",
+      "product_name": "Medical Insurance (Comprehensive)",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility_notes": "Requires health declaration; covers inpatient and outpatient",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "List of Heritage Insurance Products",
+          "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Medical Insurance (Comprehensive) (ID: heritage_medical_comprehensive_035) is a medical insurance product by heritage_001 for individuals, families, corporates. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "7104a243-e6d8-4d94-9533-32bebed4950f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_comprehensive_035",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Experimental treatments"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_comprehensive_035",
+      "product_name": "Medical Insurance (Comprehensive)"
+    },
+    "text": "Exclusions for Medical Insurance (Comprehensive) (ID: heritage_medical_comprehensive_035): ['Pre-existing conditions unless disclosed', 'Cosmetic procedures', 'Experimental treatments']."
+  },
+  {
+    "chunk_id": "3c497fd3-ffc4-4264-aa1f-0f2b50ce405e",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_comprehensive_035",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover",
+        "Dental and optical"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_comprehensive_035",
+      "product_name": "Medical Insurance (Comprehensive)"
+    },
+    "text": "Add-ons for Medical Insurance (Comprehensive) (ID: heritage_medical_comprehensive_035): ['Maternity cover', 'Dental and optical']."
+  },
+  {
+    "chunk_id": "d01b000a-9860-4379-ac3c-34ed60fb2447",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_regional_036",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_regional_036",
+      "product_name": "Medical Insurance (Regional)",
+      "category": "medical",
+      "target_market": "individuals, families, corporates traveling in East Africa",
+      "eligibility_notes": "Requires health declaration; covers East Africa (Kenya, Uganda, Tanzania, Rwanda, Burundi, South Sudan)",
+      "geographic_coverage": "East Africa",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "List of Heritage Insurance Products",
+          "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Medical Insurance (Regional) (ID: heritage_medical_regional_036) is a medical insurance product by heritage_001 for individuals, families, corporates traveling in East Africa. Geographic coverage: East Africa."
+  },
+  {
+    "chunk_id": "d13d30ec-31bc-4908-ad55-87c7b0f28d67",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_regional_036",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Non-emergency treatments outside East Africa"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_regional_036",
+      "product_name": "Medical Insurance (Regional)"
+    },
+    "text": "Exclusions for Medical Insurance (Regional) (ID: heritage_medical_regional_036): ['Pre-existing conditions unless disclosed', 'Cosmetic procedures', 'Non-emergency treatments outside East Africa']."
+  },
+  {
+    "chunk_id": "4a1ca030-6bb6-4092-84bd-5b34515d7be4",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_regional_036",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover",
+        "Dental and optical"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_regional_036",
+      "product_name": "Medical Insurance (Regional)"
+    },
+    "text": "Add-ons for Medical Insurance (Regional) (ID: heritage_medical_regional_036): ['Maternity cover', 'Dental and optical']."
+  },
+  {
+    "chunk_id": "629fffa1-e8d0-4884-82f0-ad4783f3bcd8",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_international_037",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_international_037",
+      "product_name": "Medical Insurance (International)",
+      "category": "medical",
+      "target_market": "individuals, families, corporates traveling in Africa",
+      "eligibility_notes": "Requires health declaration; covers Africa with extension to India",
+      "geographic_coverage": "Africa / India",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "List of Heritage Insurance Products",
+          "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Medical Insurance (International) (ID: heritage_medical_international_037) is a medical insurance product by heritage_001 for individuals, families, corporates traveling in Africa. Geographic coverage: Africa / India."
+  },
+  {
+    "chunk_id": "49177027-c2cb-4b93-9718-1a2d6695ba7c",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_international_037",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Non-emergency treatments outside Africa/India"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_international_037",
+      "product_name": "Medical Insurance (International)"
+    },
+    "text": "Exclusions for Medical Insurance (International) (ID: heritage_medical_international_037): ['Pre-existing conditions unless disclosed', 'Cosmetic procedures', 'Non-emergency treatments outside Africa/India']."
+  },
+  {
+    "chunk_id": "30ebdd63-ee59-4715-820a-fd590b306bf9",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_international_037",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover",
+        "Dental and optical"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_international_037",
+      "product_name": "Medical Insurance (International)"
+    },
+    "text": "Add-ons for Medical Insurance (International) (ID: heritage_medical_international_037): ['Maternity cover', 'Dental and optical']."
+  },
+  {
+    "chunk_id": "3579a955-bcff-413a-82fc-ddc43b922f64",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_flexi_038",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_flexi_038",
+      "product_name": "Heritage Flexi Medical Insurance",
+      "category": "medical",
+      "target_market": "corporates, SMEs, public sector",
+      "eligibility_notes": "Customizable for employee groups; requires health declaration",
+      "geographic_coverage": "Kenya / East Africa",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "List of Heritage Insurance Products",
+          "url": "https://victormatara.com/list-of-heritage-insurance-products-and-branches-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Heritage Flexi Medical Insurance (ID: heritage_medical_flexi_038) is a medical insurance product by heritage_001 for corporates, SMEs, public sector. Geographic coverage: Kenya / East Africa."
+  },
+  {
+    "chunk_id": "380620cd-fc00-45e4-aad1-d7aa678acb74",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_flexi_038",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Non-selected benefits",
+        "Cosmetic procedures"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_flexi_038",
+      "product_name": "Heritage Flexi Medical Insurance"
+    },
+    "text": "Exclusions for Heritage Flexi Medical Insurance (ID: heritage_medical_flexi_038): ['Pre-existing conditions unless disclosed', 'Non-selected benefits', 'Cosmetic procedures']."
+  },
+  {
+    "chunk_id": "03c10d5d-7950-480d-9811-2c8bf7ec9632",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_flexi_038",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover",
+        "Dental and optical",
+        "Emergency evacuation"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_flexi_038",
+      "product_name": "Heritage Flexi Medical Insurance"
+    },
+    "text": "Add-ons for Heritage Flexi Medical Insurance (ID: heritage_medical_flexi_038): ['Maternity cover', 'Dental and optical', 'Emergency evacuation']."
+  },
+  {
+    "chunk_id": "9817276a-3978-4176-a7b2-a82941be9305",
+    "company_id": "heritage_001",
+    "product_id": "heritage_keyman_039",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_keyman_039",
+      "product_name": "Keyman Insurance",
+      "category": "general / business",
+      "target_market": "businesses with key employees",
+      "eligibility_notes": "Requires employee details and business financials",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Keyman Insurance (ID: heritage_keyman_039) is a general / business insurance product by heritage_001 for businesses with key employees. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8d2dd000-12e4-4365-9675-55c2948930f0",
+    "company_id": "heritage_001",
+    "product_id": "heritage_keyman_039",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions",
+        "Non-key employees",
+        "Unreported losses"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_keyman_039",
+      "product_name": "Keyman Insurance"
+    },
+    "text": "Exclusions for Keyman Insurance (ID: heritage_keyman_039): ['Pre-existing conditions', 'Non-key employees', 'Unreported losses']."
+  },
+  {
+    "chunk_id": "236fc802-e356-4666-b7e3-88946722bf8a",
+    "company_id": "heritage_001",
+    "product_id": "heritage_keyman_039",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Critical illness cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_keyman_039",
+      "product_name": "Keyman Insurance"
+    },
+    "text": "Add-ons for Keyman Insurance (ID: heritage_keyman_039): ['Critical illness cover']."
+  },
+  {
+    "chunk_id": "2a2e7660-0799-48f3-a17e-67f3f2e2bf60",
+    "company_id": "heritage_001",
+    "product_id": "heritage_group_last_expense_040",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_group_last_expense_040",
+      "product_name": "Group Last Expense Insurance",
+      "category": "general / accident",
+      "target_market": "businesses, groups",
+      "eligibility_notes": "Requires member list; no medical exam for sums below free cover limit",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Group Last Expense Insurance (ID: heritage_group_last_expense_040) is a general / accident insurance product by heritage_001 for businesses, groups. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f6d71ca2-ce19-4c57-bd9f-0b1e069f5043",
+    "company_id": "heritage_001",
+    "product_id": "heritage_group_last_expense_040",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-members",
+        "Unreported deaths",
+        "Fraudulent claims"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_group_last_expense_040",
+      "product_name": "Group Last Expense Insurance"
+    },
+    "text": "Exclusions for Group Last Expense Insurance (ID: heritage_group_last_expense_040): ['Non-members', 'Unreported deaths', 'Fraudulent claims']."
+  },
+  {
+    "chunk_id": "0339d199-3b91-4b5b-8eb3-29ec61581929",
+    "company_id": "heritage_001",
+    "product_id": "heritage_group_last_expense_040",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased limits"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_group_last_expense_040",
+      "product_name": "Group Last Expense Insurance"
+    },
+    "text": "Add-ons for Group Last Expense Insurance (ID: heritage_group_last_expense_040): ['Increased limits']."
+  },
+  {
+    "chunk_id": "4714f571-8b59-4b34-9b66-df71b5818b0e",
+    "company_id": "heritage_001",
+    "product_id": "heritage_terrorism_041",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_terrorism_041",
+      "product_name": "Terrorism Insurance",
+      "category": "general / property",
+      "target_market": "businesses, property owners",
+      "eligibility_notes": "Requires property valuation and risk assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Heritage Terrorism Insurance",
+          "url": "https://www.heritageinsurance.co.ke/terrorism-insurance"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Terrorism Insurance (ID: heritage_terrorism_041) is a general / property insurance product by heritage_001 for businesses, property owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "9f3f53c8-e5e2-49fd-99c2-ae2e75638334",
+    "company_id": "heritage_001",
+    "product_id": "heritage_terrorism_041",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-terrorism incidents",
+        "Uninsured properties",
+        "War risks"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_terrorism_041",
+      "product_name": "Terrorism Insurance"
+    },
+    "text": "Exclusions for Terrorism Insurance (ID: heritage_terrorism_041): ['Non-terrorism incidents', 'Uninsured properties', 'War risks']."
+  },
+  {
+    "chunk_id": "37ad59ea-7e45-488d-b75c-599c0a8912e0",
+    "company_id": "heritage_001",
+    "product_id": "heritage_terrorism_041",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended interruption cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_terrorism_041",
+      "product_name": "Terrorism Insurance"
+    },
+    "text": "Add-ons for Terrorism Insurance (ID: heritage_terrorism_041): ['Extended interruption cover']."
+  },
+  {
+    "chunk_id": "d299821e-0035-4dad-8d09-7b9e6871e815",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_care_health_042",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_care_health_042",
+      "product_name": "Care and Health Medical Insurance",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility_notes": "Comprehensive plan; requires health declaration",
+      "geographic_coverage": "Kenya / International",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Care and Health Medical Insurance (ID: heritage_medical_care_health_042) is a medical insurance product by heritage_001 for individuals, families, corporates. Geographic coverage: Kenya / International."
+  },
+  {
+    "chunk_id": "b8e36a38-2853-4383-a606-8f8742966824",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_care_health_042",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Experimental treatments"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_care_health_042",
+      "product_name": "Care and Health Medical Insurance"
+    },
+    "text": "Exclusions for Care and Health Medical Insurance (ID: heritage_medical_care_health_042): ['Pre-existing conditions unless disclosed', 'Cosmetic procedures', 'Experimental treatments']."
+  },
+  {
+    "chunk_id": "0d9cedae-548a-4309-ac76-e79028728d01",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_care_health_042",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover",
+        "Dental and optical"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_care_health_042",
+      "product_name": "Care and Health Medical Insurance"
+    },
+    "text": "Add-ons for Care and Health Medical Insurance (ID: heritage_medical_care_health_042): ['Maternity cover', 'Dental and optical']."
+  },
+  {
+    "chunk_id": "3180e915-42c9-4ebe-bf7f-544364d24441",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_coverbora_043",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_coverbora_043",
+      "product_name": "CoverBora Medical Insurance",
+      "category": "medical",
+      "target_market": "individuals, families seeking affordable cover",
+      "eligibility_notes": "Budget-friendly hospitalization plan; requires health declaration",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "CoverBora Medical Insurance (ID: heritage_medical_coverbora_043) is a medical insurance product by heritage_001 for individuals, families seeking affordable cover. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "a160715e-894e-4900-92cd-cb20976920d1",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_coverbora_043",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Outpatient treatment",
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_coverbora_043",
+      "product_name": "CoverBora Medical Insurance"
+    },
+    "text": "Exclusions for CoverBora Medical Insurance (ID: heritage_medical_coverbora_043): ['Outpatient treatment', 'Pre-existing conditions unless disclosed', 'Cosmetic procedures']."
+  },
+  {
+    "chunk_id": "d615b5f1-2545-4416-9810-41afd5dc517b",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_coverbora_043",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_coverbora_043",
+      "product_name": "CoverBora Medical Insurance"
+    },
+    "text": "Add-ons for CoverBora Medical Insurance (ID: heritage_medical_coverbora_043): ['Maternity cover']."
+  },
+  {
+    "chunk_id": "48e9c2db-3b56-4c80-b09f-b1db1f35c846",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_jcare_044",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_jcare_044",
+      "product_name": "J-Care Johari Medical Insurance",
+      "category": "medical",
+      "target_market": "individuals, families",
+      "eligibility_notes": "Comprehensive plan for inpatient/outpatient; requires health declaration",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "J-Care Johari Medical Insurance (ID: heritage_medical_jcare_044) is a medical insurance product by heritage_001 for individuals, families. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "7b5a6cfd-86fe-490b-bc6c-436dd250539e",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_jcare_044",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Experimental treatments"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_jcare_044",
+      "product_name": "J-Care Johari Medical Insurance"
+    },
+    "text": "Exclusions for J-Care Johari Medical Insurance (ID: heritage_medical_jcare_044): ['Pre-existing conditions unless disclosed', 'Cosmetic procedures', 'Experimental treatments']."
+  },
+  {
+    "chunk_id": "62329a3c-eb6b-40f0-8316-0f801b09179c",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_jcare_044",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover",
+        "Dental and optical"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_jcare_044",
+      "product_name": "J-Care Johari Medical Insurance"
+    },
+    "text": "Add-ons for J-Care Johari Medical Insurance (ID: heritage_medical_jcare_044): ['Maternity cover', 'Dental and optical']."
+  },
+  {
+    "chunk_id": "c942d55b-1f67-457c-b41b-7845e45c1aa2",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_jjunior_045",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_jjunior_045",
+      "product_name": "J-Junior Medical Insurance",
+      "category": "medical",
+      "target_market": "children aged 0-17",
+      "eligibility_notes": "Stand-alone plan for children; requires parental consent and health declaration",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "J-Junior Medical Insurance (ID: heritage_medical_jjunior_045) is a medical insurance product by heritage_001 for children aged 0-17. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2961a677-c7f9-4841-adfe-5d2c3731304b",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_jjunior_045",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Adult treatments"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_jjunior_045",
+      "product_name": "J-Junior Medical Insurance"
+    },
+    "text": "Exclusions for J-Junior Medical Insurance (ID: heritage_medical_jjunior_045): ['Pre-existing conditions unless disclosed', 'Cosmetic procedures', 'Adult treatments']."
+  },
+  {
+    "chunk_id": "a7b50fc8-8415-4167-abb8-94ac986583a2",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_jjunior_045",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Dental and optical"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_jjunior_045",
+      "product_name": "J-Junior Medical Insurance"
+    },
+    "text": "Add-ons for J-Junior Medical Insurance (ID: heritage_medical_jjunior_045): ['Dental and optical']."
+  },
+  {
+    "chunk_id": "40e664e7-b8c6-4a5e-aeef-41e9d323e450",
+    "company_id": "heritage_001",
+    "product_id": "heritage_ownership_protection_046",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_ownership_protection_046",
+      "product_name": "Ownership Protection Insurance",
+      "category": "general / business",
+      "target_market": "businesses with multiple owners",
+      "eligibility_notes": "Requires shareholder agreement and financials",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Ownership Protection Insurance (ID: heritage_ownership_protection_046) is a general / business insurance product by heritage_001 for businesses with multiple owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "63d79e1f-945e-4caa-ad67-77ec779df0ac",
+    "company_id": "heritage_001",
+    "product_id": "heritage_ownership_protection_046",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-shareholder claims",
+        "Unreported changes in ownership",
+        "Fraudulent claims"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_ownership_protection_046",
+      "product_name": "Ownership Protection Insurance"
+    },
+    "text": "Exclusions for Ownership Protection Insurance (ID: heritage_ownership_protection_046): ['Non-shareholder claims', 'Unreported changes in ownership', 'Fraudulent claims']."
+  },
+  {
+    "chunk_id": "82f4e2ad-d265-46a0-8a0d-d571000794cf",
+    "company_id": "heritage_001",
+    "product_id": "heritage_ownership_protection_046",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Critical illness cover"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_ownership_protection_046",
+      "product_name": "Ownership Protection Insurance"
+    },
+    "text": "Add-ons for Ownership Protection Insurance (ID: heritage_ownership_protection_046): ['Critical illness cover']."
+  },
+  {
+    "chunk_id": "e8308329-2167-4e5b-9734-121c55a653f3",
+    "company_id": "heritage_001",
+    "product_id": "heritage_profit_protection_047",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_profit_protection_047",
+      "product_name": "Profit Protection Insurance",
+      "category": "general / business",
+      "target_market": "businesses",
+      "eligibility_notes": "Requires financial statements and risk assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "brokers, corporate sales",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Profit Protection Insurance (ID: heritage_profit_protection_047) is a general / business insurance product by heritage_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "779b1a30-d1a2-4f66-8074-dfcd50cadc28",
+    "company_id": "heritage_001",
+    "product_id": "heritage_profit_protection_047",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-key employee losses",
+        "Economic downturns",
+        "Unreported claims"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_profit_protection_047",
+      "product_name": "Profit Protection Insurance"
+    },
+    "text": "Exclusions for Profit Protection Insurance (ID: heritage_profit_protection_047): ['Non-key employee losses', 'Economic downturns', 'Unreported claims']."
+  },
+  {
+    "chunk_id": "7cd5aec1-dad2-44b4-8c33-8ff65c570f03",
+    "company_id": "heritage_001",
+    "product_id": "heritage_profit_protection_047",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended coverage period"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_profit_protection_047",
+      "product_name": "Profit Protection Insurance"
+    },
+    "text": "Add-ons for Profit Protection Insurance (ID: heritage_profit_protection_047): ['Extended coverage period']."
+  },
+  {
+    "chunk_id": "49c0c872-1d4c-4632-9910-e2bd1d4246f4",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_elite_048",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "heritage_medical_elite_048",
+      "product_name": "Medical Insurance (Elite)",
+      "category": "medical",
+      "target_market": "high-net-worth individuals, corporates",
+      "eligibility_notes": "Premium plan; requires health declaration",
+      "geographic_coverage": "Kenya / International",
+      "last_updated": "2025-09-13",
+      "distribution_channels": "agents, online, brokers",
+      "sources": [
+        {
+          "title": "Top 10 Medical Insurance Companies in Kenya",
+          "url": "https://midline.co.ke/top-10-medical-insurance-companies-in-kenya/"
+        }
+      ],
+      "company_id": "heritage_001"
+    },
+    "text": "Medical Insurance (Elite) (ID: heritage_medical_elite_048) is a medical insurance product by heritage_001 for high-net-worth individuals, corporates. Geographic coverage: Kenya / International."
+  },
+  {
+    "chunk_id": "f7bcbd5d-bf4b-460d-8ce5-c11596117a2f",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_elite_048",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions unless disclosed",
+        "Cosmetic procedures",
+        "Experimental treatments"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_elite_048",
+      "product_name": "Medical Insurance (Elite)"
+    },
+    "text": "Exclusions for Medical Insurance (Elite) (ID: heritage_medical_elite_048): ['Pre-existing conditions unless disclosed', 'Cosmetic procedures', 'Experimental treatments']."
+  },
+  {
+    "chunk_id": "76d35c7a-12ba-44ff-a56d-abe89a819a59",
+    "company_id": "heritage_001",
+    "product_id": "heritage_medical_elite_048",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity cover",
+        "Dental and optical",
+        "Wellness programs"
+      ],
+      "company_id": "heritage_001",
+      "product_id": "heritage_medical_elite_048",
+      "product_name": "Medical Insurance (Elite)"
+    },
+    "text": "Add-ons for Medical Insurance (Elite) (ID: heritage_medical_elite_048): ['Maternity cover', 'Dental and optical', 'Wellness programs']."
+  }
+]

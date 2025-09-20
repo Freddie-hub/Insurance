@@ -66,3 +66,28 @@
 2025-09-20 12:33:22,186 - INFO - Normalized data: 32 branches, 34 products
 2025-09-20 12:33:22,192 - INFO - Created 285 chunks
 2025-09-20 12:33:22,211 - INFO - Saved chunks to src\data\preprocessed\britam_preprocessed.json
+2025-09-20 12:49:17,786 - INFO - Successfully loaded src\data\raw\CIC.json
+2025-09-20 12:49:17,787 - WARNING - Product cic_health_019 missing key: premium
+2025-09-20 12:49:17,787 - WARNING - Product cic_life_assurance_020 missing key: premium
+2025-09-20 12:49:17,787 - WARNING - Product cic_microinsurance_021 missing key: premium
+2025-09-20 12:49:17,787 - WARNING - Product cic_asset_management_022 missing key: premium
+2025-09-20 12:49:17,788 - INFO - Normalized data: 9 branches, 22 products
+2025-09-20 12:49:17,790 - INFO - Created 165 chunks
+2025-09-20 12:49:17,798 - INFO - Saved chunks to src\data\preprocessed\cic_preprocessed.json
+2025-09-20 12:53:04,018 - INFO - Successfully loaded src\data\raw\Heritage.json
+2025-09-20 12:53:04,019 - INFO - Normalized data: 7 branches, 48 products
+2025-09-20 12:53:04,020 - INFO - Created 152 chunks
+2025-09-20 12:53:04,027 - INFO - Saved chunks to src\data\preprocessed\heritage_preprocessed.json
+2025-09-20 13:19:17,885 - INFO - Successfully loaded src\data\raw\Jubilee.json
+2025-09-20 13:19:17,887 - INFO - Normalized data: 8 branches, 4 products, 44 sub-products, 4 variants
+2025-09-20 13:19:17,889 - INFO - Created 69 chunks
+2025-09-20 13:19:17,930 - INFO - Saved chunks to src\data\preprocessed\jubilee_preprocessed.json
+2025-09-20 13:35:48,826 - INFO - Successfully loaded src\data\raw\Liberty.json
+2025-09-20 13:35:48,827 - INFO - Normalized data: 12 branches, 17 products, 5 sub-products
+2025-09-20 13:35:48,828 - ERROR - KeyError in create_text_from_chunk for coverage: 'product_name'
+2025-09-20 13:35:48,829 - ERROR - KeyError in create_text_from_chunk for coverage: 'product_name'
+2025-09-20 13:35:48,829 - ERROR - KeyError in create_text_from_chunk for coverage: 'product_name'
+2025-09-20 13:35:48,829 - ERROR - KeyError in create_text_from_chunk for coverage: 'product_name'
+2025-09-20 13:35:48,829 - ERROR - KeyError in create_text_from_chunk for coverage: 'product_name'
+2025-09-20 13:35:48,829 - INFO - Created 42 chunks
+2025-09-20 13:35:48,834 - INFO - Saved chunks to src\data\preprocessed\liberty_preprocessed.json
