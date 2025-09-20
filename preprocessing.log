@@ -1,0 +1,68 @@
+2025-09-20 12:31:39,010 - INFO - Successfully loaded src\data\raw\Britam.json
+2025-09-20 12:31:39,010 - WARNING - Product britam_malkia_004 missing key: renewal_terms
+2025-09-20 12:31:39,010 - WARNING - Product britam_fariji_005 missing key: renewal_terms
+2025-09-20 12:31:39,010 - WARNING - Product britam_family_funeral_006 missing key: renewal_terms
+2025-09-20 12:31:39,010 - WARNING - Product britam_milele_health_007 missing key: renewal_terms
+2025-09-20 12:31:39,010 - WARNING - Product britam_milele_junior_008 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_milele_corporate_009 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_student_pa_010 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_group_pa_011 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_pa_individual_012 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_travel_013 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_home_014 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_motor_015 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_aviation_016 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_biashara_017 missing key: renewal_terms
+2025-09-20 12:31:39,011 - WARNING - Product britam_liability_018 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_marine_019 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_plate_glass_020 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_burglary_021 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_terrorism_022 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_cyber_023 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_tenants_024 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_landlords_025 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_cash_trust_026 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_education_trust_027 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_medical_trust_028 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_family_care_029 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_kinga_mkulima_030 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_covid_031 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_msingi_poa_032 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_super_eplus_033 missing key: renewal_terms
+2025-09-20 12:31:39,012 - WARNING - Product britam_motor_rescue_034 missing key: renewal_terms
+2025-09-20 12:31:39,017 - INFO - Normalized data: 32 branches, 34 products
+2025-09-20 12:33:22,180 - INFO - Successfully loaded src\data\raw\Britam.json
+2025-09-20 12:33:22,181 - WARNING - Product britam_malkia_004 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_fariji_005 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_family_funeral_006 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_milele_health_007 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_milele_junior_008 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_milele_corporate_009 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_student_pa_010 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_group_pa_011 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_pa_individual_012 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_travel_013 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_home_014 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_motor_015 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_aviation_016 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_biashara_017 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_liability_018 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_marine_019 missing key: renewal_terms
+2025-09-20 12:33:22,181 - WARNING - Product britam_plate_glass_020 missing key: renewal_terms
+2025-09-20 12:33:22,182 - WARNING - Product britam_burglary_021 missing key: renewal_terms
+2025-09-20 12:33:22,182 - WARNING - Product britam_terrorism_022 missing key: renewal_terms
+2025-09-20 12:33:22,182 - WARNING - Product britam_cyber_023 missing key: renewal_terms
+2025-09-20 12:33:22,182 - WARNING - Product britam_tenants_024 missing key: renewal_terms
+2025-09-20 12:33:22,182 - WARNING - Product britam_landlords_025 missing key: renewal_terms
+2025-09-20 12:33:22,182 - WARNING - Product britam_cash_trust_026 missing key: renewal_terms
+2025-09-20 12:33:22,183 - WARNING - Product britam_education_trust_027 missing key: renewal_terms
+2025-09-20 12:33:22,183 - WARNING - Product britam_medical_trust_028 missing key: renewal_terms
+2025-09-20 12:33:22,183 - WARNING - Product britam_family_care_029 missing key: renewal_terms
+2025-09-20 12:33:22,183 - WARNING - Product britam_kinga_mkulima_030 missing key: renewal_terms
+2025-09-20 12:33:22,183 - WARNING - Product britam_covid_031 missing key: renewal_terms
+2025-09-20 12:33:22,183 - WARNING - Product britam_msingi_poa_032 missing key: renewal_terms
+2025-09-20 12:33:22,183 - WARNING - Product britam_super_eplus_033 missing key: renewal_terms
+2025-09-20 12:33:22,183 - WARNING - Product britam_motor_rescue_034 missing key: renewal_terms
+2025-09-20 12:33:22,186 - INFO - Normalized data: 32 branches, 34 products
+2025-09-20 12:33:22,192 - INFO - Created 285 chunks
+2025-09-20 12:33:22,211 - INFO - Saved chunks to src\data\preprocessed\britam_preprocessed.json
