@@ -1,0 +1,1068 @@
+[
+  {
+    "chunk_id": "7958a9b2-ef20-4d0c-8f4a-052dd8ad4021",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "apa_001",
+      "company_name": "APA Insurance Limited",
+      "company_type": "composite (general, life, health)",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/05/001/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published January 2025",
+      "headquarters": "Apollo Centre, 7 Ring Road Parklands, Westlands, P.O. Box 30065-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://www.apainsurance.org",
+      "digital_presence_customer_portal": "https://www.apainsurance.org/portals.php",
+      "digital_presence_mobile_app": true,
+      "digital_presence_mobile_app_store_links_google_play": "https://play.google.com/store/apps/details?id=com.apainsurance.app",
+      "digital_presence_mobile_app_store_links_app_store": "Not specified",
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "No public API mentioned; contact for partner integrations via info@apainsurance.org",
+      "reputation_claims_settlement_ratio": "Not publicly available for 2024; recognized for reliable settlements (Most Convenient General Insurance Provider 2025)",
+      "reputation_customer_complaints": "Not specified in public reports; mixed reviews on claims processing",
+      "reputation_customer_rating": "Mixed customer feedback; positive for digital services, some delays in complex claims",
+      "reputation_notes": "Awarded Most Convenient General Insurance Service Provider (2025 Consumer Choice Awards). Backed by Swiss Re for stability. X posts highlight quick digital claims but occasional delays in complex cases.",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "APA Insurance Limited is a composite (general, life, health) insurance company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/05/001/2025. Headquarters: Apollo Centre, 7 Ring Road Parklands, Westlands, P.O. Box 30065-00100, Nairobi, Kenya. Website: https://www.apainsurance.org. Customer rating: Mixed customer feedback; positive for digital services, some delays in complex claims, Claims settlement ratio: Not publicly available for 2024; recognized for reliable settlements (Most Convenient General Insurance Provider 2025)."
+  },
+  {
+    "chunk_id": "73dd0fc3-b424-4792-9f34-77118727b164",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "Apollo Centre, 7 Ring Road Parklands, Westlands, P.O. Box 30065-00100, Nairobi",
+      "phone": "+254 20 286 2000, +254 709 912 777, +254 709 912 888",
+      "email": "info@apainsurance.org",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: apa_001_branch_001) of apa_001 is located at Apollo Centre, 7 Ring Road Parklands, Westlands, P.O. Box 30065-00100, Nairobi. Contact phones: +254 20 286 2000, +254 709 912 777, +254 709 912 888. Email: info@apainsurance.org."
+  },
+  {
+    "chunk_id": "4485f9c7-88c8-4fae-80a5-0623a788238d",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "APA Insurance Kisumu, Oginga Odinga Road, Kisumu",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_002"
+    },
+    "text": "Branch Kisumu Branch (ID: apa_001_branch_002) of apa_001 is located at APA Insurance Kisumu, Oginga Odinga Road, Kisumu. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "ea2b376e-3ab6-4fda-b24c-8041421276ce",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "APA Insurance Mombasa, Moi Avenue, Mombasa",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_003"
+    },
+    "text": "Branch Mombasa Branch (ID: apa_001_branch_003) of apa_001 is located at APA Insurance Mombasa, Moi Avenue, Mombasa. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "b5577edb-3cef-4995-95a1-0004ae7da60b",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "APA Insurance Eldoret, Ronald Ngala Street, Eldoret",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_004"
+    },
+    "text": "Branch Eldoret Branch (ID: apa_001_branch_004) of apa_001 is located at APA Insurance Eldoret, Ronald Ngala Street, Eldoret. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "4a67da8b-99a8-43eb-bd0a-b0d0343638b7",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "APA Insurance Nakuru, Kenyatta Avenue, Nakuru",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_005"
+    },
+    "text": "Branch Nakuru Branch (ID: apa_001_branch_005) of apa_001 is located at APA Insurance Nakuru, Kenyatta Avenue, Nakuru. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "a1bbbef7-d28f-4b85-bbc7-ad85bc5d1aec",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nyeri Branch",
+      "address": "APA Insurance Nyeri, Kenyatta Road, Nyeri",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_006"
+    },
+    "text": "Branch Nyeri Branch (ID: apa_001_branch_006) of apa_001 is located at APA Insurance Nyeri, Kenyatta Road, Nyeri. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "6e3bbd64-097a-4ac3-a982-f53bf5bb30ed",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Thika Branch",
+      "address": "APA Insurance Thika, Thika Road, Thika",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_007"
+    },
+    "text": "Branch Thika Branch (ID: apa_001_branch_007) of apa_001 is located at APA Insurance Thika, Thika Road, Thika. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "62446258-6842-40d6-a74a-bce296ec55d5",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kitale Branch",
+      "address": "APA Insurance Kitale, Kenyatta Street, Kitale",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_008"
+    },
+    "text": "Branch Kitale Branch (ID: apa_001_branch_008) of apa_001 is located at APA Insurance Kitale, Kenyatta Street, Kitale. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "d8d6727f-a91b-4c85-b026-41ece850f8cb",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Meru Branch",
+      "address": "APA Insurance Meru, Njuri Ncheke Street, Meru",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_009"
+    },
+    "text": "Branch Meru Branch (ID: apa_001_branch_009) of apa_001 is located at APA Insurance Meru, Njuri Ncheke Street, Meru. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "eaed7bc0-502c-4fc8-be28-87db741a98db",
+    "company_id": "apa_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Machakos Branch",
+      "address": "APA Insurance Machakos, Machakos Town",
+      "phone": "+254 20 286 2000",
+      "company_id": "apa_001",
+      "branch_id": "apa_001_branch_010"
+    },
+    "text": "Branch Machakos Branch (ID: apa_001_branch_010) of apa_001 is located at APA Insurance Machakos, Machakos Town. Contact phones: +254 20 286 2000. Email: N/A."
+  },
+  {
+    "chunk_id": "2a155247-199d-4313-aca8-7f8b0017930e",
+    "company_id": "apa_001",
+    "product_id": "apa_motor_private_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_motor_private_001",
+      "product_name": "Motor Private Insurance",
+      "category": "general / personal insurance / motor",
+      "target_market": "private car owners",
+      "eligibility_notes": "Health declaration not required; risk assessment based on vehicle value",
+      "eligibility_vehicle_type": "private vehicles",
+      "geographic_coverage": "Kenya (extendable to East Africa)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers, online portal, mobile app",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Flexible payments with monthly installments, claims settled in 10 days (@UserKE, Feb 2025)"
+        },
+        {
+          "source": "Google Reviews",
+          "comment": "Good coverage but some delays in complex claims (2024)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Motor Private Insurance (ID: apa_motor_private_001) is a general / personal insurance / motor insurance product by apa_001 for private car owners. Geographic coverage: Kenya (extendable to East Africa)."
+  },
+  {
+    "chunk_id": "ac663709-ddc2-4ca9-8b07-3ecc05e5e102",
+    "company_id": "apa_001",
+    "product_id": "apa_motor_private_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Unlicensed drivers",
+        "Drunk driving",
+        "Wear and tear",
+        "Political violence (optional add-on)"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_motor_private_001",
+      "product_name": "Motor Private Insurance"
+    },
+    "text": "Exclusions for Motor Private Insurance (ID: apa_motor_private_001): ['Unlicensed drivers', 'Drunk driving', 'Wear and tear', 'Political violence (optional add-on)']."
+  },
+  {
+    "chunk_id": "ba1b33c8-ef2f-4d38-b849-2740969dc764",
+    "company_id": "apa_001",
+    "product_id": "apa_motor_private_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Roadside assistance",
+        "Political violence",
+        "Windscreen cover"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_motor_private_001",
+      "product_name": "Motor Private Insurance"
+    },
+    "text": "Add-ons for Motor Private Insurance (ID: apa_motor_private_001): ['Roadside assistance', 'Political violence', 'Windscreen cover']."
+  },
+  {
+    "chunk_id": "7cd2893b-6100-4351-9830-55b157980452",
+    "company_id": "apa_001",
+    "product_id": "apa_home_domestic_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_home_domestic_002",
+      "product_name": "Home Insurance (Domestic Package)",
+      "category": "general / personal insurance / property",
+      "target_market": "homeowners, tenants, landlords",
+      "eligibility_notes": "Valuation required for high-value properties",
+      "eligibility_property_type": "residential dwellings",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers, online",
+      "customer_reviews": [
+        {
+          "source": "Google Reviews",
+          "comment": "Comprehensive home cover with embedded travel benefit (2024)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Home Insurance (Domestic Package) (ID: apa_home_domestic_002) is a general / personal insurance / property insurance product by apa_001 for homeowners, tenants, landlords. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "3514650c-2b0a-4d00-8a02-8c9aab47c8a9",
+    "company_id": "apa_001",
+    "product_id": "apa_home_domestic_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Deliberate damage",
+        "Unoccupied properties >30 days"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_home_domestic_002",
+      "product_name": "Home Insurance (Domestic Package)"
+    },
+    "text": "Exclusions for Home Insurance (Domestic Package) (ID: apa_home_domestic_002): ['Wear and tear', 'Deliberate damage', 'Unoccupied properties >30 days']."
+  },
+  {
+    "chunk_id": "0edcf477-dae0-483d-8212-0be3b5541848",
+    "company_id": "apa_001",
+    "product_id": "apa_home_domestic_002",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Portable equipment all-risk",
+        "Increased liability"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_home_domestic_002",
+      "product_name": "Home Insurance (Domestic Package)"
+    },
+    "text": "Add-ons for Home Insurance (Domestic Package) (ID: apa_home_domestic_002): ['Portable equipment all-risk', 'Increased liability']."
+  },
+  {
+    "chunk_id": "f034d193-d3ce-4643-b559-841d7500c019",
+    "company_id": "apa_001",
+    "product_id": "apa_travel_globetrotter_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_travel_globetrotter_003",
+      "product_name": "Travel Insurance (Globetrotter)",
+      "category": "general / personal insurance / travel",
+      "target_market": "individual travellers, families, business trips, tourists",
+      "eligibility_age_min": 6,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Ages above 80 require special underwriting",
+      "geographic_coverage": "Worldwide",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents, travel agencies",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Comprehensive worldwide cover for business trips (@TravelerKE, Jan 2025)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Travel Insurance (Globetrotter) (ID: apa_travel_globetrotter_003) is a general / personal insurance / travel insurance product by apa_001 for individual travellers, families, business trips, tourists. Geographic coverage: Worldwide."
+  },
+  {
+    "chunk_id": "1284e675-8ba6-4715-81f9-d68b57563334",
+    "company_id": "apa_001",
+    "product_id": "apa_travel_globetrotter_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions",
+        "War zones",
+        "Adventure sports unless added"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_travel_globetrotter_003",
+      "product_name": "Travel Insurance (Globetrotter)"
+    },
+    "text": "Exclusions for Travel Insurance (Globetrotter) (ID: apa_travel_globetrotter_003): ['Pre-existing conditions', 'War zones', 'Adventure sports unless added']."
+  },
+  {
+    "chunk_id": "b26071db-493f-49dd-b84c-9fe2edcb96b3",
+    "company_id": "apa_001",
+    "product_id": "apa_travel_globetrotter_003",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Winter sports",
+        "Business equipment"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_travel_globetrotter_003",
+      "product_name": "Travel Insurance (Globetrotter)"
+    },
+    "text": "Add-ons for Travel Insurance (Globetrotter) (ID: apa_travel_globetrotter_003): ['Winter sports', 'Business equipment']."
+  },
+  {
+    "chunk_id": "bb2493e7-e4ee-4fb1-8aef-919e63ff10c1",
+    "company_id": "apa_001",
+    "product_id": "apa_pa_cover_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_pa_cover_004",
+      "product_name": "Personal Accident Cover",
+      "category": "general / personal insurance / accident",
+      "target_market": "individuals, students, groups, schools",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Occupation class affects premiums; no medical exam",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, schools, online",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Quick payout for accident claim (@ParentKE, Mar 2025)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Personal Accident Cover (ID: apa_pa_cover_004) is a general / personal insurance / accident insurance product by apa_001 for individuals, students, groups, schools. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "35cf8f63-483c-4487-acd8-5cdbea0a2bf4",
+    "company_id": "apa_001",
+    "product_id": "apa_pa_cover_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional self-harm",
+        "Hazardous activities unless declared",
+        "War risks"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_pa_cover_004",
+      "product_name": "Personal Accident Cover"
+    },
+    "text": "Exclusions for Personal Accident Cover (ID: apa_pa_cover_004): ['Intentional self-harm', 'Hazardous activities unless declared', 'War risks']."
+  },
+  {
+    "chunk_id": "5a829790-902d-4e8f-8e93-6a01f681c698",
+    "company_id": "apa_001",
+    "product_id": "apa_pa_cover_004",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Funeral expense",
+        "Hospital cash"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_pa_cover_004",
+      "product_name": "Personal Accident Cover"
+    },
+    "text": "Add-ons for Personal Accident Cover (ID: apa_pa_cover_004): ['Funeral expense', 'Hospital cash']."
+  },
+  {
+    "chunk_id": "c71e0667-44ee-4092-8da5-fd7df33ebb19",
+    "company_id": "apa_001",
+    "product_id": "apa_family_health_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_family_health_005",
+      "product_name": "Family Health Cover (Jamii Plus / Afya Nafuu)",
+      "category": "health insurance / family",
+      "target_market": "individuals, families",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Pre-existing covered after 12 months; term babies from 38 weeks",
+      "geographic_coverage": "Kenya (with embedded international emergency)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers, online, app",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Afya Nafuu covered chronic conditions fully after waiting period (@FamilyKE, Jan 2025)"
+        },
+        {
+          "source": "Google Reviews",
+          "comment": "Good family cover but waiting periods strict (2024)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Family Health Cover (Jamii Plus / Afya Nafuu) (ID: apa_family_health_005) is a health insurance / family insurance product by apa_001 for individuals, families. Geographic coverage: Kenya (with embedded international emergency)."
+  },
+  {
+    "chunk_id": "fba99c8f-1c70-41a0-a138-5b11b92e3d61",
+    "company_id": "apa_001",
+    "product_id": "apa_family_health_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Cosmetic procedures",
+        "Waiting periods: 30 days illness, 12 months pre-existing/chronic/maternity"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_family_health_005",
+      "product_name": "Family Health Cover (Jamii Plus / Afya Nafuu)"
+    },
+    "text": "Exclusions for Family Health Cover (Jamii Plus / Afya Nafuu) (ID: apa_family_health_005): ['Cosmetic procedures', 'Waiting periods: 30 days illness, 12 months pre-existing/chronic/maternity']."
+  },
+  {
+    "chunk_id": "c0535a1c-ec69-48d9-80d7-3715210f855a",
+    "company_id": "apa_001",
+    "product_id": "apa_family_health_005",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Outpatient",
+        "Maternity top-up",
+        "Dental/optical"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_family_health_005",
+      "product_name": "Family Health Cover (Jamii Plus / Afya Nafuu)"
+    },
+    "text": "Add-ons for Family Health Cover (Jamii Plus / Afya Nafuu) (ID: apa_family_health_005): ['Outpatient', 'Maternity top-up', 'Dental/optical']."
+  },
+  {
+    "chunk_id": "90f313e2-fcb8-4a73-bb07-2b2e622d28e1",
+    "company_id": "apa_001",
+    "product_id": "apa_cancer_femina_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_cancer_femina_006",
+      "product_name": "Cancer Care (Femina / Femina Plus)",
+      "category": "health insurance / critical illness",
+      "target_market": "women in Kenya",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "6-month waiting for diagnosis; HPV vaccination eligible",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online, women's programs",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Femina Plus provided quick cash for diagnosis (@WomenKE, Mar 2025)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Cancer Care (Femina / Femina Plus) (ID: apa_cancer_femina_006) is a health insurance / critical illness insurance product by apa_001 for women in Kenya. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "b347d158-8bcc-42b0-ac4b-5ec15d1c67a5",
+    "company_id": "apa_001",
+    "product_id": "apa_cancer_femina_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing cancers (6-month wait)",
+        "Non-covered cancers"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_cancer_femina_006",
+      "product_name": "Cancer Care (Femina / Femina Plus)"
+    },
+    "text": "Exclusions for Cancer Care (Femina / Femina Plus) (ID: apa_cancer_femina_006): ['Pre-existing cancers (6-month wait)', 'Non-covered cancers']."
+  },
+  {
+    "chunk_id": "c0720097-8501-4d90-b157-f0ae486321f5",
+    "company_id": "apa_001",
+    "product_id": "apa_cancer_femina_006",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended screenings"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_cancer_femina_006",
+      "product_name": "Cancer Care (Femina / Femina Plus)"
+    },
+    "text": "Add-ons for Cancer Care (Femina / Femina Plus) (ID: apa_cancer_femina_006): ['Extended screenings']."
+  },
+  {
+    "chunk_id": "1ba4434f-0d82-4f0c-ac20-ae940f18c36e",
+    "company_id": "apa_001",
+    "product_id": "apa_international_health_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_international_health_007",
+      "product_name": "International Health Cover",
+      "category": "health insurance / international",
+      "target_market": "individuals, families, corporates with global needs",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 75,
+      "eligibility_notes": "Modular plans; pre-existing after 12 months",
+      "geographic_coverage": "Worldwide (focus on India partners)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, corporate sales, online",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Good international emergency cover (@ExpatKE, Feb 2025)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "International Health Cover (ID: apa_international_health_007) is a health insurance / international insurance product by apa_001 for individuals, families, corporates with global needs. Geographic coverage: Worldwide (focus on India partners)."
+  },
+  {
+    "chunk_id": "88b4a9ff-f00e-4a35-a4bb-285f8cbfeed3",
+    "company_id": "apa_001",
+    "product_id": "apa_international_health_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing (12 months)",
+        "Experimental treatments"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_international_health_007",
+      "product_name": "International Health Cover"
+    },
+    "text": "Exclusions for International Health Cover (ID: apa_international_health_007): ['Pre-existing (12 months)', 'Experimental treatments']."
+  },
+  {
+    "chunk_id": "c5d65089-5efa-4b88-b4c6-ad3ca42c8e98",
+    "company_id": "apa_001",
+    "product_id": "apa_international_health_007",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity",
+        "Wellness programs"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_international_health_007",
+      "product_name": "International Health Cover"
+    },
+    "text": "Add-ons for International Health Cover (ID: apa_international_health_007): ['Maternity', 'Wellness programs']."
+  },
+  {
+    "chunk_id": "6c2724a3-be90-483a-a7d6-e99fe694afa2",
+    "company_id": "apa_001",
+    "product_id": "apa_elimu_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_elimu_008",
+      "product_name": "Education Plan (APA Elimu)",
+      "category": "life & savings / education",
+      "target_market": "parents, guardians",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Child up to 25; premiums capped at 20 years",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, financial advisors",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Elimu built fund for child's fees despite parent's passing (@ParentKE, 2025)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Education Plan (APA Elimu) (ID: apa_elimu_008) is a life & savings / education insurance product by apa_001 for parents, guardians. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "0aa974f3-af82-4003-ae53-83baac8b757b",
+    "company_id": "apa_001",
+    "product_id": "apa_elimu_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Policy lapse",
+        "Suicide within 2 years"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_elimu_008",
+      "product_name": "Education Plan (APA Elimu)"
+    },
+    "text": "Exclusions for Education Plan (APA Elimu) (ID: apa_elimu_008): ['Policy lapse', 'Suicide within 2 years']."
+  },
+  {
+    "chunk_id": "229f2a31-8cff-4a06-afea-fdd2b294ba44",
+    "company_id": "apa_001",
+    "product_id": "apa_elimu_008",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Disability waiver"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_elimu_008",
+      "product_name": "Education Plan (APA Elimu)"
+    },
+    "text": "Add-ons for Education Plan (APA Elimu) (ID: apa_elimu_008): ['Disability waiver']."
+  },
+  {
+    "chunk_id": "b318fe80-4a32-4146-b6ef-f4e48481adff",
+    "company_id": "apa_001",
+    "product_id": "apa_savings_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_savings_009",
+      "product_name": "Savings Plans (Imarika / Akiba Halisi)",
+      "category": "life & savings",
+      "target_market": "individuals planning lump-sum goals",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 70,
+      "eligibility_notes": "Flexible contributions",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, advisors",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Akiba Halisi helped save for wedding (@SaverKE, 2024)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Savings Plans (Imarika / Akiba Halisi) (ID: apa_savings_009) is a life & savings insurance product by apa_001 for individuals planning lump-sum goals. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "b0f49557-9d4e-4e32-922f-f6583a8a8b58",
+    "company_id": "apa_001",
+    "product_id": "apa_savings_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early surrender penalties",
+        "Non-disclosure"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_savings_009",
+      "product_name": "Savings Plans (Imarika / Akiba Halisi)"
+    },
+    "text": "Exclusions for Savings Plans (Imarika / Akiba Halisi) (ID: apa_savings_009): ['Early surrender penalties', 'Non-disclosure']."
+  },
+  {
+    "chunk_id": "e0c7acef-31b2-4528-9703-94a622515664",
+    "company_id": "apa_001",
+    "product_id": "apa_savings_009",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Investment options"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_savings_009",
+      "product_name": "Savings Plans (Imarika / Akiba Halisi)"
+    },
+    "text": "Add-ons for Savings Plans (Imarika / Akiba Halisi) (ID: apa_savings_009): ['Investment options']."
+  },
+  {
+    "chunk_id": "e78ea18f-b690-4e46-852c-88763b4bbc6d",
+    "company_id": "apa_001",
+    "product_id": "apa_pumzisha_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_pumzisha_010",
+      "product_name": "Funeral Expense Cover (Pumzisha)",
+      "category": "life & savings / funeral",
+      "target_market": "individuals, nuclear families",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 75,
+      "eligibility_notes": "Includes parents/parents-in-law",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Pumzisha paid quickly for family funeral (@GrievingKE, 2025)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Funeral Expense Cover (Pumzisha) (ID: apa_pumzisha_010) is a life & savings / funeral insurance product by apa_001 for individuals, nuclear families. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "505192a3-16b9-4d43-9466-2f4ec03cfecf",
+    "company_id": "apa_001",
+    "product_id": "apa_pumzisha_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Suicide within 1 year",
+        "Fraud"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_pumzisha_010",
+      "product_name": "Funeral Expense Cover (Pumzisha)"
+    },
+    "text": "Exclusions for Funeral Expense Cover (Pumzisha) (ID: apa_pumzisha_010): ['Suicide within 1 year', 'Fraud']."
+  },
+  {
+    "chunk_id": "65dbe2a4-b93c-4e80-b8ca-f521a0c80895",
+    "company_id": "apa_001",
+    "product_id": "apa_pumzisha_010",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extended family"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_pumzisha_010",
+      "product_name": "Funeral Expense Cover (Pumzisha)"
+    },
+    "text": "Add-ons for Funeral Expense Cover (Pumzisha) (ID: apa_pumzisha_010): ['Extended family']."
+  },
+  {
+    "chunk_id": "7468e0f7-3cae-432f-95f5-36da36687ff1",
+    "company_id": "apa_001",
+    "product_id": "apa_ipp_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_ipp_011",
+      "product_name": "Individual Pension Plan (IPP)",
+      "category": "life & savings / pension",
+      "target_market": "individuals planning retirement",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 70,
+      "eligibility_notes": "Flexible contributions; transfer from other schemes",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "advisors, online",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "IPP flexible transfers and good returns (@RetireeKE, 2024)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Individual Pension Plan (IPP) (ID: apa_ipp_011) is a life & savings / pension insurance product by apa_001 for individuals planning retirement. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "98f9892a-c388-4c35-af5e-8ef57328a9bf",
+    "company_id": "apa_001",
+    "product_id": "apa_ipp_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early withdrawal penalties before 50",
+        "Market risks"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_ipp_011",
+      "product_name": "Individual Pension Plan (IPP)"
+    },
+    "text": "Exclusions for Individual Pension Plan (IPP) (ID: apa_ipp_011): ['Early withdrawal penalties before 50', 'Market risks']."
+  },
+  {
+    "chunk_id": "9c637017-80d1-473f-bbf5-7a8e5c484efa",
+    "company_id": "apa_001",
+    "product_id": "apa_ipp_011",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Investment funds"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_ipp_011",
+      "product_name": "Individual Pension Plan (IPP)"
+    },
+    "text": "Add-ons for Individual Pension Plan (IPP) (ID: apa_ipp_011): ['Investment funds']."
+  },
+  {
+    "chunk_id": "170d0072-959e-45c1-984b-b054b694f91a",
+    "company_id": "apa_001",
+    "product_id": "apa_term_assurance_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_term_assurance_012",
+      "product_name": "Life Cover (Term Assurance)",
+      "category": "life & savings / protection",
+      "target_market": "individuals, families",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Health declaration; medical for high sums",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Term assurance provided family security (@BreadwinnerKE, 2025)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Life Cover (Term Assurance) (ID: apa_term_assurance_012) is a life & savings / protection insurance product by apa_001 for individuals, families. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ab835a79-9642-437c-af45-f76f34a95b08",
+    "company_id": "apa_001",
+    "product_id": "apa_term_assurance_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Suicide within 2 years",
+        "Non-disclosure"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_term_assurance_012",
+      "product_name": "Life Cover (Term Assurance)"
+    },
+    "text": "Exclusions for Life Cover (Term Assurance) (ID: apa_term_assurance_012): ['Suicide within 2 years', 'Non-disclosure']."
+  },
+  {
+    "chunk_id": "b16c0510-e2c4-42ff-a2df-b8e9da543f1b",
+    "company_id": "apa_001",
+    "product_id": "apa_term_assurance_012",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Critical illness (30% sum)"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_term_assurance_012",
+      "product_name": "Life Cover (Term Assurance)"
+    },
+    "text": "Add-ons for Life Cover (Term Assurance) (ID: apa_term_assurance_012): ['Critical illness (30% sum)']."
+  },
+  {
+    "chunk_id": "408b3531-9aa9-46dd-9ca7-352dd8a910b0",
+    "company_id": "apa_001",
+    "product_id": "apa_shield_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_shield_013",
+      "product_name": "APA SHEild (women-focused protection & wellness suite)",
+      "category": "special / partnership products / women",
+      "target_market": "women across life stages",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Tailored for health, wealth, protection",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, women's networks, agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "SHEild empowered with tailored women's cover (2024)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "APA SHEild (women-focused protection & wellness suite) (ID: apa_shield_013) is a special / partnership products / women insurance product by apa_001 for women across life stages. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "070a3766-c958-4cfa-b830-335531683e14",
+    "company_id": "apa_001",
+    "product_id": "apa_shield_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Standard policy exclusions apply"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_shield_013",
+      "product_name": "APA SHEild (women-focused protection & wellness suite)"
+    },
+    "text": "Exclusions for APA SHEild (women-focused protection & wellness suite) (ID: apa_shield_013): ['Standard policy exclusions apply']."
+  },
+  {
+    "chunk_id": "e98a53ea-6ae4-40ac-8ed4-5a13c3099bf9",
+    "company_id": "apa_001",
+    "product_id": "apa_shield_013",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "HPV vaccinations",
+        "Mental health support"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_shield_013",
+      "product_name": "APA SHEild (women-focused protection & wellness suite)"
+    },
+    "text": "Add-ons for APA SHEild (women-focused protection & wellness suite) (ID: apa_shield_013): ['HPV vaccinations', 'Mental health support']."
+  },
+  {
+    "chunk_id": "78a573e6-9b73-46a2-a961-37c77b92fdef",
+    "company_id": "apa_001",
+    "product_id": "apa_hospicash_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_hospicash_014",
+      "product_name": "HospiCash (hospital cash + funeral cover, via Azuri PAYG solar)",
+      "category": "special / partnership products / micro",
+      "target_market": "off-grid solar customers, low-income households",
+      "eligibility_notes": "Azuri Quad/TV customers; age 18+",
+      "geographic_coverage": "Kenya (rural/off-grid)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "Azuri agents, bundled sales",
+      "customer_reviews": [
+        {
+          "source": "PRNewswire",
+          "comment": "Affordable add-on for off-grid families (2018 launch, ongoing)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "HospiCash (hospital cash + funeral cover, via Azuri PAYG solar) (ID: apa_hospicash_014) is a special / partnership products / micro insurance product by apa_001 for off-grid solar customers, low-income households. Geographic coverage: Kenya (rural/off-grid)."
+  },
+  {
+    "chunk_id": "151825c7-87e5-4fbc-8f7a-c3ba0ad09566",
+    "company_id": "apa_001",
+    "product_id": "apa_hospicash_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-hospitalization",
+        "Pre-existing"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_hospicash_014",
+      "product_name": "HospiCash (hospital cash + funeral cover, via Azuri PAYG solar)"
+    },
+    "text": "Exclusions for HospiCash (hospital cash + funeral cover, via Azuri PAYG solar) (ID: apa_hospicash_014): ['Non-hospitalization', 'Pre-existing']."
+  },
+  {
+    "chunk_id": "2ef7e11c-5fb0-4636-bb14-696a2aa9af0f",
+    "company_id": "apa_001",
+    "product_id": "apa_hosicare_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_hosicare_015",
+      "product_name": "HosiCare (hospitalisation & income protection)",
+      "category": "special / partnership products / income protection",
+      "target_market": "individuals, low-income groups",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "5-year term; single premium for all ages",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, microfinance partners",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "HosiCare supported during hospital stay (@LowIncomeKE, 2024)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "HosiCare (hospitalisation & income protection) (ID: apa_hosicare_015) is a special / partnership products / income protection insurance product by apa_001 for individuals, low-income groups. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "3ff9e188-f31a-4ebb-bcba-a0eae16465c0",
+    "company_id": "apa_001",
+    "product_id": "apa_hosicare_015",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-admissions",
+        "Pre-existing"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_hosicare_015",
+      "product_name": "HosiCare (hospitalisation & income protection)"
+    },
+    "text": "Exclusions for HosiCare (hospitalisation & income protection) (ID: apa_hosicare_015): ['Non-admissions', 'Pre-existing']."
+  },
+  {
+    "chunk_id": "a932f031-3f04-406b-8589-9235320e8a3b",
+    "company_id": "apa_001",
+    "product_id": "apa_micro_inclusive_016",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "apa_micro_inclusive_016",
+      "product_name": "Micro & Inclusive Insurance (low-cost community & SME-targeted covers)",
+      "category": "special / partnership products / micro",
+      "target_market": "low-income, communities, SMEs",
+      "eligibility_notes": "Tailor-made for mass market; min group size 10",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "community agents, SMEs, digital",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Affordable micro cover for farmers (@SMEKE, Jan 2025)"
+        }
+      ],
+      "company_id": "apa_001"
+    },
+    "text": "Micro & Inclusive Insurance (low-cost community & SME-targeted covers) (ID: apa_micro_inclusive_016) is a special / partnership products / micro insurance product by apa_001 for low-income, communities, SMEs. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "cce9a8aa-bc5e-41c0-9876-2e396647240b",
+    "company_id": "apa_001",
+    "product_id": "apa_micro_inclusive_016",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Standard micro exclusions"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_micro_inclusive_016",
+      "product_name": "Micro & Inclusive Insurance (low-cost community & SME-targeted covers)"
+    },
+    "text": "Exclusions for Micro & Inclusive Insurance (low-cost community & SME-targeted covers) (ID: apa_micro_inclusive_016): ['Standard micro exclusions']."
+  },
+  {
+    "chunk_id": "e1aadcd4-fc15-41d4-ac7a-731d633d4817",
+    "company_id": "apa_001",
+    "product_id": "apa_micro_inclusive_016",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Funeral rider"
+      ],
+      "company_id": "apa_001",
+      "product_id": "apa_micro_inclusive_016",
+      "product_name": "Micro & Inclusive Insurance (low-cost community & SME-targeted covers)"
+    },
+    "text": "Add-ons for Micro & Inclusive Insurance (low-cost community & SME-targeted covers) (ID: apa_micro_inclusive_016): ['Funeral rider']."
+  }
+]

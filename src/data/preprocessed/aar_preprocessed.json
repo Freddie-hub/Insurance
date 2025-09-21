@@ -1,0 +1,798 @@
+[
+  {
+    "chunk_id": "344109f9-0a58-4060-9505-284690d77e92",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "aar_001",
+      "company_name": "AAR Insurance Kenya Limited",
+      "company_type": "composite (medical, general, accident)",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/19/007/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published March 2025",
+      "headquarters": "Real Towers, Upper Hill, Nairobi, P.O. Box 30364-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://aar-insurance.com",
+      "digital_presence_customer_portal": "https://buyonline.aar-insurance.com",
+      "digital_presence_mobile_app": true,
+      "digital_presence_mobile_app_store_links_google_play": "https://play.google.com/store/apps/details?id=com.aarinsurance.customer.app",
+      "digital_presence_mobile_app_store_links_app_store": null,
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "USSD *371# for purchases; WhatsApp integration; M-Pesa Paybill 880928",
+      "reputation_claims_settlement_ratio": "High settlement record; paid KES 134M in flood claims (2025); sector claims rose to KES 294.9B H1 2025",
+      "reputation_customer_complaints": "Some delays in claims and communication noted; overall positive for affordability and network",
+      "reputation_customer_rating": "Trusted by over 200,000 customers; praised for innovation but mixed on processing times",
+      "reputation_notes": "Over 40 years; serves 100,000+; AKI Awards 2024 winner; strong focus on medical with 14% market share",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "AAR Insurance Kenya Limited is a composite (medical, general, accident) insurance company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/19/007/2025. Headquarters: Real Towers, Upper Hill, Nairobi, P.O. Box 30364-00100, Nairobi, Kenya. Website: https://aar-insurance.com. Customer rating: Trusted by over 200,000 customers; praised for innovation but mixed on processing times, Claims settlement ratio: High settlement record; paid KES 134M in flood claims (2025); sector claims rose to KES 294.9B H1 2025."
+  },
+  {
+    "chunk_id": "0ac89eab-4175-416a-abf8-ed56433a09e1",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "Real Towers, Upper Hill, Nairobi",
+      "phone": "+254 20 888 999, +254 20 888 91",
+      "email": "info@aar.co.ke",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: aar_001_branch_001) of aar_001 is located at Real Towers, Upper Hill, Nairobi. Contact phones: +254 20 888 999, +254 20 888 91. Email: info@aar.co.ke."
+  },
+  {
+    "chunk_id": "26347bc8-83a9-4674-b679-f62b3867b317",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kakamega Branch",
+      "address": "Kakamega Town, Kakamega",
+      "phone": "+254 56 201 2345",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_002"
+    },
+    "text": "Branch Kakamega Branch (ID: aar_001_branch_002) of aar_001 is located at Kakamega Town, Kakamega. Contact phones: +254 56 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "cd4d9af4-fc12-4dac-9d26-554bcb420f1a",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Malindi Branch",
+      "address": "Malindi Town, Malindi",
+      "phone": "+254 42 201 2345",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_003"
+    },
+    "text": "Branch Malindi Branch (ID: aar_001_branch_003) of aar_001 is located at Malindi Town, Malindi. Contact phones: +254 42 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "e984bb0e-11c5-4961-8adf-bf31d5519ed2",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "Links Plaza, 1st Floor, Nkurumah Road, Mombasa",
+      "phone": "+254 41 231 2345",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_004"
+    },
+    "text": "Branch Mombasa Branch (ID: aar_001_branch_004) of aar_001 is located at Links Plaza, 1st Floor, Nkurumah Road, Mombasa. Contact phones: +254 41 231 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "542dd5d3-ef7d-47bf-86f5-8ac3d15f6630",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Thika Branch",
+      "address": "Maisha Heights, 1st Floor, Kenyatta Road, Thika",
+      "phone": "+254 20 222 4567",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_005"
+    },
+    "text": "Branch Thika Branch (ID: aar_001_branch_005) of aar_001 is located at Maisha Heights, 1st Floor, Kenyatta Road, Thika. Contact phones: +254 20 222 4567. Email: N/A."
+  },
+  {
+    "chunk_id": "7f4c4017-758c-49ca-b8bc-03c8f55dc8ea",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Naivasha Branch",
+      "address": "Naivasha Town, Naivasha",
+      "phone": "+254 50 201 2345",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_006"
+    },
+    "text": "Branch Naivasha Branch (ID: aar_001_branch_006) of aar_001 is located at Naivasha Town, Naivasha. Contact phones: +254 50 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "325029aa-3207-4a77-8ebe-ed741bb3b098",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Kamis Plaza, 3rd Floor, Dunga Road, Kisumu",
+      "phone": "+254 57 202 1234",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_007"
+    },
+    "text": "Branch Kisumu Branch (ID: aar_001_branch_007) of aar_001 is located at Kamis Plaza, 3rd Floor, Dunga Road, Kisumu. Contact phones: +254 57 202 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "26a5a2f8-fe63-4e6f-b3b7-5e8803ce1dd8",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "Kenya Power Building, Kenyatta Avenue, Nakuru",
+      "phone": "+254 51 221 1234",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_008"
+    },
+    "text": "Branch Nakuru Branch (ID: aar_001_branch_008) of aar_001 is located at Kenya Power Building, Kenyatta Avenue, Nakuru. Contact phones: +254 51 221 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "abdd5fc1-7dd9-4472-a2e7-57ead17f60da",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Zimmerman Building, Eldoret",
+      "phone": "+254 53 206 1234",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_009"
+    },
+    "text": "Branch Eldoret Branch (ID: aar_001_branch_009) of aar_001 is located at Zimmerman Building, Eldoret. Contact phones: +254 53 206 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "7977f0dd-da3e-4413-9ef4-14fe9e8fc062",
+    "company_id": "aar_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nyeri Branch",
+      "address": "Kenyatta Road, Nyeri",
+      "phone": "+254 61 203 1234",
+      "company_id": "aar_001",
+      "branch_id": "aar_001_branch_010"
+    },
+    "text": "Branch Nyeri Branch (ID: aar_001_branch_010) of aar_001 is located at Kenyatta Road, Nyeri. Contact phones: +254 61 203 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "fed54ddb-ee2c-4784-875b-9cf1c181ccc9",
+    "company_id": "aar_001",
+    "product_id": "aar_shwaari_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_shwaari_001",
+      "product_name": "ShwAARi Medical Cover",
+      "category": "health / medical insurance",
+      "target_market": "individuals, families, low/middle-income, seniors (0-100 years)",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 100,
+      "eligibility_notes": "No medical exam; Kenyan resident; 1-week waiting period",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, USSD *371#, agents, branches, M-TIBA app",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Affordable ShwAARi with quick approvals; tree planted per policy (@AARIns, 2024)"
+        },
+        {
+          "source": "LinkedIn",
+          "comment": "Simplified healthcare for families; partners like Equity/KCB enhance access (2023)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "ShwAARi Medical Cover (ID: aar_shwaari_001) is a health / medical insurance insurance product by aar_001 for individuals, families, low/middle-income, seniors (0-100 years). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "98221d03-0fb1-4bed-9ce0-7ff3d6e6df3b",
+    "company_id": "aar_001",
+    "product_id": "aar_shwaari_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Cosmetic procedures, experimental treatments",
+        "Waiting: 1 week general, 1 year chronic/maternity"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_shwaari_001",
+      "product_name": "ShwAARi Medical Cover"
+    },
+    "text": "Exclusions for ShwAARi Medical Cover (ID: aar_shwaari_001): ['Cosmetic procedures, experimental treatments', 'Waiting: 1 week general, 1 year chronic/maternity']."
+  },
+  {
+    "chunk_id": "7d4eb44c-78c3-4a72-8701-901fcf98247a",
+    "company_id": "aar_001",
+    "product_id": "aar_shwaari_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Outpatient only option"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_shwaari_001",
+      "product_name": "ShwAARi Medical Cover"
+    },
+    "text": "Add-ons for ShwAARi Medical Cover (ID: aar_shwaari_001): ['Outpatient only option']."
+  },
+  {
+    "chunk_id": "7b2a02ad-1f1f-4c66-80fc-341ded9b7259",
+    "company_id": "aar_001",
+    "product_id": "aar_enhanced_medical_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_enhanced_medical_002",
+      "product_name": "Enhanced Medical Cover",
+      "category": "health / medical insurance",
+      "target_market": "individuals, families seeking comprehensive cover",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 64,
+      "eligibility_notes": "Newborns from discharge; KRA PIN; Kenyan resident; medical report for 55+",
+      "geographic_coverage": "Kenya (East Africa evacuation)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online portal, agents, branches, M-TIBA app",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Enhanced Platinum seamless for family emergencies; quick approvals (@HealthUserKE, 2025)"
+        },
+        {
+          "source": "Google Reviews",
+          "comment": "Comprehensive but waiting periods strict for chronic (2024)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "Enhanced Medical Cover (ID: aar_enhanced_medical_002) is a health / medical insurance insurance product by aar_001 for individuals, families seeking comprehensive cover. Geographic coverage: Kenya (East Africa evacuation)."
+  },
+  {
+    "chunk_id": "307015c9-826e-4a61-9204-87a9145bc0be",
+    "company_id": "aar_001",
+    "product_id": "aar_enhanced_medical_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Waiting: 28 days acute, 60 days surgical, 12 months pre-existing/chronic/maternity",
+        "Cosmetic, experimental, hearing aids, non-KEPI vaccines"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_enhanced_medical_002",
+      "product_name": "Enhanced Medical Cover"
+    },
+    "text": "Exclusions for Enhanced Medical Cover (ID: aar_enhanced_medical_002): ['Waiting: 28 days acute, 60 days surgical, 12 months pre-existing/chronic/maternity', 'Cosmetic, experimental, hearing aids, non-KEPI vaccines']."
+  },
+  {
+    "chunk_id": "2efbd92e-1ea4-4ff8-808b-91422fbd4fab",
+    "company_id": "aar_001",
+    "product_id": "aar_enhanced_medical_002",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Supplementary covers (e.g., optical/dental extensions)"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_enhanced_medical_002",
+      "product_name": "Enhanced Medical Cover"
+    },
+    "text": "Add-ons for Enhanced Medical Cover (ID: aar_enhanced_medical_002): ['Supplementary covers (e.g., optical/dental extensions)']."
+  },
+  {
+    "chunk_id": "9f2df0f1-bffe-4957-a777-1857681cb83c",
+    "company_id": "aar_001",
+    "product_id": "aar_cover_me_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_cover_me_003",
+      "product_name": "Cover Me",
+      "category": "health / medical insurance",
+      "target_market": "budget-conscious individuals/families",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 64,
+      "eligibility_notes": "Newborns from discharge; Kenyan resident",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Cover Me affordable entry-level; good for basics (@BudgetKE, 2024)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "Cover Me (ID: aar_cover_me_003) is a health / medical insurance insurance product by aar_001 for budget-conscious individuals/families. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "050d90b0-994b-4044-b42f-30a19cf41203",
+    "company_id": "aar_001",
+    "product_id": "aar_cover_me_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Same as Enhanced: waiting periods, cosmetic"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_cover_me_003",
+      "product_name": "Cover Me"
+    },
+    "text": "Exclusions for Cover Me (ID: aar_cover_me_003): ['Same as Enhanced: waiting periods, cosmetic']."
+  },
+  {
+    "chunk_id": "5f0d5b8a-0822-435a-af30-5fbb0c01bdf0",
+    "company_id": "aar_001",
+    "product_id": "aar_aar_protect_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_aar_protect_004",
+      "product_name": "AAR Protect Cover",
+      "category": "general / accident",
+      "target_market": "individuals/families (birth-64 years)",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 64,
+      "eligibility_notes": "No medical exam; easy online/USSD",
+      "geographic_coverage": "Kenya/East Africa",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "USSD *371#, mobile app, online, agents",
+      "customer_reviews": [
+        {
+          "source": "The Star",
+          "comment": "Low-cost accident protection; easy access (2021, ongoing)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "AAR Protect Cover (ID: aar_aar_protect_004) is a general / accident insurance product by aar_001 for individuals/families (birth-64 years). Geographic coverage: Kenya/East Africa."
+  },
+  {
+    "chunk_id": "466d4a00-3089-4d9e-955d-5bbd940ee89f",
+    "company_id": "aar_001",
+    "product_id": "aar_aar_protect_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Self-inflicted injuries, claims on payment day"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_aar_protect_004",
+      "product_name": "AAR Protect Cover"
+    },
+    "text": "Exclusions for AAR Protect Cover (ID: aar_aar_protect_004): ['Self-inflicted injuries, claims on payment day']."
+  },
+  {
+    "chunk_id": "71eec2cb-928b-4b8c-8bcb-6d8ab7f73893",
+    "company_id": "aar_001",
+    "product_id": "aar_seniors_caare_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_seniors_caare_005",
+      "product_name": "Seniors CAARe",
+      "category": "health / medical insurance / seniors",
+      "target_market": "seniors 65-85 years",
+      "eligibility_age_min": 65,
+      "eligibility_age_max": 85,
+      "eligibility_notes": "Medical report for 55+; lifelong renewable; dependents separate",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [
+        {
+          "source": "AAR Site",
+          "comment": "Tailored for golden years; enhanced chronic care (2024)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "Seniors CAARe (ID: aar_seniors_caare_005) is a health / medical insurance / seniors insurance product by aar_001 for seniors 65-85 years. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "c6eadc99-3ddb-4bd2-97c5-dddeb7e6e073",
+    "company_id": "aar_001",
+    "product_id": "aar_seniors_caare_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Waiting: 1 year pre-existing, 10 months psychiatric",
+        "Massage unless post-accident"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_seniors_caare_005",
+      "product_name": "Seniors CAARe"
+    },
+    "text": "Exclusions for Seniors CAARe (ID: aar_seniors_caare_005): ['Waiting: 1 year pre-existing, 10 months psychiatric', 'Massage unless post-accident']."
+  },
+  {
+    "chunk_id": "6ef973bf-58f2-49f1-a74e-f383de58841f",
+    "company_id": "aar_001",
+    "product_id": "aar_personal_accident_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_personal_accident_006",
+      "product_name": "Personal Accident",
+      "category": "general / accident",
+      "target_market": "individuals, students, families",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 64,
+      "eligibility_notes": "No medical exam; student variant available",
+      "geographic_coverage": "Kenya/East Africa",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "USSD *371#, app, online",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Shield for life's stumbles; easy for students (@AARIns, 2025)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "Personal Accident (ID: aar_personal_accident_006) is a general / accident insurance product by aar_001 for individuals, students, families. Geographic coverage: Kenya/East Africa."
+  },
+  {
+    "chunk_id": "066ab996-9fee-4123-b83f-211d2c9cdb91",
+    "company_id": "aar_001",
+    "product_id": "aar_personal_accident_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Self-inflicted, day-of-payment claims"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_personal_accident_006",
+      "product_name": "Personal Accident"
+    },
+    "text": "Exclusions for Personal Accident (ID: aar_personal_accident_006): ['Self-inflicted, day-of-payment claims']."
+  },
+  {
+    "chunk_id": "d9c9ef8f-5781-4dd6-9958-efde356cf930",
+    "company_id": "aar_001",
+    "product_id": "aar_travel_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_travel_007",
+      "product_name": "Travel Insurance",
+      "category": "general / travel",
+      "target_market": "domestic/international travelers",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 64,
+      "eligibility_notes": "Newborns to 64; Kenyan resident",
+      "geographic_coverage": "Worldwide (excl. Kenya for international)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, USSD *371#, agents",
+      "customer_reviews": [
+        {
+          "source": "AAR Site",
+          "comment": "Worry-free exploration; luggage protected (@TravelerKE, 2024)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "Travel Insurance (ID: aar_travel_007) is a general / travel insurance product by aar_001 for domestic/international travelers. Geographic coverage: Worldwide (excl. Kenya for international)."
+  },
+  {
+    "chunk_id": "099e0f90-1573-4815-a347-7aad6df73cdb",
+    "company_id": "aar_001",
+    "product_id": "aar_travel_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing, war zones, adventure sports",
+        "Hearing aids, non-KEPI vaccines"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_travel_007",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Exclusions for Travel Insurance (ID: aar_travel_007): ['Pre-existing, war zones, adventure sports', 'Hearing aids, non-KEPI vaccines']."
+  },
+  {
+    "chunk_id": "4dfe1c52-6290-41d9-a28d-3df96afec32c",
+    "company_id": "aar_001",
+    "product_id": "aar_travel_007",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Gadgets, adventure"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_travel_007",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Add-ons for Travel Insurance (ID: aar_travel_007): ['Gadgets, adventure']."
+  },
+  {
+    "chunk_id": "04d4f2ef-3886-4b5b-aa09-220f64181ae5",
+    "company_id": "aar_001",
+    "product_id": "aar_home_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_home_008",
+      "product_name": "Home Insurance",
+      "category": "general / property",
+      "target_market": "homeowners, tenants",
+      "eligibility_age_min": "N/A",
+      "eligibility_age_max": "N/A",
+      "eligibility_notes": "Valuation required",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "aar_001"
+    },
+    "text": "Home Insurance (ID: aar_home_008) is a general / property insurance product by aar_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "58da219b-9e09-469d-933a-8d63187305f1",
+    "company_id": "aar_001",
+    "product_id": "aar_home_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, unoccupied"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_home_008",
+      "product_name": "Home Insurance"
+    },
+    "text": "Exclusions for Home Insurance (ID: aar_home_008): ['Wear/tear, unoccupied']."
+  },
+  {
+    "chunk_id": "4d0ee51a-8d33-4fbb-8048-cba9dd33f271",
+    "company_id": "aar_001",
+    "product_id": "aar_professional_indemnity_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_professional_indemnity_009",
+      "product_name": "Professional Indemnity Cover",
+      "category": "general / liability",
+      "target_market": "professionals (lawyers, doctors, accountants, architects)",
+      "eligibility_age_min": "N/A",
+      "eligibility_age_max": "N/A",
+      "eligibility_notes": "For negligence/errors; LSK/KMPDC requirements",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, agents",
+      "customer_reviews": [
+        {
+          "source": "PesaBazaar",
+          "comment": "Essential for professionals; meets LSK mins (2024)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "Professional Indemnity Cover (ID: aar_professional_indemnity_009) is a general / liability insurance product by aar_001 for professionals (lawyers, doctors, accountants, architects). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2ed6288e-db75-4823-a43f-ae8c1b7b8f79",
+    "company_id": "aar_001",
+    "product_id": "aar_professional_indemnity_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional fraud, contractual liabilities"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_professional_indemnity_009",
+      "product_name": "Professional Indemnity Cover"
+    },
+    "text": "Exclusions for Professional Indemnity Cover (ID: aar_professional_indemnity_009): ['Intentional fraud, contractual liabilities']."
+  },
+  {
+    "chunk_id": "6b4f9183-c77f-477e-ac71-dbe200ec176c",
+    "company_id": "aar_001",
+    "product_id": "aar_business_enterprise_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_business_enterprise_010",
+      "product_name": "Business Enterprise Medical",
+      "category": "health / medical insurance / group",
+      "target_market": "SMEs/corporates (tailored)",
+      "eligibility_age_min": "N/A",
+      "eligibility_age_max": "N/A",
+      "eligibility_notes": "Customizable panels",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate sales, brokers",
+      "customer_reviews": [
+        {
+          "source": "Fullbloom Agency",
+          "comment": "Tailored for SMEs; diverse providers (2023)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "Business Enterprise Medical (ID: aar_business_enterprise_010) is a health / medical insurance / group insurance product by aar_001 for SMEs/corporates (tailored). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "b4d340f2-a8c3-4854-918e-d2db86a45a29",
+    "company_id": "aar_001",
+    "product_id": "aar_business_enterprise_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Standard waiting periods"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_business_enterprise_010",
+      "product_name": "Business Enterprise Medical"
+    },
+    "text": "Exclusions for Business Enterprise Medical (ID: aar_business_enterprise_010): ['Standard waiting periods']."
+  },
+  {
+    "chunk_id": "5c441189-7ecd-41dc-bb44-dbbf09bb0ae7",
+    "company_id": "aar_001",
+    "product_id": "aar_wiba_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_wiba_011",
+      "product_name": "WIBA Cover",
+      "category": "general / liability",
+      "target_market": "employers (mandatory)",
+      "eligibility_age_min": "N/A",
+      "eligibility_age_max": "N/A",
+      "eligibility_notes": "All employers per WIBA Act 2007",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, corporate",
+      "customer_reviews": [],
+      "company_id": "aar_001"
+    },
+    "text": "WIBA Cover (ID: aar_wiba_011) is a general / liability insurance product by aar_001 for employers (mandatory). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "e131cfa7-d304-46a5-853b-01a90fa751b8",
+    "company_id": "aar_001",
+    "product_id": "aar_wiba_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Injuries outside Kenya contract area"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_wiba_011",
+      "product_name": "WIBA Cover"
+    },
+    "text": "Exclusions for WIBA Cover (ID: aar_wiba_011): ['Injuries outside Kenya contract area']."
+  },
+  {
+    "chunk_id": "d5528faf-0fa3-4c31-ba6a-6971072cf51c",
+    "company_id": "aar_001",
+    "product_id": "aar_wiba_011",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Employers liability"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_wiba_011",
+      "product_name": "WIBA Cover"
+    },
+    "text": "Add-ons for WIBA Cover (ID: aar_wiba_011): ['Employers liability']."
+  },
+  {
+    "chunk_id": "a7d1ac1a-d1e3-4831-aae4-357bd24de7d5",
+    "company_id": "aar_001",
+    "product_id": "aar_landlord_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_landlord_012",
+      "product_name": "Landlord Insurance",
+      "category": "general / property",
+      "target_market": "landlords/rental property owners",
+      "eligibility_age_min": "N/A",
+      "eligibility_age_max": "N/A",
+      "eligibility_notes": "Valuation required",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers",
+      "customer_reviews": [],
+      "company_id": "aar_001"
+    },
+    "text": "Landlord Insurance (ID: aar_landlord_012) is a general / property insurance product by aar_001 for landlords/rental property owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "5246ca38-4b72-4b8b-8111-ae754a7403f0",
+    "company_id": "aar_001",
+    "product_id": "aar_landlord_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Tenant property, unoccupied"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_landlord_012",
+      "product_name": "Landlord Insurance"
+    },
+    "text": "Exclusions for Landlord Insurance (ID: aar_landlord_012): ['Tenant property, unoccupied']."
+  },
+  {
+    "chunk_id": "f047f2d0-238d-4086-b874-ff342d654a6e",
+    "company_id": "aar_001",
+    "product_id": "aar_marine_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_marine_013",
+      "product_name": "Marine Insurance",
+      "category": "general / marine",
+      "target_market": "importers/exporters, cargo owners",
+      "eligibility_age_min": "N/A",
+      "eligibility_age_max": "N/A",
+      "eligibility_notes": "Goods in transit sea/air/road/rail",
+      "geographic_coverage": "Kenya/international",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "aar_001"
+    },
+    "text": "Marine Insurance (ID: aar_marine_013) is a general / marine insurance product by aar_001 for importers/exporters, cargo owners. Geographic coverage: Kenya/international."
+  },
+  {
+    "chunk_id": "f7d1705b-7883-40e0-b860-cdc6e2a221dd",
+    "company_id": "aar_001",
+    "product_id": "aar_marine_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "War, inherent vice"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_marine_013",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Exclusions for Marine Insurance (ID: aar_marine_013): ['War, inherent vice']."
+  },
+  {
+    "chunk_id": "6067243c-3517-4872-a166-eaef15bfeaa6",
+    "company_id": "aar_001",
+    "product_id": "aar_kwft_afyafit_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "aar_kwft_afyafit_014",
+      "product_name": "KWFT AfyaFit",
+      "category": "health / medical insurance / micro",
+      "target_market": "low/middle-income families via KWFT (up to 6 members)",
+      "eligibility_age_min": "N/A",
+      "eligibility_age_max": "N/A",
+      "eligibility_notes": "KWFT clients; comprehensive micro-insurance",
+      "geographic_coverage": "Kenya (45/47 counties)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "KWFT branches, AAR agents",
+      "customer_reviews": [
+        {
+          "source": "IFHA",
+          "comment": "Affordable micro-insurance game-changer for underserved (2019, ongoing)"
+        }
+      ],
+      "company_id": "aar_001"
+    },
+    "text": "KWFT AfyaFit (ID: aar_kwft_afyafit_014) is a health / medical insurance / micro insurance product by aar_001 for low/middle-income families via KWFT (up to 6 members). Geographic coverage: Kenya (45/47 counties)."
+  },
+  {
+    "chunk_id": "c76d5f49-4447-4ea1-a8d1-dac332e5990d",
+    "company_id": "aar_001",
+    "product_id": "aar_kwft_afyafit_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Standard micro waits"
+      ],
+      "company_id": "aar_001",
+      "product_id": "aar_kwft_afyafit_014",
+      "product_name": "KWFT AfyaFit"
+    },
+    "text": "Exclusions for KWFT AfyaFit (ID: aar_kwft_afyafit_014): ['Standard micro waits']."
+  }
+]

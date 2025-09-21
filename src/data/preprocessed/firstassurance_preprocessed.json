@@ -1,0 +1,800 @@
+[
+  {
+    "chunk_id": "619c0b74-2fcf-48bd-bfb9-a7673950cffb",
+    "company_id": "firstassurance_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "firstassurance_001",
+      "company_name": "First Assurance Company Limited",
+      "company_type": "composite (general, medical, life)",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/23/011/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published March 2025",
+      "headquarters": "First Assurance House, Clyde Gardens, Gitanga Road, Lavington, P.O. Box 30064-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://firstassurance.co.ke",
+      "digital_presence_customer_portal": "https://selfservice.firstassurance.co.ke",
+      "digital_presence_mobile_app": false,
+      "digital_presence_mobile_app_store_links_google_play": null,
+      "digital_presence_mobile_app_store_links_app_store": null,
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "Self-service portal for motor insurance quotes and purchases; quotation form available on website",
+      "reputation_claims_settlement_ratio": "Mid-60% range (2023 IRA data); 8.71% in Q2 2025; consistent performance with testimonials for quick settlements",
+      "reputation_customer_complaints": "Limited public details; some delays in processing noted on social media",
+      "reputation_customer_rating": "Positive for reliability and customer-centric approach; trusted with 93 years experience; part of Absa Group",
+      "reputation_notes": "Founded 1930 as Prudential; Kenyanized 1991; strong in general and health; partnerships with ICPAK for professionals; low penetration addressed via tailored products",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "First Assurance Company Limited is a composite (general, medical, life) insurance company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/23/011/2025. Headquarters: First Assurance House, Clyde Gardens, Gitanga Road, Lavington, P.O. Box 30064-00100, Nairobi, Kenya. Website: https://firstassurance.co.ke. Customer rating: Positive for reliability and customer-centric approach; trusted with 93 years experience; part of Absa Group, Claims settlement ratio: Mid-60% range (2023 IRA data); 8.71% in Q2 2025; consistent performance with testimonials for quick settlements."
+  },
+  {
+    "chunk_id": "51a23a6a-6887-436f-8470-f8e7b77c8cf2",
+    "company_id": "firstassurance_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Lavington (Head Office)",
+      "address": "First Assurance House, Clyde Gardens, Gitanga Road, Lavington, Nairobi",
+      "phone": "+254 20 888 999, +254 20 888 91",
+      "email": "info@firstassurance.co.ke",
+      "company_id": "firstassurance_001",
+      "branch_id": "firstassurance_001_branch_001"
+    },
+    "text": "Branch Nairobi Lavington (Head Office) (ID: firstassurance_001_branch_001) of firstassurance_001 is located at First Assurance House, Clyde Gardens, Gitanga Road, Lavington, Nairobi. Contact phones: +254 20 888 999, +254 20 888 91. Email: info@firstassurance.co.ke."
+  },
+  {
+    "chunk_id": "1cbee2f8-9dd1-41e0-9bdc-9a410d655de4",
+    "company_id": "firstassurance_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi (Second Branch)",
+      "address": "Nairobi CBD (specific address not detailed)",
+      "phone": "+254 20 888 999",
+      "company_id": "firstassurance_001",
+      "branch_id": "firstassurance_001_branch_002"
+    },
+    "text": "Branch Nairobi (Second Branch) (ID: firstassurance_001_branch_002) of firstassurance_001 is located at Nairobi CBD (specific address not detailed). Contact phones: +254 20 888 999. Email: N/A."
+  },
+  {
+    "chunk_id": "4fe919a6-1761-467c-a5fb-625d7ec7cb0f",
+    "company_id": "firstassurance_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "United Mall, Ground Floor, Kisumu - Kakamega Road, Kisumu",
+      "phone": "+254 20 888 999, +254 57 202 1234",
+      "email": "info@firstassurance.co.ke",
+      "company_id": "firstassurance_001",
+      "branch_id": "firstassurance_001_branch_003"
+    },
+    "text": "Branch Kisumu Branch (ID: firstassurance_001_branch_003) of firstassurance_001 is located at United Mall, Ground Floor, Kisumu - Kakamega Road, Kisumu. Contact phones: +254 20 888 999, +254 57 202 1234. Email: info@firstassurance.co.ke."
+  },
+  {
+    "chunk_id": "de4dc2ae-c941-47cc-a720-4e9f538d21f0",
+    "company_id": "firstassurance_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "Nyali Road, Off Malindi - Mombasa Highway, First Assurance House, Mombasa",
+      "phone": "+254 41 447 6700, +254 41 447 6494, +254 734 605 491",
+      "email": "info@firstassurance.co.ke",
+      "company_id": "firstassurance_001",
+      "branch_id": "firstassurance_001_branch_004"
+    },
+    "text": "Branch Mombasa Branch (ID: firstassurance_001_branch_004) of firstassurance_001 is located at Nyali Road, Off Malindi - Mombasa Highway, First Assurance House, Mombasa. Contact phones: +254 41 447 6700, +254 41 447 6494, +254 734 605 491. Email: info@firstassurance.co.ke."
+  },
+  {
+    "chunk_id": "c19e5223-fd7d-41d1-b307-310494725385",
+    "company_id": "firstassurance_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "Nakuru Town (specific address not detailed)",
+      "phone": "+254 51 221 1234",
+      "email": "info@firstassurance.co.ke",
+      "company_id": "firstassurance_001",
+      "branch_id": "firstassurance_001_branch_005"
+    },
+    "text": "Branch Nakuru Branch (ID: firstassurance_001_branch_005) of firstassurance_001 is located at Nakuru Town (specific address not detailed). Contact phones: +254 51 221 1234. Email: info@firstassurance.co.ke."
+  },
+  {
+    "chunk_id": "89237b24-3be9-4f33-a534-1bb38a0c9432",
+    "company_id": "firstassurance_001",
+    "product_id": "first_motor_private_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_motor_private_001",
+      "product_name": "Motor Private Insurance",
+      "category": "personal solutions / motor",
+      "target_market": "private vehicle owners",
+      "eligibility_notes": "Risk assessment based on value/usage; NTSA compliance",
+      "eligibility_vehicle_type": "private cars",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "self-service portal, agents, brokers",
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Seamless motor claims via portal; quick turnaround (2025)"
+        }
+      ],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Motor Private Insurance (ID: first_motor_private_001) is a personal solutions / motor insurance product by firstassurance_001 for private vehicle owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "78d36528-15fe-46a2-9067-841cc7b725cd",
+    "company_id": "firstassurance_001",
+    "product_id": "first_motor_private_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Unlicensed drivers, drunk driving",
+        "Wear/tear"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_motor_private_001",
+      "product_name": "Motor Private Insurance"
+    },
+    "text": "Exclusions for Motor Private Insurance (ID: first_motor_private_001): ['Unlicensed drivers, drunk driving', 'Wear/tear']."
+  },
+  {
+    "chunk_id": "503f7099-5bb9-49fa-b361-921f9a2a0763",
+    "company_id": "firstassurance_001",
+    "product_id": "first_motor_private_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Windscreen",
+        "Roadside assistance"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_motor_private_001",
+      "product_name": "Motor Private Insurance"
+    },
+    "text": "Add-ons for Motor Private Insurance (ID: first_motor_private_001): ['Windscreen', 'Roadside assistance']."
+  },
+  {
+    "chunk_id": "3c87c8f9-b44e-4893-8198-44f73d002cc2",
+    "company_id": "firstassurance_001",
+    "product_id": "first_travel_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_travel_002",
+      "product_name": "Travel Insurance",
+      "category": "personal solutions / travel",
+      "target_market": "international/domestic travelers",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Per-trip or annual; Kenyan residents",
+      "geographic_coverage": "Worldwide",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "website, agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Comprehensive travel cover with Covid inclusion; peace of mind (2025)"
+        }
+      ],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Travel Insurance (ID: first_travel_002) is a personal solutions / travel insurance product by firstassurance_001 for international/domestic travelers. Geographic coverage: Worldwide."
+  },
+  {
+    "chunk_id": "fad37517-a531-49a5-9642-73550473d8d9",
+    "company_id": "firstassurance_001",
+    "product_id": "first_travel_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions, high-risk activities"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_travel_002",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Exclusions for Travel Insurance (ID: first_travel_002): ['Pre-existing conditions, high-risk activities']."
+  },
+  {
+    "chunk_id": "40b1c8ef-ae3e-4751-bb8b-8ba45ca67a2a",
+    "company_id": "firstassurance_001",
+    "product_id": "first_pa_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_pa_003",
+      "product_name": "Personal Accident",
+      "category": "personal solutions / accident",
+      "target_market": "individuals, groups",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "No medical exam; on/off duty",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers",
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Reliable PA for unexpected accidents (2025)"
+        }
+      ],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Personal Accident (ID: first_pa_003) is a personal solutions / accident insurance product by firstassurance_001 for individuals, groups. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8bd0822e-c928-46e8-b463-ec7749a0127b",
+    "company_id": "firstassurance_001",
+    "product_id": "first_pa_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Self-harm, war"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_pa_003",
+      "product_name": "Personal Accident"
+    },
+    "text": "Exclusions for Personal Accident (ID: first_pa_003): ['Self-harm, war']."
+  },
+  {
+    "chunk_id": "c7611e9c-26e9-442b-9c6a-935aab81553c",
+    "company_id": "firstassurance_001",
+    "product_id": "first_firstmed_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_firstmed_004",
+      "product_name": "Medical Insurance (First-Med)",
+      "category": "personal solutions / medical",
+      "target_market": "individuals, families",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 64,
+      "eligibility_notes": "Medical exam for 55+; Kenyan residents",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "website quote form, agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "First-Med comprehensive for family health; quick approvals (2025)"
+        }
+      ],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Medical Insurance (First-Med) (ID: first_firstmed_004) is a personal solutions / medical insurance product by firstassurance_001 for individuals, families. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "eb2a47dc-666c-4d90-9b95-ab519f71d34f",
+    "company_id": "firstassurance_001",
+    "product_id": "first_firstmed_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Waiting: 28 days acute, 12 months pre-existing/chronic/maternity",
+        "Cosmetic procedures"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_firstmed_004",
+      "product_name": "Medical Insurance (First-Med)"
+    },
+    "text": "Exclusions for Medical Insurance (First-Med) (ID: first_firstmed_004): ['Waiting: 28 days acute, 12 months pre-existing/chronic/maternity', 'Cosmetic procedures']."
+  },
+  {
+    "chunk_id": "6d617bab-a6a6-4dbe-8145-852ac106b6ee",
+    "company_id": "firstassurance_001",
+    "product_id": "first_home_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_home_005",
+      "product_name": "Home Insurance",
+      "category": "personal solutions / property",
+      "target_market": "homeowners, tenants",
+      "eligibility_notes": "Valuation for sum insured",
+      "eligibility_property_type": "residential",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Peace of mind at home with First Assurance cover (2025)"
+        }
+      ],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Home Insurance (ID: first_home_005) is a personal solutions / property insurance product by firstassurance_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ec2ea662-c999-4c85-ab96-772a2a80cdec",
+    "company_id": "firstassurance_001",
+    "product_id": "first_home_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_home_005",
+      "product_name": "Home Insurance"
+    },
+    "text": "Exclusions for Home Insurance (ID: first_home_005): ['Wear/tear']."
+  },
+  {
+    "chunk_id": "5fac222c-a706-4a57-b24f-75f194d54b93",
+    "company_id": "firstassurance_001",
+    "product_id": "first_domestic_package_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_domestic_package_006",
+      "product_name": "Domestic Package",
+      "category": "personal solutions / property",
+      "target_market": "homeowners",
+      "eligibility_notes": "Residential dwellings",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Domestic Package (ID: first_domestic_package_006) is a personal solutions / property insurance product by firstassurance_001 for homeowners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "91c18e47-5fe8-4f83-8ce6-1f8fe555d350",
+    "company_id": "firstassurance_001",
+    "product_id": "first_domestic_package_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Deliberate acts"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_domestic_package_006",
+      "product_name": "Domestic Package"
+    },
+    "text": "Exclusions for Domestic Package (ID: first_domestic_package_006): ['Deliberate acts']."
+  },
+  {
+    "chunk_id": "60f559f8-92f2-4f82-aa32-78261a665f16",
+    "company_id": "firstassurance_001",
+    "product_id": "first_golf_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_golf_007",
+      "product_name": "Golf Insurance",
+      "category": "personal solutions / specialty",
+      "target_market": "golfers",
+      "eligibility_notes": "Amateur/professional",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Golf Insurance (ID: first_golf_007) is a personal solutions / specialty insurance product by firstassurance_001 for golfers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "260e84cb-0302-4f31-9a38-835f2fb5de27",
+    "company_id": "firstassurance_001",
+    "product_id": "first_golf_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_golf_007",
+      "product_name": "Golf Insurance"
+    },
+    "text": "Exclusions for Golf Insurance (ID: first_golf_007): ['Wear/tear']."
+  },
+  {
+    "chunk_id": "a4110285-a563-4936-966b-36372c485168",
+    "company_id": "firstassurance_001",
+    "product_id": "first_motor_comm_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_motor_comm_008",
+      "product_name": "Motor Commercial Cover",
+      "category": "corporate solutions / motor",
+      "target_market": "fleet operators",
+      "eligibility_notes": "Usage declaration",
+      "eligibility_vehicle_type": "commercial/PSV",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Motor Commercial Cover (ID: first_motor_comm_008) is a corporate solutions / motor insurance product by firstassurance_001 for fleet operators. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8ab383c0-6cf6-4d76-96fa-86d0925f3b3f",
+    "company_id": "firstassurance_001",
+    "product_id": "first_motor_comm_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-declared use"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_motor_comm_008",
+      "product_name": "Motor Commercial Cover"
+    },
+    "text": "Exclusions for Motor Commercial Cover (ID: first_motor_comm_008): ['Non-declared use']."
+  },
+  {
+    "chunk_id": "b25af0ae-eed2-4df7-803d-21c3afa60e23",
+    "company_id": "firstassurance_001",
+    "product_id": "first_motor_comm_008",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Goods transit"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_motor_comm_008",
+      "product_name": "Motor Commercial Cover"
+    },
+    "text": "Add-ons for Motor Commercial Cover (ID: first_motor_comm_008): ['Goods transit']."
+  },
+  {
+    "chunk_id": "c074aff4-5957-4fdb-bb73-009e0b6956e5",
+    "company_id": "firstassurance_001",
+    "product_id": "first_afya_biashara_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_afya_biashara_009",
+      "product_name": "Medical Insurance (First Afya Biashara)",
+      "category": "corporate solutions / medical",
+      "target_market": "SMEs/corporates for employees",
+      "eligibility_notes": "Tailored for business",
+      "eligibility_group_min_size": 5,
+      "geographic_coverage": "Kenya (overseas option)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate sales",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "First Afya Biashara saves employees unexpected expenses; peace of mind (2025)"
+        }
+      ],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Medical Insurance (First Afya Biashara) (ID: first_afya_biashara_009) is a corporate solutions / medical insurance product by firstassurance_001 for SMEs/corporates for employees. Geographic coverage: Kenya (overseas option)."
+  },
+  {
+    "chunk_id": "3c2d67cb-bbc5-443b-864d-aef66a7fc0a8",
+    "company_id": "firstassurance_001",
+    "product_id": "first_afya_biashara_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing waits"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_afya_biashara_009",
+      "product_name": "Medical Insurance (First Afya Biashara)"
+    },
+    "text": "Exclusions for Medical Insurance (First Afya Biashara) (ID: first_afya_biashara_009): ['Pre-existing waits']."
+  },
+  {
+    "chunk_id": "4e884453-2eb7-409d-89d5-ae4a9a813dfd",
+    "company_id": "firstassurance_001",
+    "product_id": "first_fire_allied_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_fire_allied_010",
+      "product_name": "Fire & Allied Perils",
+      "category": "corporate solutions / property",
+      "target_market": "businesses",
+      "eligibility_notes": "Asset valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Fire & Allied Perils (ID: first_fire_allied_010) is a corporate solutions / property insurance product by firstassurance_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2b595fbd-9b21-4040-b6dc-a505e0a70042",
+    "company_id": "firstassurance_001",
+    "product_id": "first_fire_allied_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "War"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_fire_allied_010",
+      "product_name": "Fire & Allied Perils"
+    },
+    "text": "Exclusions for Fire & Allied Perils (ID: first_fire_allied_010): ['War']."
+  },
+  {
+    "chunk_id": "88045095-31b6-4ab5-a0b2-ef408cf66b0c",
+    "company_id": "firstassurance_001",
+    "product_id": "first_engineering_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_engineering_011",
+      "product_name": "Engineering Insurance",
+      "category": "corporate solutions / engineering",
+      "target_market": "contractors",
+      "eligibility_notes": "Project details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Engineering Insurance (ID: first_engineering_011) is a corporate solutions / engineering insurance product by firstassurance_001 for contractors. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2ce99874-be19-417d-95fa-84ef119ac393",
+    "company_id": "firstassurance_001",
+    "product_id": "first_engineering_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Design defects"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_engineering_011",
+      "product_name": "Engineering Insurance"
+    },
+    "text": "Exclusions for Engineering Insurance (ID: first_engineering_011): ['Design defects']."
+  },
+  {
+    "chunk_id": "7164191c-0a47-4086-b9ca-33c21910ec72",
+    "company_id": "firstassurance_001",
+    "product_id": "first_liabilities_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_liabilities_012",
+      "product_name": "Liabilities",
+      "category": "corporate solutions / liability",
+      "target_market": "businesses",
+      "eligibility_notes": "Exposure assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Liabilities (ID: first_liabilities_012) is a corporate solutions / liability insurance product by firstassurance_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "5de79b3c-be33-4e66-bdf6-e8bd3b262d06",
+    "company_id": "firstassurance_001",
+    "product_id": "first_liabilities_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_liabilities_012",
+      "product_name": "Liabilities"
+    },
+    "text": "Exclusions for Liabilities (ID: first_liabilities_012): ['Intentional']."
+  },
+  {
+    "chunk_id": "4d1c8c09-54f6-483f-bfd4-aca4a8f1fd6c",
+    "company_id": "firstassurance_001",
+    "product_id": "first_pi_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_pi_013",
+      "product_name": "Professional Indemnity",
+      "category": "corporate solutions / liability",
+      "target_market": "professionals (auditors/accountants)",
+      "eligibility_notes": "ICPAK/LSK requirements",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, ICPAK partnership",
+      "customer_reviews": [
+        {
+          "source": "ICPAK Partnership",
+          "comment": "Tailored PI for accountants; addresses insurance gap (2025)"
+        }
+      ],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Professional Indemnity (ID: first_pi_013) is a corporate solutions / liability insurance product by firstassurance_001 for professionals (auditors/accountants). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "40ddd55f-7878-496d-94c4-3efe7e18a5fa",
+    "company_id": "firstassurance_001",
+    "product_id": "first_pi_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Fraud"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_pi_013",
+      "product_name": "Professional Indemnity"
+    },
+    "text": "Exclusions for Professional Indemnity (ID: first_pi_013): ['Fraud']."
+  },
+  {
+    "chunk_id": "39052a53-f4f9-4045-a09e-b00ca844b943",
+    "company_id": "firstassurance_001",
+    "product_id": "first_marine_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_marine_014",
+      "product_name": "Marine Insurance",
+      "category": "corporate solutions / marine",
+      "target_market": "importers/exporters",
+      "eligibility_notes": "Cargo/hull transit",
+      "geographic_coverage": "Kenya/international",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Comprehensive marine cover for open waters (2025)"
+        }
+      ],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Marine Insurance (ID: first_marine_014) is a corporate solutions / marine insurance product by firstassurance_001 for importers/exporters. Geographic coverage: Kenya/international."
+  },
+  {
+    "chunk_id": "fd813df4-60b7-4551-af9c-233099d0c7a7",
+    "company_id": "firstassurance_001",
+    "product_id": "first_marine_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "War, inherent vice"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_marine_014",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Exclusions for Marine Insurance (ID: first_marine_014): ['War, inherent vice']."
+  },
+  {
+    "chunk_id": "87e4b1c2-9eb0-46e2-9579-3e321708365c",
+    "company_id": "firstassurance_001",
+    "product_id": "first_electronic_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_electronic_015",
+      "product_name": "Electronic Equipment Insurance",
+      "category": "corporate solutions / equipment",
+      "target_market": "businesses with electronics",
+      "eligibility_notes": "Equipment valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Electronic Equipment Insurance (ID: first_electronic_015) is a corporate solutions / equipment insurance product by firstassurance_001 for businesses with electronics. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d534fd1c-de22-4c73-96ba-cb024585b532",
+    "company_id": "firstassurance_001",
+    "product_id": "first_electronic_015",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_electronic_015",
+      "product_name": "Electronic Equipment Insurance"
+    },
+    "text": "Exclusions for Electronic Equipment Insurance (ID: first_electronic_015): ['Wear']."
+  },
+  {
+    "chunk_id": "f814f8cc-bafc-44e8-a80a-6ddc293066c7",
+    "company_id": "firstassurance_001",
+    "product_id": "first_goods_transit_016",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_goods_transit_016",
+      "product_name": "Goods in Transit",
+      "category": "corporate solutions / transit",
+      "target_market": "businesses",
+      "eligibility_notes": "Transit details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Goods in Transit (ID: first_goods_transit_016) is a corporate solutions / transit insurance product by firstassurance_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "518decc9-fa3a-44a0-85fd-461185fcc930",
+    "company_id": "firstassurance_001",
+    "product_id": "first_goods_transit_016",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Improper packing"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_goods_transit_016",
+      "product_name": "Goods in Transit"
+    },
+    "text": "Exclusions for Goods in Transit (ID: first_goods_transit_016): ['Improper packing']."
+  },
+  {
+    "chunk_id": "488b3fc4-8162-4ac5-84a7-02cfc4f9b879",
+    "company_id": "firstassurance_001",
+    "product_id": "first_wiba_017",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_wiba_017",
+      "product_name": "WIBA Insurance (Work Injury Benefits Act)",
+      "category": "corporate solutions / liability",
+      "target_market": "employers",
+      "eligibility_notes": "Statutory for all",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "WIBA Insurance (Work Injury Benefits Act) (ID: first_wiba_017) is a corporate solutions / liability insurance product by firstassurance_001 for employers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "fe40aecc-2a57-4355-9799-29be759e2a9c",
+    "company_id": "firstassurance_001",
+    "product_id": "first_wiba_017",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-work"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_wiba_017",
+      "product_name": "WIBA Insurance (Work Injury Benefits Act)"
+    },
+    "text": "Exclusions for WIBA Insurance (Work Injury Benefits Act) (ID: first_wiba_017): ['Non-work']."
+  },
+  {
+    "chunk_id": "dcf795e8-71b7-4213-b71d-fbb80e5bc9f5",
+    "company_id": "firstassurance_001",
+    "product_id": "first_bonds_018",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "first_bonds_018",
+      "product_name": "Bonds",
+      "category": "corporate solutions / bonds",
+      "target_market": "contractors",
+      "eligibility_notes": "Project/tender needs",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "firstassurance_001"
+    },
+    "text": "Bonds (ID: first_bonds_018) is a corporate solutions / bonds insurance product by firstassurance_001 for contractors. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "efe32ce2-f407-4247-bd9c-1a3a95e9ef11",
+    "company_id": "firstassurance_001",
+    "product_id": "first_bonds_018",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Force majeure"
+      ],
+      "company_id": "firstassurance_001",
+      "product_id": "first_bonds_018",
+      "product_name": "Bonds"
+    },
+    "text": "Exclusions for Bonds (ID: first_bonds_018): ['Force majeure']."
+  }
+]

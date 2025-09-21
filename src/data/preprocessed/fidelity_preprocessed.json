@@ -1,0 +1,1134 @@
+[
+  {
+    "chunk_id": "a2f4e7db-db34-42a1-9f05-dff53a099dcd",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "fidelityshield_001",
+      "company_name": "Fidelity Shield Insurance Company Limited",
+      "company_type": "general insurance",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/21/009/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published March 2025",
+      "headquarters": "Fidelity Insurance Centre, 3rd Floor, Waridi Lane, Off Waiyaki Way, Westlands, P.O. Box 47435-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://fidelityshield.com",
+      "digital_presence_customer_portal": null,
+      "digital_presence_mobile_app": false,
+      "digital_presence_mobile_app_store_links_google_play": null,
+      "digital_presence_mobile_app_store_links_app_store": null,
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "Quote requests via website form; claims via WhatsApp +254 758 196 846 or email",
+      "reputation_claims_settlement_ratio": "Mid-60% range (2023 IRA data); strong testimonials for prompt settlements",
+      "reputation_customer_complaints": "Limited public data; some mentions of processing times on social media",
+      "reputation_customer_rating": "Positive for trust and customization; Superbrands East Africa recognition",
+      "reputation_notes": "Established 1940; leading general insurer; 70+ years experience; focuses on individual/corporate solutions",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "Fidelity Shield Insurance Company Limited is a general insurance insurance company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/21/009/2025. Headquarters: Fidelity Insurance Centre, 3rd Floor, Waridi Lane, Off Waiyaki Way, Westlands, P.O. Box 47435-00100, Nairobi, Kenya. Website: https://fidelityshield.com. Customer rating: Positive for trust and customization; Superbrands East Africa recognition, Claims settlement ratio: Mid-60% range (2023 IRA data); strong testimonials for prompt settlements."
+  },
+  {
+    "chunk_id": "ebfbb51d-6492-4ae6-b7c0-3f78b5ded6fd",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "Fidelity Insurance Centre, 3rd Floor, Waridi Lane, Off Waiyaki Way, Westlands, Nairobi",
+      "phone": "+254 709 988 000, +254 758 196 846",
+      "email": "info@fidelityshield.com",
+      "company_id": "fidelityshield_001",
+      "branch_id": "fidelityshield_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: fidelityshield_001_branch_001) of fidelityshield_001 is located at Fidelity Insurance Centre, 3rd Floor, Waridi Lane, Off Waiyaki Way, Westlands, Nairobi. Contact phones: +254 709 988 000, +254 758 196 846. Email: info@fidelityshield.com."
+  },
+  {
+    "chunk_id": "5c43ffe1-0ce0-4c65-8c50-3901513578b6",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi CBD Branch",
+      "address": "Transnational Plaza, 8th Floor, Mama Ngina Street, Nairobi",
+      "phone": "+254 702 420 747, +254 709 988 750",
+      "email": "nairobicbd@fidelityshield.com",
+      "company_id": "fidelityshield_001",
+      "branch_id": "fidelityshield_001_branch_002"
+    },
+    "text": "Branch Nairobi CBD Branch (ID: fidelityshield_001_branch_002) of fidelityshield_001 is located at Transnational Plaza, 8th Floor, Mama Ngina Street, Nairobi. Contact phones: +254 702 420 747, +254 709 988 750. Email: nairobicbd@fidelityshield.com."
+  },
+  {
+    "chunk_id": "9f4194a8-f647-493f-bd63-c91ef8b967f9",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Thika Branch",
+      "address": "Muthangari Road, off Gitanga Road, Lavingston, Nairobi",
+      "phone": "+254 740 000 055",
+      "email": "thika@fidelityshield.com",
+      "company_id": "fidelityshield_001",
+      "branch_id": "fidelityshield_001_branch_003"
+    },
+    "text": "Branch Thika Branch (ID: fidelityshield_001_branch_003) of fidelityshield_001 is located at Muthangari Road, off Gitanga Road, Lavingston, Nairobi. Contact phones: +254 740 000 055. Email: thika@fidelityshield.com."
+  },
+  {
+    "chunk_id": "65e39423-9346-4827-a353-5b894d27e917",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "MTC Building (formerly Ambalal House), South Wing, 8th Floor, Nkrumah Road, Mombasa, P.O. Box 90103-80100",
+      "phone": "+254 709 988 601",
+      "email": "mombasa@fidelityshield.com",
+      "company_id": "fidelityshield_001",
+      "branch_id": "fidelityshield_001_branch_004"
+    },
+    "text": "Branch Mombasa Branch (ID: fidelityshield_001_branch_004) of fidelityshield_001 is located at MTC Building (formerly Ambalal House), South Wing, 8th Floor, Nkrumah Road, Mombasa, P.O. Box 90103-80100. Contact phones: +254 709 988 601. Email: mombasa@fidelityshield.com."
+  },
+  {
+    "chunk_id": "6167edaa-1ee4-4771-8bd4-1a27b9202bf6",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Zion Mall, 1st Floor, Uganda Road, Eldoret, P.O. Box 7877-30100",
+      "phone": "+254 709 988 725",
+      "email": "eldoret@fidelityshield.com",
+      "company_id": "fidelityshield_001",
+      "branch_id": "fidelityshield_001_branch_005"
+    },
+    "text": "Branch Eldoret Branch (ID: fidelityshield_001_branch_005) of fidelityshield_001 is located at Zion Mall, 1st Floor, Uganda Road, Eldoret, P.O. Box 7877-30100. Contact phones: +254 709 988 725. Email: eldoret@fidelityshield.com."
+  },
+  {
+    "chunk_id": "1893487e-52bf-41c5-9ad0-9e9f5a6a0638",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "West Side Mall, 3rd Floor, Kenyatta Lane, Nakuru, P.O. Box 18622-20100",
+      "phone": "+254 709 988 710",
+      "email": "nakuru@fidelityshield.com",
+      "company_id": "fidelityshield_001",
+      "branch_id": "fidelityshield_001_branch_006"
+    },
+    "text": "Branch Nakuru Branch (ID: fidelityshield_001_branch_006) of fidelityshield_001 is located at West Side Mall, 3rd Floor, Kenyatta Lane, Nakuru, P.O. Box 18622-20100. Contact phones: +254 709 988 710. Email: nakuru@fidelityshield.com."
+  },
+  {
+    "chunk_id": "9c74a31f-0319-4dc0-a572-c5f32291cf4f",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Kenya-Re Plaza (Wedco Centre), Shop Unit 2 Block B, Oginga Odinga Street, P.O. Box 2243-40100",
+      "phone": "+254 709 988 714",
+      "email": "kisumu@fidelityshield.com",
+      "company_id": "fidelityshield_001",
+      "branch_id": "fidelityshield_001_branch_007"
+    },
+    "text": "Branch Kisumu Branch (ID: fidelityshield_001_branch_007) of fidelityshield_001 is located at Kenya-Re Plaza (Wedco Centre), Shop Unit 2 Block B, Oginga Odinga Street, P.O. Box 2243-40100. Contact phones: +254 709 988 714. Email: kisumu@fidelityshield.com."
+  },
+  {
+    "chunk_id": "000a004b-2999-4904-b902-ef116166a920",
+    "company_id": "fidelityshield_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Fidelity Motor Assessment Centre",
+      "address": "Muthangari Road, off Gitanga Road, Lavingston, P.O. Box 47435-00100, Nairobi",
+      "phone": "+254 740 000 055",
+      "email": "assessmentcentre@fidelityshield.com",
+      "company_id": "fidelityshield_001",
+      "branch_id": "fidelityshield_001_branch_008"
+    },
+    "text": "Branch Fidelity Motor Assessment Centre (ID: fidelityshield_001_branch_008) of fidelityshield_001 is located at Muthangari Road, off Gitanga Road, Lavingston, P.O. Box 47435-00100, Nairobi. Contact phones: +254 740 000 055. Email: assessmentcentre@fidelityshield.com."
+  },
+  {
+    "chunk_id": "4c50b412-9280-4250-bc8f-b5c79a613127",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_motor_private_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_motor_private_001",
+      "product_name": "Motor Private Insurance",
+      "category": "personal solutions / motor",
+      "target_market": "private vehicle owners",
+      "eligibility_notes": "Risk assessment based on value/usage",
+      "eligibility_vehicle_type": "private cars",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers, website quote form",
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Impressed by quick write-off settlement for motor claim (2025)"
+        }
+      ],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Motor Private Insurance (ID: fidelity_motor_private_001) is a personal solutions / motor insurance product by fidelityshield_001 for private vehicle owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "08618c8e-b9bb-4936-a712-f6cc676cb391",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_motor_private_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Unlicensed drivers, drunk driving",
+        "Wear/tear"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_motor_private_001",
+      "product_name": "Motor Private Insurance"
+    },
+    "text": "Exclusions for Motor Private Insurance (ID: fidelity_motor_private_001): ['Unlicensed drivers, drunk driving', 'Wear/tear']."
+  },
+  {
+    "chunk_id": "38f705e4-de3d-4ae4-9c97-ca15f27f7982",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_motor_private_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Windscreen",
+        "Roadside assistance"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_motor_private_001",
+      "product_name": "Motor Private Insurance"
+    },
+    "text": "Add-ons for Motor Private Insurance (ID: fidelity_motor_private_001): ['Windscreen', 'Roadside assistance']."
+  },
+  {
+    "chunk_id": "e097a27c-0f01-4496-a2cb-ce3eb323c530",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_travel_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_travel_002",
+      "product_name": "Travel Insurance",
+      "category": "personal solutions / travel",
+      "target_market": "travelers (business/leisure)",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Per-trip or annual",
+      "geographic_coverage": "Worldwide",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "website, agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Executive travel assistance for business trips (2025)"
+        }
+      ],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Travel Insurance (ID: fidelity_travel_002) is a personal solutions / travel insurance product by fidelityshield_001 for travelers (business/leisure). Geographic coverage: Worldwide."
+  },
+  {
+    "chunk_id": "34184a39-3a2a-4fcc-9d85-045c7d79a940",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_travel_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions, war zones"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_travel_002",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Exclusions for Travel Insurance (ID: fidelity_travel_002): ['Pre-existing conditions, war zones']."
+  },
+  {
+    "chunk_id": "b4eb650d-b3e8-4016-93ba-82cc817e3118",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_pa_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_pa_003",
+      "product_name": "Personal Accident",
+      "category": "personal solutions / accident",
+      "target_market": "individuals, groups",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "On/off duty",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Rest assured with GA PA; covers difficulties (2025)"
+        }
+      ],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Personal Accident (ID: fidelity_pa_003) is a personal solutions / accident insurance product by fidelityshield_001 for individuals, groups. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f8044935-f3e4-45fb-a618-1b44acd844f6",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_pa_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Self-harm, war"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_pa_003",
+      "product_name": "Personal Accident"
+    },
+    "text": "Exclusions for Personal Accident (ID: fidelity_pa_003): ['Self-harm, war']."
+  },
+  {
+    "chunk_id": "8a6a5cd2-52e5-4a55-8575-5358ef5829e3",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_pa_003",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Medical expenses"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_pa_003",
+      "product_name": "Personal Accident"
+    },
+    "text": "Add-ons for Personal Accident (ID: fidelity_pa_003): ['Medical expenses']."
+  },
+  {
+    "chunk_id": "91e2f97b-d8f0-44f6-ad0e-89744dcac43d",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_domestic_package_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_domestic_package_004",
+      "product_name": "Domestic Package",
+      "category": "personal solutions / property",
+      "target_market": "homeowners, tenants",
+      "eligibility_notes": "Valuation required",
+      "eligibility_property_type": "residential",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Covered place to call home (2025)"
+        }
+      ],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Domestic Package (ID: fidelity_domestic_package_004) is a personal solutions / property insurance product by fidelityshield_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "64834417-b834-4ab3-a6f9-11e74faa0b04",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_domestic_package_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, unoccupied"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_domestic_package_004",
+      "product_name": "Domestic Package"
+    },
+    "text": "Exclusions for Domestic Package (ID: fidelity_domestic_package_004): ['Wear/tear, unoccupied']."
+  },
+  {
+    "chunk_id": "16f8b627-f168-4851-806d-20a7f6a769e2",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_golfers_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_golfers_005",
+      "product_name": "Golfers Policy",
+      "category": "personal solutions / specialty",
+      "target_market": "golfers",
+      "eligibility_notes": "Amateur/professional; Kenyan residents",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Golfers Policy (ID: fidelity_golfers_005) is a personal solutions / specialty insurance product by fidelityshield_001 for golfers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "46c1616b-c25e-40fb-ac19-cd4b5986f504",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_golfers_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_golfers_005",
+      "product_name": "Golfers Policy"
+    },
+    "text": "Exclusions for Golfers Policy (ID: fidelity_golfers_005): ['Wear/tear']."
+  },
+  {
+    "chunk_id": "6b10c50f-4045-477f-82ea-287da6f7efa0",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_golfers_005",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Hole-in-one"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_golfers_005",
+      "product_name": "Golfers Policy"
+    },
+    "text": "Add-ons for Golfers Policy (ID: fidelity_golfers_005): ['Hole-in-one']."
+  },
+  {
+    "chunk_id": "9ff2a5c7-2108-46f5-b49a-e43f233cd440",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_my_afya_shield_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_my_afya_shield_006",
+      "product_name": "My Afya Shield Medical Insurance",
+      "category": "personal solutions / medical",
+      "target_market": "individuals, families, SMEs",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 70,
+      "eligibility_notes": "Tech-driven via M-TIBA; preventive focus",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "M-TIBA app, online",
+      "customer_reviews": [
+        {
+          "source": "M-TIBA Partnership",
+          "comment": "Tech-driven comprehensive health; instant benefits (2024)"
+        }
+      ],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "My Afya Shield Medical Insurance (ID: fidelity_my_afya_shield_006) is a personal solutions / medical insurance product by fidelityshield_001 for individuals, families, SMEs. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ffc03572-4ba0-4410-80ae-bab45cf4a2ef",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_my_afya_shield_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing waits"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_my_afya_shield_006",
+      "product_name": "My Afya Shield Medical Insurance"
+    },
+    "text": "Exclusions for My Afya Shield Medical Insurance (ID: fidelity_my_afya_shield_006): ['Pre-existing waits']."
+  },
+  {
+    "chunk_id": "d6e1e85d-61bf-44df-a852-9c66b07536fd",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_my_afya_shield_006",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_my_afya_shield_006",
+      "product_name": "My Afya Shield Medical Insurance"
+    },
+    "text": "Add-ons for My Afya Shield Medical Insurance (ID: fidelity_my_afya_shield_006): ['Maternity']."
+  },
+  {
+    "chunk_id": "88abc76a-5b00-4707-880f-f290ec60b02e",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_home_insurance_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_home_insurance_007",
+      "product_name": "Home Insurance",
+      "category": "personal solutions / property",
+      "target_market": "homeowners",
+      "eligibility_notes": "Residential properties",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "website",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Home Insurance (ID: fidelity_home_insurance_007) is a personal solutions / property insurance product by fidelityshield_001 for homeowners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "06a30e45-ab3b-4ec5-81ea-cf69502e4dd2",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_home_insurance_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_home_insurance_007",
+      "product_name": "Home Insurance"
+    },
+    "text": "Exclusions for Home Insurance (ID: fidelity_home_insurance_007): ['Wear/tear']."
+  },
+  {
+    "chunk_id": "69c2c352-e4bd-45c9-873b-c285630dbd4b",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_motor_commercial_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_motor_commercial_008",
+      "product_name": "Motor Commercial Cover",
+      "category": "corporate solutions / motor",
+      "target_market": "fleet/business vehicles",
+      "eligibility_notes": "PSV/commercial use",
+      "eligibility_vehicle_type": "commercial",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Motor Commercial Cover (ID: fidelity_motor_commercial_008) is a corporate solutions / motor insurance product by fidelityshield_001 for fleet/business vehicles. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "a22031ab-8021-4eec-9250-c6c5e01d0196",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_motor_commercial_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_motor_commercial_008",
+      "product_name": "Motor Commercial Cover"
+    },
+    "text": "Exclusions for Motor Commercial Cover (ID: fidelity_motor_commercial_008): ['Non-commercial use']."
+  },
+  {
+    "chunk_id": "0a312781-4437-4ebb-b273-588ab0d4e8f9",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_motor_commercial_008",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Goods transit"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_motor_commercial_008",
+      "product_name": "Motor Commercial Cover"
+    },
+    "text": "Add-ons for Motor Commercial Cover (ID: fidelity_motor_commercial_008): ['Goods transit']."
+  },
+  {
+    "chunk_id": "c43aa8a9-8a3a-440a-90c7-2d435c9a426f",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_wiba_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_wiba_009",
+      "product_name": "WIBA Insurance (Work Injury Benefits Act)",
+      "category": "corporate solutions / liability",
+      "target_market": "employers",
+      "eligibility_notes": "Statutory for all employers",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "WIBA Insurance (Work Injury Benefits Act) (ID: fidelity_wiba_009) is a corporate solutions / liability insurance product by fidelityshield_001 for employers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "c651d1ef-d391-40a4-a902-090c719d3ff7",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_wiba_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-work injuries"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_wiba_009",
+      "product_name": "WIBA Insurance (Work Injury Benefits Act)"
+    },
+    "text": "Exclusions for WIBA Insurance (Work Injury Benefits Act) (ID: fidelity_wiba_009): ['Non-work injuries']."
+  },
+  {
+    "chunk_id": "ea1066d2-4722-493e-bb97-271fc6e6b23d",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_wiba_009",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Excess cover"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_wiba_009",
+      "product_name": "WIBA Insurance (Work Injury Benefits Act)"
+    },
+    "text": "Add-ons for WIBA Insurance (Work Injury Benefits Act) (ID: fidelity_wiba_009): ['Excess cover']."
+  },
+  {
+    "chunk_id": "6494e281-5998-4a8a-8ecf-e5f518c10b97",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_marine_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_marine_010",
+      "product_name": "Marine Insurance",
+      "category": "corporate solutions / marine",
+      "target_market": "importers/exporters",
+      "eligibility_notes": "Cargo transit",
+      "geographic_coverage": "Kenya/international",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Marine Insurance (ID: fidelity_marine_010) is a corporate solutions / marine insurance product by fidelityshield_001 for importers/exporters. Geographic coverage: Kenya/international."
+  },
+  {
+    "chunk_id": "e8f652a2-7506-42d2-b70e-c9a668969347",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_marine_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Inherent vice, war"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_marine_010",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Exclusions for Marine Insurance (ID: fidelity_marine_010): ['Inherent vice, war']."
+  },
+  {
+    "chunk_id": "f2113a39-d2db-4b93-aea9-de18f05f3951",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_marine_010",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Warehouse extension"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_marine_010",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Add-ons for Marine Insurance (ID: fidelity_marine_010): ['Warehouse extension']."
+  },
+  {
+    "chunk_id": "92b1aa80-4fe9-4635-bfbf-c2006741f83f",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_fire_allied_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_fire_allied_011",
+      "product_name": "Fire & Allied Perils",
+      "category": "corporate solutions / property",
+      "target_market": "businesses/property owners",
+      "eligibility_notes": "Valuation of assets",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Fire & Allied Perils (ID: fidelity_fire_allied_011) is a corporate solutions / property insurance product by fidelityshield_001 for businesses/property owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2a3a945b-6efc-41be-8044-5ac3923ca4a7",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_fire_allied_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "War"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_fire_allied_011",
+      "product_name": "Fire & Allied Perils"
+    },
+    "text": "Exclusions for Fire & Allied Perils (ID: fidelity_fire_allied_011): ['War']."
+  },
+  {
+    "chunk_id": "f5bdae25-1a47-4e2d-a256-eec731255416",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_fire_allied_011",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Stock/machinery extensions"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_fire_allied_011",
+      "product_name": "Fire & Allied Perils"
+    },
+    "text": "Add-ons for Fire & Allied Perils (ID: fidelity_fire_allied_011): ['Stock/machinery extensions']."
+  },
+  {
+    "chunk_id": "cb9b15e3-abe3-4226-88a4-154f2b526e72",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_liabilities_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_liabilities_012",
+      "product_name": "Liabilities",
+      "category": "corporate solutions / liability",
+      "target_market": "businesses",
+      "eligibility_notes": "Risk exposure assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Liabilities (ID: fidelity_liabilities_012) is a corporate solutions / liability insurance product by fidelityshield_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "66954774-2a01-4234-a8e4-af1c334acd1b",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_liabilities_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional acts"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_liabilities_012",
+      "product_name": "Liabilities"
+    },
+    "text": "Exclusions for Liabilities (ID: fidelity_liabilities_012): ['Intentional acts']."
+  },
+  {
+    "chunk_id": "dc33e1e4-2c5f-421e-917f-ddc8ded70da2",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_engineering_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_engineering_013",
+      "product_name": "Engineering Insurance",
+      "category": "corporate solutions / engineering",
+      "target_market": "contractors, engineers",
+      "eligibility_notes": "Project/contract details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Engineering Insurance (ID: fidelity_engineering_013) is a corporate solutions / engineering insurance product by fidelityshield_001 for contractors, engineers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "1755ea59-75b3-49b8-ada6-b3bb11ca0f32",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_engineering_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Design defects"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_engineering_013",
+      "product_name": "Engineering Insurance"
+    },
+    "text": "Exclusions for Engineering Insurance (ID: fidelity_engineering_013): ['Design defects']."
+  },
+  {
+    "chunk_id": "f71a1c7d-2d19-4149-8c9c-64e2652f8e73",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_bonds_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_bonds_014",
+      "product_name": "Bonds",
+      "category": "corporate solutions / bonds",
+      "target_market": "contractors, bidders",
+      "eligibility_notes": "Tender/project requirements",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Bonds (ID: fidelity_bonds_014) is a corporate solutions / bonds insurance product by fidelityshield_001 for contractors, bidders. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "5dbed622-74ac-41a7-a936-93a017d37dc7",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_bonds_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-performance due to force majeure"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_bonds_014",
+      "product_name": "Bonds"
+    },
+    "text": "Exclusions for Bonds (ID: fidelity_bonds_014): ['Non-performance due to force majeure']."
+  },
+  {
+    "chunk_id": "3cad38ed-d5d4-484c-91e1-a46f208b4d34",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_burglary_theft_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_burglary_theft_015",
+      "product_name": "Burglary/Theft Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses",
+      "eligibility_notes": "Security measures assessed",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Burglary/Theft Insurance (ID: fidelity_burglary_theft_015) is a corporate solutions / property insurance product by fidelityshield_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "e699bec4-dc4b-476d-9b09-cb67c31edea2",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_burglary_theft_015",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Theft without force"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_burglary_theft_015",
+      "product_name": "Burglary/Theft Insurance"
+    },
+    "text": "Exclusions for Burglary/Theft Insurance (ID: fidelity_burglary_theft_015): ['Theft without force']."
+  },
+  {
+    "chunk_id": "0bde4f34-706e-49d4-9f87-021c844ba346",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_burglary_theft_015",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extensions for stock"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_burglary_theft_015",
+      "product_name": "Burglary/Theft Insurance"
+    },
+    "text": "Add-ons for Burglary/Theft Insurance (ID: fidelity_burglary_theft_015): ['Extensions for stock']."
+  },
+  {
+    "chunk_id": "3b991c17-3399-416f-ac25-608c0dced7f9",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_all_risks_016",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_all_risks_016",
+      "product_name": "All Risks Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses for specified items",
+      "eligibility_notes": "Valuation of items",
+      "geographic_coverage": "Kenya/geographic extensions",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "All Risks Insurance (ID: fidelity_all_risks_016) is a corporate solutions / property insurance product by fidelityshield_001 for businesses for specified items. Geographic coverage: Kenya/geographic extensions."
+  },
+  {
+    "chunk_id": "7cf46b3d-3007-4c1b-8838-afc5592a4829",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_all_risks_016",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, consequential"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_all_risks_016",
+      "product_name": "All Risks Insurance"
+    },
+    "text": "Exclusions for All Risks Insurance (ID: fidelity_all_risks_016): ['Wear/tear, consequential']."
+  },
+  {
+    "chunk_id": "78e2958d-1283-44a5-bc8e-533f46627898",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_all_risks_016",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Geographic extensions"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_all_risks_016",
+      "product_name": "All Risks Insurance"
+    },
+    "text": "Add-ons for All Risks Insurance (ID: fidelity_all_risks_016): ['Geographic extensions']."
+  },
+  {
+    "chunk_id": "d5408f8c-63ae-4847-8ce6-8f84600e3ce2",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_aviation_017",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_aviation_017",
+      "product_name": "Aviation Insurance",
+      "category": "corporate solutions / specialty",
+      "target_market": "aircraft owners/operators",
+      "eligibility_notes": "Aircraft registration, pilot licenses",
+      "geographic_coverage": "Kenya/East Africa",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Aviation Insurance (ID: fidelity_aviation_017) is a corporate solutions / specialty insurance product by fidelityshield_001 for aircraft owners/operators. Geographic coverage: Kenya/East Africa."
+  },
+  {
+    "chunk_id": "7f5c1bd8-57bf-49c0-bad1-1c54b829fb7e",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_aviation_017",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "War risks"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_aviation_017",
+      "product_name": "Aviation Insurance"
+    },
+    "text": "Exclusions for Aviation Insurance (ID: fidelity_aviation_017): ['War risks']."
+  },
+  {
+    "chunk_id": "1ec4947f-b41c-4c1d-beba-0bb743965116",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_money_insurance_018",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_money_insurance_018",
+      "product_name": "Money Insurance Cover",
+      "category": "corporate solutions / money",
+      "target_market": "businesses handling cash",
+      "eligibility_notes": "Cash handling procedures",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Money Insurance Cover (ID: fidelity_money_insurance_018) is a corporate solutions / money insurance product by fidelityshield_001 for businesses handling cash. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f8e835dd-62a5-4daf-9b2e-4e5572a74e80",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_money_insurance_018",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Employee fraud (fidelity separate)"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_money_insurance_018",
+      "product_name": "Money Insurance Cover"
+    },
+    "text": "Exclusions for Money Insurance Cover (ID: fidelity_money_insurance_018): ['Employee fraud (fidelity separate)']."
+  },
+  {
+    "chunk_id": "63181686-40da-4512-bb22-64c2ca05ffe1",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_plate_glass_019",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_plate_glass_019",
+      "product_name": "Plate Glass Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses with glass fixtures",
+      "eligibility_notes": "Fixed glass valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Plate Glass Insurance (ID: fidelity_plate_glass_019) is a corporate solutions / property insurance product by fidelityshield_001 for businesses with glass fixtures. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ac299363-3b98-4745-8c21-3730d188ea1a",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_plate_glass_019",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear, intentional"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_plate_glass_019",
+      "product_name": "Plate Glass Insurance"
+    },
+    "text": "Exclusions for Plate Glass Insurance (ID: fidelity_plate_glass_019): ['Wear, intentional']."
+  },
+  {
+    "chunk_id": "99a79b44-33e0-4275-931f-6148657d9591",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_consequential_loss_020",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_consequential_loss_020",
+      "product_name": "Consequential Loss",
+      "category": "corporate solutions / business interruption",
+      "target_market": "businesses",
+      "eligibility_notes": "Linked to fire/perils policy",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Consequential Loss (ID: fidelity_consequential_loss_020) is a corporate solutions / business interruption insurance product by fidelityshield_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "5201eb89-195b-4b0b-83df-305da528a327",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_consequential_loss_020",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Uninsured perils"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_consequential_loss_020",
+      "product_name": "Consequential Loss"
+    },
+    "text": "Exclusions for Consequential Loss (ID: fidelity_consequential_loss_020): ['Uninsured perils']."
+  },
+  {
+    "chunk_id": "399d6969-c063-40d5-bd22-dfff39b0bf85",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_consequential_loss_020",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extensions"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_consequential_loss_020",
+      "product_name": "Consequential Loss"
+    },
+    "text": "Add-ons for Consequential Loss (ID: fidelity_consequential_loss_020): ['Extensions']."
+  },
+  {
+    "chunk_id": "a1e51677-c2ea-4f39-b9f4-8c2a36399002",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_goods_transit_021",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_goods_transit_021",
+      "product_name": "Goods in Transit",
+      "category": "corporate solutions / transit",
+      "target_market": "businesses transporting goods",
+      "eligibility_notes": "Transit details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Goods in Transit (ID: fidelity_goods_transit_021) is a corporate solutions / transit insurance product by fidelityshield_001 for businesses transporting goods. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "c00b1c46-f18c-425d-9739-83e06d4c9d5c",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_goods_transit_021",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Improper packing"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_goods_transit_021",
+      "product_name": "Goods in Transit"
+    },
+    "text": "Exclusions for Goods in Transit (ID: fidelity_goods_transit_021): ['Improper packing']."
+  },
+  {
+    "chunk_id": "97b6bf76-ffba-4389-b596-5e833da853f6",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_machinery_breakdown_022",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_machinery_breakdown_022",
+      "product_name": "Machinery Breakdown",
+      "category": "corporate solutions / engineering",
+      "target_market": "businesses with machinery",
+      "eligibility_notes": "Machinery valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Machinery Breakdown (ID: fidelity_machinery_breakdown_022) is a corporate solutions / engineering insurance product by fidelityshield_001 for businesses with machinery. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d1947d05-6a31-4c5f-8e12-feb832a8deb8",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_machinery_breakdown_022",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_machinery_breakdown_022",
+      "product_name": "Machinery Breakdown"
+    },
+    "text": "Exclusions for Machinery Breakdown (ID: fidelity_machinery_breakdown_022): ['Wear/tear']."
+  },
+  {
+    "chunk_id": "f203add4-8be6-4791-8697-e7c63b22f3b2",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_political_risks_023",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "fidelity_political_risks_023",
+      "product_name": "Political Risks & Terrorism",
+      "category": "corporate solutions / specialty",
+      "target_market": "businesses in high-risk areas",
+      "eligibility_notes": "Risk assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "fidelityshield_001"
+    },
+    "text": "Political Risks & Terrorism (ID: fidelity_political_risks_023) is a corporate solutions / specialty insurance product by fidelityshield_001 for businesses in high-risk areas. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "9c2de8f7-17f8-4d7c-aad1-6b3b4809b142",
+    "company_id": "fidelityshield_001",
+    "product_id": "fidelity_political_risks_023",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Nuclear risks"
+      ],
+      "company_id": "fidelityshield_001",
+      "product_id": "fidelity_political_risks_023",
+      "product_name": "Political Risks & Terrorism"
+    },
+    "text": "Exclusions for Political Risks & Terrorism (ID: fidelity_political_risks_023): ['Nuclear risks']."
+  }
+]

@@ -1,0 +1,698 @@
+[
+  {
+    "chunk_id": "f445e3a0-6bdf-4ad9-b85b-beadb2e765e3",
+    "company_id": "ga_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "ga_001",
+      "company_name": "GA Insurance Kenya Limited",
+      "company_type": "composite (general, medical, life via subsidiary)",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/20/008/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published March 2025",
+      "headquarters": "GA Insurance House, 4th Floor, Ralph Bunche Road, P.O. Box 42166-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://www.gainsuranceltd.com/ke",
+      "digital_presence_customer_portal": "https://health.gakenya.com/app",
+      "digital_presence_mobile_app": false,
+      "digital_presence_mobile_app_store_links_google_play": null,
+      "digital_presence_mobile_app_store_links_app_store": null,
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "Claims login portal available; M-TIBA integration for health",
+      "reputation_claims_settlement_ratio": "8.71% (Q2 2025 IRA Report); strong in motor claims; overall mid-60% range for 2023",
+      "reputation_customer_complaints": "Some delays in processing noted; positive testimonials for quick settlements",
+      "reputation_customer_rating": "Reputable for reliability; trusted with 70+ years experience; Superbrands East Africa recognition",
+      "reputation_notes": "Acquired by I&M Bank Group in 2006; consistent growth; high capacities in property, engineering, marine",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "GA Insurance Kenya Limited is a composite (general, medical, life via subsidiary) insurance company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/20/008/2025. Headquarters: GA Insurance House, 4th Floor, Ralph Bunche Road, P.O. Box 42166-00100, Nairobi, Kenya. Website: https://www.gainsuranceltd.com/ke. Customer rating: Reputable for reliability; trusted with 70+ years experience; Superbrands East Africa recognition, Claims settlement ratio: 8.71% (Q2 2025 IRA Report); strong in motor claims; overall mid-60% range for 2023."
+  },
+  {
+    "chunk_id": "59664550-1373-413f-998f-f20d2a4d250e",
+    "company_id": "ga_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "GA Insurance House, 4th Floor, Ralph Bunche Road, Nairobi",
+      "phone": "+254 20 888 999, +254 709 626 000",
+      "email": "atyourservice@gakenya.com",
+      "company_id": "ga_001",
+      "branch_id": "ga_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: ga_001_branch_001) of ga_001 is located at GA Insurance House, 4th Floor, Ralph Bunche Road, Nairobi. Contact phones: +254 20 888 999, +254 709 626 000. Email: atyourservice@gakenya.com."
+  },
+  {
+    "chunk_id": "b1c388ea-b46d-409a-9940-ca65b7af24eb",
+    "company_id": "ga_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Kisumu Town, Kisumu",
+      "phone": "+254 57 202 1234",
+      "company_id": "ga_001",
+      "branch_id": "ga_001_branch_002"
+    },
+    "text": "Branch Kisumu Branch (ID: ga_001_branch_002) of ga_001 is located at Kisumu Town, Kisumu. Contact phones: +254 57 202 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "c1247e81-304b-4a1c-a0d0-aeafeff4dc3c",
+    "company_id": "ga_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "NSSF Building, 3rd Floor, Nkrumah Road, Mombasa",
+      "phone": "+254 41 231 2345",
+      "company_id": "ga_001",
+      "branch_id": "ga_001_branch_003"
+    },
+    "text": "Branch Mombasa Branch (ID: ga_001_branch_003) of ga_001 is located at NSSF Building, 3rd Floor, Nkrumah Road, Mombasa. Contact phones: +254 41 231 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "d3e17000-01f1-4e0e-a7d1-2af329af695b",
+    "company_id": "ga_001",
+    "product_id": "ga_fire_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_fire_001",
+      "product_name": "Fire Insurance",
+      "category": "general",
+      "target_market": "businesses, homeowners for property protection",
+      "eligibility_notes": "Valuation of assets required",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "Fire Insurance (ID: ga_fire_001) is a general insurance product by ga_001 for businesses, homeowners for property protection. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f41421fd-3861-4f43-b2d1-83dcd784b245",
+    "company_id": "ga_001",
+    "product_id": "ga_fire_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "War, nuclear risks"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_fire_001",
+      "product_name": "Fire Insurance"
+    },
+    "text": "Exclusions for Fire Insurance (ID: ga_fire_001): ['War, nuclear risks']."
+  },
+  {
+    "chunk_id": "b8cdd3ba-2e6b-48b3-89ac-d324d846534c",
+    "company_id": "ga_001",
+    "product_id": "ga_fire_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Riot & strike",
+        "Special perils"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_fire_001",
+      "product_name": "Fire Insurance"
+    },
+    "text": "Add-ons for Fire Insurance (ID: ga_fire_001): ['Riot & strike', 'Special perils']."
+  },
+  {
+    "chunk_id": "162e5e10-082c-4aca-b29d-b3cb500726fe",
+    "company_id": "ga_001",
+    "product_id": "ga_pa_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_pa_002",
+      "product_name": "Personal Accident Insurance",
+      "category": "general",
+      "target_market": "individuals, groups for accident protection",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "On/off duty; no medical exam",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Rest assured with GA PA; covers difficulties (@GAIns, 2025)"
+        }
+      ],
+      "company_id": "ga_001"
+    },
+    "text": "Personal Accident Insurance (ID: ga_pa_002) is a general insurance product by ga_001 for individuals, groups for accident protection. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "9700c2e3-a120-4d7d-9552-60cbe6ec5cc0",
+    "company_id": "ga_001",
+    "product_id": "ga_pa_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional self-harm, war risks"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_pa_002",
+      "product_name": "Personal Accident Insurance"
+    },
+    "text": "Exclusions for Personal Accident Insurance (ID: ga_pa_002): ['Intentional self-harm, war risks']."
+  },
+  {
+    "chunk_id": "c9ee0922-07ea-438f-9ef5-42407e2a4c42",
+    "company_id": "ga_001",
+    "product_id": "ga_motor_car_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_motor_car_003",
+      "product_name": "Motor Car Insurance",
+      "category": "general / motor",
+      "target_market": "private car owners",
+      "eligibility_notes": "Third-party mandatory; comprehensive optional",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers, online",
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Impressed by quick write-off settlement (@Client, 2025)"
+        }
+      ],
+      "company_id": "ga_001"
+    },
+    "text": "Motor Car Insurance (ID: ga_motor_car_003) is a general / motor insurance product by ga_001 for private car owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "a3cfac61-d5bb-4e22-b5c0-c47ac14f2c7c",
+    "company_id": "ga_001",
+    "product_id": "ga_motor_car_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Unlicensed drivers, drunk driving"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_motor_car_003",
+      "product_name": "Motor Car Insurance"
+    },
+    "text": "Exclusions for Motor Car Insurance (ID: ga_motor_car_003): ['Unlicensed drivers, drunk driving']."
+  },
+  {
+    "chunk_id": "2789ef4f-00ac-4f44-8717-126991d8ff0b",
+    "company_id": "ga_001",
+    "product_id": "ga_motor_car_003",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Windscreen",
+        "Roadside assistance"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_motor_car_003",
+      "product_name": "Motor Car Insurance"
+    },
+    "text": "Add-ons for Motor Car Insurance (ID: ga_motor_car_003): ['Windscreen', 'Roadside assistance']."
+  },
+  {
+    "chunk_id": "38d13804-db00-4b5e-b1ec-7fa14f1a44c5",
+    "company_id": "ga_001",
+    "product_id": "ga_motor_comm_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_motor_comm_004",
+      "product_name": "Motor Commercial Insurance",
+      "category": "general / motor",
+      "target_market": "fleet operators, commercial vehicles",
+      "eligibility_notes": "Own goods or hire",
+      "eligibility_vehicle_type": "commercial (trucks, lorries)",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, corporate",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "Motor Commercial Insurance (ID: ga_motor_comm_004) is a general / motor insurance product by ga_001 for fleet operators, commercial vehicles. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "dfd8732e-f106-491e-b50d-8cf669ee63ac",
+    "company_id": "ga_001",
+    "product_id": "ga_motor_comm_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_motor_comm_004",
+      "product_name": "Motor Commercial Insurance"
+    },
+    "text": "Exclusions for Motor Commercial Insurance (ID: ga_motor_comm_004): ['Non-commercial use']."
+  },
+  {
+    "chunk_id": "590113f1-519a-4f8d-bfe3-00889f9db8f6",
+    "company_id": "ga_001",
+    "product_id": "ga_motor_comm_004",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Goods in transit"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_motor_comm_004",
+      "product_name": "Motor Commercial Insurance"
+    },
+    "text": "Add-ons for Motor Commercial Insurance (ID: ga_motor_comm_004): ['Goods in transit']."
+  },
+  {
+    "chunk_id": "83e6a39d-f123-4083-a956-9a8fd33ed40a",
+    "company_id": "ga_001",
+    "product_id": "ga_travel_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_travel_005",
+      "product_name": "Travel Insurance",
+      "category": "general",
+      "target_market": "international/domestic travelers",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Per-trip or annual",
+      "geographic_coverage": "Worldwide",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, I&M Bank",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "Travel Insurance (ID: ga_travel_005) is a general insurance product by ga_001 for international/domestic travelers. Geographic coverage: Worldwide."
+  },
+  {
+    "chunk_id": "758154c3-9f79-4e93-8c8c-ab823231eec6",
+    "company_id": "ga_001",
+    "product_id": "ga_travel_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing, high-risk activities"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_travel_005",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Exclusions for Travel Insurance (ID: ga_travel_005): ['Pre-existing, high-risk activities']."
+  },
+  {
+    "chunk_id": "94837b3f-6497-4f09-8a7b-c459164e0ab3",
+    "company_id": "ga_001",
+    "product_id": "ga_domestic_package_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_domestic_package_006",
+      "product_name": "Domestic Package Insurance",
+      "category": "general / property",
+      "target_market": "homeowners, tenants",
+      "eligibility_notes": "Residential properties",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Covered place to call home (@GAIns, 2025)"
+        }
+      ],
+      "company_id": "ga_001"
+    },
+    "text": "Domestic Package Insurance (ID: ga_domestic_package_006) is a general / property insurance product by ga_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "536cb699-6df0-40e6-994a-5eeb02094852",
+    "company_id": "ga_001",
+    "product_id": "ga_domestic_package_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, deliberate acts"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_domestic_package_006",
+      "product_name": "Domestic Package Insurance"
+    },
+    "text": "Exclusions for Domestic Package Insurance (ID: ga_domestic_package_006): ['Wear/tear, deliberate acts']."
+  },
+  {
+    "chunk_id": "ad3089f5-72b1-425e-b105-9261acb8b417",
+    "company_id": "ga_001",
+    "product_id": "ga_engineering_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_engineering_007",
+      "product_name": "Engineering Insurance",
+      "category": "general",
+      "target_market": "construction, engineering firms",
+      "eligibility_notes": "For plant, machinery, contractors",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "Engineering Insurance (ID: ga_engineering_007) is a general insurance product by ga_001 for construction, engineering firms. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "5af0febe-1a0d-4b63-afd0-b4390496b1a3",
+    "company_id": "ga_001",
+    "product_id": "ga_engineering_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Design defects, wear"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_engineering_007",
+      "product_name": "Engineering Insurance"
+    },
+    "text": "Exclusions for Engineering Insurance (ID: ga_engineering_007): ['Design defects, wear']."
+  },
+  {
+    "chunk_id": "b6a31b1f-1f7b-4ddf-9016-88fbf8d30ba0",
+    "company_id": "ga_001",
+    "product_id": "ga_marine_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_marine_008",
+      "product_name": "Marine Insurance",
+      "category": "general",
+      "target_market": "importers, exporters",
+      "eligibility_notes": "Cargo transit by sea/air",
+      "geographic_coverage": "Kenya/international",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "Marine Insurance (ID: ga_marine_008) is a general insurance product by ga_001 for importers, exporters. Geographic coverage: Kenya/international."
+  },
+  {
+    "chunk_id": "cc5cfa44-b4c6-4f75-a781-95b106ccf7a3",
+    "company_id": "ga_001",
+    "product_id": "ga_marine_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Inherent vice, war"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_marine_008",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Exclusions for Marine Insurance (ID: ga_marine_008): ['Inherent vice, war']."
+  },
+  {
+    "chunk_id": "4ed96032-3e95-470e-9643-64fffc9c94ba",
+    "company_id": "ga_001",
+    "product_id": "ga_marine_008",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Warehouse-to-warehouse"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_marine_008",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Add-ons for Marine Insurance (ID: ga_marine_008): ['Warehouse-to-warehouse']."
+  },
+  {
+    "chunk_id": "6f3343c7-56ea-44df-adfe-1bd52736ee8e",
+    "company_id": "ga_001",
+    "product_id": "ga_health_family_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_health_family_009",
+      "product_name": "GA Health – Family/Individual Plan",
+      "category": "health / medical",
+      "target_market": "individuals, families (18-59 years)",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 59,
+      "eligibility_notes": "Medical exam for 55+; lifelong renewable",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "GA Health – Family/Individual Plan (ID: ga_health_family_009) is a health / medical insurance product by ga_001 for individuals, families (18-59 years). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "73a696a1-f754-4a3e-976b-6f0d8bd6adc1",
+    "company_id": "ga_001",
+    "product_id": "ga_health_family_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Outpatient services",
+        "Waiting periods apply"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_health_family_009",
+      "product_name": "GA Health – Family/Individual Plan"
+    },
+    "text": "Exclusions for GA Health – Family/Individual Plan (ID: ga_health_family_009): ['Outpatient services', 'Waiting periods apply']."
+  },
+  {
+    "chunk_id": "968a192c-070d-41ea-8d40-ab8d70765e95",
+    "company_id": "ga_001",
+    "product_id": "ga_health_sme_premier_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_health_sme_premier_010",
+      "product_name": "GA Health – SME Premier Plan",
+      "category": "health / medical / group",
+      "target_market": "SMEs for employees",
+      "eligibility_notes": "Tailored for small businesses",
+      "eligibility_group_min_size": 5,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate sales",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "GA Health – SME Premier Plan (ID: ga_health_sme_premier_010) is a health / medical / group insurance product by ga_001 for SMEs for employees. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "15e2f71e-fdfb-4a7b-8316-1fec6d3a34e3",
+    "company_id": "ga_001",
+    "product_id": "ga_health_sme_premier_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing waits"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_health_sme_premier_010",
+      "product_name": "GA Health – SME Premier Plan"
+    },
+    "text": "Exclusions for GA Health – SME Premier Plan (ID: ga_health_sme_premier_010): ['Pre-existing waits']."
+  },
+  {
+    "chunk_id": "63e6fc0c-c19f-4f0a-9e38-2fb88b5389ac",
+    "company_id": "ga_001",
+    "product_id": "ga_health_sme_economy_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_health_sme_economy_011",
+      "product_name": "GA Health – SME Economy Plan",
+      "category": "health / medical / group",
+      "target_market": "SMEs for basic employee cover",
+      "eligibility_notes": "Affordable option",
+      "eligibility_group_min_size": 5,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "GA Health – SME Economy Plan (ID: ga_health_sme_economy_011) is a health / medical / group insurance product by ga_001 for SMEs for basic employee cover. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "cf0dd979-7717-43fe-aeed-02a68becc0c3",
+    "company_id": "ga_001",
+    "product_id": "ga_health_sme_economy_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Elective procedures"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_health_sme_economy_011",
+      "product_name": "GA Health – SME Economy Plan"
+    },
+    "text": "Exclusions for GA Health – SME Economy Plan (ID: ga_health_sme_economy_011): ['Elective procedures']."
+  },
+  {
+    "chunk_id": "02973f05-ba6d-41f2-acc3-6d6858583e3d",
+    "company_id": "ga_001",
+    "product_id": "ga_traumacare_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_traumacare_012",
+      "product_name": "TraumaCare Plan",
+      "category": "health / medical",
+      "target_market": "individuals for emergency/trauma care",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 70,
+      "eligibility_notes": "Add-on to Hadhi; free for members",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "TraumaCare Plan (ID: ga_traumacare_012) is a health / medical insurance product by ga_001 for individuals for emergency/trauma care. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "c32dc2a7-c96e-4238-9c16-7dbebf3ae868",
+    "company_id": "ga_001",
+    "product_id": "ga_traumacare_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-trauma emergencies"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_traumacare_012",
+      "product_name": "TraumaCare Plan"
+    },
+    "text": "Exclusions for TraumaCare Plan (ID: ga_traumacare_012): ['Non-trauma emergencies']."
+  },
+  {
+    "chunk_id": "8e41b30d-4bf3-423f-8fcc-1a2fd55e1b62",
+    "company_id": "ga_001",
+    "product_id": "ga_hadhi_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_hadhi_013",
+      "product_name": "Hadhi Health Plan",
+      "category": "health / medical / seniors",
+      "target_market": "seniors 60-80 years",
+      "eligibility_age_min": 60,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Inpatient/outpatient; medical report",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "Hadhi Health Plan (ID: ga_hadhi_013) is a health / medical / seniors insurance product by ga_001 for seniors 60-80 years. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8c6f9dd3-3515-4bca-b189-6008fb9aeff3",
+    "company_id": "ga_001",
+    "product_id": "ga_hadhi_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Waiting periods for chronic"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_hadhi_013",
+      "product_name": "Hadhi Health Plan"
+    },
+    "text": "Exclusions for Hadhi Health Plan (ID: ga_hadhi_013): ['Waiting periods for chronic']."
+  },
+  {
+    "chunk_id": "55eb6d7c-1456-42aa-8556-40f34ee35cdc",
+    "company_id": "ga_001",
+    "product_id": "ga_hadhi_013",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "TraumaCare (free)"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_hadhi_013",
+      "product_name": "Hadhi Health Plan"
+    },
+    "text": "Add-ons for Hadhi Health Plan (ID: ga_hadhi_013): ['TraumaCare (free)']."
+  },
+  {
+    "chunk_id": "d1ec322c-8988-4552-8202-f2b0b8620d60",
+    "company_id": "ga_001",
+    "product_id": "ga_covid_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_covid_014",
+      "product_name": "Covid-19 Benefit Policy",
+      "category": "health / medical",
+      "target_market": "individuals 1-70 years",
+      "eligibility_age_min": 1,
+      "eligibility_age_max": 70,
+      "eligibility_notes": "Kenyan residents; 16-day waiting",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online",
+      "customer_reviews": [],
+      "company_id": "ga_001"
+    },
+    "text": "Covid-19 Benefit Policy (ID: ga_covid_014) is a health / medical insurance product by ga_001 for individuals 1-70 years. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "09a67c5a-f4e3-4d26-b08e-5cbe4825bb34",
+    "company_id": "ga_001",
+    "product_id": "ga_covid_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing respiratory conditions"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_covid_014",
+      "product_name": "Covid-19 Benefit Policy"
+    },
+    "text": "Exclusions for Covid-19 Benefit Policy (ID: ga_covid_014): ['Pre-existing respiratory conditions']."
+  },
+  {
+    "chunk_id": "3c3c5870-e416-4c26-9844-e51eb10460ea",
+    "company_id": "ga_001",
+    "product_id": "ga_eco_drive_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "ga_eco_drive_015",
+      "product_name": "GA Eco Drive Cover",
+      "category": "general / motor",
+      "target_market": "electric vehicle owners (cars, e-bikes, buses)",
+      "eligibility_notes": "Tailored for e-mobility risks",
+      "eligibility_vehicle_type": "EV (cars, motorcycles, buses, scooters)",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, brokers",
+      "customer_reviews": [
+        {
+          "source": "TechArena",
+          "comment": "Groundbreaking for EVs; supports sustainability (2023, ongoing)"
+        }
+      ],
+      "company_id": "ga_001"
+    },
+    "text": "GA Eco Drive Cover (ID: ga_eco_drive_015) is a general / motor insurance product by ga_001 for electric vehicle owners (cars, e-bikes, buses). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "43c0f632-7bf9-413a-8f94-1dc2e4f9f67f",
+    "company_id": "ga_001",
+    "product_id": "ga_eco_drive_015",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Standard motor exclusions"
+      ],
+      "company_id": "ga_001",
+      "product_id": "ga_eco_drive_015",
+      "product_name": "GA Eco Drive Cover"
+    },
+    "text": "Exclusions for GA Eco Drive Cover (ID: ga_eco_drive_015): ['Standard motor exclusions']."
+  }
+]
