@@ -1,0 +1,1295 @@
+[
+  {
+    "chunk_id": "4607b04b-a4f2-4dda-b239-32842bb341a7",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "madison_001",
+      "company_name": "Madison Group Limited",
+      "company_type": "composite (general, life, health, investments)",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/18/006/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published March 2025",
+      "headquarters": "Madison Insurance House, Upper Hill Close, P.O. Box 41163-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://www.madison.co.ke",
+      "digital_presence_customer_portal": "https://portal.madison.co.ke",
+      "digital_presence_mobile_app": false,
+      "digital_presence_mobile_app_store_links_google_play": null,
+      "digital_presence_mobile_app_store_links_app_store": null,
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "USSD *828# for quotes and purchases; online portal for policy management",
+      "reputation_claims_settlement_ratio": "Consistent performance; paid Ksh 134M flood claim in 2025 (Sinohydro case); sector-wide claims rose to Ksh 294.9B in H1 2025",
+      "reputation_customer_complaints": "Limited public details; some delays in claims noted on X; positive for affordability and education products",
+      "reputation_customer_rating": "Positive feedback for flexible products and customer service; trusted for 30+ years",
+      "reputation_notes": "Locally owned since 1988; 27 branches; ranked in top 10 insurers for 2025 (Bowman); focuses on education and health innovation",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "Madison Group Limited is a composite (general, life, health, investments) company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/18/006/2025. Headquarters: Madison Insurance House, Upper Hill Close, P.O. Box 41163-00100, Nairobi, Kenya. Website: https://www.madison.co.ke. Customer rating: Positive feedback for flexible products and customer service; trusted for 30+ years, Claims settlement ratio: Consistent performance; paid Ksh 134M flood claim in 2025 (Sinohydro case); sector-wide claims rose to Ksh 294.9B in H1 2025."
+  },
+  {
+    "chunk_id": "2ddc6f71-eccb-4abf-89e1-188b7bbf636f",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "Madison Insurance House, Upper Hill Close, Nairobi",
+      "phone": "+254 20 2864000, +254 709 922000, +254 758 211501",
+      "email": "madison@madison.co.ke",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: madison_001_branch_001) of madison_001 is located at Madison Insurance House, Upper Hill Close, Nairobi. Contact phones: +254 20 2864000, +254 709 922000, +254 758 211501. Email: madison@madison.co.ke."
+  },
+  {
+    "chunk_id": "f004564a-81dd-4f99-af8c-0381d38a3d38",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Moi Avenue Branch (Nairobi)",
+      "address": "Reinsurance Plaza, 2nd Floor, Taifa Road, Nairobi",
+      "phone": "+254 20 222 4567",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_002"
+    },
+    "text": "Branch Moi Avenue Branch (Nairobi) (ID: madison_001_branch_002) of madison_001 is located at Reinsurance Plaza, 2nd Floor, Taifa Road, Nairobi. Contact phones: +254 20 222 4567. Email: N/A."
+  },
+  {
+    "chunk_id": "73f9f3a0-9763-4a38-bd4a-c875e452eb0f",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Westlands Branch (Nairobi)",
+      "address": "Westlands Square, 1st Floor, Westlands, Nairobi",
+      "phone": "+254 20 445 6789",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_003"
+    },
+    "text": "Branch Westlands Branch (Nairobi) (ID: madison_001_branch_003) of madison_001 is located at Westlands Square, 1st Floor, Westlands, Nairobi. Contact phones: +254 20 445 6789. Email: N/A."
+  },
+  {
+    "chunk_id": "422b8cbb-eee8-4c1d-a624-66ba891b3255",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "City Branch (Nairobi)",
+      "address": "City Hall Way, Nairobi",
+      "phone": "+254 20 222 1234",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_004"
+    },
+    "text": "Branch City Branch (Nairobi) (ID: madison_001_branch_004) of madison_001 is located at City Hall Way, Nairobi. Contact phones: +254 20 222 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "21f5ac3c-1ae5-493f-9490-be975fe428b7",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Rongai Branch",
+      "address": "Rongai Town Centre, Rongai",
+      "phone": "+254 20 222 5678",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_005"
+    },
+    "text": "Branch Rongai Branch (ID: madison_001_branch_005) of madison_001 is located at Rongai Town Centre, Rongai. Contact phones: +254 20 222 5678. Email: N/A."
+  },
+  {
+    "chunk_id": "e8a489e8-2095-4b92-aade-cb555895daf7",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kitengela Branch",
+      "address": "Kitengela Capital Centre, 2nd Floor, Namanga Road, Kitengela",
+      "phone": "+254 20 222 9012",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_006"
+    },
+    "text": "Branch Kitengela Branch (ID: madison_001_branch_006) of madison_001 is located at Kitengela Capital Centre, 2nd Floor, Namanga Road, Kitengela. Contact phones: +254 20 222 9012. Email: N/A."
+  },
+  {
+    "chunk_id": "51084805-f171-4195-903b-29844cd8e2e3",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Thika Branch",
+      "address": "Thika Arcade, 4th Floor, Kenyatta Highway, Thika",
+      "phone": "+254 20 222 3456",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_007"
+    },
+    "text": "Branch Thika Branch (ID: madison_001_branch_007) of madison_001 is located at Thika Arcade, 4th Floor, Kenyatta Highway, Thika. Contact phones: +254 20 222 3456. Email: N/A."
+  },
+  {
+    "chunk_id": "fd1f42e1-2787-4ef8-8ba5-adef1762b719",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nyeri Branch",
+      "address": "Kenyatta Road, Nyeri",
+      "phone": "+254 61 203 1234",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_008"
+    },
+    "text": "Branch Nyeri Branch (ID: madison_001_branch_008) of madison_001 is located at Kenyatta Road, Nyeri. Contact phones: +254 61 203 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "2010789f-69f9-4086-9cb8-077e54988024",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Meru Branch",
+      "address": "Mwalimu Plaza, Mezzanine Floor & 3rd Floor, Gakoromone Road, Meru",
+      "phone": "+254 709 922902",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_009"
+    },
+    "text": "Branch Meru Branch (ID: madison_001_branch_009) of madison_001 is located at Mwalimu Plaza, Mezzanine Floor & 3rd Floor, Gakoromone Road, Meru. Contact phones: +254 709 922902. Email: N/A."
+  },
+  {
+    "chunk_id": "a83293c7-6e29-45c3-ba6f-7bb23c498ae8",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nanyuki Branch",
+      "address": "Nanyuki Town, Nanyuki",
+      "phone": "+254 20 222 7890",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_010"
+    },
+    "text": "Branch Nanyuki Branch (ID: madison_001_branch_010) of madison_001 is located at Nanyuki Town, Nanyuki. Contact phones: +254 20 222 7890. Email: N/A."
+  },
+  {
+    "chunk_id": "e0fcddc3-4bdc-4121-8b23-236a349f9a1a",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "Links Plaza, 1st Floor, Nkurumah Road, Mombasa",
+      "phone": "+254 41 231 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_011"
+    },
+    "text": "Branch Mombasa Branch (ID: madison_001_branch_011) of madison_001 is located at Links Plaza, 1st Floor, Nkurumah Road, Mombasa. Contact phones: +254 41 231 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "49f3a240-c080-43b1-8b36-5f0344015e38",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Malindi Branch",
+      "address": "Malindi Town, Malindi",
+      "phone": "+254 42 201 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_012"
+    },
+    "text": "Branch Malindi Branch (ID: madison_001_branch_012) of madison_001 is located at Malindi Town, Malindi. Contact phones: +254 42 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "56fd5990-d01b-4cc0-8f92-3dbd7d1822e2",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Voi Branch",
+      "address": "Voi Town, Voi",
+      "phone": "+254 43 201 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_013"
+    },
+    "text": "Branch Voi Branch (ID: madison_001_branch_013) of madison_001 is located at Voi Town, Voi. Contact phones: +254 43 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "5895f23a-95f3-4b2b-bb20-d4f9170ab589",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Machakos Branch",
+      "address": "Machakos Town, Machakos",
+      "phone": "+254 44 201 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_014"
+    },
+    "text": "Branch Machakos Branch (ID: madison_001_branch_014) of madison_001 is located at Machakos Town, Machakos. Contact phones: +254 44 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "cb7faffe-ba80-4da1-95b2-088b347e3aea",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kakamega Branch",
+      "address": "Kakamega Town, Kakamega",
+      "phone": "+254 56 201 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_015"
+    },
+    "text": "Branch Kakamega Branch (ID: madison_001_branch_015) of madison_001 is located at Kakamega Town, Kakamega. Contact phones: +254 56 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "796bacf1-f376-4af0-8e9c-63394995a713",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Homabay Branch",
+      "address": "Homabay Town, Homabay",
+      "phone": "+254 59 201 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_016"
+    },
+    "text": "Branch Homabay Branch (ID: madison_001_branch_016) of madison_001 is located at Homabay Town, Homabay. Contact phones: +254 59 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "9ec9e8eb-7cc4-4203-ae70-8949164782be",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kericho Branch",
+      "address": "Kericho Town, Kericho",
+      "phone": "+254 52 201 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_017"
+    },
+    "text": "Branch Kericho Branch (ID: madison_001_branch_017) of madison_001 is located at Kericho Town, Kericho. Contact phones: +254 52 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "5fa47938-c054-4066-a76d-55048940a3bc",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Kamis Plaza, 3rd Floor, Dunga Road, Kisumu",
+      "phone": "+254 57 202 1234",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_018"
+    },
+    "text": "Branch Kisumu Branch (ID: madison_001_branch_018) of madison_001 is located at Kamis Plaza, 3rd Floor, Dunga Road, Kisumu. Contact phones: +254 57 202 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "f850d64b-0200-4ea5-abe1-2ad63b567ab6",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisii Branch",
+      "address": "Kisii Town, Kisii",
+      "phone": "+254 39 201 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_019"
+    },
+    "text": "Branch Kisii Branch (ID: madison_001_branch_019) of madison_001 is located at Kisii Town, Kisii. Contact phones: +254 39 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "f3476de0-3383-463f-9d80-d3980db4e2b8",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Buruburu Branch (Nairobi)",
+      "address": "Buruburu Shopping Centre, Nairobi",
+      "phone": "+254 20 222 9012",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_020"
+    },
+    "text": "Branch Buruburu Branch (Nairobi) (ID: madison_001_branch_020) of madison_001 is located at Buruburu Shopping Centre, Nairobi. Contact phones: +254 20 222 9012. Email: N/A."
+  },
+  {
+    "chunk_id": "dae70c39-1f50-44df-b853-facc718403de",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Industrial Area Branch (Nairobi)",
+      "address": "Industrial Area, Nairobi",
+      "phone": "+254 20 222 3456",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_021"
+    },
+    "text": "Branch Industrial Area Branch (Nairobi) (ID: madison_001_branch_021) of madison_001 is located at Industrial Area, Nairobi. Contact phones: +254 20 222 3456. Email: N/A."
+  },
+  {
+    "chunk_id": "2be85bfc-f1f8-4aa1-81b5-78eaaf7969de",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Ngong Road Branch (Nairobi)",
+      "address": "Royal Court Building, Ngong Road, Nairobi",
+      "phone": "+254 20 222 5678",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_022"
+    },
+    "text": "Branch Ngong Road Branch (Nairobi) (ID: madison_001_branch_022) of madison_001 is located at Royal Court Building, Ngong Road, Nairobi. Contact phones: +254 20 222 5678. Email: N/A."
+  },
+  {
+    "chunk_id": "e8e79d88-65d4-47ee-8111-1ccfdbfada6d",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Zimmerman Building, Eldoret",
+      "phone": "+254 53 206 1234",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_023"
+    },
+    "text": "Branch Eldoret Branch (ID: madison_001_branch_023) of madison_001 is located at Zimmerman Building, Eldoret. Contact phones: +254 53 206 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "a6ee2970-82cb-45f3-8c15-be52481dbcc3",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kitale Branch",
+      "address": "Kitale Town, Kitale",
+      "phone": "+254 54 201 2345",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_024"
+    },
+    "text": "Branch Kitale Branch (ID: madison_001_branch_024) of madison_001 is located at Kitale Town, Kitale. Contact phones: +254 54 201 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "d6e2cae7-7b36-4e10-aaf1-80e6e5dbd98a",
+    "company_id": "madison_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Embu Branch",
+      "address": "Embu Municipality, Kenyatta Highway, Embu",
+      "phone": "+254 709 922902",
+      "company_id": "madison_001",
+      "branch_id": "madison_001_branch_025"
+    },
+    "text": "Branch Embu Branch (ID: madison_001_branch_025) of madison_001 is located at Embu Municipality, Kenyatta Highway, Embu. Contact phones: +254 709 922902. Email: N/A."
+  },
+  {
+    "chunk_id": "225eb78f-c067-43a7-9f40-98d64ef1e662",
+    "company_id": "madison_001",
+    "product_id": "madison_marine_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_marine_001",
+      "product_name": "Marine Insurance",
+      "category": "general / non-life insurance / marine",
+      "target_market": "importers, exporters, logistics firms",
+      "eligibility_notes": "For goods in transit by sea/air; based on invoice value",
+      "geographic_coverage": "Kenya / international (port-to-port)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, direct",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Marine Insurance (ID: madison_marine_001) is a general / non-life insurance / marine product by madison_001 for importers, exporters, logistics firms. Geographic coverage: Kenya / international (port-to-port)."
+  },
+  {
+    "chunk_id": "6a2003ad-52d7-481a-bff6-a01748f678aa",
+    "company_id": "madison_001",
+    "product_id": "madison_marine_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Inherent vice, improper packing",
+        "War risks (add-on available)"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_marine_001",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Exclusions for Marine Insurance (ID: madison_marine_001): ['Inherent vice, improper packing', 'War risks (add-on available)']."
+  },
+  {
+    "chunk_id": "2829ac73-ef9a-48eb-8eba-8a324d970ccc",
+    "company_id": "madison_001",
+    "product_id": "madison_marine_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "War and strikes"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_marine_001",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Add-ons for Marine Insurance (ID: madison_marine_001): ['War and strikes']."
+  },
+  {
+    "chunk_id": "5d8204d6-c3c4-4fb4-8093-fe4747b99554",
+    "company_id": "madison_001",
+    "product_id": "madison_domestic_package_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_domestic_package_002",
+      "product_name": "Domestic Package",
+      "category": "general / non-life insurance / property",
+      "target_market": "homeowners, tenants, BnB owners",
+      "eligibility_notes": "Valuation for sum insured",
+      "eligibility_property_type": "residential dwellings",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Domestic Package (ID: madison_domestic_package_002) is a general / non-life insurance / property product by madison_001 for homeowners, tenants, BnB owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "21076157-5be5-4472-9ed5-0a5efe24f73e",
+    "company_id": "madison_001",
+    "product_id": "madison_domestic_package_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, deliberate damage",
+        "Unoccupied >30 days"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_domestic_package_002",
+      "product_name": "Domestic Package"
+    },
+    "text": "Exclusions for Domestic Package (ID: madison_domestic_package_002): ['Wear/tear, deliberate damage', 'Unoccupied >30 days']."
+  },
+  {
+    "chunk_id": "c267cb01-5dbe-4612-bea9-858b766cb406",
+    "company_id": "madison_001",
+    "product_id": "madison_domestic_package_002",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Temporary accommodation"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_domestic_package_002",
+      "product_name": "Domestic Package"
+    },
+    "text": "Add-ons for Domestic Package (ID: madison_domestic_package_002): ['Temporary accommodation']."
+  },
+  {
+    "chunk_id": "83a72781-e7ae-41c5-a087-eed7d425748e",
+    "company_id": "madison_001",
+    "product_id": "madison_safarisure_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_safarisure_003",
+      "product_name": "Travel Insurance: Safarisure (International Travel Cover)",
+      "category": "general / non-life insurance / travel",
+      "target_market": "international travelers (business/leisure)",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Max 92 days per trip",
+      "geographic_coverage": "Worldwide (excl. Kenya)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, USSD *828#, agents",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Travel Insurance: Safarisure (International Travel Cover) (ID: madison_safarisure_003) is a general / non-life insurance / travel product by madison_001 for international travelers (business/leisure). Geographic coverage: Worldwide (excl. Kenya)."
+  },
+  {
+    "chunk_id": "89975f76-7422-44a2-9ae3-b9be34a0eac4",
+    "company_id": "madison_001",
+    "product_id": "madison_safarisure_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions",
+        "War zones, adventure sports"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_safarisure_003",
+      "product_name": "Travel Insurance: Safarisure (International Travel Cover)"
+    },
+    "text": "Exclusions for Travel Insurance: Safarisure (International Travel Cover) (ID: madison_safarisure_003): ['Pre-existing conditions', 'War zones, adventure sports']."
+  },
+  {
+    "chunk_id": "32359420-d928-4f69-8748-a0b27b9b7cec",
+    "company_id": "madison_001",
+    "product_id": "madison_safarisure_003",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Gadgets extension"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_safarisure_003",
+      "product_name": "Travel Insurance: Safarisure (International Travel Cover)"
+    },
+    "text": "Add-ons for Travel Insurance: Safarisure (International Travel Cover) (ID: madison_safarisure_003): ['Gadgets extension']."
+  },
+  {
+    "chunk_id": "5d52757c-1b92-47f9-beb1-1fc57265f270",
+    "company_id": "madison_001",
+    "product_id": "madison_safarishwari_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_safarishwari_004",
+      "product_name": "Travel Insurance: Safarishwari (Local / Hybrid Travel & Personal Accident for domestic travel ≥100 km)",
+      "category": "general / non-life insurance / travel",
+      "target_market": "domestic travelers (road/air/water/rail ≥100km)",
+      "eligibility_notes": "Hybrid travel + PA; from KES 177/day",
+      "eligibility_distance_min": 100,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "USSD *828#, WhatsApp 0793 058608, online",
+      "customer_reviews": [
+        {
+          "source": "Madison Blog",
+          "comment": "Worry-free domestic adventures (2024)"
+        }
+      ],
+      "company_id": "madison_001"
+    },
+    "text": "Travel Insurance: Safarishwari (Local / Hybrid Travel & Personal Accident for domestic travel ≥100 km) (ID: madison_safarishwari_004) is a general / non-life insurance / travel product by madison_001 for domestic travelers (road/air/water/rail ≥100km). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d8829b24-9770-4592-9353-6c2f286b2f64",
+    "company_id": "madison_001",
+    "product_id": "madison_safarishwari_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Travel <100km",
+        "Pre-existing conditions"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_safarishwari_004",
+      "product_name": "Travel Insurance: Safarishwari (Local / Hybrid Travel & Personal Accident for domestic travel ≥100 km)"
+    },
+    "text": "Exclusions for Travel Insurance: Safarishwari (Local / Hybrid Travel & Personal Accident for domestic travel ≥100 km) (ID: madison_safarishwari_004): ['Travel <100km', 'Pre-existing conditions']."
+  },
+  {
+    "chunk_id": "153cde49-1247-437e-92a2-69f14149bf80",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_tp_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_motor_tp_005",
+      "product_name": "Motor Insurance: Third-Party Cover",
+      "category": "general / non-life insurance / motor",
+      "target_market": "all vehicle owners (mandatory)",
+      "eligibility_notes": "Statutory minimum",
+      "eligibility_vehicle_type": "private/commercial",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Motor Insurance: Third-Party Cover (ID: madison_motor_tp_005) is a general / non-life insurance / motor product by madison_001 for all vehicle owners (mandatory). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "4e3879b3-4979-43f7-8573-17c91f3e931f",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_tp_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Own vehicle damage"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_motor_tp_005",
+      "product_name": "Motor Insurance: Third-Party Cover"
+    },
+    "text": "Exclusions for Motor Insurance: Third-Party Cover (ID: madison_motor_tp_005): ['Own vehicle damage']."
+  },
+  {
+    "chunk_id": "f8e6ca9a-ad02-4b16-b1ea-1a7ffbf53180",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_tpf_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_motor_tpf_006",
+      "product_name": "Motor Insurance: Third-Party, Fire & Theft",
+      "category": "general / non-life insurance / motor",
+      "target_market": "vehicle owners seeking basic protection",
+      "eligibility_notes": "TP + own vehicle fire/theft",
+      "eligibility_vehicle_type": "private/commercial",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Motor Insurance: Third-Party, Fire & Theft (ID: madison_motor_tpf_006) is a general / non-life insurance / motor product by madison_001 for vehicle owners seeking basic protection. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "6ef38fa4-a18c-486a-9aec-001d6fd4f304",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_tpf_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Accident damage to own vehicle"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_motor_tpf_006",
+      "product_name": "Motor Insurance: Third-Party, Fire & Theft"
+    },
+    "text": "Exclusions for Motor Insurance: Third-Party, Fire & Theft (ID: madison_motor_tpf_006): ['Accident damage to own vehicle']."
+  },
+  {
+    "chunk_id": "f898fb1c-04c3-43fe-b35b-9613367ba8d2",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_tpf_006",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Windscreen"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_motor_tpf_006",
+      "product_name": "Motor Insurance: Third-Party, Fire & Theft"
+    },
+    "text": "Add-ons for Motor Insurance: Third-Party, Fire & Theft (ID: madison_motor_tpf_006): ['Windscreen']."
+  },
+  {
+    "chunk_id": "3b741070-c6fb-4fc0-ac24-8fd8a5a808cd",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_comp_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_motor_comp_007",
+      "product_name": "Motor Insurance: Comprehensive Cover",
+      "category": "general / non-life insurance / motor",
+      "target_market": "vehicle owners for full protection",
+      "eligibility_notes": "Full risks including accidents",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Seamless claims for motor cover (@UserKE, 2025)"
+        }
+      ],
+      "company_id": "madison_001"
+    },
+    "text": "Motor Insurance: Comprehensive Cover (ID: madison_motor_comp_007) is a general / non-life insurance / motor product by madison_001 for vehicle owners for full protection. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8b058e30-ebd1-4047-8726-348e618f0a90",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_comp_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Drunk driving, unlicensed"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_motor_comp_007",
+      "product_name": "Motor Insurance: Comprehensive Cover"
+    },
+    "text": "Exclusions for Motor Insurance: Comprehensive Cover (ID: madison_motor_comp_007): ['Drunk driving, unlicensed']."
+  },
+  {
+    "chunk_id": "8e6f7e21-f681-4f47-b9cb-ba7d76b30cb2",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_comp_007",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Roadside assistance"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_motor_comp_007",
+      "product_name": "Motor Insurance: Comprehensive Cover"
+    },
+    "text": "Add-ons for Motor Insurance: Comprehensive Cover (ID: madison_motor_comp_007): ['Roadside assistance']."
+  },
+  {
+    "chunk_id": "4ef872b4-0b24-45eb-a5e0-8beaa34ec0c1",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_comm_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_motor_comm_008",
+      "product_name": "Motor Commercial Insurance",
+      "category": "general / non-life insurance / motor",
+      "target_market": "businesses/fleets (pick-ups, lorries, trucks)",
+      "eligibility_notes": "Institutional vehicles included",
+      "eligibility_vehicle_type": "commercial (own goods/hire)",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, corporate",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Motor Commercial Insurance (ID: madison_motor_comm_008) is a general / non-life insurance / motor product by madison_001 for businesses/fleets (pick-ups, lorries, trucks). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "1e5c2119-77b1-417a-8e91-c1e5b53bb552",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_comm_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_motor_comm_008",
+      "product_name": "Motor Commercial Insurance"
+    },
+    "text": "Exclusions for Motor Commercial Insurance (ID: madison_motor_comm_008): ['Non-commercial use']."
+  },
+  {
+    "chunk_id": "1b70b5a1-a22b-43ae-82f8-d98e469ef0a8",
+    "company_id": "madison_001",
+    "product_id": "madison_motor_comm_008",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Goods cover"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_motor_comm_008",
+      "product_name": "Motor Commercial Insurance"
+    },
+    "text": "Add-ons for Motor Commercial Insurance (ID: madison_motor_comm_008): ['Goods cover']."
+  },
+  {
+    "chunk_id": "58715f55-ad6a-4fed-8398-c87db2b81a21",
+    "company_id": "madison_001",
+    "product_id": "madison_hekima_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_hekima_009",
+      "product_name": "Hekima",
+      "category": "life / savings & protection",
+      "target_market": "individuals for wealth creation",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Flexible partial maturity",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Hekima (ID: madison_hekima_009) is a life / savings & protection product by madison_001 for individuals for wealth creation. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "c364a82f-43ab-4738-a089-fc7675113055",
+    "company_id": "madison_001",
+    "product_id": "madison_hekima_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early surrender penalties"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_hekima_009",
+      "product_name": "Hekima"
+    },
+    "text": "Exclusions for Hekima (ID: madison_hekima_009): ['Early surrender penalties']."
+  },
+  {
+    "chunk_id": "f27786a5-de75-44c8-af69-2fce4c8f97c7",
+    "company_id": "madison_001",
+    "product_id": "madison_bima_ya_karo_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_bima_ya_karo_010",
+      "product_name": "Bima ya Karo",
+      "category": "life / savings & protection / education",
+      "target_market": "parents/guardians for children's education",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 60,
+      "eligibility_notes": "Term 10-15 years; min KES 10,000 access",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "USSD *828#, agents",
+      "customer_reviews": [
+        {
+          "source": "Unilada",
+          "comment": "Guaranteed education fund even if parent deceased (2018, ongoing)"
+        }
+      ],
+      "company_id": "madison_001"
+    },
+    "text": "Bima ya Karo (ID: madison_bima_ya_karo_010) is a life / savings & protection / education product by madison_001 for parents/guardians for children's education. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d8a4a3de-2541-434e-8784-a183ab3e9983",
+    "company_id": "madison_001",
+    "product_id": "madison_bima_ya_karo_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Policy lapse",
+        "Suicide within 2 years"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_bima_ya_karo_010",
+      "product_name": "Bima ya Karo"
+    },
+    "text": "Exclusions for Bima ya Karo (ID: madison_bima_ya_karo_010): ['Policy lapse', 'Suicide within 2 years']."
+  },
+  {
+    "chunk_id": "0926e1e2-8db1-49da-b5ce-9d7977e85f5e",
+    "company_id": "madison_001",
+    "product_id": "madison_uniplan_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_uniplan_011",
+      "product_name": "Uniplan",
+      "category": "life / savings & protection / education",
+      "target_market": "parents for university/college education",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Term 5-15 years",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [
+        {
+          "source": "HapaKenya",
+          "comment": "Unique for higher education; low term range (2017, ongoing)"
+        }
+      ],
+      "company_id": "madison_001"
+    },
+    "text": "Uniplan (ID: madison_uniplan_011) is a life / savings & protection / education product by madison_001 for parents for university/college education. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "993d0845-6d05-4d2a-9586-5ec4bdcb6564",
+    "company_id": "madison_001",
+    "product_id": "madison_uniplan_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early surrender"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_uniplan_011",
+      "product_name": "Uniplan"
+    },
+    "text": "Exclusions for Uniplan (ID: madison_uniplan_011): ['Early surrender']."
+  },
+  {
+    "chunk_id": "3baf2c57-bff0-4e26-8b63-b0d0d77f90fd",
+    "company_id": "madison_001",
+    "product_id": "madison_money_max_plus_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_money_max_plus_012",
+      "product_name": "Money Max Plus",
+      "category": "life / savings & protection / investment",
+      "target_market": "individuals for high returns",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Term 8-15 years",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Money Max Plus (ID: madison_money_max_plus_012) is a life / savings & protection / investment product by madison_001 for individuals for high returns. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "511011ba-2eaa-4b32-829a-d3b8254ec6f7",
+    "company_id": "madison_001",
+    "product_id": "madison_money_max_plus_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early termination"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_money_max_plus_012",
+      "product_name": "Money Max Plus"
+    },
+    "text": "Exclusions for Money Max Plus (ID: madison_money_max_plus_012): ['Early termination']."
+  },
+  {
+    "chunk_id": "5e0dc96d-ca66-4ecd-b6e4-eae4bca5b94c",
+    "company_id": "madison_001",
+    "product_id": "madison_group_life_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_group_life_013",
+      "product_name": "Group Life",
+      "category": "life / savings & protection / group",
+      "target_market": "employers/groups (min 10 members)",
+      "eligibility_notes": "Annual death-in-service benefit",
+      "eligibility_group_min_size": 10,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate sales",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Group Life (ID: madison_group_life_013) is a life / savings & protection / group product by madison_001 for employers/groups (min 10 members). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f77bb765-0ed7-4778-b72f-fa5d76894d3c",
+    "company_id": "madison_001",
+    "product_id": "madison_group_life_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Suicide within 1 year"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_group_life_013",
+      "product_name": "Group Life"
+    },
+    "text": "Exclusions for Group Life (ID: madison_group_life_013): ['Suicide within 1 year']."
+  },
+  {
+    "chunk_id": "18ecf0e4-e76c-4950-9d5e-1a0ce89fc6b7",
+    "company_id": "madison_001",
+    "product_id": "madison_pension_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_pension_014",
+      "product_name": "Pension",
+      "category": "life / savings & protection / pension",
+      "target_market": "individuals/employers for retirement",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 75,
+      "eligibility_notes": "Min KES 500/month; tax deductible up to KES 20,000",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Pension (ID: madison_pension_014) is a life / savings & protection / pension product by madison_001 for individuals/employers for retirement. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ef4d6de8-e916-498a-81c4-18272c9fa059",
+    "company_id": "madison_001",
+    "product_id": "madison_pension_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early withdrawal penalties"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_pension_014",
+      "product_name": "Pension"
+    },
+    "text": "Exclusions for Pension (ID: madison_pension_014): ['Early withdrawal penalties']."
+  },
+  {
+    "chunk_id": "51900191-2b84-4f97-8ac8-5064b1f48915",
+    "company_id": "madison_001",
+    "product_id": "madison_pension_014",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Home acquisition via pension"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_pension_014",
+      "product_name": "Pension"
+    },
+    "text": "Add-ons for Pension (ID: madison_pension_014): ['Home acquisition via pension']."
+  },
+  {
+    "chunk_id": "124c2706-586c-4cb6-8482-609eb0672a0b",
+    "company_id": "madison_001",
+    "product_id": "madison_family_healthcare_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_family_healthcare_015",
+      "product_name": "Family Healthcare Cover",
+      "category": "health / medical insurance",
+      "target_market": "individuals/families",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 64,
+      "eligibility_notes": "Medical exam for 50+; lifelong renewable",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [
+        {
+          "source": "Tuko",
+          "comment": "Tailor-made for families; affordable premiums (2020, ongoing)"
+        }
+      ],
+      "company_id": "madison_001"
+    },
+    "text": "Family Healthcare Cover (ID: madison_family_healthcare_015) is a health / medical insurance product by madison_001 for individuals/families. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "a57e31e4-83a0-4a6b-ab52-e6e529302397",
+    "company_id": "madison_001",
+    "product_id": "madison_family_healthcare_015",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Waiting: 28 days acute, 60 days surgical, 12 months pre-existing"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_family_healthcare_015",
+      "product_name": "Family Healthcare Cover"
+    },
+    "text": "Exclusions for Family Healthcare Cover (ID: madison_family_healthcare_015): ['Waiting: 28 days acute, 60 days surgical, 12 months pre-existing']."
+  },
+  {
+    "chunk_id": "4d09264a-a5eb-4272-8655-a853dab0ee12",
+    "company_id": "madison_001",
+    "product_id": "madison_kpsa_medical_016",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_kpsa_medical_016",
+      "product_name": "Madison KPSA Medical Cover",
+      "category": "health / medical insurance",
+      "target_market": "Kenya Private Schools Association staff",
+      "eligibility_notes": "Tailor-made for KPSA members",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "KPSA channels",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Madison KPSA Medical Cover (ID: madison_kpsa_medical_016) is a health / medical insurance product by madison_001 for Kenya Private Schools Association staff. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "1d6a847a-5c29-4473-8ced-dcf1db50824a",
+    "company_id": "madison_001",
+    "product_id": "madison_kpsa_medical_016",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-KEPI vaccines"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_kpsa_medical_016",
+      "product_name": "Madison KPSA Medical Cover"
+    },
+    "text": "Exclusions for Madison KPSA Medical Cover (ID: madison_kpsa_medical_016): ['Non-KEPI vaccines']."
+  },
+  {
+    "chunk_id": "209a83d2-54d3-4ede-a0d9-e514126f4957",
+    "company_id": "madison_001",
+    "product_id": "madison_money_market_017",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_money_market_017",
+      "product_name": "Madison Money Market Fund",
+      "category": "investment products",
+      "target_market": "low-risk savers",
+      "eligibility_notes": "No max; daily liquidity",
+      "eligibility_min_investment": 1000,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "USSD *828#, online",
+      "customer_reviews": [
+        {
+          "source": "Business Today",
+          "comment": "5th highest yield at 15.25% (Jul 2024)"
+        }
+      ],
+      "company_id": "madison_001"
+    },
+    "text": "Madison Money Market Fund (ID: madison_money_market_017) is a investment products product by madison_001 for low-risk savers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "0bf08fc5-5c50-44e3-aec6-27c8cd85063a",
+    "company_id": "madison_001",
+    "product_id": "madison_money_market_017",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "No guaranteed yield"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_money_market_017",
+      "product_name": "Madison Money Market Fund"
+    },
+    "text": "Exclusions for Madison Money Market Fund (ID: madison_money_market_017): ['No guaranteed yield']."
+  },
+  {
+    "chunk_id": "5bbd1a8c-62fd-4a6c-acab-0b378d86a450",
+    "company_id": "madison_001",
+    "product_id": "madison_balanced_018",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_balanced_018",
+      "product_name": "Madison Balanced Fund",
+      "category": "investment products",
+      "target_market": "moderate-risk investors",
+      "eligibility_notes": "Balanced portfolio",
+      "eligibility_min_investment": 5000,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Madison Balanced Fund (ID: madison_balanced_018) is a investment products product by madison_001 for moderate-risk investors. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "907b29bb-a591-49ec-92ad-fb41232cb287",
+    "company_id": "madison_001",
+    "product_id": "madison_balanced_018",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Market risks"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_balanced_018",
+      "product_name": "Madison Balanced Fund"
+    },
+    "text": "Exclusions for Madison Balanced Fund (ID: madison_balanced_018): ['Market risks']."
+  },
+  {
+    "chunk_id": "9a58df73-d7ad-4477-9d4a-edf74dec29a1",
+    "company_id": "madison_001",
+    "product_id": "madison_equity_019",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_equity_019",
+      "product_name": "Madison Equity Fund",
+      "category": "investment products",
+      "target_market": "growth-oriented investors",
+      "eligibility_notes": "Equity-focused",
+      "eligibility_min_investment": 10000,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Madison Equity Fund (ID: madison_equity_019) is a investment products product by madison_001 for growth-oriented investors. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "927cf07e-820b-48d7-b8c9-1dc90fc0ca2d",
+    "company_id": "madison_001",
+    "product_id": "madison_equity_019",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Market volatility"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_equity_019",
+      "product_name": "Madison Equity Fund"
+    },
+    "text": "Exclusions for Madison Equity Fund (ID: madison_equity_019): ['Market volatility']."
+  },
+  {
+    "chunk_id": "65c9d4b8-e761-4e68-a386-e305f1c17303",
+    "company_id": "madison_001",
+    "product_id": "madison_hifadhi_020",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_hifadhi_020",
+      "product_name": "Madison Hifadhi",
+      "category": "investment products",
+      "target_market": "conservative savers",
+      "eligibility_notes": "Low-risk preservation",
+      "eligibility_min_investment": 1000,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Madison Hifadhi (ID: madison_hifadhi_020) is a investment products product by madison_001 for conservative savers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "3a06a779-e7c9-4166-a484-725e590fa1e5",
+    "company_id": "madison_001",
+    "product_id": "madison_hifadhi_020",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "No high yields"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_hifadhi_020",
+      "product_name": "Madison Hifadhi"
+    },
+    "text": "Exclusions for Madison Hifadhi (ID: madison_hifadhi_020): ['No high yields']."
+  },
+  {
+    "chunk_id": "2c9b4701-c043-44c1-b5b4-cba28454c8c4",
+    "company_id": "madison_001",
+    "product_id": "madison_zalisha_021",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_zalisha_021",
+      "product_name": "Madison Zalisha",
+      "category": "investment products / loan-linked",
+      "target_market": "borrowers needing liquidity",
+      "eligibility_notes": "Linked to investments; bespoke",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Madison Zalisha (ID: madison_zalisha_021) is a investment products / loan-linked product by madison_001 for borrowers needing liquidity. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d5e95cee-dc85-4d91-826a-a0a2061990cd",
+    "company_id": "madison_001",
+    "product_id": "madison_zalisha_021",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Over-borrowing"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_zalisha_021",
+      "product_name": "Madison Zalisha"
+    },
+    "text": "Exclusions for Madison Zalisha (ID: madison_zalisha_021): ['Over-borrowing']."
+  },
+  {
+    "chunk_id": "5bd8acfe-d9cf-4535-ac95-8e3cce7ffc05",
+    "company_id": "madison_001",
+    "product_id": "madison_shujaa_022",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "madison_shujaa_022",
+      "product_name": "Madison Shujaa",
+      "category": "investment products",
+      "target_market": "high-return seekers",
+      "eligibility_notes": "91-day T-bill +4.5% benchmark",
+      "eligibility_min_investment": 1000,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online",
+      "customer_reviews": [],
+      "company_id": "madison_001"
+    },
+    "text": "Madison Shujaa (ID: madison_shujaa_022) is a investment products product by madison_001 for high-return seekers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "3bd4d784-52ea-414e-9c42-9d68d98bc458",
+    "company_id": "madison_001",
+    "product_id": "madison_shujaa_022",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Liquidity limits"
+      ],
+      "company_id": "madison_001",
+      "product_id": "madison_shujaa_022",
+      "product_name": "Madison Shujaa"
+    },
+    "text": "Exclusions for Madison Shujaa (ID: madison_shujaa_022): ['Liquidity limits']."
+  }
+]

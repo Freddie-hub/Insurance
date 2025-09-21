@@ -1,0 +1,825 @@
+[
+  {
+    "chunk_id": "19bb6cda-0c89-4069-9ded-862bd4ab1849",
+    "company_id": "mayfair_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "mayfair_001",
+      "company_name": "Mayfair Insurance Company Limited",
+      "company_type": "general insurance",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/22/010/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published March 2025",
+      "headquarters": "Mayfair Centre, 8th Floor, Ralph Bunche Road, P.O. Box 45161-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://ke.mayfairinsurance.africa/",
+      "digital_presence_customer_portal": null,
+      "digital_presence_mobile_app": false,
+      "digital_presence_mobile_app_store_links_google_play": null,
+      "digital_presence_mobile_app_store_links_app_store": null,
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "Quote requests via website form; no dedicated customer portal or app mentioned",
+      "reputation_claims_settlement_ratio": "Mid-60% range (2023 IRA data); AA- (KE) credit rating by GCR (2025), indicating strong claims-paying ability",
+      "reputation_customer_complaints": "Limited public details; some mentions of processing times on social media",
+      "reputation_customer_rating": "Positive for reliability and innovation; Superbrands East Africa recognition; trusted with 20+ years in Kenya",
+      "reputation_notes": "Pan-African insurer since 2005 in Kenya; upward business growth; backed by reputable reinsurers; focuses on corporate and personal solutions",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "Mayfair Insurance Company Limited is a general insurance company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/22/010/2025. Headquarters: Mayfair Centre, 8th Floor, Ralph Bunche Road, P.O. Box 45161-00100, Nairobi, Kenya. Website: https://ke.mayfairinsurance.africa/. Customer rating: Positive for reliability and innovation; Superbrands East Africa recognition; trusted with 20+ years in Kenya, Claims settlement ratio: Mid-60% range (2023 IRA data); AA- (KE) credit rating by GCR (2025), indicating strong claims-paying ability."
+  },
+  {
+    "chunk_id": "beeb6727-4e03-41a1-8726-0eaf2677d373",
+    "company_id": "mayfair_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "Mayfair Centre, 8th Floor, Ralph Bunche Road, Nairobi",
+      "phone": "+254 20 299 9000, +254 20 888 999",
+      "email": "info@mayfair.co.ke",
+      "company_id": "mayfair_001",
+      "branch_id": "mayfair_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: mayfair_001_branch_001) of mayfair_001 is located at Mayfair Centre, 8th Floor, Ralph Bunche Road, Nairobi. Contact phones: +254 20 299 9000, +254 20 888 999. Email: info@mayfair.co.ke."
+  },
+  {
+    "chunk_id": "1552a751-6450-4edf-8d2a-97e095470dd4",
+    "company_id": "mayfair_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "Mombasa Town, Mombasa",
+      "phone": "+254 41 231 2345",
+      "company_id": "mayfair_001",
+      "branch_id": "mayfair_001_branch_002"
+    },
+    "text": "Branch Mombasa Branch (ID: mayfair_001_branch_002) of mayfair_001 is located at Mombasa Town, Mombasa. Contact phones: +254 41 231 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "18274363-14b0-4f04-99cb-14646532b5f0",
+    "company_id": "mayfair_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Eldoret Town, Eldoret",
+      "phone": "+254 53 206 1234",
+      "company_id": "mayfair_001",
+      "branch_id": "mayfair_001_branch_003"
+    },
+    "text": "Branch Eldoret Branch (ID: mayfair_001_branch_003) of mayfair_001 is located at Eldoret Town, Eldoret. Contact phones: +254 53 206 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "c8ac78e5-ee91-44f9-9eee-cc28e63522e3",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_motor_private_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_motor_private_001",
+      "product_name": "Motor Private Insurance",
+      "category": "personal solutions / motor",
+      "target_market": "private vehicle owners",
+      "eligibility_notes": "Risk assessment based on value/usage",
+      "eligibility_vehicle_type": "private cars",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers, website quote form",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Reliable motor cover with efficient claims process (@UserKE, 2025)"
+        }
+      ],
+      "company_id": "mayfair_001"
+    },
+    "text": "Motor Private Insurance (ID: mayfair_motor_private_001) is a personal solutions / motor product by mayfair_001 for private vehicle owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "0a0fedfb-e9d0-4cd1-af50-464f21befd6a",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_motor_private_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Unlicensed drivers, drunk driving",
+        "Wear and tear, deliberate damage"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_motor_private_001",
+      "product_name": "Motor Private Insurance"
+    },
+    "text": "Exclusions for Motor Private Insurance (ID: mayfair_motor_private_001): ['Unlicensed drivers, drunk driving', 'Wear and tear, deliberate damage']."
+  },
+  {
+    "chunk_id": "a196b16f-1d0b-4ed5-8cdf-801144057900",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_motor_private_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Windscreen cover",
+        "Roadside assistance"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_motor_private_001",
+      "product_name": "Motor Private Insurance"
+    },
+    "text": "Add-ons for Motor Private Insurance (ID: mayfair_motor_private_001): ['Windscreen cover', 'Roadside assistance']."
+  },
+  {
+    "chunk_id": "29f9bab8-aefc-43d7-b6bd-779bd8123f90",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_pa_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_pa_002",
+      "product_name": "Personal Accident",
+      "category": "personal solutions / accident",
+      "target_market": "individuals, families, groups",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "No medical exam; on/off duty options",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers",
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Comprehensive PA for family peace of mind (2025)"
+        }
+      ],
+      "company_id": "mayfair_001"
+    },
+    "text": "Personal Accident (ID: mayfair_pa_002) is a personal solutions / accident product by mayfair_001 for individuals, families, groups. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "33b5efea-6502-4e26-945f-7552b43bdab9",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_pa_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional self-harm, war risks",
+        "Hazardous activities unless declared"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_pa_002",
+      "product_name": "Personal Accident"
+    },
+    "text": "Exclusions for Personal Accident (ID: mayfair_pa_002): ['Intentional self-harm, war risks', 'Hazardous activities unless declared']."
+  },
+  {
+    "chunk_id": "5ea3b553-f66c-411f-9048-dd2350a59781",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_pa_002",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Temporary loss of income",
+        "Medical expenses"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_pa_002",
+      "product_name": "Personal Accident"
+    },
+    "text": "Add-ons for Personal Accident (ID: mayfair_pa_002): ['Temporary loss of income', 'Medical expenses']."
+  },
+  {
+    "chunk_id": "1d5ca153-70bb-4bca-9e8c-2c31a32f3693",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_travel_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_travel_003",
+      "product_name": "Travel Insurance",
+      "category": "personal solutions / travel",
+      "target_market": "international/domestic travelers",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Per-trip or annual multi-trip",
+      "geographic_coverage": "Worldwide",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "website, agents",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Reliable travel cover for peace of mind abroad (2025)"
+        }
+      ],
+      "company_id": "mayfair_001"
+    },
+    "text": "Travel Insurance (ID: mayfair_travel_003) is a personal solutions / travel product by mayfair_001 for international/domestic travelers. Geographic coverage: Worldwide."
+  },
+  {
+    "chunk_id": "90576472-dc4f-4001-8eb6-68ffb67f0f8a",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_travel_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions, war zones"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_travel_003",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Exclusions for Travel Insurance (ID: mayfair_travel_003): ['Pre-existing conditions, war zones']."
+  },
+  {
+    "chunk_id": "a920efcd-bc6e-425d-9241-a61a8292055f",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_home_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_home_004",
+      "product_name": "Home Insurance",
+      "category": "personal solutions / property",
+      "target_market": "homeowners, tenants",
+      "eligibility_notes": "Valuation for sum insured",
+      "eligibility_property_type": "residential",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, website",
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Comprehensive home protection with easy claims (2025)"
+        }
+      ],
+      "company_id": "mayfair_001"
+    },
+    "text": "Home Insurance (ID: mayfair_home_004) is a personal solutions / property product by mayfair_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "9eca33c8-3703-45bf-afe4-87c8f39621fb",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_home_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, unoccupied >30 days"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_home_004",
+      "product_name": "Home Insurance"
+    },
+    "text": "Exclusions for Home Insurance (ID: mayfair_home_004): ['Wear/tear, unoccupied >30 days']."
+  },
+  {
+    "chunk_id": "191e4d97-6fee-4922-800c-207cbbb0b3fc",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_domestic_package_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_domestic_package_005",
+      "product_name": "Domestic Package",
+      "category": "personal solutions / property",
+      "target_market": "homeowners, tenants",
+      "eligibility_notes": "Combined buildings/contents",
+      "eligibility_property_type": "residential",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Domestic Package (ID: mayfair_domestic_package_005) is a personal solutions / property product by mayfair_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "3755982b-7bff-4aa8-b413-cc7b3a070461",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_domestic_package_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, deliberate damage"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_domestic_package_005",
+      "product_name": "Domestic Package"
+    },
+    "text": "Exclusions for Domestic Package (ID: mayfair_domestic_package_005): ['Wear/tear, deliberate damage']."
+  },
+  {
+    "chunk_id": "e83754e5-50f8-4e3b-94c5-a581594bcf45",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_all_risks_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_all_risks_006",
+      "product_name": "All Risks (Jewelry & Valuables)",
+      "category": "personal solutions / property",
+      "target_market": "individuals with valuables",
+      "eligibility_notes": "Specified items valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "All Risks (Jewelry & Valuables) (ID: mayfair_all_risks_006) is a personal solutions / property product by mayfair_001 for individuals with valuables. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "70e55fd7-2a77-4e0f-af59-3fec862e7848",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_all_risks_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, moth/vermin"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_all_risks_006",
+      "product_name": "All Risks (Jewelry & Valuables)"
+    },
+    "text": "Exclusions for All Risks (Jewelry & Valuables) (ID: mayfair_all_risks_006): ['Wear/tear, moth/vermin']."
+  },
+  {
+    "chunk_id": "dbe27e04-344b-48ab-90f0-14310ebda96b",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_medical_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_medical_007",
+      "product_name": "Medical Insurance",
+      "category": "personal solutions / medical",
+      "target_market": "individuals, families",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 59,
+      "eligibility_notes": "Medical exam for 55+",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Medical Insurance (ID: mayfair_medical_007) is a personal solutions / medical product by mayfair_001 for individuals, families. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "912311e6-b9ca-4701-b6ad-a9adeb3c8fcb",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_medical_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing waits"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_medical_007",
+      "product_name": "Medical Insurance"
+    },
+    "text": "Exclusions for Medical Insurance (ID: mayfair_medical_007): ['Pre-existing waits']."
+  },
+  {
+    "chunk_id": "9ee2f563-c850-4804-b3db-901dbd8d8480",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_medical_007",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Maternity"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_medical_007",
+      "product_name": "Medical Insurance"
+    },
+    "text": "Add-ons for Medical Insurance (ID: mayfair_medical_007): ['Maternity']."
+  },
+  {
+    "chunk_id": "71358378-0e22-41b1-b89d-836333fcfa77",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_motor_commercial_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_motor_commercial_008",
+      "product_name": "Motor Commercial Cover",
+      "category": "corporate solutions / motor",
+      "target_market": "fleet/business vehicles",
+      "eligibility_notes": "PSV/commercial use",
+      "eligibility_vehicle_type": "commercial",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Motor Commercial Cover (ID: mayfair_motor_commercial_008) is a corporate solutions / motor product by mayfair_001 for fleet/business vehicles. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ee0c92a9-8530-4b93-abbd-16e17aed6f01",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_motor_commercial_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_motor_commercial_008",
+      "product_name": "Motor Commercial Cover"
+    },
+    "text": "Exclusions for Motor Commercial Cover (ID: mayfair_motor_commercial_008): ['Non-commercial use']."
+  },
+  {
+    "chunk_id": "ddc032e8-d6c8-4e56-bca7-32e7542074a9",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_motor_commercial_008",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Goods transit"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_motor_commercial_008",
+      "product_name": "Motor Commercial Cover"
+    },
+    "text": "Add-ons for Motor Commercial Cover (ID: mayfair_motor_commercial_008): ['Goods transit']."
+  },
+  {
+    "chunk_id": "a95b71e3-80e8-40fb-9d0e-e89ab693fb84",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_fire_allied_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_fire_allied_009",
+      "product_name": "Fire & Allied Perils",
+      "category": "corporate solutions / property",
+      "target_market": "businesses/property owners",
+      "eligibility_notes": "Valuation of assets",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Fire & Allied Perils (ID: mayfair_fire_allied_009) is a corporate solutions / property product by mayfair_001 for businesses/property owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8fde70f7-e093-4852-8ee8-2e8d211dca5c",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_fire_allied_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "War"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_fire_allied_009",
+      "product_name": "Fire & Allied Perils"
+    },
+    "text": "Exclusions for Fire & Allied Perils (ID: mayfair_fire_allied_009): ['War']."
+  },
+  {
+    "chunk_id": "215b23b7-5320-408a-8d4e-e4c87f4d3ef5",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_fire_allied_009",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Stock/machinery extensions"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_fire_allied_009",
+      "product_name": "Fire & Allied Perils"
+    },
+    "text": "Add-ons for Fire & Allied Perils (ID: mayfair_fire_allied_009): ['Stock/machinery extensions']."
+  },
+  {
+    "chunk_id": "0b06e58b-7913-46a6-a782-6780ccbba7c6",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_burglary_theft_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_burglary_theft_010",
+      "product_name": "Burglary/Theft Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses",
+      "eligibility_notes": "Security measures assessed",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Burglary/Theft Insurance (ID: mayfair_burglary_theft_010) is a corporate solutions / property product by mayfair_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "5b3833ce-6806-4b0c-9544-fd4a8b7c9097",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_burglary_theft_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Theft without force"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_burglary_theft_010",
+      "product_name": "Burglary/Theft Insurance"
+    },
+    "text": "Exclusions for Burglary/Theft Insurance (ID: mayfair_burglary_theft_010): ['Theft without force']."
+  },
+  {
+    "chunk_id": "f93efd3a-1793-4807-b231-2cd5f1d3e84c",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_burglary_theft_010",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Extensions for stock"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_burglary_theft_010",
+      "product_name": "Burglary/Theft Insurance"
+    },
+    "text": "Add-ons for Burglary/Theft Insurance (ID: mayfair_burglary_theft_010): ['Extensions for stock']."
+  },
+  {
+    "chunk_id": "6540d123-809d-4ed7-bdee-fe7c35b8b3a3",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_goods_transit_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_goods_transit_011",
+      "product_name": "Goods in Transit",
+      "category": "corporate solutions / transit",
+      "target_market": "businesses transporting goods",
+      "eligibility_notes": "Transit details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Goods in Transit (ID: mayfair_goods_transit_011) is a corporate solutions / transit product by mayfair_001 for businesses transporting goods. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "143a34e5-80b1-495a-a6e7-0d0d3be57992",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_goods_transit_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Improper packing"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_goods_transit_011",
+      "product_name": "Goods in Transit"
+    },
+    "text": "Exclusions for Goods in Transit (ID: mayfair_goods_transit_011): ['Improper packing']."
+  },
+  {
+    "chunk_id": "c17e5e18-366f-4630-9651-477f06257d31",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_money_insurance_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_money_insurance_012",
+      "product_name": "Money Insurance",
+      "category": "corporate solutions / money",
+      "target_market": "businesses handling cash",
+      "eligibility_notes": "Cash handling procedures",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Money Insurance (ID: mayfair_money_insurance_012) is a corporate solutions / money product by mayfair_001 for businesses handling cash. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "59009da6-d163-427c-9bef-318fcfce56dc",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_money_insurance_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Employee fraud (fidelity separate)"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_money_insurance_012",
+      "product_name": "Money Insurance"
+    },
+    "text": "Exclusions for Money Insurance (ID: mayfair_money_insurance_012): ['Employee fraud (fidelity separate)']."
+  },
+  {
+    "chunk_id": "93199750-372c-4c68-b47c-8269655f3060",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_plate_glass_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_plate_glass_013",
+      "product_name": "Plate Glass Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses with glass fixtures",
+      "eligibility_notes": "Fixed glass valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Plate Glass Insurance (ID: mayfair_plate_glass_013) is a corporate solutions / property product by mayfair_001 for businesses with glass fixtures. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f2720213-f513-4cd4-a360-3c818144cb52",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_plate_glass_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear, intentional"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_plate_glass_013",
+      "product_name": "Plate Glass Insurance"
+    },
+    "text": "Exclusions for Plate Glass Insurance (ID: mayfair_plate_glass_013): ['Wear, intentional']."
+  },
+  {
+    "chunk_id": "c2e2ef73-8d98-446f-b714-79d1d4e0ba66",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_marine_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_marine_014",
+      "product_name": "Marine Insurance",
+      "category": "corporate solutions / marine",
+      "target_market": "importers/exporters",
+      "eligibility_notes": "Cargo transit by sea/air/road/rail",
+      "geographic_coverage": "Kenya/international",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Marine Insurance (ID: mayfair_marine_014) is a corporate solutions / marine product by mayfair_001 for importers/exporters. Geographic coverage: Kenya/international."
+  },
+  {
+    "chunk_id": "c52338fb-6b2d-4317-be34-6182cb02433b",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_marine_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Inherent vice, war"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_marine_014",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Exclusions for Marine Insurance (ID: mayfair_marine_014): ['Inherent vice, war']."
+  },
+  {
+    "chunk_id": "8ef2bf8f-4c97-4d6b-9f75-d1e2a69a6c92",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_marine_014",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Warehouse-to-warehouse"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_marine_014",
+      "product_name": "Marine Insurance"
+    },
+    "text": "Add-ons for Marine Insurance (ID: mayfair_marine_014): ['Warehouse-to-warehouse']."
+  },
+  {
+    "chunk_id": "7672a2da-3319-4b5d-b488-eaf05fc70f14",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_engineering_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_engineering_015",
+      "product_name": "Engineering Insurance",
+      "category": "corporate solutions / engineering",
+      "target_market": "contractors, engineers",
+      "eligibility_notes": "Project/contract details",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Engineering Insurance (ID: mayfair_engineering_015) is a corporate solutions / engineering product by mayfair_001 for contractors, engineers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "4d81758c-3907-4d92-8535-aead0850be70",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_engineering_015",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Design defects, wear"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_engineering_015",
+      "product_name": "Engineering Insurance"
+    },
+    "text": "Exclusions for Engineering Insurance (ID: mayfair_engineering_015): ['Design defects, wear']."
+  },
+  {
+    "chunk_id": "d25c002d-3d92-440f-9f71-5515248b99dc",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_liabilities_016",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_liabilities_016",
+      "product_name": "Liabilities",
+      "category": "corporate solutions / liability",
+      "target_market": "businesses",
+      "eligibility_notes": "Risk exposure assessment",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Liabilities (ID: mayfair_liabilities_016) is a corporate solutions / liability product by mayfair_001 for businesses. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "0023f6b3-07e4-48c1-a9b9-ffbfcb742399",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_liabilities_016",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional acts"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_liabilities_016",
+      "product_name": "Liabilities"
+    },
+    "text": "Exclusions for Liabilities (ID: mayfair_liabilities_016): ['Intentional acts']."
+  },
+  {
+    "chunk_id": "222a4f8d-614f-468f-a074-3c052dd99451",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_professional_indemnity_017",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_professional_indemnity_017",
+      "product_name": "Professional Indemnity",
+      "category": "corporate solutions / liability",
+      "target_market": "professionals (lawyers, doctors, etc.)",
+      "eligibility_notes": "For negligence/errors; regulatory requirements",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Professional Indemnity (ID: mayfair_professional_indemnity_017) is a corporate solutions / liability product by mayfair_001 for professionals (lawyers, doctors, etc.). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "62b24ce3-4073-444a-a0d4-a4491eececdc",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_professional_indemnity_017",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional fraud"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_professional_indemnity_017",
+      "product_name": "Professional Indemnity"
+    },
+    "text": "Exclusions for Professional Indemnity (ID: mayfair_professional_indemnity_017): ['Intentional fraud']."
+  },
+  {
+    "chunk_id": "fd8b5790-b8a8-4090-9303-38188fa060b9",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_bonds_018",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "mayfair_bonds_018",
+      "product_name": "Bonds",
+      "category": "corporate solutions / bonds",
+      "target_market": "contractors, bidders",
+      "eligibility_notes": "Tender/project requirements",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "mayfair_001"
+    },
+    "text": "Bonds (ID: mayfair_bonds_018) is a corporate solutions / bonds product by mayfair_001 for contractors, bidders. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "e9013edb-1d1a-44e7-87e7-683c24861b53",
+    "company_id": "mayfair_001",
+    "product_id": "mayfair_bonds_018",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-performance due to force majeure"
+      ],
+      "company_id": "mayfair_001",
+      "product_id": "mayfair_bonds_018",
+      "product_name": "Bonds"
+    },
+    "text": "Exclusions for Bonds (ID: mayfair_bonds_018): ['Non-performance due to force majeure']."
+  }
+]

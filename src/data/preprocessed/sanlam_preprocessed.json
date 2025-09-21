@@ -1,0 +1,989 @@
+[
+  {
+    "chunk_id": "49126e0f-32d7-4794-8ec5-7636f956fc44",
+    "company_id": "sanlam_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "sanlam_001",
+      "company_name": "Sanlam Kenya Plc",
+      "company_type": "composite (life, general, pensions, savings)",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/14/005/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published March 2025",
+      "headquarters": "Sanlam Tower, 15th Floor, Off Waiyaki Way, Westlands, P.O. Box 10493-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://www.sanlam.co.ke",
+      "digital_presence_customer_portal": "https://portal.sanlam.co.ke",
+      "digital_presence_mobile_app": false,
+      "digital_presence_mobile_app_store_links_google_play": null,
+      "digital_presence_mobile_app_store_links_app_store": null,
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "Partner integrations available; self-service portal for policy management",
+      "reputation_claims_settlement_ratio": "Consistent performance with claim payment ratios improving to 9.40% in Q2 2025; underwriting losses noted in H1 2025 due to rising claims (Ksh294.9B sector-wide)",
+      "reputation_customer_complaints": "Limited public details; some delays in claims processing reported on X and reviews; overall positive for affordability and innovation",
+      "reputation_customer_rating": "Mixed feedback; praised for flexible products but criticized for delays in complex claims and communication",
+      "reputation_notes": "Subsidiary of Sanlam Group; ranked among top performers for claims consistency in 2025 rankings. X posts highlight rising costs impacting sector, including Sanlam.",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "Sanlam Kenya Plc is a composite (life, general, pensions, savings) company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/14/005/2025. Headquarters: Sanlam Tower, 15th Floor, Off Waiyaki Way, Westlands, P.O. Box 10493-00100, Nairobi, Kenya. Website: https://www.sanlam.co.ke. Customer rating: Mixed feedback; praised for flexible products but criticized for delays in complex claims and communication, Claims settlement ratio: Consistent performance with claim payment ratios improving to 9.40% in Q2 2025; underwriting losses noted in H1 2025 due to rising claims (Ksh294.9B sector-wide)."
+  },
+  {
+    "chunk_id": "e783d8a9-11c5-4f1b-a0aa-dbe7cdf803c5",
+    "company_id": "sanlam_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "Sanlam Tower, 15th Floor, Off Waiyaki Way, Westlands, P.O. Box 10493-00100, Nairobi",
+      "phone": "+254 20 2781000, +254 722 206 900",
+      "email": "customerservice@sanlam.co.ke",
+      "company_id": "sanlam_001",
+      "branch_id": "sanlam_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: sanlam_001_branch_001) of sanlam_001 is located at Sanlam Tower, 15th Floor, Off Waiyaki Way, Westlands, P.O. Box 10493-00100, Nairobi. Contact phones: +254 20 2781000, +254 722 206 900. Email: customerservice@sanlam.co.ke."
+  },
+  {
+    "chunk_id": "f3136d58-abe0-4548-904a-45643e974810",
+    "company_id": "sanlam_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "NSSF Building, 3rd Floor, Nkrumah Road, Mombasa",
+      "phone": "+254 41 231 2345",
+      "company_id": "sanlam_001",
+      "branch_id": "sanlam_001_branch_002"
+    },
+    "text": "Branch Mombasa Branch (ID: sanlam_001_branch_002) of sanlam_001 is located at NSSF Building, 3rd Floor, Nkrumah Road, Mombasa. Contact phones: +254 41 231 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "20d57063-e814-4297-a240-281665717a13",
+    "company_id": "sanlam_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Oginga Odinga Road, Kisumu",
+      "phone": "+254 57 202 1234",
+      "company_id": "sanlam_001",
+      "branch_id": "sanlam_001_branch_003"
+    },
+    "text": "Branch Kisumu Branch (ID: sanlam_001_branch_003) of sanlam_001 is located at Oginga Odinga Road, Kisumu. Contact phones: +254 57 202 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "3effa7c4-5e58-490c-a42f-1946f74aab6a",
+    "company_id": "sanlam_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Zimmerman Building, Eldoret",
+      "phone": "+254 53 206 1234",
+      "company_id": "sanlam_001",
+      "branch_id": "sanlam_001_branch_004"
+    },
+    "text": "Branch Eldoret Branch (ID: sanlam_001_branch_004) of sanlam_001 is located at Zimmerman Building, Eldoret. Contact phones: +254 53 206 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "55f9be51-b80b-4681-92de-3452a813eda7",
+    "company_id": "sanlam_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "Kenya Power Building, Kenyatta Avenue, Nakuru",
+      "phone": "+254 51 221 1234",
+      "company_id": "sanlam_001",
+      "branch_id": "sanlam_001_branch_005"
+    },
+    "text": "Branch Nakuru Branch (ID: sanlam_001_branch_005) of sanlam_001 is located at Kenya Power Building, Kenyatta Avenue, Nakuru. Contact phones: +254 51 221 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "8c6999b1-8f69-490f-99b8-a79f3a57b0f6",
+    "company_id": "sanlam_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nyeri Branch",
+      "address": "Kenyatta Road, Nyeri",
+      "phone": "+254 61 203 1234",
+      "company_id": "sanlam_001",
+      "branch_id": "sanlam_001_branch_006"
+    },
+    "text": "Branch Nyeri Branch (ID: sanlam_001_branch_006) of sanlam_001 is located at Kenyatta Road, Nyeri. Contact phones: +254 61 203 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "4dfc9b52-fd38-4800-9443-e67c0961961c",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_flexi_hela_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_flexi_hela_001",
+      "product_name": "Flexi Hela",
+      "category": "life / savings",
+      "target_market": "individuals seeking flexible savings with life cover",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Flexible contributions; no medical exam for basic cover",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents, mTek digital platform",
+      "customer_reviews": [
+        {
+          "source": "Citizen Witness",
+          "comment": "Innovative flexible savings with quick access; partnered with mTek for paperless ecosystem (2022, ongoing)"
+        }
+      ],
+      "company_id": "sanlam_001"
+    },
+    "text": "Flexi Hela (ID: sanlam_flexi_hela_001) is a life / savings product by sanlam_001 for individuals seeking flexible savings with life cover. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "4dba487b-95ef-46c3-8cf4-3f0ea0839914",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_flexi_hela_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early withdrawal penalties",
+        "Non-disclosure of health"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_flexi_hela_001",
+      "product_name": "Flexi Hela"
+    },
+    "text": "Exclusions for Flexi Hela (ID: sanlam_flexi_hela_001): ['Early withdrawal penalties', 'Non-disclosure of health']."
+  },
+  {
+    "chunk_id": "1e19b878-0376-4176-b344-132c1b736a97",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_flexi_hela_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Increased life cover"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_flexi_hela_001",
+      "product_name": "Flexi Hela"
+    },
+    "text": "Add-ons for Flexi Hela (ID: sanlam_flexi_hela_001): ['Increased life cover']."
+  },
+  {
+    "chunk_id": "4cfeb2b1-c2ee-43f9-92bf-d711029cf16b",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_nawiri_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_nawiri_002",
+      "product_name": "Nawiri",
+      "category": "life / endowment",
+      "target_market": "individuals for savings and investment",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Guaranteed return after term",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "KCB Bank branches, agents",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Nawiri (ID: sanlam_nawiri_002) is a life / endowment product by sanlam_001 for individuals for savings and investment. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "dfc4401b-663a-47b6-8d47-bc129a4065b9",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_nawiri_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early surrender penalties"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_nawiri_002",
+      "product_name": "Nawiri"
+    },
+    "text": "Exclusions for Nawiri (ID: sanlam_nawiri_002): ['Early surrender penalties']."
+  },
+  {
+    "chunk_id": "08edadbf-aa9f-409b-88ab-ff69853811d6",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_elimisha_plus_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_elimisha_plus_003",
+      "product_name": "Elimisha Plus Cover",
+      "category": "life / education",
+      "target_market": "parents/guardians for children's education",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 25,
+      "eligibility_notes": "Enhanced education policy; distributed via KCB/NBK",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "KCB/NBK branches (300+ locations), agents",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Elimisha Plus Cover (ID: sanlam_elimisha_plus_003) is a life / education product by sanlam_001 for parents/guardians for children's education. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "c11a41a5-8459-4a72-99a5-aaec8b5351e6",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_elimisha_plus_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Policy lapse"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_elimisha_plus_003",
+      "product_name": "Elimisha Plus Cover"
+    },
+    "text": "Exclusions for Elimisha Plus Cover (ID: sanlam_elimisha_plus_003): ['Policy lapse']."
+  },
+  {
+    "chunk_id": "29e1a802-da48-4e06-9562-b1c52341aa4b",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_elimisha_plus_003",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Investment growth"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_elimisha_plus_003",
+      "product_name": "Elimisha Plus Cover"
+    },
+    "text": "Add-ons for Elimisha Plus Cover (ID: sanlam_elimisha_plus_003): ['Investment growth']."
+  },
+  {
+    "chunk_id": "36577600-8a28-46db-87f3-f711a9646cb5",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_last_expense_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_last_expense_004",
+      "product_name": "Last Expense Cover",
+      "category": "life / funeral",
+      "target_market": "individuals/families for bereavement costs",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Robust funeral cover; no medical exam",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "KCB/NBK branches, agents",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Last Expense Cover (ID: sanlam_last_expense_004) is a life / funeral product by sanlam_001 for individuals/families for bereavement costs. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "89cd5624-cd06-42d0-bdb8-310caadf801b",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_last_expense_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Suicide within 1 year"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_last_expense_004",
+      "product_name": "Last Expense Cover"
+    },
+    "text": "Exclusions for Last Expense Cover (ID: sanlam_last_expense_004): ['Suicide within 1 year']."
+  },
+  {
+    "chunk_id": "fcfa69c1-2e93-4510-8ae3-b2151a928b3f",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_ffp_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_ffp_005",
+      "product_name": "Family Finance Plan (FFP)",
+      "category": "life / protection",
+      "target_market": "families for burial cover",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 66,
+      "eligibility_notes": "Covers extended family including unborn/newborn, parents, grandparents; no medical exam; transferable after 50 before 65",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online portal, M-Pesa",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Family Finance Plan (FFP) (ID: sanlam_ffp_005) is a life / protection product by sanlam_001 for families for burial cover. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "e136ab9d-13e9-4454-aa57-896036b0d818",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_ffp_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Initial 6-12 month waiting (accidental death only); no benefits if withdrawn in year 1; penalties for early withdrawal (25% year 2, 12.5% year 3); HIV/AIDS exclusion waived after waiting"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_ffp_005",
+      "product_name": "Family Finance Plan (FFP)"
+    },
+    "text": "Exclusions for Family Finance Plan (FFP) (ID: sanlam_ffp_005): ['Initial 6-12 month waiting (accidental death only); no benefits if withdrawn in year 1; penalties for early withdrawal (25% year 2, 12.5% year 3); HIV/AIDS exclusion waived after waiting']."
+  },
+  {
+    "chunk_id": "710ecc81-d024-4d9b-810f-96abe4e3c2e3",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_ffp_005",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Cash bonus savings plan"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_ffp_005",
+      "product_name": "Family Finance Plan (FFP)"
+    },
+    "text": "Add-ons for Family Finance Plan (FFP) (ID: sanlam_ffp_005): ['Cash bonus savings plan']."
+  },
+  {
+    "chunk_id": "9233579b-b847-4b47-a673-31ee800b6dac",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_flexipension_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_flexipension_006",
+      "product_name": "FlexiPension",
+      "category": "pensions / retirement",
+      "target_market": "individuals for retirement savings",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 75,
+      "eligibility_notes": "Minimum monthly contribution KES 1,000",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "FlexiPension (ID: sanlam_flexipension_006) is a pensions / retirement product by sanlam_001 for individuals for retirement savings. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "bae138b0-c50d-426e-b4f8-31230c42ecbe",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_flexipension_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early withdrawal penalties"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_flexipension_006",
+      "product_name": "FlexiPension"
+    },
+    "text": "Exclusions for FlexiPension (ID: sanlam_flexipension_006): ['Early withdrawal penalties']."
+  },
+  {
+    "chunk_id": "bb44acea-56fe-40df-9b38-6d946ba66a48",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_flexiannuity_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_flexiannuity_007",
+      "product_name": "FlexiAnnuity",
+      "category": "pensions / annuity",
+      "target_market": "retirees seeking income",
+      "eligibility_age_min": 50,
+      "eligibility_notes": "Lump-sum purchase from pension",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "advisors, online",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "FlexiAnnuity (ID: sanlam_flexiannuity_007) is a pensions / annuity product by sanlam_001 for retirees seeking income. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d7675395-bbab-4d90-86dc-cf38a887950d",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_flexiannuity_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early termination fees"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_flexiannuity_007",
+      "product_name": "FlexiAnnuity"
+    },
+    "text": "Exclusions for FlexiAnnuity (ID: sanlam_flexiannuity_007): ['Early termination fees']."
+  },
+  {
+    "chunk_id": "d1cfa773-3aec-493a-b2b7-8d990c705ec1",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_flexiannuity_007",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Inflation protection"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_flexiannuity_007",
+      "product_name": "FlexiAnnuity"
+    },
+    "text": "Add-ons for FlexiAnnuity (ID: sanlam_flexiannuity_007): ['Inflation protection']."
+  },
+  {
+    "chunk_id": "a20f3b42-2590-4a54-b268-2d0876a398db",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_motor_individual_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_motor_individual_008",
+      "product_name": "Individual General Insurance: Motor Cover",
+      "category": "general / motor",
+      "target_market": "private vehicle owners",
+      "eligibility_notes": "Third-party mandatory; comprehensive optional",
+      "eligibility_vehicle_age_max": 15,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers, online",
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Rising motor claims impacting premiums in 2025 (@money254HQ, Aug 2025)"
+        }
+      ],
+      "company_id": "sanlam_001"
+    },
+    "text": "Individual General Insurance: Motor Cover (ID: sanlam_motor_individual_008) is a general / motor product by sanlam_001 for private vehicle owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "b7447146-ea2f-4032-a448-2ee12a10b736",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_motor_individual_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Unlicensed drivers, drunk driving"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_motor_individual_008",
+      "product_name": "Individual General Insurance: Motor Cover"
+    },
+    "text": "Exclusions for Individual General Insurance: Motor Cover (ID: sanlam_motor_individual_008): ['Unlicensed drivers, drunk driving']."
+  },
+  {
+    "chunk_id": "8f20be6a-2880-42e8-a3db-6a215c73cbb0",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_motor_individual_008",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Roadside assistance",
+        "Windscreen"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_motor_individual_008",
+      "product_name": "Individual General Insurance: Motor Cover"
+    },
+    "text": "Add-ons for Individual General Insurance: Motor Cover (ID: sanlam_motor_individual_008): ['Roadside assistance', 'Windscreen']."
+  },
+  {
+    "chunk_id": "f163d617-2cc9-43c4-a1a0-249289c52be7",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_domestic_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_domestic_009",
+      "product_name": "Individual General Insurance: Domestic (Home / Contents / All-Risk)",
+      "category": "general / property",
+      "target_market": "homeowners, tenants",
+      "eligibility_notes": "Valuation for sum insured",
+      "eligibility_property_type": "residential",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Individual General Insurance: Domestic (Home / Contents / All-Risk) (ID: sanlam_domestic_009) is a general / property product by sanlam_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2cca5d32-0d99-46e9-8e03-7438f52635fd",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_domestic_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear, unoccupied >30 days"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_domestic_009",
+      "product_name": "Individual General Insurance: Domestic (Home / Contents / All-Risk)"
+    },
+    "text": "Exclusions for Individual General Insurance: Domestic (Home / Contents / All-Risk) (ID: sanlam_domestic_009): ['Wear and tear, unoccupied >30 days']."
+  },
+  {
+    "chunk_id": "bf47ee6c-5e77-4425-b19f-a53fc106b6f9",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_domestic_009",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Portable all-risk"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_domestic_009",
+      "product_name": "Individual General Insurance: Domestic (Home / Contents / All-Risk)"
+    },
+    "text": "Add-ons for Individual General Insurance: Domestic (Home / Contents / All-Risk) (ID: sanlam_domestic_009): ['Portable all-risk']."
+  },
+  {
+    "chunk_id": "f9dbf631-78b6-404e-9940-ebdaa96f47a0",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_fire_perils_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_fire_perils_010",
+      "product_name": "Business / Corporate General Insurance: Fire & Perils",
+      "category": "general / property",
+      "target_market": "businesses for property protection",
+      "eligibility_notes": "Commercial property valuation",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, corporate sales",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Business / Corporate General Insurance: Fire & Perils (ID: sanlam_fire_perils_010) is a general / property product by sanlam_001 for businesses for property protection. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "22537f22-3232-4c6a-828e-c18df8209ca2",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_fire_perils_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "War, nuclear risks"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_fire_perils_010",
+      "product_name": "Business / Corporate General Insurance: Fire & Perils"
+    },
+    "text": "Exclusions for Business / Corporate General Insurance: Fire & Perils (ID: sanlam_fire_perils_010): ['War, nuclear risks']."
+  },
+  {
+    "chunk_id": "c5e40773-3fe3-4154-b2cb-1e711b18dee9",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_fire_perils_010",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Business interruption extension"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_fire_perils_010",
+      "product_name": "Business / Corporate General Insurance: Fire & Perils"
+    },
+    "text": "Add-ons for Business / Corporate General Insurance: Fire & Perils (ID: sanlam_fire_perils_010): ['Business interruption extension']."
+  },
+  {
+    "chunk_id": "f2e5191d-fc70-48b3-9049-9fabcc6f16a4",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_business_interruption_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_business_interruption_011",
+      "product_name": "Business / Corporate General Insurance: Business Interruption",
+      "category": "general / business",
+      "target_market": "businesses for income loss",
+      "eligibility_notes": "Linked to fire/perils policy",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Business / Corporate General Insurance: Business Interruption (ID: sanlam_business_interruption_011) is a general / business product by sanlam_001 for businesses for income loss. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d25a2e61-ecb3-488a-9770-7acce023331b",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_business_interruption_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Uninsured perils"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_business_interruption_011",
+      "product_name": "Business / Corporate General Insurance: Business Interruption"
+    },
+    "text": "Exclusions for Business / Corporate General Insurance: Business Interruption (ID: sanlam_business_interruption_011): ['Uninsured perils']."
+  },
+  {
+    "chunk_id": "d6781015-0b95-4006-ac04-b7ff98835760",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_burglary_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_burglary_012",
+      "product_name": "Corporate General Insurance: Burglary",
+      "category": "general / property",
+      "target_market": "businesses for theft protection",
+      "eligibility_notes": "Evidence of security measures",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: Burglary (ID: sanlam_burglary_012) is a general / property product by sanlam_001 for businesses for theft protection. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "51cf5deb-3e29-4d32-87ee-e251b4dcde75",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_burglary_012",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Theft without force"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_burglary_012",
+      "product_name": "Corporate General Insurance: Burglary"
+    },
+    "text": "Exclusions for Corporate General Insurance: Burglary (ID: sanlam_burglary_012): ['Theft without force']."
+  },
+  {
+    "chunk_id": "fedf29c0-8ae9-494f-b2ec-ffe1ce2be014",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_burglary_012",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Fidelity extension"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_burglary_012",
+      "product_name": "Corporate General Insurance: Burglary"
+    },
+    "text": "Add-ons for Corporate General Insurance: Burglary (ID: sanlam_burglary_012): ['Fidelity extension']."
+  },
+  {
+    "chunk_id": "7707810b-5102-4d07-bd93-3fe11d582474",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_all_risk_corporate_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_all_risk_corporate_013",
+      "product_name": "Corporate General Insurance: All-Risk",
+      "category": "general / property",
+      "target_market": "businesses for broad asset cover",
+      "eligibility_notes": "For specified property",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: All-Risk (ID: sanlam_all_risk_corporate_013) is a general / property product by sanlam_001 for businesses for broad asset cover. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "9a3b56ec-5484-4893-90b7-7cea21b6bfbc",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_all_risk_corporate_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear/tear, consequential loss"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_all_risk_corporate_013",
+      "product_name": "Corporate General Insurance: All-Risk"
+    },
+    "text": "Exclusions for Corporate General Insurance: All-Risk (ID: sanlam_all_risk_corporate_013): ['Wear/tear, consequential loss']."
+  },
+  {
+    "chunk_id": "d918d10c-2cef-41e7-8688-759764ceb4eb",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_fidelity_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_fidelity_014",
+      "product_name": "Corporate General Insurance: Fidelity Guarantee",
+      "category": "general / fidelity",
+      "target_market": "businesses for employee dishonesty",
+      "eligibility_notes": "For employees handling money/goods",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: Fidelity Guarantee (ID: sanlam_fidelity_014) is a general / fidelity product by sanlam_001 for businesses for employee dishonesty. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "2ec87960-b997-4225-af51-97a1e5e2e9c0",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_fidelity_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Indirect losses"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_fidelity_014",
+      "product_name": "Corporate General Insurance: Fidelity Guarantee"
+    },
+    "text": "Exclusions for Corporate General Insurance: Fidelity Guarantee (ID: sanlam_fidelity_014): ['Indirect losses']."
+  },
+  {
+    "chunk_id": "cff0d1d7-bb33-44c4-ae04-f62a92b9f300",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_electronic_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_electronic_015",
+      "product_name": "Corporate General Insurance: Electronic Equipment Cover",
+      "category": "general / equipment",
+      "target_market": "businesses with electronic assets",
+      "eligibility_notes": "For computers, machinery",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: Electronic Equipment Cover (ID: sanlam_electronic_015) is a general / equipment product by sanlam_001 for businesses with electronic assets. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "0873271b-e035-4094-be20-73100924a4bd",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_electronic_015",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear, gradual deterioration"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_electronic_015",
+      "product_name": "Corporate General Insurance: Electronic Equipment Cover"
+    },
+    "text": "Exclusions for Corporate General Insurance: Electronic Equipment Cover (ID: sanlam_electronic_015): ['Wear, gradual deterioration']."
+  },
+  {
+    "chunk_id": "fa39d6af-012e-4c9c-93c4-ad3a7375ae4c",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_product_liability_016",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_product_liability_016",
+      "product_name": "Corporate General Insurance: Product Liability",
+      "category": "general / liability",
+      "target_market": "manufacturers, sellers",
+      "eligibility_notes": "For defective products",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: Product Liability (ID: sanlam_product_liability_016) is a general / liability product by sanlam_001 for manufacturers, sellers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f1cfc958-21a3-48b4-b739-0fc9b684c4d5",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_product_liability_016",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional acts"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_product_liability_016",
+      "product_name": "Corporate General Insurance: Product Liability"
+    },
+    "text": "Exclusions for Corporate General Insurance: Product Liability (ID: sanlam_product_liability_016): ['Intentional acts']."
+  },
+  {
+    "chunk_id": "f568350f-11de-44df-bf65-1ae66664b197",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_plate_glass_017",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_plate_glass_017",
+      "product_name": "Corporate General Insurance: Plate Glass",
+      "category": "general / property",
+      "target_market": "businesses with glass installations",
+      "eligibility_notes": "Fixed glass in premises",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: Plate Glass (ID: sanlam_plate_glass_017) is a general / property product by sanlam_001 for businesses with glass installations. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "78586d4c-e044-4f5d-b094-46b92eeecf07",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_plate_glass_017",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear, intentional damage"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_plate_glass_017",
+      "product_name": "Corporate General Insurance: Plate Glass"
+    },
+    "text": "Exclusions for Corporate General Insurance: Plate Glass (ID: sanlam_plate_glass_017): ['Wear, intentional damage']."
+  },
+  {
+    "chunk_id": "f27b43a4-d3c5-4bd5-9743-beaa1f12e83d",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_plate_glass_017",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Framework cover"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_plate_glass_017",
+      "product_name": "Corporate General Insurance: Plate Glass"
+    },
+    "text": "Add-ons for Corporate General Insurance: Plate Glass (ID: sanlam_plate_glass_017): ['Framework cover']."
+  },
+  {
+    "chunk_id": "93586b91-f8a0-4cdd-ae35-72b095890515",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_wiba_018",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_wiba_018",
+      "product_name": "Corporate General Insurance: Work Injury Benefits Act (WIBA) Cover",
+      "category": "general / liability",
+      "target_market": "employers for statutory compliance",
+      "eligibility_notes": "Mandatory for all employers",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: Work Injury Benefits Act (WIBA) Cover (ID: sanlam_wiba_018) is a general / liability product by sanlam_001 for employers for statutory compliance. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "a2b6bc8c-689d-4d6a-a24a-e845275bfd57",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_wiba_018",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-work related"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_wiba_018",
+      "product_name": "Corporate General Insurance: Work Injury Benefits Act (WIBA) Cover"
+    },
+    "text": "Exclusions for Corporate General Insurance: Work Injury Benefits Act (WIBA) Cover (ID: sanlam_wiba_018): ['Non-work related']."
+  },
+  {
+    "chunk_id": "bac8b0f8-d445-4aff-859f-72758c33c564",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_wiba_018",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Employers liability extension"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_wiba_018",
+      "product_name": "Corporate General Insurance: Work Injury Benefits Act (WIBA) Cover"
+    },
+    "text": "Add-ons for Corporate General Insurance: Work Injury Benefits Act (WIBA) Cover (ID: sanlam_wiba_018): ['Employers liability extension']."
+  },
+  {
+    "chunk_id": "3acfc0d0-e692-40b5-89e0-a21ec726612d",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_d_o_019",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_d_o_019",
+      "product_name": "Corporate General Insurance: Directors and Officers Cover",
+      "category": "general / liability",
+      "target_market": "companies for executive protection",
+      "eligibility_notes": "For wrongful acts in official capacity",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: Directors and Officers Cover (ID: sanlam_d_o_019) is a general / liability product by sanlam_001 for companies for executive protection. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "25f39146-e118-4980-8f5c-89efdcc29373",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_d_o_019",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Intentional fraud"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_d_o_019",
+      "product_name": "Corporate General Insurance: Directors and Officers Cover"
+    },
+    "text": "Exclusions for Corporate General Insurance: Directors and Officers Cover (ID: sanlam_d_o_019): ['Intentional fraud']."
+  },
+  {
+    "chunk_id": "97be8d85-e98d-4522-8d9e-707265e41fa4",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_commercial_motor_020",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "sanlam_commercial_motor_020",
+      "product_name": "Corporate General Insurance: Commercial Motor",
+      "category": "general / motor",
+      "target_market": "fleet operators, commercial vehicles",
+      "eligibility_notes": "Own goods or cartage",
+      "eligibility_vehicle_type": "commercial",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, corporate",
+      "customer_reviews": [],
+      "company_id": "sanlam_001"
+    },
+    "text": "Corporate General Insurance: Commercial Motor (ID: sanlam_commercial_motor_020) is a general / motor product by sanlam_001 for fleet operators, commercial vehicles. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ec2cc924-bb28-486b-8ba1-fa0bb3d64d1e",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_commercial_motor_020",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_commercial_motor_020",
+      "product_name": "Corporate General Insurance: Commercial Motor"
+    },
+    "text": "Exclusions for Corporate General Insurance: Commercial Motor (ID: sanlam_commercial_motor_020): ['Non-commercial use']."
+  },
+  {
+    "chunk_id": "ce7e2abf-c216-400f-bb1f-a9e02c4fb43a",
+    "company_id": "sanlam_001",
+    "product_id": "sanlam_commercial_motor_020",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Goods cover"
+      ],
+      "company_id": "sanlam_001",
+      "product_id": "sanlam_commercial_motor_020",
+      "product_name": "Corporate General Insurance: Commercial Motor"
+    },
+    "text": "Add-ons for Corporate General Insurance: Commercial Motor (ID: sanlam_commercial_motor_020): ['Goods cover']."
+  }
+]

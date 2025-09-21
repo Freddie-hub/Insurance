@@ -1,0 +1,895 @@
+[
+  {
+    "chunk_id": "177e4678-95a5-4429-8cb7-a5e881d2b0e2",
+    "company_id": "icealion_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "icealion_001",
+      "company_name": "ICEA LION Group",
+      "company_type": "composite (general, life, health, investments, pensions, trusts)",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/12/004/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published January 2025",
+      "headquarters": "ICEA LION Centre, Riverside Park, Chiromo Road, Westlands, P.O. Box 30190-00100, Nairobi, Kenya",
+      "digital_presence_website": "https://icealion.co.ke",
+      "digital_presence_customer_portal": "https://selfservice.icealion.com",
+      "digital_presence_mobile_app": true,
+      "digital_presence_mobile_app_store_links_google_play": "https://play.google.com/store/apps/details?id=com.icealion.clientsapp",
+      "digital_presence_mobile_app_store_links_app_store": "Not specified",
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "Partner integrations available; self-service portal for clients",
+      "reputation_claims_settlement_ratio": "High claims settlement record; unmatched per industry feedback (2024 GCR Ratings: AAA(KE) stable outlook)",
+      "reputation_customer_complaints": "Not publicly detailed; positive for innovation and service",
+      "reputation_customer_rating": "Strong reputation for reliability and customer service; trusted in East Africa",
+      "reputation_notes": "Over 130 years experience; leading insurer in Kenya with focus on innovation (e.g., first stand-alone cancer cover). X and LinkedIn sentiment highlights professional service and quick claims.",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "ICEA LION Group is a composite (general, life, health, investments, pensions, trusts) company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/12/004/2025. Headquarters: ICEA LION Centre, Riverside Park, Chiromo Road, Westlands, P.O. Box 30190-00100, Nairobi, Kenya. Website: https://icealion.co.ke. Customer rating: Strong reputation for reliability and customer service; trusted in East Africa, Claims settlement ratio: High claims settlement record; unmatched per industry feedback (2024 GCR Ratings: AAA(KE) stable outlook)."
+  },
+  {
+    "chunk_id": "ed82a755-63d3-4daa-915c-769cc9f140cf",
+    "company_id": "icealion_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "ICEA LION Centre, Riverside Park, Chiromo Road, Westlands, Nairobi",
+      "phone": "+254 20 275 0000, +254 719 071 999, +254 730 151 000",
+      "email": "contactcentre@icealion.com",
+      "company_id": "icealion_001",
+      "branch_id": "icealion_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: icealion_001_branch_001) of icealion_001 is located at ICEA LION Centre, Riverside Park, Chiromo Road, Westlands, Nairobi. Contact phones: +254 20 275 0000, +254 719 071 999, +254 730 151 000. Email: contactcentre@icealion.com."
+  },
+  {
+    "chunk_id": "76e4ea5c-4424-4792-b3e1-c65b05c0ec27",
+    "company_id": "icealion_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "NSSF Building, 3rd Floor, Nkrumah Road, Mombasa",
+      "phone": "+254 41 231 2345",
+      "company_id": "icealion_001",
+      "branch_id": "icealion_001_branch_002"
+    },
+    "text": "Branch Mombasa Branch (ID: icealion_001_branch_002) of icealion_001 is located at NSSF Building, 3rd Floor, Nkrumah Road, Mombasa. Contact phones: +254 41 231 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "d924c4a5-8cf5-45f8-8f18-aee28b587d46",
+    "company_id": "icealion_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Oginga Odinga Road, Kisumu",
+      "phone": "+254 57 202 1234",
+      "company_id": "icealion_001",
+      "branch_id": "icealion_001_branch_003"
+    },
+    "text": "Branch Kisumu Branch (ID: icealion_001_branch_003) of icealion_001 is located at Oginga Odinga Road, Kisumu. Contact phones: +254 57 202 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "31f1d01c-3856-46ee-a15c-b42ecacef62c",
+    "company_id": "icealion_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Zimmerman Building, Eldoret",
+      "phone": "+254 53 206 1234",
+      "company_id": "icealion_001",
+      "branch_id": "icealion_001_branch_004"
+    },
+    "text": "Branch Eldoret Branch (ID: icealion_001_branch_004) of icealion_001 is located at Zimmerman Building, Eldoret. Contact phones: +254 53 206 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "a8f8d349-d5df-46fa-a2d8-a18020badd7f",
+    "company_id": "icealion_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "Kenya Power Building, Kenyatta Avenue, Nakuru",
+      "phone": "+254 51 221 1234",
+      "company_id": "icealion_001",
+      "branch_id": "icealion_001_branch_005"
+    },
+    "text": "Branch Nakuru Branch (ID: icealion_001_branch_005) of icealion_001 is located at Kenya Power Building, Kenyatta Avenue, Nakuru. Contact phones: +254 51 221 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "25a13c9f-29e3-4c7f-a43a-7973c47266a0",
+    "company_id": "icealion_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nyeri Branch",
+      "address": "Kenyatta Road, Nyeri",
+      "phone": "+254 61 203 1234",
+      "company_id": "icealion_001",
+      "branch_id": "icealion_001_branch_006"
+    },
+    "text": "Branch Nyeri Branch (ID: icealion_001_branch_006) of icealion_001 is located at Kenyatta Road, Nyeri. Contact phones: +254 61 203 1234. Email: N/A."
+  },
+  {
+    "chunk_id": "7af82f11-679f-4fd8-b822-771163e099a6",
+    "company_id": "icealion_001",
+    "product_id": "icealion_usomi_bora_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_usomi_bora_001",
+      "product_name": "Usomi Bora",
+      "category": "insurance / protection / education",
+      "target_market": "parents, guardians for children's education",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 25,
+      "eligibility_notes": "Flexible terms; minimum premium KES 2,000/month",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [
+        {
+          "source": "StepByStep Insurance",
+          "comment": "Robust, flexible, affordable for education planning (2025)"
+        }
+      ],
+      "company_id": "icealion_001"
+    },
+    "text": "Usomi Bora (ID: icealion_usomi_bora_001) is a insurance / protection / education product by icealion_001 for parents, guardians for children's education. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "92fa72d7-8dd7-4b2b-ab07-dac4ac9f6e65",
+    "company_id": "icealion_001",
+    "product_id": "icealion_usomi_bora_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Policy lapse",
+        "Suicide within 2 years"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_usomi_bora_001",
+      "product_name": "Usomi Bora"
+    },
+    "text": "Exclusions for Usomi Bora (ID: icealion_usomi_bora_001): ['Policy lapse', 'Suicide within 2 years']."
+  },
+  {
+    "chunk_id": "57e8e587-1bfd-4cc6-b245-e2a0e61d4ffc",
+    "company_id": "icealion_001",
+    "product_id": "icealion_usomi_bora_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Investment growth"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_usomi_bora_001",
+      "product_name": "Usomi Bora"
+    },
+    "text": "Add-ons for Usomi Bora (ID: icealion_usomi_bora_001): ['Investment growth']."
+  },
+  {
+    "chunk_id": "693987cb-7353-4864-99c7-3f56e9df0b1c",
+    "company_id": "icealion_001",
+    "product_id": "icealion_endowment_profits_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_endowment_profits_002",
+      "product_name": "Endowment With Profits",
+      "category": "insurance / protection / savings",
+      "target_market": "individuals for long-term savings and protection",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Minimum term 10 years",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Endowment With Profits (ID: icealion_endowment_profits_002) is a insurance / protection / savings product by icealion_001 for individuals for long-term savings and protection. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "4e3dcc9b-0d64-4659-b0f9-09d40c1b776b",
+    "company_id": "icealion_001",
+    "product_id": "icealion_endowment_profits_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early surrender penalties"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_endowment_profits_002",
+      "product_name": "Endowment With Profits"
+    },
+    "text": "Exclusions for Endowment With Profits (ID: icealion_endowment_profits_002): ['Early surrender penalties']."
+  },
+  {
+    "chunk_id": "bd80dde7-64c7-478b-9bef-477e6db56a0f",
+    "company_id": "icealion_001",
+    "product_id": "icealion_vata_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_vata_003",
+      "product_name": "Value Added Term Assurance",
+      "category": "insurance / protection / term life",
+      "target_market": "individuals, families for financial security",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Term 5–20 years",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Value Added Term Assurance (ID: icealion_vata_003) is a insurance / protection / term life product by icealion_001 for individuals, families for financial security. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ca2865d4-9a41-4dd0-9795-7aac9572d42a",
+    "company_id": "icealion_001",
+    "product_id": "icealion_vata_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Suicide within 2 years",
+        "Non-disclosure"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_vata_003",
+      "product_name": "Value Added Term Assurance"
+    },
+    "text": "Exclusions for Value Added Term Assurance (ID: icealion_vata_003): ['Suicide within 2 years', 'Non-disclosure']."
+  },
+  {
+    "chunk_id": "07c388e4-5513-463f-90dd-6822772587b8",
+    "company_id": "icealion_001",
+    "product_id": "icealion_vata_003",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Disability",
+        "Funeral"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_vata_003",
+      "product_name": "Value Added Term Assurance"
+    },
+    "text": "Add-ons for Value Added Term Assurance (ID: icealion_vata_003): ['Disability', 'Funeral']."
+  },
+  {
+    "chunk_id": "b08f577a-2342-44f2-a52b-0f9df462c383",
+    "company_id": "icealion_001",
+    "product_id": "icealion_motor_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_motor_004",
+      "product_name": "Motor Insurance",
+      "category": "insurance / protection / motor",
+      "target_market": "vehicle owners (private, commercial)",
+      "eligibility_notes": "Mandatory third-party; comprehensive optional",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online portal, agents",
+      "customer_reviews": [
+        {
+          "source": "Business Radar",
+          "comment": "Reliable motor cover with quick claims (2025)"
+        }
+      ],
+      "company_id": "icealion_001"
+    },
+    "text": "Motor Insurance (ID: icealion_motor_004) is a insurance / protection / motor product by icealion_001 for vehicle owners (private, commercial). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "ae911b94-e589-4653-98f6-6ad8408ca173",
+    "company_id": "icealion_001",
+    "product_id": "icealion_motor_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Unlicensed drivers",
+        "Wear and tear"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_motor_004",
+      "product_name": "Motor Insurance"
+    },
+    "text": "Exclusions for Motor Insurance (ID: icealion_motor_004): ['Unlicensed drivers', 'Wear and tear']."
+  },
+  {
+    "chunk_id": "a3bb6ffb-5608-4414-93df-be00f1a0260e",
+    "company_id": "icealion_001",
+    "product_id": "icealion_motor_004",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Roadside assistance"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_motor_004",
+      "product_name": "Motor Insurance"
+    },
+    "text": "Add-ons for Motor Insurance (ID: icealion_motor_004): ['Roadside assistance']."
+  },
+  {
+    "chunk_id": "45763736-b9ad-4dbe-9f8b-409ed2ce53aa",
+    "company_id": "icealion_001",
+    "product_id": "icealion_travel_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_travel_005",
+      "product_name": "Travel Insurance",
+      "category": "insurance / protection / travel",
+      "target_market": "travellers (business, leisure)",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Per-trip or annual multi-trip",
+      "geographic_coverage": "Worldwide",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Travel Insurance (ID: icealion_travel_005) is a insurance / protection / travel product by icealion_001 for travellers (business, leisure). Geographic coverage: Worldwide."
+  },
+  {
+    "chunk_id": "86a42398-2f19-41a1-a26b-247614a8b97e",
+    "company_id": "icealion_001",
+    "product_id": "icealion_travel_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing conditions",
+        "War zones"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_travel_005",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Exclusions for Travel Insurance (ID: icealion_travel_005): ['Pre-existing conditions', 'War zones']."
+  },
+  {
+    "chunk_id": "a1462e7b-4867-48e4-ae20-9c1f12a65d38",
+    "company_id": "icealion_001",
+    "product_id": "icealion_travel_005",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Adventure sports"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_travel_005",
+      "product_name": "Travel Insurance"
+    },
+    "text": "Add-ons for Travel Insurance (ID: icealion_travel_005): ['Adventure sports']."
+  },
+  {
+    "chunk_id": "fce541bb-657b-4c59-93fd-ceb0a27f6011",
+    "company_id": "icealion_001",
+    "product_id": "icealion_home_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_home_006",
+      "product_name": "Home Insurance",
+      "category": "insurance / protection / property",
+      "target_market": "homeowners, tenants",
+      "eligibility_notes": "Domestic package",
+      "eligibility_property_type": "residential",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Home Insurance (ID: icealion_home_006) is a insurance / protection / property product by icealion_001 for homeowners, tenants. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "50980914-394a-4a42-85af-7b4779a4aae6",
+    "company_id": "icealion_001",
+    "product_id": "icealion_home_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear",
+        "Unoccupied >30 days"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_home_006",
+      "product_name": "Home Insurance"
+    },
+    "text": "Exclusions for Home Insurance (ID: icealion_home_006): ['Wear and tear', 'Unoccupied >30 days']."
+  },
+  {
+    "chunk_id": "9653f794-f1e4-4dc6-9912-657c3300a34a",
+    "company_id": "icealion_001",
+    "product_id": "icealion_home_006",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "All-risk portable items"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_home_006",
+      "product_name": "Home Insurance"
+    },
+    "text": "Add-ons for Home Insurance (ID: icealion_home_006): ['All-risk portable items']."
+  },
+  {
+    "chunk_id": "dd5d25bf-7b22-414e-85db-3906342b05d4",
+    "company_id": "icealion_001",
+    "product_id": "icealion_cancer_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_cancer_007",
+      "product_name": "Cancer Insurance (stand-alone)",
+      "category": "insurance / protection / health",
+      "target_market": "individuals 18-59 cancer-free for 1 year",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 59,
+      "eligibility_notes": "Expires at 65",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [
+        {
+          "source": "Business Daily",
+          "comment": "First stand-alone cancer cover; affordable relief (2020, ongoing)"
+        }
+      ],
+      "company_id": "icealion_001"
+    },
+    "text": "Cancer Insurance (stand-alone) (ID: icealion_cancer_007) is a insurance / protection / health product by icealion_001 for individuals 18-59 cancer-free for 1 year. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8cf8c551-106e-4249-9679-0a2d72d691aa",
+    "company_id": "icealion_001",
+    "product_id": "icealion_cancer_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing cancer"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_cancer_007",
+      "product_name": "Cancer Insurance (stand-alone)"
+    },
+    "text": "Exclusions for Cancer Insurance (stand-alone) (ID: icealion_cancer_007): ['Pre-existing cancer']."
+  },
+  {
+    "chunk_id": "405d0ab9-2cfa-4d4c-b5f6-8c6e4f0d317c",
+    "company_id": "icealion_001",
+    "product_id": "icealion_motor_warranty_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_motor_warranty_008",
+      "product_name": "Motor Extended Warranty",
+      "category": "insurance / protection / motor add-on",
+      "target_market": "new/used vehicle owners",
+      "eligibility_notes": "Post-manufacturer warranty",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "brokers, dealers",
+      "customer_reviews": [
+        {
+          "source": "Business Now",
+          "comment": "Game-changer for unexpected repairs (2025)"
+        }
+      ],
+      "company_id": "icealion_001"
+    },
+    "text": "Motor Extended Warranty (ID: icealion_motor_warranty_008) is a insurance / protection / motor add-on product by icealion_001 for new/used vehicle owners. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "1ee52324-dfc4-4df6-9ba5-22bd348f1693",
+    "company_id": "icealion_001",
+    "product_id": "icealion_motor_warranty_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Wear and tear"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_motor_warranty_008",
+      "product_name": "Motor Extended Warranty"
+    },
+    "text": "Exclusions for Motor Extended Warranty (ID: icealion_motor_warranty_008): ['Wear and tear']."
+  },
+  {
+    "chunk_id": "681d9425-961a-4aca-ad57-cbb4517753e6",
+    "company_id": "icealion_001",
+    "product_id": "icealion_money_market_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_money_market_009",
+      "product_name": "Money Market Fund",
+      "category": "investment",
+      "target_market": "low-risk savers seeking liquidity",
+      "eligibility_notes": "No max; daily liquidity",
+      "eligibility_min_investment": 500,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [
+        {
+          "source": "Fintech News",
+          "comment": "Reliable low-risk option (2025)"
+        }
+      ],
+      "company_id": "icealion_001"
+    },
+    "text": "Money Market Fund (ID: icealion_money_market_009) is a investment product by icealion_001 for low-risk savers seeking liquidity. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "4e3d4562-a06c-410d-9c33-1bdaa425ad8e",
+    "company_id": "icealion_001",
+    "product_id": "icealion_money_market_009",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "No guaranteed yield"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_money_market_009",
+      "product_name": "Money Market Fund"
+    },
+    "text": "Exclusions for Money Market Fund (ID: icealion_money_market_009): ['No guaranteed yield']."
+  },
+  {
+    "chunk_id": "200cb027-6c5d-4670-ace1-f7310a5143a3",
+    "company_id": "icealion_001",
+    "product_id": "icealion_pwm_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_pwm_010",
+      "product_name": "Private Wealth Management",
+      "category": "investment",
+      "target_market": "high-net-worth individuals, trusts, institutions",
+      "eligibility_notes": "Tailored portfolios",
+      "eligibility_min_investment": 5000000,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "advisors",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Private Wealth Management (ID: icealion_pwm_010) is a investment product by icealion_001 for high-net-worth individuals, trusts, institutions. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "48b52699-ffbf-4c78-9df4-593648816d48",
+    "company_id": "icealion_001",
+    "product_id": "icealion_pwm_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Market risks"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_pwm_010",
+      "product_name": "Private Wealth Management"
+    },
+    "text": "Exclusions for Private Wealth Management (ID: icealion_pwm_010): ['Market risks']."
+  },
+  {
+    "chunk_id": "ce4dac99-b941-4508-8e54-5d728ecb04f6",
+    "company_id": "icealion_001",
+    "product_id": "icealion_pwm_010",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Single or balanced portfolios"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_pwm_010",
+      "product_name": "Private Wealth Management"
+    },
+    "text": "Add-ons for Private Wealth Management (ID: icealion_pwm_010): ['Single or balanced portfolios']."
+  },
+  {
+    "chunk_id": "2662491f-eddc-4f82-8a27-ea8bbc44907b",
+    "company_id": "icealion_001",
+    "product_id": "icealion_prs_011",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_prs_011",
+      "product_name": "Personal Retirement Scheme (PRS)",
+      "category": "retirement / pensions",
+      "target_market": "individuals for retirement savings",
+      "eligibility_age_min": 18,
+      "eligibility_age_max": 75,
+      "eligibility_notes": "Min contribution KES 1,000",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Personal Retirement Scheme (PRS) (ID: icealion_prs_011) is a retirement / pensions product by icealion_001 for individuals for retirement savings. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "582dfbb4-2929-4048-ad20-a9d45e01fcf5",
+    "company_id": "icealion_001",
+    "product_id": "icealion_prs_011",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early withdrawal penalties"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_prs_011",
+      "product_name": "Personal Retirement Scheme (PRS)"
+    },
+    "text": "Exclusions for Personal Retirement Scheme (PRS) (ID: icealion_prs_011): ['Early withdrawal penalties']."
+  },
+  {
+    "chunk_id": "454160c8-97ff-42f6-a3bc-92264d4ef431",
+    "company_id": "icealion_001",
+    "product_id": "icealion_umbrella_012",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_umbrella_012",
+      "product_name": "Umbrella Retirement Benefits Scheme",
+      "category": "retirement / pensions / group",
+      "target_market": "SMEs, small employers (min 2 employees)",
+      "eligibility_notes": "Multi-employer scheme",
+      "eligibility_group_min_size": 2,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate sales",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Umbrella Retirement Benefits Scheme (ID: icealion_umbrella_012) is a retirement / pensions / group product by icealion_001 for SMEs, small employers (min 2 employees). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "cc8d9ded-2bf1-498b-a3fb-a114967db924",
+    "company_id": "icealion_001",
+    "product_id": "icealion_annuity_013",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_annuity_013",
+      "product_name": "Annuity",
+      "category": "retirement / pensions",
+      "target_market": "retirees seeking steady income",
+      "eligibility_age_min": 50,
+      "eligibility_notes": "Lump-sum purchase",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "advisors",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Annuity (ID: icealion_annuity_013) is a retirement / pensions product by icealion_001 for retirees seeking steady income. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "f154b69a-d950-4cdb-b42a-dc5a08fe7e11",
+    "company_id": "icealion_001",
+    "product_id": "icealion_annuity_013",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early termination penalties"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_annuity_013",
+      "product_name": "Annuity"
+    },
+    "text": "Exclusions for Annuity (ID: icealion_annuity_013): ['Early termination penalties']."
+  },
+  {
+    "chunk_id": "cf66c6d3-387d-4b64-bb5f-9810000cad13",
+    "company_id": "icealion_001",
+    "product_id": "icealion_annuity_013",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Joint life options"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_annuity_013",
+      "product_name": "Annuity"
+    },
+    "text": "Add-ons for Annuity (ID: icealion_annuity_013): ['Joint life options']."
+  },
+  {
+    "chunk_id": "622a7295-272b-4dce-b305-09746a9e84cd",
+    "company_id": "icealion_001",
+    "product_id": "icealion_income_drawdown_014",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_income_drawdown_014",
+      "product_name": "Income Drawdown Fund",
+      "category": "retirement / pensions",
+      "target_market": "pensioners preferring flexibility",
+      "eligibility_age_min": 50,
+      "eligibility_notes": "Lump-sum deposit",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Income Drawdown Fund (ID: icealion_income_drawdown_014) is a retirement / pensions product by icealion_001 for pensioners preferring flexibility. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "33795d3d-a86e-4125-8b30-1bd88c366fee",
+    "company_id": "icealion_001",
+    "product_id": "icealion_income_drawdown_014",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "RBA withdrawal limits"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_income_drawdown_014",
+      "product_name": "Income Drawdown Fund"
+    },
+    "text": "Exclusions for Income Drawdown Fund (ID: icealion_income_drawdown_014): ['RBA withdrawal limits']."
+  },
+  {
+    "chunk_id": "612fb01e-a758-4976-aa85-8d7f1d3a72f3",
+    "company_id": "icealion_001",
+    "product_id": "icealion_scheme_admin_015",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_scheme_admin_015",
+      "product_name": "Scheme Administration",
+      "category": "retirement / pensions / services",
+      "target_market": "pension schemes, employers",
+      "eligibility_notes": "For registered schemes",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Scheme Administration (ID: icealion_scheme_admin_015) is a retirement / pensions / services product by icealion_001 for pension schemes, employers. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "e8bdf257-1443-40c9-871c-4cac7696fc9b",
+    "company_id": "icealion_001",
+    "product_id": "icealion_training_consult_016",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_training_consult_016",
+      "product_name": "Training and Consultation",
+      "category": "retirement / pensions / services",
+      "target_market": "trustees, scheme members",
+      "eligibility_notes": "Custom programs",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Training and Consultation (ID: icealion_training_consult_016) is a retirement / pensions / services product by icealion_001 for trustees, scheme members. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "143778ef-2261-4089-a826-07a8c1c03d6b",
+    "company_id": "icealion_001",
+    "product_id": "icealion_fund_mgmt_017",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_fund_mgmt_017",
+      "product_name": "Fund Management",
+      "category": "investment / services",
+      "target_market": "institutions, high-net-worth",
+      "eligibility_notes": "Professional management",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "advisors",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Fund Management (ID: icealion_fund_mgmt_017) is a investment / services product by icealion_001 for institutions, high-net-worth. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "4df2bb66-a8ef-45ef-ae8e-1fc4c9a3446d",
+    "company_id": "icealion_001",
+    "product_id": "icealion_fund_mgmt_017",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Market risks"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_fund_mgmt_017",
+      "product_name": "Fund Management"
+    },
+    "text": "Exclusions for Fund Management (ID: icealion_fund_mgmt_017): ['Market risks']."
+  },
+  {
+    "chunk_id": "65d4f856-c111-42f3-ace3-0ea889fb20e2",
+    "company_id": "icealion_001",
+    "product_id": "icealion_milele_trust_018",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_milele_trust_018",
+      "product_name": "Milele Trust Fund",
+      "category": "trusts / estate",
+      "target_market": "individuals for legacy planning",
+      "eligibility_notes": "Set up alive or posthumous",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "trust advisors",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Milele Trust Fund (ID: icealion_milele_trust_018) is a trusts / estate product by icealion_001 for individuals for legacy planning. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "dabb2901-0658-49fd-922c-bb671aa4ad30",
+    "company_id": "icealion_001",
+    "product_id": "icealion_milele_trust_018",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-compliant wishes"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_milele_trust_018",
+      "product_name": "Milele Trust Fund"
+    },
+    "text": "Exclusions for Milele Trust Fund (ID: icealion_milele_trust_018): ['Non-compliant wishes']."
+  },
+  {
+    "chunk_id": "62cc821f-68d1-462b-9343-7129dac033d2",
+    "company_id": "icealion_001",
+    "product_id": "icealion_milele_trust_018",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Revocable options"
+      ],
+      "company_id": "icealion_001",
+      "product_id": "icealion_milele_trust_018",
+      "product_name": "Milele Trust Fund"
+    },
+    "text": "Add-ons for Milele Trust Fund (ID: icealion_milele_trust_018): ['Revocable options']."
+  },
+  {
+    "chunk_id": "34c68443-6217-4fb5-a26d-4ceef0151a73",
+    "company_id": "icealion_001",
+    "product_id": "icealion_estate_planning_019",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_estate_planning_019",
+      "product_name": "Estate Planning",
+      "category": "trusts / estate / services",
+      "target_market": "high-net-worth individuals",
+      "eligibility_notes": "Comprehensive legacy advice",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "advisors",
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Key for safeguarding legacy (2025)"
+        }
+      ],
+      "company_id": "icealion_001"
+    },
+    "text": "Estate Planning (ID: icealion_estate_planning_019) is a trusts / estate / services product by icealion_001 for high-net-worth individuals. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "6fc7b869-6984-42f2-b18a-44e1b6c41df5",
+    "company_id": "icealion_001",
+    "product_id": "icealion_corporate_trusteeship_020",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "icealion_corporate_trusteeship_020",
+      "product_name": "Corporate Trusteeship",
+      "category": "trusts / estate / services",
+      "target_market": "schemes, private trusts",
+      "eligibility_notes": "For retirement schemes, estates",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate",
+      "customer_reviews": [],
+      "company_id": "icealion_001"
+    },
+    "text": "Corporate Trusteeship (ID: icealion_corporate_trusteeship_020) is a trusts / estate / services product by icealion_001 for schemes, private trusts. Geographic coverage: Kenya."
+  }
+]

@@ -112,3 +112,24 @@
 2025-09-21 14:07:48,210 - INFO - Normalized data: 3 branches, 15 products
 2025-09-21 14:07:48,210 - INFO - Created 39 chunks
 2025-09-21 14:07:48,214 - INFO - Saved chunks to src\data\preprocessed\ga_preprocessed.json
+2025-09-21 14:10:45,522 - ERROR - File not found: src\data\raw\ICEALion.json
+2025-09-21 14:11:07,549 - INFO - Successfully loaded src\data\raw\ICEA-Lion.json
+2025-09-21 14:11:07,550 - INFO - Normalized data: 6 branches, 20 products
+2025-09-21 14:11:07,550 - INFO - Created 50 chunks
+2025-09-21 14:11:07,554 - INFO - Saved chunks to src\data\preprocessed\icealion_preprocessed.json
+2025-09-21 14:13:05,157 - INFO - Successfully loaded src\data\raw\Madison.json
+2025-09-21 14:13:05,158 - INFO - Normalized data: 25 branches, 22 products
+2025-09-21 14:13:05,159 - INFO - Created 77 chunks
+2025-09-21 14:13:05,164 - INFO - Saved chunks to src\data\preprocessed\madison_preprocessed.json
+2025-09-21 14:15:55,732 - INFO - Successfully loaded src\data\raw\Mayfair.json
+2025-09-21 14:15:55,732 - INFO - Normalized data: 3 branches, 18 products
+2025-09-21 14:15:55,733 - INFO - Created 47 chunks
+2025-09-21 14:15:55,736 - INFO - Saved chunks to src\data\preprocessed\mayfair_preprocessed.json
+2025-09-21 14:19:19,860 - INFO - Successfully loaded src\data\raw\Old-Mutual-Kenya.json
+2025-09-21 14:19:19,860 - INFO - Normalized data: 5 branches, 10 products
+2025-09-21 14:19:19,862 - INFO - Created 28 chunks
+2025-09-21 14:19:19,865 - INFO - Saved chunks to src\data\preprocessed\oldmutual_preprocessed.json
+2025-09-21 14:21:39,557 - INFO - Successfully loaded src\data\raw\Sanlam.json
+2025-09-21 14:21:39,558 - INFO - Normalized data: 6 branches, 20 products
+2025-09-21 14:21:39,558 - INFO - Created 58 chunks
+2025-09-21 14:21:39,562 - INFO - Saved chunks to src\data\preprocessed\sanlam_preprocessed.json

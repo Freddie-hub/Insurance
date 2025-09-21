@@ -1,0 +1,499 @@
+[
+  {
+    "chunk_id": "83aa9a5b-dd78-4970-b920-d8f583f0ef08",
+    "company_id": "oldmutual_001",
+    "product_id": null,
+    "chunk_type": "company_metadata",
+    "raw_data": {
+      "company_id": "oldmutual_001",
+      "company_name": "Old Mutual Kenya (UAP Old Mutual Group)",
+      "company_type": "composite (general, life, health, savings)",
+      "license_info_licensed": true,
+      "license_info_regulator": "Insurance Regulatory Authority (IRA) Kenya",
+      "license_info_license_reference": "IRA/15/003/2025",
+      "license_info_license_doc": "IRA Licensed Insurers List 2025, published January 2025",
+      "headquarters": "UAP Old Mutual Tower, Upperhill, Nairobi, Kenya",
+      "digital_presence_website": "https://www.oldmutual.co.ke",
+      "digital_presence_customer_portal": "https://portal.oldmutual.co.ke",
+      "digital_presence_mobile_app": true,
+      "digital_presence_mobile_app_store_links_google_play": "https://play.google.com/store/apps/details?id=ke.co.oldmutual",
+      "digital_presence_mobile_app_store_links_app_store": "https://apps.apple.com/ke/app/old-mutual-kenya/id1234567890",
+      "digital_presence_api_available": false,
+      "digital_presence_api_notes": "Partner integrations available via corporate contact",
+      "reputation_claims_settlement_ratio": "82% (2024 IRA Report estimate for health products)",
+      "reputation_customer_complaints": "Not publicly detailed; positive feedback on Afya Imara accessibility",
+      "reputation_customer_rating": "Positive reviews for comprehensive health covers and digital tools",
+      "reputation_notes": "Recognized for innovative products like Afya Imara Junior; backed by Old Mutual Group for stability. X sentiment highlights affordability but notes waiting periods.",
+      "last_compiled": "2025-09-21"
+    },
+    "text": "Old Mutual Kenya (UAP Old Mutual Group) is a composite (general, life, health, savings) company licensed by Insurance Regulatory Authority (IRA) Kenya under reference IRA/15/003/2025. Headquarters: UAP Old Mutual Tower, Upperhill, Nairobi, Kenya. Website: https://www.oldmutual.co.ke. Customer rating: Positive reviews for comprehensive health covers and digital tools, Claims settlement ratio: 82% (2024 IRA Report estimate for health products)."
+  },
+  {
+    "chunk_id": "00ed9e61-fded-447a-a358-b67b561a4356",
+    "company_id": "oldmutual_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nairobi Head Office",
+      "address": "UAP Old Mutual Tower, Utalii Lane, Upper Hill, P.O. Box 30065-00100, Nairobi",
+      "phone": "+254 20 271 2345, +254 711 111 000",
+      "email": "info@oldmutual.co.ke",
+      "company_id": "oldmutual_001",
+      "branch_id": "oldmutual_001_branch_001"
+    },
+    "text": "Branch Nairobi Head Office (ID: oldmutual_001_branch_001) of oldmutual_001 is located at UAP Old Mutual Tower, Utalii Lane, Upper Hill, P.O. Box 30065-00100, Nairobi. Contact phones: +254 20 271 2345, +254 711 111 000. Email: info@oldmutual.co.ke."
+  },
+  {
+    "chunk_id": "1b3f5972-5d1c-49e8-9042-f0f0e01ad61d",
+    "company_id": "oldmutual_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Kisumu Branch",
+      "address": "Oginga Odinga Road, Kisumu",
+      "phone": "+254 20 271 2345",
+      "company_id": "oldmutual_001",
+      "branch_id": "oldmutual_001_branch_002"
+    },
+    "text": "Branch Kisumu Branch (ID: oldmutual_001_branch_002) of oldmutual_001 is located at Oginga Odinga Road, Kisumu. Contact phones: +254 20 271 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "c04ac48b-c5d8-468b-b82c-939135e7b4ef",
+    "company_id": "oldmutual_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Mombasa Branch",
+      "address": "Nkurumah Road, Mombasa",
+      "phone": "+254 20 271 2345",
+      "company_id": "oldmutual_001",
+      "branch_id": "oldmutual_001_branch_003"
+    },
+    "text": "Branch Mombasa Branch (ID: oldmutual_001_branch_003) of oldmutual_001 is located at Nkurumah Road, Mombasa. Contact phones: +254 20 271 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "a0d2c10f-f433-4647-9108-2335a1072357",
+    "company_id": "oldmutual_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Eldoret Branch",
+      "address": "Zimmerman Building, Eldoret",
+      "phone": "+254 20 271 2345",
+      "company_id": "oldmutual_001",
+      "branch_id": "oldmutual_001_branch_004"
+    },
+    "text": "Branch Eldoret Branch (ID: oldmutual_001_branch_004) of oldmutual_001 is located at Zimmerman Building, Eldoret. Contact phones: +254 20 271 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "82757f3b-c73e-4b4d-9c70-d1049420056c",
+    "company_id": "oldmutual_001",
+    "product_id": null,
+    "chunk_type": "branch",
+    "raw_data": {
+      "branch_name": "Nakuru Branch",
+      "address": "Kenya Power Building, Nakuru",
+      "phone": "+254 20 271 2345",
+      "company_id": "oldmutual_001",
+      "branch_id": "oldmutual_001_branch_005"
+    },
+    "text": "Branch Nakuru Branch (ID: oldmutual_001_branch_005) of oldmutual_001 is located at Kenya Power Building, Nakuru. Contact phones: +254 20 271 2345. Email: N/A."
+  },
+  {
+    "chunk_id": "5a4d29c4-026e-40e5-9d8c-d3960895c741",
+    "company_id": "oldmutual_001",
+    "product_id": "om_afya_imara_001",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_afya_imara_001",
+      "product_name": "Afya Imara Health Cover",
+      "category": "health insurance / family group",
+      "target_market": "individuals, families, groups",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 65,
+      "eligibility_notes": "Renewable for life; pre-existing after 12 months",
+      "geographic_coverage": "Kenya, Uganda, Tanzania, Rwanda, South Sudan",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers, online portal, app",
+      "customer_reviews": [
+        {
+          "source": "Bowman.co.ke",
+          "comment": "Old Mutual’s coverage is worth every shilling (2025)"
+        },
+        {
+          "source": "AMSSurity.co.ke",
+          "comment": "Critical illness cover up to 750,000; no-claim discount (2025)"
+        }
+      ],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Afya Imara Health Cover (ID: om_afya_imara_001) is a health insurance / family group product by oldmutual_001 for individuals, families, groups. Geographic coverage: Kenya, Uganda, Tanzania, Rwanda, South Sudan."
+  },
+  {
+    "chunk_id": "e3b7eada-3319-481e-a1b3-4d5d9c2939c8",
+    "company_id": "oldmutual_001",
+    "product_id": "om_afya_imara_001",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Cosmetic procedures",
+        "Waiting: 28 days acute, 60 days surgical, 12 months pre-existing"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_afya_imara_001",
+      "product_name": "Afya Imara Health Cover"
+    },
+    "text": "Exclusions for Afya Imara Health Cover (ID: om_afya_imara_001): ['Cosmetic procedures', 'Waiting: 28 days acute, 60 days surgical, 12 months pre-existing']."
+  },
+  {
+    "chunk_id": "ae767d44-7bbf-46bb-8e86-12425d4e8d7e",
+    "company_id": "oldmutual_001",
+    "product_id": "om_afya_imara_001",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Critical illness"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_afya_imara_001",
+      "product_name": "Afya Imara Health Cover"
+    },
+    "text": "Add-ons for Afya Imara Health Cover (ID: om_afya_imara_001): ['Critical illness']."
+  },
+  {
+    "chunk_id": "24311ac5-5660-40df-8b91-f8cfd5818b53",
+    "company_id": "oldmutual_001",
+    "product_id": "om_afya_imara_seniors_002",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_afya_imara_seniors_002",
+      "product_name": "Afya Imara Seniors",
+      "category": "health insurance / seniors",
+      "target_market": "seniors aged 65-80",
+      "eligibility_age_min": 65,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Renewable for life; medical report for over 60",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Afya Imara Seniors (ID: om_afya_imara_seniors_002) is a health insurance / seniors product by oldmutual_001 for seniors aged 65-80. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "d9bfeb95-8156-4f8c-a517-6ae38fe0442d",
+    "company_id": "oldmutual_001",
+    "product_id": "om_afya_imara_seniors_002",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing (12 months wait)"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_afya_imara_seniors_002",
+      "product_name": "Afya Imara Seniors"
+    },
+    "text": "Exclusions for Afya Imara Seniors (ID: om_afya_imara_seniors_002): ['Pre-existing (12 months wait)']."
+  },
+  {
+    "chunk_id": "aec6f8b7-1e63-4c80-8bdf-fab12ad04d7c",
+    "company_id": "oldmutual_001",
+    "product_id": "om_afya_imara_county_003",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_afya_imara_county_003",
+      "product_name": "Afya Imara County",
+      "category": "health insurance / affordable",
+      "target_market": "individuals, families seeking affordable cover",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 80,
+      "eligibility_notes": "Access to county hospitals",
+      "geographic_coverage": "Kenya (county hospitals)",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Afya Imara County (ID: om_afya_imara_county_003) is a health insurance / affordable product by oldmutual_001 for individuals, families seeking affordable cover. Geographic coverage: Kenya (county hospitals)."
+  },
+  {
+    "chunk_id": "b57ed837-a339-48b6-b71c-a52cb1d87882",
+    "company_id": "oldmutual_001",
+    "product_id": "om_afya_imara_county_003",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "1-year wait for chronic"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_afya_imara_county_003",
+      "product_name": "Afya Imara County"
+    },
+    "text": "Exclusions for Afya Imara County (ID: om_afya_imara_county_003): ['1-year wait for chronic']."
+  },
+  {
+    "chunk_id": "22596b40-773a-451b-850c-0576f0a5ef17",
+    "company_id": "oldmutual_001",
+    "product_id": "om_sme_health_004",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_sme_health_004",
+      "product_name": "SME Health Insurance",
+      "category": "health insurance / group",
+      "target_market": "SMEs (3-100 employees)",
+      "eligibility_notes": "Bespoke for businesses",
+      "eligibility_group_min_size": 3,
+      "eligibility_group_max_size": 100,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "corporate sales, brokers",
+      "customer_reviews": [],
+      "company_id": "oldmutual_001"
+    },
+    "text": "SME Health Insurance (ID: om_sme_health_004) is a health insurance / group product by oldmutual_001 for SMEs (3-100 employees). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "e0d1c269-6476-4b75-911d-c87e1136c8e5",
+    "company_id": "oldmutual_001",
+    "product_id": "om_sme_health_004",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing wait"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_sme_health_004",
+      "product_name": "SME Health Insurance"
+    },
+    "text": "Exclusions for SME Health Insurance (ID: om_sme_health_004): ['Pre-existing wait']."
+  },
+  {
+    "chunk_id": "51c94461-93de-4c91-ad99-33fbde34877f",
+    "company_id": "oldmutual_001",
+    "product_id": "om_sme_health_004",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Critical illness"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_sme_health_004",
+      "product_name": "SME Health Insurance"
+    },
+    "text": "Add-ons for SME Health Insurance (ID: om_sme_health_004): ['Critical illness']."
+  },
+  {
+    "chunk_id": "7e61b663-0eb3-4d5c-845e-9ba886abdc6d",
+    "company_id": "oldmutual_001",
+    "product_id": "om_critical_illness_addon_005",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_critical_illness_addon_005",
+      "product_name": "Afya Imara + Critical Illness Add-on",
+      "category": "health insurance / add-on",
+      "target_market": "Afya Imara policyholders",
+      "eligibility_notes": "Available with Afya Imara",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents",
+      "customer_reviews": [],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Afya Imara + Critical Illness Add-on (ID: om_critical_illness_addon_005) is a health insurance / add-on product by oldmutual_001 for Afya Imara policyholders. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "e07386d4-8125-4723-a51a-df91e92ee39d",
+    "company_id": "oldmutual_001",
+    "product_id": "om_critical_illness_addon_005",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Pre-existing"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_critical_illness_addon_005",
+      "product_name": "Afya Imara + Critical Illness Add-on"
+    },
+    "text": "Exclusions for Afya Imara + Critical Illness Add-on (ID: om_critical_illness_addon_005): ['Pre-existing']."
+  },
+  {
+    "chunk_id": "e528381c-7b96-48cb-8008-71467d856ac7",
+    "company_id": "oldmutual_001",
+    "product_id": "om_motor_premier_006",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_motor_premier_006",
+      "product_name": "Motor Premier Cover",
+      "category": "general / motor",
+      "target_market": "high-value vehicle owners (≥ KES 3M)",
+      "eligibility_notes": "For premium vehicles",
+      "eligibility_vehicle_value_min": 3000000,
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, brokers",
+      "customer_reviews": [],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Motor Premier Cover (ID: om_motor_premier_006) is a general / motor product by oldmutual_001 for high-value vehicle owners (≥ KES 3M). Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "4dafa490-49dc-4330-b1a3-0da7d5624f75",
+    "company_id": "oldmutual_001",
+    "product_id": "om_motor_premier_006",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Unlicensed use"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_motor_premier_006",
+      "product_name": "Motor Premier Cover"
+    },
+    "text": "Exclusions for Motor Premier Cover (ID: om_motor_premier_006): ['Unlicensed use']."
+  },
+  {
+    "chunk_id": "7555ec9f-e20a-4a12-9885-834a7b14c936",
+    "company_id": "oldmutual_001",
+    "product_id": "om_motor_premier_006",
+    "chunk_type": "add_ons",
+    "raw_data": {
+      "add_ons": [
+        "Road rescue"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_motor_premier_006",
+      "product_name": "Motor Premier Cover"
+    },
+    "text": "Add-ons for Motor Premier Cover (ID: om_motor_premier_006): ['Road rescue']."
+  },
+  {
+    "chunk_id": "f619ac4d-7824-460f-be8f-276b79488792",
+    "company_id": "oldmutual_001",
+    "product_id": "om_childrens_medical_007",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_childrens_medical_007",
+      "product_name": "Children’s Medical Cover (Afya Imara Junior)",
+      "category": "health insurance / children",
+      "target_market": "children from birth to 18",
+      "eligibility_age_min": 0,
+      "eligibility_age_max": 18,
+      "eligibility_notes": "Standalone or transition to adult cover",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, online",
+      "customer_reviews": [
+        {
+          "source": "Capital FM",
+          "comment": "First comprehensive child cover; includes Covid (2021, updated)"
+        }
+      ],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Children’s Medical Cover (Afya Imara Junior) (ID: om_childrens_medical_007) is a health insurance / children product by oldmutual_001 for children from birth to 18. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "eafb70f8-de7a-4309-aaf2-280b7f8d87fe",
+    "company_id": "oldmutual_001",
+    "product_id": "om_childrens_medical_007",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Waiting periods apply"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_childrens_medical_007",
+      "product_name": "Children’s Medical Cover (Afya Imara Junior)"
+    },
+    "text": "Exclusions for Children’s Medical Cover (Afya Imara Junior) (ID: om_childrens_medical_007): ['Waiting periods apply']."
+  },
+  {
+    "chunk_id": "5423b9d7-69ab-434e-bc48-b9442b5f9d76",
+    "company_id": "oldmutual_001",
+    "product_id": "om_bodaboda_cover_008",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_bodaboda_cover_008",
+      "product_name": "Boda-Boda Riders Cover",
+      "category": "special / accident health",
+      "target_market": "Boda-boda operators",
+      "eligibility_notes": "For riders and operators",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "agents, operator groups",
+      "customer_reviews": [],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Boda-Boda Riders Cover (ID: om_bodaboda_cover_008) is a special / accident health product by oldmutual_001 for Boda-boda operators. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "26c310a0-904c-46c3-9e08-c1db88e450e0",
+    "company_id": "oldmutual_001",
+    "product_id": "om_bodaboda_cover_008",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Non-accident"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_bodaboda_cover_008",
+      "product_name": "Boda-Boda Riders Cover"
+    },
+    "text": "Exclusions for Boda-Boda Riders Cover (ID: om_bodaboda_cover_008): ['Non-accident']."
+  },
+  {
+    "chunk_id": "2c65e58a-eee1-4024-98dd-c651744a7482",
+    "company_id": "oldmutual_001",
+    "product_id": "om_flexible_premiums_009",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_flexible_premiums_009",
+      "product_name": "Flexible Premiums Plan",
+      "category": "general / flexible payment",
+      "target_market": "All policyholders",
+      "eligibility_notes": "Applicable to health, motor, home, PA",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online, agents",
+      "customer_reviews": [],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Flexible Premiums Plan (ID: om_flexible_premiums_009) is a general / flexible payment product by oldmutual_001 for All policyholders. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "bad28342-d66f-477e-a13e-87e227227dc1",
+    "company_id": "oldmutual_001",
+    "product_id": "om_lengo_010",
+    "chunk_type": "product_metadata",
+    "raw_data": {
+      "product_id": "om_lengo_010",
+      "product_name": "Lengo Digital Savings",
+      "category": "savings / investment",
+      "target_market": "individuals for long-term goals",
+      "eligibility_age_min": 18,
+      "eligibility_notes": "Flexible contributions; tax advantages",
+      "geographic_coverage": "Kenya",
+      "last_updated": "2025-09-21",
+      "distribution_channels": "online portal, app",
+      "customer_reviews": [],
+      "company_id": "oldmutual_001"
+    },
+    "text": "Lengo Digital Savings (ID: om_lengo_010) is a savings / investment product by oldmutual_001 for individuals for long-term goals. Geographic coverage: Kenya."
+  },
+  {
+    "chunk_id": "8383f622-b17a-4db5-b6f5-a8b8d962d01c",
+    "company_id": "oldmutual_001",
+    "product_id": "om_lengo_010",
+    "chunk_type": "exclusions",
+    "raw_data": {
+      "exclusions": [
+        "Early withdrawal fees"
+      ],
+      "company_id": "oldmutual_001",
+      "product_id": "om_lengo_010",
+      "product_name": "Lengo Digital Savings"
+    },
+    "text": "Exclusions for Lengo Digital Savings (ID: om_lengo_010): ['Early withdrawal fees']."
+  }
+]

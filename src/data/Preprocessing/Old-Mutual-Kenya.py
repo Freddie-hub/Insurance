@@ -47,7 +47,7 @@ def validate_json_structure(data: Dict[str, Any]) -> None:
         logger.error("Products must be a list")
         raise ValueError("Products must be a list")
     
-    # Validate product fields for ICEA LION
+    # Validate product fields for Old Mutual
     product_keys = [
         'product_id', 'product_name', 'category', 'target_market',
         'eligibility', 'geographic_coverage', 'premium', 'coverage',
@@ -65,7 +65,7 @@ def flatten_dict(d: Dict[str, Any], parent_key: str = '', sep: str = '_') -> Dic
         new_key = f"{parent_key}{sep}{key}" if parent_key else key
         if isinstance(value, dict):
             items.extend(flatten_dict(value, new_key, sep).items())
-        elif isinstance(value, list) and key not in ['branches', 'products', 'rate_table', 'sample_examples', 'benefits', 'exclusions', 'add_ons', 'required_documents', 'assistance_partners', 'sources', 'customer_reviews']:
+        elif isinstance(value, list) and key not in ['branches', 'products', 'rate_table', 'sample_examples', 'benefits', 'exclusions', 'add_ons', 'required_documents', 'hospitals', 'assistance_partners', 'partners', 'sources', 'customer_reviews']:
             items.append((new_key, ', '.join(str(v) for v in value if isinstance(v, str))))
         else:
             items.append((new_key, value))
@@ -156,14 +156,22 @@ def create_text_from_chunk(chunk_data: Dict[str, Any], chunk_type: str) -> str:
                 f"(ID: {chunk_data['product_id']}): "
                 f"Required documents: {chunk_data.get('claims_process_required_documents', 'N/A')}. "
                 f"Average turnaround: {chunk_data.get('claims_process_average_turnaround_days', 'N/A')} days. "
-                f"Digital claims supported: {chunk_data.get('claims_process_digital_claims_supported', 'N/A')}."
+                f"Digital claims supported: {chunk_data.get('claims_process_digital_claims_supported', 'N/A')}. "
+                f"Notes: {chunk_data.get('claims_process_notes', 'N/A')}."
             )
         elif chunk_type == 'provider_network':
             text = (
                 f"Provider network for {chunk_data['product_name']} "
                 f"(ID: {chunk_data['product_id']}): "
-                f"Partners: {chunk_data.get('provider_network_garages', chunk_data.get('provider_network_assistance_partners', 'N/A'))}. "
+                f"Partners: {chunk_data.get('provider_network_hospitals', chunk_data.get('provider_network_partners', chunk_data.get('provider_network_assistance_partners', 'N/A')))}. "
                 f"Note: {chunk_data.get('provider_network_note', 'N/A')}."
+            )
+        elif chunk_type == 'renewal_terms':
+            text = (
+                f"Renewal terms for {chunk_data['product_name']} "
+                f"(ID: {chunk_data['product_id']}): "
+                f"Auto-renewal: {chunk_data.get('renewal_terms_auto_renewal', 'N/A')}. "
+                f"Grace period: {chunk_data.get('renewal_terms_grace_period_days', 'N/A')} days."
             )
         else:
             text = str(chunk_data)
@@ -208,9 +216,10 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
         metadata_fields = [
             'product_id', 'product_name', 'category', 'target_market',
             'eligibility_age_min', 'eligibility_age_max', 'eligibility_notes',
-            'eligibility_vehicle_type', 'eligibility_property_type', 'eligibility_group_min_size',
-            'eligibility_min_investment', 'geographic_coverage', 'last_updated', 'distribution_channels',
-            'customer_reviews'
+            'eligibility_vehicle_type', 'eligibility_property_type',
+            'eligibility_group_min_size', 'eligibility_group_max_size',
+            'eligibility_vehicle_value_min', 'geographic_coverage',
+            'last_updated', 'distribution_channels', 'customer_reviews'
         ]
         metadata = {k: product.get(k, 'N/A') for k in metadata_fields if product.get(k) is not None}
         metadata['company_id'] = product['company_id']
@@ -319,6 +328,22 @@ def chunk_data(normalized_data: Dict[str, Any]) -> List[Dict[str, Any]]:
                 'raw_data': provider_network,
                 'text': create_text_from_chunk(provider_network, 'provider_network')
             })
+        
+        # Renewal terms chunk
+        if 'renewal_terms' in product and product['renewal_terms'] is not None:
+            renewal_terms = product['renewal_terms']
+            renewal_terms['company_id'] = product['company_id']
+            renewal_terms['product_id'] = product_id
+            renewal_terms['product_name'] = product_name
+            chunk_id = str(uuid.uuid4())
+            chunks.append({
+                'chunk_id': chunk_id,
+                'company_id': product['company_id'],
+                'product_id': product_id,
+                'chunk_type': 'renewal_terms',
+                'raw_data': renewal_terms,
+                'text': create_text_from_chunk(renewal_terms, 'renewal_terms')
+            })
     
     logger.info(f"Created {len(chunks)} chunks")
     return chunks
@@ -347,9 +372,9 @@ def save_chunks(chunks: List[Dict[str, Any]], output_path: str) -> None:
         raise
 
 def main():
-    """Main preprocessing function for ICEALion.json."""
-    input_path = Path('src/data/raw/ICEA-Lion.json')
-    output_path = Path('src/data/preprocessed/icealion_preprocessed.json')
+    """Main preprocessing function for Old-Mutual-Kenya.json."""
+    input_path = Path('src/data/raw/Old-Mutual-Kenya.json')
+    output_path = Path('src/data/preprocessed/oldmutual_preprocessed.json')
     
     # Ensure output directory exists
     output_path.parent.mkdir(parents=True, exist_ok=True)
