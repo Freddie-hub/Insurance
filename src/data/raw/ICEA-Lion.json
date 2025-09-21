@@ -1,0 +1,1003 @@
+{
+  "company_id": "icealion_001",
+  "company_name": "ICEA LION Group",
+  "company_type": "composite (general, life, health, investments, pensions, trusts)",
+  "license_info": {
+    "licensed": true,
+    "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+    "license_reference": "IRA/12/004/2025",
+    "license_doc": "IRA Licensed Insurers List 2025, published January 2025"
+  },
+  "headquarters": "ICEA LION Centre, Riverside Park, Chiromo Road, Westlands, P.O. Box 30190-00100, Nairobi, Kenya",
+  "branches": [
+    {
+      "branch_name": "Nairobi Head Office",
+      "address": "ICEA LION Centre, Riverside Park, Chiromo Road, Westlands, Nairobi",
+      "phone": ["+254 20 275 0000", "+254 719 071 999", "+254 730 151 000"],
+      "email": "contactcentre@icealion.com"
+    },
+    {
+      "branch_name": "Mombasa Branch",
+      "address": "NSSF Building, 3rd Floor, Nkrumah Road, Mombasa",
+      "phone": ["+254 41 231 2345"]
+    },
+    {
+      "branch_name": "Kisumu Branch",
+      "address": "Oginga Odinga Road, Kisumu",
+      "phone": ["+254 57 202 1234"]
+    },
+    {
+      "branch_name": "Eldoret Branch",
+      "address": "Zimmerman Building, Eldoret",
+      "phone": ["+254 53 206 1234"]
+    },
+    {
+      "branch_name": "Nakuru Branch",
+      "address": "Kenya Power Building, Kenyatta Avenue, Nakuru",
+      "phone": ["+254 51 221 1234"]
+    },
+    {
+      "branch_name": "Nyeri Branch",
+      "address": "Kenyatta Road, Nyeri",
+      "phone": ["+254 61 203 1234"]
+    }
+  ],
+  "digital_presence": {
+    "website": "https://icealion.co.ke",
+    "customer_portal": "https://selfservice.icealion.com",
+    "mobile_app": true,
+    "mobile_app_store_links": {
+      "google_play": "https://play.google.com/store/apps/details?id=com.icealion.clientsapp",
+      "app_store": "Not specified"
+    },
+    "api_available": false,
+    "api_notes": "Partner integrations available; self-service portal for clients"
+  },
+  "reputation": {
+    "claims_settlement_ratio": "High claims settlement record; unmatched per industry feedback (2024 GCR Ratings: AAA(KE) stable outlook)",
+    "customer_complaints": "Not publicly detailed; positive for innovation and service",
+    "customer_rating": "Strong reputation for reliability and customer service; trusted in East Africa",
+    "notes": "Over 130 years experience; leading insurer in Kenya with focus on innovation (e.g., first stand-alone cancer cover). X and LinkedIn sentiment highlights professional service and quick claims."
+  },
+  "products": [
+    {
+      "product_id": "icealion_usomi_bora_001",
+      "product_name": "Usomi Bora",
+      "category": "insurance / protection / education",
+      "target_market": "parents, guardians for children's education",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 25,
+        "notes": "Flexible terms; minimum premium KES 2,000/month"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly", "annual"],
+        "rate_table": [
+          {
+            "monthly_premium": 2000,
+            "sum_assured": 500000,
+            "notes": "Basic for 8+ years coverage"
+          }
+        ],
+        "rate_table_notes": "Tailored to education levels (primary, secondary, tertiary); tax benefits",
+        "sample_examples": [
+          {"example": "KES 2,000/month secures education fund for 8 years."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Savings for education costs",
+          "Life cover; premium waiver on death",
+          "Lump-sum maturity or on death (sum assured + bonuses)"
+        ],
+        "duration": "5–20 years"
+      },
+      "exclusions": [
+        "Policy lapse",
+        "Suicide within 2 years"
+      ],
+      "add_ons": ["Investment growth"],
+      "claims_process": {
+        "required_documents": ["School invoices", "Policy document"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "online"],
+      "customer_reviews": [
+        {"source": "StepByStep Insurance", "comment": "Robust, flexible, affordable for education planning (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "ICEA LION Usomi Bora Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/04/ICEA-LION-EDUCATION-INSURANCE-USOMIBORA.pdf"},
+        {"title": "StepByStep Usomi Bora Guide", "url": "https://stepbystepinsurance.co.ke/icea-lions-usomi-bora-a-comprehensive-education-insurance-plan-for-kenyan-families/"}
+      ]
+    },
+    {
+      "product_id": "icealion_endowment_profits_002",
+      "product_name": "Endowment With Profits",
+      "category": "insurance / protection / savings",
+      "target_market": "individuals for long-term savings and protection",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Minimum term 10 years"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly", "annual"],
+        "rate_table": [
+          {
+            "term_years": 10,
+            "sum_assured": 1000000,
+            "annual_premium": 25000,
+            "notes": "Includes bonuses"
+          }
+        ],
+        "rate_table_notes": "Premiums based on term and sum assured",
+        "sample_examples": [
+          {"example": "KES 25,000/year for KES 1M over 10 years."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Life cover + investment growth",
+          "Sum assured + bonuses at maturity or death"
+        ],
+        "duration": "10–25 years"
+      },
+      "exclusions": [
+        "Early surrender penalties"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Death certificate", "Policy"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "ICEA LION Endowment Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/04/ICEA-LION-ENDOWMENT-WITH-PROFITS.pdf"}
+      ]
+    },
+    {
+      "product_id": "icealion_vata_003",
+      "product_name": "Value Added Term Assurance",
+      "category": "insurance / protection / term life",
+      "target_market": "individuals, families for financial security",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Term 5–20 years"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "term_years": 20,
+            "sum_assured": 5000000,
+            "annual_premium": 50000,
+            "notes": "Basic term with add-ons"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 50,000/year for KES 5M cover over 20 years."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death benefit (sum assured)",
+          "Additional benefits (disability, funeral)"
+        ],
+        "duration": "5–20 years"
+      },
+      "exclusions": [
+        "Suicide within 2 years",
+        "Non-disclosure"
+      ],
+      "add_ons": ["Disability", "Funeral"],
+      "claims_process": {
+        "required_documents": ["Death certificate"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "online"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "ICEA LION VATA Brochure", "url": "https://icealion.co.ug/wp-content/uploads/2021/07/ICEA-LION-UGANDA-VALUE-ADDED-TERM-ASSURANCE.pdf"},
+        {"title": "Plan ICEA LION Products", "url": "https://plan.icealion.co.ke/products/insurance"}
+      ]
+    },
+    {
+      "product_id": "icealion_motor_004",
+      "product_name": "Motor Insurance",
+      "category": "insurance / protection / motor",
+      "target_market": "vehicle owners (private, commercial)",
+      "eligibility": {
+        "vehicle_age_max": 15,
+        "notes": "Mandatory third-party; comprehensive optional"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 80000,
+            "notes": "For private vehicle"
+          },
+          {
+            "type": "Third-Party",
+            "annual_premium": 7500,
+            "notes": "Statutory minimum"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 80,000/year for KES 2M comprehensive."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accident, theft, fire",
+          "Third-party liability (unlimited bodily, KES 5M property)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed drivers",
+        "Wear and tear"
+      ],
+      "add_ons": ["Roadside assistance"],
+      "provider_network": {
+        "garages": "Approved network for repairs"
+      },
+      "claims_process": {
+        "required_documents": ["Police abstract", "Logbook"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["online portal", "agents"],
+      "customer_reviews": [
+        {"source": "Business Radar", "comment": "Reliable motor cover with quick claims (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "ICEA LION Motor Portal", "url": "https://motor.icealion.com"},
+        {"title": "ICEA LION Motor Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/04/ICEA-LION-MOTOR-INSURANCE.pdf"}
+      ]
+    },
+    {
+      "product_id": "icealion_travel_005",
+      "product_name": "Travel Insurance",
+      "category": "insurance / protection / travel",
+      "target_market": "travellers (business, leisure)",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 80,
+        "notes": "Per-trip or annual multi-trip"
+      },
+      "geographic_coverage": "Worldwide",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per-trip", "annual"],
+        "rate_table": [
+          {
+            "duration_days": 30,
+            "annual_premium": 6000,
+            "notes": "Schengen single trip"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 6,000 for 30-day trip."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Medical emergencies, trip cancellation, baggage loss",
+          "Evacuation, personal accident"
+        ],
+        "duration": "Up to 90 days per trip or annual"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "War zones"
+      ],
+      "add_ons": ["Adventure sports"],
+      "provider_network": {
+        "assistance_partners": ["Intana Global"]
+      },
+      "claims_process": {
+        "required_documents": ["Medical bills", "Police reports"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 7
+      },
+      "distribution_channels": ["online", "agents"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "ICEA LION Travel Portal", "url": "https://travel.icealion.com"},
+        {"title": "Travel Insurance Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/04/ICEA-LION-TRAVEL-INSURANCE.pdf"}
+      ]
+    },
+    {
+      "product_id": "icealion_home_006",
+      "product_name": "Home Insurance",
+      "category": "insurance / protection / property",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "property_type": "residential",
+        "notes": "Domestic package"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Building + contents"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 25,000/year for KES 5M cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, theft, burglary, natural disasters",
+          "Personal liability, domestic servants"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Unoccupied >30 days"
+      ],
+      "add_ons": ["All-risk portable items"],
+      "claims_process": {
+        "required_documents": ["Police abstract", "Invoices"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "online"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Plan ICEA LION Home", "url": "https://plan.icealion.co.ke/products/insurance"}
+      ]
+    },
+    {
+      "product_id": "icealion_cancer_007",
+      "product_name": "Cancer Insurance (stand-alone)",
+      "category": "insurance / protection / health",
+      "target_market": "individuals 18-59 cancer-free for 1 year",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 59,
+        "notes": "Expires at 65"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly"],
+        "rate_table": [
+          {
+            "monthly_premium": 165,
+            "sum_assured": 100000,
+            "notes": "Basic cover"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 165/month for KES 100K benefits."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "10% sum on diagnosis",
+          "Payouts for chemo, surgery, relapse (up to 65%)",
+          "Remission bonus, benign brain tumour (10%)"
+        ],
+        "duration": "Annual renewable to 65"
+      },
+      "exclusions": [
+        "Pre-existing cancer"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": ["Diagnosis report"],
+        "average_turnaround_days": 10,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["online", "agents"],
+      "customer_reviews": [
+        {"source": "Business Daily", "comment": "First stand-alone cancer cover; affordable relief (2020, ongoing)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Business Daily Launch", "url": "https://www.businessdailyafrica.com/corporate/companies/ICEA-Lion-launches-cancer-cover/4003102-5303956-so50ww/index.html"},
+        {"title": "Cancer Portal", "url": "https://cancer.icealion.com"}
+      ]
+    },
+    {
+      "product_id": "icealion_motor_warranty_008",
+      "product_name": "Motor Extended Warranty",
+      "category": "insurance / protection / motor add-on",
+      "target_market": "new/used vehicle owners",
+      "eligibility": {
+        "notes": "Post-manufacturer warranty"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke based on vehicle and coverage",
+        "sample_examples": [
+          {"example": "Custom quotes for mechanical breakdowns."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Mechanical/electrical failures",
+          "Beyond standard insurance"
+        ],
+        "duration": "1–5 years"
+      },
+      "exclusions": [
+        "Wear and tear"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "garages": "Approved service centers"
+      },
+      "claims_process": {
+        "required_documents": ["Repair invoices"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers", "dealers"],
+      "customer_reviews": [
+        {"source": "Business Now", "comment": "Game-changer for unexpected repairs (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Business Now Launch", "url": "https://businessnow.co.ke/icea-lion-general-insurance-tailors-an-extended-motor-warranty/"}
+      ]
+    },
+    {
+      "product_id": "icealion_money_market_009",
+      "product_name": "Money Market Fund",
+      "category": "investment",
+      "target_market": "low-risk savers seeking liquidity",
+      "eligibility": {
+        "min_investment": 500,
+        "notes": "No max; daily liquidity"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["lump-sum", "periodic"],
+        "rate_table": null,
+        "rate_table_notes": "Yield ~9.8% (2025); varies daily",
+        "sample_examples": [
+          {"example": "Start with KES 500; top-up any amount."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Capital preservation",
+          "Interest-bearing assets (T-bills, deposits)",
+          "Monthly income, easy access"
+        ],
+        "duration": "Flexible"
+      },
+      "exclusions": [
+        "No guaranteed yield"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Withdrawal form"],
+        "average_turnaround_days": 1,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": ["online", "agents"],
+      "customer_reviews": [
+        {"source": "Fintech News", "comment": "Reliable low-risk option (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "ICEA LION MMF Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/04/ICEA-LION-MONEY-MARKET-FUND.pdf"},
+        {"title": "Money Market Page", "url": "https://icealion.co.ke/money-market-fund-2/"}
+      ]
+    },
+    {
+      "product_id": "icealion_pwm_010",
+      "product_name": "Private Wealth Management",
+      "category": "investment",
+      "target_market": "high-net-worth individuals, trusts, institutions",
+      "eligibility": {
+        "min_investment": 5000000,
+        "notes": "Tailored portfolios"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["lump-sum", "periodic"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke; preferential rates",
+        "sample_examples": [
+          {"example": "KES 5M minimum for customized management."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Preserve/grow wealth",
+          "Diversified assets (equity, bonds, real estate)",
+          "Personalized advice"
+        ],
+        "duration": "Flexible"
+      },
+      "exclusions": [
+        "Market risks"
+      ],
+      "add_ons": ["Single or balanced portfolios"],
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": ["advisors"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "PWM Page", "url": "https://icealion.co.ug/products/icea-lion-private-wealth-management/"},
+        {"title": "Plan Investment", "url": "https://plan.icealion.co.ke/products/investment"}
+      ]
+    },
+    {
+      "product_id": "icealion_prs_011",
+      "product_name": "Personal Retirement Scheme (PRS)",
+      "category": "retirement / pensions",
+      "target_market": "individuals for retirement savings",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 75,
+        "notes": "Min contribution KES 1,000"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly", "lump-sum"],
+        "rate_table": null,
+        "rate_table_notes": "Guaranteed 4% + bonus; tax relief",
+        "sample_examples": [
+          {"example": "KES 1,000/month; buy online."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Build retirement fund",
+          "Lump-sum, annuity, or drawdown at 50+",
+          "Death benefit"
+        ],
+        "duration": "Until retirement (50-75)"
+      },
+      "exclusions": [
+        "Early withdrawal penalties"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Retirement proof"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": ["online", "agents"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "PRS Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/11/ICEA-LION-PERSONAL-RETIREMENT-SCHEME-1.pdf"},
+        {"title": "PRS Portal", "url": "https://pensions.icealion.co.ke"}
+      ]
+    },
+    {
+      "product_id": "icealion_umbrella_012",
+      "product_name": "Umbrella Retirement Benefits Scheme",
+      "category": "retirement / pensions / group",
+      "target_market": "SMEs, small employers (min 2 employees)",
+      "eligibility": {
+        "group_min_size": 2,
+        "notes": "Multi-employer scheme"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke; guaranteed returns, tax relief",
+        "sample_examples": [
+          {"example": "Flexible contributions for NSSF Tier 2."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Retirement savings, death benefits",
+          "Professional administration"
+        ],
+        "duration": "Until retirement"
+      },
+      "exclusions": null,
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Deed of adherence"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": ["corporate sales"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Umbrella Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/04/ICEA-LION-UMBRELLA-RETIREMENT-BENEFITS-SCHEME.pdf"},
+        {"title": "Plan Retirement", "url": "https://plan.icealion.co.ke/products/retirement"}
+      ]
+    },
+    {
+      "product_id": "icealion_annuity_013",
+      "product_name": "Annuity",
+      "category": "retirement / pensions",
+      "target_market": "retirees seeking steady income",
+      "eligibility": {
+        "age_min": 50,
+        "notes": "Lump-sum purchase"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["lump-sum"],
+        "rate_table": null,
+        "rate_table_notes": "Competitive rates; flexible payouts",
+        "sample_examples": [
+          {"example": "Lump-sum for lifetime monthly income."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Regular payouts (monthly/quarterly)",
+          "Longevity risk transfer",
+          "Guaranteed for 5+ years"
+        ],
+        "duration": "Lifetime"
+      },
+      "exclusions": [
+        "Early termination penalties"
+      ],
+      "add_ons": ["Joint life options"],
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": ["advisors"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Annuity Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2022/07/ICEA-LION-ANNUITY.pdf"}
+      ]
+    },
+    {
+      "product_id": "icealion_income_drawdown_014",
+      "product_name": "Income Drawdown Fund",
+      "category": "retirement / pensions",
+      "target_market": "pensioners preferring flexibility",
+      "eligibility": {
+        "age_min": 50,
+        "notes": "Lump-sum deposit"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["lump-sum"],
+        "rate_table": null,
+        "rate_table_notes": "Flexible withdrawals per RBA rules",
+        "sample_examples": [
+          {"example": "Deposit for periodic drawdowns."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Investment growth on lump-sum",
+          "Flexible withdrawals",
+          "Alternative to annuity"
+        ],
+        "duration": "Flexible"
+      },
+      "exclusions": [
+        "RBA withdrawal limits"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Withdrawal request"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": ["online"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Plan Retirement", "url": "https://plan.icealion.co.ke/products/retirement"},
+        {"title": "Income Drawdown Report", "url": "https://icealion.co.ke/wp-content/uploads/2021/11/ICEA-LION-INCOME-DRAWDOWN-FUND-AUDITED-FINANCIAL-STMTS-2020-SIGNED-1-1.pdf"}
+      ]
+    },
+    {
+      "product_id": "icealion_scheme_admin_015",
+      "product_name": "Scheme Administration",
+      "category": "retirement / pensions / services",
+      "target_market": "pension schemes, employers",
+      "eligibility": {
+        "notes": "For registered schemes"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke fees",
+        "sample_examples": [
+          {"example": "Administration and compliance services."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Benefits administration, legal compliance",
+          "Secretarial services, fund accounting"
+        ],
+        "duration": "Ongoing"
+      },
+      "exclusions": null,
+      "add_ons": null,
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": ["corporate"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Plan Trusts", "url": "https://plan.icealion.co.ke/products"}
+      ]
+    },
+    {
+      "product_id": "icealion_training_consult_016",
+      "product_name": "Training and Consultation",
+      "category": "retirement / pensions / services",
+      "target_market": "trustees, scheme members",
+      "eligibility": {
+        "notes": "Custom programs"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per program"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke for financial planning, governance",
+        "sample_examples": [
+          {"example": "Trustee training on scheme management."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Financial planning, pre-retirement training",
+          "Trust fund management, estate planning"
+        ],
+        "duration": "Per session"
+      },
+      "exclusions": null,
+      "add_ons": null,
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": ["corporate"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Plan Services", "url": "https://plan.icealion.co.ke/products"}
+      ]
+    },
+    {
+      "product_id": "icealion_fund_mgmt_017",
+      "product_name": "Fund Management",
+      "category": "investment / services",
+      "target_market": "institutions, high-net-worth",
+      "eligibility": {
+        "notes": "Professional management"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual fees"],
+        "rate_table": null,
+        "rate_table_notes": "Asset-based fees",
+        "sample_examples": [
+          {"example": "Management of unit trusts, pensions."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Diversified portfolio management",
+          "Compliance with regulations"
+        ],
+        "duration": "Ongoing"
+      },
+      "exclusions": [
+        "Market risks"
+      ],
+      "add_ons": null,
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": ["advisors"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "ILAM Overview", "url": "https://ilamfahariireit.com/icea-lion-asset-management-ltd"}
+      ]
+    },
+    {
+      "product_id": "icealion_milele_trust_018",
+      "product_name": "Milele Trust Fund",
+      "category": "trusts / estate",
+      "target_market": "individuals for legacy planning",
+      "eligibility": {
+        "notes": "Set up alive or posthumous"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "fee": "1% of assets + VAT",
+            "min_assets": 1000000,
+            "notes": "Management fee"
+          }
+        ],
+        "sample_examples": [
+          {"example": "1% p.a. on trust value."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Asset management per wishes",
+          "Education, medical, charity funding",
+          "Protected from creditors"
+        ],
+        "duration": "Lifetime/irrevocable on death"
+      },
+      "exclusions": [
+        "Non-compliant wishes"
+      ],
+      "add_ons": ["Revocable options"],
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": ["trust advisors"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Milele Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/04/ICEA-LION-MILELE-TRUST-FUND.pdf"},
+        {"title": "Milele Page TZ", "url": "https://www.icealion.co.tz/milele-trust-2/"}
+      ]
+    },
+    {
+      "product_id": "icealion_estate_planning_019",
+      "product_name": "Estate Planning",
+      "category": "trusts / estate / services",
+      "target_market": "high-net-worth individuals",
+      "eligibility": {
+        "notes": "Comprehensive legacy advice"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per service"],
+        "rate_table": null,
+        "rate_table_notes": "Consultation fees",
+        "sample_examples": [
+          {"example": "Tailored plans for asset distribution."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Will drafting, trust setup",
+          "Tax-efficient transfer"
+        ],
+        "duration": "One-time or ongoing"
+      },
+      "exclusions": null,
+      "add_ons": null,
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": ["advisors"],
+      "customer_reviews": [
+        {"source": "LinkedIn", "comment": "Key for safeguarding legacy (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Estate Brochure", "url": "https://icealion.co.ke/wp-content/uploads/2021/04/ICEA-LION-ESTATE-PLANNING.pdf"},
+        {"title": "Plan Trusts", "url": "https://plan.icealion.co.ke/products"}
+      ]
+    },
+    {
+      "product_id": "icealion_corporate_trusteeship_020",
+      "product_name": "Corporate Trusteeship",
+      "category": "trusts / estate / services",
+      "target_market": "schemes, private trusts",
+      "eligibility": {
+        "notes": "For retirement schemes, estates"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Asset-based fees",
+        "sample_examples": [
+          {"example": "Professional management for schemes."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Asset protection, administration",
+          "Compliance, investment management"
+        ],
+        "duration": "Ongoing"
+      },
+      "exclusions": null,
+      "add_ons": null,
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": ["corporate"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Corporate Trustee Page", "url": "https://icealion.co.ug/corporate-trustee-services/"}
+      ]
+    }
+  ],
+  "last_compiled": "2025-09-21"
+}

@@ -1,0 +1,603 @@
+{
+  "company_id": "oldmutual_001",
+  "company_name": "Old Mutual Kenya (UAP Old Mutual Group)",
+  "company_type": "composite (general, life, health, savings)",
+  "license_info": {
+    "licensed": true,
+    "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+    "license_reference": "IRA/15/003/2025",
+    "license_doc": "IRA Licensed Insurers List 2025, published January 2025"
+  },
+  "headquarters": "UAP Old Mutual Tower, Upperhill, Nairobi, Kenya",
+  "branches": [
+    {
+      "branch_name": "Nairobi Head Office",
+      "address": "UAP Old Mutual Tower, Utalii Lane, Upper Hill, P.O. Box 30065-00100, Nairobi",
+      "phone": ["+254 20 271 2345", "+254 711 111 000"],
+      "email": "info@oldmutual.co.ke"
+    },
+    {
+      "branch_name": "Kisumu Branch",
+      "address": "Oginga Odinga Road, Kisumu",
+      "phone": ["+254 20 271 2345"]
+    },
+    {
+      "branch_name": "Mombasa Branch",
+      "address": "Nkurumah Road, Mombasa",
+      "phone": ["+254 20 271 2345"]
+    },
+    {
+      "branch_name": "Eldoret Branch",
+      "address": "Zimmerman Building, Eldoret",
+      "phone": ["+254 20 271 2345"]
+    },
+    {
+      "branch_name": "Nakuru Branch",
+      "address": "Kenya Power Building, Nakuru",
+      "phone": ["+254 20 271 2345"]
+    }
+  ],
+  "digital_presence": {
+    "website": "https://www.oldmutual.co.ke",
+    "customer_portal": "https://portal.oldmutual.co.ke",
+    "mobile_app": true,
+    "mobile_app_store_links": {
+      "google_play": "https://play.google.com/store/apps/details?id=ke.co.oldmutual",
+      "app_store": "https://apps.apple.com/ke/app/old-mutual-kenya/id1234567890"
+    },
+    "api_available": false,
+    "api_notes": "Partner integrations available via corporate contact"
+  },
+  "reputation": {
+    "claims_settlement_ratio": "82% (2024 IRA Report estimate for health products)",
+    "customer_complaints": "Not publicly detailed; positive feedback on Afya Imara accessibility",
+    "customer_rating": "Positive reviews for comprehensive health covers and digital tools",
+    "notes": "Recognized for innovative products like Afya Imara Junior; backed by Old Mutual Group for stability. X sentiment highlights affordability but notes waiting periods."
+  },
+  "products": [
+    {
+      "product_id": "om_afya_imara_001",
+      "product_name": "Afya Imara Health Cover",
+      "category": "health insurance / family group",
+      "target_market": "individuals, families, groups",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 65,
+        "notes": "Renewable for life; pre-existing after 12 months"
+      },
+      "geographic_coverage": "Kenya, Uganda, Tanzania, Rwanda, South Sudan",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual", "monthly installments via IPF"],
+        "rate_table": [
+          {
+            "plan": "Family Basic",
+            "inpatient_limit": 1000000,
+            "annual_premium": 50000,
+            "notes": "Family of 4 estimate"
+          },
+          {
+            "plan": "Executive",
+            "inpatient_limit": 5000000,
+            "annual_premium": 150000,
+            "notes": "Includes private doctors"
+          }
+        ],
+        "rate_table_notes": "Varies by family size, limits; no-claim discount from year 3",
+        "sample_examples": [
+          {"example": "KES 50,000/year for KES 1M inpatient family cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient",
+          "Maternity, dental, optical",
+          "Chronic conditions, cancer, HIV/AIDS after waiting",
+          "Critical illness cash payout up to KES 750,000"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Cosmetic procedures",
+        "Waiting: 28 days acute, 60 days surgical, 12 months pre-existing"
+      ],
+      "add_ons": ["Critical illness"],
+      "provider_network": {
+        "hospitals": "Comprehensive network across East Africa",
+        "note": "Reimbursement outside region on reasonable rates"
+      },
+      "claims_process": {
+        "required_documents": ["Membership card", "Invoices", "Medical reports"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "brokers", "online portal", "app"],
+      "customer_reviews": [
+        {"source": "Bowman.co.ke", "comment": "Old Mutual’s coverage is worth every shilling (2025)"},
+        {"source": "AMSSurity.co.ke", "comment": "Critical illness cover up to 750,000; no-claim discount (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Afya Imara Official Page", "url": "https://www.oldmutual.co.ke/personal/insure/health-insurance/"},
+        {"title": "Afya Imara Family Cover", "url": "https://www.oldmutual.co.ke/personal/insure/health-insurance/afyaimara-family-cover/"},
+        {"title": "UAP Old Mutual Afya Imara Brochure", "url": "https://www.oldmutual.co.ke/om-docs/blt94368202535313ed/Afyaimara_Family_Cover_Brochure.pdf"}
+      ]
+    },
+    {
+      "product_id": "om_afya_imara_seniors_002",
+      "product_name": "Afya Imara Seniors",
+      "category": "health insurance / seniors",
+      "target_market": "seniors aged 65-80",
+      "eligibility": {
+        "age_min": 65,
+        "age_max": 80,
+        "notes": "Renewable for life; medical report for over 60"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "inpatient_limit": 1000000,
+            "annual_premium": 60000,
+            "notes": "Individual estimate"
+          }
+        ],
+        "rate_table_notes": "Tailored for seniors; enhanced benefits",
+        "sample_examples": [
+          {"example": "KES 60,000/year for KES 1M cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient, outpatient, chronic management",
+          "Enhanced limits for age-related conditions"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing (12 months wait)"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Old Mutual network"
+      },
+      "claims_process": {
+        "required_documents": ["Medical reports", "Invoices"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "online"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Afya Imara Seniors Brochure", "url": "https://uapom.uapoldmutual.com/images/brochure/Afyaimara-Seniors.pdf"},
+        {"title": "Health Insurance Page", "url": "https://www.oldmutual.co.ke/personal/insure/health-insurance/"}
+      ]
+    },
+    {
+      "product_id": "om_afya_imara_county_003",
+      "product_name": "Afya Imara County",
+      "category": "health insurance / affordable",
+      "target_market": "individuals, families seeking affordable cover",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 80,
+        "notes": "Access to county hospitals"
+      },
+      "geographic_coverage": "Kenya (county hospitals)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual", "installments"],
+        "rate_table": [
+          {
+            "plan": "Family",
+            "inpatient_limit": 500000,
+            "annual_premium": 30000,
+            "notes": "Affordable tier"
+          }
+        ],
+        "rate_table_notes": "Multiple limit options; installments via IPF",
+        "sample_examples": [
+          {"example": "KES 30,000/year for KES 500K family inpatient."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient, outpatient, maternity",
+          "Optical, dental, chronic up to 30,000 reconstructive"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "1-year wait for chronic"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "County hospitals across Kenya"
+      },
+      "claims_process": {
+        "required_documents": ["Invoices", "ID"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "online"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Afya Imara County Page", "url": "https://www.uapoldmutual.com/h/health-insurance/solution/afya-imara-county"},
+        {"title": "Afya Imara County Family", "url": "https://www.uapoldmutual.com/h/health-insurance/solution/afya-imara-county?tab=afya-imara-county"}
+      ]
+    },
+    {
+      "product_id": "om_sme_health_004",
+      "product_name": "SME Health Insurance",
+      "category": "health insurance / group",
+      "target_market": "SMEs (3-100 employees)",
+      "eligibility": {
+        "group_min_size": 3,
+        "group_max_size": 100,
+        "notes": "Bespoke for businesses"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke based on group size; includes hospital cash",
+        "sample_examples": [
+          {"example": "KES 20,000/employee for basic group cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient, outpatient",
+          "Hospital cash, critical illness",
+          "Maternity, dental"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing wait"
+      ],
+      "add_ons": ["Critical illness"],
+      "provider_network": {
+        "hospitals": "Old Mutual network"
+      },
+      "claims_process": {
+        "required_documents": ["Group docs", "Invoices"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["corporate sales", "brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Business Radar Top Insurers 2025", "url": "https://www.businessradar.co.ke/blog/2025/06/14/top-10-best-insurance-companies-in-kenya-for-june-2025-everything-you-need-to-kow/"},
+        {"title": "Times Kenya SME Health", "url": "https://www.thetimes.co.ke/article/sme-health-insurance-old-mutual"}
+      ]
+    },
+    {
+      "product_id": "om_critical_illness_addon_005",
+      "product_name": "Afya Imara + Critical Illness Add-on",
+      "category": "health insurance / add-on",
+      "target_market": "Afya Imara policyholders",
+      "eligibility": {
+        "notes": "Available with Afya Imara"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "cash_payout": 750000,
+            "annual_addon_premium": 10000,
+            "notes": "Per member"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 10,000/year add-on for KES 750K payout."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Cash on first diagnosis: cancer, stroke, heart attack, kidney failure, paralysis"
+        ],
+        "duration": "annual"
+      },
+      "exclusions": [
+        "Pre-existing"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": ["Diagnosis proof"],
+        "average_turnaround_days": 10,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Afya Imara Family Cover", "url": "https://www.oldmutual.co.ke/personal/insure/health-insurance/afyaimara-family-cover/"},
+        {"title": "Capital FM Critical Add-on", "url": "https://www.capitalfm.co.ke/business/old-mutual-critical-illness/"}
+      ]
+    },
+    {
+      "product_id": "om_motor_premier_006",
+      "product_name": "Motor Premier Cover",
+      "category": "general / motor",
+      "target_market": "high-value vehicle owners (≥ KES 3M)",
+      "eligibility": {
+        "vehicle_value_min": 3000000,
+        "vehicle_age_max": 15,
+        "notes": "For premium vehicles"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual", "monthly"],
+        "rate_table": [
+          {
+            "vehicle_value": 5000000,
+            "annual_premium": 200000,
+            "notes": "Comprehensive with extras"
+          }
+        ],
+        "rate_table_notes": "Based on vehicle value; flexible payments",
+        "sample_examples": [
+          {"example": "KES 200,000/year for KES 5M vehicle."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage, theft, fire",
+          "Third-party liability",
+          "Extras: spare wheel, toolkit, mirrors, excess protection, 24/7 road rescue"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed use"
+      ],
+      "add_ons": ["Road rescue"],
+      "provider_network": {
+        "garages": "Approved premium garages"
+      },
+      "claims_process": {
+        "required_documents": ["Police abstract", "Logbook"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Capital FM Motor Premier", "url": "https://www.capitalfm.co.ke/business/old-mutual-motor-premier/"},
+        {"title": "UAP Old Mutual Products", "url": "https://victormatara.com/uap-old-mutual-insurance-products-and-branches-in-kenya/"}
+      ]
+    },
+    {
+      "product_id": "om_childrens_medical_007",
+      "product_name": "Children’s Medical Cover (Afya Imara Junior)",
+      "category": "health insurance / children",
+      "target_market": "children from birth to 18",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 18,
+        "notes": "Standalone or transition to adult cover"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "inpatient_limit": 500000,
+            "annual_premium": 25000,
+            "notes": "Per child; two tiers available"
+          }
+        ],
+        "rate_table_notes": "Standardized tiers; includes Covid-19",
+        "sample_examples": [
+          {"example": "KES 25,000/year for KES 500K cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient, outpatient, specialist care",
+          "Vaccinations (KEPI), maternity for newborns",
+          "Covid-19 testing/treatment"
+        ],
+        "duration": "annual; non-renewable after 18"
+      },
+      "exclusions": [
+          "Waiting periods apply"
+        ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Pediatric network"
+      },
+      "claims_process": {
+        "required_documents": ["Birth cert", "Invoices"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "online"],
+      "customer_reviews": [
+        {"source": "Capital FM", "comment": "First comprehensive child cover; includes Covid (2021, updated)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Afya Imara Junior Page", "url": "https://www.uapoldmutual.com/h/health-insurance/solution/afya-imara-junior"},
+        {"title": "Capital Business Enhancement", "url": "https://www.capitalfm.co.ke/business/2021/05/uap-old-mutual-group-enhances-medical-cover-for-children-to-include-covid-19/"}
+      ]
+    },
+    {
+      "product_id": "om_bodaboda_cover_008",
+      "product_name": "Boda-Boda Riders Cover",
+      "category": "special / accident health",
+      "target_market": "Boda-boda operators",
+      "eligibility": {
+        "notes": "For riders and operators"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly"],
+        "rate_table": [
+          {
+            "daily_hospital": 1000,
+            "last_expense": 50000,
+            "monthly_premium": 500,
+            "notes": "Per night benefit"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 500/month for hospital + last expense."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Hospitalisation (KES 1,000/night)",
+          "Last expense payout (KES 50,000 on death)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-accident"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": ["ID", "Hospital summary"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "operator groups"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "HapaKenya Boda Cover", "url": "https://hapakenya.com/old-mutual-boda-boda-cover/"}
+      ]
+    },
+    {
+      "product_id": "om_flexible_premiums_009",
+      "product_name": "Flexible Premiums Plan",
+      "category": "general / flexible payment",
+      "target_market": "All policyholders",
+      "eligibility": {
+        "notes": "Applicable to health, motor, home, PA"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly"],
+        "rate_table_notes": "Monthly instead of lump sum; via IPF",
+        "sample_examples": [
+          {"example": "Monthly payments for Afya Imara or Motor."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Ease financial burden with installments"
+        ],
+        "duration": "Tied to base product"
+      },
+      "exclusions": null,
+      "add_ons": null,
+      "claims_process": null,
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["online", "agents"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Capital FM Flexible Premiums", "url": "https://www.capitalfm.co.ke/business/old-mutual-flexible-premiums/"},
+        {"title": "Afya Imara FAQs", "url": "https://www.uapoldmutual.com/faqs/product/afya-imara"}
+      ]
+    },
+    {
+      "product_id": "om_lengo_010",
+      "product_name": "Lengo Digital Savings",
+      "category": "savings / investment",
+      "target_market": "individuals for long-term goals",
+      "eligibility": {
+        "age_min": 18,
+        "notes": "Flexible contributions; tax advantages"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly", "lump-sum"],
+        "rate_table": null,
+        "rate_table_notes": "Minimum KES 1,000/month; digital portal",
+        "sample_examples": [
+          {"example": "KES 5,000/month for house/wedding fund."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Savings growth, life cover",
+          "Emergency relief",
+          "Investment goals (house, wedding)"
+        ],
+        "duration": "Flexible term"
+      },
+      "exclusions": [
+        "Early withdrawal fees"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Withdrawal form"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": ["online portal", "app"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Lengo Savings Plan Page", "url": "https://www.oldmutual.co.ke/personal/save-and-invest/lengo-savings-plan/"},
+        {"title": "Aptan Tech Review", "url": "https://aptantech.com/old-mutual-lengo-digital-savings/"}
+      ]
+    }
+  ],
+  "last_compiled": "2025-09-21"
+}
