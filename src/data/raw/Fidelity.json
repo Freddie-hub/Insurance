@@ -1,0 +1,1378 @@
+{
+  "company_id": "fidelityshield_001",
+  "company_name": "Fidelity Shield Insurance Company Limited",
+  "company_type": "general insurance",
+  "license_info": {
+    "licensed": true,
+    "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+    "license_reference": "IRA/21/009/2025",
+    "license_doc": "IRA Licensed Insurers List 2025, published March 2025"
+  },
+  "headquarters": "Fidelity Insurance Centre, 3rd Floor, Waridi Lane, Off Waiyaki Way, Westlands, P.O. Box 47435-00100, Nairobi, Kenya",
+  "branches": [
+    {
+      "branch_name": "Nairobi Head Office",
+      "address": "Fidelity Insurance Centre, 3rd Floor, Waridi Lane, Off Waiyaki Way, Westlands, Nairobi",
+      "phone": ["+254 709 988 000", "+254 758 196 846"],
+      "email": "info@fidelityshield.com"
+    },
+    {
+      "branch_name": "Nairobi CBD Branch",
+      "address": "Transnational Plaza, 8th Floor, Mama Ngina Street, Nairobi",
+      "phone": ["+254 702 420 747", "+254 709 988 750"],
+      "email": "nairobicbd@fidelityshield.com"
+    },
+    {
+      "branch_name": "Thika Branch",
+      "address": "Muthangari Road, off Gitanga Road, Lavingston, Nairobi",
+      "phone": ["+254 740 000 055"],
+      "email": "thika@fidelityshield.com"
+    },
+    {
+      "branch_name": "Mombasa Branch",
+      "address": "MTC Building (formerly Ambalal House), South Wing, 8th Floor, Nkrumah Road, Mombasa, P.O. Box 90103-80100",
+      "phone": ["+254 709 988 601"],
+      "email": "mombasa@fidelityshield.com"
+    },
+    {
+      "branch_name": "Eldoret Branch",
+      "address": "Zion Mall, 1st Floor, Uganda Road, Eldoret, P.O. Box 7877-30100",
+      "phone": ["+254 709 988 725"],
+      "email": "eldoret@fidelityshield.com"
+    },
+    {
+      "branch_name": "Nakuru Branch",
+      "address": "West Side Mall, 3rd Floor, Kenyatta Lane, Nakuru, P.O. Box 18622-20100",
+      "phone": ["+254 709 988 710"],
+      "email": "nakuru@fidelityshield.com"
+    },
+    {
+      "branch_name": "Kisumu Branch",
+      "address": "Kenya-Re Plaza (Wedco Centre), Shop Unit 2 Block B, Oginga Odinga Street, P.O. Box 2243-40100",
+      "phone": ["+254 709 988 714"],
+      "email": "kisumu@fidelityshield.com"
+    },
+    {
+      "branch_name": "Fidelity Motor Assessment Centre",
+      "address": "Muthangari Road, off Gitanga Road, Lavingston, P.O. Box 47435-00100, Nairobi",
+      "phone": ["+254 740 000 055"],
+      "email": "assessmentcentre@fidelityshield.com"
+    }
+  ],
+  "digital_presence": {
+    "website": "https://fidelityshield.com",
+    "customer_portal": null,
+    "mobile_app": false,
+    "mobile_app_store_links": {
+      "google_play": null,
+      "app_store": null
+    },
+    "api_available": false,
+    "api_notes": "Quote requests via website form; claims via WhatsApp +254 758 196 846 or email"
+  },
+  "reputation": {
+    "claims_settlement_ratio": "Mid-60% range (2023 IRA data); strong testimonials for prompt settlements",
+    "customer_complaints": "Limited public data; some mentions of processing times on social media",
+    "customer_rating": "Positive for trust and customization; Superbrands East Africa recognition",
+    "notes": "Established 1940; leading general insurer; 70+ years experience; focuses on individual/corporate solutions"
+  },
+  "products": [
+    {
+      "product_id": "fidelity_motor_private_001",
+      "product_name": "Motor Private Insurance",
+      "category": "personal solutions / motor",
+      "target_market": "private vehicle owners",
+      "eligibility": {
+        "vehicle_type": "private cars",
+        "vehicle_age_max": 15,
+        "notes": "Risk assessment based on value/usage"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "type": "Third-Party Only",
+            "annual_premium": 7500,
+            "notes": "Statutory minimum"
+          },
+          {
+            "type": "Third-Party Fire & Theft",
+            "vehicle_value": 1500000,
+            "annual_premium": 15000,
+            "notes": "TP + fire/theft"
+          },
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 80000,
+            "notes": "Full risks; 4% of value estimate"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by value, age, no-claim discounts",
+        "sample_examples": [
+          {"example": "KES 7,500/year for Third-Party Only."},
+          {"example": "KES 80,000/year for KES 2M Comprehensive."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Third-party liability (unlimited bodily, KES 5M property)",
+          "Fire/theft (TPFT)",
+          "Accidental damage (comprehensive)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed drivers, drunk driving",
+        "Wear/tear"
+      ],
+      "add_ons": ["Windscreen", "Roadside assistance"],
+      "provider_network": {
+        "garages": "Approved repair centers"
+      },
+      "claims_process": {
+        "required_documents": ["Police abstract", "Logbook", "Invoices"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true,
+        "notes": "Quick settlements praised in testimonials"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents", "brokers", "website quote form"],
+      "customer_reviews": [
+        {"source": "Testimonial", "comment": "Impressed by quick write-off settlement for motor claim (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Motor Insurance Page", "url": "https://fidelityshield.com/product/motor/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_travel_002",
+      "product_name": "Travel Insurance",
+      "category": "personal solutions / travel",
+      "target_market": "travelers (business/leisure)",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 80,
+        "notes": "Per-trip or annual"
+      },
+      "geographic_coverage": "Worldwide",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per-trip"],
+        "rate_table": [
+          {
+            "variant": "Safari",
+            "duration_days": 30,
+            "annual_premium": 6000,
+            "notes": "Basic adventure cover"
+          },
+          {
+            "variant": "Executive",
+            "duration_days": 30,
+            "annual_premium": 10000,
+            "notes": "Premium assistance"
+          },
+          {
+            "variant": "Value",
+            "duration_days": 30,
+            "annual_premium": 4000,
+            "notes": "Budget option"
+          },
+          {
+            "variant": "Inbound",
+            "duration_days": 30,
+            "annual_premium": 5000,
+            "notes": "For visitors to Kenya"
+          },
+          {
+            "variant": "Outbound",
+            "duration_days": 30,
+            "annual_premium": 7000,
+            "notes": "For Kenyans abroad"
+          }
+        ],
+        "rate_table_notes": "Varies by duration/destination",
+        "sample_examples": [
+          {"example": "KES 6,000 for 30-day Safari trip."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Medical expenses, lost luggage, flight cancellation/delays",
+          "Executive: enhanced assistance"
+        ],
+        "duration": "up to 92 days/trip"
+      },
+      "exclusions": [
+        "Pre-existing conditions, war zones"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "assistance_partners": "Global emergency services"
+      },
+      "claims_process": {
+        "required_documents": ["Bills", "Reports"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 7
+      },
+      "distribution_channels": ["website", "agents"],
+      "customer_reviews": [
+        {"source": "LinkedIn", "comment": "Executive travel assistance for business trips (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Travel Insurance Page", "url": "https://fidelityshield.com/service/travel-insurance/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_pa_003",
+      "product_name": "Personal Accident",
+      "category": "personal solutions / accident",
+      "target_market": "individuals, groups",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "On/off duty"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "variant": "Standard",
+            "sum_assured": 1000000,
+            "annual_premium": 12000,
+            "notes": "Death/disability"
+          },
+          {
+            "variant": "Temporary loss of income",
+            "sum_assured": 500000,
+            "annual_premium": 8000,
+            "notes": "Income replacement"
+          },
+          {
+            "variant": "Medical expenses add-on",
+            "sum_assured": 200000,
+            "annual_premium": 5000,
+            "notes": "Add to base policy"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 12,000/year for KES 1M Standard."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death, permanent/temporary disability",
+          "Income loss, medical expenses"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Self-harm, war"
+      ],
+      "add_ons": ["Medical expenses"],
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": ["Medical reports", "Police abstract"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents"],
+      "customer_reviews": [
+        {"source": "LinkedIn", "comment": "Rest assured with GA PA; covers difficulties (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Personal Accident Page", "url": "https://fidelityshield.com/service/personal-accident/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_domestic_package_004",
+      "product_name": "Domestic Package",
+      "category": "personal solutions / property",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "property_type": "residential",
+        "notes": "Valuation required"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "variant": "Basic home contents",
+            "sum_insured": 1000000,
+            "annual_premium": 10000,
+            "notes": "Contents only"
+          },
+          {
+            "variant": "Extended (with liability)",
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Buildings + contents + liability"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 10,000/year for basic contents KES 1M."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, theft, burglary, natural perils",
+          "Liability for visitors/servants"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear, unoccupied"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Police abstract", "Invoices"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents"],
+      "customer_reviews": [
+        {"source": "LinkedIn", "comment": "Covered place to call home (2025)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Domestic Package Page", "url": "https://fidelityshield.com/service/domestic-insurance/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_golfers_005",
+      "product_name": "Golfers Policy",
+      "category": "personal solutions / specialty",
+      "target_market": "golfers",
+      "eligibility": {
+        "notes": "Amateur/professional; Kenyan residents"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_assured": 100000,
+            "annual_premium": 5000,
+            "notes": "Equipment all-risks"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 5,000/year for equipment cover."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Equipment all-risks (clubs, bags)",
+          "Hole-in-one extension (bar bill)",
+          "Caddie personal accident"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "add_ons": ["Hole-in-one"],
+      "claims_process": {
+        "required_documents": ["Police report", "Receipts"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["agents"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Golfers Policy Page", "url": "https://fidelityshield.com/product/golfers-policy/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_my_afya_shield_006",
+      "product_name": "My Afya Shield Medical Insurance",
+      "category": "personal solutions / medical",
+      "target_market": "individuals, families, SMEs",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 70,
+        "notes": "Tech-driven via M-TIBA; preventive focus"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["monthly", "annual"],
+        "rate_table": [
+          {
+            "inpatient_limit": 1000000,
+            "annual_premium_individual": 50000,
+            "notes": "Inpatient/outpatient"
+          }
+        ],
+        "rate_table_notes": "Varies by family/SME size",
+        "sample_examples": [
+          {"example": "KES 50,000/year for individual KES 1M limit."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient/outpatient",
+          "Maternity/family riders",
+          "Wellness/preventive care"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing waits"
+      ],
+      "add_ons": ["Maternity"],
+      "provider_network": {
+        "hospitals": "M-TIBA network"
+      },
+      "claims_process": {
+        "required_documents": ["Invoices"],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true,
+        "notes": "Instant approvals via app"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["M-TIBA app", "online"],
+      "customer_reviews": [
+        {"source": "M-TIBA Partnership", "comment": "Tech-driven comprehensive health; instant benefits (2024)"}
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity My Afya Shield Launch", "url": "https://mtiba.com/fidelity-insurance-partners-with-m-tiba-to-offer-tech-driven-comprehensive-health-and-wellness-cover/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_home_insurance_007",
+      "product_name": "Home Insurance",
+      "category": "personal solutions / property",
+      "target_market": "homeowners",
+      "eligibility": {
+        "notes": "Residential properties"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "variant": "Buildings only",
+            "sum_insured": 5000000,
+            "annual_premium": 20000,
+            "notes": "Structure cover"
+          },
+          {
+            "variant": "Contents only",
+            "sum_insured": 1000000,
+            "annual_premium": 10000,
+            "notes": "Furnishings/items"
+          },
+          {
+            "variant": "Combined",
+            "sum_insured": 6000000,
+            "annual_premium": 25000,
+            "notes": "Buildings + contents"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 25,000/year for combined KES 6M."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, theft, natural perils",
+          "Liability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Invoices", "Photos"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["website"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Home Insurance Page", "url": "https://fidelityshield.com/service/home-insurance/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_motor_commercial_008",
+      "product_name": "Motor Commercial Cover",
+      "category": "corporate solutions / motor",
+      "target_market": "fleet/business vehicles",
+      "eligibility": {
+        "vehicle_type": "commercial",
+        "notes": "PSV/commercial use"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "type": "Third-Party Only",
+            "annual_premium": 7500,
+            "notes": "Minimum"
+          },
+          {
+            "type": "Third-Party Fire & Theft",
+            "vehicle_value": 2000000,
+            "annual_premium": 25000,
+            "notes": "TP + fire/theft"
+          },
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 130000,
+            "notes": "Full risks"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 130,000/year for KES 2M comprehensive."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidents, riots, theft",
+          "Third-party liability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "add_ons": ["Goods transit"],
+      "provider_network": {
+        "garages": "Commercial centers"
+      },
+      "claims_process": {
+        "required_documents": ["Logbook", "Abstract"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Motor Commercial Page", "url": "https://fidelityshield.com/product/motor-commercial/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_wiba_009",
+      "product_name": "WIBA Insurance (Work Injury Benefits Act)",
+      "category": "corporate solutions / liability",
+      "target_market": "employers",
+      "eligibility": {
+        "notes": "Statutory for all employers"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "payroll": 10000000,
+            "annual_premium": 15000,
+            "notes": "Statutory minimum"
+          }
+        ],
+        "rate_table_notes": "Based on payroll; excess optional",
+        "sample_examples": [
+          {"example": "KES 15,000 for KES 10M payroll."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Work injuries, death, disablement",
+          "Medical/compensation"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-work injuries"
+      ],
+      "add_ons": ["Excess cover"],
+      "claims_process": {
+        "required_documents": ["Incident reports"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity WIBA Page", "url": "https://fidelityshield.com/service/wiba-insurance/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_marine_010",
+      "product_name": "Marine Insurance",
+      "category": "corporate solutions / marine",
+      "target_market": "importers/exporters",
+      "eligibility": {
+        "notes": "Cargo transit"
+      },
+      "geographic_coverage": "Kenya/international",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per-shipment"],
+        "rate_table": [
+          {
+            "clause": "Institute Cargo Clauses (A) – All Risks",
+            "sum_insured": 10000000,
+            "premium_rate": "0.5%",
+            "notes": "Comprehensive"
+          },
+          {
+            "clause": "Institute Cargo Clauses (B)",
+            "sum_insured": 10000000,
+            "premium_rate": "0.3%",
+            "notes": "Intermediate"
+          },
+          {
+            "clause": "Institute Cargo Clauses (C)",
+            "sum_insured": 10000000,
+            "premium_rate": "0.2%",
+            "notes": "Basic perils"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 50,000 for KES 10M All Risks."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Cargo loss/damage (per clause)",
+          "General average, salvage"
+        ],
+        "duration": "transit period"
+      },
+      "exclusions": [
+        "Inherent vice, war"
+      ],
+      "add_ons": ["Warehouse extension"],
+      "provider_network": {
+        "partners": "Surveyors"
+      },
+      "claims_process": {
+        "required_documents": ["Bill of lading"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Marine Page", "url": "https://fidelityshield.com/service/marine-insurance/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_fire_allied_011",
+      "product_name": "Fire & Allied Perils",
+      "category": "corporate solutions / property",
+      "target_market": "businesses/property owners",
+      "eligibility": {
+        "notes": "Valuation of assets"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Buildings/stock/machinery"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 25,000/year for KES 5M."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, lightning, explosion",
+          "Allied: riots, storm, earthquake"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "War"
+      ],
+      "add_ons": ["Stock/machinery extensions"],
+      "claims_process": {
+        "required_documents": ["Fire report"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Fire & Allied Perils Page", "url": "https://fidelityshield.com/service/fire-and-allied-perils/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_liabilities_012",
+      "product_name": "Liabilities",
+      "category": "corporate solutions / liability",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Risk exposure assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "type": "Public liability",
+            "limit": 5000000,
+            "annual_premium": 25000,
+            "notes": "Third-party injury/property"
+          },
+          {
+            "type": "Products liability",
+            "limit": 5000000,
+            "annual_premium": 30000,
+            "notes": "Defective products"
+          },
+          {
+            "type": "Employers' liability",
+            "limit": 10000000,
+            "annual_premium": 50000,
+            "notes": "Employee injuries"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 25,000/year for KES 5M public liability."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Legal liability for injury/damage",
+          "Defense costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional acts"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Claim docs"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Liabilities Page", "url": "https://fidelityshield.com/service/liabilities/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_engineering_013",
+      "product_name": "Engineering Insurance",
+      "category": "corporate solutions / engineering",
+      "target_market": "contractors, engineers",
+      "eligibility": {
+        "notes": "Project/contract details"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["project term"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke for risks",
+        "sample_examples": [
+          {"example": "Custom for contractors all-risks."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Contractors all-risks, erection all-risks",
+          "Machinery breakdown"
+        ],
+        "duration": "project/contract"
+      },
+      "exclusions": [
+        "Design defects"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Project reports"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Engineering Page", "url": "https://fidelityshield.com/service/engineering/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_bonds_014",
+      "product_name": "Bonds",
+      "category": "corporate solutions / bonds",
+      "target_market": "contractors, bidders",
+      "eligibility": {
+        "notes": "Tender/project requirements"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["one-off"],
+        "rate_table": [
+          {
+            "type": "Performance bonds",
+            "bond_value": 10000000,
+            "premium_rate": "1-3%",
+            "notes": "Failure to perform"
+          },
+          {
+            "type": "Advance payment bonds",
+            "bond_value": 5000000,
+            "premium_rate": "1-2%",
+            "notes": "Repayment guarantee"
+          },
+          {
+            "type": "Bid bonds",
+            "bond_value": 2000000,
+            "premium_rate": "0.5-1%",
+            "notes": "Tender validity"
+          }
+        ],
+        "sample_examples": [
+          {"example": "1% premium for KES 10M performance bond."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Guarantee contract fulfillment",
+          "Financial security for principal"
+        ],
+        "duration": "contract term"
+      },
+      "exclusions": [
+        "Non-performance due to force majeure"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Claim from principal"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Bonds Page", "url": "https://fidelityshield.com/product/performance-bonds-cover/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_burglary_theft_015",
+      "product_name": "Burglary/Theft Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Security measures assessed"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 20000,
+            "notes": "Premises/stock"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 20,000/year for KES 2M."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Forcible entry/exit theft",
+          "Damage to premises/stock/fixtures"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Theft without force"
+      ],
+      "add_ons": ["Extensions for stock"],
+      "claims_process": {
+        "required_documents": ["Police abstract"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Burglary/Theft Page", "url": "https://fidelityshield.com/service/burglary/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_all_risks_016",
+      "product_name": "All Risks Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses for specified items",
+      "eligibility": {
+        "notes": "Valuation of items"
+      },
+      "geographic_coverage": "Kenya/geographic extensions",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 50000,
+            "notes": "All risks except exclusions"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 50,000/year for KES 5M."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental loss/damage to specified items",
+          "Theft, fire, external causes"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear, consequential"
+      ],
+      "add_ons": ["Geographic extensions"],
+      "claims_process": {
+        "required_documents": ["Incident reports"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity All Risks Page", "url": "https://fidelityshield.com/service/all-risks-insurance/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_aviation_017",
+      "product_name": "Aviation Insurance",
+      "category": "corporate solutions / specialty",
+      "target_market": "aircraft owners/operators",
+      "eligibility": {
+        "notes": "Aircraft registration, pilot licenses"
+      },
+      "geographic_coverage": "Kenya/East Africa",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke for hull/liability",
+        "sample_examples": [
+          {"example": "Custom for hull all risks."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Hull coverage (physical damage)",
+          "Third-party liability (injury/property)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "War risks"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Aircraft logs", "Surveys"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Aviation Page", "url": "https://fidelityshield.com/service/aviation-insurance/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_money_insurance_018",
+      "product_name": "Money Insurance Cover",
+      "category": "corporate solutions / money",
+      "target_market": "businesses handling cash",
+      "eligibility": {
+        "notes": "Cash handling procedures"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "limit": 1000000,
+            "annual_premium": 10000,
+            "notes": "Transit/premises/safe"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 10,000/year for KES 1M."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Theft/hold-up in transit, premises, safe"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Employee fraud (fidelity separate)"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Police report"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Money Cover Page", "url": "https://fidelityshield.com/service/money-insurance-cover/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_plate_glass_019",
+      "product_name": "Plate Glass Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses with glass fixtures",
+      "eligibility": {
+        "notes": "Fixed glass valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": [
+          {
+            "sum_insured": 500000,
+            "annual_premium": 7500,
+            "notes": "Fixed/display glass"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 7,500/year for KES 500K."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental breakage of fixed glass, partitions, display signs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear, intentional"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Photos of damage"],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Plate Glass Page", "url": "https://fidelityshield.com/service/plate-glass-insurance/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_consequential_loss_020",
+      "product_name": "Consequential Loss",
+      "category": "corporate solutions / business interruption",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Linked to fire/perils policy"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Based on gross profit",
+        "sample_examples": [
+          {"example": "Custom for interruption losses."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss of profits from interruption",
+          "Increased working costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured perils"
+      ],
+      "add_ons": ["Extensions"],
+      "claims_process": {
+        "required_documents": ["Financials"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Consequential Loss Page", "url": "https://fidelityshield.com/service/consequential-loss/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_goods_transit_021",
+      "product_name": "Goods in Transit",
+      "category": "corporate solutions / transit",
+      "target_market": "businesses transporting goods",
+      "eligibility": {
+        "notes": "Transit details"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["per-shipment", "annual"],
+        "rate_table": [
+          {
+            "type": "One-off transit",
+            "sum_insured": 1000000,
+            "premium_rate": "0.5%",
+            "notes": "Single journey"
+          },
+          {
+            "type": "Annual multi-transit",
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Multiple trips"
+          }
+        ],
+        "sample_examples": [
+          {"example": "KES 5,000 for KES 1M one-off."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage in road/rail transit"
+        ],
+        "duration": "transit or annual"
+      },
+      "exclusions": [
+        "Improper packing"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Delivery notes"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Goods in Transit Page", "url": "https://fidelityshield.com/product/goods-in-transit/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_machinery_breakdown_022",
+      "product_name": "Machinery Breakdown",
+      "category": "corporate solutions / engineering",
+      "target_market": "businesses with machinery",
+      "eligibility": {
+        "notes": "Machinery valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Based on value/risk",
+        "sample_examples": [
+          {"example": "Custom for defects/boiler/short circuit."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Breakdown from defects, boiler explosion, short circuit"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Diagnostics"],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Machinery Breakdown Page", "url": "https://fidelityshield.com/service/machinery-breakdown/"}
+      ]
+    },
+    {
+      "product_id": "fidelity_political_risks_023",
+      "product_name": "Political Risks & Terrorism",
+      "category": "corporate solutions / specialty",
+      "target_market": "businesses in high-risk areas",
+      "eligibility": {
+        "notes": "Risk assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": ["annual"],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke for exposure",
+        "sample_examples": [
+          {"example": "Custom for property/liability."}
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Property damage from terrorism/political violence",
+          "Liability extensions"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Nuclear risks"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": ["Incident reports"],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": ["brokers"],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {"title": "Fidelity Political Risks Page", "url": "https://fidelityshield.com/service/political-risks-terrorism/"}
+      ]
+    }
+  ],
+  "last_compiled": "2025-09-21"
+}
