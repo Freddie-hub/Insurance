@@ -1,15 +1,9 @@
 import { NextResponse } from "next/server";
 import { Pinecone } from "@pinecone-database/pinecone";
-import OpenAI from "openai";
 
 // Pinecone client
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY! });
 const index = pc.Index(process.env.PINECONE_INDEX!);
-
-// OpenAI client
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY!,
-});
 
 // Call your embedding service (MiniLM-L6-v2)
 async function getMiniLMEmbedding(text: string): Promise<number[]> {
@@ -52,13 +46,19 @@ export async function POST(req: Request) {
       )
       .join("\n\n");
 
-    // 3. Ask OpenAI with improved prompt
-    const completion = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
-      messages: [
-        {
-          role: "system",
-          content: `
+    // 3. Ask DeepSeek with improved prompt
+    const resp = await fetch("https://api.deepseek.com/chat/completions", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${process.env.DEEPSEEK_API_KEY!}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model: "deepseek-chat",
+        messages: [
+          {
+            role: "system",
+            content: `
 You are InsureAssist AI, a professional insurance advisor for the Kenyan market.
 You help users compare, explain, and recommend insurance products such as motor, health, life, funeral, and general policies.
 
@@ -71,15 +71,21 @@ INSTRUCTIONS:
 - Do not invent insurer names, products, or numbers not supported by the context.
 - Summarize into a short recommendation after explaining options.
 `,
-        },
-        {
-          role: "user",
-          content: `USER QUESTION:\n${query}\n\nCONTEXT:\n${context}`,
-        },
-      ],
-      temperature: 0.3,
+          },
+          {
+            role: "user",
+            content: `USER QUESTION:\n${query}\n\nCONTEXT:\n${context}`,
+          },
+        ],
+        temperature: 0.3,
+      }),
     });
 
+    if (!resp.ok) {
+      throw new Error(`DeepSeek API failed: ${resp.statusText}`);
+    }
+
+    const completion = await resp.json();
     const answer = completion.choices[0].message?.content ?? "";
 
     return NextResponse.json({
