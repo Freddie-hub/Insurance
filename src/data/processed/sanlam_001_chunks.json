@@ -1,0 +1,1492 @@
+[
+  {
+    "chunk_id": "sanlam_001_company_d5381ada-0471-4087-a874-9eacfa556861",
+    "metadata": {
+      "company_id": "sanlam_001",
+      "company_name": "Sanlam Kenya Plc",
+      "company_type": "composite (life, general, pensions, savings)",
+      "license_info": {
+        "licensed": true,
+        "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+        "license_reference": "IRA/14/005/2025",
+        "license_doc": "IRA Licensed Insurers List 2025, published March 2025"
+      },
+      "headquarters": "Sanlam Tower, 15th Floor, Off Waiyaki Way, Westlands, P.O. Box 10493-00100, Nairobi, Kenya",
+      "digital_presence": {
+        "website": "https://www.sanlam.co.ke",
+        "customer_portal": "https://portal.sanlam.co.ke",
+        "mobile_app": false,
+        "mobile_app_store_links": {
+          "google_play": null,
+          "app_store": null
+        },
+        "api_available": false,
+        "api_notes": "Partner integrations available; self-service portal for policy management"
+      },
+      "reputation": {
+        "claims_settlement_ratio": "Consistent performance with claim payment ratios improving to 9.40% in Q2 2025; underwriting losses noted in H1 2025 due to rising claims (Ksh294.9B sector-wide)",
+        "customer_complaints": "Limited public details; some delays in claims processing reported on X and reviews; overall positive for affordability and innovation",
+        "customer_rating": "Mixed feedback; praised for flexible products but criticized for delays in complex claims and communication",
+        "notes": "Subsidiary of Sanlam Group; ranked among top performers for claims consistency in 2025 rankings. X posts highlight rising costs impacting sector, including Sanlam."
+      },
+      "last_compiled": "2025-09-21"
+    },
+    "text": "{\"company_id\": \"sanlam_001\", \"company_name\": \"Sanlam Kenya Plc\", \"company_type\": \"composite (life, general, pensions, savings)\", \"license_info\": {\"licensed\": true, \"regulator\": \"Insurance Regulatory Authority (IRA) Kenya\", \"license_reference\": \"IRA/14/005/2025\", \"license_doc\": \"IRA Licensed Insurers List 2025, published March 2025\"}, \"headquarters\": \"Sanlam Tower, 15th Floor, Off Waiyaki Way, Westlands, P.O. Box 10493-00100, Nairobi, Kenya\", \"digital_presence\": {\"website\": \"https://www.sanlam.co.ke\", \"customer_portal\": \"https://portal.sanlam.co.ke\", \"mobile_app\": false, \"mobile_app_store_links\": {\"google_play\": null, \"app_store\": null}, \"api_available\": false, \"api_notes\": \"Partner integrations available; self-service portal for policy management\"}, \"reputation\": {\"claims_settlement_ratio\": \"Consistent performance with claim payment ratios improving to 9.40% in Q2 2025; underwriting losses noted in H1 2025 due to rising claims (Ksh294.9B sector-wide)\", \"customer_complaints\": \"Limited public details; some delays in claims processing reported on X and reviews; overall positive for affordability and innovation\", \"customer_rating\": \"Mixed feedback; praised for flexible products but criticized for delays in complex claims and communication\", \"notes\": \"Subsidiary of Sanlam Group; ranked among top performers for claims consistency in 2025 rankings. X posts highlight rising costs impacting sector, including Sanlam.\"}, \"last_compiled\": \"2025-09-21\"}"
+  },
+  {
+    "chunk_id": "sanlam_001_branches_968ce6a8-5732-4396-9a1b-de0c490457e4",
+    "metadata": {
+      "branches": [
+        {
+          "branch_name": "Nairobi Head Office",
+          "address": "Sanlam Tower, 15th Floor, Off Waiyaki Way, Westlands, P.O. Box 10493-00100, Nairobi",
+          "phone": [
+            "+254 20 2781000",
+            "+254 722 206 900"
+          ],
+          "email": "customerservice@sanlam.co.ke"
+        },
+        {
+          "branch_name": "Mombasa Branch",
+          "address": "NSSF Building, 3rd Floor, Nkrumah Road, Mombasa",
+          "phone": [
+            "+254 41 231 2345"
+          ]
+        },
+        {
+          "branch_name": "Kisumu Branch",
+          "address": "Oginga Odinga Road, Kisumu",
+          "phone": [
+            "+254 57 202 1234"
+          ]
+        },
+        {
+          "branch_name": "Eldoret Branch",
+          "address": "Zimmerman Building, Eldoret",
+          "phone": [
+            "+254 53 206 1234"
+          ]
+        },
+        {
+          "branch_name": "Nakuru Branch",
+          "address": "Kenya Power Building, Kenyatta Avenue, Nakuru",
+          "phone": [
+            "+254 51 221 1234"
+          ]
+        },
+        {
+          "branch_name": "Nyeri Branch",
+          "address": "Kenyatta Road, Nyeri",
+          "phone": [
+            "+254 61 203 1234"
+          ]
+        }
+      ]
+    },
+    "text": "{\"branches\": [{\"branch_name\": \"Nairobi Head Office\", \"address\": \"Sanlam Tower, 15th Floor, Off Waiyaki Way, Westlands, P.O. Box 10493-00100, Nairobi\", \"phone\": [\"+254 20 2781000\", \"+254 722 206 900\"], \"email\": \"customerservice@sanlam.co.ke\"}, {\"branch_name\": \"Mombasa Branch\", \"address\": \"NSSF Building, 3rd Floor, Nkrumah Road, Mombasa\", \"phone\": [\"+254 41 231 2345\"]}, {\"branch_name\": \"Kisumu Branch\", \"address\": \"Oginga Odinga Road, Kisumu\", \"phone\": [\"+254 57 202 1234\"]}, {\"branch_name\": \"Eldoret Branch\", \"address\": \"Zimmerman Building, Eldoret\", \"phone\": [\"+254 53 206 1234\"]}, {\"branch_name\": \"Nakuru Branch\", \"address\": \"Kenya Power Building, Kenyatta Avenue, Nakuru\", \"phone\": [\"+254 51 221 1234\"]}, {\"branch_name\": \"Nyeri Branch\", \"address\": \"Kenyatta Road, Nyeri\", \"phone\": [\"+254 61 203 1234\"]}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_flexi_hela_001_5e73d7aa-0326-495d-80a4-243950377e2b",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_flexi_hela_001",
+      "product_name": "Flexi Hela",
+      "category": "life / savings",
+      "target_market": "individuals seeking flexible savings with life cover",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Flexible contributions; no medical exam for basic cover"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Flexible savings limits adjustable via portal; guaranteed return",
+        "sample_examples": [
+          {
+            "example": "Starting contributions from KES 1,000/month with life cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Flexible savings with guaranteed return",
+          "Life cover for up to 4 dependent children",
+          "Access to accrued savings within 24 hours at zero surrender cost",
+          "Adjustable savings and cover via customer portal"
+        ],
+        "duration": "Flexible term"
+      },
+      "exclusions": [
+        "Early withdrawal penalties",
+        "Non-disclosure of health"
+      ],
+      "add_ons": [
+        "Increased life cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Policy document",
+          "ID"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true,
+        "notes": "Paperless via mTek partnership"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "online",
+        "agents",
+        "mTek digital platform"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Citizen Witness",
+          "comment": "Innovative flexible savings with quick access; partnered with mTek for paperless ecosystem (2022, ongoing)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Flexi Hela Official Page",
+          "url": "https://sanlam.co.ke/everyday-insurance-flexi-hela.html"
+        },
+        {
+          "title": "Citizen Witness Launch",
+          "url": "https://citizenwitness.co.ke/index.php/2022/07/15/sanlam-kenya-launches-flexi-hela-partners-with-mtek-services/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_flexi_hela_001\", \"product_name\": \"Flexi Hela\", \"category\": \"life / savings\", \"target_market\": \"individuals seeking flexible savings with life cover\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Flexible contributions; no medical exam for basic cover\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Flexible savings limits adjustable via portal; guaranteed return\", \"sample_examples\": [{\"example\": \"Starting contributions from KES 1,000/month with life cover.\"}]}, \"coverage\": {\"benefits\": [\"Flexible savings with guaranteed return\", \"Life cover for up to 4 dependent children\", \"Access to accrued savings within 24 hours at zero surrender cost\", \"Adjustable savings and cover via customer portal\"], \"duration\": \"Flexible term\"}, \"exclusions\": [\"Early withdrawal penalties\", \"Non-disclosure of health\"], \"add_ons\": [\"Increased life cover\"], \"claims_process\": {\"required_documents\": [\"Policy document\", \"ID\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true, \"notes\": \"Paperless via mTek partnership\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"online\", \"agents\", \"mTek digital platform\"], \"customer_reviews\": [{\"source\": \"Citizen Witness\", \"comment\": \"Innovative flexible savings with quick access; partnered with mTek for paperless ecosystem (2022, ongoing)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Flexi Hela Official Page\", \"url\": \"https://sanlam.co.ke/everyday-insurance-flexi-hela.html\"}, {\"title\": \"Citizen Witness Launch\", \"url\": \"https://citizenwitness.co.ke/index.php/2022/07/15/sanlam-kenya-launches-flexi-hela-partners-with-mtek-services/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_nawiri_002_83ceda8a-b7ce-4991-919a-40a0251357c3",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_nawiri_002",
+      "product_name": "Nawiri",
+      "category": "life / endowment",
+      "target_market": "individuals for savings and investment",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Guaranteed return after term"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke based on term; distributed via KCB/NBK",
+        "sample_examples": [
+          {
+            "example": "Periodic contributions for guaranteed lump-sum."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Savings and investment with guaranteed return",
+          "Lump-sum payout after specified period",
+          "Life cover included"
+        ],
+        "duration": "Fixed term (e.g., 10-20 years)"
+      },
+      "exclusions": [
+        "Early surrender penalties"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Maturity form",
+          "ID"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "KCB Bank branches",
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "KCB/NBK Distribution Deal",
+          "url": "https://www.nationalbank.co.ke/about-us/newsroom/kcb-nbk-in-life-insurance-distribution-deal-with-sanlam"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_nawiri_002\", \"product_name\": \"Nawiri\", \"category\": \"life / endowment\", \"target_market\": \"individuals for savings and investment\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Guaranteed return after term\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke based on term; distributed via KCB/NBK\", \"sample_examples\": [{\"example\": \"Periodic contributions for guaranteed lump-sum.\"}]}, \"coverage\": {\"benefits\": [\"Savings and investment with guaranteed return\", \"Lump-sum payout after specified period\", \"Life cover included\"], \"duration\": \"Fixed term (e.g., 10-20 years)\"}, \"exclusions\": [\"Early surrender penalties\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Maturity form\", \"ID\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 30}, \"distribution_channels\": [\"KCB Bank branches\", \"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"KCB/NBK Distribution Deal\", \"url\": \"https://www.nationalbank.co.ke/about-us/newsroom/kcb-nbk-in-life-insurance-distribution-deal-with-sanlam\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_elimisha_plus_003_109488c0-6f88-4338-a27f-0a569d588ab5",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_elimisha_plus_003",
+      "product_name": "Elimisha Plus Cover",
+      "category": "life / education",
+      "target_market": "parents/guardians for children's education",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 25,
+        "notes": "Enhanced education policy; distributed via KCB/NBK"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Flexible for education levels; tax relief eligible",
+        "sample_examples": [
+          {
+            "example": "KES 2,000/month for education fund buildup."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Savings for education expenses",
+          "Lump-sum on maturity or death",
+          "Premium waiver on parent's death"
+        ],
+        "duration": "5–20 years"
+      },
+      "exclusions": [
+        "Policy lapse"
+      ],
+      "add_ons": [
+        "Investment growth"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "School invoices",
+          "Policy"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "KCB/NBK branches (300+ locations)",
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "KCB/NBK Deal",
+          "url": "https://www.nationalbank.co.ke/about-us/newsroom/kcb-nbk-in-life-insurance-distribution-deal-with-sanlam"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_elimisha_plus_003\", \"product_name\": \"Elimisha Plus Cover\", \"category\": \"life / education\", \"target_market\": \"parents/guardians for children's education\", \"eligibility\": {\"age_min\": 0, \"age_max\": 25, \"notes\": \"Enhanced education policy; distributed via KCB/NBK\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Flexible for education levels; tax relief eligible\", \"sample_examples\": [{\"example\": \"KES 2,000/month for education fund buildup.\"}]}, \"coverage\": {\"benefits\": [\"Savings for education expenses\", \"Lump-sum on maturity or death\", \"Premium waiver on parent's death\"], \"duration\": \"5–20 years\"}, \"exclusions\": [\"Policy lapse\"], \"add_ons\": [\"Investment growth\"], \"claims_process\": {\"required_documents\": [\"School invoices\", \"Policy\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"KCB/NBK branches (300+ locations)\", \"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"KCB/NBK Deal\", \"url\": \"https://www.nationalbank.co.ke/about-us/newsroom/kcb-nbk-in-life-insurance-distribution-deal-with-sanlam\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_last_expense_004_678950f9-1df1-465a-8a72-a63c11879272",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_last_expense_004",
+      "product_name": "Last Expense Cover",
+      "category": "life / funeral",
+      "target_market": "individuals/families for bereavement costs",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Robust funeral cover; no medical exam"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 100000,
+            "monthly_premium": 500,
+            "notes": "Basic funeral cover"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 500/month for KES 100K funeral payout."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Covers funeral costs",
+          "Lump-sum on death",
+          "No waiting for accidental death"
+        ],
+        "duration": "Annual renewable"
+      },
+      "exclusions": [
+        "Suicide within 1 year"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Death certificate",
+          "Burial permit"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "KCB/NBK branches",
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "KCB/NBK Partnership",
+          "url": "https://www.nationalbank.co.ke/about-us/newsroom/kcb-nbk-in-life-insurance-distribution-deal-with-sanlam"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_last_expense_004\", \"product_name\": \"Last Expense Cover\", \"category\": \"life / funeral\", \"target_market\": \"individuals/families for bereavement costs\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Robust funeral cover; no medical exam\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\"], \"rate_table\": [{\"sum_assured\": 100000, \"monthly_premium\": 500, \"notes\": \"Basic funeral cover\"}], \"sample_examples\": [{\"example\": \"KES 500/month for KES 100K funeral payout.\"}]}, \"coverage\": {\"benefits\": [\"Covers funeral costs\", \"Lump-sum on death\", \"No waiting for accidental death\"], \"duration\": \"Annual renewable\"}, \"exclusions\": [\"Suicide within 1 year\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Death certificate\", \"Burial permit\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"KCB/NBK branches\", \"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"KCB/NBK Partnership\", \"url\": \"https://www.nationalbank.co.ke/about-us/newsroom/kcb-nbk-in-life-insurance-distribution-deal-with-sanlam\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_ffp_005_8faeb521-a50a-4ede-9075-f8f363117d0d",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_ffp_005",
+      "product_name": "Family Finance Plan (FFP)",
+      "category": "life / protection",
+      "target_market": "families for burial cover",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 66,
+        "notes": "Covers extended family including unborn/newborn, parents, grandparents; no medical exam; transferable after 50 before 65"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "quarterly",
+          "semi-annual",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "monthly_premium": 500,
+            "notes": "Starting premium; 5% annual update for inflation"
+          }
+        ],
+        "rate_table_notes": "Payments via Bankers Order, Direct Debit, cheque, M-Pesa (Paybill 120120); 10% of premiums returned every 5 years",
+        "sample_examples": [
+          {
+            "example": "KES 500/month for family burial cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Burial cover for extended family",
+          "Optional cash bonus (10% of risk premium credited every 5 years)",
+          "No waiting for accidental death",
+          "Policy advance up to 75% of cash bonus after 3 years"
+        ],
+        "duration": "Renewable until age 66"
+      },
+      "exclusions": [
+        "Initial 6-12 month waiting (accidental death only); no benefits if withdrawn in year 1; penalties for early withdrawal (25% year 2, 12.5% year 3); HIV/AIDS exclusion waived after waiting"
+      ],
+      "add_ons": [
+        "Cash bonus savings plan"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Burial permit",
+          "Proof of age (ID/clinical card)",
+          "Policy document"
+        ],
+        "average_turnaround_days": 2,
+        "digital_claims_supported": true,
+        "notes": "Notify nearest agency; assessed and paid within 48 hours"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online portal",
+        "M-Pesa"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Family Finance Plan Page",
+          "url": "https://www.sanlam.co.ke/life-insurance/family-finance-plan"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_ffp_005\", \"product_name\": \"Family Finance Plan (FFP)\", \"category\": \"life / protection\", \"target_market\": \"families for burial cover\", \"eligibility\": {\"age_min\": 0, \"age_max\": 66, \"notes\": \"Covers extended family including unborn/newborn, parents, grandparents; no medical exam; transferable after 50 before 65\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"semi-annual\", \"annual\"], \"rate_table\": [{\"monthly_premium\": 500, \"notes\": \"Starting premium; 5% annual update for inflation\"}], \"rate_table_notes\": \"Payments via Bankers Order, Direct Debit, cheque, M-Pesa (Paybill 120120); 10% of premiums returned every 5 years\", \"sample_examples\": [{\"example\": \"KES 500/month for family burial cover.\"}]}, \"coverage\": {\"benefits\": [\"Burial cover for extended family\", \"Optional cash bonus (10% of risk premium credited every 5 years)\", \"No waiting for accidental death\", \"Policy advance up to 75% of cash bonus after 3 years\"], \"duration\": \"Renewable until age 66\"}, \"exclusions\": [\"Initial 6-12 month waiting (accidental death only); no benefits if withdrawn in year 1; penalties for early withdrawal (25% year 2, 12.5% year 3); HIV/AIDS exclusion waived after waiting\"], \"add_ons\": [\"Cash bonus savings plan\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Burial permit\", \"Proof of age (ID/clinical card)\", \"Policy document\"], \"average_turnaround_days\": 2, \"digital_claims_supported\": true, \"notes\": \"Notify nearest agency; assessed and paid within 48 hours\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online portal\", \"M-Pesa\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Family Finance Plan Page\", \"url\": \"https://www.sanlam.co.ke/life-insurance/family-finance-plan\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_flexipension_006_bacae438-d608-4f9a-9853-1840bc1dca3a",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_flexipension_006",
+      "product_name": "FlexiPension",
+      "category": "pensions / retirement",
+      "target_market": "individuals for retirement savings",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 75,
+        "notes": "Minimum monthly contribution KES 1,000"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "lump-sum"
+        ],
+        "rate_table": [
+          {
+            "monthly_contribution": 1000,
+            "notes": "Minimum; builds high-yield fund"
+          }
+        ],
+        "rate_table_notes": "Tax relief eligible; 30% lump-sum on retirement",
+        "sample_examples": [
+          {
+            "example": "KES 1,000/month for retirement accumulation."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Build retirement fund",
+          "30% cash lump-sum on retirement",
+          "Annuity or drawdown options",
+          "Death benefit to beneficiaries"
+        ],
+        "duration": "Until retirement"
+      },
+      "exclusions": [
+        "Early withdrawal penalties"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Retirement proof",
+          "Withdrawal form"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Victor Matara Product List",
+          "url": "https://victormatara.com/list-of-sanlam-insurance-products-and-branches-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_flexipension_006\", \"product_name\": \"FlexiPension\", \"category\": \"pensions / retirement\", \"target_market\": \"individuals for retirement savings\", \"eligibility\": {\"age_min\": 18, \"age_max\": 75, \"notes\": \"Minimum monthly contribution KES 1,000\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"lump-sum\"], \"rate_table\": [{\"monthly_contribution\": 1000, \"notes\": \"Minimum; builds high-yield fund\"}], \"rate_table_notes\": \"Tax relief eligible; 30% lump-sum on retirement\", \"sample_examples\": [{\"example\": \"KES 1,000/month for retirement accumulation.\"}]}, \"coverage\": {\"benefits\": [\"Build retirement fund\", \"30% cash lump-sum on retirement\", \"Annuity or drawdown options\", \"Death benefit to beneficiaries\"], \"duration\": \"Until retirement\"}, \"exclusions\": [\"Early withdrawal penalties\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Retirement proof\", \"Withdrawal form\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Victor Matara Product List\", \"url\": \"https://victormatara.com/list-of-sanlam-insurance-products-and-branches-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_flexiannuity_007_a2b6b3b0-4178-47b3-a161-259258b083e1",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_flexiannuity_007",
+      "product_name": "FlexiAnnuity",
+      "category": "pensions / annuity",
+      "target_market": "retirees seeking income",
+      "eligibility": {
+        "age_min": 50,
+        "notes": "Lump-sum purchase from pension"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "lump-sum"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Competitive rates; flexible payout frequency",
+        "sample_examples": [
+          {
+            "example": "Lump-sum for monthly lifetime income."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Lifetime or fixed-term payouts",
+          "Guaranteed income",
+          "Joint life options"
+        ],
+        "duration": "Lifetime or fixed"
+      },
+      "exclusions": [
+        "Early termination fees"
+      ],
+      "add_ons": [
+        "Inflation protection"
+      ],
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": [
+        "advisors",
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Sanlam Retirement Products",
+          "url": "https://www.sanlam.co.ke/retirement-and-savings"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_flexiannuity_007\", \"product_name\": \"FlexiAnnuity\", \"category\": \"pensions / annuity\", \"target_market\": \"retirees seeking income\", \"eligibility\": {\"age_min\": 50, \"notes\": \"Lump-sum purchase from pension\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump-sum\"], \"rate_table\": null, \"rate_table_notes\": \"Competitive rates; flexible payout frequency\", \"sample_examples\": [{\"example\": \"Lump-sum for monthly lifetime income.\"}]}, \"coverage\": {\"benefits\": [\"Lifetime or fixed-term payouts\", \"Guaranteed income\", \"Joint life options\"], \"duration\": \"Lifetime or fixed\"}, \"exclusions\": [\"Early termination fees\"], \"add_ons\": [\"Inflation protection\"], \"claims_process\": null, \"renewal_terms\": null, \"distribution_channels\": [\"advisors\", \"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Sanlam Retirement Products\", \"url\": \"https://www.sanlam.co.ke/retirement-and-savings\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_motor_individual_008_7cad3a3b-a0b3-4bb3-bcb4-2fa201e6a4f4",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_motor_individual_008",
+      "product_name": "Individual General Insurance: Motor Cover",
+      "category": "general / motor",
+      "target_market": "private vehicle owners",
+      "eligibility": {
+        "vehicle_age_max": 15,
+        "notes": "Third-party mandatory; comprehensive optional"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 80000,
+            "notes": "Based on value and risk"
+          },
+          {
+            "type": "Third-Party",
+            "annual_premium": 7500,
+            "notes": "Statutory minimum"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 80,000 for KES 2M comprehensive."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage, theft, fire",
+          "Third-party liability (unlimited bodily, KES 5M property)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed drivers, drunk driving"
+      ],
+      "add_ons": [
+        "Roadside assistance",
+        "Windscreen"
+      ],
+      "provider_network": {
+        "garages": "Approved repair network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook",
+          "Repair invoice"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Rising motor claims impacting premiums in 2025 (@money254HQ, Aug 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Individual General Insurance Page",
+          "url": "https://www.sanlam.co.ke/individual-general-insurance"
+        },
+        {
+          "title": "Company Profile",
+          "url": "https://stockanalysis.com/quote/nase/SLAM/company/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_motor_individual_008\", \"product_name\": \"Individual General Insurance: Motor Cover\", \"category\": \"general / motor\", \"target_market\": \"private vehicle owners\", \"eligibility\": {\"vehicle_age_max\": 15, \"notes\": \"Third-party mandatory; comprehensive optional\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 80000, \"notes\": \"Based on value and risk\"}, {\"type\": \"Third-Party\", \"annual_premium\": 7500, \"notes\": \"Statutory minimum\"}], \"sample_examples\": [{\"example\": \"KES 80,000 for KES 2M comprehensive.\"}]}, \"coverage\": {\"benefits\": [\"Accidental damage, theft, fire\", \"Third-party liability (unlimited bodily, KES 5M property)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Unlicensed drivers, drunk driving\"], \"add_ons\": [\"Roadside assistance\", \"Windscreen\"], \"provider_network\": {\"garages\": \"Approved repair network\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\", \"Repair invoice\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"online\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Rising motor claims impacting premiums in 2025 (@money254HQ, Aug 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Individual General Insurance Page\", \"url\": \"https://www.sanlam.co.ke/individual-general-insurance\"}, {\"title\": \"Company Profile\", \"url\": \"https://stockanalysis.com/quote/nase/SLAM/company/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_domestic_009_09efdd97-5ce0-43ac-99a1-0cb4dbd40ce1",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_domestic_009",
+      "product_name": "Individual General Insurance: Domestic (Home / Contents / All-Risk)",
+      "category": "general / property",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "property_type": "residential",
+        "notes": "Valuation for sum insured"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Building + contents"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000 for KES 5M cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, theft, burglary, natural perils",
+          "Contents all-risk, personal liability",
+          "Domestic servants WIBA"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear, unoccupied >30 days"
+      ],
+      "add_ons": [
+        "Portable all-risk"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract (theft)",
+          "Photos",
+          "Invoices"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Individual General Page",
+          "url": "https://www.sanlam.co.ke/individual-general-insurance"
+        },
+        {
+          "title": "Company Profile",
+          "url": "https://stockanalysis.com/quote/nase/SLAM/company/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_domestic_009\", \"product_name\": \"Individual General Insurance: Domestic (Home / Contents / All-Risk)\", \"category\": \"general / property\", \"target_market\": \"homeowners, tenants\", \"eligibility\": {\"property_type\": \"residential\", \"notes\": \"Valuation for sum insured\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 25000, \"notes\": \"Building + contents\"}], \"sample_examples\": [{\"example\": \"KES 25,000 for KES 5M cover.\"}]}, \"coverage\": {\"benefits\": [\"Fire, theft, burglary, natural perils\", \"Contents all-risk, personal liability\", \"Domestic servants WIBA\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear and tear, unoccupied >30 days\"], \"add_ons\": [\"Portable all-risk\"], \"claims_process\": {\"required_documents\": [\"Police abstract (theft)\", \"Photos\", \"Invoices\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Individual General Page\", \"url\": \"https://www.sanlam.co.ke/individual-general-insurance\"}, {\"title\": \"Company Profile\", \"url\": \"https://stockanalysis.com/quote/nase/SLAM/company/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_fire_perils_010_ebf8c850-ada5-4b7b-ad03-24e3f23188bc",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_fire_perils_010",
+      "product_name": "Business / Corporate General Insurance: Fire & Perils",
+      "category": "general / property",
+      "target_market": "businesses for property protection",
+      "eligibility": {
+        "notes": "Commercial property valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Based on sum insured and risk; e.g., 0.5% of property value",
+        "sample_examples": [
+          {
+            "example": "KES 25,000 for KES 5M commercial property."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, lightning, explosion, earthquake, floods, riots",
+          "Damage to building/contents"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "War, nuclear risks"
+      ],
+      "add_ons": [
+        "Business interruption extension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Fire report",
+          "Invoices"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Corporate General Page",
+          "url": "https://www.sanlam.co.ke/corporate-general-insurance"
+        },
+        {
+          "title": "Standard Chartered Partnership",
+          "url": "https://www.sc.com/ke/business-protection/insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_fire_perils_010\", \"product_name\": \"Business / Corporate General Insurance: Fire & Perils\", \"category\": \"general / property\", \"target_market\": \"businesses for property protection\", \"eligibility\": {\"notes\": \"Commercial property valuation\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Based on sum insured and risk; e.g., 0.5% of property value\", \"sample_examples\": [{\"example\": \"KES 25,000 for KES 5M commercial property.\"}]}, \"coverage\": {\"benefits\": [\"Fire, lightning, explosion, earthquake, floods, riots\", \"Damage to building/contents\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"War, nuclear risks\"], \"add_ons\": [\"Business interruption extension\"], \"claims_process\": {\"required_documents\": [\"Fire report\", \"Invoices\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\", \"corporate sales\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Corporate General Page\", \"url\": \"https://www.sanlam.co.ke/corporate-general-insurance\"}, {\"title\": \"Standard Chartered Partnership\", \"url\": \"https://www.sc.com/ke/business-protection/insurance/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_business_interruption_011_84c8d6c6-3587-4e06-83bc-d813022c9184",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_business_interruption_011",
+      "product_name": "Business / Corporate General Insurance: Business Interruption",
+      "category": "general / business",
+      "target_market": "businesses for income loss",
+      "eligibility": {
+        "notes": "Linked to fire/perils policy"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Based on gross profit; e.g., 1-2% of annual turnover",
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 5M gross profit cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss of income due to interruption from insured perils",
+          "Increased costs of working"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured perils"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Financial statements",
+          "Loss assessment"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Corporate General Page",
+          "url": "https://www.sanlam.co.ke/corporate-general-insurance"
+        },
+        {
+          "title": "SC Partnership",
+          "url": "https://www.sc.com/ke/business-protection/insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_business_interruption_011\", \"product_name\": \"Business / Corporate General Insurance: Business Interruption\", \"category\": \"general / business\", \"target_market\": \"businesses for income loss\", \"eligibility\": {\"notes\": \"Linked to fire/perils policy\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Based on gross profit; e.g., 1-2% of annual turnover\", \"sample_examples\": [{\"example\": \"KES 50,000 for KES 5M gross profit cover.\"}]}, \"coverage\": {\"benefits\": [\"Loss of income due to interruption from insured perils\", \"Increased costs of working\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Uninsured perils\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Financial statements\", \"Loss assessment\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Corporate General Page\", \"url\": \"https://www.sanlam.co.ke/corporate-general-insurance\"}, {\"title\": \"SC Partnership\", \"url\": \"https://www.sc.com/ke/business-protection/insurance/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_burglary_012_5ce4bd87-6448-47bb-a7da-7802f7c1c64f",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_burglary_012",
+      "product_name": "Corporate General Insurance: Burglary",
+      "category": "general / property",
+      "target_market": "businesses for theft protection",
+      "eligibility": {
+        "notes": "Evidence of security measures"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 20000,
+            "notes": "For stock/equipment"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 20,000 for KES 2M stock."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Theft with forcible entry",
+          "Damage to premises during burglary"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Theft without force"
+      ],
+      "add_ons": [
+        "Fidelity extension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Inventory"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "SC Business Protection",
+          "url": "https://www.sc.com/ke/business-protection/insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_burglary_012\", \"product_name\": \"Corporate General Insurance: Burglary\", \"category\": \"general / property\", \"target_market\": \"businesses for theft protection\", \"eligibility\": {\"notes\": \"Evidence of security measures\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 2000000, \"annual_premium\": 20000, \"notes\": \"For stock/equipment\"}], \"sample_examples\": [{\"example\": \"KES 20,000 for KES 2M stock.\"}]}, \"coverage\": {\"benefits\": [\"Theft with forcible entry\", \"Damage to premises during burglary\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Theft without force\"], \"add_ons\": [\"Fidelity extension\"], \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Inventory\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"SC Business Protection\", \"url\": \"https://www.sc.com/ke/business-protection/insurance/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_all_risk_corporate_013_260aa05c-a1ae-447f-a75a-a796dbc69973",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_all_risk_corporate_013",
+      "product_name": "Corporate General Insurance: All-Risk",
+      "category": "general / property",
+      "target_market": "businesses for broad asset cover",
+      "eligibility": {
+        "notes": "For specified property"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Based on value; e.g., 1% of sum insured",
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 5M assets."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Any accidental loss/damage except exclusions",
+          "Fire, theft, external causes"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear, consequential loss"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Incident report",
+          "Photos"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Company Profile",
+          "url": "https://stockanalysis.com/quote/nase/SLAM/company/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_all_risk_corporate_013\", \"product_name\": \"Corporate General Insurance: All-Risk\", \"category\": \"general / property\", \"target_market\": \"businesses for broad asset cover\", \"eligibility\": {\"notes\": \"For specified property\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Based on value; e.g., 1% of sum insured\", \"sample_examples\": [{\"example\": \"KES 50,000 for KES 5M assets.\"}]}, \"coverage\": {\"benefits\": [\"Any accidental loss/damage except exclusions\", \"Fire, theft, external causes\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear/tear, consequential loss\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Incident report\", \"Photos\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Company Profile\", \"url\": \"https://stockanalysis.com/quote/nase/SLAM/company/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_fidelity_014_321f29b9-240c-4fd0-8f15-4f52fb93f01e",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_fidelity_014",
+      "product_name": "Corporate General Insurance: Fidelity Guarantee",
+      "category": "general / fidelity",
+      "target_market": "businesses for employee dishonesty",
+      "eligibility": {
+        "notes": "For employees handling money/goods"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "limit": 5000000,
+            "annual_premium": 60000,
+            "notes": "For employee fraud"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 60,000 for KES 5M cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss from employee fraud/dishonesty"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Indirect losses"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Proof of fraud",
+          "Police report"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "SC Partnership",
+          "url": "https://www.sc.com/ke/business-protection/insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_fidelity_014\", \"product_name\": \"Corporate General Insurance: Fidelity Guarantee\", \"category\": \"general / fidelity\", \"target_market\": \"businesses for employee dishonesty\", \"eligibility\": {\"notes\": \"For employees handling money/goods\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"limit\": 5000000, \"annual_premium\": 60000, \"notes\": \"For employee fraud\"}], \"sample_examples\": [{\"example\": \"KES 60,000 for KES 5M cover.\"}]}, \"coverage\": {\"benefits\": [\"Loss from employee fraud/dishonesty\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Indirect losses\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Proof of fraud\", \"Police report\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"SC Partnership\", \"url\": \"https://www.sc.com/ke/business-protection/insurance/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_electronic_015_28a1d1bd-55dd-4e0e-9ef7-98bf01c62d6d",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_electronic_015",
+      "product_name": "Corporate General Insurance: Electronic Equipment Cover",
+      "category": "general / equipment",
+      "target_market": "businesses with electronic assets",
+      "eligibility": {
+        "notes": "For computers, machinery"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Based on replacement value",
+        "sample_examples": [
+          {
+            "example": "KES 10,000 for KES 1M equipment."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Damage to electronic equipment from perils",
+          "Material damage, business interruption"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear, gradual deterioration"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Repair invoice",
+          "Photos"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "SC Business Insurance",
+          "url": "https://www.sc.com/ke/business-protection/insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_electronic_015\", \"product_name\": \"Corporate General Insurance: Electronic Equipment Cover\", \"category\": \"general / equipment\", \"target_market\": \"businesses with electronic assets\", \"eligibility\": {\"notes\": \"For computers, machinery\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Based on replacement value\", \"sample_examples\": [{\"example\": \"KES 10,000 for KES 1M equipment.\"}]}, \"coverage\": {\"benefits\": [\"Damage to electronic equipment from perils\", \"Material damage, business interruption\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear, gradual deterioration\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Repair invoice\", \"Photos\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"SC Business Insurance\", \"url\": \"https://www.sc.com/ke/business-protection/insurance/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_product_liability_016_669123ef-cce6-47a1-968f-8b94df6b77c7",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_product_liability_016",
+      "product_name": "Corporate General Insurance: Product Liability",
+      "category": "general / liability",
+      "target_market": "manufacturers, sellers",
+      "eligibility": {
+        "notes": "For defective products"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "limit": 10000000,
+            "annual_premium": 50000,
+            "notes": "For third-party claims"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 10M limit."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Liability for bodily injury/property damage from products"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional acts"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Claim details",
+          "Legal docs"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Company Profile",
+          "url": "https://stockanalysis.com/quote/nase/SLAM/company/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_product_liability_016\", \"product_name\": \"Corporate General Insurance: Product Liability\", \"category\": \"general / liability\", \"target_market\": \"manufacturers, sellers\", \"eligibility\": {\"notes\": \"For defective products\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"limit\": 10000000, \"annual_premium\": 50000, \"notes\": \"For third-party claims\"}], \"sample_examples\": [{\"example\": \"KES 50,000 for KES 10M limit.\"}]}, \"coverage\": {\"benefits\": [\"Liability for bodily injury/property damage from products\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional acts\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Claim details\", \"Legal docs\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Company Profile\", \"url\": \"https://stockanalysis.com/quote/nase/SLAM/company/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_plate_glass_017_353643d8-3ce6-4dfb-a130-cd03cee97b61",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_plate_glass_017",
+      "product_name": "Corporate General Insurance: Plate Glass",
+      "category": "general / property",
+      "target_market": "businesses with glass installations",
+      "eligibility": {
+        "notes": "Fixed glass in premises"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 500000,
+            "annual_premium": 7500,
+            "notes": "For shopfronts"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 7,500 for KES 500K glass."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental breakage of fixed glass"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear, intentional damage"
+      ],
+      "add_ons": [
+        "Framework cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Photos of damage"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "SC Partnership",
+          "url": "https://www.sc.com/ke/business-protection/insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_plate_glass_017\", \"product_name\": \"Corporate General Insurance: Plate Glass\", \"category\": \"general / property\", \"target_market\": \"businesses with glass installations\", \"eligibility\": {\"notes\": \"Fixed glass in premises\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 500000, \"annual_premium\": 7500, \"notes\": \"For shopfronts\"}], \"sample_examples\": [{\"example\": \"KES 7,500 for KES 500K glass.\"}]}, \"coverage\": {\"benefits\": [\"Accidental breakage of fixed glass\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear, intentional damage\"], \"add_ons\": [\"Framework cover\"], \"claims_process\": {\"required_documents\": [\"Photos of damage\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"SC Partnership\", \"url\": \"https://www.sc.com/ke/business-protection/insurance/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_wiba_018_951e1625-fc19-40e0-938e-96ee0ae5cac7",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_wiba_018",
+      "product_name": "Corporate General Insurance: Work Injury Benefits Act (WIBA) Cover",
+      "category": "general / liability",
+      "target_market": "employers for statutory compliance",
+      "eligibility": {
+        "notes": "Mandatory for all employers"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "payroll": 10000000,
+            "annual_premium": 15000,
+            "notes": "Based on payroll"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 15,000 for KES 10M payroll."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Compensation for work injuries, death, disablement"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-work related"
+      ],
+      "add_ons": [
+        "Employers liability extension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Medical reports",
+          "Incident report"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "SC WIBA",
+          "url": "https://www.sc.com/ke/business-protection/insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_wiba_018\", \"product_name\": \"Corporate General Insurance: Work Injury Benefits Act (WIBA) Cover\", \"category\": \"general / liability\", \"target_market\": \"employers for statutory compliance\", \"eligibility\": {\"notes\": \"Mandatory for all employers\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"payroll\": 10000000, \"annual_premium\": 15000, \"notes\": \"Based on payroll\"}], \"sample_examples\": [{\"example\": \"KES 15,000 for KES 10M payroll.\"}]}, \"coverage\": {\"benefits\": [\"Compensation for work injuries, death, disablement\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-work related\"], \"add_ons\": [\"Employers liability extension\"], \"claims_process\": {\"required_documents\": [\"Medical reports\", \"Incident report\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"SC WIBA\", \"url\": \"https://www.sc.com/ke/business-protection/insurance/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_d_o_019_36464ba2-f9f6-4181-86c6-50c8241ad796",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_d_o_019",
+      "product_name": "Corporate General Insurance: Directors and Officers Cover",
+      "category": "general / liability",
+      "target_market": "companies for executive protection",
+      "eligibility": {
+        "notes": "For wrongful acts in official capacity"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "limit": 10000000,
+            "annual_premium": 50000,
+            "notes": "For D&O liability"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 10M limit."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Claims against directors/officers for negligence",
+          "Legal defense costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional fraud"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Legal claim docs"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Company Profile",
+          "url": "https://stockanalysis.com/quote/nase/SLAM/company/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_d_o_019\", \"product_name\": \"Corporate General Insurance: Directors and Officers Cover\", \"category\": \"general / liability\", \"target_market\": \"companies for executive protection\", \"eligibility\": {\"notes\": \"For wrongful acts in official capacity\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"limit\": 10000000, \"annual_premium\": 50000, \"notes\": \"For D&O liability\"}], \"sample_examples\": [{\"example\": \"KES 50,000 for KES 10M limit.\"}]}, \"coverage\": {\"benefits\": [\"Claims against directors/officers for negligence\", \"Legal defense costs\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional fraud\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Legal claim docs\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Company Profile\", \"url\": \"https://stockanalysis.com/quote/nase/SLAM/company/\"}]}"
+  },
+  {
+    "chunk_id": "sanlam_001_sanlam_commercial_motor_020_80d36aa2-cdb2-4de8-97ed-4484dd9810ab",
+    "metadata": {
+      "company_name": "Sanlam Kenya Plc",
+      "product_id": "sanlam_commercial_motor_020",
+      "product_name": "Corporate General Insurance: Commercial Motor",
+      "category": "general / motor",
+      "target_market": "fleet operators, commercial vehicles",
+      "eligibility": {
+        "vehicle_type": "commercial",
+        "notes": "Own goods or cartage"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "vehicle_value": 2000000,
+            "annual_premium": 130000,
+            "notes": "Comprehensive for commercial"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 130,000 for KES 2M fleet vehicle."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Damage, theft, liability for commercial use",
+          "Goods in transit optional"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "add_ons": [
+        "Goods cover"
+      ],
+      "provider_network": {
+        "garages": "Commercial repair network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Company Profile",
+          "url": "https://stockanalysis.com/quote/nase/SLAM/company/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Sanlam Kenya Plc\", \"product_id\": \"sanlam_commercial_motor_020\", \"product_name\": \"Corporate General Insurance: Commercial Motor\", \"category\": \"general / motor\", \"target_market\": \"fleet operators, commercial vehicles\", \"eligibility\": {\"vehicle_type\": \"commercial\", \"notes\": \"Own goods or cartage\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"vehicle_value\": 2000000, \"annual_premium\": 130000, \"notes\": \"Comprehensive for commercial\"}], \"sample_examples\": [{\"example\": \"KES 130,000 for KES 2M fleet vehicle.\"}]}, \"coverage\": {\"benefits\": [\"Damage, theft, liability for commercial use\", \"Goods in transit optional\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-commercial use\"], \"add_ons\": [\"Goods cover\"], \"provider_network\": {\"garages\": \"Commercial repair network\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\", \"corporate\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Company Profile\", \"url\": \"https://stockanalysis.com/quote/nase/SLAM/company/\"}]}"
+  }
+]

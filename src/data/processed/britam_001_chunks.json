@@ -1,0 +1,3281 @@
+[
+  {
+    "chunk_id": "britam_001_company_59290ef3-c171-47eb-bba7-bd42e9271867",
+    "metadata": {
+      "company_id": "britam_001",
+      "company_name": "Britam Holdings (Kenya)",
+      "company_type": "composite",
+      "license_info": {
+        "licensed": true,
+        "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+        "license_reference": "IRA/06/002/2025",
+        "license_doc": "IRA Licensed Insurers List 2025, published January 2025"
+      },
+      "headquarters": "Britam Tower / Britam Centre, Upper Hill, Nairobi, Kenya",
+      "digital_presence": {
+        "website": "https://ke.britam.com",
+        "customer_portal": "https://customerportal.britam.com",
+        "mobile_app": true,
+        "mobile_app_store_links": {
+          "google_play": "https://play.google.com/store/apps/details?id=com.britam.mybritam",
+          "app_store": "https://apps.apple.com/ke/app/mybritam/id1473975709"
+        },
+        "api_available": true,
+        "api_notes": "Britam provides customer portal and partner integration APIs (developer references available via corporate sales team)."
+      },
+      "reputation": {
+        "claims_settlement_ratio": "85.6% (2024 IRA Report, composite insurers)",
+        "customer_complaints": "312 complaints reported in 2024 (IRA Annual Report 2024)",
+        "customer_rating": "4.2/5",
+        "notes": "Claims ratios and complaints numbers are published in IRA annual sector reports. Customer rating is an estimate based on online reviews and sentiment analysis from X posts."
+      },
+      "last_compiled": "2025-09-12"
+    },
+    "text": "{\"company_id\": \"britam_001\", \"company_name\": \"Britam Holdings (Kenya)\", \"company_type\": \"composite\", \"license_info\": {\"licensed\": true, \"regulator\": \"Insurance Regulatory Authority (IRA) Kenya\", \"license_reference\": \"IRA/06/002/2025\", \"license_doc\": \"IRA Licensed Insurers List 2025, published January 2025\"}, \"headquarters\": \"Britam Tower / Britam Centre, Upper Hill, Nairobi, Kenya\", \"digital_presence\": {\"website\": \"https://ke.britam.com\", \"customer_portal\": \"https://customerportal.britam.com\", \"mobile_app\": true, \"mobile_app_store_links\": {\"google_play\": \"https://play.google.com/store/apps/details?id=com.britam.mybritam\", \"app_store\": \"https://apps.apple.com/ke/app/mybritam/id1473975709\"}, \"api_available\": true, \"api_notes\": \"Britam provides customer portal and partner integration APIs (developer references available via corporate sales team).\"}, \"reputation\": {\"claims_settlement_ratio\": \"85.6% (2024 IRA Report, composite insurers)\", \"customer_complaints\": \"312 complaints reported in 2024 (IRA Annual Report 2024)\", \"customer_rating\": \"4.2/5\", \"notes\": \"Claims ratios and complaints numbers are published in IRA annual sector reports. Customer rating is an estimate based on online reviews and sentiment analysis from X posts.\"}, \"last_compiled\": \"2025-09-12\"}"
+  },
+  {
+    "chunk_id": "britam_001_branches_173f108c-a351-4d58-a1cf-0190c62f4e8e",
+    "metadata": {
+      "branches": [
+        {
+          "branch_name": "Absa Plaza (Market Street / Loita St)",
+          "address": "Absa Plaza, 13th Floor, Market Street, Off Loita Street, Nairobi",
+          "phone": [
+            "+254703094002",
+            "+254202224153"
+          ]
+        },
+        {
+          "branch_name": "Tetezi Towers (Hurlingham)",
+          "address": "Tetezi Towers, 2nd Floor, Off George Padmore Road, Hurlingham, Nairobi",
+          "phone": [
+            "+254703094004",
+            "+254202303122"
+          ]
+        },
+        {
+          "branch_name": "Timau Plaza (Hurlingham)",
+          "address": "Timau Plaza, 1st Floor, Argwings Kodhek Road, Hurlingham, Nairobi",
+          "phone": [
+            "+254703094005",
+            "+254203860453"
+          ]
+        },
+        {
+          "branch_name": "Victor House (CBD)",
+          "address": "Victor House, 2nd Floor, Kimathi Street, Nairobi",
+          "phone": [
+            "+254703094029",
+            "+254202218530"
+          ]
+        },
+        {
+          "branch_name": "AmBank House (University Way)",
+          "address": "AmBank House, 10th Floor, University Way, Nairobi",
+          "phone": [
+            "+254703094001",
+            "+254202226998"
+          ]
+        },
+        {
+          "branch_name": "Phoenix House (Kenyatta Ave)",
+          "address": "Phoenix House, 1st Floor, Kenyatta Avenue, Nairobi",
+          "phone": [
+            "+254709165000",
+            "+254202218534"
+          ]
+        },
+        {
+          "branch_name": "Highway Mall (Uhuru Hwy)",
+          "address": "Highway Mall, Uhuru Highway, Opposite Nyayo Stadium, Nairobi",
+          "phone": [
+            "+254703094030"
+          ]
+        },
+        {
+          "branch_name": "Enterprise Road (Nairobi)",
+          "address": "Enterprise Road, Nairobi",
+          "phone": [
+            "+254703094031"
+          ]
+        },
+        {
+          "branch_name": "Elgon Road (Upper Hill)",
+          "address": "Elgon Road, Upper Hill, Nairobi",
+          "phone": [
+            "+254705100100",
+            "+25420490400"
+          ]
+        },
+        {
+          "branch_name": "Britam Centre / Head Office (Upper Hill)",
+          "address": "Junction of Mara / Ragati Road, Upper Hill, Nairobi",
+          "phone": [
+            "+254705100100",
+            "+254709468000"
+          ]
+        },
+        {
+          "branch_name": "Britam Tower (Upper Hill)",
+          "address": "Opposite World Bank Building, Upper Hill, Nairobi",
+          "phone": [
+            "+254703094000",
+            "+254202833000"
+          ]
+        },
+        {
+          "branch_name": "Westlands Branch",
+          "address": "Westlands Square, 6th Floor, Ring Road Parklands, Nairobi",
+          "phone": [
+            "+254703094003",
+            "+254203743628"
+          ]
+        },
+        {
+          "branch_name": "Embu Branch",
+          "address": "Consolidated Bank House, 1st Floor, Kenyatta Highway, Embu",
+          "phone": [
+            "+254703094011",
+            "+254682231864"
+          ]
+        },
+        {
+          "branch_name": "Eldoret Branch",
+          "address": "Imperial Court, 2nd Floor, Malaba Road, Eldoret",
+          "phone": [
+            "+254703094008",
+            "+254532030770"
+          ]
+        },
+        {
+          "branch_name": "Bungoma Branch",
+          "address": "Hibho Plaza, 3rd Floor, Moi Avenue, Bungoma",
+          "phone": [
+            "+254703094016",
+            "+254552030243"
+          ]
+        },
+        {
+          "branch_name": "Kericho Branch",
+          "address": "Ark Plaza, 4th Floor, John Kericho Road, Kericho",
+          "phone": [
+            "+254703094017",
+            "+254522021421"
+          ]
+        },
+        {
+          "branch_name": "Kisii Branch",
+          "address": "The Place, 2nd Floor, Kisii-Kisumu Highway, Kisii",
+          "phone": [
+            "+254703094010"
+          ]
+        },
+        {
+          "branch_name": "Kakamega Branch",
+          "address": "Mega Mall, 2nd Floor, Kakamega-Kisumu Highway, Kakamega",
+          "phone": [
+            "+254703094008",
+            "+254562031839"
+          ]
+        },
+        {
+          "branch_name": "Nakuru (Jennifer Riria Hub)",
+          "address": "Ground Floor, Jennifer Riria Hub, Kipchoge Avenue, Nakuru",
+          "phone": [
+            "+254703094007",
+            "+254512212200"
+          ]
+        },
+        {
+          "branch_name": "Kisumu Branch",
+          "address": "Mega Plaza, 1st Floor, Apindi Street, Kisumu",
+          "phone": [
+            "+254703094009",
+            "+254572023930"
+          ]
+        },
+        {
+          "branch_name": "Thika Branch",
+          "address": "Thika Arcade, 2nd Floor, Thika",
+          "phone": [
+            "+254703094006",
+            "+254672221866"
+          ]
+        },
+        {
+          "branch_name": "Meru Branch",
+          "address": "Royal Business Park, Njuri Ncheke Street, 2nd Floor, Meru",
+          "phone": [
+            "+254703094013"
+          ]
+        },
+        {
+          "branch_name": "Kitengela Branch",
+          "address": "Kitengela Mall, Nairobi-Namanga Highway, 2nd Floor, Kitengela",
+          "phone": [
+            "+254703094015"
+          ]
+        },
+        {
+          "branch_name": "Nyeri Branch",
+          "address": "Co-operative Bank House, 1st Floor, Kenyatta Road, Nyeri",
+          "phone": [
+            "+254703094012",
+            "+254612032154"
+          ]
+        },
+        {
+          "branch_name": "Murang’a Branch",
+          "address": "CDM Centenary Building, 2nd Floor, Murang’a",
+          "phone": [
+            "+254703094018"
+          ]
+        },
+        {
+          "branch_name": "Mombasa Branch",
+          "address": "Biashara Bank Building, 1st Floor, Nyerere Avenue, Mombasa",
+          "phone": [
+            "+254703094014",
+            "+254412223558"
+          ]
+        },
+        {
+          "branch_name": "Malindi Branch",
+          "address": "Malindi Complex, Ground Floor, Malindi-Lamu Road, Malindi",
+          "phone": [
+            "+254703094023",
+            "+254422120532"
+          ]
+        },
+        {
+          "branch_name": "Nyali Branch (Mombasa)",
+          "address": "Nyali Center, Ground Floor, Links Road, Nyali, Mombasa",
+          "phone": [
+            "+254703094037"
+          ]
+        },
+        {
+          "branch_name": "Nanyuki Branch",
+          "address": "Silver Plaza, 2nd Floor, Nairobi-Nanyuki Road, Nanyuki",
+          "phone": [
+            "+254703094013"
+          ]
+        },
+        {
+          "branch_name": "Naivasha Branch",
+          "address": "Eagle Centre, 1st Floor, Mbaria Kaniu Road, Naivasha",
+          "phone": [
+            "+254703094019"
+          ]
+        },
+        {
+          "branch_name": "Narok Branch",
+          "address": "Oltaret Mall, 1st Floor, Narok",
+          "phone": [
+            "+254703094086",
+            "+254202303150"
+          ]
+        },
+        {
+          "branch_name": "Machakos Branch",
+          "address": "Kiamba Mall, Syokimau Avenue, 3rd Floor, Machakos",
+          "phone": [
+            "+254703094015",
+            "+2542044201634"
+          ]
+        }
+      ]
+    },
+    "text": "{\"branches\": [{\"branch_name\": \"Absa Plaza (Market Street / Loita St)\", \"address\": \"Absa Plaza, 13th Floor, Market Street, Off Loita Street, Nairobi\", \"phone\": [\"+254703094002\", \"+254202224153\"]}, {\"branch_name\": \"Tetezi Towers (Hurlingham)\", \"address\": \"Tetezi Towers, 2nd Floor, Off George Padmore Road, Hurlingham, Nairobi\", \"phone\": [\"+254703094004\", \"+254202303122\"]}, {\"branch_name\": \"Timau Plaza (Hurlingham)\", \"address\": \"Timau Plaza, 1st Floor, Argwings Kodhek Road, Hurlingham, Nairobi\", \"phone\": [\"+254703094005\", \"+254203860453\"]}, {\"branch_name\": \"Victor House (CBD)\", \"address\": \"Victor House, 2nd Floor, Kimathi Street, Nairobi\", \"phone\": [\"+254703094029\", \"+254202218530\"]}, {\"branch_name\": \"AmBank House (University Way)\", \"address\": \"AmBank House, 10th Floor, University Way, Nairobi\", \"phone\": [\"+254703094001\", \"+254202226998\"]}, {\"branch_name\": \"Phoenix House (Kenyatta Ave)\", \"address\": \"Phoenix House, 1st Floor, Kenyatta Avenue, Nairobi\", \"phone\": [\"+254709165000\", \"+254202218534\"]}, {\"branch_name\": \"Highway Mall (Uhuru Hwy)\", \"address\": \"Highway Mall, Uhuru Highway, Opposite Nyayo Stadium, Nairobi\", \"phone\": [\"+254703094030\"]}, {\"branch_name\": \"Enterprise Road (Nairobi)\", \"address\": \"Enterprise Road, Nairobi\", \"phone\": [\"+254703094031\"]}, {\"branch_name\": \"Elgon Road (Upper Hill)\", \"address\": \"Elgon Road, Upper Hill, Nairobi\", \"phone\": [\"+254705100100\", \"+25420490400\"]}, {\"branch_name\": \"Britam Centre / Head Office (Upper Hill)\", \"address\": \"Junction of Mara / Ragati Road, Upper Hill, Nairobi\", \"phone\": [\"+254705100100\", \"+254709468000\"]}, {\"branch_name\": \"Britam Tower (Upper Hill)\", \"address\": \"Opposite World Bank Building, Upper Hill, Nairobi\", \"phone\": [\"+254703094000\", \"+254202833000\"]}, {\"branch_name\": \"Westlands Branch\", \"address\": \"Westlands Square, 6th Floor, Ring Road Parklands, Nairobi\", \"phone\": [\"+254703094003\", \"+254203743628\"]}, {\"branch_name\": \"Embu Branch\", \"address\": \"Consolidated Bank House, 1st Floor, Kenyatta Highway, Embu\", \"phone\": [\"+254703094011\", \"+254682231864\"]}, {\"branch_name\": \"Eldoret Branch\", \"address\": \"Imperial Court, 2nd Floor, Malaba Road, Eldoret\", \"phone\": [\"+254703094008\", \"+254532030770\"]}, {\"branch_name\": \"Bungoma Branch\", \"address\": \"Hibho Plaza, 3rd Floor, Moi Avenue, Bungoma\", \"phone\": [\"+254703094016\", \"+254552030243\"]}, {\"branch_name\": \"Kericho Branch\", \"address\": \"Ark Plaza, 4th Floor, John Kericho Road, Kericho\", \"phone\": [\"+254703094017\", \"+254522021421\"]}, {\"branch_name\": \"Kisii Branch\", \"address\": \"The Place, 2nd Floor, Kisii-Kisumu Highway, Kisii\", \"phone\": [\"+254703094010\"]}, {\"branch_name\": \"Kakamega Branch\", \"address\": \"Mega Mall, 2nd Floor, Kakamega-Kisumu Highway, Kakamega\", \"phone\": [\"+254703094008\", \"+254562031839\"]}, {\"branch_name\": \"Nakuru (Jennifer Riria Hub)\", \"address\": \"Ground Floor, Jennifer Riria Hub, Kipchoge Avenue, Nakuru\", \"phone\": [\"+254703094007\", \"+254512212200\"]}, {\"branch_name\": \"Kisumu Branch\", \"address\": \"Mega Plaza, 1st Floor, Apindi Street, Kisumu\", \"phone\": [\"+254703094009\", \"+254572023930\"]}, {\"branch_name\": \"Thika Branch\", \"address\": \"Thika Arcade, 2nd Floor, Thika\", \"phone\": [\"+254703094006\", \"+254672221866\"]}, {\"branch_name\": \"Meru Branch\", \"address\": \"Royal Business Park, Njuri Ncheke Street, 2nd Floor, Meru\", \"phone\": [\"+254703094013\"]}, {\"branch_name\": \"Kitengela Branch\", \"address\": \"Kitengela Mall, Nairobi-Namanga Highway, 2nd Floor, Kitengela\", \"phone\": [\"+254703094015\"]}, {\"branch_name\": \"Nyeri Branch\", \"address\": \"Co-operative Bank House, 1st Floor, Kenyatta Road, Nyeri\", \"phone\": [\"+254703094012\", \"+254612032154\"]}, {\"branch_name\": \"Murang’a Branch\", \"address\": \"CDM Centenary Building, 2nd Floor, Murang’a\", \"phone\": [\"+254703094018\"]}, {\"branch_name\": \"Mombasa Branch\", \"address\": \"Biashara Bank Building, 1st Floor, Nyerere Avenue, Mombasa\", \"phone\": [\"+254703094014\", \"+254412223558\"]}, {\"branch_name\": \"Malindi Branch\", \"address\": \"Malindi Complex, Ground Floor, Malindi-Lamu Road, Malindi\", \"phone\": [\"+254703094023\", \"+254422120532\"]}, {\"branch_name\": \"Nyali Branch (Mombasa)\", \"address\": \"Nyali Center, Ground Floor, Links Road, Nyali, Mombasa\", \"phone\": [\"+254703094037\"]}, {\"branch_name\": \"Nanyuki Branch\", \"address\": \"Silver Plaza, 2nd Floor, Nairobi-Nanyuki Road, Nanyuki\", \"phone\": [\"+254703094013\"]}, {\"branch_name\": \"Naivasha Branch\", \"address\": \"Eagle Centre, 1st Floor, Mbaria Kaniu Road, Naivasha\", \"phone\": [\"+254703094019\"]}, {\"branch_name\": \"Narok Branch\", \"address\": \"Oltaret Mall, 1st Floor, Narok\", \"phone\": [\"+254703094086\", \"+254202303150\"]}, {\"branch_name\": \"Machakos Branch\", \"address\": \"Kiamba Mall, Syokimau Avenue, 3rd Floor, Machakos\", \"phone\": [\"+254703094015\", \"+2542044201634\"]}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_tegemeo_001_15bcf5cd-722a-4ad4-a31d-ad4d1f111663",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_tegemeo_001",
+      "product_name": "Tegemeo Protection Plan",
+      "category": "life / protection",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "medical_exam_option": "may require medical underwriting for sums above KES 10M or specific health conditions"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "quarterly",
+          "semi-annual",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "age_group": "18–30",
+            "sum_assured": 3000000,
+            "monthly_premium": 3000,
+            "annual_premium": 36000,
+            "notes": "Brochure example for basic cover without riders"
+          },
+          {
+            "age_group": "31–45",
+            "sum_assured": 5000000,
+            "monthly_premium": 5200,
+            "annual_premium": 62400,
+            "notes": "Estimated based on marketing illustrations"
+          }
+        ],
+        "rate_table_notes": "Full actuarial tables not published; sample premiums from brochures and agent quotes. Premiums vary by age, health, and riders.",
+        "sample_examples": [
+          {
+            "example": "KES 3,000 monthly premium for KES 3M sum assured (age 18–30, no riders, marketing illustration)."
+          },
+          {
+            "example": "KES 5,200 monthly for KES 5M sum assured (age 31–45, basic cover, estimated from agent schedules)."
+          }
+        ]
+      },
+      "coverage": {
+        "sum_assured_min_without_medical": 3000000,
+        "sum_assured_max_without_medical": 10000000,
+        "sum_assured_min_with_medical": 5000000,
+        "sum_assured_max_with_medical": 100000000,
+        "benefits": [
+          "Lump-sum death benefit (natural or accidental)",
+          "Optional funeral expense cover (up to KES 200,000)",
+          "Optional disability benefit (up to 100% of sum assured)",
+          "Optional critical illness rider (lump-sum on diagnosis)"
+        ],
+        "duration": [
+          "5",
+          "10",
+          "15",
+          "20 years"
+        ]
+      },
+      "exclusions": [
+        "Suicide within first year",
+        "Non-disclosure of material facts",
+        "Death due to undeclared hazardous activities"
+      ],
+      "add_ons": [
+        "Funeral expense",
+        "Disability",
+        "Critical illness"
+      ],
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Policy document",
+          "Death certificate",
+          "Claimant ID",
+          "Medical reports (if applicable)"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true,
+        "notes": "Turnaround based on Britam’s stated 7-day target for complete claims (Britam Claims FAQ)"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "bancassurance",
+        "direct online",
+        "MyBritam app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "4/5",
+          "comment": "Smooth claims process for Tegemeo, paid within a week (@User123, Jan 2025)"
+        },
+        {
+          "source": "Google Reviews",
+          "rating": "3/5",
+          "comment": "Good cover but premium adjustments need clearer communication (2024)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Tegemeo Plan – Official Product Page",
+          "url": "https://ke.britam.com/insurance/individual-life/tegemeo-protection"
+        },
+        {
+          "title": "IRA Licensed Insurers 2025",
+          "url": "https://www.ira.go.ke"
+        },
+        {
+          "title": "Britam Claims FAQ",
+          "url": "https://ke.britam.com/help/claims"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_tegemeo_001\", \"product_name\": \"Tegemeo Protection Plan\", \"category\": \"life / protection\", \"target_market\": \"individuals, families\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"medical_exam_option\": \"may require medical underwriting for sums above KES 10M or specific health conditions\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"semi-annual\", \"annual\"], \"rate_table\": [{\"age_group\": \"18–30\", \"sum_assured\": 3000000, \"monthly_premium\": 3000, \"annual_premium\": 36000, \"notes\": \"Brochure example for basic cover without riders\"}, {\"age_group\": \"31–45\", \"sum_assured\": 5000000, \"monthly_premium\": 5200, \"annual_premium\": 62400, \"notes\": \"Estimated based on marketing illustrations\"}], \"rate_table_notes\": \"Full actuarial tables not published; sample premiums from brochures and agent quotes. Premiums vary by age, health, and riders.\", \"sample_examples\": [{\"example\": \"KES 3,000 monthly premium for KES 3M sum assured (age 18–30, no riders, marketing illustration).\"}, {\"example\": \"KES 5,200 monthly for KES 5M sum assured (age 31–45, basic cover, estimated from agent schedules).\"}]}, \"coverage\": {\"sum_assured_min_without_medical\": 3000000, \"sum_assured_max_without_medical\": 10000000, \"sum_assured_min_with_medical\": 5000000, \"sum_assured_max_with_medical\": 100000000, \"benefits\": [\"Lump-sum death benefit (natural or accidental)\", \"Optional funeral expense cover (up to KES 200,000)\", \"Optional disability benefit (up to 100% of sum assured)\", \"Optional critical illness rider (lump-sum on diagnosis)\"], \"duration\": [\"5\", \"10\", \"15\", \"20 years\"]}, \"exclusions\": [\"Suicide within first year\", \"Non-disclosure of material facts\", \"Death due to undeclared hazardous activities\"], \"add_ons\": [\"Funeral expense\", \"Disability\", \"Critical illness\"], \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Policy document\", \"Death certificate\", \"Claimant ID\", \"Medical reports (if applicable)\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true, \"notes\": \"Turnaround based on Britam’s stated 7-day target for complete claims (Britam Claims FAQ)\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"bancassurance\", \"direct online\", \"MyBritam app\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"4/5\", \"comment\": \"Smooth claims process for Tegemeo, paid within a week (@User123, Jan 2025)\"}, {\"source\": \"Google Reviews\", \"rating\": \"3/5\", \"comment\": \"Good cover but premium adjustments need clearer communication (2024)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Tegemeo Plan – Official Product Page\", \"url\": \"https://ke.britam.com/insurance/individual-life/tegemeo-protection\"}, {\"title\": \"IRA Licensed Insurers 2025\", \"url\": \"https://www.ira.go.ke\"}, {\"title\": \"Britam Claims FAQ\", \"url\": \"https://ke.britam.com/help/claims\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_family_income_002_3820e331-f00a-49f4-9533-22ccbcf90c48",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_family_income_002",
+      "product_name": "Family Income Protection Plan",
+      "category": "life / income protection",
+      "target_market": "breadwinners securing monthly payouts for dependants",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 70,
+        "notes": "Medical underwriting may apply for higher sums or older ages"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "quarterly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "income_benefit": 10000,
+            "duration_years": 3,
+            "monthly_premium": 155,
+            "annual_premium": 1860,
+            "notes": "Brochure example for basic cover"
+          },
+          {
+            "income_benefit": 20000,
+            "duration_years": 5,
+            "monthly_premium": 350,
+            "annual_premium": 4200,
+            "notes": "Estimated from marketing materials"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by income amount, duration, and escalation option. Full tables require agent quotes.",
+        "sample_examples": [
+          {
+            "example": "KES 155 monthly gives family KES 10,000 income for 3 years (brochure)."
+          },
+          {
+            "example": "KES 350 monthly for KES 20,000 income for 5 years (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Monthly income to dependants (KES 10,000–50,000)",
+          "Benefit duration 3–10 years",
+          "Option for 5% or 10% annual escalation",
+          "Lump-sum option at end of term (plan-dependent)"
+        ],
+        "duration": [
+          "3",
+          "5",
+          "10 years income benefit"
+        ]
+      },
+      "exclusions": [
+        "Non-disclosure of material facts",
+        "Suicide within first 12 months",
+        "Death from undeclared high-risk activities"
+      ],
+      "add_ons": [
+        "Lump-sum death benefit"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Policy document",
+          "Death certificate",
+          "Claimant ID",
+          "Bank details for payouts"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true,
+        "notes": "Britam targets 7-day turnaround for complete claims (Claims FAQ)"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "direct",
+        "MyBritam app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "4/5",
+          "comment": "Family Income Plan helped my sister’s family after loss (@KenyaUser, Feb 2025)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Family Income Plan – Official Page",
+          "url": "https://ke.britam.com/insurance/individual-life/family-income-plan"
+        },
+        {
+          "title": "Family Income Plan Brochure",
+          "url": "https://ke.britam.com/documents/family-income-plan.pdf"
+        },
+        {
+          "title": "Britam Claims FAQ",
+          "url": "https://ke.britam.com/help/claims"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_family_income_002\", \"product_name\": \"Family Income Protection Plan\", \"category\": \"life / income protection\", \"target_market\": \"breadwinners securing monthly payouts for dependants\", \"eligibility\": {\"age_min\": 18, \"age_max\": 70, \"notes\": \"Medical underwriting may apply for higher sums or older ages\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"annual\"], \"rate_table\": [{\"income_benefit\": 10000, \"duration_years\": 3, \"monthly_premium\": 155, \"annual_premium\": 1860, \"notes\": \"Brochure example for basic cover\"}, {\"income_benefit\": 20000, \"duration_years\": 5, \"monthly_premium\": 350, \"annual_premium\": 4200, \"notes\": \"Estimated from marketing materials\"}], \"rate_table_notes\": \"Premiums vary by income amount, duration, and escalation option. Full tables require agent quotes.\", \"sample_examples\": [{\"example\": \"KES 155 monthly gives family KES 10,000 income for 3 years (brochure).\"}, {\"example\": \"KES 350 monthly for KES 20,000 income for 5 years (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Monthly income to dependants (KES 10,000–50,000)\", \"Benefit duration 3–10 years\", \"Option for 5% or 10% annual escalation\", \"Lump-sum option at end of term (plan-dependent)\"], \"duration\": [\"3\", \"5\", \"10 years income benefit\"]}, \"exclusions\": [\"Non-disclosure of material facts\", \"Suicide within first 12 months\", \"Death from undeclared high-risk activities\"], \"add_ons\": [\"Lump-sum death benefit\"], \"claims_process\": {\"required_documents\": [\"Policy document\", \"Death certificate\", \"Claimant ID\", \"Bank details for payouts\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true, \"notes\": \"Britam targets 7-day turnaround for complete claims (Claims FAQ)\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"direct\", \"MyBritam app\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"4/5\", \"comment\": \"Family Income Plan helped my sister’s family after loss (@KenyaUser, Feb 2025)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Family Income Plan – Official Page\", \"url\": \"https://ke.britam.com/insurance/individual-life/family-income-plan\"}, {\"title\": \"Family Income Plan Brochure\", \"url\": \"https://ke.britam.com/documents/family-income-plan.pdf\"}, {\"title\": \"Britam Claims FAQ\", \"url\": \"https://ke.britam.com/help/claims\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_careplus_003_9bdc53a1-080a-4be6-9def-9d96ae052ea0",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_careplus_003",
+      "product_name": "CarePlus+ Protection Plan",
+      "category": "life / critical illness",
+      "target_market": "individuals seeking cancer/critical illness cover",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 60,
+        "notes": "Waiting period of 6–12 months for pre-existing conditions"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 1000000,
+            "age_group": "18–40",
+            "monthly_premium": 3000,
+            "annual_premium": 36000,
+            "notes": "Brochure example for entry-level cover"
+          },
+          {
+            "sum_assured": 2000000,
+            "age_group": "41–60",
+            "monthly_premium": 5500,
+            "annual_premium": 66000,
+            "notes": "Estimated from agent quotes"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by age, sum assured, and health status. Full tables not public.",
+        "sample_examples": [
+          {
+            "example": "Premiums as low as KES 3,000 per month for KES 1M cover (brochure)."
+          },
+          {
+            "example": "KES 5,500 monthly for KES 2M cover (age 41–60, estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Lump-sum on first diagnosis of listed critical illnesses (e.g., cancer, stroke, heart attack)",
+          "Medical support services (telemedicine, second opinions)",
+          "Optional riders for additional illnesses"
+        ],
+        "duration": [
+          "5",
+          "10",
+          "15",
+          "20 years"
+        ]
+      },
+      "exclusions": [
+        "Pre-existing conditions (6–12 month waiting period)",
+        "Non-listed illnesses",
+        "Experimental treatments"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Medical diagnosis",
+          "Policy schedule",
+          "Claimant ID",
+          "Pathology reports"
+        ],
+        "average_turnaround_days": 10,
+        "digital_claims_supported": true,
+        "notes": "Turnaround estimated from industry standards and Britam’s claims process"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "direct",
+        "MyBritam app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Google Reviews",
+          "rating": "4/5",
+          "comment": "CarePlus+ paid out quickly for cancer diagnosis (2024)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam CarePlus+ – Official Page",
+          "url": "https://ke.britam.com/insurance/health/critical-illness"
+        },
+        {
+          "title": "CarePlus+ Product Brochure",
+          "url": "https://ke.britam.com/documents/careplus-brochure.pdf"
+        },
+        {
+          "title": "IRA 2024 Insurance Report",
+          "url": "https://www.ira.go.ke"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_careplus_003\", \"product_name\": \"CarePlus+ Protection Plan\", \"category\": \"life / critical illness\", \"target_market\": \"individuals seeking cancer/critical illness cover\", \"eligibility\": {\"age_min\": 18, \"age_max\": 60, \"notes\": \"Waiting period of 6–12 months for pre-existing conditions\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 1000000, \"age_group\": \"18–40\", \"monthly_premium\": 3000, \"annual_premium\": 36000, \"notes\": \"Brochure example for entry-level cover\"}, {\"sum_assured\": 2000000, \"age_group\": \"41–60\", \"monthly_premium\": 5500, \"annual_premium\": 66000, \"notes\": \"Estimated from agent quotes\"}], \"rate_table_notes\": \"Premiums vary by age, sum assured, and health status. Full tables not public.\", \"sample_examples\": [{\"example\": \"Premiums as low as KES 3,000 per month for KES 1M cover (brochure).\"}, {\"example\": \"KES 5,500 monthly for KES 2M cover (age 41–60, estimated).\"}]}, \"coverage\": {\"benefits\": [\"Lump-sum on first diagnosis of listed critical illnesses (e.g., cancer, stroke, heart attack)\", \"Medical support services (telemedicine, second opinions)\", \"Optional riders for additional illnesses\"], \"duration\": [\"5\", \"10\", \"15\", \"20 years\"]}, \"exclusions\": [\"Pre-existing conditions (6–12 month waiting period)\", \"Non-listed illnesses\", \"Experimental treatments\"], \"claims_process\": {\"required_documents\": [\"Medical diagnosis\", \"Policy schedule\", \"Claimant ID\", \"Pathology reports\"], \"average_turnaround_days\": 10, \"digital_claims_supported\": true, \"notes\": \"Turnaround estimated from industry standards and Britam’s claims process\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"direct\", \"MyBritam app\"], \"customer_reviews\": [{\"source\": \"Google Reviews\", \"rating\": \"4/5\", \"comment\": \"CarePlus+ paid out quickly for cancer diagnosis (2024)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam CarePlus+ – Official Page\", \"url\": \"https://ke.britam.com/insurance/health/critical-illness\"}, {\"title\": \"CarePlus+ Product Brochure\", \"url\": \"https://ke.britam.com/documents/careplus-brochure.pdf\"}, {\"title\": \"IRA 2024 Insurance Report\", \"url\": \"https://www.ira.go.ke\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_malkia_004_89b51ca9-fbc4-48a1-843a-f5a450dd4edf",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_malkia_004",
+      "product_name": "Malkia Plan (Women’s Wellness & Cancer Cover)",
+      "category": "health / life hybrid",
+      "target_market": "women in Kenya",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "6-month waiting period for cancer claims"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 500000,
+            "monthly_premium": 620,
+            "annual_premium": 7440,
+            "notes": "Entry-level cover (brochure)"
+          },
+          {
+            "sum_assured": 1000000,
+            "monthly_premium": 1200,
+            "annual_premium": 14400,
+            "notes": "Estimated from marketing"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "Premiums starting at KES 620 monthly for KES 500,000 cover (Britam newsroom)."
+          },
+          {
+            "example": "KES 1,200 monthly for KES 1M cover (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Lump-sum on diagnosis of breast/cervical/ovarian cancer (KES 500,000–2M)",
+          "Post-pregnancy support (up to KES 50,000)",
+          "Last expense benefit (KES 50,000–100,000)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "6-month waiting period for cancer diagnosis",
+        "Pre-existing conditions",
+        "Non-covered cancers"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Medical report",
+          "Claimant ID",
+          "Policy schedule"
+        ],
+        "average_turnaround_days": 10,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "digital",
+        "brokers",
+        "MyBritam app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "4/5",
+          "comment": "Malkia Plan is affordable for women’s cancer cover (@NairobiMom, Mar 2025)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Malkia Plan – Official Page",
+          "url": "https://ke.britam.com/insurance/malkia-plan"
+        },
+        {
+          "title": "Britam Newsroom – Malkia Launch",
+          "url": "https://ke.britam.com/newsroom/malkia-insurance-launch"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_malkia_004\", \"product_name\": \"Malkia Plan (Women’s Wellness & Cancer Cover)\", \"category\": \"health / life hybrid\", \"target_market\": \"women in Kenya\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"6-month waiting period for cancer claims\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 500000, \"monthly_premium\": 620, \"annual_premium\": 7440, \"notes\": \"Entry-level cover (brochure)\"}, {\"sum_assured\": 1000000, \"monthly_premium\": 1200, \"annual_premium\": 14400, \"notes\": \"Estimated from marketing\"}], \"sample_examples\": [{\"example\": \"Premiums starting at KES 620 monthly for KES 500,000 cover (Britam newsroom).\"}, {\"example\": \"KES 1,200 monthly for KES 1M cover (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Lump-sum on diagnosis of breast/cervical/ovarian cancer (KES 500,000–2M)\", \"Post-pregnancy support (up to KES 50,000)\", \"Last expense benefit (KES 50,000–100,000)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"6-month waiting period for cancer diagnosis\", \"Pre-existing conditions\", \"Non-covered cancers\"], \"claims_process\": {\"required_documents\": [\"Medical report\", \"Claimant ID\", \"Policy schedule\"], \"average_turnaround_days\": 10, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"digital\", \"brokers\", \"MyBritam app\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"4/5\", \"comment\": \"Malkia Plan is affordable for women’s cancer cover (@NairobiMom, Mar 2025)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Malkia Plan – Official Page\", \"url\": \"https://ke.britam.com/insurance/malkia-plan\"}, {\"title\": \"Britam Newsroom – Malkia Launch\", \"url\": \"https://ke.britam.com/newsroom/malkia-insurance-launch\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_fariji_005_62f70f11-d43d-4186-b1ba-485384d6832e",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_fariji_005",
+      "product_name": "Fariji Funeral Plan",
+      "category": "funeral / last-expense",
+      "target_market": "individuals and families",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 82,
+        "notes": "No medical exam required"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 100000,
+            "monthly_premium": 770,
+            "annual_premium": 9240,
+            "notes": "Brochure example"
+          },
+          {
+            "sum_assured": 500000,
+            "monthly_premium": 3500,
+            "annual_premium": 42000,
+            "notes": "Estimated from agent quotes"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 770 monthly premium for KES 100,000 funeral cover (official page)."
+          },
+          {
+            "example": "KES 3,500 monthly for KES 500,000 cover (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "sum_assured_min": 100000,
+        "sum_assured_max": 500000,
+        "benefits": [
+          "Funeral expense payout within 72 hours",
+          "Family or group options (up to 8 members)",
+          "No waiting period for accidental death"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Suicide within first year",
+        "Fraudulent claims"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Death certificate",
+          "Policy schedule",
+          "Claimant ID"
+        ],
+        "average_turnaround_days": 3,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "employer/group",
+        "MyBritam app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Google Reviews",
+          "rating": "4/5",
+          "comment": "Fariji paid out in 2 days, very reliable (2024)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Fariji Funeral Plan – Official Page",
+          "url": "https://ke.britam.com/insurance/funeral/fariji"
+        },
+        {
+          "title": "Britam Family Funeral Cover – Brochure",
+          "url": "https://ke.britam.com/documents/fariji-brochure.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_fariji_005\", \"product_name\": \"Fariji Funeral Plan\", \"category\": \"funeral / last-expense\", \"target_market\": \"individuals and families\", \"eligibility\": {\"age_min\": 18, \"age_max\": 82, \"notes\": \"No medical exam required\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 100000, \"monthly_premium\": 770, \"annual_premium\": 9240, \"notes\": \"Brochure example\"}, {\"sum_assured\": 500000, \"monthly_premium\": 3500, \"annual_premium\": 42000, \"notes\": \"Estimated from agent quotes\"}], \"sample_examples\": [{\"example\": \"KES 770 monthly premium for KES 100,000 funeral cover (official page).\"}, {\"example\": \"KES 3,500 monthly for KES 500,000 cover (estimated).\"}]}, \"coverage\": {\"sum_assured_min\": 100000, \"sum_assured_max\": 500000, \"benefits\": [\"Funeral expense payout within 72 hours\", \"Family or group options (up to 8 members)\", \"No waiting period for accidental death\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Suicide within first year\", \"Fraudulent claims\"], \"claims_process\": {\"required_documents\": [\"Death certificate\", \"Policy schedule\", \"Claimant ID\"], \"average_turnaround_days\": 3, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"employer/group\", \"MyBritam app\"], \"customer_reviews\": [{\"source\": \"Google Reviews\", \"rating\": \"4/5\", \"comment\": \"Fariji paid out in 2 days, very reliable (2024)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Fariji Funeral Plan – Official Page\", \"url\": \"https://ke.britam.com/insurance/funeral/fariji\"}, {\"title\": \"Britam Family Funeral Cover – Brochure\", \"url\": \"https://ke.britam.com/documents/fariji-brochure.pdf\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_family_funeral_006_bc64a9de-3a14-40ff-ada1-12b607dae06c",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_family_funeral_006",
+      "product_name": "Family Funeral",
+      "category": "funeral / last-expense",
+      "target_market": "nuclear families (spouse + children + biological parents under 75)",
+      "eligibility": {
+        "principal_min_age": 18,
+        "principal_max_entry_age": 70,
+        "children_entry_min": "1 month",
+        "children_exit_age": 18,
+        "student_extension_age": 25,
+        "parents_max_age": 75
+      },
+      "geographic_coverage": "Kenya (nationwide)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "family_size": "principal + spouse + 2 children",
+            "sum_assured_per_member": 100000,
+            "monthly_premium": 1500,
+            "annual_premium": 18000,
+            "notes": "Brochure example"
+          },
+          {
+            "family_size": "principal + spouse + 4 children + 2 parents",
+            "sum_assured_per_member": 200000,
+            "monthly_premium": 4000,
+            "annual_premium": 48000,
+            "notes": "Estimated from group schemes"
+          }
+        ],
+        "rate_table_notes": "Premiums depend on family size and sum assured. Full tables not public.",
+        "sample_examples": [
+          {
+            "example": "KES 1,500 monthly for KES 100,000 per member (principal + spouse + 2 children)."
+          },
+          {
+            "example": "KES 4,000 monthly for KES 200,000 per member (full family, estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "sum_assured_min_per_member": 100000,
+        "sum_assured_max_per_member": 500000,
+        "benefits": [
+          "Cash funeral payout to nominated beneficiary",
+          "Covers nuclear family (spouse, children, parents under 75)",
+          "Quick payout for group schemes (within 72 hours)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Fraud, misrepresentation, non-disclosure",
+        "Non-accidental death within waiting period (6 months)"
+      ],
+      "add_ons": [
+        "Top-up funeral benefit",
+        "Accidental death enhancement"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Original policy",
+          "Death certificate",
+          "Claimant ID",
+          "Burial permit"
+        ],
+        "average_turnaround_days": 3,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "employer/group schemes",
+        "MyBritam app"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Family Funeral product page",
+          "url": "https://ke.britam.com/home/personal/protect-who-you-love/funeral-covers/family-funeral"
+        },
+        {
+          "title": "Britam Group Last Expense Cover brochure (PDF)",
+          "url": "https://ke.britam.com/images/forms/bronchures/Group%20Last%20Expense%20Cover%20Brochure.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_family_funeral_006\", \"product_name\": \"Family Funeral\", \"category\": \"funeral / last-expense\", \"target_market\": \"nuclear families (spouse + children + biological parents under 75)\", \"eligibility\": {\"principal_min_age\": 18, \"principal_max_entry_age\": 70, \"children_entry_min\": \"1 month\", \"children_exit_age\": 18, \"student_extension_age\": 25, \"parents_max_age\": 75}, \"geographic_coverage\": \"Kenya (nationwide)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"family_size\": \"principal + spouse + 2 children\", \"sum_assured_per_member\": 100000, \"monthly_premium\": 1500, \"annual_premium\": 18000, \"notes\": \"Brochure example\"}, {\"family_size\": \"principal + spouse + 4 children + 2 parents\", \"sum_assured_per_member\": 200000, \"monthly_premium\": 4000, \"annual_premium\": 48000, \"notes\": \"Estimated from group schemes\"}], \"rate_table_notes\": \"Premiums depend on family size and sum assured. Full tables not public.\", \"sample_examples\": [{\"example\": \"KES 1,500 monthly for KES 100,000 per member (principal + spouse + 2 children).\"}, {\"example\": \"KES 4,000 monthly for KES 200,000 per member (full family, estimated).\"}]}, \"coverage\": {\"sum_assured_min_per_member\": 100000, \"sum_assured_max_per_member\": 500000, \"benefits\": [\"Cash funeral payout to nominated beneficiary\", \"Covers nuclear family (spouse, children, parents under 75)\", \"Quick payout for group schemes (within 72 hours)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Fraud, misrepresentation, non-disclosure\", \"Non-accidental death within waiting period (6 months)\"], \"add_ons\": [\"Top-up funeral benefit\", \"Accidental death enhancement\"], \"claims_process\": {\"required_documents\": [\"Original policy\", \"Death certificate\", \"Claimant ID\", \"Burial permit\"], \"average_turnaround_days\": 3, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"employer/group schemes\", \"MyBritam app\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Family Funeral product page\", \"url\": \"https://ke.britam.com/home/personal/protect-who-you-love/funeral-covers/family-funeral\"}, {\"title\": \"Britam Group Last Expense Cover brochure (PDF)\", \"url\": \"https://ke.britam.com/images/forms/bronchures/Group%20Last%20Expense%20Cover%20Brochure.pdf\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_milele_health_007_8eb0735e-b298-47d3-b080-eb7d233d6312",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_milele_health_007",
+      "product_name": "Milele Health Plan (Advantage / Premier / Essential1 / Essential2)",
+      "category": "health / medical",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 75,
+        "child_transition_age": 18,
+        "student_extension_age": 25,
+        "notes": "Pre-existing conditions covered after 12-month waiting period (Advantage plan); chronic conditions vary by plan"
+      },
+      "geographic_coverage": "Kenya (empanelled hospital network; overseas inpatient referrals for Advantage/Premier)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "plan": "Advantage",
+            "annual_premium": 17332,
+            "monthly_premium": 1445,
+            "inpatient_limit": 5000000,
+            "notes": "Marketing minimum for individual"
+          },
+          {
+            "plan": "Premier",
+            "annual_premium": 11099,
+            "monthly_premium": 925,
+            "inpatient_limit": 3000000,
+            "notes": "Marketing minimum"
+          },
+          {
+            "plan": "Essential 1",
+            "annual_premium": 9001,
+            "monthly_premium": 750,
+            "inpatient_limit": 1000000,
+            "notes": "Marketing minimum"
+          },
+          {
+            "plan": "Essential 2",
+            "annual_premium": 8127,
+            "monthly_premium": 677,
+            "inpatient_limit": 500000,
+            "notes": "Marketing minimum"
+          }
+        ],
+        "rate_table_notes": "Premiums are minimums from brochures; actual rates depend on age, family size, and add-ons.",
+        "sample_examples": [
+          {
+            "example": "Milele Advantage — KES 17,332/year for KES 5M inpatient (brochure)."
+          },
+          {
+            "example": "Milele Premier — KES 11,099/year for KES 3M inpatient (brochure)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient cover (KES 500,000–5M depending on plan)",
+          "Outpatient rider (KES 50,000–200,000 limits)",
+          "Maternity (KES 100,000–500,000, plan-dependent)",
+          "Telemedicine & wellness services (Advantage/Premier)",
+          "Critical illness cash benefit (Advantage)",
+          "Overseas inpatient referral (India, Advantage/Premier)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions (12-month waiting period)",
+        "Cosmetic treatments",
+        "Experimental procedures"
+      ],
+      "add_ons": [
+        "Outpatient rider",
+        "Dental",
+        "Optical",
+        "Maternity top-up",
+        "Chronic disease management"
+      ],
+      "provider_network": {
+        "hospitals": [
+          "Nairobi Hospital",
+          "Aga Khan University Hospital",
+          "MP Shah Hospital",
+          "Mater Hospital",
+          "Karen Hospital"
+        ],
+        "note": "Full empanelled list in Milele brochure; includes 200+ facilities across Kenya"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Policy/membership card",
+          "Hospital invoice",
+          "Medical reports",
+          "ID copy"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true,
+        "notes": "Cashless claims at empanelled hospitals; reimbursement claims within 7 days (Britam FAQ)"
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "corporate sales",
+        "customer portal",
+        "MyBritam app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "3.5/5",
+          "comment": "Milele Advantage is comprehensive but hospital network can be limiting in rural areas (@HealthUserKE, Jan 2025)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Milele Health Plan - Britam product page",
+          "url": "https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/milele/milele-health"
+        },
+        {
+          "title": "Advantage Milele brochure (PDF)",
+          "url": "https://ke.britam.com/images/brochures/Advantage-Plan.pdf"
+        },
+        {
+          "title": "Essential-1 Milele Health Plan (PDF)",
+          "url": "https://ke.britam.com/images/FormsAndDownloads/ESSENTIAL-1-MILELE-HEALTH-PLAN-updated.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_milele_health_007\", \"product_name\": \"Milele Health Plan (Advantage / Premier / Essential1 / Essential2)\", \"category\": \"health / medical\", \"target_market\": \"individuals, families\", \"eligibility\": {\"age_min\": 0, \"age_max\": 75, \"child_transition_age\": 18, \"student_extension_age\": 25, \"notes\": \"Pre-existing conditions covered after 12-month waiting period (Advantage plan); chronic conditions vary by plan\"}, \"geographic_coverage\": \"Kenya (empanelled hospital network; overseas inpatient referrals for Advantage/Premier)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"plan\": \"Advantage\", \"annual_premium\": 17332, \"monthly_premium\": 1445, \"inpatient_limit\": 5000000, \"notes\": \"Marketing minimum for individual\"}, {\"plan\": \"Premier\", \"annual_premium\": 11099, \"monthly_premium\": 925, \"inpatient_limit\": 3000000, \"notes\": \"Marketing minimum\"}, {\"plan\": \"Essential 1\", \"annual_premium\": 9001, \"monthly_premium\": 750, \"inpatient_limit\": 1000000, \"notes\": \"Marketing minimum\"}, {\"plan\": \"Essential 2\", \"annual_premium\": 8127, \"monthly_premium\": 677, \"inpatient_limit\": 500000, \"notes\": \"Marketing minimum\"}], \"rate_table_notes\": \"Premiums are minimums from brochures; actual rates depend on age, family size, and add-ons.\", \"sample_examples\": [{\"example\": \"Milele Advantage — KES 17,332/year for KES 5M inpatient (brochure).\"}, {\"example\": \"Milele Premier — KES 11,099/year for KES 3M inpatient (brochure).\"}]}, \"coverage\": {\"benefits\": [\"Inpatient cover (KES 500,000–5M depending on plan)\", \"Outpatient rider (KES 50,000–200,000 limits)\", \"Maternity (KES 100,000–500,000, plan-dependent)\", \"Telemedicine & wellness services (Advantage/Premier)\", \"Critical illness cash benefit (Advantage)\", \"Overseas inpatient referral (India, Advantage/Premier)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing conditions (12-month waiting period)\", \"Cosmetic treatments\", \"Experimental procedures\"], \"add_ons\": [\"Outpatient rider\", \"Dental\", \"Optical\", \"Maternity top-up\", \"Chronic disease management\"], \"provider_network\": {\"hospitals\": [\"Nairobi Hospital\", \"Aga Khan University Hospital\", \"MP Shah Hospital\", \"Mater Hospital\", \"Karen Hospital\"], \"note\": \"Full empanelled list in Milele brochure; includes 200+ facilities across Kenya\"}, \"claims_process\": {\"required_documents\": [\"Policy/membership card\", \"Hospital invoice\", \"Medical reports\", \"ID copy\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true, \"notes\": \"Cashless claims at empanelled hospitals; reimbursement claims within 7 days (Britam FAQ)\"}, \"distribution_channels\": [\"agents\", \"brokers\", \"corporate sales\", \"customer portal\", \"MyBritam app\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"3.5/5\", \"comment\": \"Milele Advantage is comprehensive but hospital network can be limiting in rural areas (@HealthUserKE, Jan 2025)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Milele Health Plan - Britam product page\", \"url\": \"https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/milele/milele-health\"}, {\"title\": \"Advantage Milele brochure (PDF)\", \"url\": \"https://ke.britam.com/images/brochures/Advantage-Plan.pdf\"}, {\"title\": \"Essential-1 Milele Health Plan (PDF)\", \"url\": \"https://ke.britam.com/images/FormsAndDownloads/ESSENTIAL-1-MILELE-HEALTH-PLAN-updated.pdf\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_milele_junior_008_bda004cf-e6a6-4e33-97af-8e545942ec7c",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_milele_junior_008",
+      "product_name": "Milele Junior",
+      "category": "health / child-only",
+      "target_market": "children (parents/guardians buying standalone child cover)",
+      "eligibility": {
+        "min_gestation_weeks": 37,
+        "age_min_at_birth": 0,
+        "age_max": 18,
+        "student_extension": "can extend to 25 with proof of enrolment"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "plan": "Junior Basic",
+            "annual_premium": 10000,
+            "monthly_premium": 833,
+            "inpatient_limit": 500000,
+            "notes": "Estimated from brochure"
+          },
+          {
+            "plan": "Junior Plus",
+            "annual_premium": 15000,
+            "monthly_premium": 1250,
+            "inpatient_limit": 1000000,
+            "notes": "Estimated from marketing"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by plan variant and add-ons; full tables not public.",
+        "sample_examples": [
+          {
+            "example": "Junior Basic — KES 10,000/year for KES 500,000 inpatient (estimated)."
+          },
+          {
+            "example": "Junior Plus — KES 15,000/year for KES 1M inpatient (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient cover (KES 500,000–1M)",
+          "Outpatient cover (KES 50,000–100,000, plan-dependent)",
+          "Vaccinations (KEPI schedule included)",
+          "Congenital conditions (after 12-month waiting period)",
+          "Transition to Milele adult cover at 18"
+        ],
+        "duration": "annual renewable until 18 (with student extension)"
+      },
+      "exclusions": [
+        "Pre-existing conditions (12-month waiting period)",
+        "Non-standard vaccinations unless added"
+      ],
+      "add_ons": [
+        "Vaccination top-up",
+        "Outpatient enhancements"
+      ],
+      "provider_network": {
+        "hospitals": [
+          "Aga Khan University Hospital",
+          "Gertrude’s Children’s Hospital",
+          "Nairobi Women’s Hospital"
+        ],
+        "note": "Specialized paediatric network listed in Milele Junior brochure"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Birth notification",
+          "Hospital invoices",
+          "Policy schedule",
+          "ID of guardian"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "online",
+        "MyBritam app"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Milele Junior brochure (PDF)",
+          "url": "https://ke.britam.com/images/forms/bronchures/Milele%20Junior%20Health%20Cover%20Final%20V3.pdf"
+        },
+        {
+          "title": "Milele Junior product page",
+          "url": "https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/milele/milele-junior"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_milele_junior_008\", \"product_name\": \"Milele Junior\", \"category\": \"health / child-only\", \"target_market\": \"children (parents/guardians buying standalone child cover)\", \"eligibility\": {\"min_gestation_weeks\": 37, \"age_min_at_birth\": 0, \"age_max\": 18, \"student_extension\": \"can extend to 25 with proof of enrolment\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"plan\": \"Junior Basic\", \"annual_premium\": 10000, \"monthly_premium\": 833, \"inpatient_limit\": 500000, \"notes\": \"Estimated from brochure\"}, {\"plan\": \"Junior Plus\", \"annual_premium\": 15000, \"monthly_premium\": 1250, \"inpatient_limit\": 1000000, \"notes\": \"Estimated from marketing\"}], \"rate_table_notes\": \"Premiums vary by plan variant and add-ons; full tables not public.\", \"sample_examples\": [{\"example\": \"Junior Basic — KES 10,000/year for KES 500,000 inpatient (estimated).\"}, {\"example\": \"Junior Plus — KES 15,000/year for KES 1M inpatient (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Inpatient cover (KES 500,000–1M)\", \"Outpatient cover (KES 50,000–100,000, plan-dependent)\", \"Vaccinations (KEPI schedule included)\", \"Congenital conditions (after 12-month waiting period)\", \"Transition to Milele adult cover at 18\"], \"duration\": \"annual renewable until 18 (with student extension)\"}, \"exclusions\": [\"Pre-existing conditions (12-month waiting period)\", \"Non-standard vaccinations unless added\"], \"add_ons\": [\"Vaccination top-up\", \"Outpatient enhancements\"], \"provider_network\": {\"hospitals\": [\"Aga Khan University Hospital\", \"Gertrude’s Children’s Hospital\", \"Nairobi Women’s Hospital\"], \"note\": \"Specialized paediatric network listed in Milele Junior brochure\"}, \"claims_process\": {\"required_documents\": [\"Birth notification\", \"Hospital invoices\", \"Policy schedule\", \"ID of guardian\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"online\", \"MyBritam app\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Milele Junior brochure (PDF)\", \"url\": \"https://ke.britam.com/images/forms/bronchures/Milele%20Junior%20Health%20Cover%20Final%20V3.pdf\"}, {\"title\": \"Milele Junior product page\", \"url\": \"https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/milele/milele-junior\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_milele_corporate_009_9fabaed9-3059-43d8-9837-457e2e34e016",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_milele_corporate_009",
+      "product_name": "Milele Corporate / Afya Tele (Group Medical)",
+      "category": "health (group / corporate)",
+      "target_market": "employers (corporates, NGOs), SMEs, registered groups (Saccos, chamas), education institutions",
+      "eligibility": {
+        "group_min_size": 10,
+        "notes": "Smaller groups (1–9) possible with bespoke underwriting"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Premiums are bespoke, based on group size, age profile, and benefits. Contact Britam for quotes.",
+        "sample_examples": [
+          {
+            "example": "Afya Tele for SMEs — KES 20,000/year per member for basic inpatient (estimated from industry data)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient care (KES 1M–10M limits)",
+          "Outpatient (fund-managed or cashless)",
+          "Funeral/last-expense benefit (optional, KES 100,000–500,000)",
+          "Telemedicine services",
+          "Maternity (KES 100,000–500,000)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions (12-month waiting period)",
+        "Non-disclosed conditions"
+      ],
+      "add_ons": [
+        "Maternity modules",
+        "Chronic disease modules",
+        "Wellness programmes"
+      ],
+      "provider_network": {
+        "hospitals": [
+          "Aga Khan University Hospital",
+          "Nairobi Hospital",
+          "Karen Hospital"
+        ],
+        "note": "Customizable hospital panels per corporate scheme"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Group membership certificate",
+          "Hospital invoices",
+          "Medical reports"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales team",
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "rating": "4/5",
+          "comment": "Afya Tele works well for our SME employees (Nairobi-based company, 2024)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Afya Tele - Group Medical Insurance product page",
+          "url": "https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/afya-tele"
+        },
+        {
+          "title": "Britam Medical Insurance Cover (business page)",
+          "url": "https://ke.britam.com/home/business/protect-your-employee/medical-insurance-cover"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_milele_corporate_009\", \"product_name\": \"Milele Corporate / Afya Tele (Group Medical)\", \"category\": \"health (group / corporate)\", \"target_market\": \"employers (corporates, NGOs), SMEs, registered groups (Saccos, chamas), education institutions\", \"eligibility\": {\"group_min_size\": 10, \"notes\": \"Smaller groups (1–9) possible with bespoke underwriting\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Premiums are bespoke, based on group size, age profile, and benefits. Contact Britam for quotes.\", \"sample_examples\": [{\"example\": \"Afya Tele for SMEs — KES 20,000/year per member for basic inpatient (estimated from industry data).\"}]}, \"coverage\": {\"benefits\": [\"Inpatient care (KES 1M–10M limits)\", \"Outpatient (fund-managed or cashless)\", \"Funeral/last-expense benefit (optional, KES 100,000–500,000)\", \"Telemedicine services\", \"Maternity (KES 100,000–500,000)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing conditions (12-month waiting period)\", \"Non-disclosed conditions\"], \"add_ons\": [\"Maternity modules\", \"Chronic disease modules\", \"Wellness programmes\"], \"provider_network\": {\"hospitals\": [\"Aga Khan University Hospital\", \"Nairobi Hospital\", \"Karen Hospital\"], \"note\": \"Customizable hospital panels per corporate scheme\"}, \"claims_process\": {\"required_documents\": [\"Group membership certificate\", \"Hospital invoices\", \"Medical reports\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"distribution_channels\": [\"brokers\", \"corporate sales team\", \"agents\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"rating\": \"4/5\", \"comment\": \"Afya Tele works well for our SME employees (Nairobi-based company, 2024)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Afya Tele - Group Medical Insurance product page\", \"url\": \"https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/afya-tele\"}, {\"title\": \"Britam Medical Insurance Cover (business page)\", \"url\": \"https://ke.britam.com/home/business/protect-your-employee/medical-insurance-cover\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_student_pa_010_2acdad37-8151-43b7-8afa-addf0780beb2",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_student_pa_010",
+      "product_name": "Student Personal Accident",
+      "category": "personal accident (student)",
+      "target_market": "schools, tertiary institutions, parents",
+      "eligibility": {
+        "policy_period_options": [
+          "3 months",
+          "6 months",
+          "12 months"
+        ],
+        "notes": "Institution-specific schemes common; students must be enrolled"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-term",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "plan": "Silver",
+            "annual_premium": 1500,
+            "benefits": {
+              "medical_expenses": 100000,
+              "disability": 200000,
+              "death": 100000
+            },
+            "notes": "Brochure example"
+          },
+          {
+            "plan": "Gold",
+            "annual_premium": 2500,
+            "benefits": {
+              "medical_expenses": 200000,
+              "disability": 400000,
+              "death": 200000
+            },
+            "notes": "Estimated"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "Silver: KES 1,500/year for KES 100,000 medical, KES 200,000 disability, KES 100,000 death (brochure)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental medical expenses (KES 100,000–200,000)",
+          "Permanent partial/total disability (KES 200,000–400,000)",
+          "Accidental death (KES 100,000–200,000)",
+          "Dental and last-expense (plan-dependent)"
+        ],
+        "duration": "3, 6, or 12 months"
+      },
+      "exclusions": [
+        "Intentional self-harm",
+        "Non-accidental injuries",
+        "Hazardous activities unless declared"
+      ],
+      "add_ons": [
+        "Higher benefit bands",
+        "Internship cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Medical reports",
+          "School confirmation",
+          "ID"
+        ],
+        "average_turnaround_days": 10,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "schools",
+        "institutions",
+        "agents"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Student Personal Accident product page",
+          "url": "https://ke.britam.com/home/personal/protect-who-you-love/personal-accident-covers/student-personal-accident"
+        },
+        {
+          "title": "Student Personal Accident policy (PDF example)",
+          "url": "https://ke.britam.com/images/forms/Additional%20Product%20Application%20Forms/STUDENT%20PERSONAL%20ACCIDENT%20COVER-%20MUKIRIA%20TTI.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_student_pa_010\", \"product_name\": \"Student Personal Accident\", \"category\": \"personal accident (student)\", \"target_market\": \"schools, tertiary institutions, parents\", \"eligibility\": {\"policy_period_options\": [\"3 months\", \"6 months\", \"12 months\"], \"notes\": \"Institution-specific schemes common; students must be enrolled\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-term\", \"annual\"], \"rate_table\": [{\"plan\": \"Silver\", \"annual_premium\": 1500, \"benefits\": {\"medical_expenses\": 100000, \"disability\": 200000, \"death\": 100000}, \"notes\": \"Brochure example\"}, {\"plan\": \"Gold\", \"annual_premium\": 2500, \"benefits\": {\"medical_expenses\": 200000, \"disability\": 400000, \"death\": 200000}, \"notes\": \"Estimated\"}], \"sample_examples\": [{\"example\": \"Silver: KES 1,500/year for KES 100,000 medical, KES 200,000 disability, KES 100,000 death (brochure).\"}]}, \"coverage\": {\"benefits\": [\"Accidental medical expenses (KES 100,000–200,000)\", \"Permanent partial/total disability (KES 200,000–400,000)\", \"Accidental death (KES 100,000–200,000)\", \"Dental and last-expense (plan-dependent)\"], \"duration\": \"3, 6, or 12 months\"}, \"exclusions\": [\"Intentional self-harm\", \"Non-accidental injuries\", \"Hazardous activities unless declared\"], \"add_ons\": [\"Higher benefit bands\", \"Internship cover\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Medical reports\", \"School confirmation\", \"ID\"], \"average_turnaround_days\": 10, \"digital_claims_supported\": false}, \"distribution_channels\": [\"schools\", \"institutions\", \"agents\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Student Personal Accident product page\", \"url\": \"https://ke.britam.com/home/personal/protect-who-you-love/personal-accident-covers/student-personal-accident\"}, {\"title\": \"Student Personal Accident policy (PDF example)\", \"url\": \"https://ke.britam.com/images/forms/Additional%20Product%20Application%20Forms/STUDENT%20PERSONAL%20ACCIDENT%20COVER-%20MUKIRIA%20TTI.pdf\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_group_pa_011_c29191ec-9621-4504-9a40-d184171943e8",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_group_pa_011",
+      "product_name": "Group Personal Accident",
+      "category": "personal accident (group)",
+      "target_market": "corporates, institutions, employer schemes, registered groups",
+      "eligibility": {
+        "group_min_size": 2,
+        "max_age": 70,
+        "notes": "Occupation class affects premiums"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "quarterly"
+        ],
+        "rate_table": [
+          {
+            "occupation_class": "Class 1 (low risk)",
+            "sum_assured": 500000,
+            "annual_premium": 5000,
+            "notes": "Estimated for clerical workers"
+          },
+          {
+            "occupation_class": "Class 3 (high risk)",
+            "sum_assured": 500000,
+            "annual_premium": 8000,
+            "notes": "Estimated for manual workers"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 5,000/year for KES 500,000 cover (Class 1, estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental death (KES 100,000–5M)",
+          "Permanent total disability (up to 100% sum assured)",
+          "Temporary total disability (weekly benefit, plan-dependent)",
+          "Accidental medical expenses (KES 50,000–500,000)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "War risks",
+        "Intentional self-harm",
+        "Professional sports unless declared"
+      ],
+      "add_ons": [
+        "Funeral expense rider",
+        "Enhanced weekly benefit"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Employer confirmation",
+          "Medical reports",
+          "Police abstract"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales",
+        "agents"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Group Personal Accident policy document (PDF example)",
+          "url": "https://ke.britam.com/images/forms/Forms%20and%20Downloads/Forms%20and%20Downloads/Partnerships%20Downloads/Group%20accident%28GPA%29%20Policy%20document%20-%20Voltic%20Limited.pdf"
+        },
+        {
+          "title": "Group PA references & Safaricom partnership policy (PDF)",
+          "url": "https://ke.britam.com/images/FormsAndDownloads/Safaricom-Policy-Document-Dec-2024.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_group_pa_011\", \"product_name\": \"Group Personal Accident\", \"category\": \"personal accident (group)\", \"target_market\": \"corporates, institutions, employer schemes, registered groups\", \"eligibility\": {\"group_min_size\": 2, \"max_age\": 70, \"notes\": \"Occupation class affects premiums\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"quarterly\"], \"rate_table\": [{\"occupation_class\": \"Class 1 (low risk)\", \"sum_assured\": 500000, \"annual_premium\": 5000, \"notes\": \"Estimated for clerical workers\"}, {\"occupation_class\": \"Class 3 (high risk)\", \"sum_assured\": 500000, \"annual_premium\": 8000, \"notes\": \"Estimated for manual workers\"}], \"sample_examples\": [{\"example\": \"KES 5,000/year for KES 500,000 cover (Class 1, estimated).\"}]}, \"coverage\": {\"benefits\": [\"Accidental death (KES 100,000–5M)\", \"Permanent total disability (up to 100% sum assured)\", \"Temporary total disability (weekly benefit, plan-dependent)\", \"Accidental medical expenses (KES 50,000–500,000)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"War risks\", \"Intentional self-harm\", \"Professional sports unless declared\"], \"add_ons\": [\"Funeral expense rider\", \"Enhanced weekly benefit\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Employer confirmation\", \"Medical reports\", \"Police abstract\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": false}, \"distribution_channels\": [\"brokers\", \"corporate sales\", \"agents\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Group Personal Accident policy document (PDF example)\", \"url\": \"https://ke.britam.com/images/forms/Forms%20and%20Downloads/Forms%20and%20Downloads/Partnerships%20Downloads/Group%20accident%28GPA%29%20Policy%20document%20-%20Voltic%20Limited.pdf\"}, {\"title\": \"Group PA references & Safaricom partnership policy (PDF)\", \"url\": \"https://ke.britam.com/images/FormsAndDownloads/Safaricom-Policy-Document-Dec-2024.pdf\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_pa_individual_012_dd7ca904-988b-4e5a-b658-45b8cd1c193b",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_pa_individual_012",
+      "product_name": "Personal Accident (Individual)",
+      "category": "personal accident (individual)",
+      "target_market": "individuals (employed, self-employed, professionals)",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Occupation class (1–4) impacts premium"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly (via mobile bundles/partners)"
+        ],
+        "rate_table": [
+          {
+            "occupation_class": "Class 1",
+            "sum_assured": 200000,
+            "monthly_premium": 100,
+            "annual_premium": 1200,
+            "notes": "Airtel Money partnership example"
+          },
+          {
+            "occupation_class": "Class 2",
+            "sum_assured": 500000,
+            "annual_premium": 3000,
+            "notes": "Estimated for professionals"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 100/month for KES 200,000 cover (Airtel Money micro-PA)."
+          },
+          {
+            "example": "KES 3,000/year for KES 500,000 cover (Class 2, estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental death (KES 50,000–1M)",
+          "Permanent disability (up to 100% sum assured)",
+          "Accidental medical expenses (KES 20,000–200,000)",
+          "Optional funeral expense (KES 50,000)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional self-harm",
+        "Hazardous activities unless covered",
+        "War risks"
+      ],
+      "add_ons": [
+        "Funeral cover",
+        "Critical illness top-up"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "ID copy",
+          "Medical report",
+          "Police abstract",
+          "Claim form"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "mobile bundles",
+        "MyBritam portal"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Personal Accident product terms (PDF)",
+          "url": "https://ke.britam.com/images/FormsAndDownloads/Britam-Personal-Accident-T%26C.pdf"
+        },
+        {
+          "title": "Airtel Money / partner Personal Accident policy (PDF example)",
+          "url": "https://ke.britam.com/images/FormsAndDownloads/Airtel-Money-Pata-Bima-Mkononi-Personal-Accident-Policy-Document.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_pa_individual_012\", \"product_name\": \"Personal Accident (Individual)\", \"category\": \"personal accident (individual)\", \"target_market\": \"individuals (employed, self-employed, professionals)\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Occupation class (1–4) impacts premium\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly (via mobile bundles/partners)\"], \"rate_table\": [{\"occupation_class\": \"Class 1\", \"sum_assured\": 200000, \"monthly_premium\": 100, \"annual_premium\": 1200, \"notes\": \"Airtel Money partnership example\"}, {\"occupation_class\": \"Class 2\", \"sum_assured\": 500000, \"annual_premium\": 3000, \"notes\": \"Estimated for professionals\"}], \"sample_examples\": [{\"example\": \"KES 100/month for KES 200,000 cover (Airtel Money micro-PA).\"}, {\"example\": \"KES 3,000/year for KES 500,000 cover (Class 2, estimated).\"}]}, \"coverage\": {\"benefits\": [\"Accidental death (KES 50,000–1M)\", \"Permanent disability (up to 100% sum assured)\", \"Accidental medical expenses (KES 20,000–200,000)\", \"Optional funeral expense (KES 50,000)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional self-harm\", \"Hazardous activities unless covered\", \"War risks\"], \"add_ons\": [\"Funeral cover\", \"Critical illness top-up\"], \"claims_process\": {\"required_documents\": [\"ID copy\", \"Medical report\", \"Police abstract\", \"Claim form\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"mobile bundles\", \"MyBritam portal\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Personal Accident product terms (PDF)\", \"url\": \"https://ke.britam.com/images/FormsAndDownloads/Britam-Personal-Accident-T%26C.pdf\"}, {\"title\": \"Airtel Money / partner Personal Accident policy (PDF example)\", \"url\": \"https://ke.britam.com/images/FormsAndDownloads/Airtel-Money-Pata-Bima-Mkononi-Personal-Accident-Policy-Document.pdf\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_travel_013_d02780ad-9640-42e9-b628-17a278202959",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_travel_013",
+      "product_name": "Travel Insurance",
+      "category": "travel",
+      "target_market": "individual travellers, families, corporates",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 75,
+        "notes": "Ages above 75 require special underwriting"
+      },
+      "geographic_coverage": "Worldwide (Africa, Schengen, Worldwide excl/incl USA & Canada)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-trip",
+          "annual multi-trip"
+        ],
+        "rate_table": [
+          {
+            "destination": "Schengen",
+            "duration_days": 7,
+            "annual_premium": 3500,
+            "notes": "Brochure example for individual"
+          },
+          {
+            "destination": "Worldwide (excl. USA/Canada)",
+            "duration_days": 14,
+            "annual_premium": 6000,
+            "notes": "Estimated"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 3,500 for 7-day Schengen trip (brochure)."
+          },
+          {
+            "example": "KES 6,000 for 14-day worldwide trip (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Emergency medical expenses (KES 1M–10M)",
+          "Evacuation & repatriation",
+          "Loss of baggage (KES 50,000–200,000)",
+          "Trip cancellation/curtailment (KES 100,000–500,000)",
+          "Personal accident (KES 100,000–1M)"
+        ],
+        "duration": "per-trip or annual multi-trip"
+      },
+      "exclusions": [
+        "Pre-existing conditions unless declared",
+        "Travel to war zones"
+      ],
+      "add_ons": [
+        "Winter sports cover",
+        "Business equipment cover"
+      ],
+      "provider_network": {
+        "assistance_partners": [
+          "International SOS",
+          "Europ Assistance"
+        ],
+        "note": "Global assistance partners listed in travel brochure"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Travel policy certificate",
+          "Proof of travel",
+          "Medical bills",
+          "Police reports for loss"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "travel agencies",
+        "online"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Travel Insurance brochure (PDF)",
+          "url": "https://ke.britam.com/images/FormsAndDownloads/Travel-Insurance-vFinal.pdf"
+        },
+        {
+          "title": "Travel Insurance product page (Britam)",
+          "url": "https://ke.britam.com/home/personal/protect-who-you-love/travel-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_travel_013\", \"product_name\": \"Travel Insurance\", \"category\": \"travel\", \"target_market\": \"individual travellers, families, corporates\", \"eligibility\": {\"age_min\": 0, \"age_max\": 75, \"notes\": \"Ages above 75 require special underwriting\"}, \"geographic_coverage\": \"Worldwide (Africa, Schengen, Worldwide excl/incl USA & Canada)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-trip\", \"annual multi-trip\"], \"rate_table\": [{\"destination\": \"Schengen\", \"duration_days\": 7, \"annual_premium\": 3500, \"notes\": \"Brochure example for individual\"}, {\"destination\": \"Worldwide (excl. USA/Canada)\", \"duration_days\": 14, \"annual_premium\": 6000, \"notes\": \"Estimated\"}], \"sample_examples\": [{\"example\": \"KES 3,500 for 7-day Schengen trip (brochure).\"}, {\"example\": \"KES 6,000 for 14-day worldwide trip (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Emergency medical expenses (KES 1M–10M)\", \"Evacuation & repatriation\", \"Loss of baggage (KES 50,000–200,000)\", \"Trip cancellation/curtailment (KES 100,000–500,000)\", \"Personal accident (KES 100,000–1M)\"], \"duration\": \"per-trip or annual multi-trip\"}, \"exclusions\": [\"Pre-existing conditions unless declared\", \"Travel to war zones\"], \"add_ons\": [\"Winter sports cover\", \"Business equipment cover\"], \"provider_network\": {\"assistance_partners\": [\"International SOS\", \"Europ Assistance\"], \"note\": \"Global assistance partners listed in travel brochure\"}, \"claims_process\": {\"required_documents\": [\"Travel policy certificate\", \"Proof of travel\", \"Medical bills\", \"Police reports for loss\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"travel agencies\", \"online\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Travel Insurance brochure (PDF)\", \"url\": \"https://ke.britam.com/images/FormsAndDownloads/Travel-Insurance-vFinal.pdf\"}, {\"title\": \"Travel Insurance product page (Britam)\", \"url\": \"https://ke.britam.com/home/personal/protect-who-you-love/travel-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_home_014_401d300c-8569-4cc0-a12b-9cfffe3c44bf",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_home_014",
+      "product_name": "Home Insurance (Domestic Package)",
+      "category": "property / home",
+      "target_market": "homeowners, tenants, landlords",
+      "eligibility": {
+        "property_type": "residential dwellings in Kenya",
+        "notes": "Urban and rural properties eligible; valuation required for high-value homes"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured_building": 5000000,
+            "sum_insured_contents": 1000000,
+            "annual_premium": 15000,
+            "notes": "Estimated for urban home"
+          },
+          {
+            "sum_insured_contents": 500000,
+            "annual_premium": 5000,
+            "notes": "Contents-only, estimated"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 15,000/year for KES 5M building + KES 1M contents (estimated)."
+          },
+          {
+            "example": "KES 5,000/year for KES 500,000 contents (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, lightning, explosion (building/contents)",
+          "Burglary and theft (contents, up to KES 1M)",
+          "Loss of rental income (KES 100,000–500,000)",
+          "Domestic workers’ liability (WIBA, KES 100,000)",
+          "Personal liability (KES 1M–5M)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Deliberate acts",
+        "War/terrorism unless covered"
+      ],
+      "add_ons": [
+        "All-risk portable equipment",
+        "Increased rent cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Police abstract (theft)",
+          "Repair invoices",
+          "Photos"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "digital portal"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Home Insurance brochure (PDF)",
+          "url": "https://ke.britam.com/images/brochures/Britam-Home-Insurance-2025.pdf"
+        },
+        {
+          "title": "Home Insurance product page",
+          "url": "https://ke.britam.com/home/personal/protect-what-you-love/home-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_home_014\", \"product_name\": \"Home Insurance (Domestic Package)\", \"category\": \"property / home\", \"target_market\": \"homeowners, tenants, landlords\", \"eligibility\": {\"property_type\": \"residential dwellings in Kenya\", \"notes\": \"Urban and rural properties eligible; valuation required for high-value homes\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured_building\": 5000000, \"sum_insured_contents\": 1000000, \"annual_premium\": 15000, \"notes\": \"Estimated for urban home\"}, {\"sum_insured_contents\": 500000, \"annual_premium\": 5000, \"notes\": \"Contents-only, estimated\"}], \"sample_examples\": [{\"example\": \"KES 15,000/year for KES 5M building + KES 1M contents (estimated).\"}, {\"example\": \"KES 5,000/year for KES 500,000 contents (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Fire, lightning, explosion (building/contents)\", \"Burglary and theft (contents, up to KES 1M)\", \"Loss of rental income (KES 100,000–500,000)\", \"Domestic workers’ liability (WIBA, KES 100,000)\", \"Personal liability (KES 1M–5M)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear and tear\", \"Deliberate acts\", \"War/terrorism unless covered\"], \"add_ons\": [\"All-risk portable equipment\", \"Increased rent cover\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Police abstract (theft)\", \"Repair invoices\", \"Photos\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"brokers\", \"digital portal\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Home Insurance brochure (PDF)\", \"url\": \"https://ke.britam.com/images/brochures/Britam-Home-Insurance-2025.pdf\"}, {\"title\": \"Home Insurance product page\", \"url\": \"https://ke.britam.com/home/personal/protect-what-you-love/home-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_motor_015_1c6c7be2-a41a-4cb2-b063-952b5f410b96",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_motor_015",
+      "product_name": "Motor Insurance (Comprehensive / Third-Party / MotorFlex)",
+      "category": "motor",
+      "target_market": "private car owners, fleet operators, commercial vehicle owners",
+      "eligibility": {
+        "vehicle_type": "private cars, commercial vehicles",
+        "vehicle_age_limit": "up to 15 years (comprehensive), no limit for third-party"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly (MotiFlex)",
+          "quarterly",
+          "semi-annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 1000000,
+            "annual_premium": 35000,
+            "notes": "3.5% of vehicle value, estimated"
+          },
+          {
+            "type": "Third-Party",
+            "annual_premium": 7500,
+            "notes": "Minimum premium per IRA regulation"
+          },
+          {
+            "type": "MotiFlex",
+            "vehicle_value": 1000000,
+            "initial_payment": 10000,
+            "monthly_premium": 2500,
+            "notes": "Brochure example"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "MotiFlex: KES 10,000 initial + KES 2,500/month for KES 1M vehicle (brochure)."
+          },
+          {
+            "example": "Third-Party: KES 7,500/year (IRA minimum)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Third-party liability (KES 10M bodily injury, KES 5M property)",
+          "Own damage loss (comprehensive, up to vehicle value)",
+          "Theft and fire",
+          "Malicious damage and natural perils",
+          "Windscreen cover (KES 50,000, optional)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed drivers",
+        "Drunk driving",
+        "Use outside declared purpose"
+      ],
+      "add_ons": [
+        "Roadside assistance",
+        "Windscreen cover",
+        "Personal accident",
+        "Political violence"
+      ],
+      "provider_network": {
+        "garages": [
+          "CMC Motors",
+          "Toyota Kenya",
+          "DT Dobie"
+        ],
+        "note": "Approved repair garages listed in policy documents"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Driving license",
+          "Logbook",
+          "Repair invoice",
+          "Claim form"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "digital portal",
+        "MotiFlex"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "4/5",
+          "comment": "MotiFlex payments are flexible, claims settled in 10 days (@CarOwnerKE, Feb 2025)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Motor Insurance product page",
+          "url": "https://ke.britam.com/home/personal/protect-what-you-love/britam-motor-insurance"
+        },
+        {
+          "title": "MotiFlex Terms & Conditions (PDF)",
+          "url": "https://ke.britam.com/images/FormsAndDownloads/Motiflex-Terms-Conditions.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_motor_015\", \"product_name\": \"Motor Insurance (Comprehensive / Third-Party / MotorFlex)\", \"category\": \"motor\", \"target_market\": \"private car owners, fleet operators, commercial vehicle owners\", \"eligibility\": {\"vehicle_type\": \"private cars, commercial vehicles\", \"vehicle_age_limit\": \"up to 15 years (comprehensive), no limit for third-party\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly (MotiFlex)\", \"quarterly\", \"semi-annual\"], \"rate_table\": [{\"type\": \"Comprehensive\", \"vehicle_value\": 1000000, \"annual_premium\": 35000, \"notes\": \"3.5% of vehicle value, estimated\"}, {\"type\": \"Third-Party\", \"annual_premium\": 7500, \"notes\": \"Minimum premium per IRA regulation\"}, {\"type\": \"MotiFlex\", \"vehicle_value\": 1000000, \"initial_payment\": 10000, \"monthly_premium\": 2500, \"notes\": \"Brochure example\"}], \"sample_examples\": [{\"example\": \"MotiFlex: KES 10,000 initial + KES 2,500/month for KES 1M vehicle (brochure).\"}, {\"example\": \"Third-Party: KES 7,500/year (IRA minimum).\"}]}, \"coverage\": {\"benefits\": [\"Third-party liability (KES 10M bodily injury, KES 5M property)\", \"Own damage loss (comprehensive, up to vehicle value)\", \"Theft and fire\", \"Malicious damage and natural perils\", \"Windscreen cover (KES 50,000, optional)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Unlicensed drivers\", \"Drunk driving\", \"Use outside declared purpose\"], \"add_ons\": [\"Roadside assistance\", \"Windscreen cover\", \"Personal accident\", \"Political violence\"], \"provider_network\": {\"garages\": [\"CMC Motors\", \"Toyota Kenya\", \"DT Dobie\"], \"note\": \"Approved repair garages listed in policy documents\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Driving license\", \"Logbook\", \"Repair invoice\", \"Claim form\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"digital portal\", \"MotiFlex\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"4/5\", \"comment\": \"MotiFlex payments are flexible, claims settled in 10 days (@CarOwnerKE, Feb 2025)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Motor Insurance product page\", \"url\": \"https://ke.britam.com/home/personal/protect-what-you-love/britam-motor-insurance\"}, {\"title\": \"MotiFlex Terms & Conditions (PDF)\", \"url\": \"https://ke.britam.com/images/FormsAndDownloads/Motiflex-Terms-Conditions.pdf\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_aviation_016_cce82333-9696-4e27-8233-bcff707a0e2e",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_aviation_016",
+      "product_name": "Aviation Insurance Plans",
+      "category": "aviation / specialty",
+      "target_market": "aviation operators, airport owners, aircraft owners, pilots/crew",
+      "eligibility": {
+        "notes": "Underwriting based on aircraft type, operation profile, pilot certifications"
+      },
+      "geographic_coverage": "Kenya / East Africa (policy-dependent)",
+      "premium": {
+        "currency": "KES / USD",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke, based on hull value and risk profile. Contact Britam for quotes.",
+        "sample_examples": [
+          {
+            "example": "Hull All Risks for small aircraft: 2–5% of hull value (industry estimate)."
+          }
+        ]
+      },
+      "coverage": {
+        "plans": [
+          "Hull All Risks (physical damage, KES 10M–500M)",
+          "Liability All Risks (third-party, KES 50M–1B)",
+          "Airport Owners & Operators (premises liability)",
+          "Aviation Personal Accident (KES 1M–10M)"
+        ],
+        "duration": "annual or contractual"
+      },
+      "exclusions": [
+        "War risks unless covered",
+        "Non-compliance with airworthiness",
+        "Illegal operations"
+      ],
+      "add_ons": [
+        "Hull war cover",
+        "Extended liability",
+        "Ground risk cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Surveyor reports",
+          "Aircraft logs",
+          "Pilot reports",
+          "Airworthiness certificates"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "brokers (aviation specialists)",
+        "direct corporate underwriting"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Aviation Insurance brochure (PDF)",
+          "url": "https://ke.britam.com/images/FormsAndDownloads/Aviation-Brochure-Amended.pdf"
+        },
+        {
+          "title": "Aviation product page",
+          "url": "https://ke.britam.com/home/business/protect-your-business/aviation"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_aviation_016\", \"product_name\": \"Aviation Insurance Plans\", \"category\": \"aviation / specialty\", \"target_market\": \"aviation operators, airport owners, aircraft owners, pilots/crew\", \"eligibility\": {\"notes\": \"Underwriting based on aircraft type, operation profile, pilot certifications\"}, \"geographic_coverage\": \"Kenya / East Africa (policy-dependent)\", \"premium\": {\"currency\": \"KES / USD\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Premiums bespoke, based on hull value and risk profile. Contact Britam for quotes.\", \"sample_examples\": [{\"example\": \"Hull All Risks for small aircraft: 2–5% of hull value (industry estimate).\"}]}, \"coverage\": {\"plans\": [\"Hull All Risks (physical damage, KES 10M–500M)\", \"Liability All Risks (third-party, KES 50M–1B)\", \"Airport Owners & Operators (premises liability)\", \"Aviation Personal Accident (KES 1M–10M)\"], \"duration\": \"annual or contractual\"}, \"exclusions\": [\"War risks unless covered\", \"Non-compliance with airworthiness\", \"Illegal operations\"], \"add_ons\": [\"Hull war cover\", \"Extended liability\", \"Ground risk cover\"], \"claims_process\": {\"required_documents\": [\"Surveyor reports\", \"Aircraft logs\", \"Pilot reports\", \"Airworthiness certificates\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"distribution_channels\": [\"brokers (aviation specialists)\", \"direct corporate underwriting\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Aviation Insurance brochure (PDF)\", \"url\": \"https://ke.britam.com/images/FormsAndDownloads/Aviation-Brochure-Amended.pdf\"}, {\"title\": \"Aviation product page\", \"url\": \"https://ke.britam.com/home/business/protect-your-business/aviation\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_biashara_017_f8b7999c-aec6-414b-aa50-66370430ed4d",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_biashara_017",
+      "product_name": "Britam Biashara (SME Combined Solution)",
+      "category": "business / SME combined",
+      "target_market": "SMEs, micro-businesses, traders, small shops",
+      "eligibility": {
+        "notes": "Self-rated product; SMEs select options based on business profile"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "coverage": "Property + Liability",
+            "sum_insured": 2000000,
+            "annual_premium": 25000,
+            "notes": "Estimated for small shop"
+          },
+          {
+            "coverage": "Property + Business Interruption",
+            "sum_insured": 5000000,
+            "annual_premium": 40000,
+            "notes": "Estimated for medium SME"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 2M property + liability (estimated)."
+          },
+          {
+            "example": "KES 40,000/year for KES 5M property + interruption (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Property damage (fire, theft, KES 1M–10M)",
+          "Business interruption (KES 500,000–5M)",
+          "Public liability (KES 1M–5M)",
+          "Political violence & terrorism (optional)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Fraudulent claims",
+        "Uninsured perils (see T&Cs)"
+      ],
+      "add_ons": [
+        "Commercial motor",
+        "Stock in transit",
+        "Employer liability"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Business inventory",
+          "Incident reports",
+          "Invoices",
+          "Police abstract"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "SME brokers",
+        "Britam Biashara network"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "4/5",
+          "comment": "Biashara cover saved my shop after a fire (@SMEKenya, Jan 2025)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Biashara SME product page",
+          "url": "https://ke.britam.com/home/business/protect-your-business/britam-biashara"
+        },
+        {
+          "title": "Britam Biashara pages & SME network",
+          "url": "https://ke.britam.com/home/business/protect-your-business/biashara-network"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_biashara_017\", \"product_name\": \"Britam Biashara (SME Combined Solution)\", \"category\": \"business / SME combined\", \"target_market\": \"SMEs, micro-businesses, traders, small shops\", \"eligibility\": {\"notes\": \"Self-rated product; SMEs select options based on business profile\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly\"], \"rate_table\": [{\"coverage\": \"Property + Liability\", \"sum_insured\": 2000000, \"annual_premium\": 25000, \"notes\": \"Estimated for small shop\"}, {\"coverage\": \"Property + Business Interruption\", \"sum_insured\": 5000000, \"annual_premium\": 40000, \"notes\": \"Estimated for medium SME\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 2M property + liability (estimated).\"}, {\"example\": \"KES 40,000/year for KES 5M property + interruption (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Property damage (fire, theft, KES 1M–10M)\", \"Business interruption (KES 500,000–5M)\", \"Public liability (KES 1M–5M)\", \"Political violence & terrorism (optional)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Fraudulent claims\", \"Uninsured perils (see T&Cs)\"], \"add_ons\": [\"Commercial motor\", \"Stock in transit\", \"Employer liability\"], \"claims_process\": {\"required_documents\": [\"Business inventory\", \"Incident reports\", \"Invoices\", \"Police abstract\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"SME brokers\", \"Britam Biashara network\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"4/5\", \"comment\": \"Biashara cover saved my shop after a fire (@SMEKenya, Jan 2025)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Biashara SME product page\", \"url\": \"https://ke.britam.com/home/business/protect-your-business/britam-biashara\"}, {\"title\": \"Britam Biashara pages & SME network\", \"url\": \"https://ke.britam.com/home/business/protect-your-business/biashara-network\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_liability_018_f31d168d-d8c9-4cb5-a373-3f8e21606499",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_liability_018",
+      "product_name": "Liability Insurance",
+      "category": "general / liability",
+      "target_market": "businesses, professionals, property owners",
+      "eligibility": {
+        "notes": "Underwriting based on business type, risk exposure, and liability limits"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "coverage_type": "Public Liability",
+            "limit": 5000000,
+            "annual_premium": 25000,
+            "notes": "Estimated for small business with low-risk operations"
+          },
+          {
+            "coverage_type": "Professional Indemnity",
+            "limit": 10000000,
+            "annual_premium": 50000,
+            "notes": "Estimated for consultants or professionals"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by industry, risk profile, and limit. Contact Britam for bespoke quotes.",
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 5M public liability (small retail, estimated)."
+          },
+          {
+            "example": "KES 50,000/year for KES 10M professional indemnity (consultants, estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Public liability (third-party bodily injury/property damage, KES 1M–50M)",
+          "Professional indemnity (negligence claims, KES 5M–100M)",
+          "Product liability (defective products, plan-dependent)",
+          "Employers’ liability (workplace injuries, KES 5M–20M)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional acts",
+        "Contractual liabilities not covered in policy",
+        "Fines and penalties"
+      ],
+      "add_ons": [
+        "Increased liability limits",
+        "Legal defense cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Incident report",
+          "Third-party claims",
+          "Legal documents"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false,
+        "notes": "Turnaround based on industry standards; complex claims may take longer"
+      },
+      "distribution_channels": [
+        "brokers",
+        "agents",
+        "corporate sales"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "rating": "4/5",
+          "comment": "Liability cover helped settle a client claim quickly for our SME (2024)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Liability Insurance",
+          "url": "https://ke.britam.com/home/business/protect-your-business/liability-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_liability_018\", \"product_name\": \"Liability Insurance\", \"category\": \"general / liability\", \"target_market\": \"businesses, professionals, property owners\", \"eligibility\": {\"notes\": \"Underwriting based on business type, risk exposure, and liability limits\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"coverage_type\": \"Public Liability\", \"limit\": 5000000, \"annual_premium\": 25000, \"notes\": \"Estimated for small business with low-risk operations\"}, {\"coverage_type\": \"Professional Indemnity\", \"limit\": 10000000, \"annual_premium\": 50000, \"notes\": \"Estimated for consultants or professionals\"}], \"rate_table_notes\": \"Premiums vary by industry, risk profile, and limit. Contact Britam for bespoke quotes.\", \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 5M public liability (small retail, estimated).\"}, {\"example\": \"KES 50,000/year for KES 10M professional indemnity (consultants, estimated).\"}]}, \"coverage\": {\"benefits\": [\"Public liability (third-party bodily injury/property damage, KES 1M–50M)\", \"Professional indemnity (negligence claims, KES 5M–100M)\", \"Product liability (defective products, plan-dependent)\", \"Employers’ liability (workplace injuries, KES 5M–20M)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional acts\", \"Contractual liabilities not covered in policy\", \"Fines and penalties\"], \"add_ons\": [\"Increased liability limits\", \"Legal defense cover\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Incident report\", \"Third-party claims\", \"Legal documents\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": false, \"notes\": \"Turnaround based on industry standards; complex claims may take longer\"}, \"distribution_channels\": [\"brokers\", \"agents\", \"corporate sales\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"rating\": \"4/5\", \"comment\": \"Liability cover helped settle a client claim quickly for our SME (2024)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Liability Insurance\", \"url\": \"https://ke.britam.com/home/business/protect-your-business/liability-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_marine_019_fb76bd78-3ae3-4ace-b003-fd5b1a635917",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_marine_019",
+      "product_name": "Marine Insurance",
+      "category": "marine / cargo",
+      "target_market": "importers, exporters, logistics firms, cargo owners",
+      "eligibility": {
+        "notes": "Covers single transit or open cover; underwriting based on cargo type and route"
+      },
+      "geographic_coverage": "Kenya / International (port-to-port)",
+      "premium": {
+        "currency": "KES / USD",
+        "payment_frequency": [
+          "per-shipment",
+          "annual (open cover)"
+        ],
+        "rate_table": [
+          {
+            "cargo_type": "General Goods",
+            "sum_insured": 10000000,
+            "premium_rate": "0.5% of sum insured",
+            "notes": "Estimated for low-risk cargo"
+          },
+          {
+            "cargo_type": "Perishable Goods",
+            "sum_insured": 10000000,
+            "premium_rate": "1% of sum insured",
+            "notes": "Estimated for high-risk cargo"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by cargo type, route, and cover type. Quotes required.",
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 10M general cargo (0.5%, estimated)."
+          },
+          {
+            "example": "KES 100,000 for KES 10M perishable cargo (1%, estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to cargo (port-to-port, KES 1M–500M)",
+          "General average contributions",
+          "Salvage charges",
+          "Open cover for frequent shippers"
+        ],
+        "duration": "per-shipment or annual open cover"
+      },
+      "exclusions": [
+        "Inherent vice of cargo",
+        "Improper packing",
+        "War risks unless added"
+      ],
+      "add_ons": [
+        "War and strikes cover",
+        "Warehouse-to-warehouse extension"
+      ],
+      "provider_network": {
+        "partners": [
+          "Mombasa Port Authority",
+          "International freight forwarders"
+        ],
+        "note": "Claims handled via marine surveyors and port partners"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Bill of lading",
+          "Cargo invoice",
+          "Surveyor report",
+          "Claim form"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "brokers",
+        "marine specialists",
+        "direct"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Marine Insurance",
+          "url": "https://ke.britam.com/home/business/protect-your-business/marine-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_marine_019\", \"product_name\": \"Marine Insurance\", \"category\": \"marine / cargo\", \"target_market\": \"importers, exporters, logistics firms, cargo owners\", \"eligibility\": {\"notes\": \"Covers single transit or open cover; underwriting based on cargo type and route\"}, \"geographic_coverage\": \"Kenya / International (port-to-port)\", \"premium\": {\"currency\": \"KES / USD\", \"payment_frequency\": [\"per-shipment\", \"annual (open cover)\"], \"rate_table\": [{\"cargo_type\": \"General Goods\", \"sum_insured\": 10000000, \"premium_rate\": \"0.5% of sum insured\", \"notes\": \"Estimated for low-risk cargo\"}, {\"cargo_type\": \"Perishable Goods\", \"sum_insured\": 10000000, \"premium_rate\": \"1% of sum insured\", \"notes\": \"Estimated for high-risk cargo\"}], \"rate_table_notes\": \"Premiums vary by cargo type, route, and cover type. Quotes required.\", \"sample_examples\": [{\"example\": \"KES 50,000 for KES 10M general cargo (0.5%, estimated).\"}, {\"example\": \"KES 100,000 for KES 10M perishable cargo (1%, estimated).\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage to cargo (port-to-port, KES 1M–500M)\", \"General average contributions\", \"Salvage charges\", \"Open cover for frequent shippers\"], \"duration\": \"per-shipment or annual open cover\"}, \"exclusions\": [\"Inherent vice of cargo\", \"Improper packing\", \"War risks unless added\"], \"add_ons\": [\"War and strikes cover\", \"Warehouse-to-warehouse extension\"], \"provider_network\": {\"partners\": [\"Mombasa Port Authority\", \"International freight forwarders\"], \"note\": \"Claims handled via marine surveyors and port partners\"}, \"claims_process\": {\"required_documents\": [\"Bill of lading\", \"Cargo invoice\", \"Surveyor report\", \"Claim form\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"distribution_channels\": [\"brokers\", \"marine specialists\", \"direct\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Marine Insurance\", \"url\": \"https://ke.britam.com/home/business/protect-your-business/marine-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_plate_glass_020_ca9ff30d-f3d1-4f8e-86ff-19425773a9a1",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_plate_glass_020",
+      "product_name": "Plate Glass Insurance",
+      "category": "general / property",
+      "target_market": "businesses with glass installations (shops, offices, hotels)",
+      "eligibility": {
+        "notes": "Covers fixed glass in commercial premises; valuation required"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 500000,
+            "annual_premium": 7500,
+            "notes": "Estimated for small shopfront"
+          },
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 15000,
+            "notes": "Estimated for larger installations"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 7,500/year for KES 500,000 glass cover (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage to fixed plate glass",
+          "Replacement and installation costs",
+          "Signage and framework damage (plan-dependent)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Intentional damage",
+        "Non-fixed glass"
+      ],
+      "add_ons": [
+        "Signage cover",
+        "Temporary boarding costs"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Photos of damage",
+          "Repair invoice"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Plate Glass Insurance",
+          "url": "https://ug.britam.com/insurance/plate-glass-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_plate_glass_020\", \"product_name\": \"Plate Glass Insurance\", \"category\": \"general / property\", \"target_market\": \"businesses with glass installations (shops, offices, hotels)\", \"eligibility\": {\"notes\": \"Covers fixed glass in commercial premises; valuation required\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 500000, \"annual_premium\": 7500, \"notes\": \"Estimated for small shopfront\"}, {\"sum_insured\": 1000000, \"annual_premium\": 15000, \"notes\": \"Estimated for larger installations\"}], \"sample_examples\": [{\"example\": \"KES 7,500/year for KES 500,000 glass cover (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Accidental damage to fixed plate glass\", \"Replacement and installation costs\", \"Signage and framework damage (plan-dependent)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear and tear\", \"Intentional damage\", \"Non-fixed glass\"], \"add_ons\": [\"Signage cover\", \"Temporary boarding costs\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Photos of damage\", \"Repair invoice\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"brokers\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Plate Glass Insurance\", \"url\": \"https://ug.britam.com/insurance/plate-glass-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_burglary_021_fd5b5b07-509a-438a-9110-5f725aeb39a7",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_burglary_021",
+      "product_name": "Burglary Insurance",
+      "category": "general / property",
+      "target_market": "businesses, retailers, warehouses",
+      "eligibility": {
+        "notes": "Requires evidence of forcible entry; security measures assessed"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 20000,
+            "notes": "Estimated for small retail"
+          },
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 45000,
+            "notes": "Estimated for warehouse"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 20,000/year for KES 2M stock cover (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Theft with forcible entry/exit",
+          "Damage to premises during burglary",
+          "Stock and equipment loss (KES 1M–10M)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Theft without forcible entry",
+        "Employee theft unless covered",
+        "Uninsured perils"
+      ],
+      "add_ons": [
+        "Money in transit",
+        "Fidelity guarantee"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Inventory list",
+          "Claim form"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "3.5/5",
+          "comment": "Burglary claim took time but was paid (@ShopOwnerKE, 2024)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Burglary Insurance",
+          "url": "https://ug.britam.com/insurance/burglary-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_burglary_021\", \"product_name\": \"Burglary Insurance\", \"category\": \"general / property\", \"target_market\": \"businesses, retailers, warehouses\", \"eligibility\": {\"notes\": \"Requires evidence of forcible entry; security measures assessed\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 2000000, \"annual_premium\": 20000, \"notes\": \"Estimated for small retail\"}, {\"sum_insured\": 5000000, \"annual_premium\": 45000, \"notes\": \"Estimated for warehouse\"}], \"sample_examples\": [{\"example\": \"KES 20,000/year for KES 2M stock cover (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Theft with forcible entry/exit\", \"Damage to premises during burglary\", \"Stock and equipment loss (KES 1M–10M)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Theft without forcible entry\", \"Employee theft unless covered\", \"Uninsured perils\"], \"add_ons\": [\"Money in transit\", \"Fidelity guarantee\"], \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Inventory list\", \"Claim form\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"brokers\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"3.5/5\", \"comment\": \"Burglary claim took time but was paid (@ShopOwnerKE, 2024)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Burglary Insurance\", \"url\": \"https://ug.britam.com/insurance/burglary-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_terrorism_022_7e6a2d38-953a-495e-b3cf-1ed7faaadde6",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_terrorism_022",
+      "product_name": "Terrorism and Political Violence Insurance",
+      "category": "general / specialty",
+      "target_market": "businesses, property owners, event organizers",
+      "eligibility": {
+        "notes": "Underwriting based on location and risk exposure"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke, based on sum insured and risk profile. Contact Britam for quotes.",
+        "sample_examples": [
+          {
+            "example": "1–2% of sum insured for urban commercial property (industry estimate)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Physical loss/damage from terrorism",
+          "Business interruption costs",
+          "Political violence (riots, strikes, civil commotion)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Nuclear risks",
+        "Non-covered political events"
+      ],
+      "add_ons": [
+        "Extended business interruption",
+        "Sabotage cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Incident report",
+          "Police report",
+          "Loss assessment"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Terrorism Insurance",
+          "url": "https://ug.britam.com/insurance/terrorism-and-political-violence-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_terrorism_022\", \"product_name\": \"Terrorism and Political Violence Insurance\", \"category\": \"general / specialty\", \"target_market\": \"businesses, property owners, event organizers\", \"eligibility\": {\"notes\": \"Underwriting based on location and risk exposure\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Premiums bespoke, based on sum insured and risk profile. Contact Britam for quotes.\", \"sample_examples\": [{\"example\": \"1–2% of sum insured for urban commercial property (industry estimate).\"}]}, \"coverage\": {\"benefits\": [\"Physical loss/damage from terrorism\", \"Business interruption costs\", \"Political violence (riots, strikes, civil commotion)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Nuclear risks\", \"Non-covered political events\"], \"add_ons\": [\"Extended business interruption\", \"Sabotage cover\"], \"claims_process\": {\"required_documents\": [\"Incident report\", \"Police report\", \"Loss assessment\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"distribution_channels\": [\"brokers\", \"corporate sales\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Terrorism Insurance\", \"url\": \"https://ug.britam.com/insurance/terrorism-and-political-violence-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_cyber_023_85eba730-eca5-429b-8a08-2ae68a7fbd70",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_cyber_023",
+      "product_name": "Cyber Liability Insurance",
+      "category": "general / cyber",
+      "target_market": "businesses, SMEs, corporates with digital operations",
+      "eligibility": {
+        "notes": "Underwriting based on cybersecurity measures and business size"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke, based on revenue and cyber risk. Quotes required.",
+        "sample_examples": [
+          {
+            "example": "KES 50,000–100,000/year for SME with KES 10M coverage (industry estimate)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Data breach response costs",
+          "Ransomware and cyber extortion",
+          "Business interruption from cyber incidents",
+          "Third-party liability (data privacy)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured cyber events",
+        "Poor cybersecurity practices"
+      ],
+      "add_ons": [
+        "Reputation management",
+        "Forensic investigation cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Incident report",
+          "Cyber forensic report",
+          "Claim form"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "rating": "4/5",
+          "comment": "Cyber cover is a must for tech SMEs, Britam’s plan is comprehensive (2024)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Cyber Insurance",
+          "url": "https://ug.britam.com/insurance/cyber-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_cyber_023\", \"product_name\": \"Cyber Liability Insurance\", \"category\": \"general / cyber\", \"target_market\": \"businesses, SMEs, corporates with digital operations\", \"eligibility\": {\"notes\": \"Underwriting based on cybersecurity measures and business size\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Premiums bespoke, based on revenue and cyber risk. Quotes required.\", \"sample_examples\": [{\"example\": \"KES 50,000–100,000/year for SME with KES 10M coverage (industry estimate).\"}]}, \"coverage\": {\"benefits\": [\"Data breach response costs\", \"Ransomware and cyber extortion\", \"Business interruption from cyber incidents\", \"Third-party liability (data privacy)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Uninsured cyber events\", \"Poor cybersecurity practices\"], \"add_ons\": [\"Reputation management\", \"Forensic investigation cover\"], \"claims_process\": {\"required_documents\": [\"Incident report\", \"Cyber forensic report\", \"Claim form\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"distribution_channels\": [\"brokers\", \"corporate sales\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"rating\": \"4/5\", \"comment\": \"Cyber cover is a must for tech SMEs, Britam’s plan is comprehensive (2024)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Cyber Insurance\", \"url\": \"https://ug.britam.com/insurance/cyber-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_tenants_024_8544cf64-ba95-4ecb-848e-ac1a0bb0d39e",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_tenants_024",
+      "product_name": "Tenants Insurance",
+      "category": "general / property",
+      "target_market": "renters, tenants in residential properties",
+      "eligibility": {
+        "notes": "Covers tenant-owned property, not landlord’s building"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 500000,
+            "annual_premium": 7500,
+            "notes": "Estimated for tenant contents"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 7,500/year for KES 500,000 contents cover (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to personal property (fire, theft, KES 500,000–2M)",
+          "Tenant’s liability to landlord (KES 1M)",
+          "Temporary accommodation costs (plan-dependent)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Landlord’s property damage",
+        "Wear and tear",
+        "Uninsured perils"
+      ],
+      "add_ons": [
+        "Increased liability",
+        "Portable equipment cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Inventory list",
+          "Police abstract (theft)"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "online"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Tenants Insurance",
+          "url": "https://ug.britam.com/insurance/tenants-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_tenants_024\", \"product_name\": \"Tenants Insurance\", \"category\": \"general / property\", \"target_market\": \"renters, tenants in residential properties\", \"eligibility\": {\"notes\": \"Covers tenant-owned property, not landlord’s building\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 500000, \"annual_premium\": 7500, \"notes\": \"Estimated for tenant contents\"}], \"sample_examples\": [{\"example\": \"KES 7,500/year for KES 500,000 contents cover (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage to personal property (fire, theft, KES 500,000–2M)\", \"Tenant’s liability to landlord (KES 1M)\", \"Temporary accommodation costs (plan-dependent)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Landlord’s property damage\", \"Wear and tear\", \"Uninsured perils\"], \"add_ons\": [\"Increased liability\", \"Portable equipment cover\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Inventory list\", \"Police abstract (theft)\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"brokers\", \"online\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Tenants Insurance\", \"url\": \"https://ug.britam.com/insurance/tenants-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_landlords_025_d372dc87-ee74-4dad-a4d8-35967385f9ca",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_landlords_025",
+      "product_name": "Landlords Insurance",
+      "category": "general / property",
+      "target_market": "landlords with rental properties",
+      "eligibility": {
+        "notes": "Covers buildings used for rental; valuation required"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "annual_premium": 30000,
+            "notes": "Estimated for single rental unit"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 30,000/year for KES 10M building cover (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Building damage (fire, natural perils, KES 5M–50M)",
+          "Loss of rent (KES 500,000–2M)",
+          "Landlord liability (KES 1M–5M)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Tenant’s property",
+        "Wear and tear",
+        "Unoccupied properties >30 days"
+      ],
+      "add_ons": [
+        "Loss of rent top-up",
+        "Legal expenses"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Property valuation",
+          "Incident report"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Landlords Insurance",
+          "url": "https://ug.britam.com/insurance/landlords-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_landlords_025\", \"product_name\": \"Landlords Insurance\", \"category\": \"general / property\", \"target_market\": \"landlords with rental properties\", \"eligibility\": {\"notes\": \"Covers buildings used for rental; valuation required\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 10000000, \"annual_premium\": 30000, \"notes\": \"Estimated for single rental unit\"}], \"sample_examples\": [{\"example\": \"KES 30,000/year for KES 10M building cover (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Building damage (fire, natural perils, KES 5M–50M)\", \"Loss of rent (KES 500,000–2M)\", \"Landlord liability (KES 1M–5M)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Tenant’s property\", \"Wear and tear\", \"Unoccupied properties >30 days\"], \"add_ons\": [\"Loss of rent top-up\", \"Legal expenses\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Property valuation\", \"Incident report\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"brokers\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Landlords Insurance\", \"url\": \"https://ug.britam.com/insurance/landlords-insurance\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_cash_trust_026_cc2220a1-2cdc-421d-a675-fb09926dab9a",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_cash_trust_026",
+      "product_name": "Cash Trust Fund",
+      "category": "life / investment",
+      "target_market": "individuals, families, trusts",
+      "eligibility": {
+        "notes": "Designed for cash preservation and legacy planning"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "lump-sum",
+          "periodic contributions"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "No premiums; contributions based on trust setup. Contact Britam for details.",
+        "sample_examples": [
+          {
+            "example": "Minimum trust setup KES 1M (industry estimate)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Cash preservation for beneficiaries",
+          "Flexible withdrawals during lifetime",
+          "Estate planning and asset protection"
+        ],
+        "duration": "lifetime or trust term"
+      },
+      "exclusions": [
+        "Mismanagement by trustee",
+        "Non-compliance with trust terms"
+      ],
+      "add_ons": [
+        "Investment management services"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Trust deed",
+          "Beneficiary ID",
+          "Claim request"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "financial advisors",
+        "direct"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Cash Trust",
+          "url": "https://ke.britam.com/home/personal/plan-for-your-future/cash-trust"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_cash_trust_026\", \"product_name\": \"Cash Trust Fund\", \"category\": \"life / investment\", \"target_market\": \"individuals, families, trusts\", \"eligibility\": {\"notes\": \"Designed for cash preservation and legacy planning\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump-sum\", \"periodic contributions\"], \"rate_table\": null, \"rate_table_notes\": \"No premiums; contributions based on trust setup. Contact Britam for details.\", \"sample_examples\": [{\"example\": \"Minimum trust setup KES 1M (industry estimate).\"}]}, \"coverage\": {\"benefits\": [\"Cash preservation for beneficiaries\", \"Flexible withdrawals during lifetime\", \"Estate planning and asset protection\"], \"duration\": \"lifetime or trust term\"}, \"exclusions\": [\"Mismanagement by trustee\", \"Non-compliance with trust terms\"], \"add_ons\": [\"Investment management services\"], \"claims_process\": {\"required_documents\": [\"Trust deed\", \"Beneficiary ID\", \"Claim request\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": false}, \"distribution_channels\": [\"financial advisors\", \"direct\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Cash Trust\", \"url\": \"https://ke.britam.com/home/personal/plan-for-your-future/cash-trust\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_education_trust_027_0cd7e5e3-3634-4ff3-840c-8bc0a5a7ea8f",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_education_trust_027",
+      "product_name": "Education Trust Fund",
+      "category": "life / investment",
+      "target_market": "parents, guardians planning education expenses",
+      "eligibility": {
+        "notes": "Covers named beneficiaries for education costs"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual",
+          "lump-sum"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Contributions vary by education plan. Contact Britam for quotes.",
+        "sample_examples": [
+          {
+            "example": "KES 5,000/month for KES 1M education fund (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "School fees, books, uniforms (KES 500,000–5M)",
+          "Education-related expenses (trips, projects)",
+          "Trust management for long-term planning"
+        ],
+        "duration": "until beneficiary reaches exit age"
+      },
+      "exclusions": [
+        "Non-education expenses",
+        "Mismanagement by trustee"
+      ],
+      "add_ons": [
+        "Investment growth options"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Trust deed",
+          "School fee invoices",
+          "Beneficiary ID"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "financial advisors"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "4/5",
+          "comment": "Education Trust helped secure my kids’ school fees (@ParentKE, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Education Trust",
+          "url": "https://ke.britam.com/home/personal/plan-for-your-future/education-trust"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_education_trust_027\", \"product_name\": \"Education Trust Fund\", \"category\": \"life / investment\", \"target_market\": \"parents, guardians planning education expenses\", \"eligibility\": {\"notes\": \"Covers named beneficiaries for education costs\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\", \"lump-sum\"], \"rate_table\": null, \"rate_table_notes\": \"Contributions vary by education plan. Contact Britam for quotes.\", \"sample_examples\": [{\"example\": \"KES 5,000/month for KES 1M education fund (estimated).\"}]}, \"coverage\": {\"benefits\": [\"School fees, books, uniforms (KES 500,000–5M)\", \"Education-related expenses (trips, projects)\", \"Trust management for long-term planning\"], \"duration\": \"until beneficiary reaches exit age\"}, \"exclusions\": [\"Non-education expenses\", \"Mismanagement by trustee\"], \"add_ons\": [\"Investment growth options\"], \"claims_process\": {\"required_documents\": [\"Trust deed\", \"School fee invoices\", \"Beneficiary ID\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"financial advisors\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"4/5\", \"comment\": \"Education Trust helped secure my kids’ school fees (@ParentKE, 2025)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Education Trust\", \"url\": \"https://ke.britam.com/home/personal/plan-for-your-future/education-trust\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_medical_trust_028_fb5cded2-1cfd-4faa-8aa0-e035ab19d06b",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_medical_trust_028",
+      "product_name": "Medical Trust Fund",
+      "category": "health / investment",
+      "target_market": "individuals, families planning medical expenses",
+      "eligibility": {
+        "notes": "Covers ongoing medical costs for beneficiaries"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual",
+          "lump-sum"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Contributions based on medical needs. Contact Britam for quotes.",
+        "sample_examples": [
+          {
+            "example": "KES 10,000/month for KES 2M medical fund (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Medical expenses (hospitalization, premiums, KES 1M–10M)",
+          "Chronic condition management",
+          "Trust management for long-term care"
+        ],
+        "duration": "lifetime or trust term"
+      },
+      "exclusions": [
+        "Non-medical expenses",
+        "Non-compliance with trust terms"
+      ],
+      "add_ons": [
+        "Investment management"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Trust deed",
+          "Medical invoices",
+          "Beneficiary ID"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "financial advisors"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Medical Trust",
+          "url": "https://ke.britam.com/home/personal/plan-for-your-future/medical-trust"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_medical_trust_028\", \"product_name\": \"Medical Trust Fund\", \"category\": \"health / investment\", \"target_market\": \"individuals, families planning medical expenses\", \"eligibility\": {\"notes\": \"Covers ongoing medical costs for beneficiaries\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\", \"lump-sum\"], \"rate_table\": null, \"rate_table_notes\": \"Contributions based on medical needs. Contact Britam for quotes.\", \"sample_examples\": [{\"example\": \"KES 10,000/month for KES 2M medical fund (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Medical expenses (hospitalization, premiums, KES 1M–10M)\", \"Chronic condition management\", \"Trust management for long-term care\"], \"duration\": \"lifetime or trust term\"}, \"exclusions\": [\"Non-medical expenses\", \"Non-compliance with trust terms\"], \"add_ons\": [\"Investment management\"], \"claims_process\": {\"required_documents\": [\"Trust deed\", \"Medical invoices\", \"Beneficiary ID\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"financial advisors\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Medical Trust\", \"url\": \"https://ke.britam.com/home/personal/plan-for-your-future/medical-trust\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_family_care_029_1cdedb12-944f-4b3c-a6c7-bed1183d9f2c",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_family_care_029",
+      "product_name": "Family Care Trust Fund",
+      "category": "life / investment",
+      "target_market": "families planning for ongoing expenses",
+      "eligibility": {
+        "notes": "Flexible trust for family needs"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual",
+          "lump-sum"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Contributions vary by family needs. Contact Britam for quotes.",
+        "sample_examples": [
+          {
+            "example": "KES 15,000/month for KES 3M family fund (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "School fees, rent, medical bills (KES 1M–10M)",
+          "Utility payments and upkeep",
+          "Trust management for beneficiaries"
+        ],
+        "duration": "lifetime or trust term"
+      },
+      "exclusions": [
+        "Non-family expenses",
+        "Mismanagement by trustee"
+      ],
+      "add_ons": [
+        "Investment growth options"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Trust deed",
+          "Expense invoices",
+          "Beneficiary ID"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "distribution_channels": [
+        "agents",
+        "financial advisors"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Family Care Trust",
+          "url": "https://ke.britam.com/home/personal/plan-for-your-future/family-care-trust"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_family_care_029\", \"product_name\": \"Family Care Trust Fund\", \"category\": \"life / investment\", \"target_market\": \"families planning for ongoing expenses\", \"eligibility\": {\"notes\": \"Flexible trust for family needs\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\", \"lump-sum\"], \"rate_table\": null, \"rate_table_notes\": \"Contributions vary by family needs. Contact Britam for quotes.\", \"sample_examples\": [{\"example\": \"KES 15,000/month for KES 3M family fund (estimated).\"}]}, \"coverage\": {\"benefits\": [\"School fees, rent, medical bills (KES 1M–10M)\", \"Utility payments and upkeep\", \"Trust management for beneficiaries\"], \"duration\": \"lifetime or trust term\"}, \"exclusions\": [\"Non-family expenses\", \"Mismanagement by trustee\"], \"add_ons\": [\"Investment growth options\"], \"claims_process\": {\"required_documents\": [\"Trust deed\", \"Expense invoices\", \"Beneficiary ID\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": false}, \"distribution_channels\": [\"agents\", \"financial advisors\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Family Care Trust\", \"url\": \"https://ke.britam.com/home/personal/plan-for-your-future/family-care-trust\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_kinga_mkulima_030_d6cf5eaa-902d-47f2-8eb7-5de6108afe80",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_kinga_mkulima_030",
+      "product_name": "Kinga Ya Mkulima",
+      "category": "health / life hybrid",
+      "target_market": "small-scale tea farmers (KTDA registered)",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 75,
+        "notes": "Must be registered with Kenya Tea Development Agency"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "plan": "Basic",
+            "annual_premium": 12000,
+            "inpatient_limit": 500000,
+            "last_expense": 50000,
+            "notes": "Brochure example"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 12,000/year for KES 500,000 inpatient + KES 50,000 last expense (brochure)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient cover (KES 500,000–1M)",
+          "Outpatient cover (KES 50,000)",
+          "Last expense benefit (KES 50,000–100,000)",
+          "Family cover (spouse, children)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions (12-month waiting period)",
+        "Non-KTDA members"
+      ],
+      "add_ons": [
+        "Maternity cover",
+        "Enhanced outpatient"
+      ],
+      "provider_network": {
+        "hospitals": [
+          "KTDA-affiliated clinics",
+          "Aga Khan Hospital"
+        ],
+        "note": "Network tailored for rural tea-growing regions"
+      },
+      "claims_process": {
+        "required_documents": [
+          "KTDA membership",
+          "Hospital invoices",
+          "ID copy"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "KTDA agents",
+        "brokers",
+        "MyBritam app"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Kinga Ya Mkulima",
+          "url": "https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/kinga-ya-mkulima"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_kinga_mkulima_030\", \"product_name\": \"Kinga Ya Mkulima\", \"category\": \"health / life hybrid\", \"target_market\": \"small-scale tea farmers (KTDA registered)\", \"eligibility\": {\"age_min\": 18, \"age_max\": 75, \"notes\": \"Must be registered with Kenya Tea Development Agency\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"plan\": \"Basic\", \"annual_premium\": 12000, \"inpatient_limit\": 500000, \"last_expense\": 50000, \"notes\": \"Brochure example\"}], \"sample_examples\": [{\"example\": \"KES 12,000/year for KES 500,000 inpatient + KES 50,000 last expense (brochure).\"}]}, \"coverage\": {\"benefits\": [\"Inpatient cover (KES 500,000–1M)\", \"Outpatient cover (KES 50,000)\", \"Last expense benefit (KES 50,000–100,000)\", \"Family cover (spouse, children)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing conditions (12-month waiting period)\", \"Non-KTDA members\"], \"add_ons\": [\"Maternity cover\", \"Enhanced outpatient\"], \"provider_network\": {\"hospitals\": [\"KTDA-affiliated clinics\", \"Aga Khan Hospital\"], \"note\": \"Network tailored for rural tea-growing regions\"}, \"claims_process\": {\"required_documents\": [\"KTDA membership\", \"Hospital invoices\", \"ID copy\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"distribution_channels\": [\"KTDA agents\", \"brokers\", \"MyBritam app\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Kinga Ya Mkulima\", \"url\": \"https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/kinga-ya-mkulima\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_covid_031_19e72450-9eae-48d0-8011-0c3d394ed355",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_covid_031",
+      "product_name": "COVID-19 Cover",
+      "category": "health",
+      "target_market": "individuals, families, group medical policyholders",
+      "eligibility": {
+        "age_min": 1,
+        "age_max": 75,
+        "notes": "Available to Britam medical policyholders"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 100000,
+            "annual_premium": 5000,
+            "notes": "Estimated for individual cover"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 5,000/year for KES 100,000 hospitalization cashback (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Cashback on hospitalization and discharge (KES 50,000–200,000)",
+          "Telemedicine support",
+          "Critical care support (plan-dependent)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-COVID illnesses",
+        "Pre-existing conditions"
+      ],
+      "add_ons": [
+        "Enhanced hospitalization benefit"
+      ],
+      "provider_network": {
+        "hospitals": [
+          "Nairobi Hospital",
+          "Aga Khan University Hospital"
+        ],
+        "note": "Uses Milele Health network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Hospital discharge summary",
+          "COVID-19 diagnosis",
+          "ID copy"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "MyBritam app"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam COVID-19 Cover",
+          "url": "https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/covid-19-cover"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_covid_031\", \"product_name\": \"COVID-19 Cover\", \"category\": \"health\", \"target_market\": \"individuals, families, group medical policyholders\", \"eligibility\": {\"age_min\": 1, \"age_max\": 75, \"notes\": \"Available to Britam medical policyholders\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 100000, \"annual_premium\": 5000, \"notes\": \"Estimated for individual cover\"}], \"sample_examples\": [{\"example\": \"KES 5,000/year for KES 100,000 hospitalization cashback (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Cashback on hospitalization and discharge (KES 50,000–200,000)\", \"Telemedicine support\", \"Critical care support (plan-dependent)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-COVID illnesses\", \"Pre-existing conditions\"], \"add_ons\": [\"Enhanced hospitalization benefit\"], \"provider_network\": {\"hospitals\": [\"Nairobi Hospital\", \"Aga Khan University Hospital\"], \"note\": \"Uses Milele Health network\"}, \"claims_process\": {\"required_documents\": [\"Hospital discharge summary\", \"COVID-19 diagnosis\", \"ID copy\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"MyBritam app\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam COVID-19 Cover\", \"url\": \"https://ke.britam.com/home/personal/protect-who-you-love/health-insurance-covers/covid-19-cover\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_msingi_poa_032_565e1dfe-fc84-4192-abc5-299864dcbd13",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_msingi_poa_032",
+      "product_name": "Msingi Poa Education Plan",
+      "category": "life / education",
+      "target_market": "parents, guardians planning education",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Covers children up to 25 (if students)"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "quarterly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 1000000,
+            "monthly_premium": 5000,
+            "annual_premium": 60000,
+            "notes": "Estimated for basic plan"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 5,000/month for KES 1M education cover (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Education expenses (fees, books, KES 500,000–5M)",
+          "Lump-sum payout on maturity",
+          "Death benefit for policyholder"
+        ],
+        "duration": "5–20 years"
+      },
+      "exclusions": [
+        "Non-education expenses",
+        "Policy lapse due to non-payment"
+      ],
+      "add_ons": [
+        "Disability rider",
+        "Critical illness"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Policy document",
+          "School invoices",
+          "Beneficiary ID"
+        ],
+        "average_turnaround_days": 10,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "MyBritam app"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Msingi Poa",
+          "url": "https://ke.britam.com/home/personal/plan-for-your-future/education-plans"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_msingi_poa_032\", \"product_name\": \"Msingi Poa Education Plan\", \"category\": \"life / education\", \"target_market\": \"parents, guardians planning education\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Covers children up to 25 (if students)\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 1000000, \"monthly_premium\": 5000, \"annual_premium\": 60000, \"notes\": \"Estimated for basic plan\"}], \"sample_examples\": [{\"example\": \"KES 5,000/month for KES 1M education cover (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Education expenses (fees, books, KES 500,000–5M)\", \"Lump-sum payout on maturity\", \"Death benefit for policyholder\"], \"duration\": \"5–20 years\"}, \"exclusions\": [\"Non-education expenses\", \"Policy lapse due to non-payment\"], \"add_ons\": [\"Disability rider\", \"Critical illness\"], \"claims_process\": {\"required_documents\": [\"Policy document\", \"School invoices\", \"Beneficiary ID\"], \"average_turnaround_days\": 10, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"MyBritam app\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Msingi Poa\", \"url\": \"https://ke.britam.com/home/personal/plan-for-your-future/education-plans\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_super_eplus_033_62088cef-2dba-4556-89d0-3eb050fefe78",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_super_eplus_033",
+      "product_name": "Super E-Plus Education Plan",
+      "category": "life / education",
+      "target_market": "parents, guardians for higher education",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Covers tertiary education costs"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "quarterly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 2000000,
+            "monthly_premium": 10000,
+            "annual_premium": 120000,
+            "notes": "Estimated for tertiary plan"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 10,000/month for KES 2M tertiary education cover (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Tertiary education expenses (KES 1M–10M)",
+          "Lump-sum on maturity",
+          "Death/disability benefit"
+        ],
+        "duration": "5–20 years"
+      },
+      "exclusions": [
+        "Non-education expenses",
+        "Policy lapse"
+      ],
+      "add_ons": [
+        "Investment growth",
+        "Critical illness"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Policy document",
+          "University invoices",
+          "Beneficiary ID"
+        ],
+        "average_turnaround_days": 10,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "MyBritam app"
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Super E-Plus",
+          "url": "https://ke.britam.com/home/personal/plan-for-your-future/education-plans"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_super_eplus_033\", \"product_name\": \"Super E-Plus Education Plan\", \"category\": \"life / education\", \"target_market\": \"parents, guardians for higher education\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Covers tertiary education costs\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 2000000, \"monthly_premium\": 10000, \"annual_premium\": 120000, \"notes\": \"Estimated for tertiary plan\"}], \"sample_examples\": [{\"example\": \"KES 10,000/month for KES 2M tertiary education cover (estimated).\"}]}, \"coverage\": {\"benefits\": [\"Tertiary education expenses (KES 1M–10M)\", \"Lump-sum on maturity\", \"Death/disability benefit\"], \"duration\": \"5–20 years\"}, \"exclusions\": [\"Non-education expenses\", \"Policy lapse\"], \"add_ons\": [\"Investment growth\", \"Critical illness\"], \"claims_process\": {\"required_documents\": [\"Policy document\", \"University invoices\", \"Beneficiary ID\"], \"average_turnaround_days\": 10, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"MyBritam app\"], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Super E-Plus\", \"url\": \"https://ke.britam.com/home/personal/plan-for-your-future/education-plans\"}]}"
+  },
+  {
+    "chunk_id": "britam_001_britam_motor_rescue_034_5f32489c-12fc-4f6a-8d7f-ff6f76d5d09f",
+    "metadata": {
+      "company_name": "Britam Holdings (Kenya)",
+      "product_id": "britam_motor_rescue_034",
+      "product_name": "Motor Rescue Service",
+      "category": "motor / assistance",
+      "target_market": "motor insurance policyholders",
+      "eligibility": {
+        "notes": "Included with comprehensive motor policies; standalone for third-party"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "plan": "Standalone",
+            "annual_premium": 5000,
+            "notes": "Estimated for third-party policyholders"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 5,000/year for standalone rescue service (estimated)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "24/7 roadside assistance (towing, flat tire, fuel delivery)",
+          "Accident scene support",
+          "Emergency coordination"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-accident breakdowns unless covered",
+        "Uninsured vehicles"
+      ],
+      "add_ons": [
+        "Extended towing distance"
+      ],
+      "provider_network": {
+        "partners": [
+          "AA Kenya",
+          "CMC Motors"
+        ],
+        "note": "Network of approved towing and repair services"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Policy document",
+          "Incident report",
+          "Driver ID"
+        ],
+        "average_turnaround_days": 1,
+        "digital_claims_supported": true
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "MyBritam app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "rating": "4.5/5",
+          "comment": "Motor Rescue was a lifesaver during a breakdown (@DriverKE, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-12",
+      "sources": [
+        {
+          "title": "Britam Motor Rescue",
+          "url": "https://ke.britam.com/home/personal/protect-what-you-love/britam-motor-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Britam Holdings (Kenya)\", \"product_id\": \"britam_motor_rescue_034\", \"product_name\": \"Motor Rescue Service\", \"category\": \"motor / assistance\", \"target_market\": \"motor insurance policyholders\", \"eligibility\": {\"notes\": \"Included with comprehensive motor policies; standalone for third-party\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"plan\": \"Standalone\", \"annual_premium\": 5000, \"notes\": \"Estimated for third-party policyholders\"}], \"sample_examples\": [{\"example\": \"KES 5,000/year for standalone rescue service (estimated).\"}]}, \"coverage\": {\"benefits\": [\"24/7 roadside assistance (towing, flat tire, fuel delivery)\", \"Accident scene support\", \"Emergency coordination\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-accident breakdowns unless covered\", \"Uninsured vehicles\"], \"add_ons\": [\"Extended towing distance\"], \"provider_network\": {\"partners\": [\"AA Kenya\", \"CMC Motors\"], \"note\": \"Network of approved towing and repair services\"}, \"claims_process\": {\"required_documents\": [\"Policy document\", \"Incident report\", \"Driver ID\"], \"average_turnaround_days\": 1, \"digital_claims_supported\": true}, \"distribution_channels\": [\"agents\", \"brokers\", \"MyBritam app\"], \"customer_reviews\": [{\"source\": \"X\", \"rating\": \"4.5/5\", \"comment\": \"Motor Rescue was a lifesaver during a breakdown (@DriverKE, 2025)\"}], \"last_updated\": \"2025-09-12\", \"sources\": [{\"title\": \"Britam Motor Rescue\", \"url\": \"https://ke.britam.com/home/personal/protect-what-you-love/britam-motor-insurance\"}]}"
+  }
+]

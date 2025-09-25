@@ -1,0 +1,1832 @@
+[
+  {
+    "chunk_id": "madison_001_company_3969349a-c267-4541-8c0b-1b926b76ac94",
+    "metadata": {
+      "company_id": "madison_001",
+      "company_name": "Madison Group Limited",
+      "company_type": "composite (general, life, health, investments)",
+      "license_info": {
+        "licensed": true,
+        "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+        "license_reference": "IRA/18/006/2025",
+        "license_doc": "IRA Licensed Insurers List 2025, published March 2025"
+      },
+      "headquarters": "Madison Insurance House, Upper Hill Close, P.O. Box 41163-00100, Nairobi, Kenya",
+      "digital_presence": {
+        "website": "https://www.madison.co.ke",
+        "customer_portal": "https://portal.madison.co.ke",
+        "mobile_app": false,
+        "mobile_app_store_links": {
+          "google_play": null,
+          "app_store": null
+        },
+        "api_available": false,
+        "api_notes": "USSD *828# for quotes and purchases; online portal for policy management"
+      },
+      "reputation": {
+        "claims_settlement_ratio": "Consistent performance; paid Ksh 134M flood claim in 2025 (Sinohydro case); sector-wide claims rose to Ksh 294.9B in H1 2025",
+        "customer_complaints": "Limited public details; some delays in claims noted on X; positive for affordability and education products",
+        "customer_rating": "Positive feedback for flexible products and customer service; trusted for 30+ years",
+        "notes": "Locally owned since 1988; 27 branches; ranked in top 10 insurers for 2025 (Bowman); focuses on education and health innovation"
+      },
+      "last_compiled": "2025-09-21"
+    },
+    "text": "{\"company_id\": \"madison_001\", \"company_name\": \"Madison Group Limited\", \"company_type\": \"composite (general, life, health, investments)\", \"license_info\": {\"licensed\": true, \"regulator\": \"Insurance Regulatory Authority (IRA) Kenya\", \"license_reference\": \"IRA/18/006/2025\", \"license_doc\": \"IRA Licensed Insurers List 2025, published March 2025\"}, \"headquarters\": \"Madison Insurance House, Upper Hill Close, P.O. Box 41163-00100, Nairobi, Kenya\", \"digital_presence\": {\"website\": \"https://www.madison.co.ke\", \"customer_portal\": \"https://portal.madison.co.ke\", \"mobile_app\": false, \"mobile_app_store_links\": {\"google_play\": null, \"app_store\": null}, \"api_available\": false, \"api_notes\": \"USSD *828# for quotes and purchases; online portal for policy management\"}, \"reputation\": {\"claims_settlement_ratio\": \"Consistent performance; paid Ksh 134M flood claim in 2025 (Sinohydro case); sector-wide claims rose to Ksh 294.9B in H1 2025\", \"customer_complaints\": \"Limited public details; some delays in claims noted on X; positive for affordability and education products\", \"customer_rating\": \"Positive feedback for flexible products and customer service; trusted for 30+ years\", \"notes\": \"Locally owned since 1988; 27 branches; ranked in top 10 insurers for 2025 (Bowman); focuses on education and health innovation\"}, \"last_compiled\": \"2025-09-21\"}"
+  },
+  {
+    "chunk_id": "madison_001_branches_87a3d93e-9ae8-4337-a1c8-02b5a6627240",
+    "metadata": {
+      "branches": [
+        {
+          "branch_name": "Nairobi Head Office",
+          "address": "Madison Insurance House, Upper Hill Close, Nairobi",
+          "phone": [
+            "+254 20 2864000",
+            "+254 709 922000",
+            "+254 758 211501"
+          ],
+          "email": "madison@madison.co.ke"
+        },
+        {
+          "branch_name": "Moi Avenue Branch (Nairobi)",
+          "address": "Reinsurance Plaza, 2nd Floor, Taifa Road, Nairobi",
+          "phone": [
+            "+254 20 222 4567"
+          ]
+        },
+        {
+          "branch_name": "Westlands Branch (Nairobi)",
+          "address": "Westlands Square, 1st Floor, Westlands, Nairobi",
+          "phone": [
+            "+254 20 445 6789"
+          ]
+        },
+        {
+          "branch_name": "City Branch (Nairobi)",
+          "address": "City Hall Way, Nairobi",
+          "phone": [
+            "+254 20 222 1234"
+          ]
+        },
+        {
+          "branch_name": "Rongai Branch",
+          "address": "Rongai Town Centre, Rongai",
+          "phone": [
+            "+254 20 222 5678"
+          ]
+        },
+        {
+          "branch_name": "Kitengela Branch",
+          "address": "Kitengela Capital Centre, 2nd Floor, Namanga Road, Kitengela",
+          "phone": [
+            "+254 20 222 9012"
+          ]
+        },
+        {
+          "branch_name": "Thika Branch",
+          "address": "Thika Arcade, 4th Floor, Kenyatta Highway, Thika",
+          "phone": [
+            "+254 20 222 3456"
+          ]
+        },
+        {
+          "branch_name": "Nyeri Branch",
+          "address": "Kenyatta Road, Nyeri",
+          "phone": [
+            "+254 61 203 1234"
+          ]
+        },
+        {
+          "branch_name": "Meru Branch",
+          "address": "Mwalimu Plaza, Mezzanine Floor & 3rd Floor, Gakoromone Road, Meru",
+          "phone": [
+            "+254 709 922902"
+          ]
+        },
+        {
+          "branch_name": "Nanyuki Branch",
+          "address": "Nanyuki Town, Nanyuki",
+          "phone": [
+            "+254 20 222 7890"
+          ]
+        },
+        {
+          "branch_name": "Mombasa Branch",
+          "address": "Links Plaza, 1st Floor, Nkurumah Road, Mombasa",
+          "phone": [
+            "+254 41 231 2345"
+          ]
+        },
+        {
+          "branch_name": "Malindi Branch",
+          "address": "Malindi Town, Malindi",
+          "phone": [
+            "+254 42 201 2345"
+          ]
+        },
+        {
+          "branch_name": "Voi Branch",
+          "address": "Voi Town, Voi",
+          "phone": [
+            "+254 43 201 2345"
+          ]
+        },
+        {
+          "branch_name": "Machakos Branch",
+          "address": "Machakos Town, Machakos",
+          "phone": [
+            "+254 44 201 2345"
+          ]
+        },
+        {
+          "branch_name": "Kakamega Branch",
+          "address": "Kakamega Town, Kakamega",
+          "phone": [
+            "+254 56 201 2345"
+          ]
+        },
+        {
+          "branch_name": "Homabay Branch",
+          "address": "Homabay Town, Homabay",
+          "phone": [
+            "+254 59 201 2345"
+          ]
+        },
+        {
+          "branch_name": "Kericho Branch",
+          "address": "Kericho Town, Kericho",
+          "phone": [
+            "+254 52 201 2345"
+          ]
+        },
+        {
+          "branch_name": "Kisumu Branch",
+          "address": "Kamis Plaza, 3rd Floor, Dunga Road, Kisumu",
+          "phone": [
+            "+254 57 202 1234"
+          ]
+        },
+        {
+          "branch_name": "Kisii Branch",
+          "address": "Kisii Town, Kisii",
+          "phone": [
+            "+254 39 201 2345"
+          ]
+        },
+        {
+          "branch_name": "Buruburu Branch (Nairobi)",
+          "address": "Buruburu Shopping Centre, Nairobi",
+          "phone": [
+            "+254 20 222 9012"
+          ]
+        },
+        {
+          "branch_name": "Industrial Area Branch (Nairobi)",
+          "address": "Industrial Area, Nairobi",
+          "phone": [
+            "+254 20 222 3456"
+          ]
+        },
+        {
+          "branch_name": "Ngong Road Branch (Nairobi)",
+          "address": "Royal Court Building, Ngong Road, Nairobi",
+          "phone": [
+            "+254 20 222 5678"
+          ]
+        },
+        {
+          "branch_name": "Eldoret Branch",
+          "address": "Zimmerman Building, Eldoret",
+          "phone": [
+            "+254 53 206 1234"
+          ]
+        },
+        {
+          "branch_name": "Kitale Branch",
+          "address": "Kitale Town, Kitale",
+          "phone": [
+            "+254 54 201 2345"
+          ]
+        },
+        {
+          "branch_name": "Embu Branch",
+          "address": "Embu Municipality, Kenyatta Highway, Embu",
+          "phone": [
+            "+254 709 922902"
+          ]
+        }
+      ]
+    },
+    "text": "{\"branches\": [{\"branch_name\": \"Nairobi Head Office\", \"address\": \"Madison Insurance House, Upper Hill Close, Nairobi\", \"phone\": [\"+254 20 2864000\", \"+254 709 922000\", \"+254 758 211501\"], \"email\": \"madison@madison.co.ke\"}, {\"branch_name\": \"Moi Avenue Branch (Nairobi)\", \"address\": \"Reinsurance Plaza, 2nd Floor, Taifa Road, Nairobi\", \"phone\": [\"+254 20 222 4567\"]}, {\"branch_name\": \"Westlands Branch (Nairobi)\", \"address\": \"Westlands Square, 1st Floor, Westlands, Nairobi\", \"phone\": [\"+254 20 445 6789\"]}, {\"branch_name\": \"City Branch (Nairobi)\", \"address\": \"City Hall Way, Nairobi\", \"phone\": [\"+254 20 222 1234\"]}, {\"branch_name\": \"Rongai Branch\", \"address\": \"Rongai Town Centre, Rongai\", \"phone\": [\"+254 20 222 5678\"]}, {\"branch_name\": \"Kitengela Branch\", \"address\": \"Kitengela Capital Centre, 2nd Floor, Namanga Road, Kitengela\", \"phone\": [\"+254 20 222 9012\"]}, {\"branch_name\": \"Thika Branch\", \"address\": \"Thika Arcade, 4th Floor, Kenyatta Highway, Thika\", \"phone\": [\"+254 20 222 3456\"]}, {\"branch_name\": \"Nyeri Branch\", \"address\": \"Kenyatta Road, Nyeri\", \"phone\": [\"+254 61 203 1234\"]}, {\"branch_name\": \"Meru Branch\", \"address\": \"Mwalimu Plaza, Mezzanine Floor & 3rd Floor, Gakoromone Road, Meru\", \"phone\": [\"+254 709 922902\"]}, {\"branch_name\": \"Nanyuki Branch\", \"address\": \"Nanyuki Town, Nanyuki\", \"phone\": [\"+254 20 222 7890\"]}, {\"branch_name\": \"Mombasa Branch\", \"address\": \"Links Plaza, 1st Floor, Nkurumah Road, Mombasa\", \"phone\": [\"+254 41 231 2345\"]}, {\"branch_name\": \"Malindi Branch\", \"address\": \"Malindi Town, Malindi\", \"phone\": [\"+254 42 201 2345\"]}, {\"branch_name\": \"Voi Branch\", \"address\": \"Voi Town, Voi\", \"phone\": [\"+254 43 201 2345\"]}, {\"branch_name\": \"Machakos Branch\", \"address\": \"Machakos Town, Machakos\", \"phone\": [\"+254 44 201 2345\"]}, {\"branch_name\": \"Kakamega Branch\", \"address\": \"Kakamega Town, Kakamega\", \"phone\": [\"+254 56 201 2345\"]}, {\"branch_name\": \"Homabay Branch\", \"address\": \"Homabay Town, Homabay\", \"phone\": [\"+254 59 201 2345\"]}, {\"branch_name\": \"Kericho Branch\", \"address\": \"Kericho Town, Kericho\", \"phone\": [\"+254 52 201 2345\"]}, {\"branch_name\": \"Kisumu Branch\", \"address\": \"Kamis Plaza, 3rd Floor, Dunga Road, Kisumu\", \"phone\": [\"+254 57 202 1234\"]}, {\"branch_name\": \"Kisii Branch\", \"address\": \"Kisii Town, Kisii\", \"phone\": [\"+254 39 201 2345\"]}, {\"branch_name\": \"Buruburu Branch (Nairobi)\", \"address\": \"Buruburu Shopping Centre, Nairobi\", \"phone\": [\"+254 20 222 9012\"]}, {\"branch_name\": \"Industrial Area Branch (Nairobi)\", \"address\": \"Industrial Area, Nairobi\", \"phone\": [\"+254 20 222 3456\"]}, {\"branch_name\": \"Ngong Road Branch (Nairobi)\", \"address\": \"Royal Court Building, Ngong Road, Nairobi\", \"phone\": [\"+254 20 222 5678\"]}, {\"branch_name\": \"Eldoret Branch\", \"address\": \"Zimmerman Building, Eldoret\", \"phone\": [\"+254 53 206 1234\"]}, {\"branch_name\": \"Kitale Branch\", \"address\": \"Kitale Town, Kitale\", \"phone\": [\"+254 54 201 2345\"]}, {\"branch_name\": \"Embu Branch\", \"address\": \"Embu Municipality, Kenyatta Highway, Embu\", \"phone\": [\"+254 709 922902\"]}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_marine_001_1ad20737-3d36-4cca-8adb-9f989379a1d1",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_marine_001",
+      "product_name": "Marine Insurance",
+      "category": "general / non-life insurance / marine",
+      "target_market": "importers, exporters, logistics firms",
+      "eligibility": {
+        "notes": "For goods in transit by sea/air; based on invoice value"
+      },
+      "geographic_coverage": "Kenya / international (port-to-port)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-shipment",
+          "annual open cover"
+        ],
+        "rate_table": [
+          {
+            "cargo_type": "General cargo",
+            "sum_insured": 10000000,
+            "premium_rate": "0.5% of sum insured",
+            "notes": "FOB/CIF basis + 10-20% incidentals"
+          }
+        ],
+        "rate_table_notes": "Rates vary by cargo type, route; includes duty/VAT loading",
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 10M general cargo (0.5%)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to goods in transit",
+          "General average contributions",
+          "Salvage charges",
+          "Warehouse-to-warehouse extension"
+        ],
+        "duration": "per-shipment or annual"
+      },
+      "exclusions": [
+        "Inherent vice, improper packing",
+        "War risks (add-on available)"
+      ],
+      "add_ons": [
+        "War and strikes"
+      ],
+      "provider_network": {
+        "partners": "Marine surveyors, port authorities"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Bill of lading",
+          "Invoice",
+          "Surveyor report"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers",
+        "direct"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Marine Insurance Page",
+          "url": "https://www.madison.co.ke/protect-your-business/marine-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_marine_001\", \"product_name\": \"Marine Insurance\", \"category\": \"general / non-life insurance / marine\", \"target_market\": \"importers, exporters, logistics firms\", \"eligibility\": {\"notes\": \"For goods in transit by sea/air; based on invoice value\"}, \"geographic_coverage\": \"Kenya / international (port-to-port)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-shipment\", \"annual open cover\"], \"rate_table\": [{\"cargo_type\": \"General cargo\", \"sum_insured\": 10000000, \"premium_rate\": \"0.5% of sum insured\", \"notes\": \"FOB/CIF basis + 10-20% incidentals\"}], \"rate_table_notes\": \"Rates vary by cargo type, route; includes duty/VAT loading\", \"sample_examples\": [{\"example\": \"KES 50,000 for KES 10M general cargo (0.5%).\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage to goods in transit\", \"General average contributions\", \"Salvage charges\", \"Warehouse-to-warehouse extension\"], \"duration\": \"per-shipment or annual\"}, \"exclusions\": [\"Inherent vice, improper packing\", \"War risks (add-on available)\"], \"add_ons\": [\"War and strikes\"], \"provider_network\": {\"partners\": \"Marine surveyors, port authorities\"}, \"claims_process\": {\"required_documents\": [\"Bill of lading\", \"Invoice\", \"Surveyor report\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\", \"direct\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Marine Insurance Page\", \"url\": \"https://www.madison.co.ke/protect-your-business/marine-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_domestic_package_002_a2dc427e-a618-4432-8b70-71f9252120bd",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_domestic_package_002",
+      "product_name": "Domestic Package",
+      "category": "general / non-life insurance / property",
+      "target_market": "homeowners, tenants, BnB owners",
+      "eligibility": {
+        "property_type": "residential dwellings",
+        "notes": "Valuation for sum insured"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured_building": 5000000,
+            "sum_insured_contents": 1000000,
+            "annual_premium": 25000,
+            "notes": "0.5% rate estimate"
+          }
+        ],
+        "rate_table_notes": "Based on property value/location; discounts for security",
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 5M building + KES 1M contents."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Building/contents vs fire, theft, burglary, natural perils",
+          "Personal liability (KES 1M–5M)",
+          "Domestic servants WIBA",
+          "Portable items all-risk (jewelry, electronics)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear, deliberate damage",
+        "Unoccupied >30 days"
+      ],
+      "add_ons": [
+        "Temporary accommodation"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract (theft)",
+          "Invoices",
+          "Photos"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Domestic Package Page",
+          "url": "https://www.madison.co.ke/protect-yourself/domestic-insurance/"
+        },
+        {
+          "title": "Domestic Package Brochure",
+          "url": "https://www.madison.co.ke/wp-content/uploads/2021/03/Domestic-Package-Insurance.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_domestic_package_002\", \"product_name\": \"Domestic Package\", \"category\": \"general / non-life insurance / property\", \"target_market\": \"homeowners, tenants, BnB owners\", \"eligibility\": {\"property_type\": \"residential dwellings\", \"notes\": \"Valuation for sum insured\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured_building\": 5000000, \"sum_insured_contents\": 1000000, \"annual_premium\": 25000, \"notes\": \"0.5% rate estimate\"}], \"rate_table_notes\": \"Based on property value/location; discounts for security\", \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 5M building + KES 1M contents.\"}]}, \"coverage\": {\"benefits\": [\"Building/contents vs fire, theft, burglary, natural perils\", \"Personal liability (KES 1M–5M)\", \"Domestic servants WIBA\", \"Portable items all-risk (jewelry, electronics)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear/tear, deliberate damage\", \"Unoccupied >30 days\"], \"add_ons\": [\"Temporary accommodation\"], \"claims_process\": {\"required_documents\": [\"Police abstract (theft)\", \"Invoices\", \"Photos\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Domestic Package Page\", \"url\": \"https://www.madison.co.ke/protect-yourself/domestic-insurance/\"}, {\"title\": \"Domestic Package Brochure\", \"url\": \"https://www.madison.co.ke/wp-content/uploads/2021/03/Domestic-Package-Insurance.pdf\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_safarisure_003_2d7140d0-a93a-421e-a241-7c7509afd15b",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_safarisure_003",
+      "product_name": "Travel Insurance: Safarisure (International Travel Cover)",
+      "category": "general / non-life insurance / travel",
+      "target_market": "international travelers (business/leisure)",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 80,
+        "notes": "Max 92 days per trip"
+      },
+      "geographic_coverage": "Worldwide (excl. Kenya)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-trip",
+          "annual multi-trip"
+        ],
+        "rate_table": [
+          {
+            "duration_days": 92,
+            "annual_premium": 6000,
+            "notes": "Basic single trip"
+          }
+        ],
+        "rate_table_notes": "Varies by duration/destination; M-Pesa Paybill 880928",
+        "sample_examples": [
+          {
+            "example": "KES 6,000 for 92-day international trip."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Emergency medical/evacuation",
+          "Trip cancellation/interruption/delays",
+          "Baggage loss/damage",
+          "Personal accident"
+        ],
+        "duration": "Up to 92 days per trip"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "War zones, adventure sports"
+      ],
+      "add_ons": [
+        "Gadgets extension"
+      ],
+      "provider_network": {
+        "assistance_partners": "Global emergency services"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Medical bills",
+          "Police reports"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 7
+      },
+      "distribution_channels": [
+        "online",
+        "USSD *828#",
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Safarisure Page",
+          "url": "https://www.madison.co.ke/travel-insurance/"
+        },
+        {
+          "title": "Travel Insurance Product Page",
+          "url": "https://www.madison.co.ke/product/travel-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_safarisure_003\", \"product_name\": \"Travel Insurance: Safarisure (International Travel Cover)\", \"category\": \"general / non-life insurance / travel\", \"target_market\": \"international travelers (business/leisure)\", \"eligibility\": {\"age_min\": 18, \"age_max\": 80, \"notes\": \"Max 92 days per trip\"}, \"geographic_coverage\": \"Worldwide (excl. Kenya)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-trip\", \"annual multi-trip\"], \"rate_table\": [{\"duration_days\": 92, \"annual_premium\": 6000, \"notes\": \"Basic single trip\"}], \"rate_table_notes\": \"Varies by duration/destination; M-Pesa Paybill 880928\", \"sample_examples\": [{\"example\": \"KES 6,000 for 92-day international trip.\"}]}, \"coverage\": {\"benefits\": [\"Emergency medical/evacuation\", \"Trip cancellation/interruption/delays\", \"Baggage loss/damage\", \"Personal accident\"], \"duration\": \"Up to 92 days per trip\"}, \"exclusions\": [\"Pre-existing conditions\", \"War zones, adventure sports\"], \"add_ons\": [\"Gadgets extension\"], \"provider_network\": {\"assistance_partners\": \"Global emergency services\"}, \"claims_process\": {\"required_documents\": [\"Medical bills\", \"Police reports\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 7}, \"distribution_channels\": [\"online\", \"USSD *828#\", \"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Safarisure Page\", \"url\": \"https://www.madison.co.ke/travel-insurance/\"}, {\"title\": \"Travel Insurance Product Page\", \"url\": \"https://www.madison.co.ke/product/travel-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_safarishwari_004_351c0e76-88be-4463-895a-22d08076be43",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_safarishwari_004",
+      "product_name": "Travel Insurance: Safarishwari (Local / Hybrid Travel & Personal Accident for domestic travel ≥100 km)",
+      "category": "general / non-life insurance / travel",
+      "target_market": "domestic travelers (road/air/water/rail ≥100km)",
+      "eligibility": {
+        "distance_min": 100,
+        "notes": "Hybrid travel + PA; from KES 177/day"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-trip"
+        ],
+        "rate_table": [
+          {
+            "duration_days": 1,
+            "daily_premium": 177,
+            "notes": "Basic daily rate"
+          }
+        ],
+        "rate_table_notes": "Varies by days/travelers; M-Pesa Paybill 880928",
+        "sample_examples": [
+          {
+            "example": "KES 177/day for local trip."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental death/disability",
+          "Emergency medical/evacuation",
+          "Trip delays/cancellation",
+          "Baggage loss"
+        ],
+        "duration": "Per trip (up to 92 days)"
+      },
+      "exclusions": [
+        "Travel <100km",
+        "Pre-existing conditions"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Travel docs",
+          "Medical reports"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "USSD *828#",
+        "WhatsApp 0793 058608",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Madison Blog",
+          "comment": "Worry-free domestic adventures (2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Safarishwari Page",
+          "url": "https://www.madison.co.ke/protect-yourself/domestic-travel-insurance/"
+        },
+        {
+          "title": "Safari Shwari Blog",
+          "url": "https://www.madison.co.ke/stress-free-local-trips-in-kenya-with-madison-safari-shwari-domestic-travel-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_safarishwari_004\", \"product_name\": \"Travel Insurance: Safarishwari (Local / Hybrid Travel & Personal Accident for domestic travel ≥100 km)\", \"category\": \"general / non-life insurance / travel\", \"target_market\": \"domestic travelers (road/air/water/rail ≥100km)\", \"eligibility\": {\"distance_min\": 100, \"notes\": \"Hybrid travel + PA; from KES 177/day\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-trip\"], \"rate_table\": [{\"duration_days\": 1, \"daily_premium\": 177, \"notes\": \"Basic daily rate\"}], \"rate_table_notes\": \"Varies by days/travelers; M-Pesa Paybill 880928\", \"sample_examples\": [{\"example\": \"KES 177/day for local trip.\"}]}, \"coverage\": {\"benefits\": [\"Accidental death/disability\", \"Emergency medical/evacuation\", \"Trip delays/cancellation\", \"Baggage loss\"], \"duration\": \"Per trip (up to 92 days)\"}, \"exclusions\": [\"Travel <100km\", \"Pre-existing conditions\"], \"add_ons\": null, \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Travel docs\", \"Medical reports\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"USSD *828#\", \"WhatsApp 0793 058608\", \"online\"], \"customer_reviews\": [{\"source\": \"Madison Blog\", \"comment\": \"Worry-free domestic adventures (2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Safarishwari Page\", \"url\": \"https://www.madison.co.ke/protect-yourself/domestic-travel-insurance/\"}, {\"title\": \"Safari Shwari Blog\", \"url\": \"https://www.madison.co.ke/stress-free-local-trips-in-kenya-with-madison-safari-shwari-domestic-travel-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_motor_tp_005_f759c1f5-dcaf-4cc8-94b6-4a8a0d930429",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_motor_tp_005",
+      "product_name": "Motor Insurance: Third-Party Cover",
+      "category": "general / non-life insurance / motor",
+      "target_market": "all vehicle owners (mandatory)",
+      "eligibility": {
+        "vehicle_type": "private/commercial",
+        "notes": "Statutory minimum"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Third-Party Only",
+            "annual_premium": 7500,
+            "notes": "IRA minimum"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 7,500/year basic TP."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Third-party bodily injury (unlimited)",
+          "Third-party property damage (KES 5M)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Own vehicle damage"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Claim form"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "online",
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Motor Private Page",
+          "url": "https://www.madison.co.ke/protect-yourself/motor-private/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_motor_tp_005\", \"product_name\": \"Motor Insurance: Third-Party Cover\", \"category\": \"general / non-life insurance / motor\", \"target_market\": \"all vehicle owners (mandatory)\", \"eligibility\": {\"vehicle_type\": \"private/commercial\", \"notes\": \"Statutory minimum\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Third-Party Only\", \"annual_premium\": 7500, \"notes\": \"IRA minimum\"}], \"sample_examples\": [{\"example\": \"KES 7,500/year basic TP.\"}]}, \"coverage\": {\"benefits\": [\"Third-party bodily injury (unlimited)\", \"Third-party property damage (KES 5M)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Own vehicle damage\"], \"add_ons\": null, \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Claim form\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"online\", \"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Motor Private Page\", \"url\": \"https://www.madison.co.ke/protect-yourself/motor-private/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_motor_tpf_006_74246e10-7cc0-4e19-8ac4-7a29260401d7",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_motor_tpf_006",
+      "product_name": "Motor Insurance: Third-Party, Fire & Theft",
+      "category": "general / non-life insurance / motor",
+      "target_market": "vehicle owners seeking basic protection",
+      "eligibility": {
+        "vehicle_type": "private/commercial",
+        "notes": "TP + own vehicle fire/theft"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "TPFT",
+            "vehicle_value": 1500000,
+            "annual_premium": 15000,
+            "notes": "Minimum statutory + fire/theft"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 15,000/year for KES 1.5M vehicle."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Third-party liability",
+          "Own vehicle fire/theft"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Accident damage to own vehicle"
+      ],
+      "add_ons": [
+        "Windscreen"
+      ],
+      "provider_network": {
+        "garages": "Approved for repairs"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Fire report"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "online",
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Motor Page",
+          "url": "https://www.madison.co.ke/protect-yourself/motor-private/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_motor_tpf_006\", \"product_name\": \"Motor Insurance: Third-Party, Fire & Theft\", \"category\": \"general / non-life insurance / motor\", \"target_market\": \"vehicle owners seeking basic protection\", \"eligibility\": {\"vehicle_type\": \"private/commercial\", \"notes\": \"TP + own vehicle fire/theft\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"TPFT\", \"vehicle_value\": 1500000, \"annual_premium\": 15000, \"notes\": \"Minimum statutory + fire/theft\"}], \"sample_examples\": [{\"example\": \"KES 15,000/year for KES 1.5M vehicle.\"}]}, \"coverage\": {\"benefits\": [\"Third-party liability\", \"Own vehicle fire/theft\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Accident damage to own vehicle\"], \"add_ons\": [\"Windscreen\"], \"provider_network\": {\"garages\": \"Approved for repairs\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Fire report\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"online\", \"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Motor Page\", \"url\": \"https://www.madison.co.ke/protect-yourself/motor-private/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_motor_comp_007_4d1aa2fb-3bb6-48d6-832f-07ae55f4c2a6",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_motor_comp_007",
+      "product_name": "Motor Insurance: Comprehensive Cover",
+      "category": "general / non-life insurance / motor",
+      "target_market": "vehicle owners for full protection",
+      "eligibility": {
+        "vehicle_age_max": 15,
+        "notes": "Full risks including accidents"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 80000,
+            "notes": "4% of value estimate"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 80,000/year for KES 2M vehicle."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage, fire, theft",
+          "Third-party liability (unlimited bodily, KES 5M property)",
+          "Emergency medical for passengers"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Drunk driving, unlicensed"
+      ],
+      "add_ons": [
+        "Roadside assistance"
+      ],
+      "provider_network": {
+        "garages": "Cashless repairs"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook",
+          "Invoices"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true,
+        "notes": "Online reporting"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "online",
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Seamless claims for motor cover (@UserKE, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Motor Private Page",
+          "url": "https://www.madison.co.ke/protect-yourself/motor-private/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_motor_comp_007\", \"product_name\": \"Motor Insurance: Comprehensive Cover\", \"category\": \"general / non-life insurance / motor\", \"target_market\": \"vehicle owners for full protection\", \"eligibility\": {\"vehicle_age_max\": 15, \"notes\": \"Full risks including accidents\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 80000, \"notes\": \"4% of value estimate\"}], \"sample_examples\": [{\"example\": \"KES 80,000/year for KES 2M vehicle.\"}]}, \"coverage\": {\"benefits\": [\"Accidental damage, fire, theft\", \"Third-party liability (unlimited bodily, KES 5M property)\", \"Emergency medical for passengers\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Drunk driving, unlicensed\"], \"add_ons\": [\"Roadside assistance\"], \"provider_network\": {\"garages\": \"Cashless repairs\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\", \"Invoices\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true, \"notes\": \"Online reporting\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"online\", \"agents\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Seamless claims for motor cover (@UserKE, 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Motor Private Page\", \"url\": \"https://www.madison.co.ke/protect-yourself/motor-private/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_motor_comm_008_e45f9d9e-a65c-41ef-b811-72b5821944b2",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_motor_comm_008",
+      "product_name": "Motor Commercial Insurance",
+      "category": "general / non-life insurance / motor",
+      "target_market": "businesses/fleets (pick-ups, lorries, trucks)",
+      "eligibility": {
+        "vehicle_type": "commercial (own goods/hire)",
+        "notes": "Institutional vehicles included"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 130000,
+            "notes": "For commercial use"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 130,000/year for KES 2M commercial vehicle."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage, fire, theft",
+          "Third-party liability",
+          "Goods in transit optional"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "add_ons": [
+        "Goods cover"
+      ],
+      "provider_network": {
+        "garages": "Commercial network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Motor Commercial Page",
+          "url": "https://www.madison.co.ke/protect-your-business/motor-commercial/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_motor_comm_008\", \"product_name\": \"Motor Commercial Insurance\", \"category\": \"general / non-life insurance / motor\", \"target_market\": \"businesses/fleets (pick-ups, lorries, trucks)\", \"eligibility\": {\"vehicle_type\": \"commercial (own goods/hire)\", \"notes\": \"Institutional vehicles included\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 130000, \"notes\": \"For commercial use\"}], \"sample_examples\": [{\"example\": \"KES 130,000/year for KES 2M commercial vehicle.\"}]}, \"coverage\": {\"benefits\": [\"Accidental damage, fire, theft\", \"Third-party liability\", \"Goods in transit optional\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-commercial use\"], \"add_ons\": [\"Goods cover\"], \"provider_network\": {\"garages\": \"Commercial network\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\", \"corporate\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Motor Commercial Page\", \"url\": \"https://www.madison.co.ke/protect-your-business/motor-commercial/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_hekima_009_b06bde1f-3b0c-4a2e-8c72-8eea8e60429f",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_hekima_009",
+      "product_name": "Hekima",
+      "category": "life / savings & protection",
+      "target_market": "individuals for wealth creation",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Flexible partial maturity"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bonuses declared annually",
+        "sample_examples": [
+          {
+            "example": "Contributions for high returns + protection."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Life protection + investment growth",
+          "High returns on maturity",
+          "Annual bonuses"
+        ],
+        "duration": "Flexible term"
+      },
+      "exclusions": [
+        "Early surrender penalties"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Death certificate"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Hekima Page",
+          "url": "https://www.madison.co.ke/protect-your-future/hekima-policy/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_hekima_009\", \"product_name\": \"Hekima\", \"category\": \"life / savings & protection\", \"target_market\": \"individuals for wealth creation\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Flexible partial maturity\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bonuses declared annually\", \"sample_examples\": [{\"example\": \"Contributions for high returns + protection.\"}]}, \"coverage\": {\"benefits\": [\"Life protection + investment growth\", \"High returns on maturity\", \"Annual bonuses\"], \"duration\": \"Flexible term\"}, \"exclusions\": [\"Early surrender penalties\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Death certificate\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Hekima Page\", \"url\": \"https://www.madison.co.ke/protect-your-future/hekima-policy/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_bima_ya_karo_010_2ce6e10f-1b6e-4f84-80c9-7c80a035099e",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_bima_ya_karo_010",
+      "product_name": "Bima ya Karo",
+      "category": "life / savings & protection / education",
+      "target_market": "parents/guardians for children's education",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 60,
+        "notes": "Term 10-15 years; min KES 10,000 access"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "monthly_premium": 2000,
+            "sum_assured": 500000,
+            "notes": "For 10-year term"
+          }
+        ],
+        "rate_table_notes": "Tax relief 15% up to KES 60,000/year",
+        "sample_examples": [
+          {
+            "example": "KES 2,000/month for education fund."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Guaranteed education fund",
+          "50% sum assured on parent death",
+          "Cash value after 36 months",
+          "Policy loan up to 3 years"
+        ],
+        "duration": "10-15 years"
+      },
+      "exclusions": [
+        "Policy lapse",
+        "Suicide within 2 years"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "School invoices"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "USSD *828#",
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Unilada",
+          "comment": "Guaranteed education fund even if parent deceased (2018, ongoing)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Bima ya Karo Page",
+          "url": "https://www.madison.co.ke/protect-your-future/bima-ya-karo/"
+        },
+        {
+          "title": "Bima ya Karo Brochure",
+          "url": "https://www.madison.co.ke/wp-content/uploads/2021/01/Bima-Ya-Karo-Brochure.pdf"
+        },
+        {
+          "title": "Unilada Guide",
+          "url": "https://www.unilada.co.ke/2018/07/bima-ya-karo-education-plan-from.html"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_bima_ya_karo_010\", \"product_name\": \"Bima ya Karo\", \"category\": \"life / savings & protection / education\", \"target_market\": \"parents/guardians for children's education\", \"eligibility\": {\"age_min\": 18, \"age_max\": 60, \"notes\": \"Term 10-15 years; min KES 10,000 access\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\"], \"rate_table\": [{\"monthly_premium\": 2000, \"sum_assured\": 500000, \"notes\": \"For 10-year term\"}], \"rate_table_notes\": \"Tax relief 15% up to KES 60,000/year\", \"sample_examples\": [{\"example\": \"KES 2,000/month for education fund.\"}]}, \"coverage\": {\"benefits\": [\"Guaranteed education fund\", \"50% sum assured on parent death\", \"Cash value after 36 months\", \"Policy loan up to 3 years\"], \"duration\": \"10-15 years\"}, \"exclusions\": [\"Policy lapse\", \"Suicide within 2 years\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"School invoices\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"USSD *828#\", \"agents\"], \"customer_reviews\": [{\"source\": \"Unilada\", \"comment\": \"Guaranteed education fund even if parent deceased (2018, ongoing)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Bima ya Karo Page\", \"url\": \"https://www.madison.co.ke/protect-your-future/bima-ya-karo/\"}, {\"title\": \"Bima ya Karo Brochure\", \"url\": \"https://www.madison.co.ke/wp-content/uploads/2021/01/Bima-Ya-Karo-Brochure.pdf\"}, {\"title\": \"Unilada Guide\", \"url\": \"https://www.unilada.co.ke/2018/07/bima-ya-karo-education-plan-from.html\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_uniplan_011_dd6c08a1-b6f7-4b9d-bb47-b8a937f528ce",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_uniplan_011",
+      "product_name": "Uniplan",
+      "category": "life / savings & protection / education",
+      "target_market": "parents for university/college education",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Term 5-15 years"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Tailored to education costs",
+        "sample_examples": [
+          {
+            "example": "Savings for tuition/accommodation/living expenses."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Lump-sum for higher education",
+          "Life cover included",
+          "Revision if costs exceed insured amount"
+        ],
+        "duration": "5-15 years"
+      },
+      "exclusions": [
+        "Early surrender"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "University invoices"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "HapaKenya",
+          "comment": "Unique for higher education; low term range (2017, ongoing)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Uniplan Page",
+          "url": "https://www.madison.co.ke/protect-your-future/uniplan/"
+        },
+        {
+          "title": "HapaKenya Launch",
+          "url": "https://hapakenya.com/2017/02/14/madison-insurance-launches-uniplan-a-policy-for-university-education/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_uniplan_011\", \"product_name\": \"Uniplan\", \"category\": \"life / savings & protection / education\", \"target_market\": \"parents for university/college education\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Term 5-15 years\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\"], \"rate_table\": null, \"rate_table_notes\": \"Tailored to education costs\", \"sample_examples\": [{\"example\": \"Savings for tuition/accommodation/living expenses.\"}]}, \"coverage\": {\"benefits\": [\"Lump-sum for higher education\", \"Life cover included\", \"Revision if costs exceed insured amount\"], \"duration\": \"5-15 years\"}, \"exclusions\": [\"Early surrender\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"University invoices\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [{\"source\": \"HapaKenya\", \"comment\": \"Unique for higher education; low term range (2017, ongoing)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Uniplan Page\", \"url\": \"https://www.madison.co.ke/protect-your-future/uniplan/\"}, {\"title\": \"HapaKenya Launch\", \"url\": \"https://hapakenya.com/2017/02/14/madison-insurance-launches-uniplan-a-policy-for-university-education/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_money_max_plus_012_fe467bbe-41fb-4efd-a250-dcd2d41f6f5d",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_money_max_plus_012",
+      "product_name": "Money Max Plus",
+      "category": "life / savings & protection / investment",
+      "target_market": "individuals for high returns",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Term 8-15 years"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "2% management fee; high-yield investments",
+        "sample_examples": [
+          {
+            "example": "Contributions for sum assured + bonuses."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Investment growth + life cover",
+          "Full sum assured on death + KES 20,000 funeral",
+          "High returns via fund managers"
+        ],
+        "duration": "8-15 years"
+      },
+      "exclusions": [
+        "Early termination"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Death certificate"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Money Max Plus Page",
+          "url": "https://www.madison.co.ke/protect-your-future/money-max-plus/"
+        },
+        {
+          "title": "Money Max Brochure",
+          "url": "https://www.madison.co.ke/wp-content/uploads/2021/01/Money-Max-Plus-Brochure.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_money_max_plus_012\", \"product_name\": \"Money Max Plus\", \"category\": \"life / savings & protection / investment\", \"target_market\": \"individuals for high returns\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Term 8-15 years\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\"], \"rate_table\": null, \"rate_table_notes\": \"2% management fee; high-yield investments\", \"sample_examples\": [{\"example\": \"Contributions for sum assured + bonuses.\"}]}, \"coverage\": {\"benefits\": [\"Investment growth + life cover\", \"Full sum assured on death + KES 20,000 funeral\", \"High returns via fund managers\"], \"duration\": \"8-15 years\"}, \"exclusions\": [\"Early termination\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Death certificate\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Money Max Plus Page\", \"url\": \"https://www.madison.co.ke/protect-your-future/money-max-plus/\"}, {\"title\": \"Money Max Brochure\", \"url\": \"https://www.madison.co.ke/wp-content/uploads/2021/01/Money-Max-Plus-Brochure.pdf\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_group_life_013_5b120afa-f063-4133-9487-af6109d806c5",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_group_life_013",
+      "product_name": "Group Life",
+      "category": "life / savings & protection / group",
+      "target_market": "employers/groups (min 10 members)",
+      "eligibility": {
+        "group_min_size": 10,
+        "notes": "Annual death-in-service benefit"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke per group size",
+        "sample_examples": [
+          {
+            "example": "Death/disability cover for employees."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death-in-service benefit",
+          "Disability from accident/critical illness"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Suicide within 1 year"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Death certificate"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "corporate sales"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Group Life Page",
+          "url": "https://www.madison.co.ke/protect-your-business/group-life-assurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_group_life_013\", \"product_name\": \"Group Life\", \"category\": \"life / savings & protection / group\", \"target_market\": \"employers/groups (min 10 members)\", \"eligibility\": {\"group_min_size\": 10, \"notes\": \"Annual death-in-service benefit\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke per group size\", \"sample_examples\": [{\"example\": \"Death/disability cover for employees.\"}]}, \"coverage\": {\"benefits\": [\"Death-in-service benefit\", \"Disability from accident/critical illness\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Suicide within 1 year\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Death certificate\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"corporate sales\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Group Life Page\", \"url\": \"https://www.madison.co.ke/protect-your-business/group-life-assurance/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_pension_014_3a205810-a998-4808-946b-6282e95a9826",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_pension_014",
+      "product_name": "Pension",
+      "category": "life / savings & protection / pension",
+      "target_market": "individuals/employers for retirement",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 75,
+        "notes": "Min KES 500/month; tax deductible up to KES 20,000"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "monthly_contribution": 500,
+            "notes": "High-yield retirement fund"
+          }
+        ],
+        "rate_table_notes": "Up to 30% income; 30% lump-sum on retirement",
+        "sample_examples": [
+          {
+            "example": "KES 500/month for retirement savings."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Retirement fund buildup",
+          "30% cash lump-sum",
+          "Annuity/drawdown options",
+          "Death benefit"
+        ],
+        "duration": "Until retirement"
+      },
+      "exclusions": [
+        "Early withdrawal penalties"
+      ],
+      "add_ons": [
+        "Home acquisition via pension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Retirement proof"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison Personal Pension Page",
+          "url": "https://www.madison.co.ke/protect-yourself/personal-pension-plan/"
+        },
+        {
+          "title": "Deposit Administration Scheme",
+          "url": "https://www.madison.co.ke/protect-yourself/deposit-administration-retirement-benefits-scheme/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_pension_014\", \"product_name\": \"Pension\", \"category\": \"life / savings & protection / pension\", \"target_market\": \"individuals/employers for retirement\", \"eligibility\": {\"age_min\": 18, \"age_max\": 75, \"notes\": \"Min KES 500/month; tax deductible up to KES 20,000\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\"], \"rate_table\": [{\"monthly_contribution\": 500, \"notes\": \"High-yield retirement fund\"}], \"rate_table_notes\": \"Up to 30% income; 30% lump-sum on retirement\", \"sample_examples\": [{\"example\": \"KES 500/month for retirement savings.\"}]}, \"coverage\": {\"benefits\": [\"Retirement fund buildup\", \"30% cash lump-sum\", \"Annuity/drawdown options\", \"Death benefit\"], \"duration\": \"Until retirement\"}, \"exclusions\": [\"Early withdrawal penalties\"], \"add_ons\": [\"Home acquisition via pension\"], \"claims_process\": {\"required_documents\": [\"Retirement proof\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison Personal Pension Page\", \"url\": \"https://www.madison.co.ke/protect-yourself/personal-pension-plan/\"}, {\"title\": \"Deposit Administration Scheme\", \"url\": \"https://www.madison.co.ke/protect-yourself/deposit-administration-retirement-benefits-scheme/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_family_healthcare_015_c49649a8-7d21-40d8-b1c8-ca63ef67950f",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_family_healthcare_015",
+      "product_name": "Family Healthcare Cover",
+      "category": "health / medical insurance",
+      "target_market": "individuals/families",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 64,
+        "notes": "Medical exam for 50+; lifelong renewable"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "plan": "BetterLife Basic",
+            "inpatient_limit": 500000,
+            "annual_premium": 30000,
+            "notes": "Family estimate"
+          },
+          {
+            "plan": "BetterLife Executive",
+            "inpatient_limit": 5000000,
+            "annual_premium": 150000,
+            "notes": "Pocket-friendly premium"
+          }
+        ],
+        "rate_table_notes": "Discounted for no-claim; full payment upfront",
+        "sample_examples": [
+          {
+            "example": "KES 30,000/year for KES 500K family inpatient."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient/outpatient",
+          "Maternity, dental, optical",
+          "Chronic conditions after 12 months",
+          "Covid-19 up to KES 100,000"
+        ],
+        "duration": "annual renewable for life"
+      },
+      "exclusions": [
+        "Waiting: 28 days acute, 60 days surgical, 12 months pre-existing"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Wide panel A/B; cashless"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices",
+          "Medical reports"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true,
+        "notes": "Cashless at panel; smart card"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "online",
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Tuko",
+          "comment": "Tailor-made for families; affordable premiums (2020, ongoing)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison BetterLife Page",
+          "url": "https://www.madison.co.ke/protect-yourself/betterlife/"
+        },
+        {
+          "title": "BetterLife Brochure",
+          "url": "https://www.madison.co.ke/wp-content/uploads/2024/09/Madison_Betterlife_Brochure-1.pdf"
+        },
+        {
+          "title": "Tuko Guide",
+          "url": "https://www.tuko.co.ke/350847-madison-insurance-careers-contacts-benefits.html"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_family_healthcare_015\", \"product_name\": \"Family Healthcare Cover\", \"category\": \"health / medical insurance\", \"target_market\": \"individuals/families\", \"eligibility\": {\"age_min\": 0, \"age_max\": 64, \"notes\": \"Medical exam for 50+; lifelong renewable\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"plan\": \"BetterLife Basic\", \"inpatient_limit\": 500000, \"annual_premium\": 30000, \"notes\": \"Family estimate\"}, {\"plan\": \"BetterLife Executive\", \"inpatient_limit\": 5000000, \"annual_premium\": 150000, \"notes\": \"Pocket-friendly premium\"}], \"rate_table_notes\": \"Discounted for no-claim; full payment upfront\", \"sample_examples\": [{\"example\": \"KES 30,000/year for KES 500K family inpatient.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient/outpatient\", \"Maternity, dental, optical\", \"Chronic conditions after 12 months\", \"Covid-19 up to KES 100,000\"], \"duration\": \"annual renewable for life\"}, \"exclusions\": [\"Waiting: 28 days acute, 60 days surgical, 12 months pre-existing\"], \"add_ons\": null, \"provider_network\": {\"hospitals\": \"Wide panel A/B; cashless\"}, \"claims_process\": {\"required_documents\": [\"Invoices\", \"Medical reports\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true, \"notes\": \"Cashless at panel; smart card\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"online\", \"agents\"], \"customer_reviews\": [{\"source\": \"Tuko\", \"comment\": \"Tailor-made for families; affordable premiums (2020, ongoing)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison BetterLife Page\", \"url\": \"https://www.madison.co.ke/protect-yourself/betterlife/\"}, {\"title\": \"BetterLife Brochure\", \"url\": \"https://www.madison.co.ke/wp-content/uploads/2024/09/Madison_Betterlife_Brochure-1.pdf\"}, {\"title\": \"Tuko Guide\", \"url\": \"https://www.tuko.co.ke/350847-madison-insurance-careers-contacts-benefits.html\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_kpsa_medical_016_38422238-8ab6-4a06-a277-40028ea141fd",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_kpsa_medical_016",
+      "product_name": "Madison KPSA Medical Cover",
+      "category": "health / medical insurance",
+      "target_market": "Kenya Private Schools Association staff",
+      "eligibility": {
+        "notes": "Tailor-made for KPSA members"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "inpatient_limit": 1000000,
+            "annual_premium": 50000,
+            "notes": "Per family; outpatient dental KES 20,000"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 50,000/year family cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient/primary care",
+          "Outpatient dental KES 20,000/family",
+          "KEPI vaccines only"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-KEPI vaccines"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "KPSA panel"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "KPSA channels"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Victor Matara Product List",
+          "url": "https://victormatara.com/madison-insurance-products-and-branches-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_kpsa_medical_016\", \"product_name\": \"Madison KPSA Medical Cover\", \"category\": \"health / medical insurance\", \"target_market\": \"Kenya Private Schools Association staff\", \"eligibility\": {\"notes\": \"Tailor-made for KPSA members\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"inpatient_limit\": 1000000, \"annual_premium\": 50000, \"notes\": \"Per family; outpatient dental KES 20,000\"}], \"sample_examples\": [{\"example\": \"KES 50,000/year family cover.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient/primary care\", \"Outpatient dental KES 20,000/family\", \"KEPI vaccines only\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-KEPI vaccines\"], \"add_ons\": null, \"provider_network\": {\"hospitals\": \"KPSA panel\"}, \"claims_process\": {\"required_documents\": [\"Invoices\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"KPSA channels\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Victor Matara Product List\", \"url\": \"https://victormatara.com/madison-insurance-products-and-branches-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_money_market_017_bd2ad74e-4643-41d8-b2c0-258668f5a5cf",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_money_market_017",
+      "product_name": "Madison Money Market Fund",
+      "category": "investment products",
+      "target_market": "low-risk savers",
+      "eligibility": {
+        "min_investment": 1000,
+        "notes": "No max; daily liquidity"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "lump-sum",
+          "periodic"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Daily yield 10.33% (Sep 2025); EAY 10.88%; no penalties",
+        "sample_examples": [
+          {
+            "example": "Start with KES 1,000; top-up anytime."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Capital preservation",
+          "Short-term instruments (T-bills, deposits)",
+          "3-day withdrawal"
+        ],
+        "duration": "Flexible"
+      },
+      "exclusions": [
+        "No guaranteed yield"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Withdrawal form"
+        ],
+        "average_turnaround_days": 3,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": [
+        "USSD *828#",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Business Today",
+          "comment": "5th highest yield at 15.25% (Jul 2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison MMF Page",
+          "url": "https://www.madison.co.ke/investmentmanagers/madison-money-market-fund/"
+        },
+        {
+          "title": "MMF Factsheet Aug 2024",
+          "url": "https://www.madison.co.ke/wp-content/uploads/2024/09/Madison-Money-Market-Fund-Factsheet-Aug-2024.pdf"
+        },
+        {
+          "title": "Business Today Guide",
+          "url": "https://businesstoday.co.ke/madison-money-market-fund/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_money_market_017\", \"product_name\": \"Madison Money Market Fund\", \"category\": \"investment products\", \"target_market\": \"low-risk savers\", \"eligibility\": {\"min_investment\": 1000, \"notes\": \"No max; daily liquidity\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump-sum\", \"periodic\"], \"rate_table\": null, \"rate_table_notes\": \"Daily yield 10.33% (Sep 2025); EAY 10.88%; no penalties\", \"sample_examples\": [{\"example\": \"Start with KES 1,000; top-up anytime.\"}]}, \"coverage\": {\"benefits\": [\"Capital preservation\", \"Short-term instruments (T-bills, deposits)\", \"3-day withdrawal\"], \"duration\": \"Flexible\"}, \"exclusions\": [\"No guaranteed yield\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Withdrawal form\"], \"average_turnaround_days\": 3, \"digital_claims_supported\": true}, \"renewal_terms\": null, \"distribution_channels\": [\"USSD *828#\", \"online\"], \"customer_reviews\": [{\"source\": \"Business Today\", \"comment\": \"5th highest yield at 15.25% (Jul 2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison MMF Page\", \"url\": \"https://www.madison.co.ke/investmentmanagers/madison-money-market-fund/\"}, {\"title\": \"MMF Factsheet Aug 2024\", \"url\": \"https://www.madison.co.ke/wp-content/uploads/2024/09/Madison-Money-Market-Fund-Factsheet-Aug-2024.pdf\"}, {\"title\": \"Business Today Guide\", \"url\": \"https://businesstoday.co.ke/madison-money-market-fund/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_balanced_018_fa704182-fcff-48f1-98c5-855525c33a5b",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_balanced_018",
+      "product_name": "Madison Balanced Fund",
+      "category": "investment products",
+      "target_market": "moderate-risk investors",
+      "eligibility": {
+        "min_investment": 5000,
+        "notes": "Balanced portfolio"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "lump-sum",
+          "periodic"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Mix of equities/fixed income; yields vary",
+        "sample_examples": [
+          {
+            "example": "Diversified growth + income."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Balanced risk/return",
+          "Equities + bonds"
+        ],
+        "duration": "Flexible"
+      },
+      "exclusions": [
+        "Market risks"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Withdrawal form"
+        ],
+        "average_turnaround_days": 3,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": [
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "CMA Licensees",
+          "url": "https://licensees.cma.or.ke/licenses/15/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_balanced_018\", \"product_name\": \"Madison Balanced Fund\", \"category\": \"investment products\", \"target_market\": \"moderate-risk investors\", \"eligibility\": {\"min_investment\": 5000, \"notes\": \"Balanced portfolio\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump-sum\", \"periodic\"], \"rate_table\": null, \"rate_table_notes\": \"Mix of equities/fixed income; yields vary\", \"sample_examples\": [{\"example\": \"Diversified growth + income.\"}]}, \"coverage\": {\"benefits\": [\"Balanced risk/return\", \"Equities + bonds\"], \"duration\": \"Flexible\"}, \"exclusions\": [\"Market risks\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Withdrawal form\"], \"average_turnaround_days\": 3, \"digital_claims_supported\": true}, \"renewal_terms\": null, \"distribution_channels\": [\"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"CMA Licensees\", \"url\": \"https://licensees.cma.or.ke/licenses/15/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_equity_019_f9d3434e-3247-4bc8-998d-5c8295ff5286",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_equity_019",
+      "product_name": "Madison Equity Fund",
+      "category": "investment products",
+      "target_market": "growth-oriented investors",
+      "eligibility": {
+        "min_investment": 10000,
+        "notes": "Equity-focused"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "lump-sum",
+          "periodic"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "High-risk/high-return equities",
+        "sample_examples": [
+          {
+            "example": "Capital appreciation focus."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Equity investments for growth"
+        ],
+        "duration": "Flexible"
+      },
+      "exclusions": [
+        "Market volatility"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Withdrawal form"
+        ],
+        "average_turnaround_days": 3,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": [
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "CMA Licensees",
+          "url": "https://licensees.cma.or.ke/licenses/15/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_equity_019\", \"product_name\": \"Madison Equity Fund\", \"category\": \"investment products\", \"target_market\": \"growth-oriented investors\", \"eligibility\": {\"min_investment\": 10000, \"notes\": \"Equity-focused\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump-sum\", \"periodic\"], \"rate_table\": null, \"rate_table_notes\": \"High-risk/high-return equities\", \"sample_examples\": [{\"example\": \"Capital appreciation focus.\"}]}, \"coverage\": {\"benefits\": [\"Equity investments for growth\"], \"duration\": \"Flexible\"}, \"exclusions\": [\"Market volatility\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Withdrawal form\"], \"average_turnaround_days\": 3, \"digital_claims_supported\": true}, \"renewal_terms\": null, \"distribution_channels\": [\"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"CMA Licensees\", \"url\": \"https://licensees.cma.or.ke/licenses/15/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_hifadhi_020_0ad12c1e-a96c-476f-a11e-e18f3f23816a",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_hifadhi_020",
+      "product_name": "Madison Hifadhi",
+      "category": "investment products",
+      "target_market": "conservative savers",
+      "eligibility": {
+        "min_investment": 1000,
+        "notes": "Low-risk preservation"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "lump-sum",
+          "periodic"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Fixed income focus; part of FAQs products",
+        "sample_examples": [
+          {
+            "example": "Capital protection + modest returns."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Low-risk savings",
+          "Fixed income securities"
+        ],
+        "duration": "Flexible"
+      },
+      "exclusions": [
+        "No high yields"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Withdrawal form"
+        ],
+        "average_turnaround_days": 3,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": null,
+      "distribution_channels": [
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison FAQs",
+          "url": "https://www.madison.co.ke/faqs/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_hifadhi_020\", \"product_name\": \"Madison Hifadhi\", \"category\": \"investment products\", \"target_market\": \"conservative savers\", \"eligibility\": {\"min_investment\": 1000, \"notes\": \"Low-risk preservation\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump-sum\", \"periodic\"], \"rate_table\": null, \"rate_table_notes\": \"Fixed income focus; part of FAQs products\", \"sample_examples\": [{\"example\": \"Capital protection + modest returns.\"}]}, \"coverage\": {\"benefits\": [\"Low-risk savings\", \"Fixed income securities\"], \"duration\": \"Flexible\"}, \"exclusions\": [\"No high yields\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Withdrawal form\"], \"average_turnaround_days\": 3, \"digital_claims_supported\": true}, \"renewal_terms\": null, \"distribution_channels\": [\"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison FAQs\", \"url\": \"https://www.madison.co.ke/faqs/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_zalisha_021_664e4332-69fd-4c8e-a20e-f82305091e06",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_zalisha_021",
+      "product_name": "Madison Zalisha",
+      "category": "investment products / loan-linked",
+      "target_market": "borrowers needing liquidity",
+      "eligibility": {
+        "notes": "Linked to investments; bespoke"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "periodic"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Loan against investments",
+        "sample_examples": [
+          {
+            "example": "Advances from fund value."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Liquidity from savings",
+          "Investment-backed loan"
+        ],
+        "duration": "Short-term"
+      },
+      "exclusions": [
+        "Over-borrowing"
+      ],
+      "add_ons": null,
+      "claims_process": null,
+      "renewal_terms": null,
+      "distribution_channels": [
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Madison FAQs",
+          "url": "https://www.madison.co.ke/faqs/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_zalisha_021\", \"product_name\": \"Madison Zalisha\", \"category\": \"investment products / loan-linked\", \"target_market\": \"borrowers needing liquidity\", \"eligibility\": {\"notes\": \"Linked to investments; bespoke\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"periodic\"], \"rate_table\": null, \"rate_table_notes\": \"Loan against investments\", \"sample_examples\": [{\"example\": \"Advances from fund value.\"}]}, \"coverage\": {\"benefits\": [\"Liquidity from savings\", \"Investment-backed loan\"], \"duration\": \"Short-term\"}, \"exclusions\": [\"Over-borrowing\"], \"add_ons\": null, \"claims_process\": null, \"renewal_terms\": null, \"distribution_channels\": [\"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Madison FAQs\", \"url\": \"https://www.madison.co.ke/faqs/\"}]}"
+  },
+  {
+    "chunk_id": "madison_001_madison_shujaa_022_d69e45c1-369f-45d1-9741-75a1f16850c0",
+    "metadata": {
+      "company_name": "Madison Group Limited",
+      "product_id": "madison_shujaa_022",
+      "product_name": "Madison Shujaa",
+      "category": "investment products",
+      "target_market": "high-return seekers",
+      "eligibility": {
+        "min_investment": 1000,
+        "notes": "91-day T-bill +4.5% benchmark"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "lump-sum",
+          "periodic"
+        ],
+        "rate_table": [
+          {
+            "tenor_months": 3,
+            "benchmark": "91-day T-bill +4.5%",
+            "notes": "3/6/12-month tenors"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "High growth via deposits/T-bills."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Capital growth",
+          "Short-term tenors with bonuses"
+        ],
+        "duration": "3-12 months"
+      },
+      "exclusions": [
+        "Liquidity limits"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Maturity form"
+        ],
+        "average_turnaround_days": 3,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Victor Matara List",
+          "url": "https://victormatara.com/madison-insurance-products-and-branches-in-kenya/"
+        },
+        {
+          "title": "Madison FAQs",
+          "url": "https://www.madison.co.ke/faqs/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Madison Group Limited\", \"product_id\": \"madison_shujaa_022\", \"product_name\": \"Madison Shujaa\", \"category\": \"investment products\", \"target_market\": \"high-return seekers\", \"eligibility\": {\"min_investment\": 1000, \"notes\": \"91-day T-bill +4.5% benchmark\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump-sum\", \"periodic\"], \"rate_table\": [{\"tenor_months\": 3, \"benchmark\": \"91-day T-bill +4.5%\", \"notes\": \"3/6/12-month tenors\"}], \"sample_examples\": [{\"example\": \"High growth via deposits/T-bills.\"}]}, \"coverage\": {\"benefits\": [\"Capital growth\", \"Short-term tenors with bonuses\"], \"duration\": \"3-12 months\"}, \"exclusions\": [\"Liquidity limits\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Maturity form\"], \"average_turnaround_days\": 3, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Victor Matara List\", \"url\": \"https://victormatara.com/madison-insurance-products-and-branches-in-kenya/\"}, {\"title\": \"Madison FAQs\", \"url\": \"https://www.madison.co.ke/faqs/\"}]}"
+  }
+]

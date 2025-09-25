@@ -1,0 +1,1135 @@
+[
+  {
+    "chunk_id": "ga_001_company_7a11935f-4102-4a43-9d10-8596897f828a",
+    "metadata": {
+      "company_id": "ga_001",
+      "company_name": "GA Insurance Kenya Limited",
+      "company_type": "composite (general, medical, life via subsidiary)",
+      "license_info": {
+        "licensed": true,
+        "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+        "license_reference": "IRA/20/008/2025",
+        "license_doc": "IRA Licensed Insurers List 2025, published March 2025"
+      },
+      "headquarters": "GA Insurance House, 4th Floor, Ralph Bunche Road, P.O. Box 42166-00100, Nairobi, Kenya",
+      "digital_presence": {
+        "website": "https://www.gainsuranceltd.com/ke",
+        "customer_portal": "https://health.gakenya.com/app",
+        "mobile_app": false,
+        "mobile_app_store_links": {
+          "google_play": null,
+          "app_store": null
+        },
+        "api_available": false,
+        "api_notes": "Claims login portal available; M-TIBA integration for health"
+      },
+      "reputation": {
+        "claims_settlement_ratio": "8.71% (Q2 2025 IRA Report); strong in motor claims; overall mid-60% range for 2023",
+        "customer_complaints": "Some delays in processing noted; positive testimonials for quick settlements",
+        "customer_rating": "Reputable for reliability; trusted with 70+ years experience; Superbrands East Africa recognition",
+        "notes": "Acquired by I&M Bank Group in 2006; consistent growth; high capacities in property, engineering, marine"
+      },
+      "last_compiled": "2025-09-21"
+    },
+    "text": "{\"company_id\": \"ga_001\", \"company_name\": \"GA Insurance Kenya Limited\", \"company_type\": \"composite (general, medical, life via subsidiary)\", \"license_info\": {\"licensed\": true, \"regulator\": \"Insurance Regulatory Authority (IRA) Kenya\", \"license_reference\": \"IRA/20/008/2025\", \"license_doc\": \"IRA Licensed Insurers List 2025, published March 2025\"}, \"headquarters\": \"GA Insurance House, 4th Floor, Ralph Bunche Road, P.O. Box 42166-00100, Nairobi, Kenya\", \"digital_presence\": {\"website\": \"https://www.gainsuranceltd.com/ke\", \"customer_portal\": \"https://health.gakenya.com/app\", \"mobile_app\": false, \"mobile_app_store_links\": {\"google_play\": null, \"app_store\": null}, \"api_available\": false, \"api_notes\": \"Claims login portal available; M-TIBA integration for health\"}, \"reputation\": {\"claims_settlement_ratio\": \"8.71% (Q2 2025 IRA Report); strong in motor claims; overall mid-60% range for 2023\", \"customer_complaints\": \"Some delays in processing noted; positive testimonials for quick settlements\", \"customer_rating\": \"Reputable for reliability; trusted with 70+ years experience; Superbrands East Africa recognition\", \"notes\": \"Acquired by I&M Bank Group in 2006; consistent growth; high capacities in property, engineering, marine\"}, \"last_compiled\": \"2025-09-21\"}"
+  },
+  {
+    "chunk_id": "ga_001_branches_882003b8-da99-4e2e-a378-930105ef64be",
+    "metadata": {
+      "branches": [
+        {
+          "branch_name": "Nairobi Head Office",
+          "address": "GA Insurance House, 4th Floor, Ralph Bunche Road, Nairobi",
+          "phone": [
+            "+254 20 888 999",
+            "+254 709 626 000"
+          ],
+          "email": "atyourservice@gakenya.com"
+        },
+        {
+          "branch_name": "Kisumu Branch",
+          "address": "Kisumu Town, Kisumu",
+          "phone": [
+            "+254 57 202 1234"
+          ]
+        },
+        {
+          "branch_name": "Mombasa Branch",
+          "address": "NSSF Building, 3rd Floor, Nkrumah Road, Mombasa",
+          "phone": [
+            "+254 41 231 2345"
+          ]
+        }
+      ]
+    },
+    "text": "{\"branches\": [{\"branch_name\": \"Nairobi Head Office\", \"address\": \"GA Insurance House, 4th Floor, Ralph Bunche Road, Nairobi\", \"phone\": [\"+254 20 888 999\", \"+254 709 626 000\"], \"email\": \"atyourservice@gakenya.com\"}, {\"branch_name\": \"Kisumu Branch\", \"address\": \"Kisumu Town, Kisumu\", \"phone\": [\"+254 57 202 1234\"]}, {\"branch_name\": \"Mombasa Branch\", \"address\": \"NSSF Building, 3rd Floor, Nkrumah Road, Mombasa\", \"phone\": [\"+254 41 231 2345\"]}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_fire_001_a59b4c66-c616-4bdf-9bc9-e6ff4adb6969",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_fire_001",
+      "product_name": "Fire Insurance",
+      "category": "general",
+      "target_market": "businesses, homeowners for property protection",
+      "eligibility": {
+        "notes": "Valuation of assets required"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke based on sum insured; e.g., 0.5% of property value",
+        "sample_examples": [
+          {
+            "example": "Estimated KES 25,000/year for KES 5M building."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Damage from fire, lightning, explosion of domestic appliances",
+          "Perils extension: earthquake, floods, storm, tempests, riots, malicious damage",
+          "Buildings, stocks, plant, machinery"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "War, nuclear risks"
+      ],
+      "add_ons": [
+        "Riot & strike",
+        "Special perils"
+      ],
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Fire report",
+          "Invoices"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Fire Insurance Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/fire-insurance-cover-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_fire_001\", \"product_name\": \"Fire Insurance\", \"category\": \"general\", \"target_market\": \"businesses, homeowners for property protection\", \"eligibility\": {\"notes\": \"Valuation of assets required\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke based on sum insured; e.g., 0.5% of property value\", \"sample_examples\": [{\"example\": \"Estimated KES 25,000/year for KES 5M building.\"}]}, \"coverage\": {\"benefits\": [\"Damage from fire, lightning, explosion of domestic appliances\", \"Perils extension: earthquake, floods, storm, tempests, riots, malicious damage\", \"Buildings, stocks, plant, machinery\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"War, nuclear risks\"], \"add_ons\": [\"Riot & strike\", \"Special perils\"], \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Fire report\", \"Invoices\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Fire Insurance Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/fire-insurance-cover-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_pa_002_fcd4ae04-b943-4538-8ad8-4ea93573ec08",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_pa_002",
+      "product_name": "Personal Accident Insurance",
+      "category": "general",
+      "target_market": "individuals, groups for accident protection",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "On/off duty; no medical exam"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke based on sum assured and occupation",
+        "sample_examples": [
+          {
+            "example": "Estimated KES 12,000/year for KES 1M individual cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death, permanent/temporary disability from accidents",
+          "Medical expenses, hospital cash"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional self-harm, war risks"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Medical reports",
+          "Police abstract"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Rest assured with GA PA; covers difficulties (@GAIns, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Group PA Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/group-personal-accident-insurance-policy/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_pa_002\", \"product_name\": \"Personal Accident Insurance\", \"category\": \"general\", \"target_market\": \"individuals, groups for accident protection\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"On/off duty; no medical exam\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke based on sum assured and occupation\", \"sample_examples\": [{\"example\": \"Estimated KES 12,000/year for KES 1M individual cover.\"}]}, \"coverage\": {\"benefits\": [\"Death, permanent/temporary disability from accidents\", \"Medical expenses, hospital cash\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional self-harm, war risks\"], \"add_ons\": null, \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Medical reports\", \"Police abstract\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"Rest assured with GA PA; covers difficulties (@GAIns, 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Group PA Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/group-personal-accident-insurance-policy/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_motor_car_003_5b59b4a2-d897-4e2e-8b9e-aa0314d69b6a",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_motor_car_003",
+      "product_name": "Motor Car Insurance",
+      "category": "general / motor",
+      "target_market": "private car owners",
+      "eligibility": {
+        "vehicle_age_max": 15,
+        "notes": "Third-party mandatory; comprehensive optional"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 80000,
+            "notes": "4% of value estimate"
+          },
+          {
+            "type": "Third-Party",
+            "annual_premium": 7500,
+            "notes": "Statutory minimum"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 80,000/year for KES 2M comprehensive."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage, fire, theft",
+          "Third-party liability (unlimited bodily, KES 5M property)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed drivers, drunk driving"
+      ],
+      "add_ons": [
+        "Windscreen",
+        "Roadside assistance"
+      ],
+      "provider_network": {
+        "garages": "Approved network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook",
+          "Invoices"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true,
+        "notes": "Seamless settlement testimonials"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Impressed by quick write-off settlement (@Client, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Motor Car Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/motor-car-insurance-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_motor_car_003\", \"product_name\": \"Motor Car Insurance\", \"category\": \"general / motor\", \"target_market\": \"private car owners\", \"eligibility\": {\"vehicle_age_max\": 15, \"notes\": \"Third-party mandatory; comprehensive optional\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 80000, \"notes\": \"4% of value estimate\"}, {\"type\": \"Third-Party\", \"annual_premium\": 7500, \"notes\": \"Statutory minimum\"}], \"sample_examples\": [{\"example\": \"KES 80,000/year for KES 2M comprehensive.\"}]}, \"coverage\": {\"benefits\": [\"Accidental damage, fire, theft\", \"Third-party liability (unlimited bodily, KES 5M property)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Unlicensed drivers, drunk driving\"], \"add_ons\": [\"Windscreen\", \"Roadside assistance\"], \"provider_network\": {\"garages\": \"Approved network\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\", \"Invoices\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true, \"notes\": \"Seamless settlement testimonials\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"online\"], \"customer_reviews\": [{\"source\": \"Testimonial\", \"comment\": \"Impressed by quick write-off settlement (@Client, 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Motor Car Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/motor-car-insurance-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_motor_comm_004_2ad3b58a-7d67-43c4-9a38-f4178a62d789",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_motor_comm_004",
+      "product_name": "Motor Commercial Insurance",
+      "category": "general / motor",
+      "target_market": "fleet operators, commercial vehicles",
+      "eligibility": {
+        "vehicle_type": "commercial (trucks, lorries)",
+        "notes": "Own goods or hire"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 130000,
+            "notes": "For heavy vehicles"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 130,000/year for KES 2M commercial."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage from accidents, riots, theft",
+          "Third-party liability",
+          "Keeps business running"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "add_ons": [
+        "Goods in transit"
+      ],
+      "provider_network": {
+        "garages": "Commercial repair network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Motor Commercial Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/motor-commercial-vehicles-insurance-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_motor_comm_004\", \"product_name\": \"Motor Commercial Insurance\", \"category\": \"general / motor\", \"target_market\": \"fleet operators, commercial vehicles\", \"eligibility\": {\"vehicle_type\": \"commercial (trucks, lorries)\", \"notes\": \"Own goods or hire\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 130000, \"notes\": \"For heavy vehicles\"}], \"sample_examples\": [{\"example\": \"KES 130,000/year for KES 2M commercial.\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage from accidents, riots, theft\", \"Third-party liability\", \"Keeps business running\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-commercial use\"], \"add_ons\": [\"Goods in transit\"], \"provider_network\": {\"garages\": \"Commercial repair network\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\", \"corporate\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Motor Commercial Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/motor-commercial-vehicles-insurance-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_travel_005_b8213a46-a8aa-4a85-b14d-b10a57fede73",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_travel_005",
+      "product_name": "Travel Insurance",
+      "category": "general",
+      "target_market": "international/domestic travelers",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 80,
+        "notes": "Per-trip or annual"
+      },
+      "geographic_coverage": "Worldwide",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-trip"
+        ],
+        "rate_table": [
+          {
+            "duration_days": 30,
+            "annual_premium": 6000,
+            "notes": "Basic international"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 6,000 for 30-day trip."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Medical emergencies, losses/delays, personal accident",
+          "Cancellation/curtailment, evacuation via MAPFRE ASISTENCIA"
+        ],
+        "duration": "up to 92 days/trip"
+      },
+      "exclusions": [
+        "Pre-existing, high-risk activities"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "assistance_partners": "MAPFRE ASISTENCIA (global)"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Medical bills",
+          "Police reports"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 7
+      },
+      "distribution_channels": [
+        "online",
+        "I&M Bank"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Travel Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/travel/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_travel_005\", \"product_name\": \"Travel Insurance\", \"category\": \"general\", \"target_market\": \"international/domestic travelers\", \"eligibility\": {\"age_min\": 18, \"age_max\": 80, \"notes\": \"Per-trip or annual\"}, \"geographic_coverage\": \"Worldwide\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-trip\"], \"rate_table\": [{\"duration_days\": 30, \"annual_premium\": 6000, \"notes\": \"Basic international\"}], \"sample_examples\": [{\"example\": \"KES 6,000 for 30-day trip.\"}]}, \"coverage\": {\"benefits\": [\"Medical emergencies, losses/delays, personal accident\", \"Cancellation/curtailment, evacuation via MAPFRE ASISTENCIA\"], \"duration\": \"up to 92 days/trip\"}, \"exclusions\": [\"Pre-existing, high-risk activities\"], \"add_ons\": null, \"provider_network\": {\"assistance_partners\": \"MAPFRE ASISTENCIA (global)\"}, \"claims_process\": {\"required_documents\": [\"Medical bills\", \"Police reports\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 7}, \"distribution_channels\": [\"online\", \"I&M Bank\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Travel Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/travel/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_domestic_package_006_36d1136e-0a85-4ade-8781-ec9d931c2187",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_domestic_package_006",
+      "product_name": "Domestic Package Insurance",
+      "category": "general / property",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "notes": "Residential properties"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke based on sum insured",
+        "sample_examples": [
+          {
+            "example": "Estimated KES 25,000/year for standard home."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to home/contents",
+          "Injury/death to home workers (WIBA)",
+          "Buildings, fixtures, fences, gates"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear, deliberate acts"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Invoices"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Covered place to call home (@GAIns, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Domestic Package Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/domestic-package-insurance-cover/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_domestic_package_006\", \"product_name\": \"Domestic Package Insurance\", \"category\": \"general / property\", \"target_market\": \"homeowners, tenants\", \"eligibility\": {\"notes\": \"Residential properties\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke based on sum insured\", \"sample_examples\": [{\"example\": \"Estimated KES 25,000/year for standard home.\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage to home/contents\", \"Injury/death to home workers (WIBA)\", \"Buildings, fixtures, fences, gates\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear/tear, deliberate acts\"], \"add_ons\": null, \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Invoices\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"Covered place to call home (@GAIns, 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Domestic Package Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/domestic-package-insurance-cover/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_engineering_007_18b31978-83a2-4f61-8bfa-cc26a01a2e14",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_engineering_007",
+      "product_name": "Engineering Insurance",
+      "category": "general",
+      "target_market": "construction, engineering firms",
+      "eligibility": {
+        "notes": "For plant, machinery, contractors"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke for contractors' all risks, erection",
+        "sample_examples": [
+          {
+            "example": "Custom quotes for project risks."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Damage to plant/machinery during erection",
+          "Contractors' risks, third-party liability"
+        ],
+        "duration": "project term"
+      },
+      "exclusions": [
+        "Design defects, wear"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Project reports"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Engineering Page",
+          "url": "https://www.gainsuranceltd.com/ke/commercial/engineering-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_engineering_007\", \"product_name\": \"Engineering Insurance\", \"category\": \"general\", \"target_market\": \"construction, engineering firms\", \"eligibility\": {\"notes\": \"For plant, machinery, contractors\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke for contractors' all risks, erection\", \"sample_examples\": [{\"example\": \"Custom quotes for project risks.\"}]}, \"coverage\": {\"benefits\": [\"Damage to plant/machinery during erection\", \"Contractors' risks, third-party liability\"], \"duration\": \"project term\"}, \"exclusions\": [\"Design defects, wear\"], \"add_ons\": null, \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Project reports\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Engineering Page\", \"url\": \"https://www.gainsuranceltd.com/ke/commercial/engineering-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_marine_008_930ad08f-b3a9-49fc-adb6-8a07a9159106",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_marine_008",
+      "product_name": "Marine Insurance",
+      "category": "general",
+      "target_market": "importers, exporters",
+      "eligibility": {
+        "notes": "Cargo transit by sea/air"
+      },
+      "geographic_coverage": "Kenya/international",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-shipment"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "premium_rate": "0.5%",
+            "notes": "General cargo FOB/CIF +10-20% incidentals"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 10M cargo."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to cargo in transit",
+          "Seawater ingress, general average, short landing",
+          "Burglary, accidental damage, fire"
+        ],
+        "duration": "transit period"
+      },
+      "exclusions": [
+        "Inherent vice, war"
+      ],
+      "add_ons": [
+        "Warehouse-to-warehouse"
+      ],
+      "provider_network": {
+        "partners": "Surveyors, port authorities"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Bill of lading",
+          "Surveyor report"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Marine Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/marine-cargo-insurance-policy-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_marine_008\", \"product_name\": \"Marine Insurance\", \"category\": \"general\", \"target_market\": \"importers, exporters\", \"eligibility\": {\"notes\": \"Cargo transit by sea/air\"}, \"geographic_coverage\": \"Kenya/international\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-shipment\"], \"rate_table\": [{\"sum_insured\": 10000000, \"premium_rate\": \"0.5%\", \"notes\": \"General cargo FOB/CIF +10-20% incidentals\"}], \"sample_examples\": [{\"example\": \"KES 50,000 for KES 10M cargo.\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage to cargo in transit\", \"Seawater ingress, general average, short landing\", \"Burglary, accidental damage, fire\"], \"duration\": \"transit period\"}, \"exclusions\": [\"Inherent vice, war\"], \"add_ons\": [\"Warehouse-to-warehouse\"], \"provider_network\": {\"partners\": \"Surveyors, port authorities\"}, \"claims_process\": {\"required_documents\": [\"Bill of lading\", \"Surveyor report\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Marine Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/marine-cargo-insurance-policy-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_health_family_009_9433f83f-bee5-4214-adf3-50128a9d6561",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_health_family_009",
+      "product_name": "GA Health – Family/Individual Plan",
+      "category": "health / medical",
+      "target_market": "individuals, families (18-59 years)",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 59,
+        "notes": "Medical exam for 55+; lifelong renewable"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "inpatient_limit": 1000000,
+            "annual_premium_individual": 50000,
+            "notes": "Basic; inclusive of levies"
+          }
+        ],
+        "rate_table_notes": "Varies by age/family; no outpatient/dental/optical",
+        "sample_examples": [
+          {
+            "example": "KES 50,000/year for KES 1M inpatient individual."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient and maternity only",
+          "Surgical/medical costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Outpatient services",
+        "Waiting periods apply"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Wide network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices",
+          "Reports"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Family Health Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/ga-family-medical-insurance-cover-plan-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_health_family_009\", \"product_name\": \"GA Health – Family/Individual Plan\", \"category\": \"health / medical\", \"target_market\": \"individuals, families (18-59 years)\", \"eligibility\": {\"age_min\": 18, \"age_max\": 59, \"notes\": \"Medical exam for 55+; lifelong renewable\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"inpatient_limit\": 1000000, \"annual_premium_individual\": 50000, \"notes\": \"Basic; inclusive of levies\"}], \"rate_table_notes\": \"Varies by age/family; no outpatient/dental/optical\", \"sample_examples\": [{\"example\": \"KES 50,000/year for KES 1M inpatient individual.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient and maternity only\", \"Surgical/medical costs\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Outpatient services\", \"Waiting periods apply\"], \"add_ons\": null, \"provider_network\": {\"hospitals\": \"Wide network\"}, \"claims_process\": {\"required_documents\": [\"Invoices\", \"Reports\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Family Health Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/ga-family-medical-insurance-cover-plan-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_health_sme_premier_010_dc2f5bbc-e83a-4703-ade6-93be572f5bcf",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_health_sme_premier_010",
+      "product_name": "GA Health – SME Premier Plan",
+      "category": "health / medical / group",
+      "target_market": "SMEs for employees",
+      "eligibility": {
+        "group_min_size": 5,
+        "notes": "Tailored for small businesses"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke; higher limits than Economy",
+        "sample_examples": [
+          {
+            "example": "Custom for inpatient/outpatient."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient, outpatient, maternity",
+          "Dental/optical sub-limits"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing waits"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Tier 1-3 panels"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Group invoices"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "corporate sales"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA SME Premier Brochure",
+          "url": "https://www.gainsuranceltd.com/ke/wp-content/uploads/2015/03/SME-PREMIER-PLAN.1.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_health_sme_premier_010\", \"product_name\": \"GA Health – SME Premier Plan\", \"category\": \"health / medical / group\", \"target_market\": \"SMEs for employees\", \"eligibility\": {\"group_min_size\": 5, \"notes\": \"Tailored for small businesses\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke; higher limits than Economy\", \"sample_examples\": [{\"example\": \"Custom for inpatient/outpatient.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient, outpatient, maternity\", \"Dental/optical sub-limits\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing waits\"], \"add_ons\": null, \"provider_network\": {\"hospitals\": \"Tier 1-3 panels\"}, \"claims_process\": {\"required_documents\": [\"Group invoices\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"corporate sales\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA SME Premier Brochure\", \"url\": \"https://www.gainsuranceltd.com/ke/wp-content/uploads/2015/03/SME-PREMIER-PLAN.1.pdf\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_health_sme_economy_011_b8684d70-60a2-4a88-8fd7-8a18f1183815",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_health_sme_economy_011",
+      "product_name": "GA Health – SME Economy Plan",
+      "category": "health / medical / group",
+      "target_market": "SMEs for basic employee cover",
+      "eligibility": {
+        "group_min_size": 5,
+        "notes": "Affordable option"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Lower limits than Premier",
+        "sample_examples": [
+          {
+            "example": "Basic inpatient for small groups."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient, limited outpatient"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Elective procedures"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Tier 2-3"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "corporate"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Health SME Page",
+          "url": "https://www.gainsuranceltd.com/ke/health/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_health_sme_economy_011\", \"product_name\": \"GA Health – SME Economy Plan\", \"category\": \"health / medical / group\", \"target_market\": \"SMEs for basic employee cover\", \"eligibility\": {\"group_min_size\": 5, \"notes\": \"Affordable option\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Lower limits than Premier\", \"sample_examples\": [{\"example\": \"Basic inpatient for small groups.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient, limited outpatient\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Elective procedures\"], \"add_ons\": null, \"provider_network\": {\"hospitals\": \"Tier 2-3\"}, \"claims_process\": {\"required_documents\": [\"Invoices\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"corporate\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Health SME Page\", \"url\": \"https://www.gainsuranceltd.com/ke/health/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_traumacare_012_501b4da9-821c-47b7-ba8e-b587245dd781",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_traumacare_012",
+      "product_name": "TraumaCare Plan",
+      "category": "health / medical",
+      "target_market": "individuals for emergency/trauma care",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 70,
+        "notes": "Add-on to Hadhi; free for members"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Free with Hadhi; standalone bespoke",
+        "sample_examples": [
+          {
+            "example": "1 air + 2 road evacuations included."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Emergency evacuation for traumatic injuries",
+          "1 air evacuation + 2 road evacuations",
+          "Hospitalization for trauma"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-trauma emergencies"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Emergency network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Medical emergency report"
+        ],
+        "average_turnaround_days": 48,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA TraumaCare Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/seniors-health-insurance-in-kenya-plan/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_traumacare_012\", \"product_name\": \"TraumaCare Plan\", \"category\": \"health / medical\", \"target_market\": \"individuals for emergency/trauma care\", \"eligibility\": {\"age_min\": 18, \"age_max\": 70, \"notes\": \"Add-on to Hadhi; free for members\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Free with Hadhi; standalone bespoke\", \"sample_examples\": [{\"example\": \"1 air + 2 road evacuations included.\"}]}, \"coverage\": {\"benefits\": [\"Emergency evacuation for traumatic injuries\", \"1 air evacuation + 2 road evacuations\", \"Hospitalization for trauma\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-trauma emergencies\"], \"add_ons\": null, \"provider_network\": {\"hospitals\": \"Emergency network\"}, \"claims_process\": {\"required_documents\": [\"Medical emergency report\"], \"average_turnaround_days\": 48, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA TraumaCare Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/seniors-health-insurance-in-kenya-plan/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_hadhi_013_22d7b110-f6ac-4287-abbb-ee4d16d06a70",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_hadhi_013",
+      "product_name": "Hadhi Health Plan",
+      "category": "health / medical / seniors",
+      "target_market": "seniors 60-80 years",
+      "eligibility": {
+        "age_min": 60,
+        "age_max": 80,
+        "notes": "Inpatient/outpatient; medical report"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "inpatient_limit": 1000000,
+            "annual_premium_individual": 60000,
+            "notes": "Basic senior cover"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 60,000/year for KES 1M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient/outpatient, chronic after 1 year",
+          "Includes free TraumaCare add-on",
+          "Evacuations, dignified care"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Waiting periods for chronic"
+      ],
+      "add_ons": [
+        "TraumaCare (free)"
+      ],
+      "provider_network": {
+        "hospitals": "Senior-focused"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Hadhi Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/seniors-health-insurance-in-kenya-plan/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_hadhi_013\", \"product_name\": \"Hadhi Health Plan\", \"category\": \"health / medical / seniors\", \"target_market\": \"seniors 60-80 years\", \"eligibility\": {\"age_min\": 60, \"age_max\": 80, \"notes\": \"Inpatient/outpatient; medical report\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"inpatient_limit\": 1000000, \"annual_premium_individual\": 60000, \"notes\": \"Basic senior cover\"}], \"sample_examples\": [{\"example\": \"KES 60,000/year for KES 1M.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient/outpatient, chronic after 1 year\", \"Includes free TraumaCare add-on\", \"Evacuations, dignified care\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Waiting periods for chronic\"], \"add_ons\": [\"TraumaCare (free)\"], \"provider_network\": {\"hospitals\": \"Senior-focused\"}, \"claims_process\": {\"required_documents\": [\"Invoices\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Hadhi Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/seniors-health-insurance-in-kenya-plan/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_covid_014_3a22d0d0-9a39-46a6-9c14-a9d838b800a4",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_covid_014",
+      "product_name": "Covid-19 Benefit Policy",
+      "category": "health / medical",
+      "target_market": "individuals 1-70 years",
+      "eligibility": {
+        "age_min": 1,
+        "age_max": 70,
+        "notes": "Kenyan residents; 16-day waiting"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "benefit": 100000,
+            "annual_premium": 5000,
+            "notes": "100% payout on hospitalization"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 5,000/year for KES 100K benefit."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "KES 100,000 on 24-hour hospitalization due to Covid-19"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing respiratory conditions"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Hospitalization proof"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "online"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "GA Covid Policy Page",
+          "url": "https://www.gainsuranceltd.com/ke/insurance/covid-19-benefit-policy/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_covid_014\", \"product_name\": \"Covid-19 Benefit Policy\", \"category\": \"health / medical\", \"target_market\": \"individuals 1-70 years\", \"eligibility\": {\"age_min\": 1, \"age_max\": 70, \"notes\": \"Kenyan residents; 16-day waiting\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"benefit\": 100000, \"annual_premium\": 5000, \"notes\": \"100% payout on hospitalization\"}], \"sample_examples\": [{\"example\": \"KES 5,000/year for KES 100K benefit.\"}]}, \"coverage\": {\"benefits\": [\"KES 100,000 on 24-hour hospitalization due to Covid-19\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing respiratory conditions\"], \"add_ons\": null, \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Hospitalization proof\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"online\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"GA Covid Policy Page\", \"url\": \"https://www.gainsuranceltd.com/ke/insurance/covid-19-benefit-policy/\"}]}"
+  },
+  {
+    "chunk_id": "ga_001_ga_eco_drive_015_0e5e8fe8-7b64-462d-90af-a865ad1632c9",
+    "metadata": {
+      "company_name": "GA Insurance Kenya Limited",
+      "product_id": "ga_eco_drive_015",
+      "product_name": "GA Eco Drive Cover",
+      "category": "general / motor",
+      "target_market": "electric vehicle owners (cars, e-bikes, buses)",
+      "eligibility": {
+        "vehicle_type": "EV (cars, motorcycles, buses, scooters)",
+        "notes": "Tailored for e-mobility risks"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Standard rates; carbon neutral certified",
+        "sample_examples": [
+          {
+            "example": "Bespoke for EV value; first carbon neutral in Africa."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Battery damage, charging cable injuries",
+          "Third-party damage from cables",
+          "Standard motor risks + EV specifics",
+          "Carbon neutral (PAS 2060 certified)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Standard motor exclusions"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "garages": "EV specialist network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "EV diagnostics"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "online",
+        "brokers"
+      ],
+      "customer_reviews": [
+        {
+          "source": "TechArena",
+          "comment": "Groundbreaking for EVs; supports sustainability (2023, ongoing)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "TechArena Launch",
+          "url": "https://www.techarena.co.ke/2023/09/27/ga-eco-drive-cover-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"GA Insurance Kenya Limited\", \"product_id\": \"ga_eco_drive_015\", \"product_name\": \"GA Eco Drive Cover\", \"category\": \"general / motor\", \"target_market\": \"electric vehicle owners (cars, e-bikes, buses)\", \"eligibility\": {\"vehicle_type\": \"EV (cars, motorcycles, buses, scooters)\", \"notes\": \"Tailored for e-mobility risks\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Standard rates; carbon neutral certified\", \"sample_examples\": [{\"example\": \"Bespoke for EV value; first carbon neutral in Africa.\"}]}, \"coverage\": {\"benefits\": [\"Battery damage, charging cable injuries\", \"Third-party damage from cables\", \"Standard motor risks + EV specifics\", \"Carbon neutral (PAS 2060 certified)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Standard motor exclusions\"], \"add_ons\": null, \"provider_network\": {\"garages\": \"EV specialist network\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"EV diagnostics\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"online\", \"brokers\"], \"customer_reviews\": [{\"source\": \"TechArena\", \"comment\": \"Groundbreaking for EVs; supports sustainability (2023, ongoing)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"TechArena Launch\", \"url\": \"https://www.techarena.co.ke/2023/09/27/ga-eco-drive-cover-in-kenya/\"}]}"
+  }
+]

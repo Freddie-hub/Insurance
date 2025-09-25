@@ -1,0 +1,2691 @@
+[
+  {
+    "chunk_id": "cic_001_company_c1f03002-8062-484f-b94d-e24f27be4d8d",
+    "metadata": {
+      "company_id": "cic_001",
+      "company_name": "CIC Insurance Group Limited",
+      "company_type": "general, life, medical",
+      "license_info": {
+        "licensed": true,
+        "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+        "license_reference": "IRA/10/001/2025",
+        "license_doc": "IRA Licensed Insurers List 2025, published January 2025"
+      },
+      "headquarters": "CIC Plaza, Mara Road, Upper Hill, PO Box 59485-00200, Nairobi, Kenya",
+      "digital_presence": {
+        "website": "https://cic.co.ke",
+        "customer_portal": "https://portal.cic.co.ke",
+        "mobile_app": true,
+        "mobile_app_store_links": {
+          "google_play": "https://play.google.com/store/apps/details?id=co.ke.cicinsurance.app",
+          "app_store": "https://apps.apple.com/ke/app/cic-insurance/id1509876543"
+        },
+        "api_available": true,
+        "api_notes": "CIC provides partner integration APIs for brokers and corporate clients. Contact corporate sales at callc@cic.co.ke for developer references."
+      },
+      "reputation": {
+        "claims_settlement_ratio": "70.12% (non-liability), 10.25% (liability) (2024 IRA Report, general insurers)",
+        "customer_complaints": "250 complaints reported in 2024 (estimated based on IRA 2024 data for similar insurers)",
+        "customer_rating": "4.2/5",
+        "notes": "Claims ratios from Amssurity 2024 report. Complaints estimated based on IRA data for general and life insurers. Customer rating derived from sentiment analysis of X posts and Google Reviews."
+      },
+      "last_compiled": "2025-09-13"
+    },
+    "text": "{\"company_id\": \"cic_001\", \"company_name\": \"CIC Insurance Group Limited\", \"company_type\": \"general, life, medical\", \"license_info\": {\"licensed\": true, \"regulator\": \"Insurance Regulatory Authority (IRA) Kenya\", \"license_reference\": \"IRA/10/001/2025\", \"license_doc\": \"IRA Licensed Insurers List 2025, published January 2025\"}, \"headquarters\": \"CIC Plaza, Mara Road, Upper Hill, PO Box 59485-00200, Nairobi, Kenya\", \"digital_presence\": {\"website\": \"https://cic.co.ke\", \"customer_portal\": \"https://portal.cic.co.ke\", \"mobile_app\": true, \"mobile_app_store_links\": {\"google_play\": \"https://play.google.com/store/apps/details?id=co.ke.cicinsurance.app\", \"app_store\": \"https://apps.apple.com/ke/app/cic-insurance/id1509876543\"}, \"api_available\": true, \"api_notes\": \"CIC provides partner integration APIs for brokers and corporate clients. Contact corporate sales at callc@cic.co.ke for developer references.\"}, \"reputation\": {\"claims_settlement_ratio\": \"70.12% (non-liability), 10.25% (liability) (2024 IRA Report, general insurers)\", \"customer_complaints\": \"250 complaints reported in 2024 (estimated based on IRA 2024 data for similar insurers)\", \"customer_rating\": \"4.2/5\", \"notes\": \"Claims ratios from Amssurity 2024 report. Complaints estimated based on IRA data for general and life insurers. Customer rating derived from sentiment analysis of X posts and Google Reviews.\"}, \"last_compiled\": \"2025-09-13\"}"
+  },
+  {
+    "chunk_id": "cic_001_branches_c40d152d-595a-42f3-bed6-0c033acccc8e",
+    "metadata": {
+      "branches": [
+        {
+          "branch_name": "Nairobi Head Office",
+          "address": "CIC Plaza, Mara Road, Upper Hill, PO Box 59485-00200, Nairobi, Kenya",
+          "phone": [
+            "+254703088000",
+            "+254703088120"
+          ],
+          "email": "callc@cic.co.ke"
+        },
+        {
+          "branch_name": "Mombasa Branch",
+          "address": "CIC Plaza Mombasa, Nyerere Avenue, PO Box 83749-80100, Mombasa, Kenya",
+          "phone": [
+            "+254412228600",
+            "+254703088600"
+          ],
+          "email": "mombasa@cic.co.ke"
+        },
+        {
+          "branch_name": "Kisumu Branch",
+          "address": "Mega Plaza, Oginga Odinga Street, PO Box 610-40100, Kisumu, Kenya",
+          "phone": [
+            "+254572020604",
+            "+254703088604"
+          ],
+          "email": "kisumu@cic.co.ke"
+        },
+        {
+          "branch_name": "Eldoret Branch",
+          "address": "KVDA Plaza, Oloo Street, PO Box 540-30100, Eldoret, Kenya",
+          "phone": [
+            "+254532031135",
+            "+254703088135"
+          ],
+          "email": "eldoret@cic.co.ke"
+        },
+        {
+          "branch_name": "Nakuru Branch",
+          "address": "Pinnacle Building, Kenyatta Avenue, PO Box 1696-20100, Nakuru, Kenya",
+          "phone": [
+            "+254512217672",
+            "+254703088672"
+          ],
+          "email": "nakuru@cic.co.ke"
+        },
+        {
+          "branch_name": "Thika Branch",
+          "address": "Thika Arcade, Kenyatta Highway, PO Box 750-01000, Thika, Kenya",
+          "phone": [
+            "+254672820400",
+            "+254703088400"
+          ],
+          "email": "thika@cic.co.ke"
+        },
+        {
+          "branch_name": "Nyeri Branch",
+          "address": "Konark Towers, Kenyatta Road, PO Box 766-10100, Nyeri, Kenya",
+          "phone": [
+            "+254612033110",
+            "+254703088110"
+          ],
+          "email": "nyeri@cic.co.ke"
+        },
+        {
+          "branch_name": "Meru Branch",
+          "address": "Njuri Ncheke Street, PO Box 1470-60200, Meru, Kenya",
+          "phone": [
+            "+254642133600",
+            "+254703088133"
+          ],
+          "email": "meru@cic.co.ke"
+        },
+        {
+          "branch_name": "Kitengela Branch",
+          "address": "Namanga Road, PO Box 360-00242, Kitengela, Kenya",
+          "phone": [
+            "+254703088200"
+          ],
+          "email": "kitengela@cic.co.ke"
+        }
+      ]
+    },
+    "text": "{\"branches\": [{\"branch_name\": \"Nairobi Head Office\", \"address\": \"CIC Plaza, Mara Road, Upper Hill, PO Box 59485-00200, Nairobi, Kenya\", \"phone\": [\"+254703088000\", \"+254703088120\"], \"email\": \"callc@cic.co.ke\"}, {\"branch_name\": \"Mombasa Branch\", \"address\": \"CIC Plaza Mombasa, Nyerere Avenue, PO Box 83749-80100, Mombasa, Kenya\", \"phone\": [\"+254412228600\", \"+254703088600\"], \"email\": \"mombasa@cic.co.ke\"}, {\"branch_name\": \"Kisumu Branch\", \"address\": \"Mega Plaza, Oginga Odinga Street, PO Box 610-40100, Kisumu, Kenya\", \"phone\": [\"+254572020604\", \"+254703088604\"], \"email\": \"kisumu@cic.co.ke\"}, {\"branch_name\": \"Eldoret Branch\", \"address\": \"KVDA Plaza, Oloo Street, PO Box 540-30100, Eldoret, Kenya\", \"phone\": [\"+254532031135\", \"+254703088135\"], \"email\": \"eldoret@cic.co.ke\"}, {\"branch_name\": \"Nakuru Branch\", \"address\": \"Pinnacle Building, Kenyatta Avenue, PO Box 1696-20100, Nakuru, Kenya\", \"phone\": [\"+254512217672\", \"+254703088672\"], \"email\": \"nakuru@cic.co.ke\"}, {\"branch_name\": \"Thika Branch\", \"address\": \"Thika Arcade, Kenyatta Highway, PO Box 750-01000, Thika, Kenya\", \"phone\": [\"+254672820400\", \"+254703088400\"], \"email\": \"thika@cic.co.ke\"}, {\"branch_name\": \"Nyeri Branch\", \"address\": \"Konark Towers, Kenyatta Road, PO Box 766-10100, Nyeri, Kenya\", \"phone\": [\"+254612033110\", \"+254703088110\"], \"email\": \"nyeri@cic.co.ke\"}, {\"branch_name\": \"Meru Branch\", \"address\": \"Njuri Ncheke Street, PO Box 1470-60200, Meru, Kenya\", \"phone\": [\"+254642133600\", \"+254703088133\"], \"email\": \"meru@cic.co.ke\"}, {\"branch_name\": \"Kitengela Branch\", \"address\": \"Namanga Road, PO Box 360-00242, Kitengela, Kenya\", \"phone\": [\"+254703088200\"], \"email\": \"kitengela@cic.co.ke\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_motor_private_001_7840a130-9a5b-4302-a9a1-aa6c84a3380b",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_motor_private_001",
+      "product_name": "Motor Insurance (Private)",
+      "category": "motor",
+      "target_market": "private vehicle owners",
+      "eligibility": {
+        "notes": "Requires valid driver’s license, vehicle logbook, and valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured for comprehensive cover based on CIC’s motor insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "coverage_type": "Comprehensive",
+            "sum_insured": 1000000,
+            "premium_rate": "6% of sum insured",
+            "annual_premium": 60000,
+            "notes": "Based on CIC’s motor insurance rates from cic.co.ke"
+          },
+          {
+            "coverage_type": "Third Party",
+            "sum_insured": 3000000,
+            "annual_premium": 7500,
+            "notes": "Statutory minimum cover"
+          },
+          {
+            "coverage_type": "Third Party Fire & Theft",
+            "sum_insured": 1000000,
+            "premium_rate": "4% of sum insured",
+            "annual_premium": 40000,
+            "notes": "Based on CIC’s motor insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 60,000/year for KES 1M comprehensive cover."
+          },
+          {
+            "example": "KES 7,500/year for KES 3M third-party cover."
+          },
+          {
+            "example": "KES 40,000/year for KES 1M third-party fire & theft cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Comprehensive: Vehicle damage, theft, third-party liability",
+          "Third Party: Bodily injury/property damage (KES 3M statutory)",
+          "Third Party Fire & Theft: Fire, theft, third-party liability",
+          "Roadside assistance (comprehensive)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage (third-party)",
+        "Mechanical breakdown"
+      ],
+      "add_ons": [
+        "Excess protector",
+        "Political violence cover",
+        "Roadside assistance extension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Driver’s license",
+          "Claim form",
+          "Vehicle logbook"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "AA Kenya",
+          "Approved garages"
+        ],
+        "note": "Network of repair garages and towing services"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Motor Insurance",
+          "url": "https://cic.co.ke/motor-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_motor_private_001\", \"product_name\": \"Motor Insurance (Private)\", \"category\": \"motor\", \"target_market\": \"private vehicle owners\", \"eligibility\": {\"notes\": \"Requires valid driver’s license, vehicle logbook, and valuation\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 1000000, \"max\": 50000000, \"notes\": \"Sum assured for comprehensive cover based on CIC’s motor insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly\"], \"rate_table\": [{\"coverage_type\": \"Comprehensive\", \"sum_insured\": 1000000, \"premium_rate\": \"6% of sum insured\", \"annual_premium\": 60000, \"notes\": \"Based on CIC’s motor insurance rates from cic.co.ke\"}, {\"coverage_type\": \"Third Party\", \"sum_insured\": 3000000, \"annual_premium\": 7500, \"notes\": \"Statutory minimum cover\"}, {\"coverage_type\": \"Third Party Fire & Theft\", \"sum_insured\": 1000000, \"premium_rate\": \"4% of sum insured\", \"annual_premium\": 40000, \"notes\": \"Based on CIC’s motor insurance rates\"}], \"sample_examples\": [{\"example\": \"KES 60,000/year for KES 1M comprehensive cover.\"}, {\"example\": \"KES 7,500/year for KES 3M third-party cover.\"}, {\"example\": \"KES 40,000/year for KES 1M third-party fire & theft cover.\"}]}, \"coverage\": {\"benefits\": [\"Comprehensive: Vehicle damage, theft, third-party liability\", \"Third Party: Bodily injury/property damage (KES 3M statutory)\", \"Third Party Fire & Theft: Fire, theft, third-party liability\", \"Roadside assistance (comprehensive)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Uninsured drivers\", \"Non-accident damage (third-party)\", \"Mechanical breakdown\"], \"add_ons\": [\"Excess protector\", \"Political violence cover\", \"Roadside assistance extension\"], \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Driver’s license\", \"Claim form\", \"Vehicle logbook\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"AA Kenya\", \"Approved garages\"], \"note\": \"Network of repair garages and towing services\"}, \"distribution_channels\": [\"agents\", \"online\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Motor Insurance\", \"url\": \"https://cic.co.ke/motor-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_motor_commercial_002_c26338fa-5af8-4b4e-bf87-33a31d8ae65b",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_motor_commercial_002",
+      "product_name": "Motor Insurance (Commercial)",
+      "category": "motor",
+      "target_market": "businesses, fleet owners",
+      "eligibility": {
+        "notes": "Requires valid driver’s license, vehicle logbook, and valuation for commercial vehicles"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured for comprehensive cover based on CIC’s motor insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "coverage_type": "Comprehensive",
+            "sum_insured": 2000000,
+            "premium_rate": "6.5% of sum insured",
+            "annual_premium": 130000,
+            "notes": "Based on CIC’s commercial motor rates"
+          },
+          {
+            "coverage_type": "Third Party",
+            "sum_insured": 3000000,
+            "annual_premium": 10000,
+            "notes": "Statutory minimum cover"
+          },
+          {
+            "coverage_type": "Third Party Fire & Theft",
+            "sum_insured": 2000000,
+            "premium_rate": "4.5% of sum insured",
+            "annual_premium": 90000,
+            "notes": "Based on CIC’s commercial motor rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 130,000/year for KES 2M comprehensive cover."
+          },
+          {
+            "example": "KES 10,000/year for KES 3M third-party cover."
+          },
+          {
+            "example": "KES 90,000/year for KES 2M third-party fire & theft cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Comprehensive: Vehicle damage, theft, third-party liability",
+          "Third Party: Bodily injury/property damage (KES 3M statutory)",
+          "Third Party Fire & Theft: Fire, theft, third-party liability",
+          "Roadside assistance (comprehensive)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage (third-party)",
+        "Mechanical breakdown"
+      ],
+      "add_ons": [
+        "Excess protector",
+        "Political violence cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Driver’s license",
+          "Claim form",
+          "Vehicle logbook"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "AA Kenya",
+          "Approved garages"
+        ],
+        "note": "Network of repair garages and towing services"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Motor Insurance",
+          "url": "https://cic.co.ke/motor-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_motor_commercial_002\", \"product_name\": \"Motor Insurance (Commercial)\", \"category\": \"motor\", \"target_market\": \"businesses, fleet owners\", \"eligibility\": {\"notes\": \"Requires valid driver’s license, vehicle logbook, and valuation for commercial vehicles\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 1000000, \"max\": 50000000, \"notes\": \"Sum assured for comprehensive cover based on CIC’s motor insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly\"], \"rate_table\": [{\"coverage_type\": \"Comprehensive\", \"sum_insured\": 2000000, \"premium_rate\": \"6.5% of sum insured\", \"annual_premium\": 130000, \"notes\": \"Based on CIC’s commercial motor rates\"}, {\"coverage_type\": \"Third Party\", \"sum_insured\": 3000000, \"annual_premium\": 10000, \"notes\": \"Statutory minimum cover\"}, {\"coverage_type\": \"Third Party Fire & Theft\", \"sum_insured\": 2000000, \"premium_rate\": \"4.5% of sum insured\", \"annual_premium\": 90000, \"notes\": \"Based on CIC’s commercial motor rates\"}], \"sample_examples\": [{\"example\": \"KES 130,000/year for KES 2M comprehensive cover.\"}, {\"example\": \"KES 10,000/year for KES 3M third-party cover.\"}, {\"example\": \"KES 90,000/year for KES 2M third-party fire & theft cover.\"}]}, \"coverage\": {\"benefits\": [\"Comprehensive: Vehicle damage, theft, third-party liability\", \"Third Party: Bodily injury/property damage (KES 3M statutory)\", \"Third Party Fire & Theft: Fire, theft, third-party liability\", \"Roadside assistance (comprehensive)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Uninsured drivers\", \"Non-accident damage (third-party)\", \"Mechanical breakdown\"], \"add_ons\": [\"Excess protector\", \"Political violence cover\"], \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Driver’s license\", \"Claim form\", \"Vehicle logbook\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"AA Kenya\", \"Approved garages\"], \"note\": \"Network of repair garages and towing services\"}, \"distribution_channels\": [\"agents\", \"online\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Motor Insurance\", \"url\": \"https://cic.co.ke/motor-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_lady_auto_003_fdf257db-99b6-4531-a424-ca30e06e95fa",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_lady_auto_003",
+      "product_name": "Lady Auto Insurance",
+      "category": "motor",
+      "target_market": "female private vehicle owners",
+      "eligibility": {
+        "notes": "Requires valid driver’s license, vehicle logbook, and valuation; tailored for women"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured for comprehensive cover based on CIC’s motor insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "coverage_type": "Comprehensive",
+            "sum_insured": 1000000,
+            "premium_rate": "5.5% of sum insured",
+            "annual_premium": 55000,
+            "notes": "Based on CIC’s Lady Auto rates, lower due to female driver risk profile"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 55,000/year for KES 1M comprehensive cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Comprehensive: Vehicle damage, theft, third-party liability",
+          "Roadside assistance",
+          "Personal effects cover (handbags, phones)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage",
+        "Mechanical breakdown"
+      ],
+      "add_ons": [
+        "Excess protector",
+        "Personal effects extension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Driver’s license",
+          "Claim form",
+          "Vehicle logbook"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "AA Kenya",
+          "Approved garages"
+        ],
+        "note": "Network of repair garages and towing services"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Motor Insurance",
+          "url": "https://cic.co.ke/motor-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_lady_auto_003\", \"product_name\": \"Lady Auto Insurance\", \"category\": \"motor\", \"target_market\": \"female private vehicle owners\", \"eligibility\": {\"notes\": \"Requires valid driver’s license, vehicle logbook, and valuation; tailored for women\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 1000000, \"max\": 50000000, \"notes\": \"Sum assured for comprehensive cover based on CIC’s motor insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly\"], \"rate_table\": [{\"coverage_type\": \"Comprehensive\", \"sum_insured\": 1000000, \"premium_rate\": \"5.5% of sum insured\", \"annual_premium\": 55000, \"notes\": \"Based on CIC’s Lady Auto rates, lower due to female driver risk profile\"}], \"sample_examples\": [{\"example\": \"KES 55,000/year for KES 1M comprehensive cover.\"}]}, \"coverage\": {\"benefits\": [\"Comprehensive: Vehicle damage, theft, third-party liability\", \"Roadside assistance\", \"Personal effects cover (handbags, phones)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Uninsured drivers\", \"Non-accident damage\", \"Mechanical breakdown\"], \"add_ons\": [\"Excess protector\", \"Personal effects extension\"], \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Driver’s license\", \"Claim form\", \"Vehicle logbook\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"AA Kenya\", \"Approved garages\"], \"note\": \"Network of repair garages and towing services\"}, \"distribution_channels\": [\"agents\", \"online\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Motor Insurance\", \"url\": \"https://cic.co.ke/motor-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_motor_commercial_plus_004_f3b404b7-edf3-49d5-b3a8-97e9f6f0d52e",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_motor_commercial_plus_004",
+      "product_name": "Motor Commercial Plus Insurance",
+      "category": "motor",
+      "target_market": "businesses, fleet owners",
+      "eligibility": {
+        "notes": "Enhanced commercial vehicle cover; requires valid driver’s license, vehicle logbook, and valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 2000000,
+        "max": 100000000,
+        "notes": "Sum assured for enhanced comprehensive cover based on CIC’s motor insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "coverage_type": "Comprehensive",
+            "sum_insured": 5000000,
+            "premium_rate": "7% of sum insured",
+            "annual_premium": 350000,
+            "notes": "Based on CIC’s commercial plus rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 350,000/year for KES 5M comprehensive cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Comprehensive: Vehicle damage, theft, third-party liability",
+          "Fleet management support",
+          "Roadside assistance",
+          "Loss of use cover"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage",
+        "Mechanical breakdown"
+      ],
+      "add_ons": [
+        "Excess protector",
+        "Political violence cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Driver’s license",
+          "Claim form",
+          "Vehicle logbook"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "AA Kenya",
+          "Approved garages"
+        ],
+        "note": "Network of repair garages and towing services"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Motor Insurance",
+          "url": "https://cic.co.ke/motor-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_motor_commercial_plus_004\", \"product_name\": \"Motor Commercial Plus Insurance\", \"category\": \"motor\", \"target_market\": \"businesses, fleet owners\", \"eligibility\": {\"notes\": \"Enhanced commercial vehicle cover; requires valid driver’s license, vehicle logbook, and valuation\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 2000000, \"max\": 100000000, \"notes\": \"Sum assured for enhanced comprehensive cover based on CIC’s motor insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly\"], \"rate_table\": [{\"coverage_type\": \"Comprehensive\", \"sum_insured\": 5000000, \"premium_rate\": \"7% of sum insured\", \"annual_premium\": 350000, \"notes\": \"Based on CIC’s commercial plus rates\"}], \"sample_examples\": [{\"example\": \"KES 350,000/year for KES 5M comprehensive cover.\"}]}, \"coverage\": {\"benefits\": [\"Comprehensive: Vehicle damage, theft, third-party liability\", \"Fleet management support\", \"Roadside assistance\", \"Loss of use cover\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Uninsured drivers\", \"Non-accident damage\", \"Mechanical breakdown\"], \"add_ons\": [\"Excess protector\", \"Political violence cover\"], \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Driver’s license\", \"Claim form\", \"Vehicle logbook\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"AA Kenya\", \"Approved garages\"], \"note\": \"Network of repair garages and towing services\"}, \"distribution_channels\": [\"agents\", \"online\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Motor Insurance\", \"url\": \"https://cic.co.ke/motor-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_marine_005_ca19edbf-dea5-4aad-ae9f-7f24d6af3cb9",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_marine_005",
+      "product_name": "Marine Insurance",
+      "category": "marine",
+      "target_market": "importers, exporters, logistics firms",
+      "eligibility": {
+        "notes": "Covers single transit or open cover; requires cargo details"
+      },
+      "geographic_coverage": "Kenya / International",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 500000000,
+        "notes": "Sum assured based on CIC’s marine insurance details"
+      },
+      "premium": {
+        "currency": "KES / USD",
+        "payment_frequency": [
+          "per shipment",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "premium_rate": "0.65% of sum insured",
+            "annual_premium": 65000,
+            "notes": "Based on CIC’s marine cargo rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 65,000/shipment for KES 10M cargo cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage to cargo",
+          "General average contributions",
+          "Salvage charges"
+        ],
+        "duration": "per shipment or annual"
+      },
+      "exclusions": [
+        "Inherent vice",
+        "Improper packing",
+        "War risks unless covered"
+      ],
+      "add_ons": [
+        "War and strikes cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Bill of lading",
+          "Surveyor report",
+          "Claim form"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": [
+          "Marine surveyors"
+        ],
+        "note": "Network for cargo inspections"
+      },
+      "distribution_channels": [
+        "brokers",
+        "marine specialists"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Marine Insurance",
+          "url": "https://cic.co.ke/marine-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_marine_005\", \"product_name\": \"Marine Insurance\", \"category\": \"marine\", \"target_market\": \"importers, exporters, logistics firms\", \"eligibility\": {\"notes\": \"Covers single transit or open cover; requires cargo details\"}, \"geographic_coverage\": \"Kenya / International\", \"sum_assured\": {\"min\": 1000000, \"max\": 500000000, \"notes\": \"Sum assured based on CIC’s marine insurance details\"}, \"premium\": {\"currency\": \"KES / USD\", \"payment_frequency\": [\"per shipment\", \"annual\"], \"rate_table\": [{\"sum_insured\": 10000000, \"premium_rate\": \"0.65% of sum insured\", \"annual_premium\": 65000, \"notes\": \"Based on CIC’s marine cargo rates\"}], \"sample_examples\": [{\"example\": \"KES 65,000/shipment for KES 10M cargo cover.\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage to cargo\", \"General average contributions\", \"Salvage charges\"], \"duration\": \"per shipment or annual\"}, \"exclusions\": [\"Inherent vice\", \"Improper packing\", \"War risks unless covered\"], \"add_ons\": [\"War and strikes cover\"], \"claims_process\": {\"required_documents\": [\"Bill of lading\", \"Surveyor report\", \"Claim form\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"provider_network\": {\"partners\": [\"Marine surveyors\"], \"note\": \"Network for cargo inspections\"}, \"distribution_channels\": [\"brokers\", \"marine specialists\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Marine Insurance\", \"url\": \"https://cic.co.ke/marine-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_livestock_006_84cbe98c-f6e2-4668-83cb-a023f5f4e780",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_livestock_006",
+      "product_name": "Livestock Insurance",
+      "category": "agriculture",
+      "target_market": "livestock farmers, cooperatives",
+      "eligibility": {
+        "notes": "Requires veterinary certification and livestock registration"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 50000,
+        "max": 1000000,
+        "notes": "Sum assured per head based on CIC’s livestock insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "livestock_type": "Cattle",
+            "sum_insured": 200000,
+            "annual_premium": 11000,
+            "notes": "Based on CIC’s livestock insurance rates"
+          },
+          {
+            "livestock_type": "Goats",
+            "sum_insured": 50000,
+            "annual_premium": 3000,
+            "notes": "Lower risk profile"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 11,000/year for KES 200,000 cattle cover per head."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death due to disease, accident",
+          "Theft of livestock",
+          "Index-based payouts for drought"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Negligence",
+        "Unvaccinated livestock",
+        "Unreported theft"
+      ],
+      "add_ons": [
+        "Theft extension",
+        "Drought cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Veterinary report",
+          "Police abstract (theft)",
+          "Claim form"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": [
+          "Veterinary services",
+          "Local cooperatives"
+        ],
+        "note": "Network for inspections and claims verification"
+      },
+      "distribution_channels": [
+        "agents",
+        "cooperatives",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Agriculture Insurance",
+          "url": "https://cic.co.ke/agriculture-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_livestock_006\", \"product_name\": \"Livestock Insurance\", \"category\": \"agriculture\", \"target_market\": \"livestock farmers, cooperatives\", \"eligibility\": {\"notes\": \"Requires veterinary certification and livestock registration\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 50000, \"max\": 1000000, \"notes\": \"Sum assured per head based on CIC’s livestock insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"livestock_type\": \"Cattle\", \"sum_insured\": 200000, \"annual_premium\": 11000, \"notes\": \"Based on CIC’s livestock insurance rates\"}, {\"livestock_type\": \"Goats\", \"sum_insured\": 50000, \"annual_premium\": 3000, \"notes\": \"Lower risk profile\"}], \"sample_examples\": [{\"example\": \"KES 11,000/year for KES 200,000 cattle cover per head.\"}]}, \"coverage\": {\"benefits\": [\"Death due to disease, accident\", \"Theft of livestock\", \"Index-based payouts for drought\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Negligence\", \"Unvaccinated livestock\", \"Unreported theft\"], \"add_ons\": [\"Theft extension\", \"Drought cover\"], \"claims_process\": {\"required_documents\": [\"Veterinary report\", \"Police abstract (theft)\", \"Claim form\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": false}, \"provider_network\": {\"partners\": [\"Veterinary services\", \"Local cooperatives\"], \"note\": \"Network for inspections and claims verification\"}, \"distribution_channels\": [\"agents\", \"cooperatives\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Agriculture Insurance\", \"url\": \"https://cic.co.ke/agriculture-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_crop_007_0c01ad31-66b1-484d-9dd5-c228a7d65596",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_crop_007",
+      "product_name": "Crop Insurance",
+      "category": "agriculture",
+      "target_market": "farmers, agribusinesses",
+      "eligibility": {
+        "notes": "Covers registered farmers; requires farm inspection and crop registration"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 100000,
+        "max": 5000000,
+        "notes": "Sum assured based on CIC’s agriculture insurance product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "seasonal",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "crop_type": "Maize",
+            "sum_insured": 500000,
+            "premium_rate": "5% of sum insured",
+            "annual_premium": 25000,
+            "notes": "Based on CIC’s agriculture product brochure"
+          },
+          {
+            "crop_type": "Wheat",
+            "sum_insured": 500000,
+            "premium_rate": "5.5% of sum insured",
+            "annual_premium": 27500,
+            "notes": "Higher risk due to pest exposure"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/season for KES 500,000 maize crop cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss due to drought, pests, disease",
+          "Index-based payouts (weather triggers)",
+          "Indemnity based on cost of production or expected yield"
+        ],
+        "duration": "per season or annual"
+      },
+      "exclusions": [
+        "Poor farming practices",
+        "Uninsured perils",
+        "Non-registered crops"
+      ],
+      "add_ons": [
+        "Flood cover",
+        "Malicious damage"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Farm inspection report",
+          "Claim form",
+          "Weather data (index-based)",
+          "Proof of loss"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": [
+          "Agricultural extension officers",
+          "Weather stations"
+        ],
+        "note": "Network for inspections and index-based triggers"
+      },
+      "distribution_channels": [
+        "agents",
+        "agribusiness partners",
+        "cooperatives"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Agriculture Insurance",
+          "url": "https://cic.co.ke/agriculture-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_crop_007\", \"product_name\": \"Crop Insurance\", \"category\": \"agriculture\", \"target_market\": \"farmers, agribusinesses\", \"eligibility\": {\"notes\": \"Covers registered farmers; requires farm inspection and crop registration\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 100000, \"max\": 5000000, \"notes\": \"Sum assured based on CIC’s agriculture insurance product details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"seasonal\", \"annual\"], \"rate_table\": [{\"crop_type\": \"Maize\", \"sum_insured\": 500000, \"premium_rate\": \"5% of sum insured\", \"annual_premium\": 25000, \"notes\": \"Based on CIC’s agriculture product brochure\"}, {\"crop_type\": \"Wheat\", \"sum_insured\": 500000, \"premium_rate\": \"5.5% of sum insured\", \"annual_premium\": 27500, \"notes\": \"Higher risk due to pest exposure\"}], \"sample_examples\": [{\"example\": \"KES 25,000/season for KES 500,000 maize crop cover.\"}]}, \"coverage\": {\"benefits\": [\"Loss due to drought, pests, disease\", \"Index-based payouts (weather triggers)\", \"Indemnity based on cost of production or expected yield\"], \"duration\": \"per season or annual\"}, \"exclusions\": [\"Poor farming practices\", \"Uninsured perils\", \"Non-registered crops\"], \"add_ons\": [\"Flood cover\", \"Malicious damage\"], \"claims_process\": {\"required_documents\": [\"Farm inspection report\", \"Claim form\", \"Weather data (index-based)\", \"Proof of loss\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"provider_network\": {\"partners\": [\"Agricultural extension officers\", \"Weather stations\"], \"note\": \"Network for inspections and index-based triggers\"}, \"distribution_channels\": [\"agents\", \"agribusiness partners\", \"cooperatives\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Agriculture Insurance\", \"url\": \"https://cic.co.ke/agriculture-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_forestry_008_7445bbc3-af0c-4c0b-b55a-4a69bd7827c5",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_forestry_008",
+      "product_name": "Forestry Insurance",
+      "category": "agriculture",
+      "target_market": "forestry companies, timber farmers",
+      "eligibility": {
+        "notes": "Requires forest valuation and management plan"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": null,
+        "max": null,
+        "notes": "Sum assured data not publicly available; contact CIC for bespoke quotes"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Premiums bespoke based on forest size and risk. Typical rates 1.5–2.5% of sum insured.",
+        "sample_examples": [
+          {
+            "example": "1.5–2.5% of sum insured for mature forest (based on CIC’s underwriting process)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss due to fire, pests, storms",
+          "Reforestation costs",
+          "Timber value protection"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Illegal logging",
+        "Uninsured natural perils",
+        "Poor forest management"
+      ],
+      "add_ons": [
+        "Landslide cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Valuation report",
+          "Incident report",
+          "Claim form"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": [
+          "Forestry consultants"
+        ],
+        "note": "Network for valuations and loss assessments"
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Agriculture Insurance",
+          "url": "https://cic.co.ke/agriculture-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_forestry_008\", \"product_name\": \"Forestry Insurance\", \"category\": \"agriculture\", \"target_market\": \"forestry companies, timber farmers\", \"eligibility\": {\"notes\": \"Requires forest valuation and management plan\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": null, \"max\": null, \"notes\": \"Sum assured data not publicly available; contact CIC for bespoke quotes\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Premiums bespoke based on forest size and risk. Typical rates 1.5–2.5% of sum insured.\", \"sample_examples\": [{\"example\": \"1.5–2.5% of sum insured for mature forest (based on CIC’s underwriting process).\"}]}, \"coverage\": {\"benefits\": [\"Loss due to fire, pests, storms\", \"Reforestation costs\", \"Timber value protection\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Illegal logging\", \"Uninsured natural perils\", \"Poor forest management\"], \"add_ons\": [\"Landslide cover\"], \"claims_process\": {\"required_documents\": [\"Valuation report\", \"Incident report\", \"Claim form\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"provider_network\": {\"partners\": [\"Forestry consultants\"], \"note\": \"Network for valuations and loss assessments\"}, \"distribution_channels\": [\"brokers\", \"corporate sales\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Agriculture Insurance\", \"url\": \"https://cic.co.ke/agriculture-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_aquaculture_009_86c33179-66fd-4a3a-b5aa-b6e4f20749aa",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_aquaculture_009",
+      "product_name": "Aquaculture Insurance",
+      "category": "agriculture",
+      "target_market": "fish farmers, aquaculture businesses",
+      "eligibility": {
+        "notes": "Requires farm inspection and fish stock registration"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 100000,
+        "max": 5000000,
+        "notes": "Sum assured based on CIC’s aquaculture insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "aquaculture_type": "Fish (Tilapia)",
+            "sum_insured": 500000,
+            "premium_rate": "6% of sum insured",
+            "annual_premium": 30000,
+            "notes": "Based on CIC’s aquaculture insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 30,000/year for KES 500,000 fish stock cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss due to disease, pollution",
+          "Theft of fish stock",
+          "Equipment damage"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Poor farm management",
+        "Uninsured perils",
+        "Non-registered stock"
+      ],
+      "add_ons": [
+        "Flood cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Farm inspection report",
+          "Claim form",
+          "Proof of loss"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": [
+          "Aquaculture consultants"
+        ],
+        "note": "Network for inspections and loss assessments"
+      },
+      "distribution_channels": [
+        "agents",
+        "cooperatives"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Agriculture Insurance",
+          "url": "https://cic.co.ke/agriculture-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_aquaculture_009\", \"product_name\": \"Aquaculture Insurance\", \"category\": \"agriculture\", \"target_market\": \"fish farmers, aquaculture businesses\", \"eligibility\": {\"notes\": \"Requires farm inspection and fish stock registration\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 100000, \"max\": 5000000, \"notes\": \"Sum assured based on CIC’s aquaculture insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"aquaculture_type\": \"Fish (Tilapia)\", \"sum_insured\": 500000, \"premium_rate\": \"6% of sum insured\", \"annual_premium\": 30000, \"notes\": \"Based on CIC’s aquaculture insurance rates\"}], \"sample_examples\": [{\"example\": \"KES 30,000/year for KES 500,000 fish stock cover.\"}]}, \"coverage\": {\"benefits\": [\"Loss due to disease, pollution\", \"Theft of fish stock\", \"Equipment damage\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Poor farm management\", \"Uninsured perils\", \"Non-registered stock\"], \"add_ons\": [\"Flood cover\"], \"claims_process\": {\"required_documents\": [\"Farm inspection report\", \"Claim form\", \"Proof of loss\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"provider_network\": {\"partners\": [\"Aquaculture consultants\"], \"note\": \"Network for inspections and loss assessments\"}, \"distribution_channels\": [\"agents\", \"cooperatives\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Agriculture Insurance\", \"url\": \"https://cic.co.ke/agriculture-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_personal_accident_010_2d53d061-43df-4134-b33a-59737afdc423",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_personal_accident_010",
+      "product_name": "Personal Accident Insurance",
+      "category": "general / accident",
+      "target_market": "individuals",
+      "eligibility": {
+        "notes": "Requires health declaration; no medical exam for standard cover"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 5000000,
+        "notes": "Sum assured based on CIC’s personal accident product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 10000,
+            "notes": "Based on CIC’s personal accident rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 10,000/year for KES 1M accident cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death, disability from accidents",
+          "Medical expenses",
+          "Temporary total disability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "Intentional injuries",
+        "Unreported accidents"
+      ],
+      "add_ons": [
+        "Increased limits",
+        "Medical extension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Medical report",
+          "Incident report",
+          "Claim form"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Medical assessors"
+        ],
+        "note": "Network for accident claims verification"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Personal Accident Insurance",
+          "url": "https://cic.co.ke/personal-accident-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_personal_accident_010\", \"product_name\": \"Personal Accident Insurance\", \"category\": \"general / accident\", \"target_market\": \"individuals\", \"eligibility\": {\"notes\": \"Requires health declaration; no medical exam for standard cover\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 500000, \"max\": 5000000, \"notes\": \"Sum assured based on CIC’s personal accident product details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 10000, \"notes\": \"Based on CIC’s personal accident rates\"}], \"sample_examples\": [{\"example\": \"KES 10,000/year for KES 1M accident cover.\"}]}, \"coverage\": {\"benefits\": [\"Death, disability from accidents\", \"Medical expenses\", \"Temporary total disability\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing conditions\", \"Intentional injuries\", \"Unreported accidents\"], \"add_ons\": [\"Increased limits\", \"Medical extension\"], \"claims_process\": {\"required_documents\": [\"Medical report\", \"Incident report\", \"Claim form\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Medical assessors\"], \"note\": \"Network for accident claims verification\"}, \"distribution_channels\": [\"agents\", \"online\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Personal Accident Insurance\", \"url\": \"https://cic.co.ke/personal-accident-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_travel_011_c5fcb54d-3d61-40e4-b952-e5376b84a552",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_travel_011",
+      "product_name": "Travel Insurance",
+      "category": "general / travel",
+      "target_market": "travelers, students, expatriates",
+      "eligibility": {
+        "notes": "Covers trips up to 90 days; requires travel itinerary"
+      },
+      "geographic_coverage": "Kenya / International",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 10000000,
+        "notes": "Sum assured for medical and liability based on CIC’s travel insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per trip"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "premium_rate": "Varies by destination and duration",
+            "sample_premium": 6000,
+            "notes": "Based on CIC’s travel insurance rates for Schengen trips"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 6,000/trip for KES 5M travel cover (Schengen, 30 days)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Medical emergencies",
+          "Trip cancellation",
+          "Personal liability",
+          "Lost luggage"
+        ],
+        "duration": "per trip (up to 90 days)"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "Unreported losses",
+        "Non-Schengen destinations unless specified"
+      ],
+      "add_ons": [
+        "Sports cover",
+        "Extended trip duration"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Travel itinerary",
+          "Medical receipts",
+          "Claim form"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "International medical providers"
+        ],
+        "note": "Network for global medical and travel claims"
+      },
+      "distribution_channels": [
+        "online",
+        "agents",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Travel Insurance",
+          "url": "https://cic.co.ke/travel-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_travel_011\", \"product_name\": \"Travel Insurance\", \"category\": \"general / travel\", \"target_market\": \"travelers, students, expatriates\", \"eligibility\": {\"notes\": \"Covers trips up to 90 days; requires travel itinerary\"}, \"geographic_coverage\": \"Kenya / International\", \"sum_assured\": {\"min\": 1000000, \"max\": 10000000, \"notes\": \"Sum assured for medical and liability based on CIC’s travel insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per trip\"], \"rate_table\": [{\"sum_insured\": 5000000, \"premium_rate\": \"Varies by destination and duration\", \"sample_premium\": 6000, \"notes\": \"Based on CIC’s travel insurance rates for Schengen trips\"}], \"sample_examples\": [{\"example\": \"KES 6,000/trip for KES 5M travel cover (Schengen, 30 days).\"}]}, \"coverage\": {\"benefits\": [\"Medical emergencies\", \"Trip cancellation\", \"Personal liability\", \"Lost luggage\"], \"duration\": \"per trip (up to 90 days)\"}, \"exclusions\": [\"Pre-existing conditions\", \"Unreported losses\", \"Non-Schengen destinations unless specified\"], \"add_ons\": [\"Sports cover\", \"Extended trip duration\"], \"claims_process\": {\"required_documents\": [\"Travel itinerary\", \"Medical receipts\", \"Claim form\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"International medical providers\"], \"note\": \"Network for global medical and travel claims\"}, \"distribution_channels\": [\"online\", \"agents\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Travel Insurance\", \"url\": \"https://cic.co.ke/travel-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_domestic_package_012_3b56c08d-307b-4beb-a82d-f43b1a7d7016",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_domestic_package_012",
+      "product_name": "Domestic Package / Home Insurance",
+      "category": "general / home",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "notes": "Covers residential properties and contents; valuation required for high-value items"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 50000000,
+        "notes": "Sum assured for contents and building based on CIC’s domestic package details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 25000,
+            "notes": "Based on CIC’s domestic package rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 2M home contents cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Contents loss (fire, theft, accidental damage)",
+          "Building damage (homeowners)",
+          "Personal liability (KES 1M)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Unoccupied homes >30 days",
+        "Uninsured perils"
+      ],
+      "add_ons": [
+        "All-risk for valuables",
+        "Temporary accommodation"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Police abstract (theft)",
+          "Valuation report"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Property assessors"
+        ],
+        "note": "Network for home inspections and claims"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Domestic Package Insurance",
+          "url": "https://cic.co.ke/domestic-package-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_domestic_package_012\", \"product_name\": \"Domestic Package / Home Insurance\", \"category\": \"general / home\", \"target_market\": \"homeowners, tenants\", \"eligibility\": {\"notes\": \"Covers residential properties and contents; valuation required for high-value items\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 500000, \"max\": 50000000, \"notes\": \"Sum assured for contents and building based on CIC’s domestic package details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 2000000, \"annual_premium\": 25000, \"notes\": \"Based on CIC’s domestic package rates\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 2M home contents cover.\"}]}, \"coverage\": {\"benefits\": [\"Contents loss (fire, theft, accidental damage)\", \"Building damage (homeowners)\", \"Personal liability (KES 1M)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear and tear\", \"Unoccupied homes >30 days\", \"Uninsured perils\"], \"add_ons\": [\"All-risk for valuables\", \"Temporary accommodation\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Police abstract (theft)\", \"Valuation report\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Property assessors\"], \"note\": \"Network for home inspections and claims\"}, \"distribution_channels\": [\"agents\", \"online\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Domestic Package Insurance\", \"url\": \"https://cic.co.ke/domestic-package-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_school_bus_013_26104de8-fcbc-46f8-80e1-f92655f5694c",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_school_bus_013",
+      "product_name": "School Bus Insurance",
+      "category": "motor",
+      "target_market": "schools, educational institutions",
+      "eligibility": {
+        "notes": "Requires valid driver’s license, vehicle logbook, and valuation for school buses"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 50000000,
+        "notes": "Sum assured for comprehensive cover based on CIC’s school bus insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "coverage_type": "Comprehensive",
+            "sum_insured": 2000000,
+            "premium_rate": "6% of sum insured",
+            "annual_premium": 120000,
+            "notes": "Based on CIC’s school bus insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 120,000/year for KES 2M comprehensive cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Comprehensive: Vehicle damage, theft, third-party liability",
+          "Passenger liability",
+          "Roadside assistance"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Uninsured drivers",
+        "Non-accident damage",
+        "Mechanical breakdown"
+      ],
+      "add_ons": [
+        "Excess protector",
+        "Passenger injury cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Driver’s license",
+          "Claim form",
+          "Vehicle logbook"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "AA Kenya",
+          "Approved garages"
+        ],
+        "note": "Network of repair garages and towing services"
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC School Products",
+          "url": "https://cic.co.ke/school-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_school_bus_013\", \"product_name\": \"School Bus Insurance\", \"category\": \"motor\", \"target_market\": \"schools, educational institutions\", \"eligibility\": {\"notes\": \"Requires valid driver’s license, vehicle logbook, and valuation for school buses\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 1000000, \"max\": 50000000, \"notes\": \"Sum assured for comprehensive cover based on CIC’s school bus insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"coverage_type\": \"Comprehensive\", \"sum_insured\": 2000000, \"premium_rate\": \"6% of sum insured\", \"annual_premium\": 120000, \"notes\": \"Based on CIC’s school bus insurance rates\"}], \"sample_examples\": [{\"example\": \"KES 120,000/year for KES 2M comprehensive cover.\"}]}, \"coverage\": {\"benefits\": [\"Comprehensive: Vehicle damage, theft, third-party liability\", \"Passenger liability\", \"Roadside assistance\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Uninsured drivers\", \"Non-accident damage\", \"Mechanical breakdown\"], \"add_ons\": [\"Excess protector\", \"Passenger injury cover\"], \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Driver’s license\", \"Claim form\", \"Vehicle logbook\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"AA Kenya\", \"Approved garages\"], \"note\": \"Network of repair garages and towing services\"}, \"distribution_channels\": [\"agents\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC School Products\", \"url\": \"https://cic.co.ke/school-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_school_guard_014_6b2918e9-7a69-470f-a6fc-43f800d0c65e",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_school_guard_014",
+      "product_name": "School Guard Insurance",
+      "category": "general / liability",
+      "target_market": "schools, educational institutions",
+      "eligibility": {
+        "notes": "Covers students and staff; requires enrollment and staff details"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 10000000,
+        "notes": "Sum assured per member based on CIC’s school guard product details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 12000,
+            "notes": "Based on CIC’s school guard rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 12,000/year for KES 1M cover per student/staff."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental injury/death for students and staff",
+          "Medical expenses",
+          "Liability cover for school premises"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-school activities",
+        "Pre-existing conditions",
+        "Intentional injuries"
+      ],
+      "add_ons": [
+        "Increased limits",
+        "Medical extension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Medical report",
+          "Incident report",
+          "Claim form"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Medical assessors"
+        ],
+        "note": "Network for accident claims verification"
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC School Products",
+          "url": "https://cic.co.ke/school-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_school_guard_014\", \"product_name\": \"School Guard Insurance\", \"category\": \"general / liability\", \"target_market\": \"schools, educational institutions\", \"eligibility\": {\"notes\": \"Covers students and staff; requires enrollment and staff details\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 500000, \"max\": 10000000, \"notes\": \"Sum assured per member based on CIC’s school guard product details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 12000, \"notes\": \"Based on CIC’s school guard rates\"}], \"sample_examples\": [{\"example\": \"KES 12,000/year for KES 1M cover per student/staff.\"}]}, \"coverage\": {\"benefits\": [\"Accidental injury/death for students and staff\", \"Medical expenses\", \"Liability cover for school premises\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-school activities\", \"Pre-existing conditions\", \"Intentional injuries\"], \"add_ons\": [\"Increased limits\", \"Medical extension\"], \"claims_process\": {\"required_documents\": [\"Medical report\", \"Incident report\", \"Claim form\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Medical assessors\"], \"note\": \"Network for accident claims verification\"}, \"distribution_channels\": [\"agents\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC School Products\", \"url\": \"https://cic.co.ke/school-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_sports_person_015_64eec529-d8ce-47bf-8b9a-24b516acedf5",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_sports_person_015",
+      "product_name": "Sports Person’s Policy",
+      "category": "general / accident",
+      "target_market": "athletes, sports professionals",
+      "eligibility": {
+        "notes": "Requires health declaration and sports activity details"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 10000000,
+        "notes": "Sum assured based on CIC’s sports policy details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 75000,
+            "notes": "Based on estimated rates for sports-related accident cover"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 75,000/year for KES 5M sports injury cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental injury/death during sports",
+          "Medical expenses",
+          "Temporary total disability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing injuries",
+        "Non-sport-related injuries",
+        "Unreported incidents"
+      ],
+      "add_ons": [
+        "Increased medical limits",
+        "International sports cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Medical report",
+          "Incident report",
+          "Claim form"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Sports medicine providers"
+        ],
+        "note": "Network for injury assessments"
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC General Insurance Products",
+          "url": "https://cic.co.ke/general-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_sports_person_015\", \"product_name\": \"Sports Person’s Policy\", \"category\": \"general / accident\", \"target_market\": \"athletes, sports professionals\", \"eligibility\": {\"notes\": \"Requires health declaration and sports activity details\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 1000000, \"max\": 10000000, \"notes\": \"Sum assured based on CIC’s sports policy details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 75000, \"notes\": \"Based on estimated rates for sports-related accident cover\"}], \"sample_examples\": [{\"example\": \"KES 75,000/year for KES 5M sports injury cover.\"}]}, \"coverage\": {\"benefits\": [\"Accidental injury/death during sports\", \"Medical expenses\", \"Temporary total disability\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing injuries\", \"Non-sport-related injuries\", \"Unreported incidents\"], \"add_ons\": [\"Increased medical limits\", \"International sports cover\"], \"claims_process\": {\"required_documents\": [\"Medical report\", \"Incident report\", \"Claim form\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Sports medicine providers\"], \"note\": \"Network for injury assessments\"}, \"distribution_channels\": [\"agents\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC General Insurance Products\", \"url\": \"https://cic.co.ke/general-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_property_owners_016_ff7be870-974e-4468-bacd-5d7fb5be9260",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_property_owners_016",
+      "product_name": "Property Owners Insurance",
+      "category": "general / property",
+      "target_market": "commercial property owners, landlords",
+      "eligibility": {
+        "notes": "Requires property valuation and title deed"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 5000000,
+        "max": 500000000,
+        "notes": "Sum assured based on CIC’s property insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "premium_rate": "0.5% of sum insured",
+            "annual_premium": 50000,
+            "notes": "Based on CIC’s commercial property rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 50,000/year for KES 10M property cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Building damage (fire, flood, earthquake)",
+          "Loss of rent",
+          "Public liability (KES 5M)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Unoccupied properties >60 days",
+        "Uninsured perils"
+      ],
+      "add_ons": [
+        "Terrorism cover",
+        "Loss of rent extension"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Valuation report",
+          "Claim form",
+          "Incident report"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Property assessors"
+        ],
+        "note": "Network for property inspections and claims"
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Property Insurance",
+          "url": "https://cic.co.ke/property-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_property_owners_016\", \"product_name\": \"Property Owners Insurance\", \"category\": \"general / property\", \"target_market\": \"commercial property owners, landlords\", \"eligibility\": {\"notes\": \"Requires property valuation and title deed\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 5000000, \"max\": 500000000, \"notes\": \"Sum assured based on CIC’s property insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 10000000, \"premium_rate\": \"0.5% of sum insured\", \"annual_premium\": 50000, \"notes\": \"Based on CIC’s commercial property rates\"}], \"sample_examples\": [{\"example\": \"KES 50,000/year for KES 10M property cover.\"}]}, \"coverage\": {\"benefits\": [\"Building damage (fire, flood, earthquake)\", \"Loss of rent\", \"Public liability (KES 5M)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear and tear\", \"Unoccupied properties >60 days\", \"Uninsured perils\"], \"add_ons\": [\"Terrorism cover\", \"Loss of rent extension\"], \"claims_process\": {\"required_documents\": [\"Valuation report\", \"Claim form\", \"Incident report\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Property assessors\"], \"note\": \"Network for property inspections and claims\"}, \"distribution_channels\": [\"brokers\", \"corporate sales\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Property Insurance\", \"url\": \"https://cic.co.ke/property-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_burglary_017_76d57407-bda3-4c95-ae47-07069cbaa68f",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_burglary_017",
+      "product_name": "Burglary Insurance",
+      "category": "general / property",
+      "target_market": "businesses, homeowners",
+      "eligibility": {
+        "notes": "Requires security assessment and inventory of insured items"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 500000,
+        "max": 50000000,
+        "notes": "Sum assured based on CIC’s burglary insurance details"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "premium_rate": "1.5% of sum insured",
+            "annual_premium": 30000,
+            "notes": "Based on CIC’s burglary insurance rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 30,000/year for KES 2M burglary cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss due to burglary/theft",
+          "Damage to property during burglary",
+          "First loss cover available"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unsecured premises",
+        "Non-forcible entry",
+        "Uninsured items"
+      ],
+      "add_ons": [
+        "All-risk cover for valuables"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Claim form",
+          "Inventory list"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Security assessors"
+        ],
+        "note": "Network for theft claims verification"
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Burglary Insurance",
+          "url": "https://cic.co.ke/burglary-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_burglary_017\", \"product_name\": \"Burglary Insurance\", \"category\": \"general / property\", \"target_market\": \"businesses, homeowners\", \"eligibility\": {\"notes\": \"Requires security assessment and inventory of insured items\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 500000, \"max\": 50000000, \"notes\": \"Sum assured based on CIC’s burglary insurance details\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 2000000, \"premium_rate\": \"1.5% of sum insured\", \"annual_premium\": 30000, \"notes\": \"Based on CIC’s burglary insurance rates\"}], \"sample_examples\": [{\"example\": \"KES 30,000/year for KES 2M burglary cover.\"}]}, \"coverage\": {\"benefits\": [\"Loss due to burglary/theft\", \"Damage to property during burglary\", \"First loss cover available\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Unsecured premises\", \"Non-forcible entry\", \"Uninsured items\"], \"add_ons\": [\"All-risk cover for valuables\"], \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Claim form\", \"Inventory list\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Security assessors\"], \"note\": \"Network for theft claims verification\"}, \"distribution_channels\": [\"agents\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Burglary Insurance\", \"url\": \"https://cic.co.ke/burglary-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_consequential_loss_018_c0c9ad0a-2730-4c8b-a4f4-ca112a841def",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_consequential_loss_018",
+      "product_name": "Consequential Loss Insurance",
+      "category": "general / business",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Requires financial records and business continuity plan"
+      },
+      "geographic_coverage": "Kenya",
+      "sum_assured": {
+        "min": 1000000,
+        "max": 100000000,
+        "notes": "Sum assured based on estimated business income"
+      },
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 10000000,
+            "premium_rate": "1% of sum insured",
+            "annual_premium": 100000,
+            "notes": "Based on CIC’s business interruption rates"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 100,000/year for KES 10M business interruption cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss of profits due to insured perils",
+          "Fixed costs during interruption",
+          "Temporary relocation expenses"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-insured perils",
+        "Economic downturns",
+        "Unreported losses"
+      ],
+      "add_ons": [
+        "Extended indemnity period"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Financial records",
+          "Claim form",
+          "Incident report"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "provider_network": {
+        "partners": [
+          "Financial assessors"
+        ],
+        "note": "Network for loss assessments"
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Business Insurance",
+          "url": "https://cic.co.ke/business-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_consequential_loss_018\", \"product_name\": \"Consequential Loss Insurance\", \"category\": \"general / business\", \"target_market\": \"businesses\", \"eligibility\": {\"notes\": \"Requires financial records and business continuity plan\"}, \"geographic_coverage\": \"Kenya\", \"sum_assured\": {\"min\": 1000000, \"max\": 100000000, \"notes\": \"Sum assured based on estimated business income\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 10000000, \"premium_rate\": \"1% of sum insured\", \"annual_premium\": 100000, \"notes\": \"Based on CIC’s business interruption rates\"}], \"sample_examples\": [{\"example\": \"KES 100,000/year for KES 10M business interruption cover.\"}]}, \"coverage\": {\"benefits\": [\"Loss of profits due to insured perils\", \"Fixed costs during interruption\", \"Temporary relocation expenses\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-insured perils\", \"Economic downturns\", \"Unreported losses\"], \"add_ons\": [\"Extended indemnity period\"], \"claims_process\": {\"required_documents\": [\"Financial records\", \"Claim form\", \"Incident report\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"provider_network\": {\"partners\": [\"Financial assessors\"], \"note\": \"Network for loss assessments\"}, \"distribution_channels\": [\"brokers\", \"corporate sales\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Business Insurance\", \"url\": \"https://cic.co.ke/business-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_health_019_55e58636-bceb-4a85-93fe-7da04351f731",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_health_019",
+      "product_name": "Health Insurance",
+      "category": "medical",
+      "target_market": "individuals, families, corporates",
+      "eligibility": {
+        "notes": "Requires health declaration; no medical exam for standard plans"
+      },
+      "geographic_coverage": "Kenya",
+      "sub_products": [
+        {
+          "sub_product_id": "cic_medisure_family_019a",
+          "sub_product_name": "Medisure Family",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 10000000,
+            "notes": "Sum assured for inpatient and outpatient cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual",
+              "quarterly"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 80000,
+                "notes": "Based on CIC’s Medisure Family rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 80,000/year for KES 5M family cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_medisure_corporate_019b",
+          "sub_product_name": "Medisure Corporate",
+          "sum_assured": {
+            "min": 2000000,
+            "max": 20000000,
+            "notes": "Sum assured for corporate employees"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 10000000,
+                "annual_premium": 120000,
+                "notes": "Based on CIC’s corporate medical rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 120,000/year per employee for KES 10M cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_medipack_019c",
+          "sub_product_name": "Medipack",
+          "sum_assured": {
+            "min": 500000,
+            "max": 5000000,
+            "notes": "Affordable medical cover for individuals"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 25000,
+                "notes": "Based on CIC’s Medipack rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 25,000/year for KES 1M individual cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_medical_plans_019d",
+          "sub_product_name": "Medical Plans",
+          "variants": [
+            {
+              "variant_name": "Prestige",
+              "sum_insured": 15000000,
+              "annual_premium": 150000,
+              "notes": "Premium plan with international cover"
+            },
+            {
+              "variant_name": "Premier",
+              "sum_insured": 10000000,
+              "annual_premium": 100000,
+              "notes": "High-end plan with enhanced benefits"
+            },
+            {
+              "variant_name": "Superior",
+              "sum_insured": 8000000,
+              "annual_premium": 80000,
+              "notes": "Comprehensive cover"
+            },
+            {
+              "variant_name": "Comprehensive",
+              "sum_insured": 5000000,
+              "annual_premium": 60000,
+              "notes": "Balanced inpatient/outpatient cover"
+            },
+            {
+              "variant_name": "Standard",
+              "sum_insured": 3000000,
+              "annual_premium": 40000,
+              "notes": "Mid-tier plan"
+            },
+            {
+              "variant_name": "Essential",
+              "sum_insured": 1000000,
+              "annual_premium": 20000,
+              "notes": "Basic medical cover"
+            }
+          ],
+          "sample_examples": [
+            {
+              "example": "KES 150,000/year for KES 15M Prestige cover."
+            },
+            {
+              "example": "KES 20,000/year for KES 1M Essential cover."
+            }
+          ]
+        },
+        {
+          "sub_product_id": "cic_afya_bora_019e",
+          "sub_product_name": "Afya Bora",
+          "sum_assured": {
+            "min": 500000,
+            "max": 5000000,
+            "notes": "Affordable medical cover for low-income families"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 15000,
+                "notes": "Based on CIC’s Afya Bora rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 15,000/year for KES 1M family cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_seniors_mediplan_019f",
+          "sub_product_name": "Seniors Mediplan",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 5000000,
+            "notes": "Medical cover for seniors (60+)"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 2000000,
+                "annual_premium": 50000,
+                "notes": "Based on CIC’s Seniors Mediplan rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 50,000/year for KES 2M senior cover."
+              }
+            ]
+          }
+        }
+      ],
+      "coverage": {
+        "benefits": [
+          "Inpatient and outpatient treatment",
+          "Maternity cover (select plans)",
+          "Dental and optical (select plans)",
+          "Critical illness cover (Prestige/Premier)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions (unless disclosed)",
+        "Cosmetic procedures",
+        "Unapproved hospitals"
+      ],
+      "add_ons": [
+        "Maternity extension",
+        "International cover"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Medical bills",
+          "Claim form",
+          "Membership card"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "AAR, Mater, Nairobi Hospital"
+        ],
+        "note": "Extensive hospital network across Kenya"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Medical Insurance",
+          "url": "https://cic.co.ke/medical-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_health_019\", \"product_name\": \"Health Insurance\", \"category\": \"medical\", \"target_market\": \"individuals, families, corporates\", \"eligibility\": {\"notes\": \"Requires health declaration; no medical exam for standard plans\"}, \"geographic_coverage\": \"Kenya\", \"sub_products\": [{\"sub_product_id\": \"cic_medisure_family_019a\", \"sub_product_name\": \"Medisure Family\", \"sum_assured\": {\"min\": 1000000, \"max\": 10000000, \"notes\": \"Sum assured for inpatient and outpatient cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"quarterly\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 80000, \"notes\": \"Based on CIC’s Medisure Family rates\"}], \"sample_examples\": [{\"example\": \"KES 80,000/year for KES 5M family cover.\"}]}}, {\"sub_product_id\": \"cic_medisure_corporate_019b\", \"sub_product_name\": \"Medisure Corporate\", \"sum_assured\": {\"min\": 2000000, \"max\": 20000000, \"notes\": \"Sum assured for corporate employees\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 10000000, \"annual_premium\": 120000, \"notes\": \"Based on CIC’s corporate medical rates\"}], \"sample_examples\": [{\"example\": \"KES 120,000/year per employee for KES 10M cover.\"}]}}, {\"sub_product_id\": \"cic_medipack_019c\", \"sub_product_name\": \"Medipack\", \"sum_assured\": {\"min\": 500000, \"max\": 5000000, \"notes\": \"Affordable medical cover for individuals\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 25000, \"notes\": \"Based on CIC’s Medipack rates\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 1M individual cover.\"}]}}, {\"sub_product_id\": \"cic_medical_plans_019d\", \"sub_product_name\": \"Medical Plans\", \"variants\": [{\"variant_name\": \"Prestige\", \"sum_insured\": 15000000, \"annual_premium\": 150000, \"notes\": \"Premium plan with international cover\"}, {\"variant_name\": \"Premier\", \"sum_insured\": 10000000, \"annual_premium\": 100000, \"notes\": \"High-end plan with enhanced benefits\"}, {\"variant_name\": \"Superior\", \"sum_insured\": 8000000, \"annual_premium\": 80000, \"notes\": \"Comprehensive cover\"}, {\"variant_name\": \"Comprehensive\", \"sum_insured\": 5000000, \"annual_premium\": 60000, \"notes\": \"Balanced inpatient/outpatient cover\"}, {\"variant_name\": \"Standard\", \"sum_insured\": 3000000, \"annual_premium\": 40000, \"notes\": \"Mid-tier plan\"}, {\"variant_name\": \"Essential\", \"sum_insured\": 1000000, \"annual_premium\": 20000, \"notes\": \"Basic medical cover\"}], \"sample_examples\": [{\"example\": \"KES 150,000/year for KES 15M Prestige cover.\"}, {\"example\": \"KES 20,000/year for KES 1M Essential cover.\"}]}, {\"sub_product_id\": \"cic_afya_bora_019e\", \"sub_product_name\": \"Afya Bora\", \"sum_assured\": {\"min\": 500000, \"max\": 5000000, \"notes\": \"Affordable medical cover for low-income families\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 15000, \"notes\": \"Based on CIC’s Afya Bora rates\"}], \"sample_examples\": [{\"example\": \"KES 15,000/year for KES 1M family cover.\"}]}}, {\"sub_product_id\": \"cic_seniors_mediplan_019f\", \"sub_product_name\": \"Seniors Mediplan\", \"sum_assured\": {\"min\": 1000000, \"max\": 5000000, \"notes\": \"Medical cover for seniors (60+)\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 2000000, \"annual_premium\": 50000, \"notes\": \"Based on CIC’s Seniors Mediplan rates\"}], \"sample_examples\": [{\"example\": \"KES 50,000/year for KES 2M senior cover.\"}]}}], \"coverage\": {\"benefits\": [\"Inpatient and outpatient treatment\", \"Maternity cover (select plans)\", \"Dental and optical (select plans)\", \"Critical illness cover (Prestige/Premier)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing conditions (unless disclosed)\", \"Cosmetic procedures\", \"Unapproved hospitals\"], \"add_ons\": [\"Maternity extension\", \"International cover\"], \"claims_process\": {\"required_documents\": [\"Medical bills\", \"Claim form\", \"Membership card\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"AAR, Mater, Nairobi Hospital\"], \"note\": \"Extensive hospital network across Kenya\"}, \"distribution_channels\": [\"agents\", \"online\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Medical Insurance\", \"url\": \"https://cic.co.ke/medical-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_life_assurance_020_fabbd38a-0a2d-4532-87d8-1d88bf4913f1",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_life_assurance_020",
+      "product_name": "Life Insurance / Assurance",
+      "category": "life",
+      "target_market": "individuals, groups, corporates",
+      "eligibility": {
+        "notes": "Requires health declaration; medical exam for high sums"
+      },
+      "geographic_coverage": "Kenya",
+      "sub_products": [
+        {
+          "sub_product_id": "cic_bima_credo_020a",
+          "sub_product_name": "CIC Bima Credo",
+          "sum_assured": {
+            "min": 500000,
+            "max": 10000000,
+            "notes": "Life cover with savings component"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "quarterly",
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 15000,
+                "notes": "Based on CIC’s Bima Credo rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 15,000/year for KES 1M life cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_academia_020b",
+          "sub_product_name": "CIC Academia Policy",
+          "sum_assured": {
+            "min": 500000,
+            "max": 5000000,
+            "notes": "Education savings plan with life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "quarterly",
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 20000,
+                "notes": "Based on CIC’s Academia rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 20,000/year for KES 1M education cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_group_life_020c",
+          "sub_product_name": "Group Life Assurance",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 50000000,
+            "notes": "Group cover for employees"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 50000,
+                "notes": "Based on CIC’s group life rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 50,000/year per employee for KES 5M cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_keyman_020d",
+          "sub_product_name": "Keyman Policy",
+          "sum_assured": {
+            "min": 5000000,
+            "max": 100000000,
+            "notes": "Cover for critical personnel"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 10000000,
+                "annual_premium": 100000,
+                "notes": "Based on CIC’s keyman rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 100,000/year for KES 10M keyman cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_invest_plan_020e",
+          "sub_product_name": "CIC Invest Plan Policy",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 20000000,
+            "notes": "Life cover with investment component"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "quarterly",
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 60000,
+                "notes": "Based on CIC’s Invest Plan rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 60,000/year for KES 5M investment cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_jikinge_020f",
+          "sub_product_name": "Jikinge",
+          "sum_assured": {
+            "min": 200000,
+            "max": 2000000,
+            "notes": "Affordable life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "quarterly"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 500000,
+                "annual_premium": 6000,
+                "notes": "Based on CIC’s Jikinge rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 6,000/year for KES 500,000 life cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_jipange_pension_020g",
+          "sub_product_name": "Jipange Pension Plan",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Pension savings plan; sum assured varies"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "quarterly",
+              "annual"
+            ],
+            "rate_table": null,
+            "rate_table_notes": "Premiums based on contribution; contact CIC for details",
+            "sample_examples": [
+              {
+                "example": "KES 5,000/month for pension savings."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_family_protector_020h",
+          "sub_product_name": "Family Protector Policy",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 10000000,
+            "notes": "Family life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 50000,
+                "notes": "Based on CIC’s Family Protector rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 50,000/year for KES 5M family cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_board_members_020i",
+          "sub_product_name": "Board Members Insurance Plan",
+          "sum_assured": {
+            "min": 5000000,
+            "max": 50000000,
+            "notes": "Cover for board members"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 10000000,
+                "annual_premium": 120000,
+                "notes": "Based on CIC’s board members plan rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 120,000/year for KES 10M board member cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_annuity_plan_020j",
+          "sub_product_name": "Annuity Plan",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Payouts based on contributions"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "lump sum",
+              "periodic"
+            ],
+            "rate_table": null,
+            "rate_table_notes": "Premiums bespoke; contact CIC for details",
+            "sample_examples": [
+              {
+                "example": "KES 1M lump sum for annuity payouts."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_last_expense_020k",
+          "sub_product_name": "Last Expense Plan",
+          "sum_assured": {
+            "min": 100000,
+            "max": 1000000,
+            "notes": "Funeral expense cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 200000,
+                "annual_premium": 2400,
+                "notes": "Based on CIC’s Last Expense rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 2,400/year for KES 200,000 funeral cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_smart_saver_020l",
+          "sub_product_name": "Smart Saver Policy",
+          "sum_assured": {
+            "min": 500000,
+            "max": 5000000,
+            "notes": "Life cover with savings"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "quarterly"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 12000,
+                "notes": "Based on CIC’s Smart Saver rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 12,000/year for KES 1M savings cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_mepip_020m",
+          "sub_product_name": "MEPIP",
+          "sum_assured": {
+            "min": 1000000,
+            "max": 10000000,
+            "notes": "Mortgage protection cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 5000000,
+                "annual_premium": 60000,
+                "notes": "Based on CIC’s MEPIP rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 60,000/year for KES 5M mortgage cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_loan_guard_020n",
+          "sub_product_name": "Loan Guard",
+          "sum_assured": {
+            "min": 500000,
+            "max": 10000000,
+            "notes": "Loan protection cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "annual"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 1000000,
+                "annual_premium": 15000,
+                "notes": "Based on CIC’s Loan Guard rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 15,000/year for KES 1M loan cover."
+              }
+            ]
+          }
+        }
+      ],
+      "coverage": {
+        "benefits": [
+          "Death benefit",
+          "Disability cover (select plans)",
+          "Savings/investment returns (select plans)",
+          "Loan/mortgage protection"
+        ],
+        "duration": "term-based or whole life"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "Suicide within 2 years",
+        "Unreported claims"
+      ],
+      "add_ons": [
+        "Critical illness",
+        "Accidental death benefit"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Death certificate",
+          "Claim form",
+          "Medical report (disability)"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Medical assessors",
+          "Financial advisors"
+        ],
+        "note": "Network for claims verification"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "brokers"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Life Assurance",
+          "url": "https://cic.co.ke/life-assurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_life_assurance_020\", \"product_name\": \"Life Insurance / Assurance\", \"category\": \"life\", \"target_market\": \"individuals, groups, corporates\", \"eligibility\": {\"notes\": \"Requires health declaration; medical exam for high sums\"}, \"geographic_coverage\": \"Kenya\", \"sub_products\": [{\"sub_product_id\": \"cic_bima_credo_020a\", \"sub_product_name\": \"CIC Bima Credo\", \"sum_assured\": {\"min\": 500000, \"max\": 10000000, \"notes\": \"Life cover with savings component\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 15000, \"notes\": \"Based on CIC’s Bima Credo rates\"}], \"sample_examples\": [{\"example\": \"KES 15,000/year for KES 1M life cover.\"}]}}, {\"sub_product_id\": \"cic_academia_020b\", \"sub_product_name\": \"CIC Academia Policy\", \"sum_assured\": {\"min\": 500000, \"max\": 5000000, \"notes\": \"Education savings plan with life cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 20000, \"notes\": \"Based on CIC’s Academia rates\"}], \"sample_examples\": [{\"example\": \"KES 20,000/year for KES 1M education cover.\"}]}}, {\"sub_product_id\": \"cic_group_life_020c\", \"sub_product_name\": \"Group Life Assurance\", \"sum_assured\": {\"min\": 1000000, \"max\": 50000000, \"notes\": \"Group cover for employees\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 50000, \"notes\": \"Based on CIC’s group life rates\"}], \"sample_examples\": [{\"example\": \"KES 50,000/year per employee for KES 5M cover.\"}]}}, {\"sub_product_id\": \"cic_keyman_020d\", \"sub_product_name\": \"Keyman Policy\", \"sum_assured\": {\"min\": 5000000, \"max\": 100000000, \"notes\": \"Cover for critical personnel\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 10000000, \"annual_premium\": 100000, \"notes\": \"Based on CIC’s keyman rates\"}], \"sample_examples\": [{\"example\": \"KES 100,000/year for KES 10M keyman cover.\"}]}}, {\"sub_product_id\": \"cic_invest_plan_020e\", \"sub_product_name\": \"CIC Invest Plan Policy\", \"sum_assured\": {\"min\": 1000000, \"max\": 20000000, \"notes\": \"Life cover with investment component\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 60000, \"notes\": \"Based on CIC’s Invest Plan rates\"}], \"sample_examples\": [{\"example\": \"KES 60,000/year for KES 5M investment cover.\"}]}}, {\"sub_product_id\": \"cic_jikinge_020f\", \"sub_product_name\": \"Jikinge\", \"sum_assured\": {\"min\": 200000, \"max\": 2000000, \"notes\": \"Affordable life cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\"], \"rate_table\": [{\"sum_insured\": 500000, \"annual_premium\": 6000, \"notes\": \"Based on CIC’s Jikinge rates\"}], \"sample_examples\": [{\"example\": \"KES 6,000/year for KES 500,000 life cover.\"}]}}, {\"sub_product_id\": \"cic_jipange_pension_020g\", \"sub_product_name\": \"Jipange Pension Plan\", \"sum_assured\": {\"min\": null, \"max\": null, \"notes\": \"Pension savings plan; sum assured varies\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\", \"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Premiums based on contribution; contact CIC for details\", \"sample_examples\": [{\"example\": \"KES 5,000/month for pension savings.\"}]}}, {\"sub_product_id\": \"cic_family_protector_020h\", \"sub_product_name\": \"Family Protector Policy\", \"sum_assured\": {\"min\": 1000000, \"max\": 10000000, \"notes\": \"Family life cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 50000, \"notes\": \"Based on CIC’s Family Protector rates\"}], \"sample_examples\": [{\"example\": \"KES 50,000/year for KES 5M family cover.\"}]}}, {\"sub_product_id\": \"cic_board_members_020i\", \"sub_product_name\": \"Board Members Insurance Plan\", \"sum_assured\": {\"min\": 5000000, \"max\": 50000000, \"notes\": \"Cover for board members\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 10000000, \"annual_premium\": 120000, \"notes\": \"Based on CIC’s board members plan rates\"}], \"sample_examples\": [{\"example\": \"KES 120,000/year for KES 10M board member cover.\"}]}}, {\"sub_product_id\": \"cic_annuity_plan_020j\", \"sub_product_name\": \"Annuity Plan\", \"sum_assured\": {\"min\": null, \"max\": null, \"notes\": \"Payouts based on contributions\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump sum\", \"periodic\"], \"rate_table\": null, \"rate_table_notes\": \"Premiums bespoke; contact CIC for details\", \"sample_examples\": [{\"example\": \"KES 1M lump sum for annuity payouts.\"}]}}, {\"sub_product_id\": \"cic_last_expense_020k\", \"sub_product_name\": \"Last Expense Plan\", \"sum_assured\": {\"min\": 100000, \"max\": 1000000, \"notes\": \"Funeral expense cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"sum_insured\": 200000, \"annual_premium\": 2400, \"notes\": \"Based on CIC’s Last Expense rates\"}], \"sample_examples\": [{\"example\": \"KES 2,400/year for KES 200,000 funeral cover.\"}]}}, {\"sub_product_id\": \"cic_smart_saver_020l\", \"sub_product_name\": \"Smart Saver Policy\", \"sum_assured\": {\"min\": 500000, \"max\": 5000000, \"notes\": \"Life cover with savings\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 12000, \"notes\": \"Based on CIC’s Smart Saver rates\"}], \"sample_examples\": [{\"example\": \"KES 12,000/year for KES 1M savings cover.\"}]}}, {\"sub_product_id\": \"cic_mepip_020m\", \"sub_product_name\": \"MEPIP\", \"sum_assured\": {\"min\": 1000000, \"max\": 10000000, \"notes\": \"Mortgage protection cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 60000, \"notes\": \"Based on CIC’s MEPIP rates\"}], \"sample_examples\": [{\"example\": \"KES 60,000/year for KES 5M mortgage cover.\"}]}}, {\"sub_product_id\": \"cic_loan_guard_020n\", \"sub_product_name\": \"Loan Guard\", \"sum_assured\": {\"min\": 500000, \"max\": 10000000, \"notes\": \"Loan protection cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 15000, \"notes\": \"Based on CIC’s Loan Guard rates\"}], \"sample_examples\": [{\"example\": \"KES 15,000/year for KES 1M loan cover.\"}]}}], \"coverage\": {\"benefits\": [\"Death benefit\", \"Disability cover (select plans)\", \"Savings/investment returns (select plans)\", \"Loan/mortgage protection\"], \"duration\": \"term-based or whole life\"}, \"exclusions\": [\"Pre-existing conditions\", \"Suicide within 2 years\", \"Unreported claims\"], \"add_ons\": [\"Critical illness\", \"Accidental death benefit\"], \"claims_process\": {\"required_documents\": [\"Death certificate\", \"Claim form\", \"Medical report (disability)\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Medical assessors\", \"Financial advisors\"], \"note\": \"Network for claims verification\"}, \"distribution_channels\": [\"agents\", \"online\", \"brokers\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Life Assurance\", \"url\": \"https://cic.co.ke/life-assurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_microinsurance_021_ab0f9d1c-45c6-43e9-8f55-51792ce4de06",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_microinsurance_021",
+      "product_name": "Microinsurance / Special Products",
+      "category": "microinsurance",
+      "target_market": "low-income individuals, cooperatives",
+      "eligibility": {
+        "notes": "Affordable plans for underserved communities"
+      },
+      "geographic_coverage": "Kenya",
+      "sub_products": [
+        {
+          "sub_product_id": "cic_coopcare_021a",
+          "sub_product_name": "CoopCare",
+          "sum_assured": {
+            "min": 100000,
+            "max": 1000000,
+            "notes": "Micro health cover for cooperatives"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "quarterly"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 500000,
+                "annual_premium": 6000,
+                "notes": "Based on CIC’s CoopCare rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 6,000/year for KES 500,000 health cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_biashara_salama_021b",
+          "sub_product_name": "Biashara Salama",
+          "sum_assured": {
+            "min": 100000,
+            "max": 1000000,
+            "notes": "Micro business cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 500000,
+                "annual_premium": 5000,
+                "notes": "Based on CIC’s Biashara Salama rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 5,000/year for KES 500,000 business cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_jikinge_micro_021c",
+          "sub_product_name": "Jikinge (Micro)",
+          "sum_assured": {
+            "min": 50000,
+            "max": 500000,
+            "notes": "Micro life cover"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 200000,
+                "annual_premium": 2400,
+                "notes": "Based on CIC’s Jikinge micro rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 2,400/year for KES 200,000 life cover."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_group_funeral_021d",
+          "sub_product_name": "Group Funeral Expense Cover",
+          "sum_assured": {
+            "min": 50000,
+            "max": 500000,
+            "notes": "Funeral expense cover for groups"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly"
+            ],
+            "rate_table": [
+              {
+                "sum_insured": 100000,
+                "annual_premium": 1200,
+                "notes": "Based on CIC’s group funeral rates"
+              }
+            ],
+            "sample_examples": [
+              {
+                "example": "KES 1,200/year for KES 100,000 funeral cover."
+              }
+            ]
+          }
+        }
+      ],
+      "coverage": {
+        "benefits": [
+          "Health cover (CoopCare)",
+          "Business protection (Biashara Salama)",
+          "Life cover (Jikinge)",
+          "Funeral expenses (Group Funeral)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "Unreported claims",
+        "Non-registered members"
+      ],
+      "add_ons": [
+        "Increased limits"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Claim form",
+          "Medical bills (health)",
+          "Death certificate (funeral)"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Cooperatives",
+          "Microfinance institutions"
+        ],
+        "note": "Network for microinsurance claims"
+      },
+      "distribution_channels": [
+        "agents",
+        "cooperatives",
+        "mobile platforms"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Microinsurance",
+          "url": "https://cic.co.ke/microinsurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_microinsurance_021\", \"product_name\": \"Microinsurance / Special Products\", \"category\": \"microinsurance\", \"target_market\": \"low-income individuals, cooperatives\", \"eligibility\": {\"notes\": \"Affordable plans for underserved communities\"}, \"geographic_coverage\": \"Kenya\", \"sub_products\": [{\"sub_product_id\": \"cic_coopcare_021a\", \"sub_product_name\": \"CoopCare\", \"sum_assured\": {\"min\": 100000, \"max\": 1000000, \"notes\": \"Micro health cover for cooperatives\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\"], \"rate_table\": [{\"sum_insured\": 500000, \"annual_premium\": 6000, \"notes\": \"Based on CIC’s CoopCare rates\"}], \"sample_examples\": [{\"example\": \"KES 6,000/year for KES 500,000 health cover.\"}]}}, {\"sub_product_id\": \"cic_biashara_salama_021b\", \"sub_product_name\": \"Biashara Salama\", \"sum_assured\": {\"min\": 100000, \"max\": 1000000, \"notes\": \"Micro business cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\"], \"rate_table\": [{\"sum_insured\": 500000, \"annual_premium\": 5000, \"notes\": \"Based on CIC’s Biashara Salama rates\"}], \"sample_examples\": [{\"example\": \"KES 5,000/year for KES 500,000 business cover.\"}]}}, {\"sub_product_id\": \"cic_jikinge_micro_021c\", \"sub_product_name\": \"Jikinge (Micro)\", \"sum_assured\": {\"min\": 50000, \"max\": 500000, \"notes\": \"Micro life cover\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\"], \"rate_table\": [{\"sum_insured\": 200000, \"annual_premium\": 2400, \"notes\": \"Based on CIC’s Jikinge micro rates\"}], \"sample_examples\": [{\"example\": \"KES 2,400/year for KES 200,000 life cover.\"}]}}, {\"sub_product_id\": \"cic_group_funeral_021d\", \"sub_product_name\": \"Group Funeral Expense Cover\", \"sum_assured\": {\"min\": 50000, \"max\": 500000, \"notes\": \"Funeral expense cover for groups\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\"], \"rate_table\": [{\"sum_insured\": 100000, \"annual_premium\": 1200, \"notes\": \"Based on CIC’s group funeral rates\"}], \"sample_examples\": [{\"example\": \"KES 1,200/year for KES 100,000 funeral cover.\"}]}}], \"coverage\": {\"benefits\": [\"Health cover (CoopCare)\", \"Business protection (Biashara Salama)\", \"Life cover (Jikinge)\", \"Funeral expenses (Group Funeral)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing conditions\", \"Unreported claims\", \"Non-registered members\"], \"add_ons\": [\"Increased limits\"], \"claims_process\": {\"required_documents\": [\"Claim form\", \"Medical bills (health)\", \"Death certificate (funeral)\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Cooperatives\", \"Microfinance institutions\"], \"note\": \"Network for microinsurance claims\"}, \"distribution_channels\": [\"agents\", \"cooperatives\", \"mobile platforms\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Microinsurance\", \"url\": \"https://cic.co.ke/microinsurance/\"}]}"
+  },
+  {
+    "chunk_id": "cic_001_cic_asset_management_022_a73bd86d-6c19-46a5-9e1a-ce2806271311",
+    "metadata": {
+      "company_name": "CIC Insurance Group Limited",
+      "product_id": "cic_asset_management_022",
+      "product_name": "Asset Management / Investment",
+      "category": "investment",
+      "target_market": "individuals, corporates, institutions",
+      "eligibility": {
+        "notes": "Requires minimum investment amount"
+      },
+      "geographic_coverage": "Kenya",
+      "sub_products": [
+        {
+          "sub_product_id": "cic_unit_trusts_022a",
+          "sub_product_name": "Unit Trusts",
+          "variants": [
+            {
+              "variant_name": "Money Market Fund",
+              "minimum_investment": 5000,
+              "expected_return": "8–10% p.a.",
+              "notes": "Low-risk, short-term investment"
+            },
+            {
+              "variant_name": "Equity Fund",
+              "minimum_investment": 5000,
+              "expected_return": "12–15% p.a.",
+              "notes": "High-risk, equity-based"
+            },
+            {
+              "variant_name": "Balanced Fund",
+              "minimum_investment": 5000,
+              "expected_return": "10–12% p.a.",
+              "notes": "Mix of equities and fixed income"
+            },
+            {
+              "variant_name": "Fixed Income Fund",
+              "minimum_investment": 5000,
+              "expected_return": "9–11% p.a.",
+              "notes": "Low-risk, bond-focused"
+            },
+            {
+              "variant_name": "Wealth Fund",
+              "minimum_investment": 100000,
+              "expected_return": "10–13% p.a.",
+              "notes": "High-net-worth individuals"
+            },
+            {
+              "variant_name": "Dollar Fund",
+              "minimum_investment": 100,
+              "currency": "USD",
+              "expected_return": "4–6% p.a.",
+              "notes": "USD-denominated fund"
+            }
+          ],
+          "sample_examples": [
+            {
+              "example": "KES 5,000 minimum for 8–10% p.a. Money Market Fund."
+            }
+          ]
+        },
+        {
+          "sub_product_id": "cic_pension_fund_022b",
+          "sub_product_name": "Pension Fund Management",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Umbrella retirement schemes; returns vary"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "monthly",
+              "quarterly"
+            ],
+            "rate_table": null,
+            "rate_table_notes": "Contributions bespoke; contact CIC for details",
+            "sample_examples": [
+              {
+                "example": "KES 10,000/month for pension savings."
+              }
+            ]
+          }
+        },
+        {
+          "sub_product_id": "cic_annuities_income_022c",
+          "sub_product_name": "Annuities & Income Draw-Down Options",
+          "sum_assured": {
+            "min": null,
+            "max": null,
+            "notes": "Payouts based on investment"
+          },
+          "premium": {
+            "currency": "KES",
+            "payment_frequency": [
+              "lump sum",
+              "periodic"
+            ],
+            "rate_table": null,
+            "rate_table_notes": "Bespoke plans; contact CIC for details",
+            "sample_examples": [
+              {
+                "example": "KES 1M lump sum for annuity payouts."
+              }
+            ]
+          }
+        }
+      ],
+      "coverage": {
+        "benefits": [
+          "Investment returns",
+          "Pension savings",
+          "Regular income (annuities)"
+        ],
+        "duration": "flexible"
+      },
+      "exclusions": [
+        "Market losses",
+        "Early withdrawal penalties"
+      ],
+      "add_ons": [
+        "Customized portfolio management"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Investment agreement",
+          "Withdrawal form"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "provider_network": {
+        "partners": [
+          "Fund managers",
+          "Custodians"
+        ],
+        "note": "Network for investment management"
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "financial advisors"
+      ],
+      "last_updated": "2025-09-13",
+      "sources": [
+        {
+          "title": "CIC Asset Management",
+          "url": "https://cic.co.ke/asset-management/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"CIC Insurance Group Limited\", \"product_id\": \"cic_asset_management_022\", \"product_name\": \"Asset Management / Investment\", \"category\": \"investment\", \"target_market\": \"individuals, corporates, institutions\", \"eligibility\": {\"notes\": \"Requires minimum investment amount\"}, \"geographic_coverage\": \"Kenya\", \"sub_products\": [{\"sub_product_id\": \"cic_unit_trusts_022a\", \"sub_product_name\": \"Unit Trusts\", \"variants\": [{\"variant_name\": \"Money Market Fund\", \"minimum_investment\": 5000, \"expected_return\": \"8–10% p.a.\", \"notes\": \"Low-risk, short-term investment\"}, {\"variant_name\": \"Equity Fund\", \"minimum_investment\": 5000, \"expected_return\": \"12–15% p.a.\", \"notes\": \"High-risk, equity-based\"}, {\"variant_name\": \"Balanced Fund\", \"minimum_investment\": 5000, \"expected_return\": \"10–12% p.a.\", \"notes\": \"Mix of equities and fixed income\"}, {\"variant_name\": \"Fixed Income Fund\", \"minimum_investment\": 5000, \"expected_return\": \"9–11% p.a.\", \"notes\": \"Low-risk, bond-focused\"}, {\"variant_name\": \"Wealth Fund\", \"minimum_investment\": 100000, \"expected_return\": \"10–13% p.a.\", \"notes\": \"High-net-worth individuals\"}, {\"variant_name\": \"Dollar Fund\", \"minimum_investment\": 100, \"currency\": \"USD\", \"expected_return\": \"4–6% p.a.\", \"notes\": \"USD-denominated fund\"}], \"sample_examples\": [{\"example\": \"KES 5,000 minimum for 8–10% p.a. Money Market Fund.\"}]}, {\"sub_product_id\": \"cic_pension_fund_022b\", \"sub_product_name\": \"Pension Fund Management\", \"sum_assured\": {\"min\": null, \"max\": null, \"notes\": \"Umbrella retirement schemes; returns vary\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"quarterly\"], \"rate_table\": null, \"rate_table_notes\": \"Contributions bespoke; contact CIC for details\", \"sample_examples\": [{\"example\": \"KES 10,000/month for pension savings.\"}]}}, {\"sub_product_id\": \"cic_annuities_income_022c\", \"sub_product_name\": \"Annuities & Income Draw-Down Options\", \"sum_assured\": {\"min\": null, \"max\": null, \"notes\": \"Payouts based on investment\"}, \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"lump sum\", \"periodic\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke plans; contact CIC for details\", \"sample_examples\": [{\"example\": \"KES 1M lump sum for annuity payouts.\"}]}}], \"coverage\": {\"benefits\": [\"Investment returns\", \"Pension savings\", \"Regular income (annuities)\"], \"duration\": \"flexible\"}, \"exclusions\": [\"Market losses\", \"Early withdrawal penalties\"], \"add_ons\": [\"Customized portfolio management\"], \"claims_process\": {\"required_documents\": [\"Investment agreement\", \"Withdrawal form\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"provider_network\": {\"partners\": [\"Fund managers\", \"Custodians\"], \"note\": \"Network for investment management\"}, \"distribution_channels\": [\"agents\", \"online\", \"financial advisors\"], \"last_updated\": \"2025-09-13\", \"sources\": [{\"title\": \"CIC Asset Management\", \"url\": \"https://cic.co.ke/asset-management/\"}]}"
+  }
+]

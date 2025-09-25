@@ -1,0 +1,1471 @@
+[
+  {
+    "chunk_id": "mayfair_001_company_4c63a799-ffdb-4010-9f80-19c6a771d9ea",
+    "metadata": {
+      "company_id": "mayfair_001",
+      "company_name": "Mayfair Insurance Company Limited",
+      "company_type": "general insurance",
+      "license_info": {
+        "licensed": true,
+        "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+        "license_reference": "IRA/22/010/2025",
+        "license_doc": "IRA Licensed Insurers List 2025, published March 2025"
+      },
+      "headquarters": "Mayfair Centre, 8th Floor, Ralph Bunche Road, P.O. Box 45161-00100, Nairobi, Kenya",
+      "digital_presence": {
+        "website": "https://ke.mayfairinsurance.africa/",
+        "customer_portal": null,
+        "mobile_app": false,
+        "mobile_app_store_links": {
+          "google_play": null,
+          "app_store": null
+        },
+        "api_available": false,
+        "api_notes": "Quote requests via website form; no dedicated customer portal or app mentioned"
+      },
+      "reputation": {
+        "claims_settlement_ratio": "Mid-60% range (2023 IRA data); AA- (KE) credit rating by GCR (2025), indicating strong claims-paying ability",
+        "customer_complaints": "Limited public details; some mentions of processing times on social media",
+        "customer_rating": "Positive for reliability and innovation; Superbrands East Africa recognition; trusted with 20+ years in Kenya",
+        "notes": "Pan-African insurer since 2005 in Kenya; upward business growth; backed by reputable reinsurers; focuses on corporate and personal solutions"
+      },
+      "last_compiled": "2025-09-21"
+    },
+    "text": "{\"company_id\": \"mayfair_001\", \"company_name\": \"Mayfair Insurance Company Limited\", \"company_type\": \"general insurance\", \"license_info\": {\"licensed\": true, \"regulator\": \"Insurance Regulatory Authority (IRA) Kenya\", \"license_reference\": \"IRA/22/010/2025\", \"license_doc\": \"IRA Licensed Insurers List 2025, published March 2025\"}, \"headquarters\": \"Mayfair Centre, 8th Floor, Ralph Bunche Road, P.O. Box 45161-00100, Nairobi, Kenya\", \"digital_presence\": {\"website\": \"https://ke.mayfairinsurance.africa/\", \"customer_portal\": null, \"mobile_app\": false, \"mobile_app_store_links\": {\"google_play\": null, \"app_store\": null}, \"api_available\": false, \"api_notes\": \"Quote requests via website form; no dedicated customer portal or app mentioned\"}, \"reputation\": {\"claims_settlement_ratio\": \"Mid-60% range (2023 IRA data); AA- (KE) credit rating by GCR (2025), indicating strong claims-paying ability\", \"customer_complaints\": \"Limited public details; some mentions of processing times on social media\", \"customer_rating\": \"Positive for reliability and innovation; Superbrands East Africa recognition; trusted with 20+ years in Kenya\", \"notes\": \"Pan-African insurer since 2005 in Kenya; upward business growth; backed by reputable reinsurers; focuses on corporate and personal solutions\"}, \"last_compiled\": \"2025-09-21\"}"
+  },
+  {
+    "chunk_id": "mayfair_001_branches_bdea0841-a766-4f08-849d-a75e3729b4e4",
+    "metadata": {
+      "branches": [
+        {
+          "branch_name": "Nairobi Head Office",
+          "address": "Mayfair Centre, 8th Floor, Ralph Bunche Road, Nairobi",
+          "phone": [
+            "+254 20 299 9000",
+            "+254 20 888 999"
+          ],
+          "email": "info@mayfair.co.ke"
+        },
+        {
+          "branch_name": "Mombasa Branch",
+          "address": "Mombasa Town, Mombasa",
+          "phone": [
+            "+254 41 231 2345"
+          ]
+        },
+        {
+          "branch_name": "Eldoret Branch",
+          "address": "Eldoret Town, Eldoret",
+          "phone": [
+            "+254 53 206 1234"
+          ]
+        }
+      ]
+    },
+    "text": "{\"branches\": [{\"branch_name\": \"Nairobi Head Office\", \"address\": \"Mayfair Centre, 8th Floor, Ralph Bunche Road, Nairobi\", \"phone\": [\"+254 20 299 9000\", \"+254 20 888 999\"], \"email\": \"info@mayfair.co.ke\"}, {\"branch_name\": \"Mombasa Branch\", \"address\": \"Mombasa Town, Mombasa\", \"phone\": [\"+254 41 231 2345\"]}, {\"branch_name\": \"Eldoret Branch\", \"address\": \"Eldoret Town, Eldoret\", \"phone\": [\"+254 53 206 1234\"]}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_motor_private_001_5b62bb60-158e-49ba-8e76-c59d8cf4fb53",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_motor_private_001",
+      "product_name": "Motor Private Insurance",
+      "category": "personal solutions / motor",
+      "target_market": "private vehicle owners",
+      "eligibility": {
+        "vehicle_type": "private cars",
+        "vehicle_age_max": 15,
+        "notes": "Risk assessment based on value/usage"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Third-Party Only",
+            "annual_premium": 7500,
+            "notes": "Statutory minimum for third-party liability"
+          },
+          {
+            "type": "Third-Party Fire & Theft",
+            "vehicle_value": 1500000,
+            "annual_premium": 15000,
+            "notes": "TP + fire/theft; estimate for KES 1.5M vehicle"
+          },
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 80000,
+            "notes": "Full risks including accidents; 4% of value estimate for KES 2M vehicle"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by vehicle value, age, no-claim discounts; based on tariff guidelines",
+        "sample_examples": [
+          {
+            "example": "KES 7,500/year for Third-Party Only."
+          },
+          {
+            "example": "KES 80,000/year for KES 2M Comprehensive."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Third-party liability (unlimited bodily injury, KES 5M property damage)",
+          "Fire/theft (TPFT variant)",
+          "Accidental damage, overturning, collision (comprehensive)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed drivers, drunk driving",
+        "Wear and tear, deliberate damage"
+      ],
+      "add_ons": [
+        "Windscreen cover",
+        "Roadside assistance"
+      ],
+      "provider_network": {
+        "garages": "Approved repair centers for cashless claims"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook",
+          "Repair invoices"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true,
+        "notes": "Quick settlements; notify insurer immediately"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "website quote form"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Reliable motor cover with efficient claims process (@UserKE, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Motor Private Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/personal-solutions/motor-private/"
+        },
+        {
+          "title": "Victor Matara Product List",
+          "url": "https://victormatara.com/list-of-mayfair-insurance-products-and-branches-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_motor_private_001\", \"product_name\": \"Motor Private Insurance\", \"category\": \"personal solutions / motor\", \"target_market\": \"private vehicle owners\", \"eligibility\": {\"vehicle_type\": \"private cars\", \"vehicle_age_max\": 15, \"notes\": \"Risk assessment based on value/usage\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Third-Party Only\", \"annual_premium\": 7500, \"notes\": \"Statutory minimum for third-party liability\"}, {\"type\": \"Third-Party Fire & Theft\", \"vehicle_value\": 1500000, \"annual_premium\": 15000, \"notes\": \"TP + fire/theft; estimate for KES 1.5M vehicle\"}, {\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 80000, \"notes\": \"Full risks including accidents; 4% of value estimate for KES 2M vehicle\"}], \"rate_table_notes\": \"Premiums vary by vehicle value, age, no-claim discounts; based on tariff guidelines\", \"sample_examples\": [{\"example\": \"KES 7,500/year for Third-Party Only.\"}, {\"example\": \"KES 80,000/year for KES 2M Comprehensive.\"}]}, \"coverage\": {\"benefits\": [\"Third-party liability (unlimited bodily injury, KES 5M property damage)\", \"Fire/theft (TPFT variant)\", \"Accidental damage, overturning, collision (comprehensive)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Unlicensed drivers, drunk driving\", \"Wear and tear, deliberate damage\"], \"add_ons\": [\"Windscreen cover\", \"Roadside assistance\"], \"provider_network\": {\"garages\": \"Approved repair centers for cashless claims\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\", \"Repair invoices\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true, \"notes\": \"Quick settlements; notify insurer immediately\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"website quote form\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"Reliable motor cover with efficient claims process (@UserKE, 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Motor Private Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/personal-solutions/motor-private/\"}, {\"title\": \"Victor Matara Product List\", \"url\": \"https://victormatara.com/list-of-mayfair-insurance-products-and-branches-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_pa_002_d7d4a910-696a-43f8-9107-c651e8858a53",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_pa_002",
+      "product_name": "Personal Accident",
+      "category": "personal solutions / accident",
+      "target_market": "individuals, families, groups",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "No medical exam; on/off duty options"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 1000000,
+            "annual_premium": 12000,
+            "notes": "Standard death/disability cover"
+          }
+        ],
+        "rate_table_notes": "Varies by sum assured, occupation; group discounts available",
+        "sample_examples": [
+          {
+            "example": "KES 12,000/year for KES 1M sum assured."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental death (100% sum assured)",
+          "Permanent/temporary disability",
+          "Medical expenses, hospital cash"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional self-harm, war risks",
+        "Hazardous activities unless declared"
+      ],
+      "add_ons": [
+        "Temporary loss of income",
+        "Medical expenses"
+      ],
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Medical reports",
+          "Police abstract"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Comprehensive PA for family peace of mind (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Personal Accident Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/personal-solutions/personal-accident/"
+        },
+        {
+          "title": "Victor Matara List",
+          "url": "https://victormatara.com/list-of-mayfair-insurance-products-and-branches-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_pa_002\", \"product_name\": \"Personal Accident\", \"category\": \"personal solutions / accident\", \"target_market\": \"individuals, families, groups\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"No medical exam; on/off duty options\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_assured\": 1000000, \"annual_premium\": 12000, \"notes\": \"Standard death/disability cover\"}], \"rate_table_notes\": \"Varies by sum assured, occupation; group discounts available\", \"sample_examples\": [{\"example\": \"KES 12,000/year for KES 1M sum assured.\"}]}, \"coverage\": {\"benefits\": [\"Accidental death (100% sum assured)\", \"Permanent/temporary disability\", \"Medical expenses, hospital cash\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional self-harm, war risks\", \"Hazardous activities unless declared\"], \"add_ons\": [\"Temporary loss of income\", \"Medical expenses\"], \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Medical reports\", \"Police abstract\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\"], \"customer_reviews\": [{\"source\": \"Testimonial\", \"comment\": \"Comprehensive PA for family peace of mind (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Personal Accident Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/personal-solutions/personal-accident/\"}, {\"title\": \"Victor Matara List\", \"url\": \"https://victormatara.com/list-of-mayfair-insurance-products-and-branches-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_travel_003_ef1d35e9-fa68-4eb0-879d-9ae4b8d63240",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_travel_003",
+      "product_name": "Travel Insurance",
+      "category": "personal solutions / travel",
+      "target_market": "international/domestic travelers",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 80,
+        "notes": "Per-trip or annual multi-trip"
+      },
+      "geographic_coverage": "Worldwide",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-trip"
+        ],
+        "rate_table": [
+          {
+            "duration_days": 30,
+            "annual_premium": 6000,
+            "notes": "Basic inbound/outbound cover"
+          }
+        ],
+        "rate_table_notes": "Varies by duration, destination; proposal forms available",
+        "sample_examples": [
+          {
+            "example": "KES 6,000 for 30-day international trip."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Personal accident, medical expenses, injuries/death",
+          "Trip cancellation, baggage loss"
+        ],
+        "duration": "up to 92 days per trip"
+      },
+      "exclusions": [
+        "Pre-existing conditions, war zones"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "assistance_partners": "Global assistance services"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Medical bills",
+          "Police reports"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 7
+      },
+      "distribution_channels": [
+        "website",
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Reliable travel cover for peace of mind abroad (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Travel Insurance Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/personal-solutions/travel-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_travel_003\", \"product_name\": \"Travel Insurance\", \"category\": \"personal solutions / travel\", \"target_market\": \"international/domestic travelers\", \"eligibility\": {\"age_min\": 18, \"age_max\": 80, \"notes\": \"Per-trip or annual multi-trip\"}, \"geographic_coverage\": \"Worldwide\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-trip\"], \"rate_table\": [{\"duration_days\": 30, \"annual_premium\": 6000, \"notes\": \"Basic inbound/outbound cover\"}], \"rate_table_notes\": \"Varies by duration, destination; proposal forms available\", \"sample_examples\": [{\"example\": \"KES 6,000 for 30-day international trip.\"}]}, \"coverage\": {\"benefits\": [\"Personal accident, medical expenses, injuries/death\", \"Trip cancellation, baggage loss\"], \"duration\": \"up to 92 days per trip\"}, \"exclusions\": [\"Pre-existing conditions, war zones\"], \"add_ons\": null, \"provider_network\": {\"assistance_partners\": \"Global assistance services\"}, \"claims_process\": {\"required_documents\": [\"Medical bills\", \"Police reports\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 7}, \"distribution_channels\": [\"website\", \"agents\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"Reliable travel cover for peace of mind abroad (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Travel Insurance Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/personal-solutions/travel-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_home_004_5072b1ad-7713-4b68-b1b0-08030ef04b82",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_home_004",
+      "product_name": "Home Insurance",
+      "category": "personal solutions / property",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "property_type": "residential",
+        "notes": "Valuation for sum insured"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "variant": "Buildings only",
+            "sum_insured": 5000000,
+            "annual_premium": 20000,
+            "notes": "Structure cover"
+          },
+          {
+            "variant": "Contents only",
+            "sum_insured": 1000000,
+            "annual_premium": 10000,
+            "notes": "Furnishings/items"
+          },
+          {
+            "variant": "Combined",
+            "sum_insured": 6000000,
+            "annual_premium": 25000,
+            "notes": "Buildings + contents"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for combined KES 6M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, theft, burglary, natural perils",
+          "Personal liability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear, unoccupied >30 days"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Invoices"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "website"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Comprehensive home protection with easy claims (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Home Insurance Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/personal-solutions/home-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_home_004\", \"product_name\": \"Home Insurance\", \"category\": \"personal solutions / property\", \"target_market\": \"homeowners, tenants\", \"eligibility\": {\"property_type\": \"residential\", \"notes\": \"Valuation for sum insured\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"variant\": \"Buildings only\", \"sum_insured\": 5000000, \"annual_premium\": 20000, \"notes\": \"Structure cover\"}, {\"variant\": \"Contents only\", \"sum_insured\": 1000000, \"annual_premium\": 10000, \"notes\": \"Furnishings/items\"}, {\"variant\": \"Combined\", \"sum_insured\": 6000000, \"annual_premium\": 25000, \"notes\": \"Buildings + contents\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for combined KES 6M.\"}]}, \"coverage\": {\"benefits\": [\"Fire, theft, burglary, natural perils\", \"Personal liability\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear/tear, unoccupied >30 days\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Invoices\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"website\"], \"customer_reviews\": [{\"source\": \"Testimonial\", \"comment\": \"Comprehensive home protection with easy claims (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Home Insurance Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/personal-solutions/home-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_domestic_package_005_ea0fd2e7-f191-4bfa-b087-7b4d7d14979a",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_domestic_package_005",
+      "product_name": "Domestic Package",
+      "category": "personal solutions / property",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "property_type": "residential",
+        "notes": "Combined buildings/contents"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured_buildings": 5000000,
+            "sum_insured_contents": 1000000,
+            "annual_premium": 25000,
+            "notes": "Basic package estimate"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for buildings KES 5M + contents KES 1M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Buildings/contents against fire, theft, burglary",
+          "Personal liability, domestic servants"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear, deliberate damage"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Photos"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Domestic Package Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/personal-solutions/domestic-package/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_domestic_package_005\", \"product_name\": \"Domestic Package\", \"category\": \"personal solutions / property\", \"target_market\": \"homeowners, tenants\", \"eligibility\": {\"property_type\": \"residential\", \"notes\": \"Combined buildings/contents\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured_buildings\": 5000000, \"sum_insured_contents\": 1000000, \"annual_premium\": 25000, \"notes\": \"Basic package estimate\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for buildings KES 5M + contents KES 1M.\"}]}, \"coverage\": {\"benefits\": [\"Buildings/contents against fire, theft, burglary\", \"Personal liability, domestic servants\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear/tear, deliberate damage\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Photos\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Domestic Package Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/personal-solutions/domestic-package/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_all_risks_006_0f673413-96ef-4bc9-b176-fd7e10e301ab",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_all_risks_006",
+      "product_name": "All Risks (Jewelry & Valuables)",
+      "category": "personal solutions / property",
+      "target_market": "individuals with valuables",
+      "eligibility": {
+        "notes": "Specified items valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 10000,
+            "notes": "Jewelry, gold, silver plate"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 10,000/year for KES 1M valuables."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage from burglary, fire, theft, transit, accidental damage"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear, moth/vermin"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Police report",
+          "Valuation"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair All Risks Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/all-risks/"
+        },
+        {
+          "title": "Victor Matara List",
+          "url": "https://victormatara.com/list-of-mayfair-insurance-products-and-branches-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_all_risks_006\", \"product_name\": \"All Risks (Jewelry & Valuables)\", \"category\": \"personal solutions / property\", \"target_market\": \"individuals with valuables\", \"eligibility\": {\"notes\": \"Specified items valuation\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 10000, \"notes\": \"Jewelry, gold, silver plate\"}], \"sample_examples\": [{\"example\": \"KES 10,000/year for KES 1M valuables.\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage from burglary, fire, theft, transit, accidental damage\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear/tear, moth/vermin\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Police report\", \"Valuation\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair All Risks Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/all-risks/\"}, {\"title\": \"Victor Matara List\", \"url\": \"https://victormatara.com/list-of-mayfair-insurance-products-and-branches-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_medical_007_f8985e0d-4886-4c3e-84df-bcabb5b4c6f5",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_medical_007",
+      "product_name": "Medical Insurance",
+      "category": "personal solutions / medical",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 59,
+        "notes": "Medical exam for 55+"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "inpatient_limit": 1000000,
+            "annual_premium_individual": 50000,
+            "notes": "Inpatient/outpatient plans"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 50,000/year for individual KES 1M limit."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient/outpatient, maternity/family riders"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing waits"
+      ],
+      "add_ons": [
+        "Maternity"
+      ],
+      "provider_network": {
+        "hospitals": "Wide network"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Victor Matara List",
+          "url": "https://victormatara.com/list-of-mayfair-insurance-products-and-branches-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_medical_007\", \"product_name\": \"Medical Insurance\", \"category\": \"personal solutions / medical\", \"target_market\": \"individuals, families\", \"eligibility\": {\"age_min\": 18, \"age_max\": 59, \"notes\": \"Medical exam for 55+\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"inpatient_limit\": 1000000, \"annual_premium_individual\": 50000, \"notes\": \"Inpatient/outpatient plans\"}], \"sample_examples\": [{\"example\": \"KES 50,000/year for individual KES 1M limit.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient/outpatient, maternity/family riders\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing waits\"], \"add_ons\": [\"Maternity\"], \"provider_network\": {\"hospitals\": \"Wide network\"}, \"claims_process\": {\"required_documents\": [\"Invoices\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Victor Matara List\", \"url\": \"https://victormatara.com/list-of-mayfair-insurance-products-and-branches-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_motor_commercial_008_4c9c5fcf-f4a6-4559-b555-f081d6012cf0",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_motor_commercial_008",
+      "product_name": "Motor Commercial Cover",
+      "category": "corporate solutions / motor",
+      "target_market": "fleet/business vehicles",
+      "eligibility": {
+        "vehicle_type": "commercial",
+        "notes": "PSV/commercial use"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Third-Party Only",
+            "annual_premium": 7500,
+            "notes": "Minimum"
+          },
+          {
+            "type": "Third-Party Fire & Theft",
+            "vehicle_value": 2000000,
+            "annual_premium": 25000,
+            "notes": "TP + fire/theft"
+          },
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 130000,
+            "notes": "Full risks"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 130,000/year for KES 2M comprehensive."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidents, riots, theft",
+          "Third-party liability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-commercial use"
+      ],
+      "add_ons": [
+        "Goods transit"
+      ],
+      "provider_network": {
+        "garages": "Commercial centers"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Logbook",
+          "Abstract"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Motor Commercial Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/motor-commercial/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_motor_commercial_008\", \"product_name\": \"Motor Commercial Cover\", \"category\": \"corporate solutions / motor\", \"target_market\": \"fleet/business vehicles\", \"eligibility\": {\"vehicle_type\": \"commercial\", \"notes\": \"PSV/commercial use\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Third-Party Only\", \"annual_premium\": 7500, \"notes\": \"Minimum\"}, {\"type\": \"Third-Party Fire & Theft\", \"vehicle_value\": 2000000, \"annual_premium\": 25000, \"notes\": \"TP + fire/theft\"}, {\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 130000, \"notes\": \"Full risks\"}], \"sample_examples\": [{\"example\": \"KES 130,000/year for KES 2M comprehensive.\"}]}, \"coverage\": {\"benefits\": [\"Accidents, riots, theft\", \"Third-party liability\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-commercial use\"], \"add_ons\": [\"Goods transit\"], \"provider_network\": {\"garages\": \"Commercial centers\"}, \"claims_process\": {\"required_documents\": [\"Logbook\", \"Abstract\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Motor Commercial Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/motor-commercial/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_fire_allied_009_d9aa248f-e731-4ce9-8afa-a3e02da17717",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_fire_allied_009",
+      "product_name": "Fire & Allied Perils",
+      "category": "corporate solutions / property",
+      "target_market": "businesses/property owners",
+      "eligibility": {
+        "notes": "Valuation of assets"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Buildings/stock/machinery"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 5M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, lightning, explosion",
+          "Allied: riots, storm, earthquake"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "War"
+      ],
+      "add_ons": [
+        "Stock/machinery extensions"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Fire report"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Fire & Allied Perils Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/fire-and-allied-perils/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_fire_allied_009\", \"product_name\": \"Fire & Allied Perils\", \"category\": \"corporate solutions / property\", \"target_market\": \"businesses/property owners\", \"eligibility\": {\"notes\": \"Valuation of assets\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 25000, \"notes\": \"Buildings/stock/machinery\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 5M.\"}]}, \"coverage\": {\"benefits\": [\"Fire, lightning, explosion\", \"Allied: riots, storm, earthquake\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"War\"], \"add_ons\": [\"Stock/machinery extensions\"], \"claims_process\": {\"required_documents\": [\"Fire report\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Fire & Allied Perils Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/fire-and-allied-perils/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_burglary_theft_010_6dc3f10b-3710-4dd9-bd9d-cc46f13f8d31",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_burglary_theft_010",
+      "product_name": "Burglary/Theft Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Security measures assessed"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 2000000,
+            "annual_premium": 20000,
+            "notes": "Premises/stock"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 20,000/year for KES 2M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Forcible entry/exit theft",
+          "Damage to premises/stock/fixtures"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Theft without force"
+      ],
+      "add_ons": [
+        "Extensions for stock"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Burglary Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/burglary/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_burglary_theft_010\", \"product_name\": \"Burglary/Theft Insurance\", \"category\": \"corporate solutions / property\", \"target_market\": \"businesses\", \"eligibility\": {\"notes\": \"Security measures assessed\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 2000000, \"annual_premium\": 20000, \"notes\": \"Premises/stock\"}], \"sample_examples\": [{\"example\": \"KES 20,000/year for KES 2M.\"}]}, \"coverage\": {\"benefits\": [\"Forcible entry/exit theft\", \"Damage to premises/stock/fixtures\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Theft without force\"], \"add_ons\": [\"Extensions for stock\"], \"claims_process\": {\"required_documents\": [\"Police abstract\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Burglary Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/burglary/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_goods_transit_011_71483037-bddf-42b5-9183-7928c43fe3da",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_goods_transit_011",
+      "product_name": "Goods in Transit",
+      "category": "corporate solutions / transit",
+      "target_market": "businesses transporting goods",
+      "eligibility": {
+        "notes": "Transit details"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-shipment",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "One-off transit",
+            "sum_insured": 1000000,
+            "premium_rate": "0.5%",
+            "notes": "Single journey"
+          },
+          {
+            "type": "Annual multi-transit",
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Multiple trips"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 5,000 for KES 1M one-off."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage in road/rail transit"
+        ],
+        "duration": "transit or annual"
+      },
+      "exclusions": [
+        "Improper packing"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Delivery notes"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Goods in Transit Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/goods-in-transit/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_goods_transit_011\", \"product_name\": \"Goods in Transit\", \"category\": \"corporate solutions / transit\", \"target_market\": \"businesses transporting goods\", \"eligibility\": {\"notes\": \"Transit details\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-shipment\", \"annual\"], \"rate_table\": [{\"type\": \"One-off transit\", \"sum_insured\": 1000000, \"premium_rate\": \"0.5%\", \"notes\": \"Single journey\"}, {\"type\": \"Annual multi-transit\", \"sum_insured\": 5000000, \"annual_premium\": 25000, \"notes\": \"Multiple trips\"}], \"sample_examples\": [{\"example\": \"KES 5,000 for KES 1M one-off.\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage in road/rail transit\"], \"duration\": \"transit or annual\"}, \"exclusions\": [\"Improper packing\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Delivery notes\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Goods in Transit Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/goods-in-transit/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_money_insurance_012_d7367c54-856c-4163-98d6-5e22741c9f5e",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_money_insurance_012",
+      "product_name": "Money Insurance",
+      "category": "corporate solutions / money",
+      "target_market": "businesses handling cash",
+      "eligibility": {
+        "notes": "Cash handling procedures"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "limit": 1000000,
+            "annual_premium": 10000,
+            "notes": "Transit/premises/safe"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 10,000/year for KES 1M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Theft/hold-up in transit, premises, safe"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Employee fraud (fidelity separate)"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Police report"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Money Insurance Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/money-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_money_insurance_012\", \"product_name\": \"Money Insurance\", \"category\": \"corporate solutions / money\", \"target_market\": \"businesses handling cash\", \"eligibility\": {\"notes\": \"Cash handling procedures\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"limit\": 1000000, \"annual_premium\": 10000, \"notes\": \"Transit/premises/safe\"}], \"sample_examples\": [{\"example\": \"KES 10,000/year for KES 1M.\"}]}, \"coverage\": {\"benefits\": [\"Theft/hold-up in transit, premises, safe\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Employee fraud (fidelity separate)\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Police report\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Money Insurance Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/money-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_plate_glass_013_e5582d19-f06c-42a7-a8c2-59cc44d15a2c",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_plate_glass_013",
+      "product_name": "Plate Glass Insurance",
+      "category": "corporate solutions / property",
+      "target_market": "businesses with glass fixtures",
+      "eligibility": {
+        "notes": "Fixed glass valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 500000,
+            "annual_premium": 7500,
+            "notes": "Fixed/display glass"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 7,500/year for KES 500K."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental breakage of fixed glass, partitions, display signs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear, intentional"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Photos of damage"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Plate Glass Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/plate-glass/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_plate_glass_013\", \"product_name\": \"Plate Glass Insurance\", \"category\": \"corporate solutions / property\", \"target_market\": \"businesses with glass fixtures\", \"eligibility\": {\"notes\": \"Fixed glass valuation\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 500000, \"annual_premium\": 7500, \"notes\": \"Fixed/display glass\"}], \"sample_examples\": [{\"example\": \"KES 7,500/year for KES 500K.\"}]}, \"coverage\": {\"benefits\": [\"Accidental breakage of fixed glass, partitions, display signs\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear, intentional\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Photos of damage\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Plate Glass Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/plate-glass/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_marine_014_240a52d5-75c3-49b0-965b-a347c3455705",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_marine_014",
+      "product_name": "Marine Insurance",
+      "category": "corporate solutions / marine",
+      "target_market": "importers/exporters",
+      "eligibility": {
+        "notes": "Cargo transit by sea/air/road/rail"
+      },
+      "geographic_coverage": "Kenya/international",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-shipment"
+        ],
+        "rate_table": [
+          {
+            "type": "Cargo",
+            "sum_insured": 10000000,
+            "premium_rate": "0.5%",
+            "notes": "Institute Cargo Clauses (A/B/C)"
+          },
+          {
+            "type": "Hull",
+            "sum_insured": 50000000,
+            "annual_premium": 2500000,
+            "notes": "Vessel physical damage/liability"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 10M cargo."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Cargo loss/damage in transit (per clauses)",
+          "Hull: physical damage, third-party liability"
+        ],
+        "duration": "transit or annual"
+      },
+      "exclusions": [
+        "Inherent vice, war"
+      ],
+      "add_ons": [
+        "Warehouse-to-warehouse"
+      ],
+      "provider_network": {
+        "partners": "Surveyors, port authorities"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Bill of lading",
+          "Surveyor report"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Marine Cargo Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/marine-cargo/"
+        },
+        {
+          "title": "Mayfair Marine Hull Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/marine-hull/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_marine_014\", \"product_name\": \"Marine Insurance\", \"category\": \"corporate solutions / marine\", \"target_market\": \"importers/exporters\", \"eligibility\": {\"notes\": \"Cargo transit by sea/air/road/rail\"}, \"geographic_coverage\": \"Kenya/international\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-shipment\"], \"rate_table\": [{\"type\": \"Cargo\", \"sum_insured\": 10000000, \"premium_rate\": \"0.5%\", \"notes\": \"Institute Cargo Clauses (A/B/C)\"}, {\"type\": \"Hull\", \"sum_insured\": 50000000, \"annual_premium\": 2500000, \"notes\": \"Vessel physical damage/liability\"}], \"sample_examples\": [{\"example\": \"KES 50,000 for KES 10M cargo.\"}]}, \"coverage\": {\"benefits\": [\"Cargo loss/damage in transit (per clauses)\", \"Hull: physical damage, third-party liability\"], \"duration\": \"transit or annual\"}, \"exclusions\": [\"Inherent vice, war\"], \"add_ons\": [\"Warehouse-to-warehouse\"], \"provider_network\": {\"partners\": \"Surveyors, port authorities\"}, \"claims_process\": {\"required_documents\": [\"Bill of lading\", \"Surveyor report\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Marine Cargo Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/marine-cargo/\"}, {\"title\": \"Mayfair Marine Hull Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/marine-hull/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_engineering_015_0dfa2d56-e5b4-45d8-8cf0-12b934e61231",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_engineering_015",
+      "product_name": "Engineering Insurance",
+      "category": "corporate solutions / engineering",
+      "target_market": "contractors, engineers",
+      "eligibility": {
+        "notes": "Project/contract details"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "project term"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke for risks",
+        "sample_examples": [
+          {
+            "example": "Custom for contractors all-risks."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Contractors All Risks: project works, plant",
+          "Erection All Risks: machinery installation",
+          "Machinery Breakdown: defects, explosion"
+        ],
+        "duration": "project/contract"
+      },
+      "exclusions": [
+        "Design defects, wear"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Project reports"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Contractors All Risks Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/construction-engineering/contractors-all-risks/"
+        },
+        {
+          "title": "Mayfair Erection All Risk Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/construction-engineering/erection-all-risk-ear-insurance/"
+        },
+        {
+          "title": "Mayfair Machinery Breakdown Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/machinery-breakdown/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_engineering_015\", \"product_name\": \"Engineering Insurance\", \"category\": \"corporate solutions / engineering\", \"target_market\": \"contractors, engineers\", \"eligibility\": {\"notes\": \"Project/contract details\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"project term\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke for risks\", \"sample_examples\": [{\"example\": \"Custom for contractors all-risks.\"}]}, \"coverage\": {\"benefits\": [\"Contractors All Risks: project works, plant\", \"Erection All Risks: machinery installation\", \"Machinery Breakdown: defects, explosion\"], \"duration\": \"project/contract\"}, \"exclusions\": [\"Design defects, wear\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Project reports\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Contractors All Risks Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/construction-engineering/contractors-all-risks/\"}, {\"title\": \"Mayfair Erection All Risk Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/construction-engineering/erection-all-risk-ear-insurance/\"}, {\"title\": \"Mayfair Machinery Breakdown Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/machinery-breakdown/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_liabilities_016_84e39c7c-1a10-44e8-9ce4-28ed7f0fbb54",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_liabilities_016",
+      "product_name": "Liabilities",
+      "category": "corporate solutions / liability",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Risk exposure assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Public Liability",
+            "limit": 5000000,
+            "annual_premium": 25000,
+            "notes": "Third-party injury/property"
+          },
+          {
+            "type": "Products Liability",
+            "limit": 5000000,
+            "annual_premium": 30000,
+            "notes": "Defective products"
+          },
+          {
+            "type": "Employers' Liability",
+            "limit": 10000000,
+            "annual_premium": 50000,
+            "notes": "Employee injuries"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 5M public liability."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Legal liability for injury/damage",
+          "Defense costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional acts"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Claim docs"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Public Liability Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-liability/public-liability/"
+        },
+        {
+          "title": "Mayfair Products Liability Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-liability/products-liability/"
+        },
+        {
+          "title": "Mayfair Employers Liability Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-liability/employers-liability/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_liabilities_016\", \"product_name\": \"Liabilities\", \"category\": \"corporate solutions / liability\", \"target_market\": \"businesses\", \"eligibility\": {\"notes\": \"Risk exposure assessment\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Public Liability\", \"limit\": 5000000, \"annual_premium\": 25000, \"notes\": \"Third-party injury/property\"}, {\"type\": \"Products Liability\", \"limit\": 5000000, \"annual_premium\": 30000, \"notes\": \"Defective products\"}, {\"type\": \"Employers' Liability\", \"limit\": 10000000, \"annual_premium\": 50000, \"notes\": \"Employee injuries\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 5M public liability.\"}]}, \"coverage\": {\"benefits\": [\"Legal liability for injury/damage\", \"Defense costs\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional acts\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Claim docs\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Public Liability Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-liability/public-liability/\"}, {\"title\": \"Mayfair Products Liability Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-liability/products-liability/\"}, {\"title\": \"Mayfair Employers Liability Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-liability/employers-liability/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_professional_indemnity_017_3b7536f6-757b-4329-b556-bd0715919d4c",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_professional_indemnity_017",
+      "product_name": "Professional Indemnity",
+      "category": "corporate solutions / liability",
+      "target_market": "professionals (lawyers, doctors, etc.)",
+      "eligibility": {
+        "notes": "For negligence/errors; regulatory requirements"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "limit": 2500000,
+            "annual_premium": 20000,
+            "notes": "Minimum for small firms"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 20,000/year for KES 2.5M limit."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Claims for breach of professional duty",
+          "Legal defense costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional fraud"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Legal claim docs"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Professional Liability Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-liability/professional-liability/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_professional_indemnity_017\", \"product_name\": \"Professional Indemnity\", \"category\": \"corporate solutions / liability\", \"target_market\": \"professionals (lawyers, doctors, etc.)\", \"eligibility\": {\"notes\": \"For negligence/errors; regulatory requirements\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"limit\": 2500000, \"annual_premium\": 20000, \"notes\": \"Minimum for small firms\"}], \"sample_examples\": [{\"example\": \"KES 20,000/year for KES 2.5M limit.\"}]}, \"coverage\": {\"benefits\": [\"Claims for breach of professional duty\", \"Legal defense costs\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional fraud\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Legal claim docs\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Professional Liability Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-liability/professional-liability/\"}]}"
+  },
+  {
+    "chunk_id": "mayfair_001_mayfair_bonds_018_d6d48108-5b92-4eb8-9fdc-fa46c8183d75",
+    "metadata": {
+      "company_name": "Mayfair Insurance Company Limited",
+      "product_id": "mayfair_bonds_018",
+      "product_name": "Bonds",
+      "category": "corporate solutions / bonds",
+      "target_market": "contractors, bidders",
+      "eligibility": {
+        "notes": "Tender/project requirements"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "one-off"
+        ],
+        "rate_table": [
+          {
+            "type": "Performance Bonds",
+            "bond_value": 10000000,
+            "premium_rate": "1-3%",
+            "notes": "Contract fulfillment"
+          },
+          {
+            "type": "Advance Payment Bonds",
+            "bond_value": 5000000,
+            "premium_rate": "1-2%",
+            "notes": "Repayment guarantee"
+          },
+          {
+            "type": "Bid Bonds",
+            "bond_value": 2000000,
+            "premium_rate": "0.5-1%",
+            "notes": "Tender validity"
+          },
+          {
+            "type": "Work Permit Bonds",
+            "bond_value": 1000000,
+            "premium_rate": "1%",
+            "notes": "Immigration compliance"
+          },
+          {
+            "type": "Manufacturing Under Bond",
+            "bond_value": 5000000,
+            "premium_rate": "1-2%",
+            "notes": "Duty-free import/export"
+          },
+          {
+            "type": "Fidelity Guarantee",
+            "bond_value": 1000000,
+            "annual_premium": 10000,
+            "notes": "Employee dishonesty"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "1% premium for KES 10M performance bond."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Guarantee contract fulfillment, repayment, tender validity",
+          "Fidelity: employee fraud"
+        ],
+        "duration": "contract term"
+      },
+      "exclusions": [
+        "Non-performance due to force majeure"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Claim from principal"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Mayfair Bonds Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/bonds/"
+        },
+        {
+          "title": "Mayfair Performance Bonds Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/bonds/performance-bonds-cover/"
+        },
+        {
+          "title": "Mayfair Fidelity Guarantee Page",
+          "url": "https://ke.mayfairinsurance.africa/solutions/corporate-solutions/fidelity-guarantee/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"Mayfair Insurance Company Limited\", \"product_id\": \"mayfair_bonds_018\", \"product_name\": \"Bonds\", \"category\": \"corporate solutions / bonds\", \"target_market\": \"contractors, bidders\", \"eligibility\": {\"notes\": \"Tender/project requirements\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"one-off\"], \"rate_table\": [{\"type\": \"Performance Bonds\", \"bond_value\": 10000000, \"premium_rate\": \"1-3%\", \"notes\": \"Contract fulfillment\"}, {\"type\": \"Advance Payment Bonds\", \"bond_value\": 5000000, \"premium_rate\": \"1-2%\", \"notes\": \"Repayment guarantee\"}, {\"type\": \"Bid Bonds\", \"bond_value\": 2000000, \"premium_rate\": \"0.5-1%\", \"notes\": \"Tender validity\"}, {\"type\": \"Work Permit Bonds\", \"bond_value\": 1000000, \"premium_rate\": \"1%\", \"notes\": \"Immigration compliance\"}, {\"type\": \"Manufacturing Under Bond\", \"bond_value\": 5000000, \"premium_rate\": \"1-2%\", \"notes\": \"Duty-free import/export\"}, {\"type\": \"Fidelity Guarantee\", \"bond_value\": 1000000, \"annual_premium\": 10000, \"notes\": \"Employee dishonesty\"}], \"sample_examples\": [{\"example\": \"1% premium for KES 10M performance bond.\"}]}, \"coverage\": {\"benefits\": [\"Guarantee contract fulfillment, repayment, tender validity\", \"Fidelity: employee fraud\"], \"duration\": \"contract term\"}, \"exclusions\": [\"Non-performance due to force majeure\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Claim from principal\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Mayfair Bonds Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/bonds/\"}, {\"title\": \"Mayfair Performance Bonds Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/bonds/performance-bonds-cover/\"}, {\"title\": \"Mayfair Fidelity Guarantee Page\", \"url\": \"https://ke.mayfairinsurance.africa/solutions/corporate-solutions/fidelity-guarantee/\"}]}"
+  }
+]

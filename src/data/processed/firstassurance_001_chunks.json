@@ -1,0 +1,1405 @@
+[
+  {
+    "chunk_id": "firstassurance_001_company_a7f10d75-0f8e-4cdd-8efc-138aa30c0463",
+    "metadata": {
+      "company_id": "firstassurance_001",
+      "company_name": "First Assurance Company Limited",
+      "company_type": "composite (general, medical, life)",
+      "license_info": {
+        "licensed": true,
+        "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+        "license_reference": "IRA/23/011/2025",
+        "license_doc": "IRA Licensed Insurers List 2025, published March 2025"
+      },
+      "headquarters": "First Assurance House, Clyde Gardens, Gitanga Road, Lavington, P.O. Box 30064-00100, Nairobi, Kenya",
+      "digital_presence": {
+        "website": "https://firstassurance.co.ke",
+        "customer_portal": "https://selfservice.firstassurance.co.ke",
+        "mobile_app": false,
+        "mobile_app_store_links": {
+          "google_play": null,
+          "app_store": null
+        },
+        "api_available": false,
+        "api_notes": "Self-service portal for motor insurance quotes and purchases; quotation form available on website"
+      },
+      "reputation": {
+        "claims_settlement_ratio": "Mid-60% range (2023 IRA data); 8.71% in Q2 2025; consistent performance with testimonials for quick settlements",
+        "customer_complaints": "Limited public details; some delays in processing noted on social media",
+        "customer_rating": "Positive for reliability and customer-centric approach; trusted with 93 years experience; part of Absa Group",
+        "notes": "Founded 1930 as Prudential; Kenyanized 1991; strong in general and health; partnerships with ICPAK for professionals; low penetration addressed via tailored products"
+      },
+      "last_compiled": "2025-09-21"
+    },
+    "text": "{\"company_id\": \"firstassurance_001\", \"company_name\": \"First Assurance Company Limited\", \"company_type\": \"composite (general, medical, life)\", \"license_info\": {\"licensed\": true, \"regulator\": \"Insurance Regulatory Authority (IRA) Kenya\", \"license_reference\": \"IRA/23/011/2025\", \"license_doc\": \"IRA Licensed Insurers List 2025, published March 2025\"}, \"headquarters\": \"First Assurance House, Clyde Gardens, Gitanga Road, Lavington, P.O. Box 30064-00100, Nairobi, Kenya\", \"digital_presence\": {\"website\": \"https://firstassurance.co.ke\", \"customer_portal\": \"https://selfservice.firstassurance.co.ke\", \"mobile_app\": false, \"mobile_app_store_links\": {\"google_play\": null, \"app_store\": null}, \"api_available\": false, \"api_notes\": \"Self-service portal for motor insurance quotes and purchases; quotation form available on website\"}, \"reputation\": {\"claims_settlement_ratio\": \"Mid-60% range (2023 IRA data); 8.71% in Q2 2025; consistent performance with testimonials for quick settlements\", \"customer_complaints\": \"Limited public details; some delays in processing noted on social media\", \"customer_rating\": \"Positive for reliability and customer-centric approach; trusted with 93 years experience; part of Absa Group\", \"notes\": \"Founded 1930 as Prudential; Kenyanized 1991; strong in general and health; partnerships with ICPAK for professionals; low penetration addressed via tailored products\"}, \"last_compiled\": \"2025-09-21\"}"
+  },
+  {
+    "chunk_id": "firstassurance_001_branches_2f6474e0-b466-40f7-ba85-813c3bded12f",
+    "metadata": {
+      "branches": [
+        {
+          "branch_name": "Nairobi Lavington (Head Office)",
+          "address": "First Assurance House, Clyde Gardens, Gitanga Road, Lavington, Nairobi",
+          "phone": [
+            "+254 20 888 999",
+            "+254 20 888 91"
+          ],
+          "email": "info@firstassurance.co.ke"
+        },
+        {
+          "branch_name": "Nairobi (Second Branch)",
+          "address": "Nairobi CBD (specific address not detailed)",
+          "phone": [
+            "+254 20 888 999"
+          ]
+        },
+        {
+          "branch_name": "Kisumu Branch",
+          "address": "United Mall, Ground Floor, Kisumu - Kakamega Road, Kisumu",
+          "phone": [
+            "+254 20 888 999",
+            "+254 57 202 1234"
+          ],
+          "email": "info@firstassurance.co.ke"
+        },
+        {
+          "branch_name": "Mombasa Branch",
+          "address": "Nyali Road, Off Malindi - Mombasa Highway, First Assurance House, Mombasa",
+          "phone": [
+            "+254 41 447 6700",
+            "+254 41 447 6494",
+            "+254 734 605 491"
+          ],
+          "email": "info@firstassurance.co.ke"
+        },
+        {
+          "branch_name": "Nakuru Branch",
+          "address": "Nakuru Town (specific address not detailed)",
+          "phone": [
+            "+254 51 221 1234"
+          ],
+          "email": "info@firstassurance.co.ke"
+        }
+      ]
+    },
+    "text": "{\"branches\": [{\"branch_name\": \"Nairobi Lavington (Head Office)\", \"address\": \"First Assurance House, Clyde Gardens, Gitanga Road, Lavington, Nairobi\", \"phone\": [\"+254 20 888 999\", \"+254 20 888 91\"], \"email\": \"info@firstassurance.co.ke\"}, {\"branch_name\": \"Nairobi (Second Branch)\", \"address\": \"Nairobi CBD (specific address not detailed)\", \"phone\": [\"+254 20 888 999\"]}, {\"branch_name\": \"Kisumu Branch\", \"address\": \"United Mall, Ground Floor, Kisumu - Kakamega Road, Kisumu\", \"phone\": [\"+254 20 888 999\", \"+254 57 202 1234\"], \"email\": \"info@firstassurance.co.ke\"}, {\"branch_name\": \"Mombasa Branch\", \"address\": \"Nyali Road, Off Malindi - Mombasa Highway, First Assurance House, Mombasa\", \"phone\": [\"+254 41 447 6700\", \"+254 41 447 6494\", \"+254 734 605 491\"], \"email\": \"info@firstassurance.co.ke\"}, {\"branch_name\": \"Nakuru Branch\", \"address\": \"Nakuru Town (specific address not detailed)\", \"phone\": [\"+254 51 221 1234\"], \"email\": \"info@firstassurance.co.ke\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_motor_private_001_d96e921e-e144-4b0d-8a3d-313c9c548e80",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_motor_private_001",
+      "product_name": "Motor Private Insurance",
+      "category": "personal solutions / motor",
+      "target_market": "private vehicle owners",
+      "eligibility": {
+        "vehicle_type": "private cars",
+        "vehicle_age_max": 15,
+        "notes": "Risk assessment based on value/usage; NTSA compliance"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Third-Party Only",
+            "annual_premium": 7500,
+            "notes": "Statutory minimum for liability"
+          },
+          {
+            "type": "Third-Party Fire & Theft",
+            "vehicle_value": 1500000,
+            "annual_premium": 15000,
+            "notes": "TP + fire/theft; estimate for KES 1.5M vehicle"
+          },
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 80000,
+            "notes": "Full risks; 4% of value estimate for KES 2M vehicle"
+          }
+        ],
+        "rate_table_notes": "Varies by value, age, no-claim discounts; premium financing available",
+        "sample_examples": [
+          {
+            "example": "KES 7,500/year for Third-Party Only."
+          },
+          {
+            "example": "KES 80,000/year for KES 2M Comprehensive."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Third-party liability (unlimited bodily, KES 5M property)",
+          "Fire/theft (TPFT)",
+          "Accidental damage, overturning (comprehensive)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed drivers, drunk driving",
+        "Wear/tear"
+      ],
+      "add_ons": [
+        "Windscreen",
+        "Roadside assistance"
+      ],
+      "provider_network": {
+        "garages": "Approved repair centers for cashless claims"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook",
+          "Repair invoices"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true,
+        "notes": "Self-service portal for motor claims; quick settlements"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "self-service portal",
+        "agents",
+        "brokers"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Seamless motor claims via portal; quick turnaround (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance Motor Insurance Page",
+          "url": "https://selfservice.firstassurance.co.ke/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_motor_private_001\", \"product_name\": \"Motor Private Insurance\", \"category\": \"personal solutions / motor\", \"target_market\": \"private vehicle owners\", \"eligibility\": {\"vehicle_type\": \"private cars\", \"vehicle_age_max\": 15, \"notes\": \"Risk assessment based on value/usage; NTSA compliance\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Third-Party Only\", \"annual_premium\": 7500, \"notes\": \"Statutory minimum for liability\"}, {\"type\": \"Third-Party Fire & Theft\", \"vehicle_value\": 1500000, \"annual_premium\": 15000, \"notes\": \"TP + fire/theft; estimate for KES 1.5M vehicle\"}, {\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 80000, \"notes\": \"Full risks; 4% of value estimate for KES 2M vehicle\"}], \"rate_table_notes\": \"Varies by value, age, no-claim discounts; premium financing available\", \"sample_examples\": [{\"example\": \"KES 7,500/year for Third-Party Only.\"}, {\"example\": \"KES 80,000/year for KES 2M Comprehensive.\"}]}, \"coverage\": {\"benefits\": [\"Third-party liability (unlimited bodily, KES 5M property)\", \"Fire/theft (TPFT)\", \"Accidental damage, overturning (comprehensive)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Unlicensed drivers, drunk driving\", \"Wear/tear\"], \"add_ons\": [\"Windscreen\", \"Roadside assistance\"], \"provider_network\": {\"garages\": \"Approved repair centers for cashless claims\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\", \"Repair invoices\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true, \"notes\": \"Self-service portal for motor claims; quick settlements\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"self-service portal\", \"agents\", \"brokers\"], \"customer_reviews\": [{\"source\": \"Testimonial\", \"comment\": \"Seamless motor claims via portal; quick turnaround (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance Motor Insurance Page\", \"url\": \"https://selfservice.firstassurance.co.ke/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_travel_002_9a7de45e-2650-4ba5-801b-abf9c11218a9",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_travel_002",
+      "product_name": "Travel Insurance",
+      "category": "personal solutions / travel",
+      "target_market": "international/domestic travelers",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 80,
+        "notes": "Per-trip or annual; Kenyan residents"
+      },
+      "geographic_coverage": "Worldwide",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-trip"
+        ],
+        "rate_table": [
+          {
+            "duration_days": 30,
+            "annual_premium": 6000,
+            "notes": "Basic cover including Covid-19 assistance"
+          }
+        ],
+        "rate_table_notes": "Varies by duration/destination; options for medical/evacuation/dental",
+        "sample_examples": [
+          {
+            "example": "KES 6,000 for 30-day trip with medical & evacuation."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Medical & emergency assistance (incl. Covid-19)",
+          "Emergency evacuation/rescue",
+          "Emergency dental treatment",
+          "Trip cancellation, baggage loss"
+        ],
+        "duration": "up to 92 days per trip"
+      },
+      "exclusions": [
+        "Pre-existing conditions, high-risk activities"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "assistance_partners": "Global emergency services"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Medical bills",
+          "Travel docs"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 7
+      },
+      "distribution_channels": [
+        "website",
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Comprehensive travel cover with Covid inclusion; peace of mind (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance Travel Insurance Page",
+          "url": "https://firstassurance.co.ke/travel-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_travel_002\", \"product_name\": \"Travel Insurance\", \"category\": \"personal solutions / travel\", \"target_market\": \"international/domestic travelers\", \"eligibility\": {\"age_min\": 18, \"age_max\": 80, \"notes\": \"Per-trip or annual; Kenyan residents\"}, \"geographic_coverage\": \"Worldwide\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-trip\"], \"rate_table\": [{\"duration_days\": 30, \"annual_premium\": 6000, \"notes\": \"Basic cover including Covid-19 assistance\"}], \"rate_table_notes\": \"Varies by duration/destination; options for medical/evacuation/dental\", \"sample_examples\": [{\"example\": \"KES 6,000 for 30-day trip with medical & evacuation.\"}]}, \"coverage\": {\"benefits\": [\"Medical & emergency assistance (incl. Covid-19)\", \"Emergency evacuation/rescue\", \"Emergency dental treatment\", \"Trip cancellation, baggage loss\"], \"duration\": \"up to 92 days per trip\"}, \"exclusions\": [\"Pre-existing conditions, high-risk activities\"], \"add_ons\": null, \"provider_network\": {\"assistance_partners\": \"Global emergency services\"}, \"claims_process\": {\"required_documents\": [\"Medical bills\", \"Travel docs\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 7}, \"distribution_channels\": [\"website\", \"agents\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"Comprehensive travel cover with Covid inclusion; peace of mind (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance Travel Insurance Page\", \"url\": \"https://firstassurance.co.ke/travel-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_pa_003_01579e33-46c3-4600-ae7d-e775a6185791",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_pa_003",
+      "product_name": "Personal Accident",
+      "category": "personal solutions / accident",
+      "target_market": "individuals, groups",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "No medical exam; on/off duty"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 1000000,
+            "annual_premium": 12000,
+            "notes": "Death/disability/medical expenses"
+          }
+        ],
+        "rate_table_notes": "Varies by occupation, sum assured",
+        "sample_examples": [
+          {
+            "example": "KES 12,000/year for KES 1M cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Bodily injury from violent/visible means",
+          "Death, disablement, medical expenses"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Self-harm, war"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Medical reports",
+          "Police abstract"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Testimonial",
+          "comment": "Reliable PA for unexpected accidents (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance Accident & Miscellaneous Page",
+          "url": "https://firstassurance.co.ke/taasisi/accident-miscellaneous/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_pa_003\", \"product_name\": \"Personal Accident\", \"category\": \"personal solutions / accident\", \"target_market\": \"individuals, groups\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"No medical exam; on/off duty\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_assured\": 1000000, \"annual_premium\": 12000, \"notes\": \"Death/disability/medical expenses\"}], \"rate_table_notes\": \"Varies by occupation, sum assured\", \"sample_examples\": [{\"example\": \"KES 12,000/year for KES 1M cover.\"}]}, \"coverage\": {\"benefits\": [\"Bodily injury from violent/visible means\", \"Death, disablement, medical expenses\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Self-harm, war\"], \"add_ons\": null, \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Medical reports\", \"Police abstract\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\"], \"customer_reviews\": [{\"source\": \"Testimonial\", \"comment\": \"Reliable PA for unexpected accidents (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance Accident & Miscellaneous Page\", \"url\": \"https://firstassurance.co.ke/taasisi/accident-miscellaneous/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_firstmed_004_5f970e14-7e37-42e5-9e3a-08c002cf7c46",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_firstmed_004",
+      "product_name": "Medical Insurance (First-Med)",
+      "category": "personal solutions / medical",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 64,
+        "notes": "Medical exam for 55+; Kenyan residents"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "inpatient_limit": 1000000,
+            "annual_premium_individual": 50000,
+            "notes": "Inpatient/outpatient; varies by family"
+          }
+        ],
+        "rate_table_notes": "Inclusive of maternity, dental, optical; no-claim discounts",
+        "sample_examples": [
+          {
+            "example": "KES 50,000/year for individual KES 1M limit."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient benefits (hospitalization, surgery)",
+          "Outpatient benefits (consultations, drugs)",
+          "Maternity benefits (up to KES 100K after wait)",
+          "Dental benefits (up to KES 20K)",
+          "Optical benefits (up to KES 20K)"
+        ],
+        "duration": "annual renewable for life"
+      },
+      "exclusions": [
+        "Waiting: 28 days acute, 12 months pre-existing/chronic/maternity",
+        "Cosmetic procedures"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Wide panel (tier 1-3); cashless"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices",
+          "Medical reports"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true,
+        "notes": "Pre-authorization required; claims@firstassurance.co.ke"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "website quote form",
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "First-Med comprehensive for family health; quick approvals (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance First-Med Page",
+          "url": "https://firstassurance.co.ke/first-med/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_firstmed_004\", \"product_name\": \"Medical Insurance (First-Med)\", \"category\": \"personal solutions / medical\", \"target_market\": \"individuals, families\", \"eligibility\": {\"age_min\": 0, \"age_max\": 64, \"notes\": \"Medical exam for 55+; Kenyan residents\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"inpatient_limit\": 1000000, \"annual_premium_individual\": 50000, \"notes\": \"Inpatient/outpatient; varies by family\"}], \"rate_table_notes\": \"Inclusive of maternity, dental, optical; no-claim discounts\", \"sample_examples\": [{\"example\": \"KES 50,000/year for individual KES 1M limit.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient benefits (hospitalization, surgery)\", \"Outpatient benefits (consultations, drugs)\", \"Maternity benefits (up to KES 100K after wait)\", \"Dental benefits (up to KES 20K)\", \"Optical benefits (up to KES 20K)\"], \"duration\": \"annual renewable for life\"}, \"exclusions\": [\"Waiting: 28 days acute, 12 months pre-existing/chronic/maternity\", \"Cosmetic procedures\"], \"add_ons\": null, \"provider_network\": {\"hospitals\": \"Wide panel (tier 1-3); cashless\"}, \"claims_process\": {\"required_documents\": [\"Invoices\", \"Medical reports\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true, \"notes\": \"Pre-authorization required; claims@firstassurance.co.ke\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"website quote form\", \"agents\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"First-Med comprehensive for family health; quick approvals (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance First-Med Page\", \"url\": \"https://firstassurance.co.ke/first-med/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_home_005_1cb6ddab-60d5-4495-81a4-0ffaa83d212d",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_home_005",
+      "product_name": "Home Insurance",
+      "category": "personal solutions / property",
+      "target_market": "homeowners, tenants",
+      "eligibility": {
+        "property_type": "residential",
+        "notes": "Valuation for sum insured"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Buildings/contents combined"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 5M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, theft, burglary, natural perils",
+          "Personal liability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Police abstract"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Peace of mind at home with First Assurance cover (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance Home Insurance Page",
+          "url": "https://firstassurance.co.ke/home-insurance-2/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_home_005\", \"product_name\": \"Home Insurance\", \"category\": \"personal solutions / property\", \"target_market\": \"homeowners, tenants\", \"eligibility\": {\"property_type\": \"residential\", \"notes\": \"Valuation for sum insured\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 25000, \"notes\": \"Buildings/contents combined\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 5M.\"}]}, \"coverage\": {\"benefits\": [\"Fire, theft, burglary, natural perils\", \"Personal liability\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear/tear\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Police abstract\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"Peace of mind at home with First Assurance cover (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance Home Insurance Page\", \"url\": \"https://firstassurance.co.ke/home-insurance-2/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_domestic_package_006_34f39005-410e-43bc-ad50-d1d0f399e291",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_domestic_package_006",
+      "product_name": "Domestic Package",
+      "category": "personal solutions / property",
+      "target_market": "homeowners",
+      "eligibility": {
+        "notes": "Residential dwellings"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Comprehensive for home/belongings"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for standard package."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "House and belongings against unexpected events",
+          "Fire, theft, liability"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Deliberate acts"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Invoices",
+          "Photos"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance Domestic Package PDF",
+          "url": "http://www.cibkenya.com/DOWNLOADS/FIRST_ASS/FA-domestic_package.pdf"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_domestic_package_006\", \"product_name\": \"Domestic Package\", \"category\": \"personal solutions / property\", \"target_market\": \"homeowners\", \"eligibility\": {\"notes\": \"Residential dwellings\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 25000, \"notes\": \"Comprehensive for home/belongings\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for standard package.\"}]}, \"coverage\": {\"benefits\": [\"House and belongings against unexpected events\", \"Fire, theft, liability\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Deliberate acts\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Invoices\", \"Photos\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance Domestic Package PDF\", \"url\": \"http://www.cibkenya.com/DOWNLOADS/FIRST_ASS/FA-domestic_package.pdf\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_golf_007_90396da9-c5bc-408d-b99b-af9975cc260e",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_golf_007",
+      "product_name": "Golf Insurance",
+      "category": "personal solutions / specialty",
+      "target_market": "golfers",
+      "eligibility": {
+        "notes": "Amateur/professional"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke for equipment/liability",
+        "sample_examples": [
+          {
+            "example": "Custom for clubs, hole-in-one."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Equipment loss/damage, hole-in-one prize",
+          "Personal liability, caddie accident"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear/tear"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Police report"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_golf_007\", \"product_name\": \"Golf Insurance\", \"category\": \"personal solutions / specialty\", \"target_market\": \"golfers\", \"eligibility\": {\"notes\": \"Amateur/professional\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke for equipment/liability\", \"sample_examples\": [{\"example\": \"Custom for clubs, hole-in-one.\"}]}, \"coverage\": {\"benefits\": [\"Equipment loss/damage, hole-in-one prize\", \"Personal liability, caddie accident\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear/tear\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Police report\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_motor_comm_008_9171faa5-b354-4d2b-a9df-189cf89029e6",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_motor_comm_008",
+      "product_name": "Motor Commercial Cover",
+      "category": "corporate solutions / motor",
+      "target_market": "fleet operators",
+      "eligibility": {
+        "vehicle_type": "commercial/PSV",
+        "notes": "Usage declaration"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Third-Party Only",
+            "annual_premium": 7500,
+            "notes": "Minimum"
+          },
+          {
+            "type": "Third-Party Fire & Theft",
+            "vehicle_value": 2000000,
+            "annual_premium": 25000,
+            "notes": "TP + fire/theft"
+          },
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 2000000,
+            "annual_premium": 130000,
+            "notes": "Full risks"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 130,000/year for KES 2M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidents, theft, liability for commercial use"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-declared use"
+      ],
+      "add_ons": [
+        "Goods transit"
+      ],
+      "provider_network": {
+        "garages": "Commercial"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Logbook"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_motor_comm_008\", \"product_name\": \"Motor Commercial Cover\", \"category\": \"corporate solutions / motor\", \"target_market\": \"fleet operators\", \"eligibility\": {\"vehicle_type\": \"commercial/PSV\", \"notes\": \"Usage declaration\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Third-Party Only\", \"annual_premium\": 7500, \"notes\": \"Minimum\"}, {\"type\": \"Third-Party Fire & Theft\", \"vehicle_value\": 2000000, \"annual_premium\": 25000, \"notes\": \"TP + fire/theft\"}, {\"type\": \"Comprehensive\", \"vehicle_value\": 2000000, \"annual_premium\": 130000, \"notes\": \"Full risks\"}], \"sample_examples\": [{\"example\": \"KES 130,000/year for KES 2M.\"}]}, \"coverage\": {\"benefits\": [\"Accidents, theft, liability for commercial use\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-declared use\"], \"add_ons\": [\"Goods transit\"], \"provider_network\": {\"garages\": \"Commercial\"}, \"claims_process\": {\"required_documents\": [\"Logbook\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_afya_biashara_009_891b806d-b442-40d1-9a18-3121d3975851",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_afya_biashara_009",
+      "product_name": "Medical Insurance (First Afya Biashara)",
+      "category": "corporate solutions / medical",
+      "target_market": "SMEs/corporates for employees",
+      "eligibility": {
+        "group_min_size": 5,
+        "notes": "Tailored for business"
+      },
+      "geographic_coverage": "Kenya (overseas option)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke; inpatient/outpatient + overseas",
+        "sample_examples": [
+          {
+            "example": "Custom for group medical."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient/outpatient",
+          "Overseas coverage option",
+          "Maternity, chronic after wait"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing waits"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "hospitals": "Wide panel"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "corporate sales"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "First Afya Biashara saves employees unexpected expenses; peace of mind (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance LinkedIn Post",
+          "url": "https://ke.linkedin.com/company/firstassurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_afya_biashara_009\", \"product_name\": \"Medical Insurance (First Afya Biashara)\", \"category\": \"corporate solutions / medical\", \"target_market\": \"SMEs/corporates for employees\", \"eligibility\": {\"group_min_size\": 5, \"notes\": \"Tailored for business\"}, \"geographic_coverage\": \"Kenya (overseas option)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke; inpatient/outpatient + overseas\", \"sample_examples\": [{\"example\": \"Custom for group medical.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient/outpatient\", \"Overseas coverage option\", \"Maternity, chronic after wait\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing waits\"], \"add_ons\": null, \"provider_network\": {\"hospitals\": \"Wide panel\"}, \"claims_process\": {\"required_documents\": [\"Invoices\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"corporate sales\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"First Afya Biashara saves employees unexpected expenses; peace of mind (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance LinkedIn Post\", \"url\": \"https://ke.linkedin.com/company/firstassurance\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_fire_allied_010_2afa8f69-5ab9-488a-ab47-eba4bbc2d592",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_fire_allied_010",
+      "product_name": "Fire & Allied Perils",
+      "category": "corporate solutions / property",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Asset valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 5000000,
+            "annual_premium": 25000,
+            "notes": "Buildings/stock"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 5M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Fire, lightning, explosion",
+          "Allied perils: riots, storm"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "War"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Fire report"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_fire_allied_010\", \"product_name\": \"Fire & Allied Perils\", \"category\": \"corporate solutions / property\", \"target_market\": \"businesses\", \"eligibility\": {\"notes\": \"Asset valuation\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 5000000, \"annual_premium\": 25000, \"notes\": \"Buildings/stock\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 5M.\"}]}, \"coverage\": {\"benefits\": [\"Fire, lightning, explosion\", \"Allied perils: riots, storm\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"War\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Fire report\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_engineering_011_9b827495-be81-4523-b04d-b03b2ebd5073",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_engineering_011",
+      "product_name": "Engineering Insurance",
+      "category": "corporate solutions / engineering",
+      "target_market": "contractors",
+      "eligibility": {
+        "notes": "Project details"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "project term"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke",
+        "sample_examples": [
+          {
+            "example": "Custom for CAR/EAR."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Contractors All Risks: project works",
+          "Erection All Risks: installation",
+          "Machinery Breakdown: defects",
+          "Machinery Loss of Profits: interruption"
+        ],
+        "duration": "project term"
+      },
+      "exclusions": [
+        "Design defects"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Reports"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_engineering_011\", \"product_name\": \"Engineering Insurance\", \"category\": \"corporate solutions / engineering\", \"target_market\": \"contractors\", \"eligibility\": {\"notes\": \"Project details\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"project term\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke\", \"sample_examples\": [{\"example\": \"Custom for CAR/EAR.\"}]}, \"coverage\": {\"benefits\": [\"Contractors All Risks: project works\", \"Erection All Risks: installation\", \"Machinery Breakdown: defects\", \"Machinery Loss of Profits: interruption\"], \"duration\": \"project term\"}, \"exclusions\": [\"Design defects\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Reports\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_liabilities_012_36c3b19b-017b-41b3-8913-6f052e1e8e29",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_liabilities_012",
+      "product_name": "Liabilities",
+      "category": "corporate solutions / liability",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Exposure assessment"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "type": "Public Liability",
+            "limit": 5000000,
+            "annual_premium": 25000,
+            "notes": "Third-party"
+          },
+          {
+            "type": "Products Liability",
+            "limit": 5000000,
+            "annual_premium": 30000,
+            "notes": "Defective products"
+          },
+          {
+            "type": "Employers' Liability",
+            "limit": 10000000,
+            "annual_premium": 50000,
+            "notes": "Employee injuries"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 5M public."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Injury/property damage liability",
+          "Defense costs"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Claim docs"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_liabilities_012\", \"product_name\": \"Liabilities\", \"category\": \"corporate solutions / liability\", \"target_market\": \"businesses\", \"eligibility\": {\"notes\": \"Exposure assessment\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"type\": \"Public Liability\", \"limit\": 5000000, \"annual_premium\": 25000, \"notes\": \"Third-party\"}, {\"type\": \"Products Liability\", \"limit\": 5000000, \"annual_premium\": 30000, \"notes\": \"Defective products\"}, {\"type\": \"Employers' Liability\", \"limit\": 10000000, \"annual_premium\": 50000, \"notes\": \"Employee injuries\"}], \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 5M public.\"}]}, \"coverage\": {\"benefits\": [\"Injury/property damage liability\", \"Defense costs\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Claim docs\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_pi_013_b8edb35e-3f81-4ba4-a231-d2450e6b4b09",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_pi_013",
+      "product_name": "Professional Indemnity",
+      "category": "corporate solutions / liability",
+      "target_market": "professionals (auditors/accountants)",
+      "eligibility": {
+        "notes": "ICPAK/LSK requirements"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "limit": 2500000,
+            "annual_premium": 20000,
+            "notes": "For auditors/accountants"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 20,000/year for KES 2.5M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Negligence, errors, omissions",
+          "Legal defense"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Fraud"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Legal docs"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers",
+        "ICPAK partnership"
+      ],
+      "customer_reviews": [
+        {
+          "source": "ICPAK Partnership",
+          "comment": "Tailored PI for accountants; addresses insurance gap (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance ICPAK Partnership",
+          "url": "https://firstassurance.co.ke/first-assurance-icpak-to-boost-professionals-insurance-uptake/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_pi_013\", \"product_name\": \"Professional Indemnity\", \"category\": \"corporate solutions / liability\", \"target_market\": \"professionals (auditors/accountants)\", \"eligibility\": {\"notes\": \"ICPAK/LSK requirements\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"limit\": 2500000, \"annual_premium\": 20000, \"notes\": \"For auditors/accountants\"}], \"sample_examples\": [{\"example\": \"KES 20,000/year for KES 2.5M.\"}]}, \"coverage\": {\"benefits\": [\"Negligence, errors, omissions\", \"Legal defense\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Fraud\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Legal docs\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\", \"ICPAK partnership\"], \"customer_reviews\": [{\"source\": \"ICPAK Partnership\", \"comment\": \"Tailored PI for accountants; addresses insurance gap (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance ICPAK Partnership\", \"url\": \"https://firstassurance.co.ke/first-assurance-icpak-to-boost-professionals-insurance-uptake/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_marine_014_c754d386-052f-47fd-a724-a4ac7662767a",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_marine_014",
+      "product_name": "Marine Insurance",
+      "category": "corporate solutions / marine",
+      "target_market": "importers/exporters",
+      "eligibility": {
+        "notes": "Cargo/hull transit"
+      },
+      "geographic_coverage": "Kenya/international",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-shipment"
+        ],
+        "rate_table": [
+          {
+            "type": "Cargo (Perils of the Sea)",
+            "sum_insured": 10000000,
+            "premium_rate": "0.5%",
+            "notes": "Institute Cargo Clauses"
+          },
+          {
+            "type": "Hull",
+            "sum_insured": 50000000,
+            "annual_premium": 2500000,
+            "notes": "Vessel damage/liability"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 50,000 for KES 10M cargo."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Cargo loss/damage from sea perils",
+          "Hull physical damage, liability"
+        ],
+        "duration": "transit/annual"
+      },
+      "exclusions": [
+        "War, inherent vice"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Bill of lading"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": true,
+        "notes": "Digital certificates from Feb 2025"
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Comprehensive marine cover for open waters (2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "First Assurance Marine Blog",
+          "url": "https://firstassurance.co.ke/how-digital-marine-cargo-cover-purchase-could-impact-sector/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_marine_014\", \"product_name\": \"Marine Insurance\", \"category\": \"corporate solutions / marine\", \"target_market\": \"importers/exporters\", \"eligibility\": {\"notes\": \"Cargo/hull transit\"}, \"geographic_coverage\": \"Kenya/international\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-shipment\"], \"rate_table\": [{\"type\": \"Cargo (Perils of the Sea)\", \"sum_insured\": 10000000, \"premium_rate\": \"0.5%\", \"notes\": \"Institute Cargo Clauses\"}, {\"type\": \"Hull\", \"sum_insured\": 50000000, \"annual_premium\": 2500000, \"notes\": \"Vessel damage/liability\"}], \"sample_examples\": [{\"example\": \"KES 50,000 for KES 10M cargo.\"}]}, \"coverage\": {\"benefits\": [\"Cargo loss/damage from sea perils\", \"Hull physical damage, liability\"], \"duration\": \"transit/annual\"}, \"exclusions\": [\"War, inherent vice\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Bill of lading\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": true, \"notes\": \"Digital certificates from Feb 2025\"}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"Comprehensive marine cover for open waters (2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"First Assurance Marine Blog\", \"url\": \"https://firstassurance.co.ke/how-digital-marine-cargo-cover-purchase-could-impact-sector/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_electronic_015_f262ad00-b815-4ae1-b14e-d49850dad713",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_electronic_015",
+      "product_name": "Electronic Equipment Insurance",
+      "category": "corporate solutions / equipment",
+      "target_market": "businesses with electronics",
+      "eligibility": {
+        "notes": "Equipment valuation"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "annual_premium": 10000,
+            "notes": "Computers, machinery"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 10,000/year for KES 1M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Damage from perils, breakdown"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Repair invoices"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_electronic_015\", \"product_name\": \"Electronic Equipment Insurance\", \"category\": \"corporate solutions / equipment\", \"target_market\": \"businesses with electronics\", \"eligibility\": {\"notes\": \"Equipment valuation\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured\": 1000000, \"annual_premium\": 10000, \"notes\": \"Computers, machinery\"}], \"sample_examples\": [{\"example\": \"KES 10,000/year for KES 1M.\"}]}, \"coverage\": {\"benefits\": [\"Damage from perils, breakdown\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Repair invoices\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_goods_transit_016_8c1f9c65-7e80-4b61-a822-6a3290c8d677",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_goods_transit_016",
+      "product_name": "Goods in Transit",
+      "category": "corporate solutions / transit",
+      "target_market": "businesses",
+      "eligibility": {
+        "notes": "Transit details"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-shipment"
+        ],
+        "rate_table": [
+          {
+            "sum_insured": 1000000,
+            "premium_rate": "0.5%",
+            "notes": "Road/rail"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 5,000 for KES 1M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Loss/damage in transit"
+        ],
+        "duration": "transit period"
+      },
+      "exclusions": [
+        "Improper packing"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Delivery notes"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_goods_transit_016\", \"product_name\": \"Goods in Transit\", \"category\": \"corporate solutions / transit\", \"target_market\": \"businesses\", \"eligibility\": {\"notes\": \"Transit details\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-shipment\"], \"rate_table\": [{\"sum_insured\": 1000000, \"premium_rate\": \"0.5%\", \"notes\": \"Road/rail\"}], \"sample_examples\": [{\"example\": \"KES 5,000 for KES 1M.\"}]}, \"coverage\": {\"benefits\": [\"Loss/damage in transit\"], \"duration\": \"transit period\"}, \"exclusions\": [\"Improper packing\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Delivery notes\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_wiba_017_08cda0a7-effb-484b-b3a4-ed2b1e206405",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_wiba_017",
+      "product_name": "WIBA Insurance (Work Injury Benefits Act)",
+      "category": "corporate solutions / liability",
+      "target_market": "employers",
+      "eligibility": {
+        "notes": "Statutory for all"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "payroll": 10000000,
+            "annual_premium": 15000,
+            "notes": "Based on payroll"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "KES 15,000 for KES 10M payroll."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Work injuries, death, disablement"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-work"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Incident reports"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_wiba_017\", \"product_name\": \"WIBA Insurance (Work Injury Benefits Act)\", \"category\": \"corporate solutions / liability\", \"target_market\": \"employers\", \"eligibility\": {\"notes\": \"Statutory for all\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"payroll\": 10000000, \"annual_premium\": 15000, \"notes\": \"Based on payroll\"}], \"sample_examples\": [{\"example\": \"KES 15,000 for KES 10M payroll.\"}]}, \"coverage\": {\"benefits\": [\"Work injuries, death, disablement\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-work\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Incident reports\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  },
+  {
+    "chunk_id": "firstassurance_001_first_bonds_018_41de9bec-0100-4f04-aa5d-b77f4fdeb148",
+    "metadata": {
+      "company_name": "First Assurance Company Limited",
+      "product_id": "first_bonds_018",
+      "product_name": "Bonds",
+      "category": "corporate solutions / bonds",
+      "target_market": "contractors",
+      "eligibility": {
+        "notes": "Project/tender needs"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "one-off"
+        ],
+        "rate_table": [
+          {
+            "type": "Performance Bonds",
+            "bond_value": 10000000,
+            "premium_rate": "1-3%",
+            "notes": "Fulfillment guarantee"
+          }
+        ],
+        "sample_examples": [
+          {
+            "example": "1% for KES 10M performance."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Contract guarantees"
+        ],
+        "duration": "contract term"
+      },
+      "exclusions": [
+        "Force majeure"
+      ],
+      "add_ons": null,
+      "claims_process": {
+        "required_documents": [
+          "Principal claim"
+        ],
+        "average_turnaround_days": 30,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": null
+      },
+      "distribution_channels": [
+        "brokers"
+      ],
+      "customer_reviews": [],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "BusinessQuest Overview",
+          "url": "https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"First Assurance Company Limited\", \"product_id\": \"first_bonds_018\", \"product_name\": \"Bonds\", \"category\": \"corporate solutions / bonds\", \"target_market\": \"contractors\", \"eligibility\": {\"notes\": \"Project/tender needs\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"one-off\"], \"rate_table\": [{\"type\": \"Performance Bonds\", \"bond_value\": 10000000, \"premium_rate\": \"1-3%\", \"notes\": \"Fulfillment guarantee\"}], \"sample_examples\": [{\"example\": \"1% for KES 10M performance.\"}]}, \"coverage\": {\"benefits\": [\"Contract guarantees\"], \"duration\": \"contract term\"}, \"exclusions\": [\"Force majeure\"], \"add_ons\": null, \"claims_process\": {\"required_documents\": [\"Principal claim\"], \"average_turnaround_days\": 30, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": null}, \"distribution_channels\": [\"brokers\"], \"customer_reviews\": [], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"BusinessQuest Overview\", \"url\": \"https://www.businessquest.co.ke/first-assurance-powering-general-and-health-insurance-solutions/\"}]}"
+  }
+]

@@ -1,0 +1,1662 @@
+[
+  {
+    "chunk_id": "apa_001_company_3e258477-ad90-477a-af86-d3eb7183bb4f",
+    "metadata": {
+      "company_id": "apa_001",
+      "company_name": "APA Insurance Limited",
+      "company_type": "composite (general, life, health)",
+      "license_info": {
+        "licensed": true,
+        "regulator": "Insurance Regulatory Authority (IRA) Kenya",
+        "license_reference": "IRA/05/001/2025",
+        "license_doc": "IRA Licensed Insurers List 2025, published January 2025"
+      },
+      "headquarters": "Apollo Centre, 7 Ring Road Parklands, Westlands, P.O. Box 30065-00100, Nairobi, Kenya",
+      "digital_presence": {
+        "website": "https://www.apainsurance.org",
+        "customer_portal": "https://www.apainsurance.org/portals.php",
+        "mobile_app": true,
+        "mobile_app_store_links": {
+          "google_play": "https://play.google.com/store/apps/details?id=com.apainsurance.app",
+          "app_store": "Not specified"
+        },
+        "api_available": false,
+        "api_notes": "No public API mentioned; contact for partner integrations via info@apainsurance.org"
+      },
+      "reputation": {
+        "claims_settlement_ratio": "Not publicly available for 2024; recognized for reliable settlements (Most Convenient General Insurance Provider 2025)",
+        "customer_complaints": "Not specified in public reports; mixed reviews on claims processing",
+        "customer_rating": "Mixed customer feedback; positive for digital services, some delays in complex claims",
+        "notes": "Awarded Most Convenient General Insurance Service Provider (2025 Consumer Choice Awards). Backed by Swiss Re for stability. X posts highlight quick digital claims but occasional delays in complex cases."
+      },
+      "last_compiled": "2025-09-21"
+    },
+    "text": "{\"company_id\": \"apa_001\", \"company_name\": \"APA Insurance Limited\", \"company_type\": \"composite (general, life, health)\", \"license_info\": {\"licensed\": true, \"regulator\": \"Insurance Regulatory Authority (IRA) Kenya\", \"license_reference\": \"IRA/05/001/2025\", \"license_doc\": \"IRA Licensed Insurers List 2025, published January 2025\"}, \"headquarters\": \"Apollo Centre, 7 Ring Road Parklands, Westlands, P.O. Box 30065-00100, Nairobi, Kenya\", \"digital_presence\": {\"website\": \"https://www.apainsurance.org\", \"customer_portal\": \"https://www.apainsurance.org/portals.php\", \"mobile_app\": true, \"mobile_app_store_links\": {\"google_play\": \"https://play.google.com/store/apps/details?id=com.apainsurance.app\", \"app_store\": \"Not specified\"}, \"api_available\": false, \"api_notes\": \"No public API mentioned; contact for partner integrations via info@apainsurance.org\"}, \"reputation\": {\"claims_settlement_ratio\": \"Not publicly available for 2024; recognized for reliable settlements (Most Convenient General Insurance Provider 2025)\", \"customer_complaints\": \"Not specified in public reports; mixed reviews on claims processing\", \"customer_rating\": \"Mixed customer feedback; positive for digital services, some delays in complex claims\", \"notes\": \"Awarded Most Convenient General Insurance Service Provider (2025 Consumer Choice Awards). Backed by Swiss Re for stability. X posts highlight quick digital claims but occasional delays in complex cases.\"}, \"last_compiled\": \"2025-09-21\"}"
+  },
+  {
+    "chunk_id": "apa_001_branches_1e9aa574-c629-44f5-9a2c-43bdbcd944e9",
+    "metadata": {
+      "branches": [
+        {
+          "branch_name": "Nairobi Head Office",
+          "address": "Apollo Centre, 7 Ring Road Parklands, Westlands, P.O. Box 30065-00100, Nairobi",
+          "phone": [
+            "+254 20 286 2000",
+            "+254 709 912 777",
+            "+254 709 912 888"
+          ],
+          "email": "info@apainsurance.org"
+        },
+        {
+          "branch_name": "Kisumu Branch",
+          "address": "APA Insurance Kisumu, Oginga Odinga Road, Kisumu",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        },
+        {
+          "branch_name": "Mombasa Branch",
+          "address": "APA Insurance Mombasa, Moi Avenue, Mombasa",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        },
+        {
+          "branch_name": "Eldoret Branch",
+          "address": "APA Insurance Eldoret, Ronald Ngala Street, Eldoret",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        },
+        {
+          "branch_name": "Nakuru Branch",
+          "address": "APA Insurance Nakuru, Kenyatta Avenue, Nakuru",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        },
+        {
+          "branch_name": "Nyeri Branch",
+          "address": "APA Insurance Nyeri, Kenyatta Road, Nyeri",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        },
+        {
+          "branch_name": "Thika Branch",
+          "address": "APA Insurance Thika, Thika Road, Thika",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        },
+        {
+          "branch_name": "Kitale Branch",
+          "address": "APA Insurance Kitale, Kenyatta Street, Kitale",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        },
+        {
+          "branch_name": "Meru Branch",
+          "address": "APA Insurance Meru, Njuri Ncheke Street, Meru",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        },
+        {
+          "branch_name": "Machakos Branch",
+          "address": "APA Insurance Machakos, Machakos Town",
+          "phone": [
+            "+254 20 286 2000"
+          ]
+        }
+      ]
+    },
+    "text": "{\"branches\": [{\"branch_name\": \"Nairobi Head Office\", \"address\": \"Apollo Centre, 7 Ring Road Parklands, Westlands, P.O. Box 30065-00100, Nairobi\", \"phone\": [\"+254 20 286 2000\", \"+254 709 912 777\", \"+254 709 912 888\"], \"email\": \"info@apainsurance.org\"}, {\"branch_name\": \"Kisumu Branch\", \"address\": \"APA Insurance Kisumu, Oginga Odinga Road, Kisumu\", \"phone\": [\"+254 20 286 2000\"]}, {\"branch_name\": \"Mombasa Branch\", \"address\": \"APA Insurance Mombasa, Moi Avenue, Mombasa\", \"phone\": [\"+254 20 286 2000\"]}, {\"branch_name\": \"Eldoret Branch\", \"address\": \"APA Insurance Eldoret, Ronald Ngala Street, Eldoret\", \"phone\": [\"+254 20 286 2000\"]}, {\"branch_name\": \"Nakuru Branch\", \"address\": \"APA Insurance Nakuru, Kenyatta Avenue, Nakuru\", \"phone\": [\"+254 20 286 2000\"]}, {\"branch_name\": \"Nyeri Branch\", \"address\": \"APA Insurance Nyeri, Kenyatta Road, Nyeri\", \"phone\": [\"+254 20 286 2000\"]}, {\"branch_name\": \"Thika Branch\", \"address\": \"APA Insurance Thika, Thika Road, Thika\", \"phone\": [\"+254 20 286 2000\"]}, {\"branch_name\": \"Kitale Branch\", \"address\": \"APA Insurance Kitale, Kenyatta Street, Kitale\", \"phone\": [\"+254 20 286 2000\"]}, {\"branch_name\": \"Meru Branch\", \"address\": \"APA Insurance Meru, Njuri Ncheke Street, Meru\", \"phone\": [\"+254 20 286 2000\"]}, {\"branch_name\": \"Machakos Branch\", \"address\": \"APA Insurance Machakos, Machakos Town\", \"phone\": [\"+254 20 286 2000\"]}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_motor_private_001_3589a7fa-758a-4bc2-a8e4-4ed104158deb",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_motor_private_001",
+      "product_name": "Motor Private Insurance",
+      "category": "general / personal insurance / motor",
+      "target_market": "private car owners",
+      "eligibility": {
+        "vehicle_type": "private vehicles",
+        "vehicle_age_limit": "up to 15 years for comprehensive",
+        "notes": "Health declaration not required; risk assessment based on vehicle value"
+      },
+      "geographic_coverage": "Kenya (extendable to East Africa)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly (up to 12 installments)",
+          "quarterly"
+        ],
+        "rate_table": [
+          {
+            "type": "Comprehensive",
+            "vehicle_value": 1500000,
+            "annual_premium": 60000,
+            "notes": "4% of vehicle value (example for KES 1.5M vehicle)"
+          },
+          {
+            "type": "Third-Party Fire & Theft",
+            "annual_premium": 15000,
+            "notes": "Minimum statutory rates apply"
+          },
+          {
+            "type": "Third-Party Only",
+            "annual_premium": 7500,
+            "notes": "IRA minimum"
+          }
+        ],
+        "rate_table_notes": "Premiums based on vehicle value, age, and usage; 4% rate for comprehensive. Installment options available.",
+        "sample_examples": [
+          {
+            "example": "KES 60,000 annual for KES 1.5M comprehensive cover (4% rate)."
+          },
+          {
+            "example": "KES 7,500 for third-party only."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental damage, overturning, collision",
+          "Fire and theft",
+          "Third-party liability (KES 5M property, unlimited bodily injury)",
+          "Optional: Windscreen (KES 20,000), roadside assistance"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Unlicensed drivers",
+        "Drunk driving",
+        "Wear and tear",
+        "Political violence (optional add-on)"
+      ],
+      "add_ons": [
+        "Roadside assistance",
+        "Political violence",
+        "Windscreen cover"
+      ],
+      "provider_network": {
+        "garages": "Wide network for cashless repairs (e.g., CMC Motors, Toyota Kenya)",
+        "note": "Cashless service at approved garages"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Police abstract",
+          "Logbook",
+          "Driving license",
+          "Repair invoice"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true,
+        "notes": "Online reporting via app; cashless at network garages"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "online portal",
+        "mobile app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Flexible payments with monthly installments, claims settled in 10 days (@UserKE, Feb 2025)"
+        },
+        {
+          "source": "Google Reviews",
+          "comment": "Good coverage but some delays in complex claims (2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Motor Private Insurance - Official Page",
+          "url": "https://www.apainsurance.org/product_detail_motor"
+        },
+        {
+          "title": "APA Insurance Review 2025",
+          "url": "https://www.bowman.co.ke/apa-insurance-review/"
+        },
+        {
+          "title": "HapaKenya APA Comprehensive Guide",
+          "url": "https://hapakenya.com/2018/04/19/everything-you-need-to-know-about-apa-comprehensive-car-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_motor_private_001\", \"product_name\": \"Motor Private Insurance\", \"category\": \"general / personal insurance / motor\", \"target_market\": \"private car owners\", \"eligibility\": {\"vehicle_type\": \"private vehicles\", \"vehicle_age_limit\": \"up to 15 years for comprehensive\", \"notes\": \"Health declaration not required; risk assessment based on vehicle value\"}, \"geographic_coverage\": \"Kenya (extendable to East Africa)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly (up to 12 installments)\", \"quarterly\"], \"rate_table\": [{\"type\": \"Comprehensive\", \"vehicle_value\": 1500000, \"annual_premium\": 60000, \"notes\": \"4% of vehicle value (example for KES 1.5M vehicle)\"}, {\"type\": \"Third-Party Fire & Theft\", \"annual_premium\": 15000, \"notes\": \"Minimum statutory rates apply\"}, {\"type\": \"Third-Party Only\", \"annual_premium\": 7500, \"notes\": \"IRA minimum\"}], \"rate_table_notes\": \"Premiums based on vehicle value, age, and usage; 4% rate for comprehensive. Installment options available.\", \"sample_examples\": [{\"example\": \"KES 60,000 annual for KES 1.5M comprehensive cover (4% rate).\"}, {\"example\": \"KES 7,500 for third-party only.\"}]}, \"coverage\": {\"benefits\": [\"Accidental damage, overturning, collision\", \"Fire and theft\", \"Third-party liability (KES 5M property, unlimited bodily injury)\", \"Optional: Windscreen (KES 20,000), roadside assistance\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Unlicensed drivers\", \"Drunk driving\", \"Wear and tear\", \"Political violence (optional add-on)\"], \"add_ons\": [\"Roadside assistance\", \"Political violence\", \"Windscreen cover\"], \"provider_network\": {\"garages\": \"Wide network for cashless repairs (e.g., CMC Motors, Toyota Kenya)\", \"note\": \"Cashless service at approved garages\"}, \"claims_process\": {\"required_documents\": [\"Police abstract\", \"Logbook\", \"Driving license\", \"Repair invoice\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true, \"notes\": \"Online reporting via app; cashless at network garages\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"online portal\", \"mobile app\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Flexible payments with monthly installments, claims settled in 10 days (@UserKE, Feb 2025)\"}, {\"source\": \"Google Reviews\", \"comment\": \"Good coverage but some delays in complex claims (2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Motor Private Insurance - Official Page\", \"url\": \"https://www.apainsurance.org/product_detail_motor\"}, {\"title\": \"APA Insurance Review 2025\", \"url\": \"https://www.bowman.co.ke/apa-insurance-review/\"}, {\"title\": \"HapaKenya APA Comprehensive Guide\", \"url\": \"https://hapakenya.com/2018/04/19/everything-you-need-to-know-about-apa-comprehensive-car-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_home_domestic_002_70b1d800-aaac-4341-b30a-2455d5e38e08",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_home_domestic_002",
+      "product_name": "Home Insurance (Domestic Package)",
+      "category": "general / personal insurance / property",
+      "target_market": "homeowners, tenants, landlords",
+      "eligibility": {
+        "property_type": "residential dwellings",
+        "notes": "Valuation required for high-value properties"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_insured_building": 5000000,
+            "sum_insured_contents": 1000000,
+            "annual_premium": 25000,
+            "notes": "Estimated 0.5% rate for combined cover"
+          },
+          {
+            "sum_insured_contents": 500000,
+            "annual_premium": 5000,
+            "notes": "Contents-only estimate"
+          }
+        ],
+        "rate_table_notes": "Premiums based on property value and location; discounts for fire-safe materials.",
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 5M building + KES 1M contents."
+          },
+          {
+            "example": "KES 5,000/year for contents-only KES 500,000."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Building and contents against fire, theft, burglary",
+          "Domestic servants' liability (WIBA)",
+          "Personal liability (KES 1M–5M)",
+          "Embedded travel insurance (up to USD 40,000 emergency abroad)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Wear and tear",
+        "Deliberate damage",
+        "Unoccupied properties >30 days"
+      ],
+      "add_ons": [
+        "Portable equipment all-risk",
+        "Increased liability"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Police abstract (theft)",
+          "Repair invoices",
+          "Photos"
+        ],
+        "average_turnaround_days": 21,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "Google Reviews",
+          "comment": "Comprehensive home cover with embedded travel benefit (2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Domestic Package - Official Page",
+          "url": "https://www.apainsurance.org/product_detail_domestic"
+        },
+        {
+          "title": "BuyRentKenya Home Insurance Guide",
+          "url": "https://www.buyrentkenya.com/discover/home-insurance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_home_domestic_002\", \"product_name\": \"Home Insurance (Domestic Package)\", \"category\": \"general / personal insurance / property\", \"target_market\": \"homeowners, tenants, landlords\", \"eligibility\": {\"property_type\": \"residential dwellings\", \"notes\": \"Valuation required for high-value properties\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"sum_insured_building\": 5000000, \"sum_insured_contents\": 1000000, \"annual_premium\": 25000, \"notes\": \"Estimated 0.5% rate for combined cover\"}, {\"sum_insured_contents\": 500000, \"annual_premium\": 5000, \"notes\": \"Contents-only estimate\"}], \"rate_table_notes\": \"Premiums based on property value and location; discounts for fire-safe materials.\", \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 5M building + KES 1M contents.\"}, {\"example\": \"KES 5,000/year for contents-only KES 500,000.\"}]}, \"coverage\": {\"benefits\": [\"Building and contents against fire, theft, burglary\", \"Domestic servants' liability (WIBA)\", \"Personal liability (KES 1M–5M)\", \"Embedded travel insurance (up to USD 40,000 emergency abroad)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Wear and tear\", \"Deliberate damage\", \"Unoccupied properties >30 days\"], \"add_ons\": [\"Portable equipment all-risk\", \"Increased liability\"], \"claims_process\": {\"required_documents\": [\"Police abstract (theft)\", \"Repair invoices\", \"Photos\"], \"average_turnaround_days\": 21, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"online\"], \"customer_reviews\": [{\"source\": \"Google Reviews\", \"comment\": \"Comprehensive home cover with embedded travel benefit (2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Domestic Package - Official Page\", \"url\": \"https://www.apainsurance.org/product_detail_domestic\"}, {\"title\": \"BuyRentKenya Home Insurance Guide\", \"url\": \"https://www.buyrentkenya.com/discover/home-insurance\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_travel_globetrotter_003_b8efc1ed-2745-450b-836a-d763e294e859",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_travel_globetrotter_003",
+      "product_name": "Travel Insurance (Globetrotter)",
+      "category": "general / personal insurance / travel",
+      "target_market": "individual travellers, families, business trips, tourists",
+      "eligibility": {
+        "age_min": 6,
+        "age_max": 80,
+        "notes": "Ages above 80 require special underwriting"
+      },
+      "geographic_coverage": "Worldwide",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "per-trip",
+          "annual multi-trip"
+        ],
+        "rate_table": [
+          {
+            "duration_days": 30,
+            "destination": "Schengen",
+            "annual_premium": 6000,
+            "notes": "For KES 5M cover"
+          },
+          {
+            "duration_days": 90,
+            "destination": "Worldwide",
+            "annual_premium": 15000,
+            "notes": "Multi-trip estimate"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by duration, destination, and age; quotes via portal.",
+        "sample_examples": [
+          {
+            "example": "KES 6,000 for 30-day Schengen trip (KES 5M cover)."
+          },
+          {
+            "example": "KES 15,000 annual multi-trip worldwide."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Emergency medical (KES 1M–10M)",
+          "Trip cancellation/curtailment (KES 100,000–500,000)",
+          "Baggage loss (KES 50,000–200,000)",
+          "Evacuation and repatriation",
+          "Personal accident (KES 100,000–1M)"
+        ],
+        "duration": "per-trip (up to 90 days) or annual"
+      },
+      "exclusions": [
+        "Pre-existing conditions",
+        "War zones",
+        "Adventure sports unless added"
+      ],
+      "add_ons": [
+        "Winter sports",
+        "Business equipment"
+      ],
+      "provider_network": {
+        "assistance_partners": [
+          "Specialty Assistance (international)"
+        ],
+        "note": "24/7 global support"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Travel policy",
+          "Medical bills",
+          "Police reports (loss)"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 7
+      },
+      "distribution_channels": [
+        "online",
+        "agents",
+        "travel agencies"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Comprehensive worldwide cover for business trips (@TravelerKE, Jan 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Globetrotter Travel Cover",
+          "url": "https://www.apainsurance.org/product_detail_travel"
+        },
+        {
+          "title": "Travel Insurance Kenya Guide",
+          "url": "https://www.travelinsurancekenya.co.ke/apa-globetrotter-travel-insurance/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_travel_globetrotter_003\", \"product_name\": \"Travel Insurance (Globetrotter)\", \"category\": \"general / personal insurance / travel\", \"target_market\": \"individual travellers, families, business trips, tourists\", \"eligibility\": {\"age_min\": 6, \"age_max\": 80, \"notes\": \"Ages above 80 require special underwriting\"}, \"geographic_coverage\": \"Worldwide\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"per-trip\", \"annual multi-trip\"], \"rate_table\": [{\"duration_days\": 30, \"destination\": \"Schengen\", \"annual_premium\": 6000, \"notes\": \"For KES 5M cover\"}, {\"duration_days\": 90, \"destination\": \"Worldwide\", \"annual_premium\": 15000, \"notes\": \"Multi-trip estimate\"}], \"rate_table_notes\": \"Premiums vary by duration, destination, and age; quotes via portal.\", \"sample_examples\": [{\"example\": \"KES 6,000 for 30-day Schengen trip (KES 5M cover).\"}, {\"example\": \"KES 15,000 annual multi-trip worldwide.\"}]}, \"coverage\": {\"benefits\": [\"Emergency medical (KES 1M–10M)\", \"Trip cancellation/curtailment (KES 100,000–500,000)\", \"Baggage loss (KES 50,000–200,000)\", \"Evacuation and repatriation\", \"Personal accident (KES 100,000–1M)\"], \"duration\": \"per-trip (up to 90 days) or annual\"}, \"exclusions\": [\"Pre-existing conditions\", \"War zones\", \"Adventure sports unless added\"], \"add_ons\": [\"Winter sports\", \"Business equipment\"], \"provider_network\": {\"assistance_partners\": [\"Specialty Assistance (international)\"], \"note\": \"24/7 global support\"}, \"claims_process\": {\"required_documents\": [\"Travel policy\", \"Medical bills\", \"Police reports (loss)\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 7}, \"distribution_channels\": [\"online\", \"agents\", \"travel agencies\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Comprehensive worldwide cover for business trips (@TravelerKE, Jan 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Globetrotter Travel Cover\", \"url\": \"https://www.apainsurance.org/product_detail_travel\"}, {\"title\": \"Travel Insurance Kenya Guide\", \"url\": \"https://www.travelinsurancekenya.co.ke/apa-globetrotter-travel-insurance/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_pa_cover_004_9389d01d-b4e2-466b-b722-c92f52bc1a33",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_pa_cover_004",
+      "product_name": "Personal Accident Cover",
+      "category": "general / personal insurance / accident",
+      "target_market": "individuals, students, groups, schools",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Occupation class affects premiums; no medical exam"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 1000000,
+            "annual_premium": 12000,
+            "notes": "Standard individual cover"
+          },
+          {
+            "sum_assured": 500000,
+            "annual_premium": 6000,
+            "notes": "Student/group rate estimate"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by sum assured and occupation; group discounts available.",
+        "sample_examples": [
+          {
+            "example": "KES 12,000/year for KES 1M individual cover."
+          },
+          {
+            "example": "KES 6,000/year for KES 500,000 student cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Accidental death (100% sum assured)",
+          "Permanent disability (up to 100%)",
+          "Temporary total disability (weekly benefit)",
+          "Medical expenses (KES 20,000–200,000)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Intentional self-harm",
+        "Hazardous activities unless declared",
+        "War risks"
+      ],
+      "add_ons": [
+        "Funeral expense",
+        "Hospital cash"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Medical reports",
+          "Police abstract",
+          "Claim form"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "schools",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Quick payout for accident claim (@ParentKE, Mar 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Personal Accident Cover",
+          "url": "https://www.apainsurance.org/product_detail_personal_accident"
+        },
+        {
+          "title": "APA Products Overview",
+          "url": "https://www.apainsurance.org/products"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_pa_cover_004\", \"product_name\": \"Personal Accident Cover\", \"category\": \"general / personal insurance / accident\", \"target_market\": \"individuals, students, groups, schools\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Occupation class affects premiums; no medical exam\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly\"], \"rate_table\": [{\"sum_assured\": 1000000, \"annual_premium\": 12000, \"notes\": \"Standard individual cover\"}, {\"sum_assured\": 500000, \"annual_premium\": 6000, \"notes\": \"Student/group rate estimate\"}], \"rate_table_notes\": \"Premiums vary by sum assured and occupation; group discounts available.\", \"sample_examples\": [{\"example\": \"KES 12,000/year for KES 1M individual cover.\"}, {\"example\": \"KES 6,000/year for KES 500,000 student cover.\"}]}, \"coverage\": {\"benefits\": [\"Accidental death (100% sum assured)\", \"Permanent disability (up to 100%)\", \"Temporary total disability (weekly benefit)\", \"Medical expenses (KES 20,000–200,000)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Intentional self-harm\", \"Hazardous activities unless declared\", \"War risks\"], \"add_ons\": [\"Funeral expense\", \"Hospital cash\"], \"claims_process\": {\"required_documents\": [\"Medical reports\", \"Police abstract\", \"Claim form\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"schools\", \"online\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Quick payout for accident claim (@ParentKE, Mar 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Personal Accident Cover\", \"url\": \"https://www.apainsurance.org/product_detail_personal_accident\"}, {\"title\": \"APA Products Overview\", \"url\": \"https://www.apainsurance.org/products\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_family_health_005_739d5a3a-7c18-4942-ae85-c5a9a9bb5e9f",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_family_health_005",
+      "product_name": "Family Health Cover (Jamii Plus / Afya Nafuu)",
+      "category": "health insurance / family",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 80,
+        "notes": "Pre-existing covered after 12 months; term babies from 38 weeks"
+      },
+      "geographic_coverage": "Kenya (with embedded international emergency)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "plan": "Afya Nafuu Basic",
+            "inpatient_limit": 750000,
+            "annual_premium": 4661,
+            "notes": "Individual; family discounts apply"
+          },
+          {
+            "plan": "Jamii Plus Superior",
+            "inpatient_limit": 10000000,
+            "annual_premium": 150000,
+            "notes": "Family of 4 estimate"
+          },
+          {
+            "plan": "Afya Nafuu Premier",
+            "inpatient_limit": 5000000,
+            "annual_premium": 5500,
+            "notes": "Per person starting rate"
+          }
+        ],
+        "rate_table_notes": "Tiered plans; premiums vary by age, family size, and add-ons. Outpatient/maternity separate.",
+        "sample_examples": [
+          {
+            "example": "KES 4,661/year for KES 750K inpatient (Afya Nafuu Basic individual)."
+          },
+          {
+            "example": "KES 150,000/year for family of 4 (Jamii Plus up to KES 10M)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient (KES 500K–10M; pre-existing, chronic, cancer, HIV/AIDS)",
+          "Outpatient rider (KES 40K–200K)",
+          "Maternity (KES 40K–500K after 10–12 months)",
+          "Dental/optical (KES 20K–50K)",
+          "Funeral expenses (KES 50K)",
+          "Embedded travel (emergency abroad)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Cosmetic procedures",
+        "Waiting periods: 30 days illness, 12 months pre-existing/chronic/maternity"
+      ],
+      "add_ons": [
+        "Outpatient",
+        "Maternity top-up",
+        "Dental/optical"
+      ],
+      "provider_network": {
+        "hospitals": [
+          "Nairobi Hospital",
+          "Aga Khan",
+          "Mater Hospital",
+          "200+ facilities"
+        ],
+        "note": "Cashless at empanelled hospitals"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Membership card",
+          "Hospital invoices",
+          "Medical reports"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true,
+        "notes": "Pre-authorization for admissions; cashless network"
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "brokers",
+        "online",
+        "app"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Afya Nafuu covered chronic conditions fully after waiting period (@FamilyKE, Jan 2025)"
+        },
+        {
+          "source": "Google Reviews",
+          "comment": "Good family cover but waiting periods strict (2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Jamii Plus",
+          "url": "https://www.apainsurance.org/product_detail_jamii"
+        },
+        {
+          "title": "APA Afya Nafuu",
+          "url": "https://www.apainsurance.org/product_detail_afyanafuu"
+        },
+        {
+          "title": "AMSSurity Affordable Health Guide 2025",
+          "url": "https://www.amssurity.co.ke/blog/affordable-health-insurance-covers-kenya/"
+        },
+        {
+          "title": "StepByStep APA Afya Nafuu Guide",
+          "url": "https://stepbystepinsurance.co.ke/apa-afya-nafuu-health-insurance-guide-prices-and-benefits/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_family_health_005\", \"product_name\": \"Family Health Cover (Jamii Plus / Afya Nafuu)\", \"category\": \"health insurance / family\", \"target_market\": \"individuals, families\", \"eligibility\": {\"age_min\": 0, \"age_max\": 80, \"notes\": \"Pre-existing covered after 12 months; term babies from 38 weeks\"}, \"geographic_coverage\": \"Kenya (with embedded international emergency)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly\"], \"rate_table\": [{\"plan\": \"Afya Nafuu Basic\", \"inpatient_limit\": 750000, \"annual_premium\": 4661, \"notes\": \"Individual; family discounts apply\"}, {\"plan\": \"Jamii Plus Superior\", \"inpatient_limit\": 10000000, \"annual_premium\": 150000, \"notes\": \"Family of 4 estimate\"}, {\"plan\": \"Afya Nafuu Premier\", \"inpatient_limit\": 5000000, \"annual_premium\": 5500, \"notes\": \"Per person starting rate\"}], \"rate_table_notes\": \"Tiered plans; premiums vary by age, family size, and add-ons. Outpatient/maternity separate.\", \"sample_examples\": [{\"example\": \"KES 4,661/year for KES 750K inpatient (Afya Nafuu Basic individual).\"}, {\"example\": \"KES 150,000/year for family of 4 (Jamii Plus up to KES 10M).\"}]}, \"coverage\": {\"benefits\": [\"Inpatient (KES 500K–10M; pre-existing, chronic, cancer, HIV/AIDS)\", \"Outpatient rider (KES 40K–200K)\", \"Maternity (KES 40K–500K after 10–12 months)\", \"Dental/optical (KES 20K–50K)\", \"Funeral expenses (KES 50K)\", \"Embedded travel (emergency abroad)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Cosmetic procedures\", \"Waiting periods: 30 days illness, 12 months pre-existing/chronic/maternity\"], \"add_ons\": [\"Outpatient\", \"Maternity top-up\", \"Dental/optical\"], \"provider_network\": {\"hospitals\": [\"Nairobi Hospital\", \"Aga Khan\", \"Mater Hospital\", \"200+ facilities\"], \"note\": \"Cashless at empanelled hospitals\"}, \"claims_process\": {\"required_documents\": [\"Membership card\", \"Hospital invoices\", \"Medical reports\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true, \"notes\": \"Pre-authorization for admissions; cashless network\"}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"brokers\", \"online\", \"app\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Afya Nafuu covered chronic conditions fully after waiting period (@FamilyKE, Jan 2025)\"}, {\"source\": \"Google Reviews\", \"comment\": \"Good family cover but waiting periods strict (2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Jamii Plus\", \"url\": \"https://www.apainsurance.org/product_detail_jamii\"}, {\"title\": \"APA Afya Nafuu\", \"url\": \"https://www.apainsurance.org/product_detail_afyanafuu\"}, {\"title\": \"AMSSurity Affordable Health Guide 2025\", \"url\": \"https://www.amssurity.co.ke/blog/affordable-health-insurance-covers-kenya/\"}, {\"title\": \"StepByStep APA Afya Nafuu Guide\", \"url\": \"https://stepbystepinsurance.co.ke/apa-afya-nafuu-health-insurance-guide-prices-and-benefits/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_cancer_femina_006_ef8f4b54-e506-48f7-b242-24bac3c4df51",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_cancer_femina_006",
+      "product_name": "Cancer Care (Femina / Femina Plus)",
+      "category": "health insurance / critical illness",
+      "target_market": "women in Kenya",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "6-month waiting for diagnosis; HPV vaccination eligible"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual",
+          "monthly"
+        ],
+        "rate_table": [
+          {
+            "plan": "Femina Basic",
+            "sum_assured": 500000,
+            "annual_premium": 5000,
+            "notes": "Screenings + cash benefit"
+          },
+          {
+            "plan": "Femina Plus",
+            "sum_assured": 1000000,
+            "annual_premium": 10000,
+            "notes": "Includes HPV vaccination"
+          }
+        ],
+        "rate_table_notes": "Premiums vary by age and plan level; quotes required.",
+        "sample_examples": [
+          {
+            "example": "KES 5,000/year for KES 500K breast/cervical cover (Femina)."
+          },
+          {
+            "example": "KES 10,000/year for KES 1M + vaccinations (Femina Plus)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Screenings for breast/cervical cancer",
+          "HPV vaccinations (Plus plan)",
+          "Lump-sum on diagnosis (breast, cervical, ovarian: KES 500K–1M)",
+          "Treatment support"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing cancers (6-month wait)",
+        "Non-covered cancers"
+      ],
+      "add_ons": [
+        "Extended screenings"
+      ],
+      "provider_network": {
+        "hospitals": "Partner clinics for screenings (e.g., YuBuntu network)",
+        "note": "Access to specialized women's health providers"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Diagnosis report",
+          "Policy schedule",
+          "ID"
+        ],
+        "average_turnaround_days": 10,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online",
+        "women's programs"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Femina Plus provided quick cash for diagnosis (@WomenKE, Mar 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Femina Plus",
+          "url": "https://www.apainsurance.org/product_detail_femina_plus"
+        },
+        {
+          "title": "Kenya News Agency APA SHEild Launch",
+          "url": "https://www.kenyanews.go.ke/apa-insurance-launches-apa-sheild-for-women/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_cancer_femina_006\", \"product_name\": \"Cancer Care (Femina / Femina Plus)\", \"category\": \"health insurance / critical illness\", \"target_market\": \"women in Kenya\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"6-month waiting for diagnosis; HPV vaccination eligible\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\", \"monthly\"], \"rate_table\": [{\"plan\": \"Femina Basic\", \"sum_assured\": 500000, \"annual_premium\": 5000, \"notes\": \"Screenings + cash benefit\"}, {\"plan\": \"Femina Plus\", \"sum_assured\": 1000000, \"annual_premium\": 10000, \"notes\": \"Includes HPV vaccination\"}], \"rate_table_notes\": \"Premiums vary by age and plan level; quotes required.\", \"sample_examples\": [{\"example\": \"KES 5,000/year for KES 500K breast/cervical cover (Femina).\"}, {\"example\": \"KES 10,000/year for KES 1M + vaccinations (Femina Plus).\"}]}, \"coverage\": {\"benefits\": [\"Screenings for breast/cervical cancer\", \"HPV vaccinations (Plus plan)\", \"Lump-sum on diagnosis (breast, cervical, ovarian: KES 500K–1M)\", \"Treatment support\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing cancers (6-month wait)\", \"Non-covered cancers\"], \"add_ons\": [\"Extended screenings\"], \"provider_network\": {\"hospitals\": \"Partner clinics for screenings (e.g., YuBuntu network)\", \"note\": \"Access to specialized women's health providers\"}, \"claims_process\": {\"required_documents\": [\"Diagnosis report\", \"Policy schedule\", \"ID\"], \"average_turnaround_days\": 10, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online\", \"women's programs\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Femina Plus provided quick cash for diagnosis (@WomenKE, Mar 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Femina Plus\", \"url\": \"https://www.apainsurance.org/product_detail_femina_plus\"}, {\"title\": \"Kenya News Agency APA SHEild Launch\", \"url\": \"https://www.kenyanews.go.ke/apa-insurance-launches-apa-sheild-for-women/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_international_health_007_ffc0f762-b1ac-46e0-8938-4082ca284486",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_international_health_007",
+      "product_name": "International Health Cover",
+      "category": "health insurance / international",
+      "target_market": "individuals, families, corporates with global needs",
+      "eligibility": {
+        "age_min": 0,
+        "age_max": 75,
+        "notes": "Modular plans; pre-existing after 12 months"
+      },
+      "geographic_coverage": "Worldwide (focus on India partners)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "inpatient_limit": 5000000,
+            "annual_premium": 80000,
+            "notes": "Individual modular plan"
+          },
+          {
+            "inpatient_limit": 10000000,
+            "annual_premium": 150000,
+            "notes": "Family estimate"
+          }
+        ],
+        "rate_table_notes": "Bespoke modular; contact for quotes via Hollard partnership.",
+        "sample_examples": [
+          {
+            "example": "KES 80,000/year for KES 5M inpatient (individual)."
+          },
+          {
+            "example": "KES 150,000/year for family KES 10M."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Inpatient/outpatient (KES 5M–30M)",
+          "Emergency evacuation",
+          "Maternity/chronic (after waiting)",
+          "Global hospital access"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Pre-existing (12 months)",
+        "Experimental treatments"
+      ],
+      "add_ons": [
+        "Maternity",
+        "Wellness programs"
+      ],
+      "provider_network": {
+        "hospitals": [
+          "Partners in India, global network via Hollard"
+        ],
+        "note": "Vitality wellness integration"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Invoices",
+          "Medical reports"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "brokers",
+        "corporate sales",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Good international emergency cover (@ExpatKE, Feb 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA International Health Cover",
+          "url": "https://www.apainsurance.org/product_detail_hollard"
+        },
+        {
+          "title": "APA Products",
+          "url": "https://www.apainsurance.org/products"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_international_health_007\", \"product_name\": \"International Health Cover\", \"category\": \"health insurance / international\", \"target_market\": \"individuals, families, corporates with global needs\", \"eligibility\": {\"age_min\": 0, \"age_max\": 75, \"notes\": \"Modular plans; pre-existing after 12 months\"}, \"geographic_coverage\": \"Worldwide (focus on India partners)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"annual\"], \"rate_table\": [{\"inpatient_limit\": 5000000, \"annual_premium\": 80000, \"notes\": \"Individual modular plan\"}, {\"inpatient_limit\": 10000000, \"annual_premium\": 150000, \"notes\": \"Family estimate\"}], \"rate_table_notes\": \"Bespoke modular; contact for quotes via Hollard partnership.\", \"sample_examples\": [{\"example\": \"KES 80,000/year for KES 5M inpatient (individual).\"}, {\"example\": \"KES 150,000/year for family KES 10M.\"}]}, \"coverage\": {\"benefits\": [\"Inpatient/outpatient (KES 5M–30M)\", \"Emergency evacuation\", \"Maternity/chronic (after waiting)\", \"Global hospital access\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Pre-existing (12 months)\", \"Experimental treatments\"], \"add_ons\": [\"Maternity\", \"Wellness programs\"], \"provider_network\": {\"hospitals\": [\"Partners in India, global network via Hollard\"], \"note\": \"Vitality wellness integration\"}, \"claims_process\": {\"required_documents\": [\"Invoices\", \"Medical reports\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"brokers\", \"corporate sales\", \"online\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Good international emergency cover (@ExpatKE, Feb 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA International Health Cover\", \"url\": \"https://www.apainsurance.org/product_detail_hollard\"}, {\"title\": \"APA Products\", \"url\": \"https://www.apainsurance.org/products\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_elimu_008_68a5c9ee-381d-4448-ab82-eb052dfe240b",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_elimu_008",
+      "product_name": "Education Plan (APA Elimu)",
+      "category": "life & savings / education",
+      "target_market": "parents, guardians",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Child up to 25; premiums capped at 20 years"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 1000000,
+            "annual_premium": 20000,
+            "notes": "For 10-year term"
+          }
+        ],
+        "rate_table_notes": "Flexible terms 5–20 years; tax relief 15%.",
+        "sample_examples": [
+          {
+            "example": "KES 20,000/year for KES 1M education fund (10 years)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Savings for fees/books (KES 500K–5M maturity)",
+          "Death benefit (full sum assured)",
+          "Terminal/revisionary bonuses",
+          "Paid-up after 3 years; loans available"
+        ],
+        "duration": "5–20 years"
+      },
+      "exclusions": [
+        "Policy lapse",
+        "Suicide within 2 years"
+      ],
+      "add_ons": [
+        "Disability waiver"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "School invoices",
+          "Policy document"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "financial advisors"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Elimu built fund for child's fees despite parent's passing (@ParentKE, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Elimu Plan",
+          "url": "https://www.apainsurance.org/product_detail_life_elimu"
+        },
+        {
+          "title": "Victor Matara Education Insurance List",
+          "url": "https://victormatara.com/list-of-best-education-insurance-policies-in-kenya/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_elimu_008\", \"product_name\": \"Education Plan (APA Elimu)\", \"category\": \"life & savings / education\", \"target_market\": \"parents, guardians\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Child up to 25; premiums capped at 20 years\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 1000000, \"annual_premium\": 20000, \"notes\": \"For 10-year term\"}], \"rate_table_notes\": \"Flexible terms 5–20 years; tax relief 15%.\", \"sample_examples\": [{\"example\": \"KES 20,000/year for KES 1M education fund (10 years).\"}]}, \"coverage\": {\"benefits\": [\"Savings for fees/books (KES 500K–5M maturity)\", \"Death benefit (full sum assured)\", \"Terminal/revisionary bonuses\", \"Paid-up after 3 years; loans available\"], \"duration\": \"5–20 years\"}, \"exclusions\": [\"Policy lapse\", \"Suicide within 2 years\"], \"add_ons\": [\"Disability waiver\"], \"claims_process\": {\"required_documents\": [\"School invoices\", \"Policy document\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"financial advisors\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Elimu built fund for child's fees despite parent's passing (@ParentKE, 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Elimu Plan\", \"url\": \"https://www.apainsurance.org/product_detail_life_elimu\"}, {\"title\": \"Victor Matara Education Insurance List\", \"url\": \"https://victormatara.com/list-of-best-education-insurance-policies-in-kenya/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_savings_009_04bc088e-bc35-4f00-8064-fd8c36ef8c64",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_savings_009",
+      "product_name": "Savings Plans (Imarika / Akiba Halisi)",
+      "category": "life & savings",
+      "target_market": "individuals planning lump-sum goals",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 70,
+        "notes": "Flexible contributions"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "plan": "Imarika",
+            "sum_assured": 1000000,
+            "annual_premium": 25000,
+            "notes": "Lump-sum maturity"
+          },
+          {
+            "plan": "Akiba Halisi",
+            "sum_assured": 500000,
+            "annual_premium": 10000,
+            "notes": "Periodic access"
+          }
+        ],
+        "rate_table_notes": "Tailored to goals; tax relief eligible.",
+        "sample_examples": [
+          {
+            "example": "KES 25,000/year for KES 1M Imarika lump-sum."
+          },
+          {
+            "example": "KES 10,000/year for Akiba Halisi periodic savings."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Savings growth with life cover",
+          "Lump-sum/periodic payouts (Imarika/Akiba)",
+          "Death benefit (sum assured)"
+        ],
+        "duration": "5–20 years"
+      },
+      "exclusions": [
+        "Early surrender penalties",
+        "Non-disclosure"
+      ],
+      "add_ons": [
+        "Investment options"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Maturity claim form",
+          "ID"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "advisors"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "Akiba Halisi helped save for wedding (@SaverKE, 2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Imarika",
+          "url": "https://www.apainsurance.org/product_detail_life_Imarika.php"
+        },
+        {
+          "title": "APA Akiba Halisi",
+          "url": "https://www.apainsurance.org/product_detail_life_akiba_halisi"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_savings_009\", \"product_name\": \"Savings Plans (Imarika / Akiba Halisi)\", \"category\": \"life & savings\", \"target_market\": \"individuals planning lump-sum goals\", \"eligibility\": {\"age_min\": 18, \"age_max\": 70, \"notes\": \"Flexible contributions\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"plan\": \"Imarika\", \"sum_assured\": 1000000, \"annual_premium\": 25000, \"notes\": \"Lump-sum maturity\"}, {\"plan\": \"Akiba Halisi\", \"sum_assured\": 500000, \"annual_premium\": 10000, \"notes\": \"Periodic access\"}], \"rate_table_notes\": \"Tailored to goals; tax relief eligible.\", \"sample_examples\": [{\"example\": \"KES 25,000/year for KES 1M Imarika lump-sum.\"}, {\"example\": \"KES 10,000/year for Akiba Halisi periodic savings.\"}]}, \"coverage\": {\"benefits\": [\"Savings growth with life cover\", \"Lump-sum/periodic payouts (Imarika/Akiba)\", \"Death benefit (sum assured)\"], \"duration\": \"5–20 years\"}, \"exclusions\": [\"Early surrender penalties\", \"Non-disclosure\"], \"add_ons\": [\"Investment options\"], \"claims_process\": {\"required_documents\": [\"Maturity claim form\", \"ID\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"advisors\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"Akiba Halisi helped save for wedding (@SaverKE, 2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Imarika\", \"url\": \"https://www.apainsurance.org/product_detail_life_Imarika.php\"}, {\"title\": \"APA Akiba Halisi\", \"url\": \"https://www.apainsurance.org/product_detail_life_akiba_halisi\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_pumzisha_010_e096686f-4ddf-418d-aaba-ac20175412d1",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_pumzisha_010",
+      "product_name": "Funeral Expense Cover (Pumzisha)",
+      "category": "life & savings / funeral",
+      "target_market": "individuals, nuclear families",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 75,
+        "notes": "Includes parents/parents-in-law"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 500000,
+            "monthly_premium": 1000,
+            "annual_premium": 12000,
+            "notes": "Family cover"
+          },
+          {
+            "sum_assured": 50000,
+            "monthly_premium": 250,
+            "annual_premium": 3000,
+            "notes": "Individual basic"
+          }
+        ],
+        "rate_table_notes": "Age-banded premiums; extra for additional members.",
+        "sample_examples": [
+          {
+            "example": "KES 1,000/month for KES 500K family cover."
+          },
+          {
+            "example": "KES 250/month for KES 50K individual."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Lump-sum on death (KES 50K–500K)",
+          "Covers nuclear family + parents",
+          "No waiting for accidental death"
+        ],
+        "duration": "annual renewable to age 75"
+      },
+      "exclusions": [
+        "Suicide within 1 year",
+        "Fraud"
+      ],
+      "add_ons": [
+        "Extended family"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Death certificate",
+          "Burial permit",
+          "ID"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Pumzisha paid quickly for family funeral (@GrievingKE, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Pumzisha",
+          "url": "https://www.apainsurance.org/product_detail_life_pumzisha"
+        },
+        {
+          "title": "Business Radar Funeral Insurance 2025",
+          "url": "https://www.businessradar.co.ke/blog/2025/02/07/full-list-of-best-funeral-insurance-providers-in-kenya-everything-you-need-to-know/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_pumzisha_010\", \"product_name\": \"Funeral Expense Cover (Pumzisha)\", \"category\": \"life & savings / funeral\", \"target_market\": \"individuals, nuclear families\", \"eligibility\": {\"age_min\": 18, \"age_max\": 75, \"notes\": \"Includes parents/parents-in-law\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 500000, \"monthly_premium\": 1000, \"annual_premium\": 12000, \"notes\": \"Family cover\"}, {\"sum_assured\": 50000, \"monthly_premium\": 250, \"annual_premium\": 3000, \"notes\": \"Individual basic\"}], \"rate_table_notes\": \"Age-banded premiums; extra for additional members.\", \"sample_examples\": [{\"example\": \"KES 1,000/month for KES 500K family cover.\"}, {\"example\": \"KES 250/month for KES 50K individual.\"}]}, \"coverage\": {\"benefits\": [\"Lump-sum on death (KES 50K–500K)\", \"Covers nuclear family + parents\", \"No waiting for accidental death\"], \"duration\": \"annual renewable to age 75\"}, \"exclusions\": [\"Suicide within 1 year\", \"Fraud\"], \"add_ons\": [\"Extended family\"], \"claims_process\": {\"required_documents\": [\"Death certificate\", \"Burial permit\", \"ID\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Pumzisha paid quickly for family funeral (@GrievingKE, 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Pumzisha\", \"url\": \"https://www.apainsurance.org/product_detail_life_pumzisha\"}, {\"title\": \"Business Radar Funeral Insurance 2025\", \"url\": \"https://www.businessradar.co.ke/blog/2025/02/07/full-list-of-best-funeral-insurance-providers-in-kenya-everything-you-need-to-know/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_ipp_011_d8da3f98-5058-4352-a377-0154215d00f8",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_ipp_011",
+      "product_name": "Individual Pension Plan (IPP)",
+      "category": "life & savings / pension",
+      "target_market": "individuals planning retirement",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 70,
+        "notes": "Flexible contributions; transfer from other schemes"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual",
+          "lump-sum"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Minimum KES 5,000/month; competitive returns (10–12% est.); tax relief up to 15%.",
+        "sample_examples": [
+          {
+            "example": "KES 10,000/month for retirement accumulation."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Retirement annuity (lifetime payouts)",
+          "Tax-advantaged savings",
+          "Death benefit (fund value)",
+          "Flexible withdrawals post-50"
+        ],
+        "duration": "until retirement (age 50+)"
+      },
+      "exclusions": [
+        "Early withdrawal penalties before 50",
+        "Market risks"
+      ],
+      "add_ons": [
+        "Investment funds"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Retirement proof",
+          "Withdrawal form"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "advisors",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "IPP flexible transfers and good returns (@RetireeKE, 2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA IPP",
+          "url": "https://www.apainsurance.org/product_detail_life_individual_pension_plan"
+        },
+        {
+          "title": "RBA Registered IPPs",
+          "url": "https://www.rba.go.ke/registered-ipps/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_ipp_011\", \"product_name\": \"Individual Pension Plan (IPP)\", \"category\": \"life & savings / pension\", \"target_market\": \"individuals planning retirement\", \"eligibility\": {\"age_min\": 18, \"age_max\": 70, \"notes\": \"Flexible contributions; transfer from other schemes\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\", \"lump-sum\"], \"rate_table\": null, \"rate_table_notes\": \"Minimum KES 5,000/month; competitive returns (10–12% est.); tax relief up to 15%.\", \"sample_examples\": [{\"example\": \"KES 10,000/month for retirement accumulation.\"}]}, \"coverage\": {\"benefits\": [\"Retirement annuity (lifetime payouts)\", \"Tax-advantaged savings\", \"Death benefit (fund value)\", \"Flexible withdrawals post-50\"], \"duration\": \"until retirement (age 50+)\"}, \"exclusions\": [\"Early withdrawal penalties before 50\", \"Market risks\"], \"add_ons\": [\"Investment funds\"], \"claims_process\": {\"required_documents\": [\"Retirement proof\", \"Withdrawal form\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 30}, \"distribution_channels\": [\"advisors\", \"online\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"IPP flexible transfers and good returns (@RetireeKE, 2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA IPP\", \"url\": \"https://www.apainsurance.org/product_detail_life_individual_pension_plan\"}, {\"title\": \"RBA Registered IPPs\", \"url\": \"https://www.rba.go.ke/registered-ipps/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_term_assurance_012_93d95303-bd08-4d40-9c44-c68f9ad9c825",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_term_assurance_012",
+      "product_name": "Life Cover (Term Assurance)",
+      "category": "life & savings / protection",
+      "target_market": "individuals, families",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Health declaration; medical for high sums"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "sum_assured": 5000000,
+            "annual_premium": 50000,
+            "notes": "20-year term"
+          }
+        ],
+        "rate_table_notes": "Premiums based on age, term (5–20 years); waiver on disability.",
+        "sample_examples": [
+          {
+            "example": "KES 50,000/year for KES 5M 20-year cover."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Death benefit (sum assured)",
+          "Total permanent disability (sum assured)",
+          "Accidental death extra (100%)",
+          "Premium waiver on disability/unemployment (up to 6 months)"
+        ],
+        "duration": "5–20 years"
+      },
+      "exclusions": [
+        "Suicide within 2 years",
+        "Non-disclosure"
+      ],
+      "add_ons": [
+        "Critical illness (30% sum)"
+      ],
+      "claims_process": {
+        "required_documents": [
+          "Death certificate",
+          "Medical reports"
+        ],
+        "average_turnaround_days": 14,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "online"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Term assurance provided family security (@BreadwinnerKE, 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Term Assurance",
+          "url": "https://www.apainsurance.org/product_detail_life_term_assuarance"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_term_assurance_012\", \"product_name\": \"Life Cover (Term Assurance)\", \"category\": \"life & savings / protection\", \"target_market\": \"individuals, families\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Health declaration; medical for high sums\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"sum_assured\": 5000000, \"annual_premium\": 50000, \"notes\": \"20-year term\"}], \"rate_table_notes\": \"Premiums based on age, term (5–20 years); waiver on disability.\", \"sample_examples\": [{\"example\": \"KES 50,000/year for KES 5M 20-year cover.\"}]}, \"coverage\": {\"benefits\": [\"Death benefit (sum assured)\", \"Total permanent disability (sum assured)\", \"Accidental death extra (100%)\", \"Premium waiver on disability/unemployment (up to 6 months)\"], \"duration\": \"5–20 years\"}, \"exclusions\": [\"Suicide within 2 years\", \"Non-disclosure\"], \"add_ons\": [\"Critical illness (30% sum)\"], \"claims_process\": {\"required_documents\": [\"Death certificate\", \"Medical reports\"], \"average_turnaround_days\": 14, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"online\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Term assurance provided family security (@BreadwinnerKE, 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Term Assurance\", \"url\": \"https://www.apainsurance.org/product_detail_life_term_assuarance\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_shield_013_39db162c-a471-4da3-b054-d295f5d53f5e",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_shield_013",
+      "product_name": "APA SHEild (women-focused protection & wellness suite)",
+      "category": "special / partnership products / women",
+      "target_market": "women across life stages",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "Tailored for health, wealth, protection"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": null,
+        "rate_table_notes": "Bespoke; starts from KES 5,000/year per module.",
+        "sample_examples": [
+          {
+            "example": "KES 10,000/year for full suite (health + wealth)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Health: Femina cancer, wellness screenings",
+          "Wealth: Savings/pension modules",
+          "Protection: Life/accident covers",
+          "Value-add: Community support, financial guidance"
+        ],
+        "duration": "flexible modular"
+      },
+      "exclusions": [
+        "Standard policy exclusions apply"
+      ],
+      "add_ons": [
+        "HPV vaccinations",
+        "Mental health support"
+      ],
+      "provider_network": {
+        "partners": [
+          "IFC, YuBuntu, Hollard"
+        ],
+        "note": "Women's programs integration"
+      },
+      "claims_process": {
+        "required_documents": "Varies by module",
+        "average_turnaround_days": 10,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "online",
+        "women's networks",
+        "agents"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "SHEild empowered with tailored women's cover (2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA SHEild Program",
+          "url": "https://www.apainsurance.org/sheild"
+        },
+        {
+          "title": "IFC APA SHEild Report 2025",
+          "url": "https://www.ifc.org/en/insights-reports/2025/apa-insurance-kenya-breaking-new-ground-in-untapped-markets"
+        },
+        {
+          "title": "Kenya News APA Launch",
+          "url": "https://www.kenyanews.go.ke/apa-insurance-launches-apa-sheild-for-women/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_shield_013\", \"product_name\": \"APA SHEild (women-focused protection & wellness suite)\", \"category\": \"special / partnership products / women\", \"target_market\": \"women across life stages\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"Tailored for health, wealth, protection\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": null, \"rate_table_notes\": \"Bespoke; starts from KES 5,000/year per module.\", \"sample_examples\": [{\"example\": \"KES 10,000/year for full suite (health + wealth).\"}]}, \"coverage\": {\"benefits\": [\"Health: Femina cancer, wellness screenings\", \"Wealth: Savings/pension modules\", \"Protection: Life/accident covers\", \"Value-add: Community support, financial guidance\"], \"duration\": \"flexible modular\"}, \"exclusions\": [\"Standard policy exclusions apply\"], \"add_ons\": [\"HPV vaccinations\", \"Mental health support\"], \"provider_network\": {\"partners\": [\"IFC, YuBuntu, Hollard\"], \"note\": \"Women's programs integration\"}, \"claims_process\": {\"required_documents\": \"Varies by module\", \"average_turnaround_days\": 10, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"online\", \"women's networks\", \"agents\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"SHEild empowered with tailored women's cover (2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA SHEild Program\", \"url\": \"https://www.apainsurance.org/sheild\"}, {\"title\": \"IFC APA SHEild Report 2025\", \"url\": \"https://www.ifc.org/en/insights-reports/2025/apa-insurance-kenya-breaking-new-ground-in-untapped-markets\"}, {\"title\": \"Kenya News APA Launch\", \"url\": \"https://www.kenyanews.go.ke/apa-insurance-launches-apa-sheild-for-women/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_hospicash_014_559518b5-21a8-43fa-b12c-ec84702a2b11",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_hospicash_014",
+      "product_name": "HospiCash (hospital cash + funeral cover, via Azuri PAYG solar)",
+      "category": "special / partnership products / micro",
+      "target_market": "off-grid solar customers, low-income households",
+      "eligibility": {
+        "notes": "Azuri Quad/TV customers; age 18+"
+      },
+      "geographic_coverage": "Kenya (rural/off-grid)",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "daily bundled"
+        ],
+        "rate_table": [
+          {
+            "daily_add_on": 3,
+            "annual_equiv": 1095,
+            "notes": "KES 3/day added to solar payment"
+          }
+        ],
+        "rate_table_notes": "Bundled with Azuri solar (KES 49–52/day total).",
+        "sample_examples": [
+          {
+            "example": "KES 3/day add-on for KES 1,000/day hospital cash + KES 10,000 funeral."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Hospital cash (KES 1,000/day up to 30 days)",
+          "Funeral (KES 10,000 lump-sum)"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Non-hospitalization",
+        "Pre-existing"
+      ],
+      "add_ons": null,
+      "provider_network": {
+        "partners": [
+          "Azuri Technologies"
+        ],
+        "note": "Via PAYG solar systems"
+      },
+      "claims_process": {
+        "required_documents": [
+          "Hospital summary",
+          "ID"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": false
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 7
+      },
+      "distribution_channels": [
+        "Azuri agents",
+        "bundled sales"
+      ],
+      "customer_reviews": [
+        {
+          "source": "PRNewswire",
+          "comment": "Affordable add-on for off-grid families (2018 launch, ongoing)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "Azuri APA HospiCash Launch",
+          "url": "https://www.prnewswire.co.uk/news-releases/azuri-and-apa-insurance-introduce-affordable-income-and-funeral-cover-for-solar-and-off-grid-customers-700136621.html"
+        },
+        {
+          "title": "African Review Azuri Partnership",
+          "url": "https://africanreview.com/energy-a-power/renewables/azuri-apa-to-give-insurance-cover-for-customers-in-kenya"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_hospicash_014\", \"product_name\": \"HospiCash (hospital cash + funeral cover, via Azuri PAYG solar)\", \"category\": \"special / partnership products / micro\", \"target_market\": \"off-grid solar customers, low-income households\", \"eligibility\": {\"notes\": \"Azuri Quad/TV customers; age 18+\"}, \"geographic_coverage\": \"Kenya (rural/off-grid)\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"daily bundled\"], \"rate_table\": [{\"daily_add_on\": 3, \"annual_equiv\": 1095, \"notes\": \"KES 3/day added to solar payment\"}], \"rate_table_notes\": \"Bundled with Azuri solar (KES 49–52/day total).\", \"sample_examples\": [{\"example\": \"KES 3/day add-on for KES 1,000/day hospital cash + KES 10,000 funeral.\"}]}, \"coverage\": {\"benefits\": [\"Hospital cash (KES 1,000/day up to 30 days)\", \"Funeral (KES 10,000 lump-sum)\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Non-hospitalization\", \"Pre-existing\"], \"add_ons\": null, \"provider_network\": {\"partners\": [\"Azuri Technologies\"], \"note\": \"Via PAYG solar systems\"}, \"claims_process\": {\"required_documents\": [\"Hospital summary\", \"ID\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": false}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 7}, \"distribution_channels\": [\"Azuri agents\", \"bundled sales\"], \"customer_reviews\": [{\"source\": \"PRNewswire\", \"comment\": \"Affordable add-on for off-grid families (2018 launch, ongoing)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"Azuri APA HospiCash Launch\", \"url\": \"https://www.prnewswire.co.uk/news-releases/azuri-and-apa-insurance-introduce-affordable-income-and-funeral-cover-for-solar-and-off-grid-customers-700136621.html\"}, {\"title\": \"African Review Azuri Partnership\", \"url\": \"https://africanreview.com/energy-a-power/renewables/azuri-apa-to-give-insurance-cover-for-customers-in-kenya\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_hosicare_015_b78bc1e9-32e6-4834-88b9-06b70b20ae64",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_hosicare_015",
+      "product_name": "HosiCare (hospitalisation & income protection)",
+      "category": "special / partnership products / income protection",
+      "target_market": "individuals, low-income groups",
+      "eligibility": {
+        "age_min": 18,
+        "age_max": 65,
+        "notes": "5-year term; single premium for all ages"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "hospital_daily": 1000,
+            "annual_premium": 6000,
+            "notes": "5-year policy"
+          }
+        ],
+        "rate_table_notes": "Fixed rate; KES 1,000/day hospital cash.",
+        "sample_examples": [
+          {
+            "example": "KES 6,000/year for KES 1,000/day hospital cash (5 years)."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Hospital cash (KES 1,000/24hrs admission)",
+          "Income protection during hospitalization"
+        ],
+        "duration": "5 years"
+      },
+      "exclusions": [
+        "Non-admissions",
+        "Pre-existing"
+      ],
+      "add_ons": null,
+      "provider_network": null,
+      "claims_process": {
+        "required_documents": [
+          "Admission proof",
+          "ID"
+        ],
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": false,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "agents",
+        "microfinance partners"
+      ],
+      "customer_reviews": [
+        {
+          "source": "LinkedIn",
+          "comment": "HosiCare supported during hospital stay (@LowIncomeKE, 2024)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Life Products",
+          "url": "https://www.apainsurance.org/products"
+        },
+        {
+          "title": "Kenyans Consult APA Guide",
+          "url": "https://kenyansconsult.co.ke/apa-insurance-products-contacts-policies-benefits/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_hosicare_015\", \"product_name\": \"HosiCare (hospitalisation & income protection)\", \"category\": \"special / partnership products / income protection\", \"target_market\": \"individuals, low-income groups\", \"eligibility\": {\"age_min\": 18, \"age_max\": 65, \"notes\": \"5-year term; single premium for all ages\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"hospital_daily\": 1000, \"annual_premium\": 6000, \"notes\": \"5-year policy\"}], \"rate_table_notes\": \"Fixed rate; KES 1,000/day hospital cash.\", \"sample_examples\": [{\"example\": \"KES 6,000/year for KES 1,000/day hospital cash (5 years).\"}]}, \"coverage\": {\"benefits\": [\"Hospital cash (KES 1,000/24hrs admission)\", \"Income protection during hospitalization\"], \"duration\": \"5 years\"}, \"exclusions\": [\"Non-admissions\", \"Pre-existing\"], \"add_ons\": null, \"provider_network\": null, \"claims_process\": {\"required_documents\": [\"Admission proof\", \"ID\"], \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": false, \"grace_period_days\": 30}, \"distribution_channels\": [\"agents\", \"microfinance partners\"], \"customer_reviews\": [{\"source\": \"LinkedIn\", \"comment\": \"HosiCare supported during hospital stay (@LowIncomeKE, 2024)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Life Products\", \"url\": \"https://www.apainsurance.org/products\"}, {\"title\": \"Kenyans Consult APA Guide\", \"url\": \"https://kenyansconsult.co.ke/apa-insurance-products-contacts-policies-benefits/\"}]}"
+  },
+  {
+    "chunk_id": "apa_001_apa_micro_inclusive_016_51d242be-c1e4-4966-8048-a298745be715",
+    "metadata": {
+      "company_name": "APA Insurance Limited",
+      "product_id": "apa_micro_inclusive_016",
+      "product_name": "Micro & Inclusive Insurance (low-cost community & SME-targeted covers)",
+      "category": "special / partnership products / micro",
+      "target_market": "low-income, communities, SMEs",
+      "eligibility": {
+        "notes": "Tailor-made for mass market; min group size 10"
+      },
+      "geographic_coverage": "Kenya",
+      "premium": {
+        "currency": "KES",
+        "payment_frequency": [
+          "monthly",
+          "annual"
+        ],
+        "rate_table": [
+          {
+            "cover_type": "Micro Health",
+            "annual_premium": 6000,
+            "notes": "KES 500K limit for SME/group"
+          },
+          {
+            "cover_type": "Livestock",
+            "annual_premium": 2000,
+            "notes": "Per animal estimate"
+          }
+        ],
+        "rate_table_notes": "Affordable bespoke; e.g., agriculture, ride-hailing.",
+        "sample_examples": [
+          {
+            "example": "KES 6,000/year for micro health KES 500K."
+          }
+        ]
+      },
+      "coverage": {
+        "benefits": [
+          "Basic health, livestock, agriculture risks",
+          "SME asset/liability (KES 1M–10M)",
+          "Community group schemes"
+        ],
+        "duration": "annual renewable"
+      },
+      "exclusions": [
+        "Standard micro exclusions"
+      ],
+      "add_ons": [
+        "Funeral rider"
+      ],
+      "provider_network": {
+        "partners": [
+          "Microfinance, SACCOs"
+        ],
+        "note": "Tailored for underserved"
+      },
+      "claims_process": {
+        "required_documents": "Simplified for micro",
+        "average_turnaround_days": 7,
+        "digital_claims_supported": true
+      },
+      "renewal_terms": {
+        "auto_renewal": true,
+        "grace_period_days": 30
+      },
+      "distribution_channels": [
+        "community agents",
+        "SMEs",
+        "digital"
+      ],
+      "customer_reviews": [
+        {
+          "source": "X",
+          "comment": "Affordable micro cover for farmers (@SMEKE, Jan 2025)"
+        }
+      ],
+      "last_updated": "2025-09-21",
+      "sources": [
+        {
+          "title": "APA Micro Insurance",
+          "url": "https://www.apainsurance.org/product_commercial_micro"
+        },
+        {
+          "title": "Bowman APA Review 2025",
+          "url": "https://www.bowman.co.ke/apa-insurance-review/"
+        }
+      ]
+    },
+    "text": "{\"company_name\": \"APA Insurance Limited\", \"product_id\": \"apa_micro_inclusive_016\", \"product_name\": \"Micro & Inclusive Insurance (low-cost community & SME-targeted covers)\", \"category\": \"special / partnership products / micro\", \"target_market\": \"low-income, communities, SMEs\", \"eligibility\": {\"notes\": \"Tailor-made for mass market; min group size 10\"}, \"geographic_coverage\": \"Kenya\", \"premium\": {\"currency\": \"KES\", \"payment_frequency\": [\"monthly\", \"annual\"], \"rate_table\": [{\"cover_type\": \"Micro Health\", \"annual_premium\": 6000, \"notes\": \"KES 500K limit for SME/group\"}, {\"cover_type\": \"Livestock\", \"annual_premium\": 2000, \"notes\": \"Per animal estimate\"}], \"rate_table_notes\": \"Affordable bespoke; e.g., agriculture, ride-hailing.\", \"sample_examples\": [{\"example\": \"KES 6,000/year for micro health KES 500K.\"}]}, \"coverage\": {\"benefits\": [\"Basic health, livestock, agriculture risks\", \"SME asset/liability (KES 1M–10M)\", \"Community group schemes\"], \"duration\": \"annual renewable\"}, \"exclusions\": [\"Standard micro exclusions\"], \"add_ons\": [\"Funeral rider\"], \"provider_network\": {\"partners\": [\"Microfinance, SACCOs\"], \"note\": \"Tailored for underserved\"}, \"claims_process\": {\"required_documents\": \"Simplified for micro\", \"average_turnaround_days\": 7, \"digital_claims_supported\": true}, \"renewal_terms\": {\"auto_renewal\": true, \"grace_period_days\": 30}, \"distribution_channels\": [\"community agents\", \"SMEs\", \"digital\"], \"customer_reviews\": [{\"source\": \"X\", \"comment\": \"Affordable micro cover for farmers (@SMEKE, Jan 2025)\"}], \"last_updated\": \"2025-09-21\", \"sources\": [{\"title\": \"APA Micro Insurance\", \"url\": \"https://www.apainsurance.org/product_commercial_micro\"}, {\"title\": \"Bowman APA Review 2025\", \"url\": \"https://www.bowman.co.ke/apa-insurance-review/\"}]}"
+  }
+]
