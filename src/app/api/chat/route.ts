@@ -1,11 +1,20 @@
 import { NextResponse } from "next/server";
 import { Pinecone } from "@pinecone-database/pinecone";
+import fs from "fs";
+import path from "path";
 
-// Pinecone client
+// Init Pinecone
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY! });
 const index = pc.Index(process.env.PINECONE_INDEX!);
 
-// Call your embedding service (MiniLM-L6-v2)
+// Load JSON file once into memory
+const chunksFile = path.join(process.cwd(), "src", "data", "processed", "all_product_chunks.json");
+const chunksData: { chunk_id: string; metadata: any }[] = JSON.parse(
+  fs.readFileSync(chunksFile, "utf-8")
+);
+const chunkMap = new Map(chunksData.map((c) => [c.chunk_id, c]));
+
+// Call embedding service (MiniLM-L6-v2)
 async function getMiniLMEmbedding(text: string): Promise<number[]> {
   const resp = await fetch(process.env.EMBEDDING_SERVICE_URL!, {
     method: "POST",
@@ -18,7 +27,7 @@ async function getMiniLMEmbedding(text: string): Promise<number[]> {
   }
 
   const data = await resp.json();
-  return data.embedding; // [384 floats]
+  return data.embedding;
 }
 
 export async function POST(req: Request) {
@@ -29,24 +38,34 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Query must be a string" }, { status: 400 });
     }
 
-    // 1. Get embedding from MiniLM
+    // Step 1: Embed query
     const queryVector = await getMiniLMEmbedding(query);
 
-    // 2. Retrieve chunks from Pinecone (top 30)
+    // Step 2: Query Pinecone (get only IDs)
     const results = await index.query({
       vector: queryVector,
       topK: 30,
-      includeMetadata: true,
+      includeMetadata: false,
     });
 
-    const context = results.matches
+    // Step 3: Lookup metadata for each chunk
+    const relevantChunks = results.matches
+      .map((m) => chunkMap.get(m.id))
+      .filter(Boolean);
+
+    // Step 4: Build context with only metadata
+    const context = relevantChunks
       .map(
-        (m, i) =>
-          `Result ${i + 1}:\nCompany: ${m.metadata?.company_id}\nProduct: ${m.metadata?.product_id}\nChunk ID: ${m.id}\nText: ${m.metadata?.text}`
+        (c, i) =>
+          `Result ${i + 1}:\nChunk ID: ${c?.chunk_id}\nMetadata:\n${JSON.stringify(
+            c?.metadata,
+            null,
+            2
+          )}`
       )
       .join("\n\n");
 
-    // 3. Ask DeepSeek with improved prompt
+    // Step 5: Send to DeepSeek
     const resp = await fetch("https://api.deepseek.com/chat/completions", {
       method: "POST",
       headers: {
@@ -62,15 +81,14 @@ export async function POST(req: Request) {
 You are InsureAssist AI, a professional insurance advisor for the Kenyan market.
 You help users compare, explain, and recommend insurance products such as motor, health, life, funeral, and general policies.
 
-INSTRUCTIONS:
+Guidelines:
 - Always use the provided context to ground your answer.
-- Highlight key details: premiums, benefits, exclusions, waiting periods, and payout timelines.
-- If multiple options are relevant, compare them clearly (you may use bullet points or a table).
-- If the context lacks enough information, say so politely and suggest what the user could clarify.
-- Keep the tone professional, clear, and empathetic — like a trusted advisor.
-- Do not invent insurer names, products, or numbers not supported by the context.
-- Summarize into a short recommendation after explaining options.
-`,
+- Highlight premiums, benefits, exclusions, waiting periods, payout timelines.
+- Compare multiple relevant options clearly (bullet points or tables are allowed).
+- If context is insufficient, say so politely and ask for clarification.
+- Keep tone professional, clear, empathetic.
+- Never invent product names or numbers not in context.
+- Provide a short recommendation summary at the end.`,
           },
           {
             role: "user",
@@ -90,12 +108,10 @@ INSTRUCTIONS:
 
     return NextResponse.json({
       answer,
-      sources: results.matches.map((m) => ({
-        id: m.id,
-        score: m.score,
-        company_id: m.metadata?.company_id,
-        product_id: m.metadata?.product_id,
-        text: m.metadata?.text,
+      sources: relevantChunks.map((c) => ({
+        chunk_id: c?.chunk_id,
+        company_name: c?.metadata.company_name,
+        product_name: c?.metadata.product_name ?? null,
       })),
     });
   } catch (err: any) {
