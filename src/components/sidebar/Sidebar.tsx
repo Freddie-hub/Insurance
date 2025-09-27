@@ -1,18 +1,75 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { signOut } from "firebase/auth";
 import { auth } from "@/lib/firebase";
+import { useAuth } from "@/lib/AuthContext";
+import {
+  collection,
+  query,
+  where,
+  orderBy,
+  onSnapshot,
+  addDoc,
+  serverTimestamp,
+} from "firebase/firestore";
+import { db } from "@/lib/firebase";
+import {
+  Bookmark,
+  BarChart,
+  Settings,
+  LogOut,
+  Plus,
+} from "lucide-react";
+
+type Chat = {
+  id: string;
+  chat_name: string;
+  createdAt: { seconds: number; nanoseconds: number } | null;
+};
 
 export default function Sidebar() {
-  const [recent] = useState([
-    { id: "c1", title: "Family Funeral Cover Options", date: "19/09/2025" },
-    { id: "c2", title: "Motor Insurance Comparison", date: "18/09/2025" },
-    { id: "c3", title: "Health Insurance for Young Families", date: "17/09/2025" },
-  ]);
+  const { user } = useAuth();
   const router = useRouter();
+  const [chats, setChats] = useState<Chat[]>([]);
+
+  // Load chats for the logged-in user
+  useEffect(() => {
+    if (!user) return;
+
+    const q = query(
+      collection(db, "chats"),
+      where("userId", "==", user.uid),
+      orderBy("updatedAt", "desc")
+    );
+
+    const unsub = onSnapshot(q, (snapshot) => {
+      const data = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        chat_name: doc.data().chat_name || "Untitled Chat",
+        createdAt: doc.data().createdAt || null,
+      })) as Chat[];
+      setChats(data);
+    });
+
+    return () => unsub();
+  }, [user]);
+
+  // Create a new chat and redirect
+  const handleNewChat = async () => {
+    if (!user) return;
+
+    const docRef = await addDoc(collection(db, "chats"), {
+      userId: user.uid,
+      chat_name: "New Chat",
+      createdAt: serverTimestamp(),
+      updatedAt: serverTimestamp(),
+    });
+
+    router.push(`/chat/${docRef.id}`);
+  };
 
   const handleSignOut = async () => {
     try {
@@ -33,54 +90,82 @@ export default function Sidebar() {
             </div>
             <div>
               <div className="text-lg font-semibold">InsureAssist AI</div>
-              <div className="text-xs text-gray-300">AI insurance advisor</div>
+              <div className="text-xs text-gray-300">
+                AI insurance advisor
+              </div>
             </div>
           </div>
         </div>
 
         <button
-          className="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-2 rounded-md flex items-center justify-center"
-          onClick={() => router.push("/chat")}
+          className="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-2 rounded-md flex items-center justify-center gap-2"
+          onClick={handleNewChat}
         >
-          + New Chat
+          <Plus size={16} />
+          New Chat
         </button>
       </div>
 
       <nav className="flex-1 overflow-auto p-4">
-        <div className="text-xs text-gray-400 uppercase mb-3">Recent chats</div>
+        <div className="text-xs text-gray-400 uppercase mb-3">
+          Recent chats
+        </div>
         <ul className="space-y-2">
-          {recent.map((r) => (
-            <li key={r.id}>
-              <Link
-                href="#"
-                className="block p-3 rounded-md hover:bg-gray-800"
-                onClick={(e) => e.preventDefault()}
-              >
-                <div className="font-medium">{r.title}</div>
-                <div className="text-xs text-gray-400">{r.date}</div>
-              </Link>
-            </li>
-          ))}
+          {chats.length === 0 ? (
+            <div className="text-gray-400 text-sm">
+              No chats yet. Start a new one!
+            </div>
+          ) : (
+            chats.map((chat) => (
+              <li key={chat.id}>
+                <Link
+                  href={`/chat/${chat.id}`}
+                  className="block p-3 rounded-md hover:bg-gray-800"
+                >
+                  <div className="font-medium">{chat.chat_name}</div>
+                  {chat.createdAt && (
+                    <div className="text-xs text-gray-400">
+                      {new Date(
+                        chat.createdAt.seconds * 1000
+                      ).toLocaleDateString()}
+                    </div>
+                  )}
+                </Link>
+              </li>
+            ))
+          )}
         </ul>
 
         <div className="border-t border-gray-800 mt-6 pt-4 space-y-3">
-          <Link href="#" className="flex items-center gap-3 text-sm hover:text-white text-gray-300" onClick={(e) => e.preventDefault()}>
-            <span>🔖</span>
+          <Link
+            href="#"
+            className="flex items-center gap-3 text-sm hover:text-white text-gray-300"
+            onClick={(e) => e.preventDefault()}
+          >
+            <Bookmark size={16} />
             Saved Recommendations
           </Link>
-          <Link href="#" className="flex items-center gap-3 text-sm hover:text-white text-gray-300" onClick={(e) => e.preventDefault()}>
-            <span>📊</span>
+          <Link
+            href="#"
+            className="flex items-center gap-3 text-sm hover:text-white text-gray-300"
+            onClick={(e) => e.preventDefault()}
+          >
+            <BarChart size={16} />
             Compare Plans
           </Link>
-          <Link href="#" className="flex items-center gap-3 text-sm hover:text-white text-gray-300" onClick={(e) => e.preventDefault()}>
-            <span>⚙️</span>
+          <Link
+            href="#"
+            className="flex items-center gap-3 text-sm hover:text-white text-gray-300"
+            onClick={(e) => e.preventDefault()}
+          >
+            <Settings size={16} />
             Settings
           </Link>
           <button
             onClick={handleSignOut}
             className="flex items-center gap-3 text-sm hover:text-white text-gray-300 w-full text-left"
           >
-            <span>🚪</span>
+            <LogOut size={16} />
             Log Out
           </button>
         </div>
