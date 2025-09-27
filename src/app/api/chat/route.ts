@@ -2,14 +2,7 @@ import { NextResponse } from "next/server";
 import { Pinecone } from "@pinecone-database/pinecone";
 import fs from "fs";
 import path from "path";
-import { db } from "@/lib/firebase";
-import {
-  collection,
-  query,
-  orderBy,
-  limit,
-  getDocs,
-} from "firebase/firestore";
+import { adminDb } from "@/lib/firebaseAdmin"; // ✅ use Admin SDK
 
 // Init Pinecone
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY! });
@@ -28,7 +21,7 @@ const chunksData: { chunk_id: string; metadata: any }[] = JSON.parse(
 );
 const chunkMap = new Map(chunksData.map((c) => [c.chunk_id, c]));
 
-// Call embedding service (MiniLM-L6-v2)
+// Call embedding service
 async function getMiniLMEmbedding(text: string): Promise<number[]> {
   const resp = await fetch(process.env.EMBEDDING_SERVICE_URL!, {
     method: "POST",
@@ -37,22 +30,22 @@ async function getMiniLMEmbedding(text: string): Promise<number[]> {
   });
 
   if (!resp.ok) {
-    const errText = await resp.text();
-    throw new Error(`Embedding service failed: ${errText}`);
+    throw new Error("Embedding service failed");
   }
 
   const data = await resp.json();
   return data.embedding;
 }
 
-// Get last N messages from Firestore to preserve chat history
+// ✅ Get last N messages from Firestore (Admin SDK version)
 async function getChatHistory(chatId: string, limitCount = 15) {
-  const q = query(
-    collection(db, "chats", chatId, "messages"),
-    orderBy("timestamp", "asc"),
-    limit(limitCount)
-  );
-  const snapshot = await getDocs(q);
+  const snapshot = await adminDb
+    .collection("chats")
+    .doc(chatId)
+    .collection("messages")
+    .orderBy("timestamp", "asc")
+    .limit(limitCount)
+    .get();
 
   return snapshot.docs.map((doc) => ({
     role: doc.data().role,
@@ -62,7 +55,9 @@ async function getChatHistory(chatId: string, limitCount = 15) {
 
 export async function POST(req: Request) {
   try {
-    const { query: userQuery, chatId } = await req.json();
+    const body = await req.json();
+    const userQuery = body.query || body.message || body.content;
+    const chatId = body.chatId;
 
     if (!userQuery || typeof userQuery !== "string") {
       return NextResponse.json(
@@ -81,19 +76,19 @@ export async function POST(req: Request) {
     // Step 1: Embed query
     const queryVector = await getMiniLMEmbedding(userQuery);
 
-    // Step 2: Query Pinecone (get only IDs)
+    // Step 2: Query Pinecone
     const results = await index.query({
       vector: queryVector,
       topK: 30,
       includeMetadata: false,
     });
 
-    // Step 3: Lookup metadata for each chunk
+    // Step 3: Lookup metadata
     const relevantChunks = results.matches
       .map((m) => chunkMap.get(m.id))
       .filter(Boolean);
 
-    // Step 4: Build context with only metadata
+    // Step 4: Build context
     const context = relevantChunks
       .map(
         (c, i) =>
@@ -108,7 +103,7 @@ export async function POST(req: Request) {
     // Step 5: Fetch conversation history
     const history = await getChatHistory(chatId);
 
-    // Step 6: Send to DeepSeek with history
+    // Step 6: Send to DeepSeek
     const resp = await fetch("https://api.deepseek.com/chat/completions", {
       method: "POST",
       headers: {
@@ -144,12 +139,11 @@ Guidelines:
     });
 
     if (!resp.ok) {
-      const errText = await resp.text();
-      throw new Error(`DeepSeek API failed: ${resp.status} - ${errText}`);
+      throw new Error(`DeepSeek API failed: ${resp.statusText}`);
     }
 
     const completion = await resp.json();
-    const answer = completion.choices?.[0]?.message?.content ?? "";
+    const answer = completion.choices[0].message?.content ?? "";
 
     return NextResponse.json({
       answer,
@@ -161,14 +155,6 @@ Guidelines:
     });
   } catch (err: any) {
     console.error("Chat API Error:", err);
-
-    // 🔎 return more detail so you see the actual problem in browser + logs
-    return NextResponse.json(
-      {
-        error: err.message || "Unknown error",
-        stack: err.stack,
-      },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: err.message }, { status: 500 });
   }
 }

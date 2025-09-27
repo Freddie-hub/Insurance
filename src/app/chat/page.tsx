@@ -8,16 +8,7 @@ import ChatWindow from "@/components/chat/ChatWindow";
 import MessageInput from "@/components/chat/MessageInput";
 import { useAuth } from "@/lib/AuthContext";
 import { db } from "@/lib/firebase";
-import {
-  collection,
-  addDoc,
-  serverTimestamp,
-  doc,
-  updateDoc,
-  query,
-  orderBy,
-  onSnapshot,
-} from "firebase/firestore";
+import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
 
 type Message = {
   id: string;
@@ -42,7 +33,9 @@ export default function ChatPage() {
 
   const [messages, setMessages] = useState<Message[]>([initialMessage]);
   const [chatLoading, setChatLoading] = useState(false);
-  const [chatId, setChatId] = useState<string | null>(chatIdFromUrl);
+  const [chatId, setChatId] = useState<string | undefined>(
+    chatIdFromUrl ?? undefined
+  );
 
   // Redirect if not logged in or email not verified
   useEffect(() => {
@@ -79,41 +72,52 @@ export default function ChatPage() {
     return () => unsub();
   }, [chatId, user]);
 
-  const createChatIfNeeded = async (firstMessage: string) => {
-    if (!user || chatId) return;
+  // Create chat via API (return chatId)
+  const createChatIfNeeded = async (firstMessage: string): Promise<string> => {
+    if (!user) throw new Error("No user");
+
+    if (chatId) return chatId;
 
     const words = firstMessage.split(" ").slice(0, 6).join(" ");
     const chatName =
       words + (firstMessage.split(" ").length > 6 ? "..." : "");
 
-    const chatDoc = await addDoc(collection(db, "chats"), {
-      userId: user.uid,
-      chat_name: chatName,
-      createdAt: serverTimestamp(),
-      updatedAt: serverTimestamp(),
+    const res = await fetch("/api/chats", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        userId: user.uid,
+        chat_name: chatName,
+      }),
     });
 
-    setChatId(chatDoc.id);
+    if (!res.ok) throw new Error("Failed to create chat");
+    const data = await res.json();
 
-    // update URL with chatId for deep linking
-    router.push(`/chat?chatId=${chatDoc.id}`);
+    setChatId(data.id);
+    router.push(`/chat?chatId=${data.id}`);
+
+    return data.id;
   };
 
-  const saveMessage = async (msg: Message) => {
-    if (!chatId || !user) return;
+  // Save message via API
+  const saveMessage = async (msg: Message, activeChatId?: string) => {
+    if (!activeChatId) return;
 
-    await addDoc(collection(db, "chats", chatId, "messages"), {
-      role: msg.role,
-      content: msg.content,
-      timestamp: serverTimestamp(),
+    await fetch("/api/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        chatId: activeChatId,
+        role: msg.role,
+        content: msg.content,
+      }),
     });
-
-    const chatRef = doc(db, "chats", chatId);
-    await updateDoc(chatRef, { updatedAt: serverTimestamp() });
   };
 
+  // Add user message
   const addUserMessage = async (text: string) => {
-    await createChatIfNeeded(text);
+    const ensuredChatId = await createChatIfNeeded(text);
 
     const msg: Message = {
       id: String(Date.now()),
@@ -123,18 +127,20 @@ export default function ChatPage() {
     };
 
     setMessages((m) => [...m, msg]);
-    await saveMessage(msg);
-    await getAssistantReply(text);
+    await saveMessage(msg, ensuredChatId);
+    await getAssistantReply(text, ensuredChatId);
   };
 
-  const getAssistantReply = async (userText: string) => {
+  // Fetch assistant reply from API
+  const getAssistantReply = async (userText: string, activeChatId?: string) => {
+    if (!activeChatId) return;
     setChatLoading(true);
 
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: userText, chatId }), // ✅ now sending chatId
+        body: JSON.stringify({ query: userText, chatId: activeChatId }),
       });
 
       if (!res.ok) throw new Error("Failed to fetch response");
@@ -150,7 +156,7 @@ export default function ChatPage() {
       };
 
       setMessages((m) => [...m, assistantMsg]);
-      await saveMessage(assistantMsg);
+      await saveMessage(assistantMsg, activeChatId);
     } catch (err) {
       console.error("Chat API error:", err);
       const errorMsg: Message = {
@@ -160,12 +166,13 @@ export default function ChatPage() {
         timestamp: new Date().toISOString(),
       };
       setMessages((m) => [...m, errorMsg]);
-      await saveMessage(errorMsg);
+      await saveMessage(errorMsg, activeChatId);
     } finally {
       setChatLoading(false);
     }
   };
 
+  // Regenerate last assistant response
   const regenerateLast = async () => {
     const lastAssistantIndex = [...messages]
       .reverse()
@@ -180,7 +187,7 @@ export default function ChatPage() {
     if (!latestUser) return;
 
     setMessages(before);
-    await getAssistantReply(latestUser.content);
+    await getAssistantReply(latestUser.content, chatId);
   };
 
   if (loading) {
