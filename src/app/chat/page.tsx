@@ -8,7 +8,7 @@ import ChatWindow from "@/components/chat/ChatWindow";
 import MessageInput from "@/components/chat/MessageInput";
 import { useAuth } from "@/lib/AuthContext";
 import { db } from "@/lib/firebase";
-import { collection, query, orderBy, onSnapshot } from "firebase/firestore";
+import { collection, query, orderBy, onSnapshot, addDoc, doc, setDoc } from "firebase/firestore";
 
 type Message = {
   id: string;
@@ -17,13 +17,9 @@ type Message = {
   timestamp?: string;
 };
 
-const initialMessage: Message = {
-  id: "m1",
-  role: "assistant",
-  content:
-    "Hello! I'm InsureAssist AI, your personal insurance advisor. I can help you compare policies across insurers like Britam, Jubilee, CIC, Heritage and Liberty. What type of insurance would you like to explore today?",
-  timestamp: new Date().toISOString(),
-};
+const initialGreeting = `Hello! I'm InsureAssist AI, your professional insurance advisor for the Kenyan market.
+I can help you compare policies across insurers like Britam, Jubilee, CIC, Heritage, and Liberty. 
+Please tell me what type of insurance you are interested in (Health, Life, Motor, Home, Business, etc.), or ask a specific question.`;
 
 export default function ChatPage() {
   const { user, loading } = useAuth();
@@ -31,11 +27,9 @@ export default function ChatPage() {
   const searchParams = useSearchParams();
   const chatIdFromUrl = searchParams.get("chatId");
 
-  const [messages, setMessages] = useState<Message[]>([initialMessage]);
+  const [messages, setMessages] = useState<Message[]>([]);
+  const [chatId, setChatId] = useState<string | undefined>(chatIdFromUrl ?? undefined);
   const [chatLoading, setChatLoading] = useState(false);
-  const [chatId, setChatId] = useState<string | undefined>(
-    chatIdFromUrl ?? undefined
-  );
 
   // Redirect if not logged in or email not verified
   useEffect(() => {
@@ -43,23 +37,19 @@ export default function ChatPage() {
     else if (!loading && user && !user.emailVerified) router.push("/verify-email");
   }, [user, loading, router]);
 
-  // Reset chat window when chatId changes
+  // Reset messages when chatId changes
   useEffect(() => {
     if (chatIdFromUrl && chatIdFromUrl !== chatId) {
       setChatId(chatIdFromUrl);
-      setMessages([initialMessage]);
+      setMessages([]); // start empty; Firestore will populate
     }
   }, [chatIdFromUrl, chatId]);
 
-  // Subscribe to messages if chatId is set
+  // Subscribe to messages in Firestore
   useEffect(() => {
     if (!chatId || !user) return;
 
-    const q = query(
-      collection(db, "chats", chatId, "messages"),
-      orderBy("timestamp", "asc")
-    );
-
+    const q = query(collection(db, "chats", chatId, "messages"), orderBy("timestamp", "asc"));
     const unsub = onSnapshot(q, (snapshot) => {
       const msgs = snapshot.docs.map((doc) => ({
         id: doc.id,
@@ -68,150 +58,81 @@ export default function ChatPage() {
         timestamp: doc.data().timestamp?.toDate().toISOString(),
       })) as Message[];
 
-      setMessages(msgs.length > 0 ? msgs : [initialMessage]);
+      setMessages(msgs);
     });
 
     return () => unsub();
   }, [chatId, user]);
 
-  // Create or rename chat based on first user message
+  // Create a new chat if needed
   const createChatIfNeeded = async (firstMessage: string): Promise<string> => {
     if (!user) throw new Error("No user");
 
-    const words = firstMessage.split(" ").slice(0, 6).join(" ");
-    const chatName = words + (firstMessage.split(" ").length > 6 ? "..." : "");
+    if (chatId) return chatId;
 
     try {
-      if (chatId) {
-        // Update chat name if it’s still "New Chat"
-        await fetch(`/api/chats/${chatId}`, {
-          method: "PATCH",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ chat_name: chatName }),
-        });
-        return chatId;
-      }
-
-      // Create a brand new chat
-      const res = await fetch("/api/createchat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ userId: user.uid, chat_name: chatName }),
+      const chatRef = doc(collection(db, "chats"));
+      await setDoc(chatRef, {
+        userId: user.uid,
+        chat_name: firstMessage.length > 30 ? firstMessage.slice(0, 30) + "..." : firstMessage,
+        createdAt: new Date(),
+        updatedAt: new Date(),
       });
 
-      const text = await res.text();
-      if (!res.ok) {
-        console.error("Create chat failed:", res.status, text);
-        throw new Error(`Failed to create chat: ${text}`);
-      }
+      // Add initial greeting from AI
+      await addDoc(collection(chatRef, "messages"), {
+        role: "assistant",
+        content: initialGreeting,
+        timestamp: new Date(),
+      });
 
-      const data = JSON.parse(text);
-      setChatId(data.id);
-      setMessages([initialMessage]);
-      router.push(`/chat?chatId=${data.id}`);
+      setChatId(chatRef.id);
+      router.push(`/chat?chatId=${chatRef.id}`);
 
-      return data.id;
-    } catch (err: any) {
+      return chatRef.id;
+    } catch (err) {
       console.error("createChatIfNeeded error:", err);
       throw err;
     }
   };
 
-  // Save message via API
-  const saveMessage = async (msg: Message, activeChatId?: string) => {
-    if (!activeChatId) return;
-
-    try {
-      await fetch("/api/messages", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          chatId: activeChatId,
-          role: msg.role,
-          content: msg.content,
-        }),
-      });
-    } catch (err) {
-      console.error("saveMessage error:", err);
-    }
+  // Save user message to Firestore
+  const saveUserMessage = async (text: string, activeChatId: string) => {
+    const chatRef = doc(db, "chats", activeChatId);
+    await addDoc(collection(chatRef, "messages"), {
+      role: "user",
+      content: text,
+      timestamp: new Date(),
+    });
   };
 
-  // Add user message
+  // Handle user sending a message
   const addUserMessage = async (text: string) => {
     const ensuredChatId = await createChatIfNeeded(text);
 
-    const msg: Message = {
-      id: String(Date.now()),
-      role: "user",
-      content: text,
-      timestamp: new Date().toISOString(),
-    };
+    // Save user message
+    await saveUserMessage(text, ensuredChatId);
 
-    setMessages((m) => [...m, msg]);
-    await saveMessage(msg, ensuredChatId);
-    await getAssistantReply(text, ensuredChatId);
+    // Trigger backend AI response (writes to Firestore)
+    await fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: text, chatId: ensuredChatId }),
+    });
   };
 
-  // Fetch assistant reply from API
-  const getAssistantReply = async (userText: string, activeChatId?: string) => {
-    if (!activeChatId) return;
-    setChatLoading(true);
-
-    try {
-      const res = await fetch("/api/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query: userText, chatId: activeChatId }),
-      });
-
-      const text = await res.text();
-      if (!res.ok) {
-        console.error("Assistant fetch failed:", res.status, text);
-        throw new Error(`Failed to fetch assistant reply: ${text}`);
-      }
-
-      const data = JSON.parse(text);
-
-      const assistantMsg: Message = {
-        id: "a-" + Date.now(),
-        role: "assistant",
-        content: data.answer || "Sorry, I couldn’t find relevant information.",
-        timestamp: new Date().toISOString(),
-      };
-
-      setMessages((m) => [...m, assistantMsg]);
-      await saveMessage(assistantMsg, activeChatId);
-    } catch (err) {
-      console.error("Chat API error:", err);
-      const errorMsg: Message = {
-        id: "err-" + Date.now(),
-        role: "assistant",
-        content: "Something went wrong. Please try again.",
-        timestamp: new Date().toISOString(),
-      };
-      setMessages((m) => [...m, errorMsg]);
-      await saveMessage(errorMsg, activeChatId);
-    } finally {
-      setChatLoading(false);
-    }
-  };
-
-  // Regenerate last assistant response
+  // Regenerate last AI response
   const regenerateLast = async () => {
-    const lastAssistantIndex = [...messages]
-      .reverse()
-      .findIndex((m) => m.role === "assistant");
-    if (lastAssistantIndex === -1) return;
+    if (!chatId) return;
 
-    const idx = messages.length - 1 - lastAssistantIndex;
-    const before = messages.slice(0, idx);
-    const latestUser = messages
-      .slice(idx - 1, idx)
-      .find((m) => m.role === "user");
-    if (!latestUser) return;
+    const lastUser = [...messages].reverse().find((m) => m.role === "user");
+    if (!lastUser) return;
 
-    setMessages(before);
-    await getAssistantReply(latestUser.content, chatId);
+    await fetch("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: lastUser.content, chatId }),
+    });
   };
 
   if (loading) {
@@ -230,13 +151,7 @@ export default function ChatPage() {
       <div className="flex-1 flex flex-col h-screen">
         <Topbar user={user} />
         <main className="flex-1 flex flex-col overflow-hidden">
-          {/* Chat window takes all available space & scrolls */}
-          <ChatWindow
-            messages={messages}
-            loading={chatLoading}
-            onRegenerate={regenerateLast}
-          />
-          {/* Input stays pinned at the bottom */}
+          <ChatWindow messages={messages} loading={chatLoading} onRegenerate={regenerateLast} />
           <MessageInput onSend={addUserMessage} disabled={chatLoading} />
         </main>
       </div>

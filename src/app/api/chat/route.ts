@@ -2,13 +2,13 @@ import { NextResponse } from "next/server";
 import { Pinecone } from "@pinecone-database/pinecone";
 import fs from "fs";
 import path from "path";
-import { adminDb } from "@/lib/firebaseAdmin"; // Admin SDK
+import { adminDb } from "@/lib/firebaseAdmin";
 
-// Init Pinecone
+// Pinecone Setup
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY! });
 const index = pc.Index(process.env.PINECONE_INDEX!);
 
-// Load JSON file once into memory
+// Load JSON Chunks into Memory
 const chunksFile = path.join(
   process.cwd(),
   "src",
@@ -21,7 +21,7 @@ const chunksData: { chunk_id: string; metadata: any }[] = JSON.parse(
 );
 const chunkMap = new Map(chunksData.map((c) => [c.chunk_id, c]));
 
-// Call embedding service
+// Helper: Get MiniLM Embedding
 async function getMiniLMEmbedding(text: string): Promise<number[]> {
   const resp = await fetch(process.env.EMBEDDING_SERVICE_URL!, {
     method: "POST",
@@ -29,15 +29,12 @@ async function getMiniLMEmbedding(text: string): Promise<number[]> {
     body: JSON.stringify({ text }),
   });
 
-  if (!resp.ok) {
-    throw new Error("Embedding service failed");
-  }
-
+  if (!resp.ok) throw new Error("Embedding service failed");
   const data = await resp.json();
   return data.embedding;
 }
 
-// Get last N messages
+// Helper: Fetch Chat History
 async function getChatHistory(chatId: string, limitCount = 15) {
   const snapshot = await adminDb
     .collection("chats")
@@ -53,42 +50,34 @@ async function getChatHistory(chatId: string, limitCount = 15) {
   }));
 }
 
+// POST /api/chat
 export async function POST(req: Request) {
   try {
     const body = await req.json();
     const userQuery = body.query || body.message || body.content;
     const chatId = body.chatId;
 
-    if (!userQuery || typeof userQuery !== "string") {
-      return NextResponse.json(
-        { error: "Query must be a string" },
-        { status: 400 }
-      );
-    }
+    if (!userQuery || typeof userQuery !== "string")
+      return NextResponse.json({ error: "Query must be a string" }, { status: 400 });
 
-    if (!chatId) {
-      return NextResponse.json(
-        { error: "chatId is required for memory" },
-        { status: 400 }
-      );
-    }
+    if (!chatId)
+      return NextResponse.json({ error: "chatId is required for memory" }, { status: 400 });
 
-    // Step 1: Embed query
+    // Generate embedding for query
     const queryVector = await getMiniLMEmbedding(userQuery);
 
-    // Step 2: Query Pinecone
+    // Pinecone search
     const results = await index.query({
       vector: queryVector,
       topK: 30,
       includeMetadata: false,
     });
 
-    // Step 3: Lookup metadata
     const relevantChunks = results.matches
       .map((m) => chunkMap.get(m.id))
       .filter(Boolean);
 
-    // Step 4: Build context
+    // Build retrieved context string
     const context = relevantChunks
       .map(
         (c, i) =>
@@ -100,10 +89,9 @@ export async function POST(req: Request) {
       )
       .join("\n\n");
 
-    // Step 5: Fetch conversation history
     const history = await getChatHistory(chatId);
 
-    // Step 6: Send to DeepSeek
+    // DeepSeek request with improved system prompt
     const resp = await fetch("https://api.deepseek.com/chat/completions", {
       method: "POST",
       headers: {
@@ -115,47 +103,39 @@ export async function POST(req: Request) {
         messages: [
           {
             role: "system",
-            content: `
-You are InsureAssist AI, a professional insurance advisor for the Kenyan market.
-You help users compare, explain, and recommend insurance products such as motor, health, life, funeral, and general policies.
+            content: `You are InsureAssist AI, a professional insurance advisor for the Kenyan market. 
+Your role is to provide accurate, clear, and empathetic advice by combining two sources of information:
+1. Retrieved Context: Product-specific chunks from the database (priority source).
+2. General Knowledge: Widely available, reliable facts, laws, or insurance principles (only if context is missing).
 
 Guidelines:
-- Always use the provided context to ground your answer.
-- Highlight premiums, benefits, exclusions, waiting periods, payout timelines.
-- Compare multiple relevant options clearly (bullet points or tables are allowed).
-- If context is insufficient, say so politely and ask for clarification.
-- Keep tone professional, clear, empathetic.
-- Never invent product names or numbers not in context.
-- Provide a short recommendation summary at the end.`,
+- Grounding Priority: Always prioritize the retrieved context for product-specific details (premiums, benefits, exclusions, waiting periods, payout timelines).
+- Hybrid Reasoning: Use general knowledge only when it adds value and is widely accepted (e.g., Kenyan regulations, basic insurance concepts).
+- Transparency: Be clear when info comes from the retrieved context vs. general knowledge.
+- Comparisons: Present comparisons with bullet points or tables if helpful.
+- Clarity & Professionalism: Keep tone professional, clear, and empathetic.
+- No Hallucinations: Never invent product names, figures, or details not supported by context or widely available knowledge.
+- User Guidance: If context + knowledge are insufficient, say so politely and ask for clarification.
+- Summary: End with a short recommendation summary tailored to the user’s query.`,
           },
           ...history,
           {
             role: "user",
-            content: `USER QUESTION:\n${userQuery}\n\nCONTEXT:\n${context}`,
+            content: `USER QUESTION:\n${userQuery}\n\nRETRIEVED CONTEXT (priority factual source):\n${context}`,
           },
         ],
         temperature: 0.3,
       }),
     });
 
-    if (!resp.ok) {
-      throw new Error(`DeepSeek API failed: ${resp.statusText}`);
-    }
+    if (!resp.ok) throw new Error(`DeepSeek API failed: ${resp.statusText}`);
 
     const completion = await resp.json();
     const answer = completion.choices[0].message?.content ?? "";
 
-    // Step 7: Save message + rename chat if first message
     const chatRef = adminDb.collection("chats").doc(chatId);
 
-    // Add user message
-    await chatRef.collection("messages").add({
-      role: "user",
-      content: userQuery,
-      timestamp: new Date(),
-    });
-
-    // Add AI response
+    // Save only AI message (avoid duplication)
     await chatRef.collection("messages").add({
       role: "assistant",
       content: answer,
@@ -168,8 +148,7 @@ Guidelines:
       const chatData = chatDoc.data();
       if (chatData?.chat_name === "New Chat") {
         await chatRef.update({
-          chat_name:
-            userQuery.length > 30 ? userQuery.slice(0, 30) + "..." : userQuery,
+          chat_name: userQuery.length > 30 ? userQuery.slice(0, 30) + "..." : userQuery,
           updatedAt: new Date(),
         });
       } else {
@@ -177,14 +156,7 @@ Guidelines:
       }
     }
 
-    return NextResponse.json({
-      answer,
-      sources: relevantChunks.map((c) => ({
-        chunk_id: c?.chunk_id,
-        company_name: c?.metadata.company_name,
-        product_name: c?.metadata.product_name ?? null,
-      })),
-    });
+    return NextResponse.json({ success: true });
   } catch (err: any) {
     console.error("Chat API Error:", err);
     return NextResponse.json({ error: err.message }, { status: 500 });
