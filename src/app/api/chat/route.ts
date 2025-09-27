@@ -2,13 +2,27 @@ import { NextResponse } from "next/server";
 import { Pinecone } from "@pinecone-database/pinecone";
 import fs from "fs";
 import path from "path";
+import { db } from "@/lib/firebase";
+import {
+  collection,
+  query,
+  orderBy,
+  limit,
+  getDocs,
+} from "firebase/firestore";
 
 // Init Pinecone
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY! });
 const index = pc.Index(process.env.PINECONE_INDEX!);
 
 // Load JSON file once into memory
-const chunksFile = path.join(process.cwd(), "src", "data", "processed", "all_product_chunks.json");
+const chunksFile = path.join(
+  process.cwd(),
+  "src",
+  "data",
+  "processed",
+  "all_product_chunks.json"
+);
 const chunksData: { chunk_id: string; metadata: any }[] = JSON.parse(
   fs.readFileSync(chunksFile, "utf-8")
 );
@@ -23,23 +37,49 @@ async function getMiniLMEmbedding(text: string): Promise<number[]> {
   });
 
   if (!resp.ok) {
-    throw new Error("Embedding service failed");
+    const errText = await resp.text();
+    throw new Error(`Embedding service failed: ${errText}`);
   }
 
   const data = await resp.json();
   return data.embedding;
 }
 
+// Get last N messages from Firestore to preserve chat history
+async function getChatHistory(chatId: string, limitCount = 15) {
+  const q = query(
+    collection(db, "chats", chatId, "messages"),
+    orderBy("timestamp", "asc"),
+    limit(limitCount)
+  );
+  const snapshot = await getDocs(q);
+
+  return snapshot.docs.map((doc) => ({
+    role: doc.data().role,
+    content: doc.data().content,
+  }));
+}
+
 export async function POST(req: Request) {
   try {
-    const { query } = await req.json();
+    const { query: userQuery, chatId } = await req.json();
 
-    if (!query || typeof query !== "string") {
-      return NextResponse.json({ error: "Query must be a string" }, { status: 400 });
+    if (!userQuery || typeof userQuery !== "string") {
+      return NextResponse.json(
+        { error: "Query must be a string" },
+        { status: 400 }
+      );
+    }
+
+    if (!chatId) {
+      return NextResponse.json(
+        { error: "chatId is required for memory" },
+        { status: 400 }
+      );
     }
 
     // Step 1: Embed query
-    const queryVector = await getMiniLMEmbedding(query);
+    const queryVector = await getMiniLMEmbedding(userQuery);
 
     // Step 2: Query Pinecone (get only IDs)
     const results = await index.query({
@@ -65,7 +105,10 @@ export async function POST(req: Request) {
       )
       .join("\n\n");
 
-    // Step 5: Send to DeepSeek
+    // Step 5: Fetch conversation history
+    const history = await getChatHistory(chatId);
+
+    // Step 6: Send to DeepSeek with history
     const resp = await fetch("https://api.deepseek.com/chat/completions", {
       method: "POST",
       headers: {
@@ -90,9 +133,10 @@ Guidelines:
 - Never invent product names or numbers not in context.
 - Provide a short recommendation summary at the end.`,
           },
+          ...history,
           {
             role: "user",
-            content: `USER QUESTION:\n${query}\n\nCONTEXT:\n${context}`,
+            content: `USER QUESTION:\n${userQuery}\n\nCONTEXT:\n${context}`,
           },
         ],
         temperature: 0.3,
@@ -100,11 +144,12 @@ Guidelines:
     });
 
     if (!resp.ok) {
-      throw new Error(`DeepSeek API failed: ${resp.statusText}`);
+      const errText = await resp.text();
+      throw new Error(`DeepSeek API failed: ${resp.status} - ${errText}`);
     }
 
     const completion = await resp.json();
-    const answer = completion.choices[0].message?.content ?? "";
+    const answer = completion.choices?.[0]?.message?.content ?? "";
 
     return NextResponse.json({
       answer,
@@ -116,6 +161,14 @@ Guidelines:
     });
   } catch (err: any) {
     console.error("Chat API Error:", err);
-    return NextResponse.json({ error: err.message }, { status: 500 });
+
+    // 🔎 return more detail so you see the actual problem in browser + logs
+    return NextResponse.json(
+      {
+        error: err.message || "Unknown error",
+        stack: err.stack,
+      },
+      { status: 500 }
+    );
   }
 }
