@@ -84,7 +84,7 @@ export default function Sidebar() {
               IA
             </div>
             <div>
-              <div className="text-lg font-semibold">InsureAssist AI</div>
+              <div className="text-lg font-semibold">Policy Master</div>
               <div className="text-xs text-gray-300">AI insurance advisor</div>
             </div>
           </div>
