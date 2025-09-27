@@ -1,14 +1,23 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import Sidebar from "@/components/sidebar/Sidebar";
 import Topbar from "@/components/topbar/Topbar";
 import ChatWindow from "@/components/chat/ChatWindow";
 import MessageInput from "@/components/chat/MessageInput";
 import { useAuth } from "@/lib/AuthContext";
 import { db } from "@/lib/firebase";
-import { collection, addDoc, serverTimestamp, doc, updateDoc } from "firebase/firestore";
+import {
+  collection,
+  addDoc,
+  serverTimestamp,
+  doc,
+  updateDoc,
+  query,
+  orderBy,
+  onSnapshot,
+} from "firebase/firestore";
 
 type Message = {
   id: string;
@@ -17,23 +26,25 @@ type Message = {
   timestamp?: string;
 };
 
-const initialMessages: Message[] = [
-  {
-    id: "m1",
-    role: "assistant",
-    content:
-      "Hello! I'm InsureAssist AI, your personal insurance advisor. I can help you compare policies across insurers like Britam, Jubilee, CIC, Heritage and Liberty. What type of insurance would you like to explore today?",
-    timestamp: new Date().toISOString(),
-  },
-];
+const initialMessage: Message = {
+  id: "m1",
+  role: "assistant",
+  content:
+    "Hello! I'm InsureAssist AI, your personal insurance advisor. I can help you compare policies across insurers like Britam, Jubilee, CIC, Heritage and Liberty. What type of insurance would you like to explore today?",
+  timestamp: new Date().toISOString(),
+};
 
 export default function ChatPage() {
   const { user, loading } = useAuth();
   const router = useRouter();
-  const [messages, setMessages] = useState<Message[]>(initialMessages);
-  const [chatLoading, setChatLoading] = useState(false);
-  const [chatId, setChatId] = useState<string | null>(null);
+  const searchParams = useSearchParams();
+  const chatIdFromUrl = searchParams.get("chatId");
 
+  const [messages, setMessages] = useState<Message[]>([initialMessage]);
+  const [chatLoading, setChatLoading] = useState(false);
+  const [chatId, setChatId] = useState<string | null>(chatIdFromUrl);
+
+  // Redirect if not logged in or email not verified
   useEffect(() => {
     if (!loading && !user) {
       router.push("/login");
@@ -42,12 +53,38 @@ export default function ChatPage() {
     }
   }, [user, loading, router]);
 
+  // Subscribe to messages if chatId is set
+  useEffect(() => {
+    if (!chatId || !user) return;
+
+    const q = query(
+      collection(db, "chats", chatId, "messages"),
+      orderBy("timestamp", "asc")
+    );
+
+    const unsub = onSnapshot(q, (snapshot) => {
+      const msgs = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        role: doc.data().role,
+        content: doc.data().content,
+        timestamp: doc.data().timestamp?.toDate().toISOString(),
+      })) as Message[];
+      if (msgs.length > 0) {
+        setMessages(msgs);
+      } else {
+        setMessages([initialMessage]);
+      }
+    });
+
+    return () => unsub();
+  }, [chatId, user]);
+
   const createChatIfNeeded = async (firstMessage: string) => {
     if (!user || chatId) return;
 
-    // generate chat name from first message
     const words = firstMessage.split(" ").slice(0, 6).join(" ");
-    const chatName = words + (firstMessage.split(" ").length > 6 ? "..." : "");
+    const chatName =
+      words + (firstMessage.split(" ").length > 6 ? "..." : "");
 
     const chatDoc = await addDoc(collection(db, "chats"), {
       userId: user.uid,
@@ -57,17 +94,20 @@ export default function ChatPage() {
     });
 
     setChatId(chatDoc.id);
+
+    // update URL with chatId for deep linking
+    router.push(`/chat?chatId=${chatDoc.id}`);
   };
 
   const saveMessage = async (msg: Message) => {
     if (!chatId || !user) return;
+
     await addDoc(collection(db, "chats", chatId, "messages"), {
       role: msg.role,
       content: msg.content,
       timestamp: serverTimestamp(),
     });
 
-    // update chat last activity
     const chatRef = doc(db, "chats", chatId);
     await updateDoc(chatRef, { updatedAt: serverTimestamp() });
   };
@@ -81,6 +121,7 @@ export default function ChatPage() {
       content: text,
       timestamp: new Date().toISOString(),
     };
+
     setMessages((m) => [...m, msg]);
     await saveMessage(msg);
     await getAssistantReply(text);
@@ -103,7 +144,8 @@ export default function ChatPage() {
       const assistantMsg: Message = {
         id: "a-" + Date.now(),
         role: "assistant",
-        content: data.answer || "Sorry, I couldn’t find relevant information.",
+        content:
+          data.answer || "Sorry, I couldn’t find relevant information.",
         timestamp: new Date().toISOString(),
       };
 
@@ -125,12 +167,16 @@ export default function ChatPage() {
   };
 
   const regenerateLast = async () => {
-    const lastAssistantIndex = [...messages].reverse().findIndex((m) => m.role === "assistant");
+    const lastAssistantIndex = [...messages]
+      .reverse()
+      .findIndex((m) => m.role === "assistant");
     if (lastAssistantIndex === -1) return;
 
     const idx = messages.length - 1 - lastAssistantIndex;
     const before = messages.slice(0, idx);
-    const latestUser = messages.slice(idx - 1, idx).find((m) => m.role === "user");
+    const latestUser = messages
+      .slice(idx - 1, idx)
+      .find((m) => m.role === "user");
     if (!latestUser) return;
 
     setMessages(before);
@@ -156,7 +202,11 @@ export default function ChatPage() {
         <Topbar user={user} />
         <main className="flex-1 overflow-hidden">
           <div className="h-full flex flex-col">
-            <ChatWindow messages={messages} loading={chatLoading} onRegenerate={regenerateLast} />
+            <ChatWindow
+              messages={messages}
+              loading={chatLoading}
+              onRegenerate={regenerateLast}
+            />
             <MessageInput onSend={addUserMessage} disabled={chatLoading} />
           </div>
         </main>

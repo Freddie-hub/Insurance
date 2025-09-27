@@ -137,14 +137,14 @@ export default function Sidebar() {
         </ul>
 
         <div className="border-t border-gray-800 mt-6 pt-4 space-y-3">
-          <Link
+          {/* <Link
             href="#"
             className="flex items-center gap-3 text-sm hover:text-white text-gray-300"
             onClick={(e) => e.preventDefault()}
           >
             <Bookmark size={16} />
             Saved Recommendations
-          </Link>
+          </Link> */}
           <Link
             href="#"
             className="flex items-center gap-3 text-sm hover:text-white text-gray-300"
