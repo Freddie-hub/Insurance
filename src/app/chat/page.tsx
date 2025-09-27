@@ -39,18 +39,15 @@ export default function ChatPage() {
 
   // Redirect if not logged in or email not verified
   useEffect(() => {
-    if (!loading && !user) {
-      router.push("/login");
-    } else if (!loading && user && !user.emailVerified) {
-      router.push("/verify-email");
-    }
+    if (!loading && !user) router.push("/login");
+    else if (!loading && user && !user.emailVerified) router.push("/verify-email");
   }, [user, loading, router]);
 
   // Reset chat window when chatId changes
   useEffect(() => {
     if (chatIdFromUrl && chatIdFromUrl !== chatId) {
       setChatId(chatIdFromUrl);
-      setMessages([initialMessage]); // reset messages for new chat
+      setMessages([initialMessage]);
     }
   }, [chatIdFromUrl, chatId]);
 
@@ -70,11 +67,8 @@ export default function ChatPage() {
         content: doc.data().content,
         timestamp: doc.data().timestamp?.toDate().toISOString(),
       })) as Message[];
-      if (msgs.length > 0) {
-        setMessages(msgs);
-      } else {
-        setMessages([initialMessage]);
-      }
+
+      setMessages(msgs.length > 0 ? msgs : [initialMessage]);
     });
 
     return () => unsub();
@@ -85,52 +79,61 @@ export default function ChatPage() {
     if (!user) throw new Error("No user");
 
     const words = firstMessage.split(" ").slice(0, 6).join(" ");
-    const chatName =
-      words + (firstMessage.split(" ").length > 6 ? "..." : "");
+    const chatName = words + (firstMessage.split(" ").length > 6 ? "..." : "");
 
-    if (chatId) {
-      // ✅ Update chat name if it’s still "New Chat"
-      await fetch(`/api/chats/${chatId}`, {
-        method: "PATCH",
+    try {
+      if (chatId) {
+        // Update chat name if it’s still "New Chat"
+        await fetch(`/api/chats/${chatId}`, {
+          method: "PATCH",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ chat_name: chatName }),
+        });
+        return chatId;
+      }
+
+      // Create a brand new chat
+      const res = await fetch("/api/createchat", {
+        method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ chat_name: chatName }),
+        body: JSON.stringify({ userId: user.uid, chat_name: chatName }),
       });
-      return chatId;
+
+      const text = await res.text();
+      if (!res.ok) {
+        console.error("Create chat failed:", res.status, text);
+        throw new Error(`Failed to create chat: ${text}`);
+      }
+
+      const data = JSON.parse(text);
+      setChatId(data.id);
+      setMessages([initialMessage]);
+      router.push(`/chat?chatId=${data.id}`);
+
+      return data.id;
+    } catch (err: any) {
+      console.error("createChatIfNeeded error:", err);
+      throw err;
     }
-
-    // ✅ Create a brand new chat
-    const res = await fetch("/api/chats", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        userId: user.uid,
-        chat_name: chatName,
-      }),
-    });
-
-    if (!res.ok) throw new Error("Failed to create chat");
-    const data = await res.json();
-
-    setChatId(data.id);
-    setMessages([initialMessage]); // reset messages on first creation
-    router.push(`/chat?chatId=${data.id}`);
-
-    return data.id;
   };
 
   // Save message via API
   const saveMessage = async (msg: Message, activeChatId?: string) => {
     if (!activeChatId) return;
 
-    await fetch("/api/messages", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        chatId: activeChatId,
-        role: msg.role,
-        content: msg.content,
-      }),
-    });
+    try {
+      await fetch("/api/messages", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          chatId: activeChatId,
+          role: msg.role,
+          content: msg.content,
+        }),
+      });
+    } catch (err) {
+      console.error("saveMessage error:", err);
+    }
   };
 
   // Add user message
@@ -161,15 +164,18 @@ export default function ChatPage() {
         body: JSON.stringify({ query: userText, chatId: activeChatId }),
       });
 
-      if (!res.ok) throw new Error("Failed to fetch response");
+      const text = await res.text();
+      if (!res.ok) {
+        console.error("Assistant fetch failed:", res.status, text);
+        throw new Error(`Failed to fetch assistant reply: ${text}`);
+      }
 
-      const data = await res.json();
+      const data = JSON.parse(text);
 
       const assistantMsg: Message = {
         id: "a-" + Date.now(),
         role: "assistant",
-        content:
-          data.answer || "Sorry, I couldn’t find relevant information.",
+        content: data.answer || "Sorry, I couldn’t find relevant information.",
         timestamp: new Date().toISOString(),
       };
 
@@ -216,9 +222,7 @@ export default function ChatPage() {
     );
   }
 
-  if (!user || !user.emailVerified) {
-    return null;
-  }
+  if (!user || !user.emailVerified) return null;
 
   return (
     <div className="min-h-screen flex">

@@ -1,28 +1,30 @@
 import { NextResponse } from "next/server";
 import { adminDb } from "@/lib/firebaseAdmin";
 
-export async function POST(req: Request) {
+export async function PATCH(
+  req: Request,
+  { params }: { params: { chatId: string } }
+) {
   try {
-    const { userId, chat_name } = await req.json();
+    const { chatId } = params;
+    const { chat_name } = await req.json();
 
-    if (!userId || !chat_name) {
+    if (!chat_name) {
       return NextResponse.json(
-        { error: "userId and chat_name are required" },
+        { error: "chat_name is required" },
         { status: 400 }
       );
     }
 
-    const chatRef = await adminDb.collection("chats").add({
-      userId,
+    await adminDb.collection("chats").doc(chatId).update({
       chat_name,
-      createdAt: new Date(),
       updatedAt: new Date(),
     });
 
-    return NextResponse.json({ id: chatRef.id });
+    return NextResponse.json({ success: true });
   } catch (err: any) {
     return NextResponse.json(
-      { error: err.message || "Failed to create chat" },
+      { error: err.message || "Failed to update chat" },
       { status: 500 }
     );
   }
