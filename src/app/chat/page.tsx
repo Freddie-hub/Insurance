@@ -7,6 +7,8 @@ import Topbar from "@/components/topbar/Topbar";
 import ChatWindow from "@/components/chat/ChatWindow";
 import MessageInput from "@/components/chat/MessageInput";
 import { useAuth } from "@/lib/AuthContext";
+import { db } from "@/lib/firebase";
+import { collection, addDoc, serverTimestamp, doc, updateDoc } from "firebase/firestore";
 
 type Message = {
   id: string;
@@ -30,6 +32,7 @@ export default function ChatPage() {
   const router = useRouter();
   const [messages, setMessages] = useState<Message[]>(initialMessages);
   const [chatLoading, setChatLoading] = useState(false);
+  const [chatId, setChatId] = useState<string | null>(null);
 
   useEffect(() => {
     if (!loading && !user) {
@@ -39,7 +42,39 @@ export default function ChatPage() {
     }
   }, [user, loading, router]);
 
+  const createChatIfNeeded = async (firstMessage: string) => {
+    if (!user || chatId) return;
+
+    // generate chat name from first message
+    const words = firstMessage.split(" ").slice(0, 6).join(" ");
+    const chatName = words + (firstMessage.split(" ").length > 6 ? "..." : "");
+
+    const chatDoc = await addDoc(collection(db, "chats"), {
+      userId: user.uid,
+      chat_name: chatName,
+      createdAt: serverTimestamp(),
+      updatedAt: serverTimestamp(),
+    });
+
+    setChatId(chatDoc.id);
+  };
+
+  const saveMessage = async (msg: Message) => {
+    if (!chatId || !user) return;
+    await addDoc(collection(db, "chats", chatId, "messages"), {
+      role: msg.role,
+      content: msg.content,
+      timestamp: serverTimestamp(),
+    });
+
+    // update chat last activity
+    const chatRef = doc(db, "chats", chatId);
+    await updateDoc(chatRef, { updatedAt: serverTimestamp() });
+  };
+
   const addUserMessage = async (text: string) => {
+    await createChatIfNeeded(text);
+
     const msg: Message = {
       id: String(Date.now()),
       role: "user",
@@ -47,6 +82,7 @@ export default function ChatPage() {
       timestamp: new Date().toISOString(),
     };
     setMessages((m) => [...m, msg]);
+    await saveMessage(msg);
     await getAssistantReply(text);
   };
 
@@ -60,9 +96,7 @@ export default function ChatPage() {
         body: JSON.stringify({ query: userText }),
       });
 
-      if (!res.ok) {
-        throw new Error("Failed to fetch response");
-      }
+      if (!res.ok) throw new Error("Failed to fetch response");
 
       const data = await res.json();
 
@@ -74,6 +108,7 @@ export default function ChatPage() {
       };
 
       setMessages((m) => [...m, assistantMsg]);
+      await saveMessage(assistantMsg);
     } catch (err) {
       console.error("Chat API error:", err);
       const errorMsg: Message = {
@@ -83,6 +118,7 @@ export default function ChatPage() {
         timestamp: new Date().toISOString(),
       };
       setMessages((m) => [...m, errorMsg]);
+      await saveMessage(errorMsg);
     } finally {
       setChatLoading(false);
     }
