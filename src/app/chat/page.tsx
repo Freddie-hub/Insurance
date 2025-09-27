@@ -225,19 +225,19 @@ export default function ChatPage() {
   if (!user || !user.emailVerified) return null;
 
   return (
-    <div className="min-h-screen flex">
+    <div className="h-screen flex">
       <Sidebar />
-      <div className="flex-1 flex flex-col">
+      <div className="flex-1 flex flex-col h-screen">
         <Topbar user={user} />
-        <main className="flex-1 overflow-hidden">
-          <div className="h-full flex flex-col">
-            <ChatWindow
-              messages={messages}
-              loading={chatLoading}
-              onRegenerate={regenerateLast}
-            />
-            <MessageInput onSend={addUserMessage} disabled={chatLoading} />
-          </div>
+        <main className="flex-1 flex flex-col overflow-hidden">
+          {/* Chat window takes all available space & scrolls */}
+          <ChatWindow
+            messages={messages}
+            loading={chatLoading}
+            onRegenerate={regenerateLast}
+          />
+          {/* Input stays pinned at the bottom */}
+          <MessageInput onSend={addUserMessage} disabled={chatLoading} />
         </main>
       </div>
     </div>

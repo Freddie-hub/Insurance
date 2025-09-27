@@ -20,7 +20,7 @@ export default function ChatWindow({
   onRegenerate?: () => void;
 }) {
   return (
-    <div className="flex-1 overflow-y-auto p-6 bg-gray-100">
+    <div className="flex-1 overflow-y-auto px-6 py-4 bg-gray-100">
       <div className="max-w-3xl mx-auto space-y-4">
         {messages.map((m) => (
           <ChatBubble key={m.id} role={m.role} content={m.content} />
