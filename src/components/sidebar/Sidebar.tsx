@@ -16,13 +16,7 @@ import {
   serverTimestamp,
 } from "firebase/firestore";
 import { db } from "@/lib/firebase";
-import {
-  Bookmark,
-  BarChart,
-  Settings,
-  LogOut,
-  Plus,
-} from "lucide-react";
+import { Bookmark, BarChart, Settings, LogOut, Plus } from "lucide-react";
 
 type Chat = {
   id: string;
@@ -68,7 +62,8 @@ export default function Sidebar() {
       updatedAt: serverTimestamp(),
     });
 
-    router.push(`/chat/${docRef.id}`);
+    // Use query param to match ChatPage
+    router.push(`/chat?chatId=${docRef.id}`);
   };
 
   const handleSignOut = async () => {
@@ -90,9 +85,7 @@ export default function Sidebar() {
             </div>
             <div>
               <div className="text-lg font-semibold">InsureAssist AI</div>
-              <div className="text-xs text-gray-300">
-                AI insurance advisor
-              </div>
+              <div className="text-xs text-gray-300">AI insurance advisor</div>
             </div>
           </div>
         </div>
@@ -107,9 +100,7 @@ export default function Sidebar() {
       </div>
 
       <nav className="flex-1 overflow-auto p-4">
-        <div className="text-xs text-gray-400 uppercase mb-3">
-          Recent chats
-        </div>
+        <div className="text-xs text-gray-400 uppercase mb-3">Recent chats</div>
         <ul className="space-y-2">
           {chats.length === 0 ? (
             <div className="text-gray-400 text-sm">
@@ -119,7 +110,7 @@ export default function Sidebar() {
             chats.map((chat) => (
               <li key={chat.id}>
                 <Link
-                  href={`/chat/${chat.id}`}
+                  href={`/chat?chatId=${chat.id}`}
                   className="block p-3 rounded-md hover:bg-gray-800"
                 >
                   <div className="font-medium">{chat.chat_name}</div>
@@ -137,14 +128,6 @@ export default function Sidebar() {
         </ul>
 
         <div className="border-t border-gray-800 mt-6 pt-4 space-y-3">
-          {/* <Link
-            href="#"
-            className="flex items-center gap-3 text-sm hover:text-white text-gray-300"
-            onClick={(e) => e.preventDefault()}
-          >
-            <Bookmark size={16} />
-            Saved Recommendations
-          </Link> */}
           <Link
             href="#"
             className="flex items-center gap-3 text-sm hover:text-white text-gray-300"

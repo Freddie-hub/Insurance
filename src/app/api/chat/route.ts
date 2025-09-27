@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { Pinecone } from "@pinecone-database/pinecone";
 import fs from "fs";
 import path from "path";
-import { adminDb } from "@/lib/firebaseAdmin"; // ✅ use Admin SDK
+import { adminDb } from "@/lib/firebaseAdmin"; // Admin SDK
 
 // Init Pinecone
 const pc = new Pinecone({ apiKey: process.env.PINECONE_API_KEY! });
@@ -37,7 +37,7 @@ async function getMiniLMEmbedding(text: string): Promise<number[]> {
   return data.embedding;
 }
 
-// ✅ Get last N messages from Firestore (Admin SDK version)
+// Get last N messages
 async function getChatHistory(chatId: string, limitCount = 15) {
   const snapshot = await adminDb
     .collection("chats")
@@ -144,6 +144,38 @@ Guidelines:
 
     const completion = await resp.json();
     const answer = completion.choices[0].message?.content ?? "";
+
+    // Step 7: Save message + rename chat if first message
+    const chatRef = adminDb.collection("chats").doc(chatId);
+
+    // Add user message
+    await chatRef.collection("messages").add({
+      role: "user",
+      content: userQuery,
+      timestamp: new Date(),
+    });
+
+    // Add AI response
+    await chatRef.collection("messages").add({
+      role: "assistant",
+      content: answer,
+      timestamp: new Date(),
+    });
+
+    // Rename chat if still "New Chat"
+    const chatDoc = await chatRef.get();
+    if (chatDoc.exists) {
+      const chatData = chatDoc.data();
+      if (chatData?.chat_name === "New Chat") {
+        await chatRef.update({
+          chat_name:
+            userQuery.length > 30 ? userQuery.slice(0, 30) + "..." : userQuery,
+          updatedAt: new Date(),
+        });
+      } else {
+        await chatRef.update({ updatedAt: new Date() });
+      }
+    }
 
     return NextResponse.json({
       answer,

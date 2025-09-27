@@ -46,6 +46,14 @@ export default function ChatPage() {
     }
   }, [user, loading, router]);
 
+  // Reset chat window when chatId changes
+  useEffect(() => {
+    if (chatIdFromUrl && chatIdFromUrl !== chatId) {
+      setChatId(chatIdFromUrl);
+      setMessages([initialMessage]); // reset messages for new chat
+    }
+  }, [chatIdFromUrl, chatId]);
+
   // Subscribe to messages if chatId is set
   useEffect(() => {
     if (!chatId || !user) return;
@@ -72,16 +80,25 @@ export default function ChatPage() {
     return () => unsub();
   }, [chatId, user]);
 
-  // Create chat via API (return chatId)
+  // Create or rename chat based on first user message
   const createChatIfNeeded = async (firstMessage: string): Promise<string> => {
     if (!user) throw new Error("No user");
-
-    if (chatId) return chatId;
 
     const words = firstMessage.split(" ").slice(0, 6).join(" ");
     const chatName =
       words + (firstMessage.split(" ").length > 6 ? "..." : "");
 
+    if (chatId) {
+      // ✅ Update chat name if it’s still "New Chat"
+      await fetch(`/api/chats/${chatId}`, {
+        method: "PATCH",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ chat_name: chatName }),
+      });
+      return chatId;
+    }
+
+    // ✅ Create a brand new chat
     const res = await fetch("/api/chats", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -95,6 +112,7 @@ export default function ChatPage() {
     const data = await res.json();
 
     setChatId(data.id);
+    setMessages([initialMessage]); // reset messages on first creation
     router.push(`/chat?chatId=${data.id}`);
 
     return data.id;

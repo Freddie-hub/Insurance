@@ -16,6 +16,7 @@ export async function POST(req: Request) {
       userId,
       chat_name,
       createdAt: new Date(),
+      updatedAt: new Date(),
     });
 
     return NextResponse.json({ id: chatRef.id });
