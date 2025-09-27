@@ -3,66 +3,194 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --link-color: #2563eb; /* Tailwind blue-600 */
-  --code-background: #f3f3f3;
-  --table-border: #ddd;
+  --link-color: #2563eb;
+  --code-background: #f8fafc;
+  --table-border: #e2e8f0;
+  --table-header: #f1f5f9;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-    --link-color: #3b82f6; /* lighter blue for dark mode */
-    --code-background: #1a1a1a;
-    --table-border: #444;
+    --link-color: #60a5fa;
+    --code-background: #1e293b;
+    --table-border: #334155;
+    --table-header: #0f172a;
   }
 }
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Markdown / prose styling */
-.prose {
-  max-width: 100%;
+/* Enhanced Prose Styling for Chat Bubbles */
+.chat-prose {
+  color: inherit;
+  max-width: none;
+  line-height: 1.6;
 }
 
-.prose a {
+.chat-prose p {
+  margin: 0.75em 0;
+}
+
+.chat-prose p:first-child {
+  margin-top: 0;
+}
+
+.chat-prose p:last-child {
+  margin-bottom: 0;
+}
+
+/* Headings */
+.chat-prose h1, .chat-prose h2, .chat-prose h3, .chat-prose h4, .chat-prose h5, .chat-prose h6 {
+  font-weight: 600;
+  margin: 1em 0 0.5em 0;
+  color: inherit;
+}
+
+.chat-prose h1 { font-size: 1.5em; }
+.chat-prose h2 { font-size: 1.3em; }
+.chat-prose h3 { font-size: 1.1em; }
+.chat-prose h4, .chat-prose h5, .chat-prose h6 { font-size: 1em; }
+
+/* Lists */
+.chat-prose ul, .chat-prose ol {
+  margin: 0.75em 0;
+  padding-left: 1.5em;
+}
+
+.chat-prose li {
+  margin: 0.25em 0;
+}
+
+.chat-prose ul > li {
+  list-style-type: disc;
+}
+
+.chat-prose ol > li {
+  list-style-type: decimal;
+}
+
+/* Links */
+.chat-prose a {
   color: var(--link-color);
   text-decoration: underline;
+  font-weight: 500;
 }
 
-.prose table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 0.5rem 0;
+.chat-prose a:hover {
+  text-decoration: none;
 }
 
-.prose th,
-.prose td {
-  border: 1px solid var(--table-border);
-  padding: 0.5rem;
-  text-align: left;
-}
-
-.prose th {
+/* Code */
+.chat-prose code {
   background-color: var(--code-background);
-  font-weight: 600;
-}
-
-.prose code {
-  background-color: var(--code-background);
-  padding: 0.2rem 0.4rem;
+  color: #d63384;
+  padding: 0.2em 0.4em;
   border-radius: 0.25rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.875em;
 }
 
-.prose pre {
+.chat-prose pre {
   background-color: var(--code-background);
-  padding: 0.75rem 1rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   overflow-x: auto;
+  margin: 1em 0;
+  border: 1px solid var(--table-border);
 }
 
+.chat-prose pre code {
+  background: none;
+  color: inherit;
+  padding: 0;
+}
+
+/* Tables - The Main Fix */
+.chat-prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  border: 1px solid var(--table-border);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.chat-prose thead {
+  background-color: var(--table-header);
+}
+
+.chat-prose th {
+  background-color: var(--table-header);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--table-border);
+  font-size: 0.875em;
+  color: inherit;
+}
+
+.chat-prose td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--table-border);
+  vertical-align: top;
+  font-size: 0.875em;
+}
+
+.chat-prose tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.chat-prose tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+@media (prefers-color-scheme: dark) {
+  .chat-prose tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+}
+
+/* Mobile responsiveness for tables */
+@media (max-width: 768px) {
+  .chat-prose table {
+    font-size: 0.75rem;
+  }
+  
+  .chat-prose th, .chat-prose td {
+    padding: 0.5rem;
+  }
+}
+
+/* Blockquotes */
+.chat-prose blockquote {
+  border-left: 4px solid var(--link-color);
+  padding-left: 1rem;
+  margin: 1em 0;
+  font-style: italic;
+  color: #64748b;
+}
+
+/* Horizontal rules */
+.chat-prose hr {
+  border: none;
+  border-top: 1px solid var(--table-border);
+  margin: 1.5em 0;
+}
+
+/* Strong/Bold */
+.chat-prose strong {
+  font-weight: 600;
+  color: inherit;
+}
+
+/* Emphasis/Italic */
+.chat-prose em {
+  font-style: italic;
+}
