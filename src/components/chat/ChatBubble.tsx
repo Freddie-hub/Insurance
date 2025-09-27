@@ -1,6 +1,7 @@
 "use client";
 
 import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 export default function ChatBubble({ role, content }: { role: "user" | "assistant"; content: string }) {
   const isUser = role === "user";
@@ -14,11 +15,9 @@ export default function ChatBubble({ role, content }: { role: "user" | "assistan
       >
         <div className="prose prose-sm max-w-full">
           {isUser ? (
-            // render plain text for user
             <div style={{ whiteSpace: "pre-wrap" }}>{content}</div>
           ) : (
-            // render markdown for assistant
-            <ReactMarkdown>{content}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
           )}
         </div>
       </div>
