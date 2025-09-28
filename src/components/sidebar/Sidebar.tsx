@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { signOut } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { useAuth } from "@/lib/AuthContext";
@@ -16,7 +16,7 @@ import {
   serverTimestamp,
 } from "firebase/firestore";
 import { db } from "@/lib/firebase";
-import { Bookmark, BarChart, Settings, LogOut, Plus } from "lucide-react";
+import { MessageSquare, Plus, Settings, LogOut, Menu, X } from "lucide-react";
 
 type Chat = {
   id: string;
@@ -27,7 +27,11 @@ type Chat = {
 export default function Sidebar() {
   const { user } = useAuth();
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const currentChatId = searchParams.get("chatId");
   const [chats, setChats] = useState<Chat[]>([]);
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const [showAll, setShowAll] = useState(false);
 
   // Load chats for the logged-in user
   useEffect(() => {
@@ -42,7 +46,7 @@ export default function Sidebar() {
     const unsub = onSnapshot(q, (snapshot) => {
       const data = snapshot.docs.map((doc) => ({
         id: doc.id,
-        chat_name: doc.data().chat_name || "Untitled Chat",
+        chat_name: doc.data().chat_name || "New Chat",
         createdAt: doc.data().createdAt || null,
       })) as Chat[];
       setChats(data);
@@ -54,6 +58,7 @@ export default function Sidebar() {
   // Create a new chat and redirect
   const handleNewChat = async () => {
     if (!user) return;
+    setIsMobileOpen(false);
 
     const docRef = await addDoc(collection(db, "chats"), {
       userId: user.uid,
@@ -62,7 +67,6 @@ export default function Sidebar() {
       updatedAt: serverTimestamp(),
     });
 
-    // Use query param to match ChatPage
     router.push(`/chat?chatId=${docRef.id}`);
   };
 
@@ -75,84 +79,162 @@ export default function Sidebar() {
     }
   };
 
-  return (
-    <aside className="w-80 bg-gray-900 text-white flex-shrink-0 h-screen hidden md:flex flex-col">
-      <div className="px-6 py-5 border-b border-gray-800">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center text-white font-semibold">
-              IA
-            </div>
-            <div>
-              <div className="text-lg font-semibold">Policy Master</div>
-              <div className="text-xs text-gray-300">AI insurance advisor</div>
-            </div>
+  const handleChatClick = () => {
+    setIsMobileOpen(false);
+  };
+
+  const sidebarContent = (
+    <>
+      {/* Header */}
+      <div className="px-6 py-6 border-b border-white/10">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center shadow-lg">
+            <svg
+              className="w-5 h-5 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+              />
+            </svg>
+          </div>
+          <div>
+            <div className="text-lg font-bold text-white">InsureAssist</div>
+            <div className="text-xs text-blue-200">AI Insurance Advisor</div>
           </div>
         </div>
 
         <button
-          className="mt-4 w-full bg-indigo-600 hover:bg-indigo-700 text-white px-3 py-2 rounded-md flex items-center justify-center gap-2"
           onClick={handleNewChat}
+          className="w-full bg-white/10 hover:bg-white/15 backdrop-blur-sm text-white font-medium px-4 py-3 rounded-2xl transition-all duration-200 flex items-center justify-center gap-2 hover:scale-[1.02]"
         >
-          <Plus size={16} />
-          New Chat
+          <Plus size={18} />
+          New Conversation
         </button>
       </div>
 
-      <nav className="flex-1 overflow-auto p-4">
-        <div className="text-xs text-gray-400 uppercase mb-3">Recent chats</div>
-        <ul className="space-y-2">
+      {/* Chat History */}
+      <div className="flex-1 p-6 overflow-y-auto max-h-[calc(100vh-250px)]">
+        <div className="text-xs font-semibold text-blue-200 uppercase tracking-wide mb-4">
+          Recent Conversations
+        </div>
+
+        <div className="space-y-2">
           {chats.length === 0 ? (
-            <div className="text-gray-400 text-sm">
-              No chats yet. Start a new one!
+            <div className="text-blue-200/70 text-sm py-8 text-center">
+              <MessageSquare className="w-8 h-8 mx-auto mb-2 opacity-50" />
+              Start your first conversation to see your chat history here
             </div>
           ) : (
-            chats.map((chat) => (
-              <li key={chat.id}>
+            <>
+              {(showAll ? chats : chats.slice(0, 4)).map((chat) => (
                 <Link
+                  key={chat.id}
                   href={`/chat?chatId=${chat.id}`}
-                  className="block p-3 rounded-md hover:bg-gray-800"
+                  onClick={handleChatClick}
+                  className={`block p-3 rounded-xl transition-all duration-200 hover:bg-white/10 group ${
+                    currentChatId === chat.id
+                      ? "bg-white/15 border border-white/20"
+                      : ""
+                  }`}
                 >
-                  <div className="font-medium">{chat.chat_name}</div>
-                  {chat.createdAt && (
-                    <div className="text-xs text-gray-400">
-                      {new Date(
-                        chat.createdAt.seconds * 1000
-                      ).toLocaleDateString()}
+                  <div className="flex items-start gap-3">
+                    <MessageSquare className="w-4 h-4 text-blue-200 mt-1 flex-shrink-0" />
+                    <div className="flex-1 min-w-0">
+                      <div className="text-white text-sm font-medium truncate group-hover:text-blue-100">
+                        {chat.chat_name}
+                      </div>
+                      {chat.createdAt && (
+                        <div className="text-xs text-blue-200/70 mt-1">
+                          {new Date(
+                            chat.createdAt.seconds * 1000
+                          ).toLocaleDateString("en-US", {
+                            month: "short",
+                            day: "numeric",
+                            year: "numeric",
+                          })}
+                        </div>
+                      )}
                     </div>
-                  )}
+                  </div>
                 </Link>
-              </li>
-            ))
-          )}
-        </ul>
+              ))}
 
-        <div className="border-t border-gray-800 mt-6 pt-4 space-y-3">
-          <Link
-            href="#"
-            className="flex items-center gap-3 text-sm hover:text-white text-gray-300"
-            onClick={(e) => e.preventDefault()}
-          >
-            <BarChart size={16} />
-            Compare Plans
-          </Link>
-          <Link
-            href="#"
-            className="flex items-center gap-3 text-sm hover:text-white text-gray-300"
-            onClick={(e) => e.preventDefault()}
-          >
-            <Settings size={16} />
-            Settings
-          </Link>
+              {chats.length > 4 && (
+                <button
+                  onClick={() => setShowAll((prev) => !prev)}
+                  className="w-full text-blue-200 hover:text-white text-sm mt-2 py-2 rounded-lg hover:bg-white/10 transition"
+                >
+                  {showAll ? "Show Less" : "Show More"}
+                </button>
+              )}
+            </>
+          )}
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="p-6 border-t border-white/10 space-y-2">
+        <button className="w-full flex items-center gap-3 px-4 py-3 text-blue-200 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm">
+          <Settings size={16} />
+          Settings
+        </button>
+        <button
+          onClick={handleSignOut}
+          className="w-full flex items-center gap-3 px-4 py-3 text-blue-200 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm"
+        >
+          <LogOut size={16} />
+          Sign Out
+        </button>
+      </div>
+    </>
+  );
+
+  return (
+    <>
+      {/* Mobile Menu Button */}
+      <button
+        onClick={() => setIsMobileOpen(true)}
+        className="md:hidden fixed top-4 left-4 z-50 p-2 bg-white rounded-xl shadow-lg border border-gray-200"
+      >
+        <Menu size={20} className="text-gray-600" />
+      </button>
+
+      {/* Mobile Overlay */}
+      {isMobileOpen && (
+        <div
+          className="md:hidden fixed inset-0 bg-black/50 z-40"
+          onClick={() => setIsMobileOpen(false)}
+        />
+      )}
+
+      {/* Desktop Sidebar */}
+      <aside className="hidden md:flex w-80 bg-gradient-to-b from-slate-900 via-blue-900 to-slate-900 text-white flex-shrink-0 h-screen flex-col shadow-2xl">
+        {sidebarContent}
+      </aside>
+
+      {/* Mobile Sidebar */}
+      <aside
+        className={`md:hidden fixed inset-y-0 left-0 w-80 bg-gradient-to-b from-slate-900 via-blue-900 to-slate-900 text-white flex-col shadow-2xl z-50 transform transition-transform duration-300 ${
+          isMobileOpen ? "translate-x-0 flex" : "-translate-x-full hidden"
+        }`}
+      >
+        {/* Mobile Close Button */}
+        <div className="absolute top-4 right-4">
           <button
-            onClick={handleSignOut}
-            className="flex items-center gap-3 text-sm hover:text-white text-gray-300 w-full text-left"
+            onClick={() => setIsMobileOpen(false)}
+            className="p-2 text-white/70 hover:text-white hover:bg-white/10 rounded-xl transition-colors"
           >
-            <LogOut size={16} />
-            Log Out
+            <X size={20} />
           </button>
         </div>
-      </nav>
-    </aside>
+        {sidebarContent}
+      </aside>
+    </>
   );
 }
