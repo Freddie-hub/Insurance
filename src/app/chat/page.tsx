@@ -72,33 +72,28 @@ export default function ChatPage() {
 
     if (chatId) return chatId;
 
-    try {
-      const chatRef = doc(collection(db, "chats"));
-      await setDoc(chatRef, {
-        userId: user.uid,
-        chat_name: firstMessage.length > 30 ? firstMessage.slice(0, 30) + "..." : firstMessage,
-        createdAt: new Date(),
-        updatedAt: new Date(),
-      });
+    const chatRef = doc(collection(db, "chats"));
+    await setDoc(chatRef, {
+      userId: user.uid,
+      chat_name: firstMessage.length > 30 ? firstMessage.slice(0, 30) + "..." : firstMessage,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    });
 
-      // Add initial greeting from AI
-      await addDoc(collection(chatRef, "messages"), {
-        role: "assistant",
-        content: initialGreeting,
-        timestamp: new Date(),
-      });
+    // Add initial greeting from AI
+    await addDoc(collection(chatRef, "messages"), {
+      role: "assistant",
+      content: initialGreeting,
+      timestamp: new Date(),
+    });
 
-      setChatId(chatRef.id);
-      router.push(`/chat?chatId=${chatRef.id}`);
+    setChatId(chatRef.id);
+    router.push(`/chat?chatId=${chatRef.id}`);
 
-      return chatRef.id;
-    } catch (err) {
-      console.error("createChatIfNeeded error:", err);
-      throw err;
-    }
+    return chatRef.id;
   };
 
-  // Save user message to Firestore
+  // Save user message
   const saveUserMessage = async (text: string, activeChatId: string) => {
     const chatRef = doc(db, "chats", activeChatId);
     await addDoc(collection(chatRef, "messages"), {
@@ -108,32 +103,25 @@ export default function ChatPage() {
     });
   };
 
-  // Handle user sending a message
   const addUserMessage = async (text: string) => {
     setChatLoading(true);
     try {
       const ensuredChatId = await createChatIfNeeded(text);
-
-      // Save user message
       await saveUserMessage(text, ensuredChatId);
 
-      // Trigger backend AI response (writes to Firestore)
+      // Trigger AI backend
       await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: text, chatId: ensuredChatId }),
       });
-    } catch (error) {
-      console.error("Failed to send message:", error);
     } finally {
       setChatLoading(false);
     }
   };
 
-  // Regenerate last AI response
   const regenerateLast = async () => {
     if (!chatId) return;
-
     const lastUser = [...messages].reverse().find((m) => m.role === "user");
     if (!lastUser) return;
 
@@ -144,41 +132,29 @@ export default function ChatPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: lastUser.content, chatId }),
       });
-    } catch (error) {
-      console.error("Failed to regenerate response:", error);
     } finally {
       setChatLoading(false);
     }
   };
 
-  if (loading) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center">
-        <div className="text-center">
-          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4 animate-pulse">
-            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-            </svg>
-          </div>
-          <div className="text-gray-600 font-medium">Loading InsureAssist...</div>
-        </div>
-      </div>
-    );
-  }
-
+  if (loading) return <div>Loading...</div>;
   if (!user || !user.emailVerified) return null;
 
   return (
-    <div className="h-screen flex bg-gradient-to-br from-blue-50/30 via-white to-purple-50/30">
+    <div className="h-screen flex bg-gradient-to-r from-slate-800 via-slate-600 to-teal-200/40">
       <Sidebar />
+
       <div className="flex-1 flex flex-col h-screen">
         <Topbar user={user} />
+
+        {/* Chat container */}
         <main className="flex-1 flex flex-col overflow-hidden relative">
-          {/* Background Pattern */}
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-50/20 via-transparent to-purple-50/20 pointer-events-none" />
-          
-          <div className="relative flex-1 flex flex-col">
+          <div className="flex-1 flex flex-col overflow-y-auto px-4 py-2">
             <ChatWindow messages={messages} loading={chatLoading} onRegenerate={regenerateLast} />
+          </div>
+
+          {/* Input fixed at bottom */}
+          <div className="px-4 py-2 bg-white/80 backdrop-blur-sm border-t border-white/20">
             <MessageInput onSend={addUserMessage} disabled={chatLoading} />
           </div>
         </main>
