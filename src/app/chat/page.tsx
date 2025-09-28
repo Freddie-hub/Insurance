@@ -8,7 +8,15 @@ import ChatWindow from "@/components/chat/ChatWindow";
 import MessageInput from "@/components/chat/MessageInput";
 import { useAuth } from "@/lib/AuthContext";
 import { db } from "@/lib/firebase";
-import { collection, query, orderBy, onSnapshot, addDoc, doc, setDoc } from "firebase/firestore";
+import {
+  collection,
+  query,
+  orderBy,
+  onSnapshot,
+  addDoc,
+  doc,
+  setDoc,
+} from "firebase/firestore";
 
 type Message = {
   id: string;
@@ -17,12 +25,6 @@ type Message = {
   timestamp?: string;
 };
 
-const initialGreeting = `Hello! I'm InsureAssist AI, your professional insurance advisor for the Kenyan market.
-
-I can help you compare policies across insurers like Britam, Jubilee, CIC, Heritage, and Liberty. 
-
-Please tell me what type of insurance you are interested in (Health, Life, Motor, Home, Business, etc.), or ask a specific question about coverage options.`;
-
 export default function ChatPage() {
   const { user, loading } = useAuth();
   const router = useRouter();
@@ -30,13 +32,16 @@ export default function ChatPage() {
   const chatIdFromUrl = searchParams.get("chatId");
 
   const [messages, setMessages] = useState<Message[]>([]);
-  const [chatId, setChatId] = useState<string | undefined>(chatIdFromUrl ?? undefined);
+  const [chatId, setChatId] = useState<string | undefined>(
+    chatIdFromUrl ?? undefined
+  );
   const [chatLoading, setChatLoading] = useState(false);
 
   // Redirect if not logged in or email not verified
   useEffect(() => {
     if (!loading && !user) router.push("/login");
-    else if (!loading && user && !user.emailVerified) router.push("/verify-email");
+    else if (!loading && user && !user.emailVerified)
+      router.push("/verify-email");
   }, [user, loading, router]);
 
   // Reset messages when chatId changes
@@ -51,7 +56,10 @@ export default function ChatPage() {
   useEffect(() => {
     if (!chatId || !user) return;
 
-    const q = query(collection(db, "chats", chatId, "messages"), orderBy("timestamp", "asc"));
+    const q = query(
+      collection(db, "chats", chatId, "messages"),
+      orderBy("timestamp", "asc")
+    );
     const unsub = onSnapshot(q, (snapshot) => {
       const msgs = snapshot.docs.map((doc) => ({
         id: doc.id,
@@ -66,7 +74,7 @@ export default function ChatPage() {
     return () => unsub();
   }, [chatId, user]);
 
-  // Create a new chat if needed
+  // Create a new chat if needed (without greeting)
   const createChatIfNeeded = async (firstMessage: string): Promise<string> => {
     if (!user) throw new Error("No user");
 
@@ -75,16 +83,12 @@ export default function ChatPage() {
     const chatRef = doc(collection(db, "chats"));
     await setDoc(chatRef, {
       userId: user.uid,
-      chat_name: firstMessage.length > 30 ? firstMessage.slice(0, 30) + "..." : firstMessage,
+      chat_name:
+        firstMessage.length > 30
+          ? firstMessage.slice(0, 30) + "..."
+          : firstMessage,
       createdAt: new Date(),
       updatedAt: new Date(),
-    });
-
-    // Add initial greeting from AI
-    await addDoc(collection(chatRef, "messages"), {
-      role: "assistant",
-      content: initialGreeting,
-      timestamp: new Date(),
     });
 
     setChatId(chatRef.id);
@@ -148,15 +152,16 @@ export default function ChatPage() {
         <Topbar user={user} />
 
         {/* Chat container */}
-        <main className="flex-1 flex flex-col overflow-hidden relative">
-          <div className="flex-1 flex flex-col overflow-y-auto px-4 py-2">
-            <ChatWindow messages={messages} loading={chatLoading} onRegenerate={regenerateLast} />
-          </div>
+        <main className="flex-1 flex flex-col overflow-hidden relative pt-16">
+          {/* offset topbar height with pt-16 */}
+          <ChatWindow
+            messages={messages}
+            loading={chatLoading}
+            onRegenerate={regenerateLast}
+          />
 
-          {/* Input fixed at bottom */}
-          <div className="px-4 py-2 bg-white/80 backdrop-blur-sm border-t border-white/20">
-            <MessageInput onSend={addUserMessage} disabled={chatLoading} />
-          </div>
+          {/* Input directly, no wrapper */}
+          <MessageInput onSend={addUserMessage} disabled={chatLoading} />
         </main>
       </div>
     </div>

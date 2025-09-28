@@ -13,7 +13,7 @@ export default function ChatBubble({
   const isUser = role === "user";
 
   return (
-    <div className={`flex ${isUser ? "justify-end" : "justify-start"} mb-4`}>
+    <div className={`flex ${isUser ? "justify-end" : "justify-start"} mt-2 mb-4`}>
       <div
         className={`max-w-[85%] px-4 py-3 rounded-2xl shadow-sm ${
           isUser 
@@ -33,13 +33,11 @@ export default function ChatBubble({
             <ReactMarkdown 
               remarkPlugins={[remarkGfm]}
               components={{
-                // Custom table rendering for better mobile support
                 table: ({ children, ...props }) => (
                   <div className="overflow-x-auto">
                     <table {...props}>{children}</table>
                   </div>
                 ),
-                // Ensure links open in new tab
                 a: ({ href, children, ...props }) => (
                   <a 
                     href={href} 
@@ -50,13 +48,16 @@ export default function ChatBubble({
                     {children}
                   </a>
                 ),
-                // Better code block styling
                 code: ({ className, children, ...props }) => {
-                  const match = /language-(\w+)/.exec(className || '');
+                  const match = /language-(\w+)/.exec(className || "");
                   const isInline = !match;
-                  
+
                   if (isInline) {
-                    return <code className={className} {...props}>{children}</code>;
+                    return (
+                      <code className={className} {...props}>
+                        {children}
+                      </code>
+                    );
                   }
                   return (
                     <pre>
