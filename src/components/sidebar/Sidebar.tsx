@@ -88,7 +88,7 @@ export default function Sidebar() {
       {/* Header */}
       <div className="px-6 py-6 border-b border-white/10">
         <div className="flex items-center gap-3 mb-6">
-          <div className="w-10 h-10 bg-gradient-to-br from-teal-400 to-cyan-500 rounded-2xl flex items-center justify-center shadow-lg">
+          <div className="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
             <svg
               className="w-5 h-5 text-white"
               fill="none"
@@ -105,7 +105,7 @@ export default function Sidebar() {
           </div>
           <div>
             <div className="text-lg font-bold text-white">InsureAssist</div>
-            <div className="text-xs text-teal-200">AI Insurance Advisor</div>
+            <div className="text-xs text-gray-400">AI Insurance Advisor</div>
           </div>
         </div>
 
@@ -120,13 +120,13 @@ export default function Sidebar() {
 
       {/* Chat History */}
       <div className="flex-1 p-6 overflow-y-auto max-h-[calc(100vh-250px)]">
-        <div className="text-xs font-semibold text-teal-200 uppercase tracking-wide mb-4">
+        <div className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-4">
           Recent Conversations
         </div>
 
         <div className="space-y-2">
           {chats.length === 0 ? (
-            <div className="text-teal-200/70 text-sm py-8 text-center">
+            <div className="text-gray-500 text-sm py-8 text-center">
               <MessageSquare className="w-8 h-8 mx-auto mb-2 opacity-50" />
               Start your first conversation to see your chat history here
             </div>
@@ -144,13 +144,13 @@ export default function Sidebar() {
                   }`}
                 >
                   <div className="flex items-start gap-3">
-                    <MessageSquare className="w-4 h-4 text-teal-200 mt-1 flex-shrink-0" />
+                    <MessageSquare className="w-4 h-4 text-gray-400 mt-1 flex-shrink-0" />
                     <div className="flex-1 min-w-0">
-                      <div className="text-white text-sm font-medium truncate group-hover:text-teal-100">
+                      <div className="text-white text-sm font-medium truncate group-hover:text-gray-200">
                         {chat.chat_name}
                       </div>
                       {chat.createdAt && (
-                        <div className="text-xs text-teal-200/70 mt-1">
+                        <div className="text-xs text-gray-500 mt-1">
                           {new Date(
                             chat.createdAt.seconds * 1000
                           ).toLocaleDateString("en-US", {
@@ -168,7 +168,7 @@ export default function Sidebar() {
               {chats.length > 4 && (
                 <button
                   onClick={() => setShowAll((prev) => !prev)}
-                  className="w-full text-teal-200 hover:text-white text-sm mt-2 py-2 rounded-lg hover:bg-white/10 transition"
+                  className="w-full text-gray-400 hover:text-white text-sm mt-2 py-2 rounded-lg hover:bg-white/10 transition"
                 >
                   {showAll ? "Show Less" : "Show More"}
                 </button>
@@ -180,13 +180,13 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="p-6 border-t border-white/10 space-y-2">
-        <button className="w-full flex items-center gap-3 px-4 py-3 text-teal-200 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm">
+        <button className="w-full flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm">
           <Settings size={16} />
           Settings
         </button>
         <button
           onClick={handleSignOut}
-          className="w-full flex items-center gap-3 px-4 py-3 text-teal-200 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm"
+          className="w-full flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm"
         >
           <LogOut size={16} />
           Sign Out
@@ -214,13 +214,13 @@ export default function Sidebar() {
       )}
 
       {/* Desktop Sidebar */}
-      <aside className="hidden md:flex w-80 bg-gradient-to-b from-slate-800 via-slate-700 to-teal-800 text-white flex-shrink-0 h-screen flex-col shadow-2xl border-r border-teal-700/30">
+      <aside className="hidden md:flex w-80 bg-[#0F172B] text-white flex-shrink-0 h-screen flex-col shadow-2xl border-r border-white/10">
         {sidebarContent}
       </aside>
 
       {/* Mobile Sidebar */}
       <aside
-        className={`md:hidden fixed inset-y-0 left-0 w-80 bg-gradient-to-b from-slate-800 via-slate-700 to-teal-800 text-white flex-col shadow-2xl z-50 transform transition-transform duration-300 border-r border-teal-700/30 ${
+        className={`md:hidden fixed inset-y-0 left-0 w-80 bg-[#0F172B] text-white flex-col shadow-2xl z-50 transform transition-transform duration-300 border-r border-white/10 ${
           isMobileOpen ? "translate-x-0 flex" : "-translate-x-full hidden"
         }`}
       >

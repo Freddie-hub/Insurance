@@ -31,7 +31,7 @@ export default function ChatWindow({
   const canRegenerate = lastMessage && lastMessage.role === "assistant";
 
   return (
-    <div className="flex flex-col h-screen bg-transparent">
+    <div className="flex flex-col h-screen bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700">
       <div className="flex-1 overflow-y-auto px-4 py-6">
         <div className="max-w-4xl mx-auto">
           {/* Welcome message if no messages */}

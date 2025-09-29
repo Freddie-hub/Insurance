@@ -48,7 +48,7 @@ export default function ChatPage() {
   useEffect(() => {
     if (chatIdFromUrl && chatIdFromUrl !== chatId) {
       setChatId(chatIdFromUrl);
-      setMessages([]); // start empty; Firestore will populate
+      setMessages([]);
     }
   }, [chatIdFromUrl, chatId]);
 
@@ -74,7 +74,7 @@ export default function ChatPage() {
     return () => unsub();
   }, [chatId, user]);
 
-  // Create a new chat if needed (without greeting)
+  // Create a new chat if needed
   const createChatIfNeeded = async (firstMessage: string): Promise<string> => {
     if (!user) throw new Error("No user");
 
@@ -145,7 +145,7 @@ export default function ChatPage() {
   if (!user || !user.emailVerified) return null;
 
   return (
-    <div className="h-screen flex bg-gradient-to-r from-slate-800 via-slate-600 to-teal-200/40">
+    <div className="h-screen flex bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700">
       <Sidebar />
 
       <div className="flex-1 flex flex-col h-screen">
@@ -153,14 +153,11 @@ export default function ChatPage() {
 
         {/* Chat container */}
         <main className="flex-1 flex flex-col overflow-hidden relative pt-16">
-          {/* offset topbar height with pt-16 */}
           <ChatWindow
             messages={messages}
             loading={chatLoading}
             onRegenerate={regenerateLast}
           />
-
-          {/* Input directly, no wrapper */}
           <MessageInput onSend={addUserMessage} disabled={chatLoading} />
         </main>
       </div>

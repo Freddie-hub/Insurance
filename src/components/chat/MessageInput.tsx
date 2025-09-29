@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { Send, Square, Paperclip, Mic } from "lucide-react";
+import { Send, Square, Paperclip } from "lucide-react";
 
 export default function MessageInput({
   onSend,
@@ -19,7 +19,6 @@ export default function MessageInput({
     if (!textareaRef.current) return;
     const ta = textareaRef.current;
     ta.style.height = "auto";
-    // Set max height to about 8 lines (24px line height * 8 + padding)
     ta.style.height = Math.min(ta.scrollHeight, 200) + "px";
   }, [value]);
 
@@ -34,7 +33,6 @@ export default function MessageInput({
     if (!value.trim() || disabled || isComposing) return;
     onSend(value.trim());
     setValue("");
-    // Reset height after sending
     if (textareaRef.current) {
       textareaRef.current.style.height = "auto";
     }
@@ -43,10 +41,8 @@ export default function MessageInput({
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === "Enter") {
       if (e.shiftKey) {
-        // Allow new line with Shift+Enter
-        return;
+        return; // allow new line
       } else if (!isComposing) {
-        // Send message with Enter (but not during IME composition)
         e.preventDefault();
         handleSend();
       }
@@ -64,10 +60,10 @@ export default function MessageInput({
   const canSend = value.trim().length > 0 && !disabled && !isComposing;
   const charactersUsed = value.length;
   const maxLength = 4000;
-  const showCharacterCount = charactersUsed > maxLength * 0.8; // Show when 80% full
+  const showCharacterCount = charactersUsed > maxLength * 0.8;
 
   return (
-    <div className="px-4 pb-4 pt-2">
+    <div className="px-3 pb-2 pt-1 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700">
       <div className="max-w-4xl mx-auto">
         {/* Character count indicator */}
         {showCharacterCount && (
@@ -78,7 +74,7 @@ export default function MessageInput({
                   ? "text-red-500"
                   : charactersUsed > maxLength * 0.9
                   ? "text-amber-500"
-                  : "text-gray-500"
+                  : "text-gray-400"
               }`}
             >
               {charactersUsed}/{maxLength}
@@ -88,13 +84,13 @@ export default function MessageInput({
 
         {/* Main input container */}
         <div
-          className={`relative flex items-end bg-white border rounded-2xl shadow-lg transition-all duration-200 ${
+          className={`relative flex items-end bg-white/90 backdrop-blur-sm border rounded-2xl transition-all duration-200 ${
             disabled
               ? "border-gray-200 bg-gray-50"
-              : "border-gray-300 focus-within:border-blue-500 focus-within:shadow-blue-100 focus-within:shadow-md"
+              : "border-gray-300 focus-within:border-blue-500"
           }`}
         >
-          {/* Attachment button (optional - can be removed if not needed) */}
+          {/* Attachment button */}
           <button
             type="button"
             disabled={disabled}
@@ -122,9 +118,9 @@ export default function MessageInput({
               rows={1}
               maxLength={maxLength}
               disabled={disabled}
-              style={{ 
+              style={{
                 minHeight: "24px",
-                maxHeight: "200px"
+                maxHeight: "200px",
               }}
             />
           </div>
@@ -145,7 +141,7 @@ export default function MessageInput({
                 disabled={!canSend}
                 className={`flex items-center justify-center w-8 h-8 rounded-lg transition-all duration-200 ${
                   canSend
-                    ? "bg-blue-600 hover:bg-blue-700 text-white hover:scale-105 shadow-sm"
+                    ? "bg-blue-600 hover:bg-blue-700 text-white hover:scale-105"
                     : "bg-gray-200 text-gray-400 cursor-not-allowed"
                 }`}
                 aria-label="Send message"
@@ -157,8 +153,8 @@ export default function MessageInput({
         </div>
 
         {/* Helper text */}
-        <div className="mt-2 text-center">
-          <p className="text-xs text-gray-500">
+        <div className="mt-1 text-center">
+          <p className="text-xs text-gray-400">
             InsureAssist AI can make mistakes. Please verify important information.
           </p>
         </div>

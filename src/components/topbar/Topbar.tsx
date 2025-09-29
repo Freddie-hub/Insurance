@@ -21,13 +21,12 @@ export default function Topbar({ user }: { user: User | null }) {
   };
 
   return (
-    <header className="bg-transparent border-b border-white/20 sticky top-0 z-30">
+    <header className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 border-b border-white/20 sticky top-0 z-30">
       <div className="px-4 md:px-6 py-2">
         <div className="flex items-center justify-between">
           {/* Brand Section */}
           <div className="flex items-center gap-4">
-            <div className="flex items-center gap-2">
-            </div>
+            <div className="flex items-center gap-2"></div>
 
             <div className="hidden md:block">
               <p className="text-xs text-white/70 font-medium ml-11">
