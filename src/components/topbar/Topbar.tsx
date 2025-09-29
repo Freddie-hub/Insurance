@@ -21,7 +21,7 @@ export default function Topbar({ user }: { user: User | null }) {
   };
 
   return (
-    <header className="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 border-b border-white/20 sticky top-0 z-30">
+    <header className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-500 border-b border-white/20 sticky top-0 z-30">
       <div className="px-4 md:px-6 py-2">
         <div className="flex items-center justify-between">
           {/* Brand Section */}

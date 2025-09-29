@@ -196,3 +196,28 @@ body {
 .chat-prose em {
   font-style: italic;
 }
+
+/* ===== Gradient Scrollbars ===== */
+::-webkit-scrollbar {
+  width: 6px;   /* thin scrollbar */
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* no bulky track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #0f172a, #1e293b, #334155, #64748b);
+  border-radius: 9999px; /* rounded edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #1e293b, #334155, #475569, #94a3b8);
+}
+
+/* Firefox support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 transparent;
+}

@@ -152,7 +152,7 @@ export default function ChatPage() {
         <Topbar user={user} />
 
         {/* Chat container */}
-        <main className="flex-1 flex flex-col overflow-hidden relative pt-16">
+        <main className="flex-1 flex flex-col overflow-hidden relative">
           <ChatWindow
             messages={messages}
             loading={chatLoading}
