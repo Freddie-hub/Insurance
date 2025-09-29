@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Sidebar from "@/components/sidebar/Sidebar";
 import Topbar from "@/components/topbar/Topbar";
@@ -25,7 +25,7 @@ type Message = {
   timestamp?: string;
 };
 
-export default function ChatPage() {
+function ChatPageInner() {
   const { user, loading } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -164,5 +164,13 @@ export default function ChatPage() {
         <MessageInput onSend={addUserMessage} disabled={chatLoading} />
       </div>
     </div>
+  );
+}
+
+export default function ChatPage() {
+  return (
+    <Suspense fallback={<div>Loading chat...</div>}>
+      <ChatPageInner />
+    </Suspense>
   );
 }
