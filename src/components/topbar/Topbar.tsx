@@ -29,8 +29,8 @@ export default function Topbar({ user }: { user: User | null }) {
             <div className="flex items-center gap-2"></div>
 
             <div className="hidden md:block">
-              <p className="text-xs text-white/70 font-medium ml-11">
-                AI-powered insurance recommendations from Kenya&apos;s top
+              <p className="text-xs text-white/70 font-medium">
+                Recommendations from Kenya&apos;s top
                 insurers
               </p>
             </div>

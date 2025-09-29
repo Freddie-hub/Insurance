@@ -17,7 +17,9 @@ export default function ChatBubble({
       className={`flex ${isUser ? "justify-end" : "justify-start"} mt-2 mb-4`}
     >
       <div
-        className={`max-w-[85%] px-4 py-3 rounded-2xl shadow-sm ${
+        className={`${
+          isUser ? "max-w-[85%]" : "w-full sm:max-w-[85%]"
+        } px-4 py-3 rounded-2xl shadow-sm ${
           isUser
             ? "bg-slate-700 text-gray-100 rounded-br-none"
             : "bg-slate-700 text-gray-100 rounded-bl-none"
