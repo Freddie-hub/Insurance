@@ -151,15 +151,17 @@ export default function ChatPage() {
       <div className="flex-1 flex flex-col h-screen">
         <Topbar user={user} />
 
-        {/* Chat container */}
-        <main className="flex-1 flex flex-col overflow-hidden relative">
+        {/* Chat area fills all available space above input */}
+        <div className="flex-1 overflow-y-auto">
           <ChatWindow
             messages={messages}
             loading={chatLoading}
             onRegenerate={regenerateLast}
           />
-          <MessageInput onSend={addUserMessage} disabled={chatLoading} />
-        </main>
+        </div>
+
+        {/* Input bar pinned at bottom with no extra container */}
+        <MessageInput onSend={addUserMessage} disabled={chatLoading} />
       </div>
     </div>
   );

@@ -3,26 +3,28 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-export default function ChatBubble({ 
-  role, 
-  content 
-}: { 
-  role: "user" | "assistant"; 
-  content: string 
+export default function ChatBubble({
+  role,
+  content,
+}: {
+  role: "user" | "assistant";
+  content: string;
 }) {
   const isUser = role === "user";
 
   return (
-    <div className={`flex ${isUser ? "justify-end" : "justify-start"} mt-2 mb-4`}>
+    <div
+      className={`flex ${isUser ? "justify-end" : "justify-start"} mt-2 mb-4`}
+    >
       <div
         className={`max-w-[85%] px-4 py-3 rounded-2xl shadow-sm ${
-          isUser 
-            ? "bg-blue-600 text-white rounded-br-none" 
-            : "bg-white text-gray-800 rounded-bl-none border border-gray-200"
+          isUser
+            ? "bg-slate-700 text-gray-100 rounded-br-none"
+            : "bg-slate-700 text-gray-100 rounded-bl-none"
         }`}
       >
         {isUser ? (
-          <div 
+          <div
             className="whitespace-pre-wrap break-words"
             style={{ wordBreak: "break-word" }}
           >
@@ -30,7 +32,7 @@ export default function ChatBubble({
           </div>
         ) : (
           <div className="chat-prose">
-            <ReactMarkdown 
+            <ReactMarkdown
               remarkPlugins={[remarkGfm]}
               components={{
                 table: ({ children, ...props }) => (
@@ -39,10 +41,11 @@ export default function ChatBubble({
                   </div>
                 ),
                 a: ({ href, children, ...props }) => (
-                  <a 
-                    href={href} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-teal-200 underline hover:text-teal-100"
                     {...props}
                   >
                     {children}
@@ -54,19 +57,22 @@ export default function ChatBubble({
 
                   if (isInline) {
                     return (
-                      <code className={className} {...props}>
+                      <code
+                        className={`${className} bg-slate-800 px-1 rounded text-teal-100`}
+                        {...props}
+                      >
                         {children}
                       </code>
                     );
                   }
                   return (
-                    <pre>
+                    <pre className="bg-slate-900 text-slate-100 p-3 rounded-lg overflow-x-auto text-sm">
                       <code className={className} {...props}>
                         {children}
                       </code>
                     </pre>
                   );
-                }
+                },
               }}
             >
               {content}

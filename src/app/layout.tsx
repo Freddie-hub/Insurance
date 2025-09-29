@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "InsureAssist AI",
+  title: "PolicyPilot",
   description: "AI-powered insurance recommendations from Kenya's top insurers",
 };
 

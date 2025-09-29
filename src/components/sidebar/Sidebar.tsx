@@ -104,7 +104,7 @@ export default function Sidebar() {
             </svg>
           </div>
           <div>
-            <div className="text-lg font-bold text-white">InsureAssist</div>
+            <div className="text-lg font-bold text-white">Policy Pilot</div>
             <div className="text-xs text-gray-400">AI Insurance Advisor</div>
           </div>
         </div>
@@ -180,10 +180,10 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="p-6 border-t border-white/10 space-y-2">
-        <button className="w-full flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm">
+        {/* <button className="w-full flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm">
           <Settings size={16} />
           Settings
-        </button>
+        </button> */}
         <button
           onClick={handleSignOut}
           className="w-full flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm"
