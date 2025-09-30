@@ -23,13 +23,17 @@ const chunkMap = new Map(chunksData.map((c) => [c.chunk_id, c]));
 
 // Helper: Get MiniLM Embedding
 async function getMiniLMEmbedding(text: string): Promise<number[]> {
-  const resp = await fetch(process.env.EMBEDDING_SERVICE_URL!, {
+  // Always resolve to /embed, even if ENV only has base URL
+  const baseUrl = process.env.EMBEDDING_SERVICE_URL!;
+  const url = baseUrl.endsWith("/") ? `${baseUrl}embed` : `${baseUrl}/embed`;
+
+  const resp = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ text }),
   });
 
-  if (!resp.ok) throw new Error("Embedding service failed");
+  if (!resp.ok) throw new Error(`Embedding service failed: ${resp.statusText}`);
   const data = await resp.json();
   return data.embedding;
 }
@@ -57,11 +61,19 @@ export async function POST(req: Request) {
     const userQuery = body.query || body.message || body.content;
     const chatId = body.chatId;
 
-    if (!userQuery || typeof userQuery !== "string")
-      return NextResponse.json({ error: "Query must be a string" }, { status: 400 });
+    if (!userQuery || typeof userQuery !== "string") {
+      return NextResponse.json(
+        { error: "Query must be a string" },
+        { status: 400 }
+      );
+    }
 
-    if (!chatId)
-      return NextResponse.json({ error: "chatId is required for memory" }, { status: 400 });
+    if (!chatId) {
+      return NextResponse.json(
+        { error: "chatId is required for memory" },
+        { status: 400 }
+      );
+    }
 
     // Generate embedding for query
     const queryVector = await getMiniLMEmbedding(userQuery);
@@ -125,10 +137,13 @@ Guidelines:
           },
         ],
         temperature: 0.3,
+        max_tokens: 1000,
       }),
     });
 
-    if (!resp.ok) throw new Error(`DeepSeek API failed: ${resp.statusText}`);
+    if (!resp.ok) {
+      throw new Error(`DeepSeek API failed: ${resp.statusText}`);
+    }
 
     const completion = await resp.json();
     const answer = completion.choices[0].message?.content ?? "";
@@ -148,7 +163,10 @@ Guidelines:
       const chatData = chatDoc.data();
       if (chatData?.chat_name === "New Chat") {
         await chatRef.update({
-          chat_name: userQuery.length > 30 ? userQuery.slice(0, 30) + "..." : userQuery,
+          chat_name:
+            userQuery.length > 30
+              ? userQuery.slice(0, 30) + "..."
+              : userQuery,
           updatedAt: new Date(),
         });
       } else {
