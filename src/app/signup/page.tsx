@@ -80,7 +80,7 @@ export default function SignupPage() {
             Create your account
           </h1>
           <p className="text-gray-600">
-            Join InsureAssist and find your perfect policy
+            Find your perfect policy
           </p>
         </div>
 
