@@ -1,12 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { sendEmailVerification, signOut, applyActionCode } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { useAuth } from "@/lib/AuthContext";
 
-export default function VerifyEmailContent() {
+function VerifyEmailInner() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -23,8 +23,7 @@ export default function VerifyEmailContent() {
         .then(() => {
           router.push("/");
         })
-        .catch((err) => {
-          console.error("Verification failed", err);
+        .catch(() => {
           setError("Invalid or expired verification link.");
         });
     }
@@ -62,40 +61,26 @@ export default function VerifyEmailContent() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-gradient-to-br from-amber-100/20 via-transparent to-rose-100/20 pointer-events-none" />
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center p-4">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-transparent to-purple-100/20 pointer-events-none" />
 
       <div className="relative w-full max-w-md">
+        {/* Header Section */}
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-2xl shadow-lg shadow-amber-500/10 mb-4">
-            <div className="w-8 h-8 bg-amber-600 rounded-lg flex items-center justify-center">
-              <svg
-                className="w-5 h-5 text-white"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M3 8l7.89 3.26a2 2 0 001.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                />
-              </svg>
-            </div>
-          </div>
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
-            Check your email
+            Verify your email
           </h1>
           <p className="text-gray-600">
-            We've sent a verification link to your inbox
+            We’ve sent a verification link to your inbox
           </p>
         </div>
 
+        {/* Card */}
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl shadow-black/5 border border-white/20 p-8">
           {message && (
-            <div className="mb-6 p-4 bg-amber-50 border border-amber-100 rounded-2xl">
-              <p className="text-amber-600 text-sm">{message}</p>
+            <div className="mb-6 p-4 bg-blue-50 border border-blue-100 rounded-2xl">
+              <p className="text-blue-600 text-sm">{message}</p>
             </div>
           )}
 
@@ -117,20 +102,21 @@ export default function VerifyEmailContent() {
               account. The link will expire in 24 hours.
             </p>
 
-            <div className="p-3 bg-amber-50 border border-amber-200 rounded-xl">
-              <p className="text-sm text-amber-700 font-medium">
-                Didn’t receive the email?  
-                Check your <span className="font-semibold">Spam</span> or{" "}
+            <div className="p-3 bg-blue-50 border border-blue-200 rounded-xl">
+              <p className="text-sm text-blue-700 font-medium">
+                Didn’t receive the email? Check your{" "}
+                <span className="font-semibold">Spam</span> or{" "}
                 <span className="font-semibold">Junk</span> folder.
               </p>
             </div>
           </div>
 
+          {/* Actions */}
           <div className="space-y-3">
             <button
               onClick={handleResendVerification}
               disabled={isLoading}
-              className="w-full bg-amber-600 hover:bg-amber-700 disabled:bg-amber-400 text-white font-medium py-3 rounded-2xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-amber-500/20"
+              className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-3 rounded-2xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
             >
               {isLoading ? "Sending email..." : "Resend verification email"}
             </button>
@@ -145,5 +131,13 @@ export default function VerifyEmailContent() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function VerifyEmailContent() {
+  return (
+    <Suspense fallback={<div className="flex justify-center items-center min-h-screen">Loading...</div>}>
+      <VerifyEmailInner />
+    </Suspense>
   );
 }
