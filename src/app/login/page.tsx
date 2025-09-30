@@ -55,8 +55,8 @@ export default function LoginPage() {
         {/* Logo/Brand Section */}
         <div className="text-center mb-8">
 
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">Welcome back</h1>
-          <p className="text-gray-600">Sign in to your InsureAssist account</p>
+
+          <p className="text-gray-600">Sign in to your account</p>
         </div>
 
         {/* Main Card */}
