@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
 import { signOut } from "firebase/auth";
 import { auth } from "@/lib/firebase";
@@ -16,7 +17,7 @@ import {
   serverTimestamp,
 } from "firebase/firestore";
 import { db } from "@/lib/firebase";
-import { MessageSquare, Plus, Settings, LogOut, Menu, X } from "lucide-react";
+import { MessageSquare, Plus, LogOut, Menu, X } from "lucide-react";
 
 type Chat = {
   id: string;
@@ -88,20 +89,16 @@ export default function Sidebar() {
       {/* Header */}
       <div className="px-6 py-6 border-b border-white/10">
         <div className="flex items-center gap-3 mb-6">
-          <div className="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center shadow-lg">
-            <svg
-              className="w-5 h-5 text-white"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-              />
-            </svg>
+          {/* Logo */}
+          <div className="w-10 h-10 rounded-2xl overflow-hidden shadow-lg">
+            <Image
+              src="/logo.jpg"
+              alt="Policy Pilot Logo"
+              width={40}
+              height={40}
+              className="object-cover"
+              priority
+            />
           </div>
           <div>
             <div className="text-lg font-bold text-white">Policy Pilot</div>
@@ -180,10 +177,6 @@ export default function Sidebar() {
 
       {/* Footer */}
       <div className="p-6 border-t border-white/10 space-y-2">
-        {/* <button className="w-full flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm">
-          <Settings size={16} />
-          Settings
-        </button> */}
         <button
           onClick={handleSignOut}
           className="w-full flex items-center gap-3 px-4 py-3 text-gray-400 hover:text-white hover:bg-white/10 rounded-xl transition-all duration-200 text-sm"
