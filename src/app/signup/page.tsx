@@ -41,7 +41,7 @@ export default function SignupPage() {
       );
 
       const actionCodeSettings = {
-        url: "https://insurance-lime-phi.vercel.app/",
+        url: "https://insurance-lime-phi.vercel.app/chat/",
         handleCodeInApp: true,
       };
 

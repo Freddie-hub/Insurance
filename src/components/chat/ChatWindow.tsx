@@ -31,19 +31,29 @@ export default function ChatWindow({
   const canRegenerate = lastMessage && lastMessage.role === "assistant";
 
   return (
-    <div className="flex flex-col bg-gradient-to-r from-gray-900 via-gray-800 to-gray-500 h-[calc(100vh-4rem)]">
+    <div className="flex flex-col h-[calc(100vh-4rem)] bg-gradient-to-b from-gray-900 via-gray-800 to-gray-500 md:bg-gradient-to-r">
       {/* Scrollable chat area */}
       <div className="flex-1 overflow-y-auto px-4 py-6">
         <div className="max-w-4xl mx-auto">
           {/* Messages */}
           <div className="space-y-1">
-            {messages.map((message) => (
-              <ChatBubble
-                key={message.id}
-                role={message.role}
-                content={message.content}
-              />
-            ))}
+            {messages.length === 0 ? (
+              <div className="flex justify-start mt-2 mb-4">
+                <div className="max-w-[85%] px-4 py-3 rounded-2xl shadow-sm bg-gray-500/40 text-white rounded-bl-none">
+                  Welcome to PolicyPilot.  
+                  I’m here to help you explore and compare insurance options tailored for the Kenyan market.  
+                  Ask me anything to get started.
+                </div>
+              </div>
+            ) : (
+              messages.map((message) => (
+                <ChatBubble
+                  key={message.id}
+                  role={message.role}
+                  content={message.content}
+                />
+              ))
+            )}
             <div ref={messagesEndRef} />
           </div>
 

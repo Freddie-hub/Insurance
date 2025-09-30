@@ -29,7 +29,13 @@ export default function MessageInput({
   }, [value]);
 
   return (
-    <div className="w-full border-t border-gray-700 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-500 p-3 sm:p-4">
+    <div
+      className="
+        w-full border-t border-gray-700 p-3 sm:p-4
+        bg-gray-800
+        md:bg-gradient-to-r md:from-gray-900 md:via-gray-800 md:to-gray-500
+      "
+    >
       <div className="relative">
         {/* Textarea with icons inside */}
         <textarea
@@ -52,9 +58,9 @@ export default function MessageInput({
             }
           }}
           disabled={disabled}
-          style={{ 
+          style={{
             // Prevent zoom on iOS
-            fontSize: '16px',
+            fontSize: "16px",
           }}
         />
 
@@ -78,9 +84,11 @@ export default function MessageInput({
             className={`p-2 sm:p-2.5 rounded-lg text-white transition-all duration-200
                        touch-manipulation min-h-[40px] min-w-[40px] sm:min-h-[44px] sm:min-w-[44px]
                        flex items-center justify-center
-                       ${value.trim() && !disabled 
-                         ? 'bg-blue-600 hover:bg-blue-700 active:bg-blue-800 shadow-lg' 
-                         : 'bg-gray-600 opacity-50 cursor-not-allowed'}`}
+                       ${
+                         value.trim() && !disabled
+                           ? "bg-blue-600 hover:bg-blue-700 active:bg-blue-800 shadow-lg"
+                           : "bg-gray-600 opacity-50 cursor-not-allowed"
+                       }`}
             onClick={handleSend}
             disabled={!value.trim() || disabled}
             type="button"
