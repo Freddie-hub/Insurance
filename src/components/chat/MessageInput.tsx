@@ -98,11 +98,11 @@ export default function MessageInput({
         </div>
 
         {/* Subtle hint text for mobile users */}
-        {value.length === 0 && (
+        {/* {value.length === 0 && (
           <div className="absolute left-4 bottom-1 text-xs text-gray-500 pointer-events-none">
             Enter to send • Shift+Enter for new line
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );
