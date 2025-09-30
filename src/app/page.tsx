@@ -32,7 +32,7 @@ export default function Home() {
           {/* Description */}
           <div className="max-w-3xl mx-auto mb-8">
             <p className="text-gray-700 text-center leading-relaxed">
-              Navigate the complex world of insurance with confidence. Compare policies from top providers like{" "}
+              Navigate the complex world of insurance with confidence. Compare policies from top providers in Kenya like{" "}
               <span className="font-semibold text-gray-800">Britam, Jubilee, CIC, Heritage</span> and more all in one platform.
             </p>
           </div>
