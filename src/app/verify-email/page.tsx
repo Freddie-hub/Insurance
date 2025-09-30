@@ -6,7 +6,7 @@ import { sendEmailVerification, signOut, applyActionCode } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { useAuth } from "@/lib/AuthContext";
 
-export default function VerifyEmailPage() {
+export default function VerifyEmailContent() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -117,7 +117,6 @@ export default function VerifyEmailPage() {
               account. The link will expire in 24 hours.
             </p>
 
-            {/* Highlighted spam warning */}
             <div className="p-3 bg-amber-50 border border-amber-200 rounded-xl">
               <p className="text-sm text-amber-700 font-medium">
                 Didn’t receive the email?  

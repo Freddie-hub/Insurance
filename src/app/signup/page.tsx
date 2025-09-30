@@ -69,10 +69,12 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-indigo-50 flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-100/20 via-transparent to-indigo-100/20 pointer-events-none" />
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center p-4">
+      {/* Background Pattern */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-100/20 via-transparent to-purple-100/20 pointer-events-none" />
 
       <div className="relative w-full max-w-md">
+        {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
             Create your account
@@ -82,6 +84,7 @@ export default function SignupPage() {
           </p>
         </div>
 
+        {/* Main Card */}
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-xl shadow-black/5 border border-white/20 p-8">
           {error && (
             <div className="mb-6 p-4 bg-red-50 border border-red-100 rounded-2xl">
@@ -103,7 +106,7 @@ export default function SignupPage() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full px-4 py-3 bg-gray-50/50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500 transition-colors"
+                  className="w-full px-4 py-3 bg-gray-50/50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors"
                   placeholder="Enter your email"
                   required
                 />
@@ -121,7 +124,7 @@ export default function SignupPage() {
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  className="w-full px-4 py-3 bg-gray-50/50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500 transition-colors"
+                  className="w-full px-4 py-3 bg-gray-50/50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors"
                   placeholder="Create a password"
                   required
                 />
@@ -139,7 +142,7 @@ export default function SignupPage() {
                   type="password"
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
-                  className="w-full px-4 py-3 bg-gray-50/50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-500/20 focus:border-purple-500 transition-colors"
+                  className="w-full px-4 py-3 bg-gray-50/50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-colors"
                   placeholder="Confirm your password"
                   required
                 />
@@ -149,18 +152,20 @@ export default function SignupPage() {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full bg-purple-600 hover:bg-purple-700 disabled:bg-purple-400 text-white font-medium py-3 rounded-2xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-purple-500/20"
+              className="w-full bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium py-3 rounded-2xl transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
             >
               {isLoading ? "Creating account..." : "Create account"}
             </button>
           </form>
 
+          {/* Divider */}
           <div className="flex items-center my-6">
             <div className="flex-1 border-t border-gray-200"></div>
             <span className="px-4 text-sm text-gray-500 bg-white">or</span>
             <div className="flex-1 border-t border-gray-200"></div>
           </div>
 
+          {/* Google Signup */}
           <button
             onClick={handleGoogleSignup}
             disabled={isLoading}
@@ -187,14 +192,15 @@ export default function SignupPage() {
             Continue with Google
           </button>
 
-          <div className="mt-6 text-center">
-            <p className="text-xs text-gray-500 mb-4">
+          {/* Footer */}
+          <div className="mt-8 text-center space-y-4">
+            <p className="text-xs text-gray-500">
               By creating an account, you agree to our{" "}
-              <a href="#" className="text-purple-600 hover:text-purple-700">
+              <a href="#" className="text-blue-600 hover:text-blue-700">
                 Terms of Service
               </a>{" "}
               and{" "}
-              <a href="#" className="text-purple-600 hover:text-purple-700">
+              <a href="#" className="text-blue-600 hover:text-blue-700">
                 Privacy Policy
               </a>
             </p>
@@ -203,7 +209,7 @@ export default function SignupPage() {
               Already have an account?{" "}
               <a
                 href="/login"
-                className="text-purple-600 hover:text-purple-700 font-medium"
+                className="text-blue-600 hover:text-blue-700 font-medium"
               >
                 Sign in
               </a>
