@@ -40,7 +40,7 @@ function VerifyEmailInner() {
     setIsLoading(true);
     try {
       const actionCodeSettings = {
-        url: "https://insurance-lime-phi.vercel.app/",
+        url: "https://insurance-advisor-alpha.vercel.app/chat",
         handleCodeInApp: true,
       };
 
