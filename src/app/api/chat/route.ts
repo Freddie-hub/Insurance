@@ -23,7 +23,6 @@ const chunkMap = new Map(chunksData.map((c) => [c.chunk_id, c]));
 
 // Helper: Get MiniLM Embedding
 async function getMiniLMEmbedding(text: string): Promise<number[]> {
-  // Always resolve to /embed, even if ENV only has base URL
   const baseUrl = process.env.EMBEDDING_SERVICE_URL!;
   const url = baseUrl.endsWith("/") ? `${baseUrl}embed` : `${baseUrl}/embed`;
 
@@ -123,12 +122,13 @@ Your role is to provide accurate, clear, and empathetic advice by combining two 
 Guidelines:
 - Grounding Priority: Always rely on retrieved context for product-specific details (premiums, benefits, exclusions, waiting periods, payout timelines).
 - Knowledge Integration: If context does not cover the full answer, seamlessly supplement with your foundational knowledge as a qualified insurance advisor.
+- User Engagement: Actively guide the user to refine their query or explore relevant options. Ask clarifying questions if needed to ensure you understand their needs, and offer step-by-step guidance rather than defaulting to suggesting official websites.
 - User-facing Wording: Do not mention “retrieved context” or “general knowledge.” Instead, phrase answers as “based on the available data” or give direct advisory responses.
 - Comparisons: Use bullet points or tables for clarity when comparing products or explaining options.
 - Clarity & Professionalism: Maintain a professional, empathetic, and helpful tone.
+- Confidence with Caution: Provide answers confidently when you have sufficient data, but clearly indicate when information is limited and suggest practical next steps or clarifications.
 - Accuracy: Do not invent product names, figures, or details. Use general knowledge only for well-established facts and practices.
-- User Guidance: If data is insufficient, politely explain the limitation and suggest clarification or next steps.
-- Summary: Always end with a short, tailored recommendation relevant to the user’s query.`,
+- Summary: Always end with a short, tailored recommendation relevant to the user’s query, and invite the user to ask follow-up questions if needed.`
           },
           ...history,
           {
